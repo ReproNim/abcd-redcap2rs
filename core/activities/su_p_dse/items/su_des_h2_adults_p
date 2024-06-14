@@ -1,0 +1,36 @@
+{
+    "id": "su_des_h2_adults_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_des_h2_adults_p of su_p_dse"
+    },
+    "prefLabel": {
+        "en": "How many adults (greater than or equal to 18 years old) stay or live in this household? Cuantos adultos (que tienen 18 aos o mas) se quedan o viven en este hogar?"
+    },
+    "question": {
+        "en": "How many adults (greater than or equal to 18 years old) stay or live in this household?",
+        "es": "Cuantos adultos (que tienen 18 aos o mas) se quedan o viven en este hogar?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't Know  /  No se"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 999,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

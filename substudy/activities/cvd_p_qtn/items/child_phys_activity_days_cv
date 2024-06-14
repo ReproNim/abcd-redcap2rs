@@ -1,0 +1,35 @@
+{
+    "id": "child_phys_activity_days_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "child_phys_activity_days_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "On how many days per week did your child do moderate or vigorous physical activities like heavy lifting  running  aerobics  or bicycling?"
+    },
+    "question": {
+        "en": "On how many days per week did your child do moderate or vigorous physical activities like heavy lifting  running  aerobics  or bicycling?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No vigorous physical activities"
+                },
+                "value": 8
+            }
+        ],
+        "maxValue": 8,
+        "minValue": 8,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

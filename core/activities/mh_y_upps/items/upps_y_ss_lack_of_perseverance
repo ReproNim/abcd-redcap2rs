@@ -1,0 +1,24 @@
+{
+    "id": "upps_y_ss_lack_of_perseverance",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "upps_y_ss_lack_of_perseverance of mh_y_upps"
+    },
+    "prefLabel": {
+        "en": "UPPS: Lack of Perseverance (GSSF)\nupps15_y plus upps19_y plus upps22_y plus upps24_y\nValidation : Minimum of three items answered"
+    },
+    "question": {
+        "en": "UPPS: Lack of Perseverance (GSSF)\nupps15_y plus upps19_y plus upps22_y plus upps24_y\nValidation : Minimum of three items answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

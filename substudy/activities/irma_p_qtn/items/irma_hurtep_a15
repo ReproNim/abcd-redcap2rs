@@ -1,0 +1,54 @@
+{
+    "id": "irma_hurtep_a15",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "irma_hurtep_a15 of irma_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Overall, how upset about things have you been since the hurricane? En general, \u00ac\u00f8qu\u221a\u00a9 tan molesto por las cosas tu hijo(a) ha estado desde el hurac\u221a\u00b0n?"
+    },
+    "question": {
+        "en": "Overall, how upset about things have you been since the hurricane?",
+        "es": "En general, \u00ac\u00f8qu\u221a\u00a9 tan molesto por las cosas tu hijo(a) ha estado desde el hurac\u221a\u00b0n?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all De ningun modo"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "A little Un poco"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A lot Mucho"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A whole lot Muchisimo"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

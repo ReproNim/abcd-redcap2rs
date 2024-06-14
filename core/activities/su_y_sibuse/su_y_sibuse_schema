@@ -1,0 +1,224 @@
+{
+    "id": "su_y_sibuse_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Environment in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Sibuse"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/su_sry_1",
+            "items/su_sry_2",
+            "items/su_sry_3",
+            "items/su_sry_4",
+            "items/su_sry_5",
+            "items/su_sry_6",
+            "items/su_sry_7",
+            "items/su_sry_8",
+            "items/su_sry_9",
+            "items/su_sry_gate",
+            "items/su_sry_give_1",
+            "items/su_sry_give_2",
+            "items/su_sry_give_3",
+            "items/su_sry_give_4",
+            "items/su_sry_give_5",
+            "items/su_sry_give_6",
+            "items/su_sry_give_7",
+            "items/su_sry_give_8",
+            "items/su_sry_give_9",
+            "items/su_sry_seen_1",
+            "items/su_sry_seen_2",
+            "items/su_sry_seen_3",
+            "items/su_sry_seen_4",
+            "items/su_sry_seen_5",
+            "items/su_sry_seen_6",
+            "items/su_sry_seen_7",
+            "items/su_sry_seen_8",
+            "items/su_sry_seen_9",
+            "items/sua_admin"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/su_sry_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_1"
+            },
+            {
+                "isAbout": "items/su_sry_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_2"
+            },
+            {
+                "isAbout": "items/su_sry_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_3"
+            },
+            {
+                "isAbout": "items/su_sry_4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_4"
+            },
+            {
+                "isAbout": "items/su_sry_5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_5"
+            },
+            {
+                "isAbout": "items/su_sry_6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_6"
+            },
+            {
+                "isAbout": "items/su_sry_7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_7"
+            },
+            {
+                "isAbout": "items/su_sry_8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_8"
+            },
+            {
+                "isAbout": "items/su_sry_9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_9"
+            },
+            {
+                "isAbout": "items/su_sry_gate",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_gate"
+            },
+            {
+                "isAbout": "items/su_sry_give_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_give_1"
+            },
+            {
+                "isAbout": "items/su_sry_give_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_give_2"
+            },
+            {
+                "isAbout": "items/su_sry_give_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_give_3"
+            },
+            {
+                "isAbout": "items/su_sry_give_4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_give_4"
+            },
+            {
+                "isAbout": "items/su_sry_give_5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_give_5"
+            },
+            {
+                "isAbout": "items/su_sry_give_6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_give_6"
+            },
+            {
+                "isAbout": "items/su_sry_give_7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_give_7"
+            },
+            {
+                "isAbout": "items/su_sry_give_8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_give_8"
+            },
+            {
+                "isAbout": "items/su_sry_give_9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_give_9"
+            },
+            {
+                "isAbout": "items/su_sry_seen_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_seen_1"
+            },
+            {
+                "isAbout": "items/su_sry_seen_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_seen_2"
+            },
+            {
+                "isAbout": "items/su_sry_seen_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_seen_3"
+            },
+            {
+                "isAbout": "items/su_sry_seen_4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_seen_4"
+            },
+            {
+                "isAbout": "items/su_sry_seen_5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_seen_5"
+            },
+            {
+                "isAbout": "items/su_sry_seen_6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_seen_6"
+            },
+            {
+                "isAbout": "items/su_sry_seen_7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_seen_7"
+            },
+            {
+                "isAbout": "items/su_sry_seen_8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_seen_8"
+            },
+            {
+                "isAbout": "items/su_sry_seen_9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_sry_seen_9"
+            },
+            {
+                "isAbout": "items/sua_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sua_admin"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

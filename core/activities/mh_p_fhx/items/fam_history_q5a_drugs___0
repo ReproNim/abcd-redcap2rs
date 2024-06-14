@@ -1,0 +1,41 @@
+{
+    "id": "fam_history_q5a_drugs___0",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fam_history_q5a_drugs___0 of mh_p_fhx"
+    },
+    "prefLabel": {
+        "en": "biological father Padre biol\u00c3\u00b3gico (No Problems Sin Problemas)"
+    },
+    "question": {
+        "en": "biological father Padre biol\u00c3\u00b3gico (No Problems Sin Problemas)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes /  famhx_1   == 1 &&  fam_history_5_yes_no   == 1"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

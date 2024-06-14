@@ -1,0 +1,41 @@
+{
+    "id": "demo_nat_lang_3_yrs_eng_p___12",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_nat_lang_3_yrs_eng_p___12 of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "At what AGES was your child regularly spoken to in ENGLISH by a parent/caregiver/relative or teacher? 12; 12 years"
+    },
+    "question": {
+        "en": "At what AGES was your child regularly spoken to in ENGLISH by a parent caregiver relative or teacher? 12; 12 years"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No [demo_nat_lang_3_p] = '1'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

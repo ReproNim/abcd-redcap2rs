@@ -1,0 +1,41 @@
+{
+    "id": "resp_pmcough_yn_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "resp_pmcough_yn_y of ph_y_resp"
+    },
+    "prefLabel": {
+        "en": "In the past 12 months, have you had a dry cough at night, apart from a cough associated with a cold or chest infection?"
+    },
+    "question": {
+        "en": "In the past 12 months, have you had a dry cough at night, apart from a cough associated with a cold or chest infection?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

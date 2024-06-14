@@ -1,0 +1,101 @@
+{
+    "id": "sai_ss_vball_nyr_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sai_ss_vball_nyr_p of ph_p_saiq"
+    },
+    "prefLabel": {
+        "en": "Volleyball\n: For how many years did your child participate in this activity?"
+    },
+    "question": {
+        "en": "Volleyball\n: For how many years did your child participate in this activity?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "8"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "9"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "10 | When volleyball was not endorsed, values for the follow-up questions are missing. Here, missing values for  the  \"... how many...?\" follow-up questions have been replaced with \"0\"."
+                },
+                "value": 10
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

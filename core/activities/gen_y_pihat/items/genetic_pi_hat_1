@@ -1,0 +1,24 @@
+{
+    "id": "genetic_pi_hat_1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "genetic_pi_hat_1 of gen_y_pihat"
+    },
+    "prefLabel": {
+        "en": "Probability of identity by descend between participant and genetic_paired_subjectid_1"
+    },
+    "question": {
+        "en": "Probability of identity by descend between participant and genetic_paired_subjectid_1"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

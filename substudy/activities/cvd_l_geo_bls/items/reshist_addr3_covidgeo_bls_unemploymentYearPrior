@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr3_covidgeo_bls_unemploymentYearPrior",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr3_covidgeo_bls_unemploymentYearPrior of cvd_l_geo_bls"
+    },
+    "prefLabel": {
+        "en": "Bureau of Labor Statistics (1 year prior) monthly unemployment rate (not seasonally adjusted) county-level"
+    },
+    "question": {
+        "en": "Bureau of Labor Statistics (1 year prior) monthly unemployment rate (not seasonally adjusted) county-level"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

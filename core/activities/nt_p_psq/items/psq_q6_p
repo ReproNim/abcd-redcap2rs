@@ -1,0 +1,59 @@
+{
+    "id": "psq_q6_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "psq_q6_p of nt_p_psq"
+    },
+    "prefLabel": {
+        "en": "A screen-based device is usually playing in the room when my child falls asleep"
+    },
+    "question": {
+        "en": "A screen-based device is usually playing in the room when my child falls asleep"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Disagree"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat Disagree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat Agree"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Strongly Agree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Refuse to Answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

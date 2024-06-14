@@ -1,0 +1,24 @@
+{
+    "id": "devhx_8_other2_name_oth",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_8_other2_name_oth of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "Before knowing of pregnancy. Drug 2, specify"
+    },
+    "question": {
+        "en": "Before knowing of pregnancy. Drug 2, specify"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

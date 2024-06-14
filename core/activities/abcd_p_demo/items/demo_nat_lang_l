@@ -1,0 +1,378 @@
+{
+    "id": "demo_nat_lang_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_nat_lang_l of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "What is your child's native language? In other words, what was the first language predominantly spoken to your child by their parent or guardian after birth? [you can only pick one] Cu\u221a\u00b0l es el idioma nativo de su nino(a). En otras palabras, \u00ac\u00f8en qu\u221a\u00a9 idioma le hablaban predominantemente a su nino(a) sus padres o guardianes despu\u221a\u00a9s que nacio? [puede seleccionar solamente uno]"
+    },
+    "question": {
+        "en": "What is your child's native language? In other words, what was the first language predominantly spoken to your child by their parent or guardian after birth?",
+        "es": "[you can only pick one] Cu\u221a\u00b0l es el idioma nativo de su nino(a). En otras palabras, \u00ac\u00f8en qu\u221a\u00a9 idioma le hablaban predominantemente a su nino(a) sus padres o guardianes despu\u221a\u00a9s que nacio? [puede seleccionar solamente uno]"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "English Ingl\u221a\u00a9s"
+                },
+                "value": 58
+            },
+            {
+                "name": {
+                    "en": "American Sign Language (ASL) Lenguaje de se\u221a\u00b1as americano (ASL)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Arabic Ar\u221a\u00b0bica"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Arawak Arawak"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Bangla Bangla"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Bosnian Bosnio"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Cantonese Canton\u221a\u00a9s"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Cham Cham"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "An American Indian or Alaska Native language"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Creole Criollo"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Croatian Croata"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Dutch Holand\u221a\u00a9s"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Filipino Filipino"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Finnish Finland\u221a\u00a9s"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Flemish Flamenco"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "French Franc\u221a\u00a9s"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Frisian Frisio"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Gaelic Ga\u221a\u00a9lico"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Garifuna Garifuna"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "German Alem\u221a\u00b0n"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "Greek Griego"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "Hakka Hakka"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "Hebrew Hebreo"
+                },
+                "value": 22
+            },
+            {
+                "name": {
+                    "en": "Hindi Hindi"
+                },
+                "value": 23
+            },
+            {
+                "name": {
+                    "en": "Hokkien Hokkien"
+                },
+                "value": 24
+            },
+            {
+                "name": {
+                    "en": "Hungarian H\u221a\u222bngaro"
+                },
+                "value": 25
+            },
+            {
+                "name": {
+                    "en": "Italian Italiano"
+                },
+                "value": 26
+            },
+            {
+                "name": {
+                    "en": "Japanese Japon\u221a\u00a9s"
+                },
+                "value": 27
+            },
+            {
+                "name": {
+                    "en": "Jarai Jarai"
+                },
+                "value": 28
+            },
+            {
+                "name": {
+                    "en": "Khmer Jemer"
+                },
+                "value": 29
+            },
+            {
+                "name": {
+                    "en": "Korean Coreano"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "Kuy Kuy"
+                },
+                "value": 31
+            },
+            {
+                "name": {
+                    "en": "Luganda Luganda"
+                },
+                "value": 32
+            },
+            {
+                "name": {
+                    "en": "Mandarin Mandar\u221a\u2260n"
+                },
+                "value": 33
+            },
+            {
+                "name": {
+                    "en": "Nepali Nepal\u221a\u2260"
+                },
+                "value": 34
+            },
+            {
+                "name": {
+                    "en": "Papiamento Papiamento"
+                },
+                "value": 35
+            },
+            {
+                "name": {
+                    "en": "Patois Dialecto"
+                },
+                "value": 36
+            },
+            {
+                "name": {
+                    "en": "Persian Persa"
+                },
+                "value": 37
+            },
+            {
+                "name": {
+                    "en": "Polish Polaco"
+                },
+                "value": 38
+            },
+            {
+                "name": {
+                    "en": "Portuguese Portugu\u221a\u00a9s"
+                },
+                "value": 39
+            },
+            {
+                "name": {
+                    "en": "Punjabi Punjabi"
+                },
+                "value": 40
+            },
+            {
+                "name": {
+                    "en": "Romanian Rumano"
+                },
+                "value": 41
+            },
+            {
+                "name": {
+                    "en": "Russian Ruso"
+                },
+                "value": 42
+            },
+            {
+                "name": {
+                    "en": "Samoan Samoano"
+                },
+                "value": 43
+            },
+            {
+                "name": {
+                    "en": "Serbian Serbio"
+                },
+                "value": 44
+            },
+            {
+                "name": {
+                    "en": "Sinhala Sinhala"
+                },
+                "value": 45
+            },
+            {
+                "name": {
+                    "en": "Sourashtra Sourashtra"
+                },
+                "value": 46
+            },
+            {
+                "name": {
+                    "en": "Spanish Espa\u221a\u00b1ol"
+                },
+                "value": 47
+            },
+            {
+                "name": {
+                    "en": "Stieng Stieng"
+                },
+                "value": 48
+            },
+            {
+                "name": {
+                    "en": "Swahili Swahili"
+                },
+                "value": 49
+            },
+            {
+                "name": {
+                    "en": "Tagalog Tagalo"
+                },
+                "value": 50
+            },
+            {
+                "name": {
+                    "en": "Tamil Tamil"
+                },
+                "value": 51
+            },
+            {
+                "name": {
+                    "en": "Telugu Telugu"
+                },
+                "value": 52
+            },
+            {
+                "name": {
+                    "en": "Thai Tailand\u221a\u00a9s"
+                },
+                "value": 53
+            },
+            {
+                "name": {
+                    "en": "Turkish Turco"
+                },
+                "value": 54
+            },
+            {
+                "name": {
+                    "en": "Urdu Urdu"
+                },
+                "value": 55
+            },
+            {
+                "name": {
+                    "en": "Vietnamese Vietnamita"
+                },
+                "value": 56
+            },
+            {
+                "name": {
+                    "en": "Other Otro"
+                },
+                "value": 57
+            }
+        ],
+        "maxValue": 58,
+        "minValue": 1,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

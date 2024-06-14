@@ -1,0 +1,24 @@
+{
+    "id": "district_id",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "district_id of abcd_y_lt"
+    },
+    "prefLabel": {
+        "en": "Anonymized school district ID based on NCES school IDs"
+    },
+    "question": {
+        "en": "Anonymized school district ID based on NCES school IDs"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

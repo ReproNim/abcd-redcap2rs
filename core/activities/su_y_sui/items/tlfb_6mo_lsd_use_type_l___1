@@ -1,0 +1,42 @@
+{
+    "id": "tlfb_6mo_lsd_use_type_l___1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_6mo_lsd_use_type_l___1 of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Which of these have you used since we last saw you on [asnt_timestamp_c]? (1, LSD or acid)"
+    },
+    "question": {
+        "en": "Which of these have you used since we last saw you on [asnt_timestamp_c]?",
+        "es": "(1, LSD or acid)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes | Please check all that apply. / tlfb_6mo_skip_l___23  =='1'"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

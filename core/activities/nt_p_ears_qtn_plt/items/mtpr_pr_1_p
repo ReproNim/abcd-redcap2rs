@@ -1,0 +1,53 @@
+{
+    "id": "mtpr_pr_1_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mtpr_pr_1_p of nt_p_ears_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "What are the family rules about screen time for your son/daughter?"
+    },
+    "question": {
+        "en": "What are the family rules about screen time for your son daughter?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "He/she has set hours and times they can use screens"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "He/she has limits on weekdays/school days=but can use whenever he/she wants on weekends"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Allowed to use in home whenever he/she wants' I don't set rules about screen use"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I haven't made rules yet about screen use"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

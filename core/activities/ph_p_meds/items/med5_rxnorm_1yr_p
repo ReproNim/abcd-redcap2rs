@@ -1,0 +1,24 @@
+{
+    "id": "med5_rxnorm_1yr_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "med5_rxnorm_1yr_p of ph_p_meds"
+    },
+    "prefLabel": {
+        "en": "Medication Name (please choose the formulation that most closely matches the medication taken by your child; no need to include dosage)"
+    },
+    "question": {
+        "en": "Medication Name (please choose the formulation that most closely matches the medication taken by your child; no need to include dosage)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

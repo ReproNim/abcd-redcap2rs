@@ -1,0 +1,41 @@
+{
+    "id": "socialdev_cvict_p5_f_06_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_cvict_p5_f_06_l of sd_y_vict"
+    },
+    "prefLabel": {
+        "en": "Any time someone started to attack you, but it didn't actually happen"
+    },
+    "question": {
+        "en": "Any time someone started to attack you, but it didn't actually happen"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No [socialdev_cvict_p5_e_l]= '1' AND [socialdev_cvict_c6_l]= '1'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

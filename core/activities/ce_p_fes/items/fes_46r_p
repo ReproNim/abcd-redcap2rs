@@ -1,0 +1,42 @@
+{
+    "id": "fes_46r_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fes_46r_p of ce_p_fes"
+    },
+    "prefLabel": {
+        "en": "We rarely have intellectual discussions.Rara vez tenemos conversaciones intelectuales."
+    },
+    "question": {
+        "en": "We rarely have intellectual discussions.",
+        "es": "Rara vez tenemos conversaciones intelectuales."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "True /Verdadera"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "False/ Falsa"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "school_close_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "school_close_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Has your child's school been closed physically due to coronavirus?"
+    },
+    "question": {
+        "en": "Has your child's school been closed physically due to coronavirus?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Not Applicable (Already homeschooled/Out for summer)[event_name] = 'covid19_cv1_arm_2' or [event_name] = 'covid19_cv2_arm_2' or [event_name] = 'covid19_cv3_arm_2'"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

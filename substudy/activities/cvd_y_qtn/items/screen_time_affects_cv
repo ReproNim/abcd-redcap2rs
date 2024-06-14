@@ -1,0 +1,47 @@
+{
+    "id": "screen_time_affects_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screen_time_affects_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "How have your relationships with parents/guardians been affected by your screen time?"
+    },
+    "question": {
+        "en": "How have your relationships with parents guardians been affected by your screen time?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Positively affected"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Not affected"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Negatively affected [event-name] = 'covid19_cv6_arm_2'"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

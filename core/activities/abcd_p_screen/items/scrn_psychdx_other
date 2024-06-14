@@ -1,0 +1,41 @@
+{
+    "id": "scrn_psychdx_other",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_psychdx_other of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Has your child been diagnosed with... Any other psychological or psychiatric diagnoses? / \u00ac\u00f8Le han dado alg\u221a\u222bn otro diagn\u221a\u2265stico psicol\u221a\u2265gico o psiqui\u221a\u00b0trico?"
+    },
+    "question": {
+        "en": "Has your child been diagnosed with. . . Any other psychological or psychiatric diagnoses? \u00ac\u00f8Le han dado alg\u221a\u222bn otro diagn\u221a\u2265stico psicol\u221a\u2265gico o psiqui\u221a\u00b0trico?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

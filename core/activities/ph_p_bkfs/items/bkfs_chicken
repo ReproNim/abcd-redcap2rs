@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_chicken",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_chicken of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Chicken, including nuggets, wings, tenders, also in sandwiches or stew/Pollo, incluyendo nuggets, alas, tiras de pollo, tambi\u00e9n en s\u00e1ndwiches o guisado"
+    },
+    "question": {
+        "en": "Chicken, including nuggets, wings, tenders, also in sandwiches or stew",
+        "es": "Pollo, incluyendo nuggets, alas, tiras de pollo, tambi\u00e9n en s\u00e1ndwiches o guisado"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

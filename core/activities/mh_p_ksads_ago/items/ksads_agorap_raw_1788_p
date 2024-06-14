@@ -1,0 +1,41 @@
+{
+    "id": "ksads_agorap_raw_1788_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_agorap_raw_1788_p of mh_p_ksads_ago"
+    },
+    "prefLabel": {
+        "en": "Does your child's fear or avoidance of these situations cause problems for him or her in any of the following areas:At school"
+    },
+    "question": {
+        "en": "Does your child's fear or avoidance of these situations cause problems for him or her in any of the following areas:At school"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

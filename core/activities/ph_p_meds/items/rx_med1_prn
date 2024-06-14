@@ -1,0 +1,48 @@
+{
+    "id": "rx_med1_prn",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "rx_med1_prn of ph_p_meds"
+    },
+    "prefLabel": {
+        "en": "Medication 1. PRN (as needed) Medication? ? /\u00bfEs un medicamento PRN, es decir un medicamento que se puede tomar seg\u00fan necesidad?"
+    },
+    "question": {
+        "en": "Medication 1. PRN (as needed) Medication? ?",
+        "es": "\u00bfEs un medicamento PRN, es decir un medicamento que se puede tomar seg\u00fan necesidad?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes /S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No /No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "I don\u2019t know/ No lo s\u00e9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

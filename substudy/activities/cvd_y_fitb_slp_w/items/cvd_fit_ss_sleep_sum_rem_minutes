@@ -1,0 +1,24 @@
+{
+    "id": "cvd_fit_ss_sleep_sum_rem_minutes",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "cvd_fit_ss_sleep_sum_rem_minutes of cvd_y_fitb_slp_w"
+    },
+    "prefLabel": {
+        "en": "Sum of Minutes classified as being REM sleep staging through all sleep periods"
+    },
+    "question": {
+        "en": "Sum of Minutes classified as being REM sleep staging through all sleep periods"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

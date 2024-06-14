@@ -1,0 +1,53 @@
+{
+    "id": "ksads_cdr_raw_1093_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_cdr_raw_1093_t of mh_y_ksads_cd"
+    },
+    "prefLabel": {
+        "en": "Please read each statement and decide how well it describes you.I am concerned about the feelings of others."
+    },
+    "question": {
+        "en": "Please read each statement and decide how well it describes you. I am concerned about the feelings of others."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all true"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat true"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very true"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Definitely true"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,59 @@
+{
+    "id": "gish2_use_tob",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gish2_use_tob of gish_y_sex"
+    },
+    "prefLabel": {
+        "en": "Tobacco products (cigarettes, smokeless tobacco, cigars, hookah, electronic or e-cigarettes)"
+    },
+    "question": {
+        "en": "Tobacco products (cigarettes, smokeless tobacco, cigars, hookah, electronic or e-cigarettes)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

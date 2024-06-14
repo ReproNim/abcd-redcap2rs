@@ -1,0 +1,60 @@
+{
+    "id": "irma_dsm5_24",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "irma_dsm5_24 of irma_y_qtn"
+    },
+    "prefLabel": {
+        "en": "24. I feel jumpy or startle easily, like when I hear a loud noise or when something surprises me. 24. Siento nervioso o sobresalto con facilidad, como cuando escucho un ruido fuerte o cuando algo me sorprende."
+    },
+    "question": {
+        "en": "24. I feel jumpy or startle easily, like when I hear a loud noise or when something surprises me. 24.",
+        "es": "Siento nervioso o sobresalto con facilidad, como cuando escucho un ruido fuerte o cuando algo me sorprende."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None (Never)0 De ningun modo (Nunca)0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Little (2 days over the past month)1 Un poco (2 dias durante el ultimo mes)1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some (1-2 days a week)2 A veces (1-2 dias a la semana)2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Much (2-3 days a week)3 Mucho (2-3 dias a la semana)3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Most (Almost every day)4 Munchisimo (Casi todos los dias)4"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

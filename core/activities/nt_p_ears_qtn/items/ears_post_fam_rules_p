@@ -1,0 +1,48 @@
+{
+    "id": "ears_post_fam_rules_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ears_post_fam_rules_p of nt_p_ears_qtn"
+    },
+    "prefLabel": {
+        "en": "What were the family rules about smartphone use for your child over the past 3 weeks? / \u00bfCu\u00e1les fueron las reglas familiares sobre el uso del tel\u00e9fono inteligente en las \u00faltimas 3 semanas?"
+    },
+    "question": {
+        "en": "What were the family rules about smartphone use for your child over the past 3 weeks?",
+        "es": "\u00bfCu\u00e1les fueron las reglas familiares sobre el uso del tel\u00e9fono inteligente en las \u00faltimas 3 semanas?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "My child has set hours and times they can use their phone / Mi ni\u00f1a(o) tiene horas fijas y tiempos cuando puede usar su celular"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "My child has limits on weekdays/school days, but can use their phone whenever they wants on weekends / Mi ni\u00f1a(o) tiene l\u00edmites durante d\u00edas de semana/escolares, pero puede usar su celular cuando quiere en el fin de semana"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Allowed to use whenever my child wants, I don't set rules about phone use / Lo puede usar cuando mi ni\u00f1a(o) quiera, yo no establezco reglas sobre el uso del tel\u00e9fono"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

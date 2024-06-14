@@ -1,0 +1,83 @@
+{
+    "id": "ipaq_light_acts",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ipaq_light_acts of ph_p_ipaq"
+    },
+    "prefLabel": {
+        "en": "During the last 7 days, on how many days did you walk for at least 10 minutes at a time?"
+    },
+    "question": {
+        "en": "During the last 7 days, on how many days did you walk for at least 10 minutes at a time?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No light physical activities No camin\u00c3\u00b3"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Don't know No lo se"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

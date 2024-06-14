@@ -1,0 +1,66 @@
+{
+    "id": "demo_prnt_ethnic_acs_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_prnt_ethnic_acs_p of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "Do you consider yourself Hispanic/Latino/Latina??Se considera usted hispano(a) o latino(a)?"
+    },
+    "question": {
+        "en": "Do you consider yourself Hispanic Latino Latina? ?",
+        "es": "Se considera usted hispano(a) o latino(a)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No, not of Hispanic, Latino, or Spanish origin No, no soy de origen Hispano, Latino, o Espa?ol"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "?Yes, Mexican, Mexican Am., Chicano S?, Mexicano(a), Mexicano Americano(a), Chicano(a)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes, Puerto Rican S?, Puertorrique?o(a)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Yes, Cuban S?, Cubano(a); ?4 = Yes, another Hispanic, Latino, or Spanish origin, for example, Argentinean, Colombian, Dominican, Nicaraguan, Salvadoran, Spaniard, and so on S?, otro tipo de Hispano, Latino, o Espa?ol, por ejemplo Argentino(a), Colombiano(a), Dominicano(a), Nicarag?ense, Salvadore?o(a), Espa?ol(a)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "?Refused to answer Niego contestar"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Don't know No lo s?"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

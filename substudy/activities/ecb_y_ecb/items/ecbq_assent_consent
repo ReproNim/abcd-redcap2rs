@@ -1,0 +1,41 @@
+{
+    "id": "ecbq_assent_consent",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ecbq_assent_consent of ecb_y_ecb"
+    },
+    "prefLabel": {
+        "en": "Child and Parent assented/consented to ABCD eCBq Substudy YES (RA Note: administer eCBq and draw additional 3ml blood sample) NO (RA Note: do not administer eCBq)"
+    },
+    "question": {
+        "en": "Child and Parent assented consented to ABCD eCBq Substudy YES (RA Note: administer eCBq and draw additional 3ml blood sample) NO (RA Note: do not administer eCBq)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

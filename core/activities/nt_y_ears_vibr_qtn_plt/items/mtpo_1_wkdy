@@ -1,0 +1,24 @@
+{
+    "id": "mtpo_1_wkdy",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mtpo_1_wkdy of nt_y_ears_vibr_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "On a typical WEEKDAY (Monday- Friday), how much TIME per day do you spend in TOTAL on a computer, cell phone, tablet, iPod, or other electronic device? \n\nPlease do NOT include time spent on school related work, but do include watching TV, shows or videos, texting or chatting, playing games, or visiting social networking sites (Facebook, Twitter, Instagram).\n\nFor example, if on a typical weekday, total screen time equals 2 hours/day, you would enter 2\" for hours and \"0\" for minutes.\""
+    },
+    "question": {
+        "en": "On a typical WEEKDAY (Monday- Friday), how much TIME per day do you spend in TOTAL on a computer, cell phone, tablet, iPod, or other electronic device? Please do NOT include time spent on school related work, but do include watching TV, shows or videos, texting or chatting, playing games, or visiting social networking sites (Facebook, Twitter, Instagram). For example, if on a typical weekday, total screen time equals 2 hours day, you would enter 2\" for hours and \"0\" for minutes. \""
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

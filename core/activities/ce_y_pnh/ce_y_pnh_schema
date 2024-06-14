@@ -1,0 +1,91 @@
+{
+    "id": "ce_y_pnh_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Peers in Culture & Environment"
+    },
+    "prefLabel": {
+        "en": "Ce_Y_Pnh"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pnh_substance",
+            "items/pnh_help",
+            "items/pnh_how_much_help",
+            "items/pnh_encourage",
+            "items/pnh_how_much_encourage",
+            "items/pnh_art_involve",
+            "items/pnh_admin",
+            "items/pnh_ss_protective_scale",
+            "items/pnh_ss_protective_scale_nm",
+            "items/pnh_ss_protective_scale_nt"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pnh_substance",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pnh_substance"
+            },
+            {
+                "isAbout": "items/pnh_help",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pnh_help"
+            },
+            {
+                "isAbout": "items/pnh_how_much_help",
+                "isVis": "pnh_help === 2",
+                "valueRequired": true,
+                "variableName": "pnh_how_much_help"
+            },
+            {
+                "isAbout": "items/pnh_encourage",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pnh_encourage"
+            },
+            {
+                "isAbout": "items/pnh_how_much_encourage",
+                "isVis": "pnh_encourage === 2",
+                "valueRequired": true,
+                "variableName": "pnh_how_much_encourage"
+            },
+            {
+                "isAbout": "items/pnh_art_involve",
+                "isVis": "pnh_encourage === 2",
+                "valueRequired": true,
+                "variableName": "pnh_art_involve"
+            },
+            {
+                "isAbout": "items/pnh_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pnh_admin"
+            },
+            {
+                "isAbout": "items/pnh_ss_protective_scale",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pnh_ss_protective_scale"
+            },
+            {
+                "isAbout": "items/pnh_ss_protective_scale_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pnh_ss_protective_scale_nm"
+            },
+            {
+                "isAbout": "items/pnh_ss_protective_scale_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pnh_ss_protective_scale_nt"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

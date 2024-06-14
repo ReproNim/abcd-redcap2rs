@@ -1,0 +1,24 @@
+{
+    "id": "genetic_pc_30",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "genetic_pc_30 of gen_y_pihat"
+    },
+    "prefLabel": {
+        "en": "Thirtieth principal component of genetic ancestry"
+    },
+    "question": {
+        "en": "Thirtieth principal component of genetic ancestry"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

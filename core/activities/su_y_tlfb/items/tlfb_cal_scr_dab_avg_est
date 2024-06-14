@@ -1,0 +1,24 @@
+{
+    "id": "tlfb_cal_scr_dab_avg_est",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_cal_scr_dab_avg_est of su_y_tlfb"
+    },
+    "prefLabel": {
+        "en": "Average standard units on use days, estimated period MJ concentrates on use days"
+    },
+    "question": {
+        "en": "Average standard units on use days, estimated period MJ concentrates on use days"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "ple_homeless_fu2_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ple_homeless_fu2_p of mh_p_le"
+    },
+    "prefLabel": {
+        "en": "How much did the event affect your child?"
+    },
+    "question": {
+        "en": "How much did the event affect your child?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at All"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "A Little"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A lot [ple_homeless_p] = '1'"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

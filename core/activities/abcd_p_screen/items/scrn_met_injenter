@@ -1,0 +1,42 @@
+{
+    "id": "scrn_met_injenter",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_met_injenter of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Did the object enter your child's body? /\u00ac\u00f8El objeto entr\u221a\u2265 al cuerpo de su ni\u221a\u00b1o(a)?"
+    },
+    "question": {
+        "en": "Did the object enter your child's body?",
+        "es": "\u00ac\u00f8El objeto entr\u221a\u2265 al cuerpo de su ni\u221a\u00b1o(a)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No (Continue)"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

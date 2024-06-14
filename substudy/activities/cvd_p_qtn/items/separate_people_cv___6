@@ -1,0 +1,41 @@
+{
+    "id": "separate_people_cv___6",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "separate_people_cv___6 of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Check all that apply(child had a hard time being separated due to the impact of coronavirus): 6 Teacher(s)"
+    },
+    "question": {
+        "en": "Check all that apply(child had a hard time being separated due to the impact of coronavirus): 6 Teacher(s)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No[child_separate_cv] = '2'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

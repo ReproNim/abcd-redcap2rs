@@ -1,0 +1,24 @@
+{
+    "id": "rel_birth_id",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "rel_birth_id of gen_y_pihat"
+    },
+    "prefLabel": {
+        "en": "Birth event ID determined by rel_family_id and unique birthdates within rel_family_id groups"
+    },
+    "question": {
+        "en": "Birth event ID determined by rel_family_id and unique birthdates within rel_family_id groups"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

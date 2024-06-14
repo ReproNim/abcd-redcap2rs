@@ -1,0 +1,24 @@
+{
+    "id": "eatq_p_ss_depressive_mood",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "eatq_p_ss_depressive_mood of mh_p_eatq"
+    },
+    "prefLabel": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent depressive_mood; sum(eatq_phenx_enjoy_p, eatq_phenx_cry_p, eatq_phenx_sad_p, eatq_phenx_hardly_sad_p, eatq_phenx_seems_sad_p); Validation: Maximum of 1 item missing"
+    },
+    "question": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent depressive_mood; sum(eatq_phenx_enjoy_p, eatq_phenx_cry_p, eatq_phenx_sad_p, eatq_phenx_hardly_sad_p, eatq_phenx_seems_sad_p); Validation: Maximum of 1 item missing"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

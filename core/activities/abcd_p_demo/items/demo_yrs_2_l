@@ -1,0 +1,66 @@
+{
+    "id": "demo_yrs_2_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_yrs_2_l of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "In general, how important are your child's religious and spiritual beliefs in his/her daily life? \u00ac\u00f8En general, cu\u221a\u00b0n importantes son las creencias religiosas y espirituales en la vida diaria de su nin-o(a)?"
+    },
+    "question": {
+        "en": "In general, how important are your child's religious and spiritual beliefs in his her daily life?",
+        "es": "\u00ac\u00f8En general, cu\u221a\u00b0n importantes son las creencias religiosas y espirituales en la vida diaria de su nin-o(a)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all Para nada"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Not very No mucho"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat Algo"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very Mucho"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't know No lo s\u221a\u00a9"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Declined Niego contestar"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

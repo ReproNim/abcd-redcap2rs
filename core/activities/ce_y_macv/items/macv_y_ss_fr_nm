@@ -1,0 +1,24 @@
+{
+    "id": "macv_y_ss_fr_nm",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "macv_y_ss_fr_nm of ce_y_macv"
+    },
+    "prefLabel": {
+        "en": "Family Referrent Number Missing"
+    },
+    "question": {
+        "en": "Family Referrent Number Missing"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

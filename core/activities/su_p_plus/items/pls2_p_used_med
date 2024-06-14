@@ -1,0 +1,42 @@
+{
+    "id": "pls2_p_used_med",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pls2_p_used_med of su_p_plus"
+    },
+    "prefLabel": {
+        "en": "P. Has your son/daughter used any Over-the-Counter or Prescription medications in the last 24 hours? / \u00bfSu ni\u00f1o(a) ha tomado o usado alg\u00fan medicamento recetado o de venta libre en las \u00faltimas 24 horas? Y. Have you used any over-the-counter or prescription medications in the last 24 hours?"
+    },
+    "question": {
+        "en": "P. Has your son daughter used any Over-the-Counter or Prescription medications in the last 24 hours? Y. Have you used any over-the-counter or prescription medications in the last 24 hours?",
+        "es": "\u00bfSu ni\u00f1o(a) ha tomado o usado alg\u00fan medicamento recetado o de venta libre en las \u00faltimas 24 horas?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes /S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No /No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

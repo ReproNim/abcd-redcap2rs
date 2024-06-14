@@ -1,0 +1,42 @@
+{
+    "id": "kbi_p_c_guard_l___9",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_p_c_guard_l___9 of mh_p_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "Since we last saw you, who else has your child lived with at least part of the time? Desde la \u00faltima vez que nos vimos, \u00bfCon qui\u00e9n m\u00e1s pasa tiempo su ni\u00f1o(a)? (9, Grandfather Abuelo)"
+    },
+    "question": {
+        "en": "Since we last saw you, who else has your child lived with at least part of the time? (9, Grandfather Abuelo)",
+        "es": "Desde la \u00faltima vez que nos vimos, \u00bfCon qui\u00e9n m\u00e1s pasa tiempo su ni\u00f1o(a)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

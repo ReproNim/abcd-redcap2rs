@@ -1,0 +1,24 @@
+{
+    "id": "biospec_blood_resolution_date",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "biospec_blood_resolution_date of ph_y_bld"
+    },
+    "prefLabel": {
+        "en": "I confirm that we have either made contact with the family or decided not to contact the family about this finding."
+    },
+    "question": {
+        "en": "I confirm that we have either made contact with the family or decided not to contact the family about this finding."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

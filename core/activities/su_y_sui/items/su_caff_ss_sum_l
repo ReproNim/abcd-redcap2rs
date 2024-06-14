@@ -1,0 +1,24 @@
+{
+    "id": "su_caff_ss_sum_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_caff_ss_sum_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Sum of caff_intake_1_l, caff_intake_3_l, caff_intake_4_l, caff_intake_6_l caff_intake_9_l; Followup Annual Visits"
+    },
+    "question": {
+        "en": "Sum of caff_intake_1_l, caff_intake_3_l, caff_intake_4_l, caff_intake_6_l caff_intake_9_l; Followup Annual Visits"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

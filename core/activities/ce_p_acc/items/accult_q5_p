@@ -1,0 +1,72 @@
+{
+    "id": "accult_q5_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "accult_q5_p of ce_p_acc"
+    },
+    "prefLabel": {
+        "en": "What language do you speak with most of your family? \u00bfEn qu\u00e9 idioma habla con la mayor\u00eda de su familia?"
+    },
+    "question": {
+        "en": "What language do you speak with most of your family?",
+        "es": "\u00bfEn qu\u00e9 idioma habla con la mayor\u00eda de su familia?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "(Other language) all the time (Otro idioma) todo el tiempo"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "(Other language) most of the time (Otro idioma) la mayor parte del tiempo"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "(Other language) and English equally (Otro idioma) e ingl\u00e9s igualmente"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "English most of the time Ingl\u00e9s la mayor parte del tiempo"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "English all the time Ingl\u00e9s todo el tiempo"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Refused Niego contestar"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Don't Know No se"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

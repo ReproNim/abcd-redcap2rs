@@ -1,0 +1,48 @@
+{
+    "id": "zygos_q4",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "zygos_q4 of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Do the twins look like two peas in a pod or are they no more alike in appearance than ordinary sisters or brothers? / \u00ac\u00f8Los gemelos se ven 'como dos gotas de agua' o solo parecen como si fueran hermanos normales?"
+    },
+    "question": {
+        "en": "Do the twins look like two peas in a pod or are they no more alike in appearance than ordinary sisters or brothers?",
+        "es": "\u00ac\u00f8Los gemelos se ven 'como dos gotas de agua' o solo parecen como si fueran hermanos normales?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Like \"two peas\""
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Ordinary likeness"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "IF VOLUNTEERED- Quite unalike"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

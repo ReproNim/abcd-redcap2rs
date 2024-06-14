@@ -1,0 +1,441 @@
+{
+    "id": "mh_y_ksads_bg_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Psychosocial in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_Y_Ksads_Bg"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/kbi_y_grade_repeat",
+            "items/kbi_y_drop_in_grades",
+            "items/kbi_y_det_susp",
+            "items/kbi_y_det_reason___1",
+            "items/kbi_y_det_reason___2",
+            "items/kbi_y_det_reason___3",
+            "items/kbi_y_det_reason___4",
+            "items/kbi_y_det_reason___5",
+            "items/kbi_y_det_reason___6",
+            "items/kbi_y_det_reason___7",
+            "items/kbi_y_det_reason___8",
+            "items/kbi_y_sex_orient",
+            "items/kbi_y_sex_orient_probs",
+            "items/kbi_y_trans_id",
+            "items/kbi_y_trans_prob",
+            "items/ksads_bully_raw_26",
+            "items/kbi_y_det_reason___777",
+            "items/kbi_y_det_reason_new___2",
+            "items/kbi_y_det_reason_new___3",
+            "items/kbi_y_det_reason_new___4",
+            "items/kbi_y_det_reason_new___5",
+            "items/kbi_y_det_reason_new___6",
+            "items/kbi_y_det_reason_new___7",
+            "items/kbi_y_det_reason_new___8",
+            "items/kbi_y_det_reason_new___9",
+            "items/kbi_y_det_reason_new___10",
+            "items/kbi_y_det_reason_new___11",
+            "items/kbi_y_det_reason_new___12",
+            "items/kbi_y_det_reason_new___13",
+            "items/kbi_y_det_reason_new___14",
+            "items/kbi_y_det_reason_new___15",
+            "items/kbi_y_det_reason_new___16",
+            "items/kbi_y_det_reason_new___17",
+            "items/kbi_y_det_reason_new___18",
+            "items/kbi_y_det_reason_new___19",
+            "items/kbi_y_det_reason_new___20",
+            "items/kbi_y_det_reason_new___21",
+            "items/kbi_remote___1",
+            "items/kbi_desc_self",
+            "items/kbi_desc_self_2",
+            "items/kbi_desc_self_3",
+            "items/kbi_grades_repeated___1",
+            "items/kbi_grades_repeated___2",
+            "items/kbi_grades_repeated___3",
+            "items/kbi_grades_repeated___4",
+            "items/kbi_grades_repeated___5",
+            "items/kbi_grades_repeated___6",
+            "items/kbi_grades_repeated___7",
+            "items/kbi_remote___2",
+            "items/kbi_grades_repeated___8",
+            "items/kbi_grades_repeated___777",
+            "items/kbi_repeat_grade_before_pst_yr",
+            "items/kbi_repeat_grade_pst_yr",
+            "items/kbi_sex_assigned_at_birth",
+            "items/kbi_remote___3",
+            "items/kbi_remote___4",
+            "items/kbi_device",
+            "items/kbi_gender",
+            "items/kbi_y_det_reason_new___1",
+            "items/kbi_admin"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/kbi_y_grade_repeat",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_grade_repeat"
+            },
+            {
+                "isAbout": "items/kbi_y_drop_in_grades",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_drop_in_grades"
+            },
+            {
+                "isAbout": "items/kbi_y_det_susp",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_susp"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason___1",
+                "isVis": "kbi_y_det_susp   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason___1"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason___2",
+                "isVis": "kbi_y_det_susp   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason___2"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason___3",
+                "isVis": "kbi_y_det_susp   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason___3"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason___4",
+                "isVis": "kbi_y_det_susp   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason___4"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason___5",
+                "isVis": "kbi_y_det_susp   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason___5"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason___6",
+                "isVis": "kbi_y_det_susp   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason___6"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason___7",
+                "isVis": "kbi_y_det_susp   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason___7"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason___8",
+                "isVis": "kbi_y_det_susp   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason___8"
+            },
+            {
+                "isAbout": "items/kbi_y_sex_orient",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_sex_orient"
+            },
+            {
+                "isAbout": "items/kbi_y_sex_orient_probs",
+                "isVis": "kbi_y_sex_orient   === 1 ||  kbi_y_sex_orient   === 2",
+                "valueRequired": true,
+                "variableName": "kbi_y_sex_orient_probs"
+            },
+            {
+                "isAbout": "items/kbi_y_trans_id",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_trans_id"
+            },
+            {
+                "isAbout": "items/kbi_y_trans_prob",
+                "isVis": "kbi_y_trans_id   === 2 ||  kbi_y_trans_id   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_y_trans_prob"
+            },
+            {
+                "isAbout": "items/ksads_bully_raw_26",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_bully_raw_26"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason___777",
+                "isVis": "kbi_y_det_susp   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason___777"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___2"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___3"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___4"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___5"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___6"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___7"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___8"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___9"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___10"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___11",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___11"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___12",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___12"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___13",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___13"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___14",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___14"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___15",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___15"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___16",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___16"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___17",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___17"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___18",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___18"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___19",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___19"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___20",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___20"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___21",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___21"
+            },
+            {
+                "isAbout": "items/kbi_remote___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_remote___1"
+            },
+            {
+                "isAbout": "items/kbi_desc_self",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_desc_self"
+            },
+            {
+                "isAbout": "items/kbi_desc_self_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_desc_self_2"
+            },
+            {
+                "isAbout": "items/kbi_desc_self_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_desc_self_3"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated___1"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated___2"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated___3"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated___4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated___4"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated___5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated___5"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated___6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated___6"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated___7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated___7"
+            },
+            {
+                "isAbout": "items/kbi_remote___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_remote___2"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated___8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated___8"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated___777",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated___777"
+            },
+            {
+                "isAbout": "items/kbi_repeat_grade_before_pst_yr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_repeat_grade_before_pst_yr"
+            },
+            {
+                "isAbout": "items/kbi_repeat_grade_pst_yr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_repeat_grade_pst_yr"
+            },
+            {
+                "isAbout": "items/kbi_sex_assigned_at_birth",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_sex_assigned_at_birth"
+            },
+            {
+                "isAbout": "items/kbi_remote___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_remote___3"
+            },
+            {
+                "isAbout": "items/kbi_remote___4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_remote___4"
+            },
+            {
+                "isAbout": "items/kbi_device",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_device"
+            },
+            {
+                "isAbout": "items/kbi_gender",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_gender"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_new___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_y_det_reason_new___1"
+            },
+            {
+                "isAbout": "items/kbi_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_admin"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

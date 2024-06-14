@@ -1,0 +1,54 @@
+{
+    "id": "child_pos_symptoms_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "child_pos_symptoms_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "When your child tested positive for COVID-19, how severe were the symptoms? Choose the best description: / Cuando su hijo(a) dio positivo en la prueba de COVID-19, \u00bfqu\u00e9 tan graves fueron los s\u00edntomas? Elija la mejor descripci\u00f3n:"
+    },
+    "question": {
+        "en": "When your child tested positive for COVID-19, how severe were the symptoms? Choose the best description:",
+        "es": "Cuando su hijo(a) dio positivo en la prueba de COVID-19, \u00bfqu\u00e9 tan graves fueron los s\u00edntomas? Elija la mejor descripci\u00f3n:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No symptoms (\"asymptomatic\") - I didn't see any symptoms / Sin s\u00edntomas (\"asintom\u00e1tico\") - no note ning\u00fan s\u00edntoma"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mild symptoms - symptoms were noticeable but did not cause my child major distress / S\u00edntomas leves - los s\u00edntomas se notaron pero no le causaron mayor angustia a mi hijo(a)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Moderate symptoms - symptoms made it hard for my child to do things (e.g. = online school = chores = eating = sleeping) because of fatigue = trouble breathing = or other symptoms / S\u00edntomas moderados - los s\u00edntomas causaron dificultad para hacer unas cosas (e.g. = la escuela en l\u00ednea = los quehaceres del hogar = comer = dormir) debido a fatiga = dificultad para respirar u otros s\u00edntomas"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Severe symptoms - child was hospitalized /  S\u00edntomas graves - mi hijo(a) fue hospitalizado(a)"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

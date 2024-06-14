@@ -1,0 +1,336 @@
+{
+    "id": "led_l_particulat_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Air Pollution in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Particulat"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_br",
+            "items/reshist_addr1_ca",
+            "items/reshist_addr1_cu",
+            "items/reshist_addr1_ec",
+            "items/reshist_addr1_fe",
+            "items/reshist_addr1_k",
+            "items/reshist_addr1_nh4",
+            "items/reshist_addr1_ni",
+            "items/reshist_addr1_no3",
+            "items/reshist_addr1_oc",
+            "items/reshist_addr1_pb",
+            "items/reshist_addr1_si",
+            "items/reshist_addr1_so4",
+            "items/reshist_addr1_v",
+            "items/reshist_addr1_zn",
+            "items/reshist_addr2_br",
+            "items/reshist_addr2_ca",
+            "items/reshist_addr2_cu",
+            "items/reshist_addr2_ec",
+            "items/reshist_addr2_fe",
+            "items/reshist_addr2_k",
+            "items/reshist_addr2_nh4",
+            "items/reshist_addr2_ni",
+            "items/reshist_addr2_no3",
+            "items/reshist_addr2_oc",
+            "items/reshist_addr2_pb",
+            "items/reshist_addr2_si",
+            "items/reshist_addr2_so4",
+            "items/reshist_addr2_v",
+            "items/reshist_addr2_zn",
+            "items/reshist_addr3_br",
+            "items/reshist_addr3_ca",
+            "items/reshist_addr3_cu",
+            "items/reshist_addr3_ec",
+            "items/reshist_addr3_fe",
+            "items/reshist_addr3_k",
+            "items/reshist_addr3_nh4",
+            "items/reshist_addr3_ni",
+            "items/reshist_addr3_no3",
+            "items/reshist_addr3_oc",
+            "items/reshist_addr3_pb",
+            "items/reshist_addr3_si",
+            "items/reshist_addr3_so4",
+            "items/reshist_addr3_v",
+            "items/reshist_addr3_zn"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_br",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_br"
+            },
+            {
+                "isAbout": "items/reshist_addr1_ca",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_ca"
+            },
+            {
+                "isAbout": "items/reshist_addr1_cu",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_cu"
+            },
+            {
+                "isAbout": "items/reshist_addr1_ec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_ec"
+            },
+            {
+                "isAbout": "items/reshist_addr1_fe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_fe"
+            },
+            {
+                "isAbout": "items/reshist_addr1_k",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_k"
+            },
+            {
+                "isAbout": "items/reshist_addr1_nh4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_nh4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_ni",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_ni"
+            },
+            {
+                "isAbout": "items/reshist_addr1_no3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_no3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_oc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_oc"
+            },
+            {
+                "isAbout": "items/reshist_addr1_pb",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_pb"
+            },
+            {
+                "isAbout": "items/reshist_addr1_si",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_si"
+            },
+            {
+                "isAbout": "items/reshist_addr1_so4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_so4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_v",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_v"
+            },
+            {
+                "isAbout": "items/reshist_addr1_zn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_zn"
+            },
+            {
+                "isAbout": "items/reshist_addr2_br",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_br"
+            },
+            {
+                "isAbout": "items/reshist_addr2_ca",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_ca"
+            },
+            {
+                "isAbout": "items/reshist_addr2_cu",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_cu"
+            },
+            {
+                "isAbout": "items/reshist_addr2_ec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_ec"
+            },
+            {
+                "isAbout": "items/reshist_addr2_fe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_fe"
+            },
+            {
+                "isAbout": "items/reshist_addr2_k",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_k"
+            },
+            {
+                "isAbout": "items/reshist_addr2_nh4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_nh4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_ni",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_ni"
+            },
+            {
+                "isAbout": "items/reshist_addr2_no3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_no3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_oc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_oc"
+            },
+            {
+                "isAbout": "items/reshist_addr2_pb",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_pb"
+            },
+            {
+                "isAbout": "items/reshist_addr2_si",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_si"
+            },
+            {
+                "isAbout": "items/reshist_addr2_so4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_so4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_v",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_v"
+            },
+            {
+                "isAbout": "items/reshist_addr2_zn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_zn"
+            },
+            {
+                "isAbout": "items/reshist_addr3_br",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_br"
+            },
+            {
+                "isAbout": "items/reshist_addr3_ca",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_ca"
+            },
+            {
+                "isAbout": "items/reshist_addr3_cu",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_cu"
+            },
+            {
+                "isAbout": "items/reshist_addr3_ec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_ec"
+            },
+            {
+                "isAbout": "items/reshist_addr3_fe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_fe"
+            },
+            {
+                "isAbout": "items/reshist_addr3_k",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_k"
+            },
+            {
+                "isAbout": "items/reshist_addr3_nh4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_nh4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_ni",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_ni"
+            },
+            {
+                "isAbout": "items/reshist_addr3_no3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_no3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_oc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_oc"
+            },
+            {
+                "isAbout": "items/reshist_addr3_pb",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_pb"
+            },
+            {
+                "isAbout": "items/reshist_addr3_si",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_si"
+            },
+            {
+                "isAbout": "items/reshist_addr3_so4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_so4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_v",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_v"
+            },
+            {
+                "isAbout": "items/reshist_addr3_zn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_zn"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

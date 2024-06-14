@@ -1,0 +1,59 @@
+{
+    "id": "socialdev_pneigh_04_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_pneigh_04_l of sd_p_nbh"
+    },
+    "prefLabel": {
+        "en": "My neighbors could be counted on to intervene in various ways if a fight broke out in front of their house."
+    },
+    "question": {
+        "en": "My neighbors could be counted on to intervene in various ways if a fight broke out in front of their house."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly disagree"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Disagree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neutral"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Agree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly agree"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

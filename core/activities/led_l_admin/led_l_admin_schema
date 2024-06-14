@@ -1,0 +1,63 @@
+{
+    "id": "led_l_admin_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Administrative in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Admin"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_percentile",
+            "items/reshist_addr2_percentile",
+            "items/reshist_addr3_percentile",
+            "items/reshist_addr1_years",
+            "items/reshist_addr2_years",
+            "items/reshist_addr3_years"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_percentile",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_percentile"
+            },
+            {
+                "isAbout": "items/reshist_addr2_percentile",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_percentile"
+            },
+            {
+                "isAbout": "items/reshist_addr3_percentile",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_percentile"
+            },
+            {
+                "isAbout": "items/reshist_addr1_years",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_years"
+            },
+            {
+                "isAbout": "items/reshist_addr2_years",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_years"
+            },
+            {
+                "isAbout": "items/reshist_addr3_years",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_years"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

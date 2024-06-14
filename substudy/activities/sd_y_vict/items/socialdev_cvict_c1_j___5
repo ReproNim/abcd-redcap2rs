@@ -1,0 +1,41 @@
+{
+    "id": "socialdev_cvict_c1_j___5",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_cvict_c1_j___5 of sd_y_vict"
+    },
+    "prefLabel": {
+        "en": "Did the person who did this use any of these?  :No weapon used"
+    },
+    "question": {
+        "en": "Did the person who did this use any of these? :No weapon used"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

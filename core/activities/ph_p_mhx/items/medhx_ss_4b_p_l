@@ -1,0 +1,65 @@
+{
+    "id": "medhx_ss_4b_p_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "medhx_ss_4b_p_l of ph_p_mhx"
+    },
+    "prefLabel": {
+        "en": "How many times has he/she been to the emergency room in that past year?"
+    },
+    "question": {
+        "en": "How many times has he she been to the emergency room in that past year?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1 time"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2 times"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3-4 times"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "5-9 times"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": ">10+ times | If yes is endorsed,  parent is then asked \"How many times.\" If no is endorsed, \"0\" has replaced missing [medhx_4b_l]."
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

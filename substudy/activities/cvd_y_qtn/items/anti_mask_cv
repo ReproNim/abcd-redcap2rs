@@ -1,0 +1,41 @@
+{
+    "id": "anti_mask_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "anti_mask_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "Since April 2020, did you watch TV stories, look on the internet, or listen to news on the radio about public demonstrations (public marches, rallies) on: Against wearing masks"
+    },
+    "question": {
+        "en": "Since April 2020, did you watch TV stories, look on the internet, or listen to news on the radio about public demonstrations (public marches, rallies) on: Against wearing masks"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No  [eventname] = 'covid19_cv4_arm_2'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

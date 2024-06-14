@@ -1,0 +1,59 @@
+{
+    "id": "macv_q8",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "macv_q8 of ce_y_macv"
+    },
+    "prefLabel": {
+        "en": "If a relative is having a hard time financially, one should help them out if possible."
+    },
+    "question": {
+        "en": "If a relative is having a hard time financially, one should help them out if possible."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at All"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A Little"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very Much"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Completely"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

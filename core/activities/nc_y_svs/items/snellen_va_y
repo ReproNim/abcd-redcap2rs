@@ -1,0 +1,101 @@
+{
+    "id": "snellen_va_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "snellen_va_y of nc_y_svs"
+    },
+    "prefLabel": {
+        "en": "1. Ensure that the chart is located in a well lit area and readily readable. 2. Verify if the child has corrective lenses and if so, whether he or she is wearing them. 3. Ascertain whether h/she can appropriately respond to stimuli on an iPad screen.\nSmallest line subject was able to see without error? Line numbers are represented on the right-most side of the chart."
+    },
+    "question": {
+        "en": "1. Ensure that the chart is located in a well lit area and readily readable. 2. Verify if the child has corrective lenses and if so, whether he or she is wearing them. 3. Ascertain whether h she can appropriately respond to stimuli on an iPad screen. Smallest line subject was able to see without error? Line numbers are represented on the right-most side of the chart."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Can't read line 1"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Line 1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Line 2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Line 3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Line 4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Line 5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Line 6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Line 7"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Line 8"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Line 9"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Line 10"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Line 11 // Users should consider variations in visual status (Snellen) before analyzing the neurocognition data. Many children have scores indicating poor vision."
+                },
+                "value": 11
+            }
+        ],
+        "maxValue": 11,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

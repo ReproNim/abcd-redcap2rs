@@ -1,0 +1,47 @@
+{
+    "id": "mtpr_hx_3_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mtpr_hx_3_p of nt_p_ears_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "Does it limit the amount of time they can spend on the device?"
+    },
+    "question": {
+        "en": "Does it limit the amount of time they can spend on the device?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_c_single_momavgall",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_c_single_momavgall of led_l_seda_demo_c"
+    },
+    "prefLabel": {
+        "en": "single mother HH rate, eb estimate, all families, 2005-09 and 2014-18 avg (county) ACS"
+    },
+    "question": {
+        "en": "single mother HH rate, eb estimate, all families, 2005-09 and 2014-18 avg (county) ACS"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

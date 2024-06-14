@@ -1,0 +1,24 @@
+{
+    "id": "pls1_med1_rxnorm",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pls1_med1_rxnorm of su_y_plus"
+    },
+    "prefLabel": {
+        "en": "Medication Name (please choose the formulation that most closely matches the medication you took; no need to include dosage) If medication name was not listed in the drop-down menu (with the exception of multivitamins), scroll down to Comments section and enter information there. For multivitamins, please choose  \"Vitamin\" from the drop-down menu."
+    },
+    "question": {
+        "en": "Medication Name (please choose the formulation that most closely matches the medication you took; no need to include dosage) If medication name was not listed in the drop-down menu (with the exception of multivitamins), scroll down to Comments section and enter information there. For multivitamins, please choose  \"Vitamin\" from the drop-down menu."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

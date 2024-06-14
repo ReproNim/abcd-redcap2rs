@@ -1,0 +1,41 @@
+{
+    "id": "fitpo_see_activity",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fitpo_see_activity of nt_y_fitb_qtn"
+    },
+    "prefLabel": {
+        "en": "Did you like seeing your Fitbit activity?"
+    },
+    "question": {
+        "en": "Did you like seeing your Fitbit activity?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

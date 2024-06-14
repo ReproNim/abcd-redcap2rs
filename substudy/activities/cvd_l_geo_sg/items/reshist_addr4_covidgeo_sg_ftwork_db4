@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr4_covidgeo_sg_ftwork_db4",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr4_covidgeo_sg_ftwork_db4 of cvd_l_geo_sg"
+    },
+    "prefLabel": {
+        "en": "SafeGraph Device exhibiting FullTime work behavior by census block ratio. 4 days before from questionnaire dissemenation date"
+    },
+    "question": {
+        "en": "SafeGraph Device exhibiting FullTime work behavior by census block ratio. 4 days before from questionnaire dissemenation date"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

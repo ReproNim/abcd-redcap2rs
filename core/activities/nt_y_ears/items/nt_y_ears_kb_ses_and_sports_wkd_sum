@@ -1,0 +1,24 @@
+{
+    "id": "nt_y_ears_kb_ses_and_sports_wkd_sum",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nt_y_ears_kb_ses_and_sports_wkd_sum of nt_y_ears"
+    },
+    "prefLabel": {
+        "en": "Total number of sessions on weekdays using the keyboard over duration of tracking period in Android OS: Sports (count)"
+    },
+    "question": {
+        "en": "Total number of sessions on weekdays using the keyboard over duration of tracking period in Android OS: Sports (count)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

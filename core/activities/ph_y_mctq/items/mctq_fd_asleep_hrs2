@@ -1,0 +1,95 @@
+{
+    "id": "mctq_fd_asleep_hrs2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mctq_fd_asleep_hrs2 of ph_y_mctq"
+    },
+    "prefLabel": {
+        "en": "I actually start trying to fall asleep at:"
+    },
+    "question": {
+        "en": "I actually start trying to fall asleep at:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "5 PM"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "6 PM"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "7 PM"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "8 PM"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "9 PM"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "10 PM"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "11 PM"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "12 AM"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "1 AM"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "2 AM"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "3 AM"
+                },
+                "value": 11
+            }
+        ],
+        "maxValue": 11,
+        "minValue": 1,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

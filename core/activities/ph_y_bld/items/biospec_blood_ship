@@ -1,0 +1,47 @@
+{
+    "id": "biospec_blood_ship",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "biospec_blood_ship of ph_y_bld"
+    },
+    "prefLabel": {
+        "en": "Shipping to RUCDR:"
+    },
+    "question": {
+        "en": "Shipping to RUCDR:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Same Day of Collection"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "The Day Following Collection"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Frozen (in bulk monthly shipment)"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

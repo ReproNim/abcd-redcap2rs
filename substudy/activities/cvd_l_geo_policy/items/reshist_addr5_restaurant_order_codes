@@ -1,0 +1,35 @@
+{
+    "id": "reshist_addr5_restaurant_order_codes",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr5_restaurant_order_codes of cvd_l_geo_policy"
+    },
+    "prefLabel": {
+        "en": "Restaurant Order codes"
+    },
+    "question": {
+        "en": "Restaurant Order codes"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "NA, 2 - Authorized to fully reopen, 3 - Open with social distancing/reduced seating/enhanced sanitation, 4 - Open with social distancing/reduced seating/enhanced sanitation, 5 - Curbside/carryout/delivery only, 6 - Closed"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "bfq_med2_prn_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bfq_med2_prn_p of ph_p_bfq"
+    },
+    "prefLabel": {
+        "en": "PRN (as needed) Medication?"
+    },
+    "question": {
+        "en": "PRN (as needed) Medication?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't Know [bfq_rxnorm_med2_p] <> ''"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

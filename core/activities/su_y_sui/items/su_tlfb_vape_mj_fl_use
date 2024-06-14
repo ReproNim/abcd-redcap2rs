@@ -1,0 +1,24 @@
+{
+    "id": "su_tlfb_vape_mj_fl_use",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_tlfb_vape_mj_fl_use of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Vaped marijuana flower or bud in a vape pen, vaporizer, or e-vaporizer? <font color = \"blue\">(RA note: do not count CBD-only products)</font>"
+    },
+    "question": {
+        "en": "Vaped marijuana flower or bud in a vape pen, vaporizer, or e-vaporizer? <font color = \"blue\">(RA note: do not count CBD-only products)< font>"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,119 @@
+{
+    "id": "devhx_ss_12_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_ss_12_p of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "About how many weeks  premature was the child when they were born?"
+    },
+    "question": {
+        "en": "About how many weeks  premature was the child when they were born?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "8"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "9"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "10"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "11"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "12"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Greater than 12"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Don't know | In the Developmental History survey, if \"No\" was endorsed for use of a substance, the answer for \"How many weeks...?\" was stored as missing. Here we have replaced missing with \"0\"."
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

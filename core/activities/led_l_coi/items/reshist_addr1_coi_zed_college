@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr1_coi_zed_college",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr1_coi_zed_college of led_l_coi"
+    },
+    "prefLabel": {
+        "en": "Educational Domain College enrollment in nearby institutions: Percentage 18-24 year-olds enrolled in college within 25-mile radius, transformed to z-scores."
+    },
+    "question": {
+        "en": "Educational Domain College enrollment in nearby institutions: Percentage 18-24 year-olds enrolled in college within 25-mile radius, transformed to z-scores."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

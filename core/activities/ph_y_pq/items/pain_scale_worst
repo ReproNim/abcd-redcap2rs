@@ -1,0 +1,95 @@
+{
+    "id": "pain_scale_worst",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pain_scale_worst of ph_y_pq"
+    },
+    "prefLabel": {
+        "en": "Over the past month, how much did it hurt when it was the WORST 0 = not at all, 10 = the worst)?"
+    },
+    "question": {
+        "en": "Over the past month, how much did it hurt when it was the WORST 0 = not at all, 10 = the worst)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "8"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "9"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "10"
+                },
+                "value": 10
+            }
+        ],
+        "maxValue": 10,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

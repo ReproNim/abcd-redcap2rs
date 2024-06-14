@@ -1,0 +1,24 @@
+{
+    "id": "ksads2_1_791_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads2_1_791_p of mh_p_ksads_ss"
+    },
+    "prefLabel": {
+        "en": "Diagnosis - Major Depressive Disorder, Current, in Partial Remission (F32.4)"
+    },
+    "question": {
+        "en": "Diagnosis - Major Depressive Disorder, Current, in Partial Remission (F32. 4)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

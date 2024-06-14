@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_vegetables",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_vegetables of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Tomatoes, including on salad/Tomates, incluyendo en ensaladas"
+    },
+    "question": {
+        "en": "Tomatoes, including on salad",
+        "es": "Tomates, incluyendo en ensaladas"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "fes_51_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fes_51_p of ce_p_fes"
+    },
+    "prefLabel": {
+        "en": "Family members really back each other up.Los miembros de la familia realmente se apoyan unos a otros."
+    },
+    "question": {
+        "en": "Family members really back each other up.",
+        "es": "Los miembros de la familia realmente se apoyan unos a otros."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "True /Verdadera"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "False/ Falsa"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

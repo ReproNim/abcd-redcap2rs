@@ -1,0 +1,35 @@
+{
+    "id": "famhx_1b_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "famhx_1b_p of mh_p_fhx"
+    },
+    "prefLabel": {
+        "en": "# maternal aunt (s) of the child # de t\u00eda(s) materna(s) del ni\u00f1o(a)"
+    },
+    "question": {
+        "en": "# maternal aunt (s) of the child # de t\u00eda(s) materna(s) del ni\u00f1o(a)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "= 1 &&  isNull(famhx_1b_dk_p___999)"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

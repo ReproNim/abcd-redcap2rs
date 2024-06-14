@@ -1,0 +1,59 @@
+{
+    "id": "ksads_pd_raw_176_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_pd_raw_176_p of mh_p_ksads_pd"
+    },
+    "prefLabel": {
+        "en": "In the past two weeks, has your child had any panic attacks where for no reason at all he or she suddenly felt super scared and like he or she was having a heart attack?"
+    },
+    "question": {
+        "en": "In the past two weeks, has your child had any panic attacks where for no reason at all he or she suddenly felt super scared and like he or she was having a heart attack?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Several days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "More than half the days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Nearly every day"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

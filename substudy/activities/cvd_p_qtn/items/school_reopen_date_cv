@@ -1,0 +1,24 @@
+{
+    "id": "school_reopen_date_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "school_reopen_date_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Date your child's school re-opened:"
+    },
+    "question": {
+        "en": "Date your child's school re-opened:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

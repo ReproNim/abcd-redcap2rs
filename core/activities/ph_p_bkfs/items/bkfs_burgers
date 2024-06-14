@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_burgers",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_burgers of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Hamburgers, cheeseburgers/Hamburguesas o hamburguesas con queso"
+    },
+    "question": {
+        "en": "Hamburgers, cheeseburgers",
+        "es": "Hamburguesas o hamburguesas con queso"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

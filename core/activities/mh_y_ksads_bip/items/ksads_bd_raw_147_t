@@ -1,0 +1,24 @@
+{
+    "id": "ksads_bd_raw_147_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_bd_raw_147_t of mh_y_ksads_bip"
+    },
+    "prefLabel": {
+        "en": "You said that you had times in the past when you felt super happy for no particular reason, for several days in a row. When was that? If you felt that way more than once, let me know when it was the worst."
+    },
+    "question": {
+        "en": "You said that you had times in the past when you felt super happy for no particular reason, for several days in a row. When was that? If you felt that way more than once, let me know when it was the worst."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "tlfb_cal_scr_cig_avg",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_cal_scr_cig_avg of su_y_tlfb"
+    },
+    "prefLabel": {
+        "en": "Average cigarettes smoked on use days"
+    },
+    "question": {
+        "en": "Average cigarettes smoked on use days"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

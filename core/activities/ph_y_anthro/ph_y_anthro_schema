@@ -1,0 +1,163 @@
+{
+    "id": "ph_y_anthro_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "if(anthro_3_height_in<>''mean(anthro_1_height_inanthro_2_height_inanthro_3_height_in)mean(anthro_1_height_inanthro_2_height_in))",
+            "variableName": "anthroheightcalc"
+        },
+        {
+            "jsExpression": "if(anthro_weight3_lb<>'',mean(anthro_weight3_lb,anthro_weight2_lb,anthro_weight1_lb)mean(anthro_weight1_lb,anthro_weight2_lb))",
+            "variableName": "anthroweightcalc"
+        }
+    ],
+    "description": {
+        "en": "This activity is about Examination in Physical Health"
+    },
+    "prefLabel": {
+        "en": "Ph_Y_Anthro"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/anthro_1_height_in",
+            "items/anthro2heightin",
+            "items/anthro3heightin",
+            "items/anthroweightcast",
+            "items/anthroweight1lb",
+            "items/anthroweight2lb",
+            "items/anthroweight3lb",
+            "items/anthro_waist_cm",
+            "items/anthro_timestamp"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/anthro_1_height_in",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "anthro_1_height_in"
+            },
+            {
+                "isAbout": "items/anthro2heightin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "anthro2heightin"
+            },
+            {
+                "isAbout": "items/anthro3heightin",
+                "isVis": "(  (  ( anthro_1_height_in  -  anthro2heightin )  > 0.25)  ||  ( ( anthro_1_height_in  -  anthro2heightin )  < -0.25 ) )",
+                "valueRequired": true,
+                "variableName": "anthro3heightin"
+            },
+            {
+                "isAbout": "items/anthroheightcalc",
+                "isVis": false,
+                "variableName": "anthroheightcalc"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/anthro_3_height_in",
+                "valueRequired": true,
+                "variableName": "anthro_3_height_in"
+            },
+            {
+                "isAbout": "items/mean",
+                "valueRequired": true,
+                "variableName": "mean"
+            },
+            {
+                "isAbout": "items/anthro_1_height_inanthro_2_height_inanthro_3_height_in",
+                "valueRequired": true,
+                "variableName": "anthro_1_height_inanthro_2_height_inanthro_3_height_in"
+            },
+            {
+                "isAbout": "items/mean",
+                "valueRequired": true,
+                "variableName": "mean"
+            },
+            {
+                "isAbout": "items/anthro_1_height_inanthro_2_height_in",
+                "valueRequired": true,
+                "variableName": "anthro_1_height_inanthro_2_height_in"
+            },
+            {
+                "isAbout": "items/anthroweightcast",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "anthroweightcast"
+            },
+            {
+                "isAbout": "items/anthroweight1lb",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "anthroweight1lb"
+            },
+            {
+                "isAbout": "items/anthroweight2lb",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "anthroweight2lb"
+            },
+            {
+                "isAbout": "items/anthroweight3lb",
+                "isVis": "(  (  ( anthroweight1lb  -  anthroweight2lb )  > 0.1)  ||  ( ( anthroweight1lb  -  anthroweight2lb )  < -0.1 ) )",
+                "valueRequired": true,
+                "variableName": "anthroweight3lb"
+            },
+            {
+                "isAbout": "items/anthroweightcalc",
+                "isVis": false,
+                "variableName": "anthroweightcalc"
+            },
+            {
+                "isAbout": "items/anthro_weight3_lb",
+                "valueRequired": true,
+                "variableName": "anthro_weight3_lb"
+            },
+            {
+                "isAbout": "items/anthro_weight3_lb",
+                "valueRequired": true,
+                "variableName": "anthro_weight3_lb"
+            },
+            {
+                "isAbout": "items/anthro_weight2_lb",
+                "valueRequired": true,
+                "variableName": "anthro_weight2_lb"
+            },
+            {
+                "isAbout": "items/anthro_weight1_lb",
+                "valueRequired": true,
+                "variableName": "anthro_weight1_lb"
+            },
+            {
+                "isAbout": "items/anthro_weight1_lb",
+                "valueRequired": true,
+                "variableName": "anthro_weight1_lb"
+            },
+            {
+                "isAbout": "items/anthro_weight2_lb",
+                "valueRequired": true,
+                "variableName": "anthro_weight2_lb"
+            },
+            {
+                "isAbout": "items/anthro_waist_cm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "anthro_waist_cm"
+            },
+            {
+                "isAbout": "items/anthro_timestamp",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "anthro_timestamp"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

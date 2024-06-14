@@ -1,0 +1,434 @@
+{
+    "id": "ph_y_bld_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Biospecimens in Physical Health"
+    },
+    "prefLabel": {
+        "en": "Ph_Y_Bld"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/biospec_blood_consent",
+            "items/biospec_blood_tube1_collect",
+            "items/biospec_blood_tube1_dot",
+            "items/biospec_blood_tube2_collect",
+            "items/biospec_blood_tube2_dot",
+            "items/biospec_blood_tube2_fuge_dot",
+            "items/biospec_blood_freeze_ship_dot",
+            "items/biospec_blood_accession_date",
+            "items/biospec_blood_col_date",
+            "items/biospec_blood_ruid",
+            "items/biospec_blood_ruid_2",
+            "items/biospec_blood_purple_tube_barc",
+            "items/biospec_blood_fluid_tube_barc",
+            "items/biospec_blood_rucdr_comment",
+            "items/biospec_blood_baso_percent",
+            "items/biospec_blood_baso_abs",
+            "items/biospec_blood_eos_percent",
+            "items/biospec_blood_eos_abs",
+            "items/biospec_blood_hemoglobin",
+            "items/biospec_blood_mcv",
+            "items/biospec_blood_plt_count",
+            "items/biospec_blood_wbc_count",
+            "items/biospec_blood_ferritin",
+            "items/biospec_blood_hemoglobin_a1",
+            "items/biospec_blood_imm_gran_per",
+            "items/biospec_blood_imm_gran_abs",
+            "items/biospec_blood_lymph_percent",
+            "items/biospec_blood_lymph_abs",
+            "items/biospec_blood_mch",
+            "items/biospec_blood_mchc",
+            "items/biospec_blood_mono_percent",
+            "items/biospec_blood_mono_abs",
+            "items/biospec_blood_mpv",
+            "items/biospec_blood_neut_percent",
+            "items/biospec_blood_neut_abs",
+            "items/biospec_blood_nrbc_abs",
+            "items/biospec_blood_nrbc_percent",
+            "items/biospec_blood_rdw",
+            "items/biospec_blood_cholesterol",
+            "items/biospec_blood_hdl_cholesterol",
+            "items/biospec_blood_burr_cells",
+            "items/biospec_blood_poikilocytosis",
+            "items/biospec_bl_red_blo_cell_morph",
+            "items/biospec_blood_rbc_count",
+            "items/biospec_blood_hematocrit",
+            "items/biospec_blood_report_status",
+            "items/biospec_blood_report_datetime",
+            "items/biospec_blood_alert_date",
+            "items/biospec_blood_receiv",
+            "items/biospec_blood_resolution_date",
+            "items/biospec_blood_resolve___1",
+            "items/biospec_blood_resolve___2",
+            "items/biospec_blood_resolve___3",
+            "items/biospec_blood_resolve___4",
+            "items/biospec_blood_resolve___5",
+            "items/biospec_blood_resolve___6",
+            "items/biospec_blood_resolve_ndnotes",
+            "items/biospec_blood_resolve_ecnotes",
+            "items/biospec_blood_ship"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/biospec_blood_consent",
+                "isVis": "biospec_blood_consent === 1",
+                "valueRequired": true,
+                "variableName": "biospec_blood_consent"
+            },
+            {
+                "isAbout": "items/biospec_blood_tube1_collect",
+                "isVis": "biospec_blood_tube1_collect === 2",
+                "valueRequired": true,
+                "variableName": "biospec_blood_tube1_collect"
+            },
+            {
+                "isAbout": "items/biospec_blood_tube1_dot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_tube1_dot"
+            },
+            {
+                "isAbout": "items/biospec_blood_tube2_collect",
+                "isVis": "biospec_blood_tube2_collect === 2",
+                "valueRequired": true,
+                "variableName": "biospec_blood_tube2_collect"
+            },
+            {
+                "isAbout": "items/biospec_blood_tube2_dot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_tube2_dot"
+            },
+            {
+                "isAbout": "items/biospec_blood_tube2_fuge_dot",
+                "isVis": "biospec_blood_tube1_collect === 1 || biospec_blood_tube2_collect === 1",
+                "valueRequired": true,
+                "variableName": "biospec_blood_tube2_fuge_dot"
+            },
+            {
+                "isAbout": "items/biospec_blood_freeze_ship_dot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_freeze_ship_dot"
+            },
+            {
+                "isAbout": "items/biospec_blood_accession_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_accession_date"
+            },
+            {
+                "isAbout": "items/biospec_blood_col_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_col_date"
+            },
+            {
+                "isAbout": "items/biospec_blood_ruid",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_ruid"
+            },
+            {
+                "isAbout": "items/biospec_blood_ruid_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_ruid_2"
+            },
+            {
+                "isAbout": "items/biospec_blood_purple_tube_barc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_purple_tube_barc"
+            },
+            {
+                "isAbout": "items/biospec_blood_fluid_tube_barc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_fluid_tube_barc"
+            },
+            {
+                "isAbout": "items/biospec_blood_rucdr_comment",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_rucdr_comment"
+            },
+            {
+                "isAbout": "items/biospec_blood_baso_percent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_baso_percent"
+            },
+            {
+                "isAbout": "items/biospec_blood_baso_abs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_baso_abs"
+            },
+            {
+                "isAbout": "items/biospec_blood_eos_percent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_eos_percent"
+            },
+            {
+                "isAbout": "items/biospec_blood_eos_abs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_eos_abs"
+            },
+            {
+                "isAbout": "items/biospec_blood_hemoglobin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_hemoglobin"
+            },
+            {
+                "isAbout": "items/biospec_blood_mcv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_mcv"
+            },
+            {
+                "isAbout": "items/biospec_blood_plt_count",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_plt_count"
+            },
+            {
+                "isAbout": "items/biospec_blood_wbc_count",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_wbc_count"
+            },
+            {
+                "isAbout": "items/biospec_blood_ferritin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_ferritin"
+            },
+            {
+                "isAbout": "items/biospec_blood_hemoglobin_a1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_hemoglobin_a1"
+            },
+            {
+                "isAbout": "items/biospec_blood_imm_gran_per",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_imm_gran_per"
+            },
+            {
+                "isAbout": "items/biospec_blood_imm_gran_abs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_imm_gran_abs"
+            },
+            {
+                "isAbout": "items/biospec_blood_lymph_percent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_lymph_percent"
+            },
+            {
+                "isAbout": "items/biospec_blood_lymph_abs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_lymph_abs"
+            },
+            {
+                "isAbout": "items/biospec_blood_mch",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_mch"
+            },
+            {
+                "isAbout": "items/biospec_blood_mchc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_mchc"
+            },
+            {
+                "isAbout": "items/biospec_blood_mono_percent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_mono_percent"
+            },
+            {
+                "isAbout": "items/biospec_blood_mono_abs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_mono_abs"
+            },
+            {
+                "isAbout": "items/biospec_blood_mpv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_mpv"
+            },
+            {
+                "isAbout": "items/biospec_blood_neut_percent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_neut_percent"
+            },
+            {
+                "isAbout": "items/biospec_blood_neut_abs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_neut_abs"
+            },
+            {
+                "isAbout": "items/biospec_blood_nrbc_abs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_nrbc_abs"
+            },
+            {
+                "isAbout": "items/biospec_blood_nrbc_percent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_nrbc_percent"
+            },
+            {
+                "isAbout": "items/biospec_blood_rdw",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_rdw"
+            },
+            {
+                "isAbout": "items/biospec_blood_cholesterol",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_cholesterol"
+            },
+            {
+                "isAbout": "items/biospec_blood_hdl_cholesterol",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_hdl_cholesterol"
+            },
+            {
+                "isAbout": "items/biospec_blood_burr_cells",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_burr_cells"
+            },
+            {
+                "isAbout": "items/biospec_blood_poikilocytosis",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_poikilocytosis"
+            },
+            {
+                "isAbout": "items/biospec_bl_red_blo_cell_morph",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_bl_red_blo_cell_morph"
+            },
+            {
+                "isAbout": "items/biospec_blood_rbc_count",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_rbc_count"
+            },
+            {
+                "isAbout": "items/biospec_blood_hematocrit",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_hematocrit"
+            },
+            {
+                "isAbout": "items/biospec_blood_report_status",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_report_status"
+            },
+            {
+                "isAbout": "items/biospec_blood_report_datetime",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_report_datetime"
+            },
+            {
+                "isAbout": "items/biospec_blood_alert_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_alert_date"
+            },
+            {
+                "isAbout": "items/biospec_blood_receiv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_receiv"
+            },
+            {
+                "isAbout": "items/biospec_blood_resolution_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_resolution_date"
+            },
+            {
+                "isAbout": "items/biospec_blood_resolve___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_resolve___1"
+            },
+            {
+                "isAbout": "items/biospec_blood_resolve___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_resolve___2"
+            },
+            {
+                "isAbout": "items/biospec_blood_resolve___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_resolve___3"
+            },
+            {
+                "isAbout": "items/biospec_blood_resolve___4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_resolve___4"
+            },
+            {
+                "isAbout": "items/biospec_blood_resolve___5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_resolve___5"
+            },
+            {
+                "isAbout": "items/biospec_blood_resolve___6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_resolve___6"
+            },
+            {
+                "isAbout": "items/biospec_blood_resolve_ndnotes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_resolve_ndnotes"
+            },
+            {
+                "isAbout": "items/biospec_blood_resolve_ecnotes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_resolve_ecnotes"
+            },
+            {
+                "isAbout": "items/biospec_blood_ship",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_blood_ship"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

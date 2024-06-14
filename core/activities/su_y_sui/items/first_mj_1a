@@ -1,0 +1,24 @@
+{
+    "id": "first_mj_1a",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "first_mj_1a of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "You mentioned earlier that you have had a puff of marijuana, weed or pot in the past. I want to ask some more questions about that.  How old were you the first time you first used marijuana?"
+    },
+    "question": {
+        "en": "You mentioned earlier that you have had a puff of marijuana, weed or pot in the past. I want to ask some more questions about that. How old were you the first time you first used marijuana?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

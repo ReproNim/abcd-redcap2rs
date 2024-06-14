@@ -1,0 +1,48 @@
+{
+    "id": "kbi_p_c_reg_friend_group_opin",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_p_c_reg_friend_group_opin of mh_p_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "Do you like your child's friends?/  \u00bfA usted le caen bien los amigos de su ni\u00f1o(a)?"
+    },
+    "question": {
+        "en": "Do you like your child's friends?",
+        "es": "\u00bfA usted le caen bien los amigos de su ni\u00f1o(a)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes /S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some /Algo"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No/ No"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

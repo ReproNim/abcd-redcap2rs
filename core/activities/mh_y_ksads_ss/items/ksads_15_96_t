@@ -1,0 +1,24 @@
+{
+    "id": "ksads_15_96_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_15_96_t of mh_y_ksads_ss"
+    },
+    "prefLabel": {
+        "en": "Symptom - Often disobeys rules/requests Past"
+    },
+    "question": {
+        "en": "Symptom - Often disobeys rules requests Past"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

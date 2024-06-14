@@ -1,0 +1,53 @@
+{
+    "id": "dim_yesno_q2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "dim_yesno_q2 of ce_y_dm"
+    },
+    "prefLabel": {
+        "en": "In the past 12 months, have you felt discriminated against: because you are (or your family is) from another country?"
+    },
+    "question": {
+        "en": "In the past 12 months, have you felt discriminated against: because you are (or your family is) from another country?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Refused to answer"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

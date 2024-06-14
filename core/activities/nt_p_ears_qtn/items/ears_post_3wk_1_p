@@ -1,0 +1,42 @@
+{
+    "id": "ears_post_3wk_1_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ears_post_3wk_1_p of nt_p_ears_qtn"
+    },
+    "prefLabel": {
+        "en": "Does it limit the amount of time they can spend on the phone? / \u00bfLa aplicaci\u00f3n limita el tiempo que su ni\u00f1o(a) puede pasar en su celular?"
+    },
+    "question": {
+        "en": "Does it limit the amount of time they can spend on the phone?",
+        "es": "\u00bfLa aplicaci\u00f3n limita el tiempo que su ni\u00f1o(a) puede pasar en su celular?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes / S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No / No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

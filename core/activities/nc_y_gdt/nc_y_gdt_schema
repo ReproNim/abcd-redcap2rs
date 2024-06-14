@@ -1,0 +1,126 @@
+{
+    "id": "nc_y_gdt_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Task in Neurocognition"
+    },
+    "prefLabel": {
+        "en": "Nc_Y_Gdt"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/gdt_scr_parameters_gdtversion",
+            "items/gdt_scr_values_account_balance",
+            "items/gdt_scr_values_single",
+            "items/gdt_scr_values_double",
+            "items/gdt_scr_values_triple",
+            "items/gdt_scr_values_quadruple",
+            "items/gdt_scr_values_safe",
+            "items/gdt_scr_values_risky",
+            "items/gdt_scr_expressions_net_score",
+            "items/gdt_scr_values_wins",
+            "items/gdt_scr_values_losses",
+            "items/neurocog_2_god___1",
+            "items/neurocog_2_god___2",
+            "items/neurocog_2_god___3",
+            "items/neurocog_2_god___4"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/gdt_scr_parameters_gdtversion",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gdt_scr_parameters_gdtversion"
+            },
+            {
+                "isAbout": "items/gdt_scr_values_account_balance",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gdt_scr_values_account_balance"
+            },
+            {
+                "isAbout": "items/gdt_scr_values_single",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gdt_scr_values_single"
+            },
+            {
+                "isAbout": "items/gdt_scr_values_double",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gdt_scr_values_double"
+            },
+            {
+                "isAbout": "items/gdt_scr_values_triple",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gdt_scr_values_triple"
+            },
+            {
+                "isAbout": "items/gdt_scr_values_quadruple",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gdt_scr_values_quadruple"
+            },
+            {
+                "isAbout": "items/gdt_scr_values_safe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gdt_scr_values_safe"
+            },
+            {
+                "isAbout": "items/gdt_scr_values_risky",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gdt_scr_values_risky"
+            },
+            {
+                "isAbout": "items/gdt_scr_expressions_net_score",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gdt_scr_expressions_net_score"
+            },
+            {
+                "isAbout": "items/gdt_scr_values_wins",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gdt_scr_values_wins"
+            },
+            {
+                "isAbout": "items/gdt_scr_values_losses",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gdt_scr_values_losses"
+            },
+            {
+                "isAbout": "items/neurocog_2_god___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_2_god___1"
+            },
+            {
+                "isAbout": "items/neurocog_2_god___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_2_god___2"
+            },
+            {
+                "isAbout": "items/neurocog_2_god___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_2_god___3"
+            },
+            {
+                "isAbout": "items/neurocog_2_god___4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_2_god___4"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

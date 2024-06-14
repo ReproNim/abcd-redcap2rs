@@ -1,0 +1,65 @@
+{
+    "id": "erq_feelings_less_bad",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "erq_feelings_less_bad of mh_y_erq"
+    },
+    "prefLabel": {
+        "en": "When I want to feel less bad (e.g., sad, angry, worried) about something, I change the way I'm thinking about it."
+    },
+    "question": {
+        "en": "When I want to feel less bad (e. g. , sad, angry, worried) about something, I change the way I'm thinking about it."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "strongly disagree"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "disagree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "half and half"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "agree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "strongly agree"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Refuse to Answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

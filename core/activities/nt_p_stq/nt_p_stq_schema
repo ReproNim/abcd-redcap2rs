@@ -1,0 +1,315 @@
+{
+    "id": "nt_p_stq_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Screen Use in Novel Technologies"
+    },
+    "prefLabel": {
+        "en": "Nt_P_Stq"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/screentime_p_select_language",
+            "items/screentime1_p_hours",
+            "items/screentime1_p_minutes",
+            "items/screentime2_p_hours",
+            "items/screentime2_p_minutes",
+            "items/screentime_pmum_short_6_p",
+            "items/screentime_pmum_short_7_p",
+            "items/screentime_pmum_short_8_p",
+            "items/screentime_pmum_short_9_p",
+            "items/screentime_scrn_media_p__1",
+            "items/screentime_scrn_media_p__2",
+            "items/screentime_scrn_media_p__3",
+            "items/screentime_scrn_media_p__4",
+            "items/screentime_scrn_media_p__5",
+            "items/screentime_scrn_media_p__6",
+            "items/screentime_scrn_media_p__7",
+            "items/screentime_scrn_media_p__777",
+            "items/screentime_1_wkdy_hrs_p",
+            "items/screentime_1_wkdy_min_p",
+            "items/screentime_1_wknd_hrs_p",
+            "items/screentime_1_wknd_min_p",
+            "items/screentime_device_p__0",
+            "items/screentime_device_p__1",
+            "items/screentime_device_p__2",
+            "items/screentime_start_time_p",
+            "items/screentime_device_p__3",
+            "items/screentime_device_p__4",
+            "items/screentime_device_p__6",
+            "items/screentime_device_wifi_p",
+            "items/screentime_device_cell_p",
+            "items/screentime_device_cell_age_p",
+            "items/screentime_device_cell_no_p",
+            "items/screentime_following_child_p",
+            "items/screentime_secs_media_p",
+            "items/screentime_online_1_p",
+            "items/screentime_online_2_p",
+            "items/screentime_online_3_p",
+            "items/screentime_pmum_short_1_p",
+            "items/screentime_pmum_short_2_p",
+            "items/screentime_pmum_short_3_p",
+            "items/screentime_pmum_short_4_p",
+            "items/screentime_pmum_short_5_p"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/screentime_p_select_language",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_p_select_language"
+            },
+            {
+                "isAbout": "items/screentime1_p_hours",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime1_p_hours"
+            },
+            {
+                "isAbout": "items/screentime1_p_minutes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime1_p_minutes"
+            },
+            {
+                "isAbout": "items/screentime2_p_hours",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime2_p_hours"
+            },
+            {
+                "isAbout": "items/screentime2_p_minutes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime2_p_minutes"
+            },
+            {
+                "isAbout": "items/screentime_pmum_short_6_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_pmum_short_6_p"
+            },
+            {
+                "isAbout": "items/screentime_pmum_short_7_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_pmum_short_7_p"
+            },
+            {
+                "isAbout": "items/screentime_pmum_short_8_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_pmum_short_8_p"
+            },
+            {
+                "isAbout": "items/screentime_pmum_short_9_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_pmum_short_9_p"
+            },
+            {
+                "isAbout": "items/screentime_scrn_media_p__1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_scrn_media_p__1"
+            },
+            {
+                "isAbout": "items/screentime_scrn_media_p__2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_scrn_media_p__2"
+            },
+            {
+                "isAbout": "items/screentime_scrn_media_p__3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_scrn_media_p__3"
+            },
+            {
+                "isAbout": "items/screentime_scrn_media_p__4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_scrn_media_p__4"
+            },
+            {
+                "isAbout": "items/screentime_scrn_media_p__5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_scrn_media_p__5"
+            },
+            {
+                "isAbout": "items/screentime_scrn_media_p__6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_scrn_media_p__6"
+            },
+            {
+                "isAbout": "items/screentime_scrn_media_p__7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_scrn_media_p__7"
+            },
+            {
+                "isAbout": "items/screentime_scrn_media_p__777",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_scrn_media_p__777"
+            },
+            {
+                "isAbout": "items/screentime_1_wkdy_hrs_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_1_wkdy_hrs_p"
+            },
+            {
+                "isAbout": "items/screentime_1_wkdy_min_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_1_wkdy_min_p"
+            },
+            {
+                "isAbout": "items/screentime_1_wknd_hrs_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_1_wknd_hrs_p"
+            },
+            {
+                "isAbout": "items/screentime_1_wknd_min_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_1_wknd_min_p"
+            },
+            {
+                "isAbout": "items/screentime_device_p__0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_device_p__0"
+            },
+            {
+                "isAbout": "items/screentime_device_p__1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_device_p__1"
+            },
+            {
+                "isAbout": "items/screentime_device_p__2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_device_p__2"
+            },
+            {
+                "isAbout": "items/screentime_start_time_p",
+                "isVis": "event_name_number != 11",
+                "valueRequired": true,
+                "variableName": "screentime_start_time_p"
+            },
+            {
+                "isAbout": "items/screentime_device_p__3",
+                "isVis": "event_name_number != 11",
+                "valueRequired": true,
+                "variableName": "screentime_device_p__3"
+            },
+            {
+                "isAbout": "items/screentime_device_p__4",
+                "isVis": "event_name_number != 11",
+                "valueRequired": true,
+                "variableName": "screentime_device_p__4"
+            },
+            {
+                "isAbout": "items/screentime_device_p__6",
+                "isVis": "event_name_number != 11",
+                "valueRequired": true,
+                "variableName": "screentime_device_p__6"
+            },
+            {
+                "isAbout": "items/screentime_device_wifi_p",
+                "isVis": "event_name_number != 11",
+                "valueRequired": true,
+                "variableName": "screentime_device_wifi_p"
+            },
+            {
+                "isAbout": "items/screentime_device_cell_p",
+                "isVis": "event_name_number != 11",
+                "valueRequired": true,
+                "variableName": "screentime_device_cell_p"
+            },
+            {
+                "isAbout": "items/screentime_device_cell_age_p",
+                "isVis": "event_name_number != 11",
+                "valueRequired": true,
+                "variableName": "screentime_device_cell_age_p"
+            },
+            {
+                "isAbout": "items/screentime_device_cell_no_p",
+                "isVis": "event_name_number != 11",
+                "valueRequired": true,
+                "variableName": "screentime_device_cell_no_p"
+            },
+            {
+                "isAbout": "items/screentime_following_child_p",
+                "isVis": "event_name_number != 11",
+                "valueRequired": true,
+                "variableName": "screentime_following_child_p"
+            },
+            {
+                "isAbout": "items/screentime_secs_media_p",
+                "isVis": "event_name_number != 11",
+                "valueRequired": true,
+                "variableName": "screentime_secs_media_p"
+            },
+            {
+                "isAbout": "items/screentime_online_1_p",
+                "isVis": "event_name_number != 11 && (screentime_device_p(1) === 1 or screentime_device_p(2) === 1 or screentime_device_p(3) === 1 or screentime_device_p(4) === 1)",
+                "valueRequired": true,
+                "variableName": "screentime_online_1_p"
+            },
+            {
+                "isAbout": "items/screentime_online_2_p",
+                "isVis": "event_name_number != 11 && screentime_device_p(1) === 1",
+                "valueRequired": true,
+                "variableName": "screentime_online_2_p"
+            },
+            {
+                "isAbout": "items/screentime_online_3_p",
+                "isVis": "event_name_number != 11 && screentime_device_p(1) === 0",
+                "valueRequired": true,
+                "variableName": "screentime_online_3_p"
+            },
+            {
+                "isAbout": "items/screentime_pmum_short_1_p",
+                "isVis": "event_name_number != 11",
+                "valueRequired": true,
+                "variableName": "screentime_pmum_short_1_p"
+            },
+            {
+                "isAbout": "items/screentime_pmum_short_2_p",
+                "isVis": "event_name_number != 11",
+                "valueRequired": true,
+                "variableName": "screentime_pmum_short_2_p"
+            },
+            {
+                "isAbout": "items/screentime_pmum_short_3_p",
+                "isVis": "event_name_number != 11",
+                "valueRequired": true,
+                "variableName": "screentime_pmum_short_3_p"
+            },
+            {
+                "isAbout": "items/screentime_pmum_short_4_p",
+                "isVis": "event_name_number != 11",
+                "valueRequired": true,
+                "variableName": "screentime_pmum_short_4_p"
+            },
+            {
+                "isAbout": "items/screentime_pmum_short_5_p",
+                "isVis": "event_name_number != 11",
+                "valueRequired": true,
+                "variableName": "screentime_pmum_short_5_p"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

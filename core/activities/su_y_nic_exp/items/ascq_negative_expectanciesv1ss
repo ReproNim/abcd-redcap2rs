@@ -1,0 +1,24 @@
+{
+    "id": "ascq_negative_expectanciesv1ss",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ascq_negative_expectanciesv1ss of su_y_nic_exp"
+    },
+    "prefLabel": {
+        "en": "Strength of negative expectancies for tobacco/smoking. Score prorated if some item responses were missing."
+    },
+    "question": {
+        "en": "Strength of negative expectancies for tobacco smoking. Score prorated if some item responses were missing."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

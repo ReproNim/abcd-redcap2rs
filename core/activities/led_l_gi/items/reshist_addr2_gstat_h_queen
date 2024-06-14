@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr2_gstat_h_queen",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr2_gstat_h_queen of led_l_gi"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - Local Gi* statistic, Hispanic, queen neighborhood tracts, census tract; NaNDA (addr2)"
+    },
+    "question": {
+        "en": "Residential history derived - Local Gi* statistic, Hispanic, queen neighborhood tracts, census tract; NaNDA (addr2)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

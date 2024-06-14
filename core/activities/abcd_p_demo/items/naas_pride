@@ -1,0 +1,66 @@
+{
+    "id": "naas_pride",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "naas_pride of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "How much pride does your family have in Native American culture and heritage? \u00ac\u00f8Cu\u221a\u00b0nto orgullo tiene su familia en la cultura y el patrimonio Nativo Americano?"
+    },
+    "question": {
+        "en": "How much pride does your family have in Native American culture and heritage?",
+        "es": "\u00ac\u00f8Cu\u221a\u00b0nto orgullo tiene su familia en la cultura y el patrimonio Nativo Americano?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Extremely proud Extremadamente orgulloso(a)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderately proud Moderadamente orgulloso(a)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A little pride Un poco orgulloso"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "No pride"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "No pride"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't Know No lo s\u221a\u00c9\u00ac\u00a9 // The following questions are about you or the child's family."
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

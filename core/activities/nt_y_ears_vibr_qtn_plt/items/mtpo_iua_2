@@ -1,0 +1,59 @@
+{
+    "id": "mtpo_iua_2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mtpo_iua_2 of nt_y_ears_vibr_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "I forgot the applications were on my device"
+    },
+    "question": {
+        "en": "I forgot the applications were on my device"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly agree"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat Agree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neutral"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Somewhat Disagree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly Disagree"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

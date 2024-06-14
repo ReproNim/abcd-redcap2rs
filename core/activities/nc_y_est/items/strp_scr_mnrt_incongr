@@ -1,0 +1,24 @@
+{
+    "id": "strp_scr_mnrt_incongr",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "strp_scr_mnrt_incongr of nc_y_est"
+    },
+    "prefLabel": {
+        "en": "Mean correct latency (in ms) in \"incongruent\" pairings trials (across test blocks)"
+    },
+    "question": {
+        "en": "Mean correct latency (in ms) in \"incongruent\" pairings trials (across test blocks)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

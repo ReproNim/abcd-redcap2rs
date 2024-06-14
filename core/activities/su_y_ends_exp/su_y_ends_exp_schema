@@ -1,0 +1,126 @@
+{
+    "id": "su_y_ends_exp_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Attitude in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Ends_Exp"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/su_ceq_q01",
+            "items/su_ceq_q02",
+            "items/su_ceq_q03",
+            "items/su_ceq_q04",
+            "items/su_ceq_q05",
+            "items/su_ceq_q06",
+            "items/su_ceq_q07",
+            "items/su_ceq_q08",
+            "items/su_nic_admin",
+            "items/ceq_positive_expectancies_nt",
+            "items/ceq_positive_expectancies_nm",
+            "items/ceq_positive_expectancies_ss",
+            "items/ceq_negative_expectancies_nt",
+            "items/ceq_negative_expectancies_nm",
+            "items/ceq_negative_expectancies_ss"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/su_ceq_q01",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ceq_q01"
+            },
+            {
+                "isAbout": "items/su_ceq_q02",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ceq_q02"
+            },
+            {
+                "isAbout": "items/su_ceq_q03",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ceq_q03"
+            },
+            {
+                "isAbout": "items/su_ceq_q04",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ceq_q04"
+            },
+            {
+                "isAbout": "items/su_ceq_q05",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ceq_q05"
+            },
+            {
+                "isAbout": "items/su_ceq_q06",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ceq_q06"
+            },
+            {
+                "isAbout": "items/su_ceq_q07",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ceq_q07"
+            },
+            {
+                "isAbout": "items/su_ceq_q08",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ceq_q08"
+            },
+            {
+                "isAbout": "items/su_nic_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_nic_admin"
+            },
+            {
+                "isAbout": "items/ceq_positive_expectancies_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ceq_positive_expectancies_nt"
+            },
+            {
+                "isAbout": "items/ceq_positive_expectancies_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ceq_positive_expectancies_nm"
+            },
+            {
+                "isAbout": "items/ceq_positive_expectancies_ss",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ceq_positive_expectancies_ss"
+            },
+            {
+                "isAbout": "items/ceq_negative_expectancies_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ceq_negative_expectancies_nt"
+            },
+            {
+                "isAbout": "items/ceq_negative_expectancies_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ceq_negative_expectancies_nm"
+            },
+            {
+                "isAbout": "items/ceq_negative_expectancies_ss",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ceq_negative_expectancies_ss"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

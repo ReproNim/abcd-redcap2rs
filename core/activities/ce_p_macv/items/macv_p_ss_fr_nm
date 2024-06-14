@@ -1,0 +1,25 @@
+{
+    "id": "macv_p_ss_fr_nm",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "Number Missing Answers"
+    },
+    "prefLabel": {
+        "en": "MACVS Family as Referent Subscale"
+    },
+    "question": {
+        "en": "MACVS Family as Referent Subscale"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

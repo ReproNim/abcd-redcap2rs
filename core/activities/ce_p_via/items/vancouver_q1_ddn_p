@@ -1,0 +1,605 @@
+{
+    "id": "vancouver_q1_ddn_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "vancouver_q1_ddn_p of ce_p_via"
+    },
+    "prefLabel": {
+        "en": "Your heritage culture (other than mainstream American) is: Nuestra cultura de origen (que no sea americana o estadounidense) es:"
+    },
+    "question": {
+        "en": "Your heritage culture (other than mainstream American) is: Nuestra cultura de origen (que no sea americana o estadounidense) es:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "African"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "African-American"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Afro-Caribbean [Afrocaribe)]"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Arabian"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Argentinian [Argentino(a)]"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Armenian"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Asian"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Australian"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Austrian"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Belgian"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Biracial or Multiracial [biracial o multiracial]"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Brazilian"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "British"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Cambodian"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Canadian"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Caribbean [Caribe)]"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Catholic [Cat'o(a)]"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Celtic"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "Central-American [Centroamericano(a)]"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "Chagga"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "Chinese"
+                },
+                "value": 22
+            },
+            {
+                "name": {
+                    "en": "Christian"
+                },
+                "value": 23
+            },
+            {
+                "name": {
+                    "en": "Colombian [Colombiano(a)]"
+                },
+                "value": 24
+            },
+            {
+                "name": {
+                    "en": "Creole"
+                },
+                "value": 25
+            },
+            {
+                "name": {
+                    "en": "Croatian"
+                },
+                "value": 26
+            },
+            {
+                "name": {
+                    "en": "Cuban [Cubano(a)]"
+                },
+                "value": 27
+            },
+            {
+                "name": {
+                    "en": "Czech"
+                },
+                "value": 28
+            },
+            {
+                "name": {
+                    "en": "Dominican [Dominicano(a)]"
+                },
+                "value": 29
+            },
+            {
+                "name": {
+                    "en": "Dutch"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "Eastern European"
+                },
+                "value": 31
+            },
+            {
+                "name": {
+                    "en": "Eastern Orthodox Christian"
+                },
+                "value": 32
+            },
+            {
+                "name": {
+                    "en": "Ecuadorian [Ecuatoriano(a)]"
+                },
+                "value": 33
+            },
+            {
+                "name": {
+                    "en": "English"
+                },
+                "value": 34
+            },
+            {
+                "name": {
+                    "en": "European"
+                },
+                "value": 35
+            },
+            {
+                "name": {
+                    "en": "Filipino"
+                },
+                "value": 36
+            },
+            {
+                "name": {
+                    "en": "Finnish"
+                },
+                "value": 37
+            },
+            {
+                "name": {
+                    "en": "French"
+                },
+                "value": 38
+            },
+            {
+                "name": {
+                    "en": "French Canadian"
+                },
+                "value": 39
+            },
+            {
+                "name": {
+                    "en": "Fundamentalist"
+                },
+                "value": 40
+            },
+            {
+                "name": {
+                    "en": "German"
+                },
+                "value": 41
+            },
+            {
+                "name": {
+                    "en": "Greek"
+                },
+                "value": 42
+            },
+            {
+                "name": {
+                    "en": "Guatemalan [Guatemalteco(a)]"
+                },
+                "value": 43
+            },
+            {
+                "name": {
+                    "en": "Haitian"
+                },
+                "value": 44
+            },
+            {
+                "name": {
+                    "en": "Hawaiian"
+                },
+                "value": 45
+            },
+            {
+                "name": {
+                    "en": "Hispanic [Hispano(a)]"
+                },
+                "value": 46
+            },
+            {
+                "name": {
+                    "en": "Honduran [Hondure)]"
+                },
+                "value": 47
+            },
+            {
+                "name": {
+                    "en": "Hungarian"
+                },
+                "value": 48
+            },
+            {
+                "name": {
+                    "en": "Indian"
+                },
+                "value": 49
+            },
+            {
+                "name": {
+                    "en": "Indonesian"
+                },
+                "value": 50
+            },
+            {
+                "name": {
+                    "en": "Irish"
+                },
+                "value": 51
+            },
+            {
+                "name": {
+                    "en": "Israeli"
+                },
+                "value": 52
+            },
+            {
+                "name": {
+                    "en": "Italian"
+                },
+                "value": 53
+            },
+            {
+                "name": {
+                    "en": "Jamaican"
+                },
+                "value": 54
+            },
+            {
+                "name": {
+                    "en": "Japanese"
+                },
+                "value": 55
+            },
+            {
+                "name": {
+                    "en": "Jewish [Jud'a)]"
+                },
+                "value": 56
+            },
+            {
+                "name": {
+                    "en": "Korean"
+                },
+                "value": 57
+            },
+            {
+                "name": {
+                    "en": "Latin/ Latino(a)"
+                },
+                "value": 58
+            },
+            {
+                "name": {
+                    "en": "Latter-day Saint (LDS)"
+                },
+                "value": 59
+            },
+            {
+                "name": {
+                    "en": "Lebanese"
+                },
+                "value": 60
+            },
+            {
+                "name": {
+                    "en": "Lithuanian"
+                },
+                "value": 61
+            },
+            {
+                "name": {
+                    "en": "Mexican [Mexicano(a)]"
+                },
+                "value": 62
+            },
+            {
+                "name": {
+                    "en": "Middle-Eastern"
+                },
+                "value": 63
+            },
+            {
+                "name": {
+                    "en": "Midwesterner"
+                },
+                "value": 64
+            },
+            {
+                "name": {
+                    "en": "Moroccan"
+                },
+                "value": 65
+            },
+            {
+                "name": {
+                    "en": "Muslim"
+                },
+                "value": 66
+            },
+            {
+                "name": {
+                    "en": "Native American"
+                },
+                "value": 67
+            },
+            {
+                "name": {
+                    "en": "Nicaraguan [Nicarag'ense]"
+                },
+                "value": 68
+            },
+            {
+                "name": {
+                    "en": "Northern European"
+                },
+                "value": 69
+            },
+            {
+                "name": {
+                    "en": "Norwegian"
+                },
+                "value": 70
+            },
+            {
+                "name": {
+                    "en": "Pacific Islander"
+                },
+                "value": 71
+            },
+            {
+                "name": {
+                    "en": "Pentecostal"
+                },
+                "value": 72
+            },
+            {
+                "name": {
+                    "en": "Persian"
+                },
+                "value": 73
+            },
+            {
+                "name": {
+                    "en": "Peruvian [Peruano(a)]"
+                },
+                "value": 74
+            },
+            {
+                "name": {
+                    "en": "Polish"
+                },
+                "value": 75
+            },
+            {
+                "name": {
+                    "en": "Protestant"
+                },
+                "value": 76
+            },
+            {
+                "name": {
+                    "en": "Puerto-Rican [Puertorrique)]"
+                },
+                "value": 77
+            },
+            {
+                "name": {
+                    "en": "Romanian"
+                },
+                "value": 78
+            },
+            {
+                "name": {
+                    "en": "Russian"
+                },
+                "value": 79
+            },
+            {
+                "name": {
+                    "en": "Salvadorian [Salvadore)]"
+                },
+                "value": 80
+            },
+            {
+                "name": {
+                    "en": "Scandinavian"
+                },
+                "value": 81
+            },
+            {
+                "name": {
+                    "en": "Scottish"
+                },
+                "value": 82
+            },
+            {
+                "name": {
+                    "en": "Slovak"
+                },
+                "value": 83
+            },
+            {
+                "name": {
+                    "en": "South American [Sudamericano(a)]"
+                },
+                "value": 84
+            },
+            {
+                "name": {
+                    "en": "Southerner"
+                },
+                "value": 85
+            },
+            {
+                "name": {
+                    "en": "Swedish"
+                },
+                "value": 86
+            },
+            {
+                "name": {
+                    "en": "Swiss"
+                },
+                "value": 87
+            },
+            {
+                "name": {
+                    "en": "Taiwanese"
+                },
+                "value": 88
+            },
+            {
+                "name": {
+                    "en": "Thai"
+                },
+                "value": 89
+            },
+            {
+                "name": {
+                    "en": "Turkish"
+                },
+                "value": 90
+            },
+            {
+                "name": {
+                    "en": "Venezuelan [Venezolano(a)]"
+                },
+                "value": 91
+            },
+            {
+                "name": {
+                    "en": "Vietnamese"
+                },
+                "value": 92
+            },
+            {
+                "name": {
+                    "en": "Welsh"
+                },
+                "value": 93
+            },
+            {
+                "name": {
+                    "en": "West Indian"
+                },
+                "value": 94
+            },
+            {
+                "name": {
+                    "en": "Western European"
+                },
+                "value": 95
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 96
+            }
+        ],
+        "maxValue": 96,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

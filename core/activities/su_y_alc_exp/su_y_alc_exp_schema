@@ -1,0 +1,119 @@
+{
+    "id": "su_y_alc_exp_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Attitude in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Alc_Exp"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/aeq_section_q01",
+            "items/aeq_section_q02",
+            "items/aeq_section_q03",
+            "items/aeq_section_q04",
+            "items/aeq_section_q05",
+            "items/aeq_section_q06",
+            "items/aeq_section_q07",
+            "items/su_alc_admin",
+            "items/aeq_positive_expectancies_nm",
+            "items/aeq_positive_expectancies_nt",
+            "items/aeq_positive_expectancies_ss",
+            "items/aeq_negative_expectancies_nm",
+            "items/aeq_negative_expectancies_nt",
+            "items/aeq_negative_expectancies_ss"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/aeq_section_q01",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "aeq_section_q01"
+            },
+            {
+                "isAbout": "items/aeq_section_q02",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "aeq_section_q02"
+            },
+            {
+                "isAbout": "items/aeq_section_q03",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "aeq_section_q03"
+            },
+            {
+                "isAbout": "items/aeq_section_q04",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "aeq_section_q04"
+            },
+            {
+                "isAbout": "items/aeq_section_q05",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "aeq_section_q05"
+            },
+            {
+                "isAbout": "items/aeq_section_q06",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "aeq_section_q06"
+            },
+            {
+                "isAbout": "items/aeq_section_q07",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "aeq_section_q07"
+            },
+            {
+                "isAbout": "items/su_alc_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_alc_admin"
+            },
+            {
+                "isAbout": "items/aeq_positive_expectancies_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "aeq_positive_expectancies_nm"
+            },
+            {
+                "isAbout": "items/aeq_positive_expectancies_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "aeq_positive_expectancies_nt"
+            },
+            {
+                "isAbout": "items/aeq_positive_expectancies_ss",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "aeq_positive_expectancies_ss"
+            },
+            {
+                "isAbout": "items/aeq_negative_expectancies_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "aeq_negative_expectancies_nm"
+            },
+            {
+                "isAbout": "items/aeq_negative_expectancies_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "aeq_negative_expectancies_nt"
+            },
+            {
+                "isAbout": "items/aeq_negative_expectancies_ss",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "aeq_negative_expectancies_ss"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

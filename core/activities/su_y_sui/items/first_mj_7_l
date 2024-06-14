@@ -1,0 +1,47 @@
+{
+    "id": "first_mj_7_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "first_mj_7_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Did the person the marijuana belonged to offer you some or did you take it when they weren't looking?"
+    },
+    "question": {
+        "en": "Did the person the marijuana belonged to offer you some or did you take it when they weren't looking?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "They offered me some"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I intentionally took it when they weren't looking"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I accidentally took it when they weren't looking / tlfb_mj_puff_l  =='1' &&  tlfb_mj_puff_c_l  =='0'"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,59 @@
+{
+    "id": "stressful_y_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "stressful_y_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "COVID-19 presents a lot of uncertainty about the future. In the past 7 days, including today, how stressful have you found this uncertainty to be?"
+    },
+    "question": {
+        "en": "COVID-19 presents a lot of uncertainty about the future. In the past 7 days, including today, how stressful have you found this uncertainty to be?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very slightly or not at all"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Slightly"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Moderately"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Quite a bit"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Extremely  [eventname] = 'covid19_cv2_arm_2' or [eventname] = 'covid19_cv4_arm_2'"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

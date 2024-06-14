@@ -1,0 +1,24 @@
+{
+    "id": "ksads2_13_894_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads2_13_894_p of mh_p_ksads_ss"
+    },
+    "prefLabel": {
+        "en": "Diagnosis - Anorexia Nervosa (F50.01) Restricting subtype, PRESENT, IN PARTIAL REMISSION"
+    },
+    "question": {
+        "en": "Diagnosis - Anorexia Nervosa (F50. 01) Restricting subtype, PRESENT, IN PARTIAL REMISSION"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

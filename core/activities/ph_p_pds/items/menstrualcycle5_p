@@ -1,0 +1,59 @@
+{
+    "id": "menstrualcycle5_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "menstrualcycle5_p of ph_p_pds"
+    },
+    "prefLabel": {
+        "en": "Do they experience premenstrual irritability, fatigue, tearfulness, etc., which start before their period and stop within a few days of bleeding?"
+    },
+    "question": {
+        "en": "Do they experience premenstrual irritability, fatigue, tearfulness, etc. , which start before their period and stop within a few days of bleeding?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all Para nada"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mild Leves"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Moderate Moderados"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Severe Graves"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't know No s\u00e9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

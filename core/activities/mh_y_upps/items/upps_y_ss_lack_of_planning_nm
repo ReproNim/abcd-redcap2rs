@@ -1,0 +1,24 @@
+{
+    "id": "upps_y_ss_lack_of_planning_nm",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "upps_y_ss_lack_of_planning_nm of mh_y_upps"
+    },
+    "prefLabel": {
+        "en": "UPPS-P for Children Short Form (ABCD-version), Lack of Planning:  Number Missing Answers"
+    },
+    "question": {
+        "en": "UPPS-P for Children Short Form (ABCD-version), Lack of Planning:  Number Missing Answers"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

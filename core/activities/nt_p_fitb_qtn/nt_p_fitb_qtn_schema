@@ -1,0 +1,371 @@
+{
+    "id": "nt_p_fitb_qtn_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Actigraphy in Novel Technologies"
+    },
+    "prefLabel": {
+        "en": "Nt_P_Fitb_Qtn"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/fitpr_select_language",
+            "items/fitpr_physical_p",
+            "items/fitpr_physical_health_p",
+            "items/fitpr_sedentary_p",
+            "items/fitpr_sedentary_health_p",
+            "items/fitpr_worn_tracker_p",
+            "items/fitpr_consistent_p",
+            "items/fitpr_remove_amt_p",
+            "items/fitpr_check_amt_p",
+            "items/fitpr_change_p",
+            "items/fitpr_remove_p___1",
+            "items/fitpr_remove_p___2",
+            "items/fitpr_remove_p___3",
+            "items/fitpr_remove_p___4",
+            "items/fitpr_remove_p___5",
+            "items/fitpo_select_language",
+            "items/fitpo_physical_p",
+            "items/fitpo_physical_health_p",
+            "items/fitpo_sedentary_p",
+            "items/fitpo_sedentary_healthy_p",
+            "items/fitpo_sleep_health_p",
+            "items/fitpo_sleep_amt_p",
+            "items/fitpo_use_app_p",
+            "items/fitpo_encourage_p",
+            "items/fitpo_child_app_p",
+            "items/fitpo_change_p",
+            "items/fitpo_in_school_p___1",
+            "items/fitpo_in_school_p___2",
+            "items/fitpo_in_school_p___3",
+            "items/fitpo_in_school_p___0",
+            "items/fitpo_at_camp_p___1",
+            "items/fitpo_at_camp_p___2",
+            "items/fitpo_at_camp_p___3",
+            "items/fitpo_at_camp_p___0",
+            "items/fitpo_vacation_p___1",
+            "items/fitpo_vacation_p___2",
+            "items/fitpo_vacation_p___3",
+            "items/fitpo_vacation_p___0",
+            "items/fitpo_sick_p___1",
+            "items/fitpo_sick_p___2",
+            "items/fitpo_sick_p___3",
+            "items/fitpo_sick_p___0",
+            "items/fitpo_beyond_typical_p___1",
+            "items/fitpo_beyond_typical_p___2",
+            "items/fitpo_beyond_typical_p___3",
+            "items/fitpo_beyond_typical_p___0",
+            "items/fitpo_unusual_routine_p___1",
+            "items/fitpo_unusual_routine_p___2",
+            "items/fitpo_unusual_routine_p___3",
+            "items/fitpo_unusual_routine_p___0"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/fitpr_select_language",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpr_select_language"
+            },
+            {
+                "isAbout": "items/fitpr_physical_p",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpr_physical_p"
+            },
+            {
+                "isAbout": "items/fitpr_physical_health_p",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpr_physical_health_p"
+            },
+            {
+                "isAbout": "items/fitpr_sedentary_p",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpr_sedentary_p"
+            },
+            {
+                "isAbout": "items/fitpr_sedentary_health_p",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpr_sedentary_health_p"
+            },
+            {
+                "isAbout": "items/fitpr_worn_tracker_p",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpr_worn_tracker_p"
+            },
+            {
+                "isAbout": "items/fitpr_consistent_p",
+                "isVis": "fitpr_worn_tracker_p === 1  && \nfitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpr_consistent_p"
+            },
+            {
+                "isAbout": "items/fitpr_remove_amt_p",
+                "isVis": "fitpr_worn_tracker_p === 1  &&",
+                "valueRequired": true,
+                "variableName": "fitpr_remove_amt_p"
+            },
+            {
+                "isAbout": "items/fitpr_check_amt_p",
+                "isVis": "fitpr_worn_tracker_p === 1  && \nfitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpr_check_amt_p"
+            },
+            {
+                "isAbout": "items/fitpr_change_p",
+                "isVis": "fitpr_worn_tracker_p === 1  && \nfitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpr_change_p"
+            },
+            {
+                "isAbout": "items/fitpr_remove_p___1",
+                "isVis": "fitpr_worn_tracker_p === 1  && fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpr_remove_p___1"
+            },
+            {
+                "isAbout": "items/fitpr_remove_p___2",
+                "isVis": "fitpr_worn_tracker_p === 1  && fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpr_remove_p___2"
+            },
+            {
+                "isAbout": "items/fitpr_remove_p___3",
+                "isVis": "fitpr_worn_tracker_p === 1  && fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpr_remove_p___3"
+            },
+            {
+                "isAbout": "items/fitpr_remove_p___4",
+                "isVis": "fitpr_worn_tracker_p === 1  && fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpr_remove_p___4"
+            },
+            {
+                "isAbout": "items/fitpr_remove_p___5",
+                "isVis": "fitpr_worn_tracker_p === 1  && fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpr_remove_p___5"
+            },
+            {
+                "isAbout": "items/fitpo_select_language",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_select_language"
+            },
+            {
+                "isAbout": "items/fitpo_physical_p",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_physical_p"
+            },
+            {
+                "isAbout": "items/fitpo_physical_health_p",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_physical_health_p"
+            },
+            {
+                "isAbout": "items/fitpo_sedentary_p",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_sedentary_p"
+            },
+            {
+                "isAbout": "items/fitpo_sedentary_healthy_p",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_sedentary_healthy_p"
+            },
+            {
+                "isAbout": "items/fitpo_sleep_health_p",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_sleep_health_p"
+            },
+            {
+                "isAbout": "items/fitpo_sleep_amt_p",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_sleep_amt_p"
+            },
+            {
+                "isAbout": "items/fitpo_use_app_p",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_use_app_p"
+            },
+            {
+                "isAbout": "items/fitpo_encourage_p",
+                "isVis": "fitpo_use_app_p === 1 && fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_encourage_p"
+            },
+            {
+                "isAbout": "items/fitpo_child_app_p",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_child_app_p"
+            },
+            {
+                "isAbout": "items/fitpo_change_p",
+                "isVis": "fitpo_child_app_p === 1 && fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_change_p"
+            },
+            {
+                "isAbout": "items/fitpo_in_school_p___1",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_in_school_p___1"
+            },
+            {
+                "isAbout": "items/fitpo_in_school_p___2",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_in_school_p___2"
+            },
+            {
+                "isAbout": "items/fitpo_in_school_p___3",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_in_school_p___3"
+            },
+            {
+                "isAbout": "items/fitpo_in_school_p___0",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_in_school_p___0"
+            },
+            {
+                "isAbout": "items/fitpo_at_camp_p___1",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_at_camp_p___1"
+            },
+            {
+                "isAbout": "items/fitpo_at_camp_p___2",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_at_camp_p___2"
+            },
+            {
+                "isAbout": "items/fitpo_at_camp_p___3",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_at_camp_p___3"
+            },
+            {
+                "isAbout": "items/fitpo_at_camp_p___0",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_at_camp_p___0"
+            },
+            {
+                "isAbout": "items/fitpo_vacation_p___1",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_vacation_p___1"
+            },
+            {
+                "isAbout": "items/fitpo_vacation_p___2",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_vacation_p___2"
+            },
+            {
+                "isAbout": "items/fitpo_vacation_p___3",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_vacation_p___3"
+            },
+            {
+                "isAbout": "items/fitpo_vacation_p___0",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_vacation_p___0"
+            },
+            {
+                "isAbout": "items/fitpo_sick_p___1",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_sick_p___1"
+            },
+            {
+                "isAbout": "items/fitpo_sick_p___2",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_sick_p___2"
+            },
+            {
+                "isAbout": "items/fitpo_sick_p___3",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_sick_p___3"
+            },
+            {
+                "isAbout": "items/fitpo_sick_p___0",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_sick_p___0"
+            },
+            {
+                "isAbout": "items/fitpo_beyond_typical_p___1",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_beyond_typical_p___1"
+            },
+            {
+                "isAbout": "items/fitpo_beyond_typical_p___2",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_beyond_typical_p___2"
+            },
+            {
+                "isAbout": "items/fitpo_beyond_typical_p___3",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_beyond_typical_p___3"
+            },
+            {
+                "isAbout": "items/fitpo_beyond_typical_p___0",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_beyond_typical_p___0"
+            },
+            {
+                "isAbout": "items/fitpo_unusual_routine_p___1",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_unusual_routine_p___1"
+            },
+            {
+                "isAbout": "items/fitpo_unusual_routine_p___2",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_unusual_routine_p___2"
+            },
+            {
+                "isAbout": "items/fitpo_unusual_routine_p___3",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_unusual_routine_p___3"
+            },
+            {
+                "isAbout": "items/fitpo_unusual_routine_p___0",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_unusual_routine_p___0"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

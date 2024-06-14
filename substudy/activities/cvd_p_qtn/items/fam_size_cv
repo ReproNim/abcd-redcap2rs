@@ -1,0 +1,35 @@
+{
+    "id": "fam_size_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fam_size_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "How many people are living at your address? INCLUDE  yourself and everyone who is living or staying at your place this week."
+    },
+    "question": {
+        "en": "How many people are living at your address? INCLUDE  yourself and everyone who is living or staying at your place this week."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "11 or more"
+                },
+                "value": 11
+            }
+        ],
+        "maxValue": 11,
+        "minValue": 11,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

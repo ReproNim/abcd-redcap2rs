@@ -1,0 +1,54 @@
+{
+    "id": "brought_medications",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "brought_medications of ph_p_meds"
+    },
+    "prefLabel": {
+        "en": "Did your child take any medications in the past two weeks and if so did you bring them with you? ? /\u00bfSu ni\u00f1o(a) tom\u00f3 alg\u00fan medicamento en las \u00faltimas dos semanas? Si la respuesta es s\u00ed, trajo todos los medicamentos de su ni\u00f1o(a) a esta visita?"
+    },
+    "question": {
+        "en": "Did your child take any medications in the past two weeks and if so did you bring them with you? ?",
+        "es": "\u00bfSu ni\u00f1o(a) tom\u00f3 alg\u00fan medicamento en las \u00faltimas dos semanas? Si la respuesta es s\u00ed, trajo todos los medicamentos de su ni\u00f1o(a) a esta visita?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Refused - Record reason for refusal in Comments Section Se neg\u00f3 - anote el motivo por el cual se neg\u00f3 en la secci\u00f3n de Comentarios."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Took No Medications No us\u00f3 ning\u00fan medicamento | Mark the form status as 'Unverified' if you are waiting on the parent to provide child's medications.//The ABCD Study will be describing all medications its participants are using, both prescription and over-the-counter. These include pills, liquid medications; skin patches, eye drops, creams, salves, inhalers and injections, as well as cold or allergy medications, vitamins, herbal remedies and other supplements"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

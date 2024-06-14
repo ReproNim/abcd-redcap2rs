@@ -1,0 +1,24 @@
+{
+    "id": "anthro3heightin",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "anthro3heightin of ph_y_anthro"
+    },
+    "prefLabel": {
+        "en": "STANDING HEIGHT #3 (in inches)"
+    },
+    "question": {
+        "en": "STANDING HEIGHT #3 (in inches)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

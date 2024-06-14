@@ -1,0 +1,24 @@
+{
+    "id": "led_sch_seda_s_disab_tot_idea",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "led_sch_seda_s_disab_tot_idea of led_l_seda_demo_s"
+    },
+    "prefLabel": {
+        "en": "proportion classified as disabled (IDEA Only) (CRDC) (2012; 2014; 2016; 2018 weighted average)"
+    },
+    "question": {
+        "en": "proportion classified as disabled (IDEA Only) (CRDC) (2012; 2014; 2016; 2018 weighted average)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "mtpo_study_6_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mtpo_study_6_p of nt_p_ears_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "Did they use their device more or less when they were not in school?"
+    },
+    "question": {
+        "en": "Did they use their device more or less when they were not in school?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "More"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Less"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No Change"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

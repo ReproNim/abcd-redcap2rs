@@ -1,0 +1,65 @@
+{
+    "id": "abcl_about_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "abcl_about_p of mh_p_abcl"
+    },
+    "prefLabel": {
+        "en": "Your current relationship with this adult:"
+    },
+    "question": {
+        "en": "Your current relationship with this adult:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not Applicable/ No Aplica"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Spouse/ Cnyuge"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Former Spouse/Ex Cnyuge"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Partner (never married) /Pareja (nunca casado)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Former Partner (never married)/Ex Pareja (nunca casado)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other /Otro - por favor describa:="
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "vac_child_date_2_cv_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "vac_child_date_2_cv_p of ph_p_covid"
+    },
+    "prefLabel": {
+        "en": "When did your child receive their second vaccination? / \u00bfCu\u00e1ndo recibi\u00f3 su hijo/a su segunda vacuna?"
+    },
+    "question": {
+        "en": "When did your child receive their second vaccination? a su segunda vacuna?",
+        "es": "\u00bfCu\u00e1ndo recibi\u00f3 su hijo"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

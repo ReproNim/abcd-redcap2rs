@@ -1,0 +1,41 @@
+{
+    "id": "ksads_bd_raw_120_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_bd_raw_120_p of mh_p_ksads_bp"
+    },
+    "prefLabel": {
+        "en": "Was there ever a time in the past that your child felt like he or she were high or super happy for no particular reason, for multiple hours a day for several days in a row?"
+    },
+    "question": {
+        "en": "Was there ever a time in the past that your child felt like he or she were high or super happy for no particular reason, for multiple hours a day for several days in a row?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

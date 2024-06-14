@@ -1,0 +1,24 @@
+{
+    "id": "nt_y_ears_kb_key_sum",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nt_y_ears_kb_key_sum of nt_y_ears"
+    },
+    "prefLabel": {
+        "en": "Total number of keystrokes over duration of tracking period (count)"
+    },
+    "question": {
+        "en": "Total number of keystrokes over duration of tracking period (count)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

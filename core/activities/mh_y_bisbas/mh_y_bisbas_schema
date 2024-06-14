@@ -1,0 +1,315 @@
+{
+    "id": "mh_y_bisbas_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Temperament/Personality in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_Y_Bisbas"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/bisbas1_y",
+            "items/bisbas2_y",
+            "items/bisbas3_y",
+            "items/bisbas4_y",
+            "items/bisbas5_y",
+            "items/bisbas6_y",
+            "items/bisbas7_y",
+            "items/bisbas8_y",
+            "items/bisbas10_y",
+            "items/bisbas9_y",
+            "items/bisbas11_y",
+            "items/bisbas12_y",
+            "items/bisbas13_y",
+            "items/bisbas14_y",
+            "items/bisbas15_y",
+            "items/bisbas16_y",
+            "items/bisbas17_y",
+            "items/bisbas18_y",
+            "items/bisbas19_y",
+            "items/bisbas20_y",
+            "items/bisbas5r_y",
+            "items/bis_y_ss_bis_sum",
+            "items/bis_y_ss_bis_sum_nm",
+            "items/bis_y_ss_bis_sum_nt",
+            "items/bis_y_ss_bas_rr",
+            "items/bis_y_ss_bas_rr_nm",
+            "items/bis_y_ss_bas_rr_nt",
+            "items/bis_y_ss_bas_drive",
+            "items/bis_y_ss_bas_drive_nm",
+            "items/bis_y_ss_bas_drive_nt",
+            "items/bis_y_ss_bas_fs",
+            "items/bis_y_ss_bas_fs_nm",
+            "items/bis_y_ss_bas_fs_nt",
+            "items/bis_y_ss_bism_sum",
+            "items/bis_y_ss_bism_sum_nm",
+            "items/bis_y_ss_bism_sum_nt",
+            "items/bis_y_ss_basm_rr",
+            "items/bis_y_ss_basm_rr_nm",
+            "items/bis_y_ss_basm_rr_nt",
+            "items/bis_y_ss_basm_drive",
+            "items/bis_y_ss_basm_drive_nm",
+            "items/bis_y_ss_basm_drive_nt"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/bisbas1_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas1_y"
+            },
+            {
+                "isAbout": "items/bisbas2_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas2_y"
+            },
+            {
+                "isAbout": "items/bisbas3_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas3_y"
+            },
+            {
+                "isAbout": "items/bisbas4_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas4_y"
+            },
+            {
+                "isAbout": "items/bisbas5_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas5_y"
+            },
+            {
+                "isAbout": "items/bisbas6_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas6_y"
+            },
+            {
+                "isAbout": "items/bisbas7_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas7_y"
+            },
+            {
+                "isAbout": "items/bisbas8_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas8_y"
+            },
+            {
+                "isAbout": "items/bisbas10_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas10_y"
+            },
+            {
+                "isAbout": "items/bisbas9_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas9_y"
+            },
+            {
+                "isAbout": "items/bisbas11_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas11_y"
+            },
+            {
+                "isAbout": "items/bisbas12_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas12_y"
+            },
+            {
+                "isAbout": "items/bisbas13_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas13_y"
+            },
+            {
+                "isAbout": "items/bisbas14_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas14_y"
+            },
+            {
+                "isAbout": "items/bisbas15_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas15_y"
+            },
+            {
+                "isAbout": "items/bisbas16_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas16_y"
+            },
+            {
+                "isAbout": "items/bisbas17_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas17_y"
+            },
+            {
+                "isAbout": "items/bisbas18_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas18_y"
+            },
+            {
+                "isAbout": "items/bisbas19_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas19_y"
+            },
+            {
+                "isAbout": "items/bisbas20_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas20_y"
+            },
+            {
+                "isAbout": "items/bisbas5r_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bisbas5r_y"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bis_sum",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_bis_sum"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bis_sum_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_bis_sum_nm"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bis_sum_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_bis_sum_nt"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bas_rr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_bas_rr"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bas_rr_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_bas_rr_nm"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bas_rr_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_bas_rr_nt"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bas_drive",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_bas_drive"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bas_drive_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_bas_drive_nm"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bas_drive_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_bas_drive_nt"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bas_fs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_bas_fs"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bas_fs_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_bas_fs_nm"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bas_fs_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_bas_fs_nt"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bism_sum",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_bism_sum"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bism_sum_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_bism_sum_nm"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bism_sum_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_bism_sum_nt"
+            },
+            {
+                "isAbout": "items/bis_y_ss_basm_rr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_basm_rr"
+            },
+            {
+                "isAbout": "items/bis_y_ss_basm_rr_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_basm_rr_nm"
+            },
+            {
+                "isAbout": "items/bis_y_ss_basm_rr_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_basm_rr_nt"
+            },
+            {
+                "isAbout": "items/bis_y_ss_basm_drive",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_basm_drive"
+            },
+            {
+                "isAbout": "items/bis_y_ss_basm_drive_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_basm_drive_nm"
+            },
+            {
+                "isAbout": "items/bis_y_ss_basm_drive_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bis_y_ss_basm_drive_nt"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

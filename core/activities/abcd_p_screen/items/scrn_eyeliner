@@ -1,0 +1,42 @@
+{
+    "id": "scrn_eyeliner",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_eyeliner of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Does your child have tattooed eyeliner or permanent eyebrow fill-in or permanent makeup? /\u00ac\u00f8Su ni\u221a\u00b1o(a) tiene tatuajes de delineador de ojos, relleno para cejas o maquillaje permanentes?"
+    },
+    "question": {
+        "en": "Does your child have tattooed eyeliner or permanent eyebrow fill-in or permanent makeup?",
+        "es": "\u00ac\u00f8Su ni\u221a\u00b1o(a) tiene tatuajes de delineador de ojos, relleno para cejas o maquillaje permanentes?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes - GO TO END"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "bisbas16_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bisbas16_y of mh_y_bisbas"
+    },
+    "prefLabel": {
+        "en": "Nobody can stop me when I want something."
+    },
+    "question": {
+        "en": "Nobody can stop me when I want something."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not true"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat true"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "True"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Very true"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

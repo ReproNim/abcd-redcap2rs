@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_mac_and_cheese",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_mac_and_cheese of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Macaroni and cheese/Macarrones con queso"
+    },
+    "question": {
+        "en": "Macaroni and cheese",
+        "es": "Macarrones con queso"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

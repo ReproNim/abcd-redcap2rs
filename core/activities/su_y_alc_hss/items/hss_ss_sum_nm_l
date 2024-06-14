@@ -1,0 +1,24 @@
+{
+    "id": "hss_ss_sum_nm_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "hss_ss_sum_nm_l of su_y_alc_hss"
+    },
+    "prefLabel": {
+        "en": "HSS Sum number missing (Followup Visits)"
+    },
+    "question": {
+        "en": "HSS Sum number missing (Followup Visits)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

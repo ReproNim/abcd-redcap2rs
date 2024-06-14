@@ -1,0 +1,119 @@
+{
+    "id": "mh_p_gbi_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Mood in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_P_Gbi"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/gbi_select_language___1",
+            "items/gen_child_behav_1",
+            "items/gen_child_behav_2",
+            "items/gen_child_behav_3",
+            "items/gen_child_behav_4",
+            "items/gen_child_behav_5",
+            "items/gen_child_behav_6",
+            "items/gen_child_behav_7",
+            "items/gen_child_behav_8",
+            "items/gen_child_behav_9",
+            "items/gen_child_behav_10",
+            "items/pgbi_p_ss_score",
+            "items/pgbi_p_ss_score_nm",
+            "items/pgbi_p_ss_score_nt"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/gbi_select_language___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gbi_select_language___1"
+            },
+            {
+                "isAbout": "items/gen_child_behav_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gen_child_behav_1"
+            },
+            {
+                "isAbout": "items/gen_child_behav_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gen_child_behav_2"
+            },
+            {
+                "isAbout": "items/gen_child_behav_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gen_child_behav_3"
+            },
+            {
+                "isAbout": "items/gen_child_behav_4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gen_child_behav_4"
+            },
+            {
+                "isAbout": "items/gen_child_behav_5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gen_child_behav_5"
+            },
+            {
+                "isAbout": "items/gen_child_behav_6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gen_child_behav_6"
+            },
+            {
+                "isAbout": "items/gen_child_behav_7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gen_child_behav_7"
+            },
+            {
+                "isAbout": "items/gen_child_behav_8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gen_child_behav_8"
+            },
+            {
+                "isAbout": "items/gen_child_behav_9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gen_child_behav_9"
+            },
+            {
+                "isAbout": "items/gen_child_behav_10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gen_child_behav_10"
+            },
+            {
+                "isAbout": "items/pgbi_p_ss_score",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pgbi_p_ss_score"
+            },
+            {
+                "isAbout": "items/pgbi_p_ss_score_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pgbi_p_ss_score_nm"
+            },
+            {
+                "isAbout": "items/pgbi_p_ss_score_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pgbi_p_ss_score_nt"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

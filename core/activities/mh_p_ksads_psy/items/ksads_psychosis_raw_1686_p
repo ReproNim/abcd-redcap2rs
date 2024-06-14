@@ -1,0 +1,41 @@
+{
+    "id": "ksads_psychosis_raw_1686_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_psychosis_raw_1686_p of mh_p_ksads_psy"
+    },
+    "prefLabel": {
+        "en": "Does your child's mind playing tricks on him or her cause difficulties for your child in any of the following areas:With family"
+    },
+    "question": {
+        "en": "Does your child's mind playing tricks on him or her cause difficulties for your child in any of the following areas:With family"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

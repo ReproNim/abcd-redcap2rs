@@ -1,0 +1,24 @@
+{
+    "id": "su_des_h2_instruct_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_des_h2_instruct_p of su_p_dse"
+    },
+    "prefLabel": {
+        "en": "Please enter the following:  Por favor ingrese la siguiente informacion: How many of these people who live or stay in the second household used the following drugs in the past yearCuantas de estas personas que viven o se quedan en el segundo hogar consumieron las siguientes drogas en el ultimo ao?"
+    },
+    "question": {
+        "en": "Please enter the following:  Por favor ingrese la siguiente informacion: How many of these people who live or stay in the second household used the following drugs in the past yearCuantas de estas personas que viven o se quedan en el segundo hogar consumieron las siguientes drogas en el ultimo ao?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

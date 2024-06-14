@@ -1,0 +1,24 @@
+{
+    "id": "ksads_13_943_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_13_943_p of mh_p_ksads_ss"
+    },
+    "prefLabel": {
+        "en": "Diagnosis - Other Specified Feeding or Eating Disorder Bulimia Nervosa PAST does not meet full criteria (F50.8)"
+    },
+    "question": {
+        "en": "Diagnosis - Other Specified Feeding or Eating Disorder Bulimia Nervosa PAST does not meet full criteria (F50. 8)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

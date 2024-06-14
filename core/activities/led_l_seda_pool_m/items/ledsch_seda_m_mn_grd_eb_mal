@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_m_mn_grd_eb_mal",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_m_mn_grd_eb_mal of led_l_seda_pool_m"
+    },
+    "prefLabel": {
+        "en": "Metro Grade Slope of Mean Ach, Math&Reading Language Arts, EB est, CS male"
+    },
+    "question": {
+        "en": "Metro Grade Slope of Mean Ach, Math&Reading Language Arts, EB est, CS male"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

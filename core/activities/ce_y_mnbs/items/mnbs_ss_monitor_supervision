@@ -1,0 +1,24 @@
+{
+    "id": "mnbs_ss_monitor_supervision",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mnbs_ss_monitor_supervision of ce_y_mnbs"
+    },
+    "prefLabel": {
+        "en": "Monitoring/Supervision: mean of 1,2,3,4"
+    },
+    "question": {
+        "en": "Monitoring Supervision: mean of 1,2,3,4"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

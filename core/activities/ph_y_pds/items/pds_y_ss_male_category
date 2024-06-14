@@ -1,0 +1,35 @@
+{
+    "id": "pds_y_ss_male_category",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pds_y_ss_male_category of ph_y_pds"
+    },
+    "prefLabel": {
+        "en": "Pubertal Developmental Scale Youth,  Male Category:  pds_y_ss_m_cat_sum (sum_y_m) = pds_bdyhair_y + pds_m4_y + pds_m5_y;   1 - prepuberty  -  sum_y_m = 3,  2 - early puberty  -  sum_y_m >= 4 and <= 5,  3 - mid puberty  -   sum_y_m >= 6 and <= 8,  4 - late puberty  -   sum_y_m >= 9 and <=11,  5 - post puberty  -  sum_y_m = 12; Validation: All items must be answered"
+    },
+    "question": {
+        "en": "Pubertal Developmental Scale Youth,  Male Category:  pds_y_ss_m_cat_sum (sum_y_m) = pds_bdyhair_y + pds_m4_y + pds_m5_y;   1 - prepuberty  -  sum_y_m = 3,  2 - early puberty  -  sum_y_m >= 4 and <= 5,  3 - mid puberty  -   sum_y_m >= 6 and <= 8,  4 - late puberty  -   sum_y_m >= 9 and <=11,  5 - post puberty  -  sum_y_m = 12; Validation: All items must be answered"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "133."
+                },
+                "value": 117
+            }
+        ],
+        "maxValue": 117,
+        "minValue": 117,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

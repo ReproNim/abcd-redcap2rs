@@ -1,0 +1,47 @@
+{
+    "id": "extra_material_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "extra_material_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Did you or your child supplement the educational materials provided by the school with other sources (e.g.  Khan Academy)?"
+    },
+    "question": {
+        "en": "Did you or your child supplement the educational materials provided by the school with other sources (e. g. Khan Academy)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know[school_close_cv] = '2' or [school_at_home_cv] = '1'"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

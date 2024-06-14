@@ -1,0 +1,25 @@
+{
+    "id": "devhx_3_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_3_p of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "How old were you/biological mother when the child was born? /\u00bfCu\u00e1ntos a\u00f1os ten\u00eda usted (o la madre biol\u00f3gica) cuando naci\u00f3 el ni\u00f1o o la ni\u00f1a?"
+    },
+    "question": {
+        "en": "How old were you biological mother when the child was born?",
+        "es": "\u00bfCu\u00e1ntos a\u00f1os ten\u00eda usted (o la madre biol\u00f3gica) cuando naci\u00f3 el ni\u00f1o o la ni\u00f1a?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

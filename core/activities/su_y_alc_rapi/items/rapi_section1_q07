@@ -1,0 +1,53 @@
+{
+    "id": "rapi_section1_q07",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "rapi_section1_q07 of su_y_alc_rapi"
+    },
+    "prefLabel": {
+        "en": "Different things happen to people while they are drinking ALCOHOL or because of their ALCOHOL drinking. Several of these things are listed below. Please indicate how many times each has happened to you WITHIN THE PAST 6 MONTHS while you were drinking or as a result of your alcohol use. Friends or relatives avoided you."
+    },
+    "question": {
+        "en": "Different things happen to people while they are drinking ALCOHOL or because of their ALCOHOL drinking. Several of these things are listed below. Please indicate how many times each has happened to you WITHIN THE PAST 6 MONTHS while you were drinking or as a result of your alcohol use. Friends or relatives avoided you."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1-2"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "3-5"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "5+"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

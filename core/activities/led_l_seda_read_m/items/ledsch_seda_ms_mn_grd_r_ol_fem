@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_ms_mn_grd_r_ol_fem",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_ms_mn_grd_r_ol_fem of led_l_seda_read_m"
+    },
+    "prefLabel": {
+        "en": "Metro Poolsub (''pooled by subject'' - within subjects) Metro Area Grade Slope of Mean Ach, Reading Language Arts, OLS est, CS HLM using SEDA HETOP est female"
+    },
+    "question": {
+        "en": "Metro Poolsub (''pooled by subject'' - within subjects) Metro Area Grade Slope of Mean Ach, Reading Language Arts, OLS est, CS HLM using SEDA HETOP est female"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

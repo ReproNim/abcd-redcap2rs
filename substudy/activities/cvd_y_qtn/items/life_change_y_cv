@@ -1,0 +1,59 @@
+{
+    "id": "life_change_y_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "life_change_y_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "How much do you think your life has changed due to coronavirus (COVID-19)?"
+    },
+    "question": {
+        "en": "How much do you think your life has changed due to coronavirus (COVID-19)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Slightly"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Moderately"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Extremely  [eventname] = 'covid19_cv2_arm_2' or [eventname] = 'covid19_cv4_arm_2'"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

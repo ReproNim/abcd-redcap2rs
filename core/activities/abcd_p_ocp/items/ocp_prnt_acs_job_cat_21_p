@@ -1,0 +1,71 @@
+{
+    "id": "ocp_prnt_acs_job_cat_21_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ocp_prnt_acs_job_cat_21_p of abcd_p_ocp"
+    },
+    "prefLabel": {
+        "en": "Please specify the Transportation and Material Moving Occupations Job Title:"
+    },
+    "question": {
+        "en": "Please specify the Transportation and Material Moving Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Supervisors of Transportation and Material Moving Workers"
+                },
+                "value": 53100
+            },
+            {
+                "name": {
+                    "en": "Air Transportation Workers"
+                },
+                "value": 53200
+            },
+            {
+                "name": {
+                    "en": "Motor Vehicle Operators"
+                },
+                "value": 53300
+            },
+            {
+                "name": {
+                    "en": "Rail Transportation Workers"
+                },
+                "value": 53400
+            },
+            {
+                "name": {
+                    "en": "Water Transportation Workers"
+                },
+                "value": 53500
+            },
+            {
+                "name": {
+                    "en": "Other Transportation Workers"
+                },
+                "value": 53600
+            },
+            {
+                "name": {
+                    "en": "Material Moving Workers"
+                },
+                "value": 53700
+            }
+        ],
+        "maxValue": 53700,
+        "minValue": 53100,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,343 @@
+{
+    "id": "nt_y_fitb_act_d_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Actigraphy in Novel Technologies"
+    },
+    "prefLabel": {
+        "en": "Nt_Y_Fitb_Act_D"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/fit_ss_protocol_startdate",
+            "items/fit_ss_protocol_wear",
+            "items/fit_ss_wear_date",
+            "items/fit_ss_day_total_steps_no_el",
+            "items/fit_ss_day_min",
+            "items/fit_ss_night_min",
+            "items/fit_ss_sleep_min",
+            "items/fit_ss_30_second_data_existed",
+            "items/fit_ss_excl_day_min",
+            "items/fit_ss_excl_day_min_hr50",
+            "items/fit_ss_excl_day_min_nohr",
+            "items/fit_ss_excl_day_min_hr_rept",
+            "items/fit_ss_excl_night_min",
+            "items/fit_ss_excl_night_min_hr50",
+            "items/fit_ss_excl_night_min_nohr",
+            "items/fit_ss_excl_night_min_hr_rept",
+            "items/fit_ss_excl_sleep_min",
+            "items/fit_ss_excl_sleep_min_hr50",
+            "items/fit_ss_excl_sleep_min_nohr",
+            "items/fit_ss_excl_sleep_min_rept",
+            "items/fit_ss_day_min_gt_600",
+            "items/fit_ss_sleep_min_gt_300",
+            "items/fit_ss_first_hr_date",
+            "items/fit_ss_weekday",
+            "items/fit_ss_wkno",
+            "items/fit_ss_weekend_ind",
+            "items/fit_ss_total_min",
+            "items/fit_ss_total_step",
+            "items/fit_ss_total_ave_met",
+            "items/fit_ss_total_sedentary_min",
+            "items/fit_ss_total_light_active_min",
+            "items/fit_ss_total_fairly_active_min",
+            "items/fit_ss_total_very_active_min",
+            "items/fit_ss_fitbit_totalsteps",
+            "items/fit_ss_fitbit_sedentarymin",
+            "items/fit_ss_fitbit_lightlyactivemin",
+            "items/fit_ss_fitbit_fairlyactivemin",
+            "items/fit_ss_fitbit_veryactivemin",
+            "items/fit_ss_fitbit_restingheartrate",
+            "items/fit_ss_mstep_lt_80_dailystep",
+            "items/fit_ss_dayt_total_steps",
+            "items/fit_ss_dayt_ave_met_value",
+            "items/fit_ss_dayt_sedentary_min",
+            "items/fit_ss_dayt_light_active_min",
+            "items/fit_ss_dayt_farily_active_min",
+            "items/fit_ss_dayt_very_active_min"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/fit_ss_protocol_startdate",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_protocol_startdate"
+            },
+            {
+                "isAbout": "items/fit_ss_protocol_wear",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_protocol_wear"
+            },
+            {
+                "isAbout": "items/fit_ss_wear_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_wear_date"
+            },
+            {
+                "isAbout": "items/fit_ss_day_total_steps_no_el",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_day_total_steps_no_el"
+            },
+            {
+                "isAbout": "items/fit_ss_day_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_day_min"
+            },
+            {
+                "isAbout": "items/fit_ss_night_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_night_min"
+            },
+            {
+                "isAbout": "items/fit_ss_sleep_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_sleep_min"
+            },
+            {
+                "isAbout": "items/fit_ss_30_second_data_existed",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_30_second_data_existed"
+            },
+            {
+                "isAbout": "items/fit_ss_excl_day_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_excl_day_min"
+            },
+            {
+                "isAbout": "items/fit_ss_excl_day_min_hr50",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_excl_day_min_hr50"
+            },
+            {
+                "isAbout": "items/fit_ss_excl_day_min_nohr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_excl_day_min_nohr"
+            },
+            {
+                "isAbout": "items/fit_ss_excl_day_min_hr_rept",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_excl_day_min_hr_rept"
+            },
+            {
+                "isAbout": "items/fit_ss_excl_night_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_excl_night_min"
+            },
+            {
+                "isAbout": "items/fit_ss_excl_night_min_hr50",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_excl_night_min_hr50"
+            },
+            {
+                "isAbout": "items/fit_ss_excl_night_min_nohr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_excl_night_min_nohr"
+            },
+            {
+                "isAbout": "items/fit_ss_excl_night_min_hr_rept",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_excl_night_min_hr_rept"
+            },
+            {
+                "isAbout": "items/fit_ss_excl_sleep_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_excl_sleep_min"
+            },
+            {
+                "isAbout": "items/fit_ss_excl_sleep_min_hr50",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_excl_sleep_min_hr50"
+            },
+            {
+                "isAbout": "items/fit_ss_excl_sleep_min_nohr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_excl_sleep_min_nohr"
+            },
+            {
+                "isAbout": "items/fit_ss_excl_sleep_min_rept",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_excl_sleep_min_rept"
+            },
+            {
+                "isAbout": "items/fit_ss_day_min_gt_600",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_day_min_gt_600"
+            },
+            {
+                "isAbout": "items/fit_ss_sleep_min_gt_300",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_sleep_min_gt_300"
+            },
+            {
+                "isAbout": "items/fit_ss_first_hr_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_first_hr_date"
+            },
+            {
+                "isAbout": "items/fit_ss_weekday",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_weekday"
+            },
+            {
+                "isAbout": "items/fit_ss_wkno",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_wkno"
+            },
+            {
+                "isAbout": "items/fit_ss_weekend_ind",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_weekend_ind"
+            },
+            {
+                "isAbout": "items/fit_ss_total_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_total_min"
+            },
+            {
+                "isAbout": "items/fit_ss_total_step",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_total_step"
+            },
+            {
+                "isAbout": "items/fit_ss_total_ave_met",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_total_ave_met"
+            },
+            {
+                "isAbout": "items/fit_ss_total_sedentary_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_total_sedentary_min"
+            },
+            {
+                "isAbout": "items/fit_ss_total_light_active_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_total_light_active_min"
+            },
+            {
+                "isAbout": "items/fit_ss_total_fairly_active_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_total_fairly_active_min"
+            },
+            {
+                "isAbout": "items/fit_ss_total_very_active_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_total_very_active_min"
+            },
+            {
+                "isAbout": "items/fit_ss_fitbit_totalsteps",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_fitbit_totalsteps"
+            },
+            {
+                "isAbout": "items/fit_ss_fitbit_sedentarymin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_fitbit_sedentarymin"
+            },
+            {
+                "isAbout": "items/fit_ss_fitbit_lightlyactivemin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_fitbit_lightlyactivemin"
+            },
+            {
+                "isAbout": "items/fit_ss_fitbit_fairlyactivemin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_fitbit_fairlyactivemin"
+            },
+            {
+                "isAbout": "items/fit_ss_fitbit_veryactivemin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_fitbit_veryactivemin"
+            },
+            {
+                "isAbout": "items/fit_ss_fitbit_restingheartrate",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_fitbit_restingheartrate"
+            },
+            {
+                "isAbout": "items/fit_ss_mstep_lt_80_dailystep",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_mstep_lt_80_dailystep"
+            },
+            {
+                "isAbout": "items/fit_ss_dayt_total_steps",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_dayt_total_steps"
+            },
+            {
+                "isAbout": "items/fit_ss_dayt_ave_met_value",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_dayt_ave_met_value"
+            },
+            {
+                "isAbout": "items/fit_ss_dayt_sedentary_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_dayt_sedentary_min"
+            },
+            {
+                "isAbout": "items/fit_ss_dayt_light_active_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_dayt_light_active_min"
+            },
+            {
+                "isAbout": "items/fit_ss_dayt_farily_active_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_dayt_farily_active_min"
+            },
+            {
+                "isAbout": "items/fit_ss_dayt_very_active_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_dayt_very_active_min"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

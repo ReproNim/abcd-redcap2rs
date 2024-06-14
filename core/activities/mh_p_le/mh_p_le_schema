@@ -1,0 +1,1661 @@
+{
+    "id": "mh_p_le_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": " ple_died_p + ple_injured_p + ple_crime_p + ple_friend_p + ple_friend_injur_p + ple_financial_p + ple_sud_p + ple_ill_p + ple_injur_p + ple_argue_p + ple_job_p + ple_away_p + ple_arrest_p + ple_friend_died_p + ple_mh_p + ple_sib_p + ple_victim_p + ple_separ_p + ple_law_p + ple_school_p + ple_move_p + ple_jail_p + ple_step_p + ple_new_job_p + ple_new_sib_p ",
+            "variableName": "ple_p_ss_total_number"
+        },
+        {
+            "jsExpression": "if([ple_died_fu_p]='1',1,0)+if([ple_injured_fu_p]='1',1,0)+if([ple_crime_fu_p]='1',1,0)+if([ple_friend_fu_p]='1',1,0)+if([ple_friend_injur_fu_p]='1',1,0)+if([ple_financial_fu_p]='1',1,0)+if([ple_sud_fu_p]='1',1,0)+if([ple_ill_fu_p]='1',1,0)+if([ple_injur_fu_p]='1',1,0)+if([ple_argue_fu_p]='1',1,0)+if([ple_job_fu_p]='1',1,0)+if([ple_away_fu_p]='1',1,0)+if([ple_arrest_fu_p]='1',1,0)+if([ple_friend_died_fu_p]='1',1,0)+if([ple_mh_fu_p]='1',1,0)+if([ple_sib_fu_p]='1',1,0)+if([ple_victim_fu_p]='1',1,0)+if([ple_separ_fu_p]='1',1,0)+if([ple_law_fu_p]='1',1,0)+if([ple_school_fu_p]='1',1,0)+if([ple_move_fu_p]='1',1,0)+if([ple_jail_fu_p]='1',1,0)+if([ple_step_fu_p]='1',1,0)+if([ple_new_job_fu_p]='1',1,0)+if([ple_new_sib_fu_p]='1',1,0)",
+            "variableName": "ple_p_ss_total_good"
+        },
+        {
+            "jsExpression": "if([ple_died_fu_p]='2',1,0)+if([ple_injured_fu_p]='2',1,0)+if([ple_crime_fu_p]='2',1,0)+if([ple_friend_fu_p]='2',1,0)+if([ple_friend_injur_fu_p]='2',1,0)+if([ple_financial_fu_p]='2',1,0)+if([ple_sud_fu_p]='2',1,0)+if([ple_ill_fu_p]='2',1,0)+if([ple_injur_fu_p]='2',1,0)+if([ple_argue_fu_p]='2',1,0)+if([ple_job_fu_p]='2',1,0)+if([ple_away_fu_p]='2',1,0)+if([ple_arrest_fu_p]='2',1,0)+if([ple_friend_died_fu_p]='2',1,0)+if([ple_mh_fu_p]='2',1,0)+if([ple_sib_fu_p]='2',1,0)+if([ple_victim_fu_p]='2',1,0)+if([ple_separ_fu_p]='2',1,0)+if([ple_law_fu_p]='2',1,0)+if([ple_school_fu_p]='2',1,0)+if([ple_move_fu_p]='2',1,0)+if([ple_jail_fu_p]='2',1,0)+if([ple_step_fu_p]='2',1,0)+if([ple_new_job_fu_p]='2',1,0)+if([ple_new_sib_fu_p]='2',1,0)",
+            "variableName": "ple_p_ss_total_bad"
+        },
+        {
+            "jsExpression": "if([ple_died_fu_p]='1',[ple_died_fu2_p],0)+if([ple_injured_fu_p]='1',[ple_injured_fu2_p],0)+if([ple_crime_fu_p]='1',[ple_crime_fu2_p],0)+if([ple_friend_fu_p]='1',[ple_friend_fu2_p],0)+if([ple_friend_injur_fu_p]='1',[ple_friend_injur_fu2_p],0)+if([ple_financial_fu_p]='1',[ple_financial_fu2_p],0)+if([ple_sud_fu_p]='1',[ple_sud_fu2_p],0)+if([ple_ill_fu_p]='1',[ple_ill_fu2_p],0)+if([ple_injur_fu_p]='1',[ple_injur_fu2_p],0)+if([ple_argue_fu_p]='1',[ple_argue_fu2_p],0)+if([ple_job_fu_p]='1',[ple_job_fu2_p],0)+if([ple_away_fu_p]='1',[ple_away_fu2_p],0)+if([ple_arrest_fu_p]='1',[ple_arrest_fu2_p],0)+if([ple_friend_died_fu_p]='1',[ple_friend_died_fu2_p],0)+if([ple_mh_fu_p]='1',[ple_mh_fu2_p],0)+if([ple_sib_fu_p]='1',[ple_sib_fu2_p],0)+if([ple_victim_fu_p]='1',[ple_victim_fu2_p],0)+if([ple_separ_fu_p]='1',[ple_separ_fu2_p],0)+if([ple_law_fu_p]='1',[ple_law_fu2_p],0)+if([ple_school_fu_p]='1',[ple_school_fu2_p],0)+if([ple_move_fu_p]='1',[ple_move_fu2_p],0)+if([ple_jail_fu_p]='1',[ple_jail_fu2_p],0)+if([ple_step_fu_p]='1',[ple_step_fu2_p],0)+if([ple_new_job_fu_p]='1',[ple_new_job_fu2_p],0)+if([ple_new_sib_fu_p]='1',[ple_new_sib_fu2_p],0)",
+            "variableName": "ple_p_ss_affected_good_sum"
+        },
+        {
+            "jsExpression": "ple_p_ss_affected_good_sum/ple_p_ss_total_good",
+            "variableName": "ple_p_ss_affected_good_mean"
+        },
+        {
+            "jsExpression": "if([ple_died_fu_p]='2',[ple_died_fu2_p],0)+if([ple_injured_fu_p]='2',[ple_injured_fu2_p],0)+if([ple_crime_fu_p]='2',[ple_crime_fu2_p],0)+if([ple_friend_fu_p]='2',[ple_friend_fu2_p],0)+if([ple_friend_injur_fu_p]='2',[ple_friend_injur_fu2_p],0)+if([ple_financial_fu_p]='2',[ple_financial_fu2_p],0)+if([ple_sud_fu_p]='2',[ple_sud_fu2_p],0)+if([ple_ill_fu_p]='2',[ple_ill_fu2_p],0)+if([ple_injur_fu_p]='2',[ple_injur_fu2_p],0)+if([ple_argue_fu_p]='2',[ple_argue_fu2_p],0)+if([ple_job_fu_p]='2',[ple_job_fu2_p],0)+if([ple_away_fu_p]='2',[ple_away_fu2_p],0)+if([ple_arrest_fu_p]='2',[ple_arrest_fu2_p],0)+if([ple_friend_died_fu_p]='2',[ple_friend_died_fu2_p],0)+if([ple_mh_fu_p]='2',[ple_mh_fu2_p],0)+if([ple_sib_fu_p]='2',[ple_sib_fu2_p],0)+if([ple_victim_fu_p]='2',[ple_victim_fu2_p],0)+if([ple_separ_fu_p]='2',[ple_separ_fu2_p],0)+if([ple_law_fu_p]='2',[ple_law_fu2_p],0)+if([ple_school_fu_p]='2',[ple_school_fu2_p],0)+if([ple_move_fu_p]='2',[ple_move_fu2_p],0)+if([ple_jail_fu_p]='2',[ple_jail_fu2_p],0)+if([ple_step_fu_p]='2',[ple_step_fu2_p],0)+if([ple_new_job_fu_p]='2',[ple_new_job_fu2_p],0)+if([ple_new_sib_fu_p]='2',[ple_new_sib_fu2_p],0)",
+            "variableName": "ple_p_ss_affected_bad_sum"
+        },
+        {
+            "jsExpression": "ple_p_ss_affected_bad_sum/ple_p_ss_total_bad",
+            "variableName": "ple_p_ss_affected_bad_mean"
+        },
+        {
+            "jsExpression": "( ple_died_fu2_p + ple_injured_fu2_p + ple_crime_fu2_p + ple_friend_fu2_p + ple_friend_injur_fu2_p + ple_financial_fu2_p + ple_sud_fu2_p + ple_ill_fu2_p + ple_injur_fu2_p + ple_argue_fu2_p + ple_job_fu2_p + ple_away_fu2_p + ple_arrest_fu2_p + ple_friend_died_fu2_p + ple_mh_fu2_p + ple_sib_fu2_p + ple_victim_fu2_p + ple_separ_fu2_p + ple_law_fu2_p + ple_school_fu2_p + ple_move_fu2_p,ple_jail_fu2_p + ple_step_fu2_p + ple_new_job_fu2_p + ple_new_sib_fu2_p ) / 24",
+            "variableName": "ple_p_ss_affected_mean"
+        },
+        {
+            "jsExpression": " ple_died_fu2_p + ple_injured_fu2_p + ple_crime_fu2_p + ple_friend_fu2_p + ple_friend_injur_fu2_p + ple_financial_fu2_p + ple_sud_fu2_p + ple_ill_fu2_p + ple_injur_fu2_p + ple_argue_fu2_p + ple_job_fu2_p + ple_away_fu2_p + ple_arrest_fu2_p + ple_friend_died_fu2_p + ple_mh_fu2_p + ple_sib_fu2_p + ple_victim_fu2_p + ple_separ_fu2_p + ple_law_fu2_p + ple_school_fu2_p + ple_move_fu2_p + ple_jail_fu2_p + ple_step_fu2_p + ple_new_job_fu2_p + ple_new_sib_fu2_p ",
+            "variableName": "ple_p_ss_affect_sum"
+        }
+    ],
+    "description": {
+        "en": "This activity is about Stress in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_P_Le"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ple_p_select_language___1",
+            "items/ple_died_p",
+            "items/ple_died_past_yr_p",
+            "items/ple_died_fu_p",
+            "items/ple_died_fu2_p",
+            "items/ple_injured_p",
+            "items/ple_injur_p_p",
+            "items/ple_injured_fu_p",
+            "items/ple_injured_fu2_p",
+            "items/ple_crime_p",
+            "items/ple_crime_past_yr_p",
+            "items/ple_crime_fu_p",
+            "items/ple_crime_fu2_p",
+            "items/ple_friend_p",
+            "items/ple_friend_past_yr_p",
+            "items/ple_friend_fu_p",
+            "items/ple_friend_fu2_p",
+            "items/ple_friend_injur_p",
+            "items/ple_friend_injur_past_yr_p",
+            "items/ple_friend_injur_fu_p",
+            "items/ple_friend_injur_fu2_p",
+            "items/ple_financial_p",
+            "items/ple_financial_past_yr_p",
+            "items/ple_financial_fu_p",
+            "items/ple_financial_fu2_p",
+            "items/ple_sud_p",
+            "items/ple_sud_past_yr_p",
+            "items/ple_sud_fu_p",
+            "items/ple_sud_fu2_p",
+            "items/ple_ill_p",
+            "items/ple_ill_past_yr_p",
+            "items/ple_ill_fu_p",
+            "items/ple_ill_fu2_p",
+            "items/ple_injur_p",
+            "items/ple_injur_p_past",
+            "items/ple_injur_fu_p",
+            "items/ple_injur_fu2_p",
+            "items/ple_argue_p",
+            "items/ple_argue_past_yr_p",
+            "items/ple_argue_fu_p",
+            "items/ple_argue_fu2_p",
+            "items/ple_job_p",
+            "items/ple_job_past_yr_p",
+            "items/ple_job_fu_p",
+            "items/ple_job_fu2_p",
+            "items/ple_away_p",
+            "items/ple_away_past_yr_p",
+            "items/ple_away_fu_p",
+            "items/ple_away_fu2_p",
+            "items/ple_arrest_p",
+            "items/ple_arrest_past_yr_p",
+            "items/ple_arrest_fu_p",
+            "items/ple_arrest_fu2_p",
+            "items/ple_friend_died_p",
+            "items/ple_friend_died_past_yr_p",
+            "items/ple_friend_died_fu_p",
+            "items/ple_friend_died_fu2_p",
+            "items/ple_mh_p",
+            "items/ple_mh_past_yr_p",
+            "items/ple_mh_fu_p",
+            "items/ple_mh_fu2_p",
+            "items/ple_sib_p",
+            "items/ple_sib_past_yr_p",
+            "items/ple_sib_fu_p",
+            "items/ple_sib_fu2_p",
+            "items/ple_victim_p",
+            "items/ple_victim_past_yr_p",
+            "items/ple_victim_fu_p",
+            "items/ple_victim_fu2_p",
+            "items/ple_separ_p",
+            "items/ple_separ_past_yr_p",
+            "items/ple_separ_fu_p",
+            "items/ple_separ_fu2_p",
+            "items/ple_law_p",
+            "items/ple_law_past_yr_p",
+            "items/ple_law_fu_p",
+            "items/ple_law_fu2_p",
+            "items/ple_school_p",
+            "items/ple_school_past_yr_p",
+            "items/ple_school_fu_p",
+            "items/ple_school_fu2_p",
+            "items/ple_move_p",
+            "items/ple_move_past_yr_p",
+            "items/ple_move_fu_p",
+            "items/ple_move_fu2_p",
+            "items/ple_jail_p",
+            "items/ple_jail_past_yr_p",
+            "items/ple_jail_fu_p",
+            "items/ple_jail_fu2_p",
+            "items/ple_step_p",
+            "items/ple_step_past_yr_p",
+            "items/ple_step_fu_p",
+            "items/ple_step_fu2_p",
+            "items/ple_new_job_p",
+            "items/ple_new_job_past_yr_p",
+            "items/ple_new_job_fu_p",
+            "items/ple_new_job_fu2_p",
+            "items/ple_new_sib_p",
+            "items/ple_new_sib_past_yr_p",
+            "items/ple_new_sib_fu_p",
+            "items/ple_new_sib_fu2_p",
+            "items/ple_hospitalized_fu2_p",
+            "items/ple_foster_care_p",
+            "items/ple_foster_care_time_p",
+            "items/ple_foster_care_past_yr_p",
+            "items/ple_foster_care_fu_p",
+            "items/ple_foster_care_fu2_p",
+            "items/ple_hit_p",
+            "items/ple_hit_past_yr_p",
+            "items/ple_hit_fu_p",
+            "items/ple_hit_fu2_p",
+            "items/ple_shot_p",
+            "items/ple_shot_past_yr_p",
+            "items/ple_shot_fu_p",
+            "items/ple_shot_fu2_p",
+            "items/ple_lockdown_p",
+            "items/ple_lockdown_past_yr_p",
+            "items/ple_lockdown_fu_p",
+            "items/ple_lockdown_fu2_p",
+            "items/ple_homeless_p",
+            "items/ple_homeless_past_yr_p",
+            "items/ple_deported_p",
+            "items/ple_homeless_fu_p",
+            "items/ple_homeless_fu2_p",
+            "items/ple_deported_past_yr_p",
+            "items/ple_deported_fu_p",
+            "items/ple_deported_fu2_p",
+            "items/ple_hospitalized_p",
+            "items/ple_hospitalized_past_yr_p",
+            "items/ple_hospitalized_fu_p",
+            "items/ple_p_ss_total_number_nm",
+            "items/ple_p_ss_total_number_nt"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ple_p_select_language___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_p_select_language___1"
+            },
+            {
+                "isAbout": "items/ple_died_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_died_p"
+            },
+            {
+                "isAbout": "items/ple_died_past_yr_p",
+                "isVis": "ple_died_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_died_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_died_fu_p",
+                "isVis": "ple_died_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_died_fu_p"
+            },
+            {
+                "isAbout": "items/ple_died_fu2_p",
+                "isVis": "ple_died_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_died_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_injured_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_injured_p"
+            },
+            {
+                "isAbout": "items/ple_injur_p_p",
+                "isVis": "ple_injured_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_injur_p_p"
+            },
+            {
+                "isAbout": "items/ple_injured_fu_p",
+                "isVis": "ple_injured_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_injured_fu_p"
+            },
+            {
+                "isAbout": "items/ple_injured_fu2_p",
+                "isVis": "ple_injured_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_injured_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_crime_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_crime_p"
+            },
+            {
+                "isAbout": "items/ple_crime_past_yr_p",
+                "isVis": "ple_crime_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_crime_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_crime_fu_p",
+                "isVis": "ple_crime_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_crime_fu_p"
+            },
+            {
+                "isAbout": "items/ple_crime_fu2_p",
+                "isVis": "ple_crime_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_crime_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_friend_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_friend_p"
+            },
+            {
+                "isAbout": "items/ple_friend_past_yr_p",
+                "isVis": "ple_friend_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_friend_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_friend_fu_p",
+                "isVis": "ple_friend_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_friend_fu_p"
+            },
+            {
+                "isAbout": "items/ple_friend_fu2_p",
+                "isVis": "ple_friend_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_friend_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_friend_injur_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_friend_injur_p"
+            },
+            {
+                "isAbout": "items/ple_friend_injur_past_yr_p",
+                "isVis": "ple_friend_injur_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_friend_injur_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_friend_injur_fu_p",
+                "isVis": "ple_friend_injur_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_friend_injur_fu_p"
+            },
+            {
+                "isAbout": "items/ple_friend_injur_fu2_p",
+                "isVis": "ple_friend_injur_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_friend_injur_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_financial_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_financial_p"
+            },
+            {
+                "isAbout": "items/ple_financial_past_yr_p",
+                "isVis": "ple_financial_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_financial_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_financial_fu_p",
+                "isVis": "ple_financial_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_financial_fu_p"
+            },
+            {
+                "isAbout": "items/ple_financial_fu2_p",
+                "isVis": "ple_financial_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_financial_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_sud_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_sud_p"
+            },
+            {
+                "isAbout": "items/ple_sud_past_yr_p",
+                "isVis": "ple_sud_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_sud_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_sud_fu_p",
+                "isVis": "ple_sud_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_sud_fu_p"
+            },
+            {
+                "isAbout": "items/ple_sud_fu2_p",
+                "isVis": "ple_sud_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_sud_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_ill_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_ill_p"
+            },
+            {
+                "isAbout": "items/ple_ill_past_yr_p",
+                "isVis": "ple_ill_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_ill_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_ill_fu_p",
+                "isVis": "ple_ill_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_ill_fu_p"
+            },
+            {
+                "isAbout": "items/ple_ill_fu2_p",
+                "isVis": "ple_ill_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_ill_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_injur_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_injur_p"
+            },
+            {
+                "isAbout": "items/ple_injur_p_past",
+                "isVis": "ple_injur_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_injur_p_past"
+            },
+            {
+                "isAbout": "items/ple_injur_fu_p",
+                "isVis": "ple_injur_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_injur_fu_p"
+            },
+            {
+                "isAbout": "items/ple_injur_fu2_p",
+                "isVis": "ple_injur_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_injur_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_argue_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_argue_p"
+            },
+            {
+                "isAbout": "items/ple_argue_past_yr_p",
+                "isVis": "ple_argue_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_argue_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_argue_fu_p",
+                "isVis": "ple_argue_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_argue_fu_p"
+            },
+            {
+                "isAbout": "items/ple_argue_fu2_p",
+                "isVis": "ple_argue_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_argue_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_job_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_job_p"
+            },
+            {
+                "isAbout": "items/ple_job_past_yr_p",
+                "isVis": "ple_job_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_job_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_job_fu_p",
+                "isVis": "ple_job_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_job_fu_p"
+            },
+            {
+                "isAbout": "items/ple_job_fu2_p",
+                "isVis": "ple_job_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_job_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_away_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_away_p"
+            },
+            {
+                "isAbout": "items/ple_away_past_yr_p",
+                "isVis": "ple_away_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_away_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_away_fu_p",
+                "isVis": "ple_away_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_away_fu_p"
+            },
+            {
+                "isAbout": "items/ple_away_fu2_p",
+                "isVis": "ple_away_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_away_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_arrest_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_arrest_p"
+            },
+            {
+                "isAbout": "items/ple_arrest_past_yr_p",
+                "isVis": "ple_arrest_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_arrest_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_arrest_fu_p",
+                "isVis": "ple_arrest_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_arrest_fu_p"
+            },
+            {
+                "isAbout": "items/ple_arrest_fu2_p",
+                "isVis": "ple_arrest_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_arrest_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_friend_died_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_friend_died_p"
+            },
+            {
+                "isAbout": "items/ple_friend_died_past_yr_p",
+                "isVis": "ple_friend_died_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_friend_died_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_friend_died_fu_p",
+                "isVis": "ple_friend_died_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_friend_died_fu_p"
+            },
+            {
+                "isAbout": "items/ple_friend_died_fu2_p",
+                "isVis": "ple_friend_died_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_friend_died_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_mh_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_mh_p"
+            },
+            {
+                "isAbout": "items/ple_mh_past_yr_p",
+                "isVis": "ple_mh_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_mh_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_mh_fu_p",
+                "isVis": "ple_mh_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_mh_fu_p"
+            },
+            {
+                "isAbout": "items/ple_mh_fu2_p",
+                "isVis": "ple_mh_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_mh_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_sib_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_sib_p"
+            },
+            {
+                "isAbout": "items/ple_sib_past_yr_p",
+                "isVis": "ple_sib_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_sib_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_sib_fu_p",
+                "isVis": "ple_sib_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_sib_fu_p"
+            },
+            {
+                "isAbout": "items/ple_sib_fu2_p",
+                "isVis": "ple_sib_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_sib_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_victim_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_victim_p"
+            },
+            {
+                "isAbout": "items/ple_victim_past_yr_p",
+                "isVis": "ple_victim_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_victim_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_victim_fu_p",
+                "isVis": "ple_victim_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_victim_fu_p"
+            },
+            {
+                "isAbout": "items/ple_victim_fu2_p",
+                "isVis": "ple_victim_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_victim_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_separ_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_separ_p"
+            },
+            {
+                "isAbout": "items/ple_separ_past_yr_p",
+                "isVis": "ple_separ_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_separ_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_separ_fu_p",
+                "isVis": "ple_separ_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_separ_fu_p"
+            },
+            {
+                "isAbout": "items/ple_separ_fu2_p",
+                "isVis": "ple_separ_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_separ_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_law_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_law_p"
+            },
+            {
+                "isAbout": "items/ple_law_past_yr_p",
+                "isVis": "ple_law_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_law_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_law_fu_p",
+                "isVis": "ple_law_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_law_fu_p"
+            },
+            {
+                "isAbout": "items/ple_law_fu2_p",
+                "isVis": "ple_law_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_law_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_school_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_school_p"
+            },
+            {
+                "isAbout": "items/ple_school_past_yr_p",
+                "isVis": "ple_school_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_school_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_school_fu_p",
+                "isVis": "ple_school_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_school_fu_p"
+            },
+            {
+                "isAbout": "items/ple_school_fu2_p",
+                "isVis": "ple_school_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_school_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_move_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_move_p"
+            },
+            {
+                "isAbout": "items/ple_move_past_yr_p",
+                "isVis": "ple_move_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_move_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_move_fu_p",
+                "isVis": "ple_move_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_move_fu_p"
+            },
+            {
+                "isAbout": "items/ple_move_fu2_p",
+                "isVis": "ple_move_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_move_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_jail_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_jail_p"
+            },
+            {
+                "isAbout": "items/ple_jail_past_yr_p",
+                "isVis": "ple_jail_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_jail_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_jail_fu_p",
+                "isVis": "ple_jail_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_jail_fu_p"
+            },
+            {
+                "isAbout": "items/ple_jail_fu2_p",
+                "isVis": "ple_jail_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_jail_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_step_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_step_p"
+            },
+            {
+                "isAbout": "items/ple_step_past_yr_p",
+                "isVis": "ple_step_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_step_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_step_fu_p",
+                "isVis": "ple_step_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_step_fu_p"
+            },
+            {
+                "isAbout": "items/ple_step_fu2_p",
+                "isVis": "ple_step_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_step_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_new_job_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_new_job_p"
+            },
+            {
+                "isAbout": "items/ple_new_job_past_yr_p",
+                "isVis": "ple_new_job_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_new_job_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_new_job_fu_p",
+                "isVis": "ple_new_job_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_new_job_fu_p"
+            },
+            {
+                "isAbout": "items/ple_new_job_fu2_p",
+                "isVis": "ple_new_job_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_new_job_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_new_sib_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_new_sib_p"
+            },
+            {
+                "isAbout": "items/ple_new_sib_past_yr_p",
+                "isVis": "ple_new_sib_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_new_sib_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_new_sib_fu_p",
+                "isVis": "ple_new_sib_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_new_sib_fu_p"
+            },
+            {
+                "isAbout": "items/ple_new_sib_fu2_p",
+                "isVis": "ple_new_sib_p   === '1'",
+                "valueRequired": true,
+                "variableName": "ple_new_sib_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_hospitalized_fu2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_hospitalized_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_foster_care_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_foster_care_p"
+            },
+            {
+                "isAbout": "items/ple_foster_care_time_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_foster_care_time_p"
+            },
+            {
+                "isAbout": "items/ple_foster_care_past_yr_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_foster_care_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_foster_care_fu_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_foster_care_fu_p"
+            },
+            {
+                "isAbout": "items/ple_foster_care_fu2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_foster_care_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_hit_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_hit_p"
+            },
+            {
+                "isAbout": "items/ple_hit_past_yr_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_hit_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_hit_fu_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_hit_fu_p"
+            },
+            {
+                "isAbout": "items/ple_hit_fu2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_hit_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_shot_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_shot_p"
+            },
+            {
+                "isAbout": "items/ple_shot_past_yr_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_shot_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_shot_fu_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_shot_fu_p"
+            },
+            {
+                "isAbout": "items/ple_shot_fu2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_shot_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_lockdown_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_lockdown_p"
+            },
+            {
+                "isAbout": "items/ple_lockdown_past_yr_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_lockdown_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_lockdown_fu_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_lockdown_fu_p"
+            },
+            {
+                "isAbout": "items/ple_lockdown_fu2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_lockdown_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_homeless_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_homeless_p"
+            },
+            {
+                "isAbout": "items/ple_homeless_past_yr_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_homeless_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_deported_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_deported_p"
+            },
+            {
+                "isAbout": "items/ple_homeless_fu_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_homeless_fu_p"
+            },
+            {
+                "isAbout": "items/ple_homeless_fu2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_homeless_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_deported_past_yr_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_deported_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_deported_fu_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_deported_fu_p"
+            },
+            {
+                "isAbout": "items/ple_deported_fu2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_deported_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_hospitalized_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_hospitalized_p"
+            },
+            {
+                "isAbout": "items/ple_hospitalized_past_yr_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_hospitalized_past_yr_p"
+            },
+            {
+                "isAbout": "items/ple_hospitalized_fu_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_hospitalized_fu_p"
+            },
+            {
+                "isAbout": "items/ple_p_ss_total_number",
+                "isVis": false,
+                "variableName": "ple_p_ss_total_number"
+            },
+            {
+                "isAbout": "items/ple_p_ss_total_number_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_p_ss_total_number_nm"
+            },
+            {
+                "isAbout": "items/ple_p_ss_total_number_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_p_ss_total_number_nt"
+            },
+            {
+                "isAbout": "items/ple_p_ss_total_good",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "ple_p_ss_total_good"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/if",
+                "valueRequired": true,
+                "variableName": "if"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/1",
+                "valueRequired": true,
+                "variableName": "1"
+            },
+            {
+                "isAbout": "items/0",
+                "valueRequired": true,
+                "variableName": "0"
+            },
+            {
+                "isAbout": "items/ple_p_ss_total_bad",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "ple_p_ss_total_bad"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/2",
+                "valueRequired": true,
+                "variableName": "2"
+            },
+            {
+                "isAbout": "items/ple_p_ss_affected_good_sum",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "ple_p_ss_affected_good_sum"
+            },
+            {
+                "isAbout": "items/ple_p_ss_affected_good_mean",
+                "isVis": false,
+                "variableName": "ple_p_ss_affected_good_mean"
+            },
+            {
+                "isAbout": "items/ple_p_ss_affected_bad_sum",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "ple_p_ss_affected_bad_sum"
+            },
+            {
+                "isAbout": "items/ple_p_ss_affected_bad_mean",
+                "isVis": false,
+                "variableName": "ple_p_ss_affected_bad_mean"
+            },
+            {
+                "isAbout": "items/ple_p_ss_affected_mean",
+                "isVis": false,
+                "variableName": "ple_p_ss_affected_mean"
+            },
+            {
+                "isAbout": "items/24",
+                "valueRequired": true,
+                "variableName": "24"
+            },
+            {
+                "isAbout": "items/ple_p_ss_affect_sum",
+                "isVis": false,
+                "variableName": "ple_p_ss_affect_sum"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

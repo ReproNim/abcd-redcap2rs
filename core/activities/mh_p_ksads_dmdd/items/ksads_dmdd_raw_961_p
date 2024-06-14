@@ -1,0 +1,41 @@
+{
+    "id": "ksads_dmdd_raw_961_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dmdd_raw_961_p of mh_p_ksads_dmdd"
+    },
+    "prefLabel": {
+        "en": "Has your child had trouble with his or her temper since he or she was young, since before your child was 10?"
+    },
+    "question": {
+        "en": "Has your child had trouble with his or her temper since he or she was young, since before your child was 10?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

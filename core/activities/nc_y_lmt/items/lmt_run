@@ -1,0 +1,24 @@
+{
+    "id": "lmt_run",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "lmt_run of nc_y_lmt"
+    },
+    "prefLabel": {
+        "en": "Run"
+    },
+    "question": {
+        "en": "Run"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

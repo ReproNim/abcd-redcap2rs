@@ -1,0 +1,41 @@
+{
+    "id": "child_symptom_actions_cv___3",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "child_symptom_actions_cv___3 of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Which of the following ever occurred as a result of your child's symptoms? (check all that apply) : 3 My child or I spoke to a healthcare provider over the phone  email  or online"
+    },
+    "question": {
+        "en": "Which of the following ever occurred as a result of your child's symptoms? (check all that apply) : 3 My child or I spoke to a healthcare provider over the phone  email  or online"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No[child_symptoms_cv(1)] = '1' or [child_symptoms_cv(2)] = '1' or [child_symptoms_cv(3)] = '1'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "su_y_hair_cnf_opi_001",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_y_hair_cnf_opi_001 of su_y_hair_tox"
+    },
+    "prefLabel": {
+        "en": "Confirmation mass spectrometry results for Hydrocodone (cutoff: . ng/10mg)"
+    },
+    "question": {
+        "en": "Confirmation mass spectrometry results for Hydrocodone (cutoff: . ng 10mg)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Negative"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Positive"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Quantity not sufficient"
+                },
+                "value": 666
+            }
+        ],
+        "maxValue": 666,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

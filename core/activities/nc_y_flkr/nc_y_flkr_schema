@@ -1,0 +1,224 @@
+{
+    "id": "nc_y_flkr_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Task in Neurocognition"
+    },
+    "prefLabel": {
+        "en": "Nc_Y_Flkr"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/flkr_scr_scriptlastupdate",
+            "items/flkr_scr_comp_platform",
+            "items/flkr_scr_script_startdate",
+            "items/flkr_scr_script_starttime",
+            "items/flkr_scr_script_subjectid",
+            "items/flkr_scr_script_groupid",
+            "items/flkr_scr_script_session",
+            "items/flkr_scr_elapsedtime",
+            "items/flkr_scr_completed",
+            "items/flkr_scr_blockcount",
+            "items/flkr_scr_countpracticeblocks",
+            "items/flkr_scr_acc_practice_mean",
+            "items/flkr_scr_practicepass",
+            "items/flkr_scr_trialcount",
+            "items/flkr_scr_propcorrect",
+            "items/flkr_scr_meanrt",
+            "items/flkr_scr_medrt",
+            "items/flkr_scr_trialcount_congruent",
+            "items/flkr_scr_propcorrect_congruent",
+            "items/flkr_scr_meanrt_congruent",
+            "items/flkr_scr_medrt_congruent",
+            "items/flkr_scr_trialcount_incongruent",
+            "items/flkr_scr_propcorrect_incongruent",
+            "items/flkr_scr_meanrt_incongruent",
+            "items/flkr_scr_medrt_incongruent",
+            "items/neurocog_2_flanker___1",
+            "items/neurocog_2_flanker___2",
+            "items/neurocog_2_flanker___3",
+            "items/neurocog_2_flanker___4"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/flkr_scr_scriptlastupdate",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_scriptlastupdate"
+            },
+            {
+                "isAbout": "items/flkr_scr_comp_platform",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_comp_platform"
+            },
+            {
+                "isAbout": "items/flkr_scr_script_startdate",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_script_startdate"
+            },
+            {
+                "isAbout": "items/flkr_scr_script_starttime",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_script_starttime"
+            },
+            {
+                "isAbout": "items/flkr_scr_script_subjectid",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_script_subjectid"
+            },
+            {
+                "isAbout": "items/flkr_scr_script_groupid",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_script_groupid"
+            },
+            {
+                "isAbout": "items/flkr_scr_script_session",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_script_session"
+            },
+            {
+                "isAbout": "items/flkr_scr_elapsedtime",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_elapsedtime"
+            },
+            {
+                "isAbout": "items/flkr_scr_completed",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_completed"
+            },
+            {
+                "isAbout": "items/flkr_scr_blockcount",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_blockcount"
+            },
+            {
+                "isAbout": "items/flkr_scr_countpracticeblocks",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_countpracticeblocks"
+            },
+            {
+                "isAbout": "items/flkr_scr_acc_practice_mean",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_acc_practice_mean"
+            },
+            {
+                "isAbout": "items/flkr_scr_practicepass",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_practicepass"
+            },
+            {
+                "isAbout": "items/flkr_scr_trialcount",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_trialcount"
+            },
+            {
+                "isAbout": "items/flkr_scr_propcorrect",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_propcorrect"
+            },
+            {
+                "isAbout": "items/flkr_scr_meanrt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_meanrt"
+            },
+            {
+                "isAbout": "items/flkr_scr_medrt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_medrt"
+            },
+            {
+                "isAbout": "items/flkr_scr_trialcount_congruent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_trialcount_congruent"
+            },
+            {
+                "isAbout": "items/flkr_scr_propcorrect_congruent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_propcorrect_congruent"
+            },
+            {
+                "isAbout": "items/flkr_scr_meanrt_congruent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_meanrt_congruent"
+            },
+            {
+                "isAbout": "items/flkr_scr_medrt_congruent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_medrt_congruent"
+            },
+            {
+                "isAbout": "items/flkr_scr_trialcount_incongruent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_trialcount_incongruent"
+            },
+            {
+                "isAbout": "items/flkr_scr_propcorrect_incongruent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_propcorrect_incongruent"
+            },
+            {
+                "isAbout": "items/flkr_scr_meanrt_incongruent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_meanrt_incongruent"
+            },
+            {
+                "isAbout": "items/flkr_scr_medrt_incongruent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flkr_scr_medrt_incongruent"
+            },
+            {
+                "isAbout": "items/neurocog_2_flanker___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_2_flanker___1"
+            },
+            {
+                "isAbout": "items/neurocog_2_flanker___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_2_flanker___2"
+            },
+            {
+                "isAbout": "items/neurocog_2_flanker___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_2_flanker___3"
+            },
+            {
+                "isAbout": "items/neurocog_2_flanker___4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_2_flanker___4"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

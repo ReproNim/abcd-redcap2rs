@@ -1,0 +1,48 @@
+{
+    "id": "screentime_following_child_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screentime_following_child_p of nt_p_stq"
+    },
+    "prefLabel": {
+        "en": "Are you following  or friends with  your child on any social media sites (e.g.  Facebook  Instagram  Snapchat)? /Est? siguiendo a su hijo/a o es amigo de ?l/ella en alguna red social (por ejemplo  Facebook  Instagram  Snapchat)?"
+    },
+    "question": {
+        "en": "Are you following  or friends with  your child on any social media sites (e. g. Facebook  Instagram  Snapchat)? Est? l",
+        "es": "siguiendo a su hijo a o es amigo de ? ella en alguna red social (por ejemplo  Facebook  Instagram  Snapchat)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes /S?"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No/No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Refuse to Answer/Niego contestar"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

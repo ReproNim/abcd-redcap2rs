@@ -1,0 +1,35 @@
+{
+    "id": "fit_ss_sleep_avg_hr_light",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fit_ss_sleep_avg_hr_light of nt_y_fitb_slp_w"
+    },
+    "prefLabel": {
+        "en": "Average heart rate during Minutes that were classified as light sleep stage"
+    },
+    "question": {
+        "en": "Average heart rate during Minutes that were classified as light sleep stage"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "second epochs within the Minute under review did not agree regarding sleep stage the HR for that Minute was not included."
+                },
+                "value": 30
+            }
+        ],
+        "maxValue": 30,
+        "minValue": 30,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

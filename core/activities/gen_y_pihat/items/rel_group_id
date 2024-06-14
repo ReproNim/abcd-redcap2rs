@@ -1,0 +1,24 @@
+{
+    "id": "rel_group_id",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "rel_group_id of gen_y_pihat"
+    },
+    "prefLabel": {
+        "en": "Group ID (twins and triplets in the same family share a group ID)"
+    },
+    "question": {
+        "en": "Group ID (twins and triplets in the same family share a group ID)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

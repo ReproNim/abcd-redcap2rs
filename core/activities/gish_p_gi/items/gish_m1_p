@@ -1,0 +1,66 @@
+{
+    "id": "gish_m1_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gish_m1_p of gish_p_gi"
+    },
+    "prefLabel": {
+        "en": "His favorite playmates are / Sus compa\u00f1eros favoritos de juego son:"
+    },
+    "question": {
+        "en": "His favorite playmates are",
+        "es": "Sus compa\u00f1eros favoritos de juego son:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Always boys / Siempre ni\u00f1os"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Usually boys / Por lo general, ni\u00f1os"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Boys and girls equally / Ni\u00f1os y ni\u00f1as por igual"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Usually girls /  / Por lo general, ni\u00f1as"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Always girls /  / Siempre ni\u00f1as"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Decline to answer / Prefiero no responder /"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

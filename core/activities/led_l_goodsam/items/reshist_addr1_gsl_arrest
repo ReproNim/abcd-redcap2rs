@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr1_gsl_arrest",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr1_gsl_arrest of led_l_goodsam"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - indicates if Good Samaritan law that provides protection from arrest for controlled substance possession was effective at date of baseline visit (address 1)"
+    },
+    "question": {
+        "en": "Residential history derived - indicates if Good Samaritan law that provides protection from arrest for controlled substance possession was effective at date of baseline visit (address 1)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

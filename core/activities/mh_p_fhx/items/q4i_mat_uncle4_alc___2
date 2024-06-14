@@ -1,0 +1,41 @@
+{
+    "id": "q4i_mat_uncle4_alc___2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "q4i_mat_uncle4_alc___2 of mh_p_fhx"
+    },
+    "prefLabel": {
+        "en": "maternal uncle T\u00c3\u00ado materno  (4) (Work Laboral)"
+    },
+    "question": {
+        "en": "maternal uncle T\u00c3\u00ado materno  (4) (Work Laboral)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes /  famhx_1   == 1 &&  famhx_4_p   == 1 &&  famhx_1a_p  > 3"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

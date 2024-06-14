@@ -1,0 +1,24 @@
+{
+    "id": "sit_scr_values_count4",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sit_scr_values_count4 of nc_y_sit"
+    },
+    "prefLabel": {
+        "en": "values.count4:\n\nCounts the number peer rating condition '+4' was run"
+    },
+    "question": {
+        "en": "values. count4:\n\nCounts the number peer rating condition '+4' was run"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

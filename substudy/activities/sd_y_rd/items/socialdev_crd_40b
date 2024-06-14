@@ -1,0 +1,24 @@
+{
+    "id": "socialdev_crd_40b",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_crd_40b of sd_y_rd"
+    },
+    "prefLabel": {
+        "en": "How old were you the first time this happened?"
+    },
+    "question": {
+        "en": "How old were you the first time this happened?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

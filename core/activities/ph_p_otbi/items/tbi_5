@@ -1,0 +1,42 @@
+{
+    "id": "tbi_5",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tbi_5 of ph_p_otbi"
+    },
+    "prefLabel": {
+        "en": "Has your child ever been nearby when an explosion or blast has occurred? \u00bfSu ni\u00f1o/a alguna vez ha estado cerca de una explosi\u00f3n o un estallido?"
+    },
+    "question": {
+        "en": "Has your child ever been nearby when an explosion or blast has occurred?",
+        "es": "\u00bfSu ni\u00f1o a alguna vez ha estado cerca de una explosi\u00f3n o un estallido?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

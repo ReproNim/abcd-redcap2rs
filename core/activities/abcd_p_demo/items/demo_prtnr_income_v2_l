@@ -1,0 +1,90 @@
+{
+    "id": "demo_prtnr_income_v2_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_prtnr_income_v2_l of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "How much does your partner earn, before taxes and other deductions, during the past 12 months? \u00ac\u00f8Cu\u221a\u00b0l fue el ingreso de su pareja, antes de impuestos y otras deducciones, en los altimos 12 meses?"
+    },
+    "question": {
+        "en": "How much does your partner earn, before taxes and other deductions, during the past 12 months?",
+        "es": "\u00ac\u00f8Cu\u221a\u00b0l fue el ingreso de su pareja, antes de impuestos y otras deducciones, en los altimos 12 meses?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than $5,000"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "$5,000 through $11,999"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "$12,000 through $15,999"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "$16,000 through $24,999"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "$25,000 through $34,999"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "$35,000 through $49,999"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "$50,000 through $74,999"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "$75,000 through $99,999"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "$100,000 through $199,999"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "$200,000 and greater"
+                },
+                "value": 10
+            }
+        ],
+        "maxValue": 10,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

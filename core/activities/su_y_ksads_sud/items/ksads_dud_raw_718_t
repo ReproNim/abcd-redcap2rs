@@ -1,0 +1,24 @@
+{
+    "id": "ksads_dud_raw_718_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dud_raw_718_t of su_y_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "You said that you had a time when you had the following problems because of using the drug or drugs listed below. When did this begin?Opioids (heroin, OxyContin morphine, codeine, methadone, Demerol, Percodan)"
+    },
+    "question": {
+        "en": "You said that you had a time when you had the following problems because of using the drug or drugs listed below. When did this begin? Opioids (heroin, OxyContin morphine, codeine, methadone, Demerol, Percodan)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

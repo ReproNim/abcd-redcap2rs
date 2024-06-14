@@ -1,0 +1,41 @@
+{
+    "id": "ksads_agorap_raw_1784_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_agorap_raw_1784_p of mh_p_ksads_ago"
+    },
+    "prefLabel": {
+        "en": "Do you think that your child is more afraid of these situations than he or she needs to be, or more afraid of these situations than other kids your child's age?"
+    },
+    "question": {
+        "en": "Do you think that your child is more afraid of these situations than he or she needs to be, or more afraid of these situations than other kids your child's age?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

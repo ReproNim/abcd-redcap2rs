@@ -1,0 +1,53 @@
+{
+    "id": "pds_f5_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pds_f5_y of ph_y_pds"
+    },
+    "prefLabel": {
+        "en": "Have you begun to menstruate (started to have your period)?"
+    },
+    "question": {
+        "en": "Have you begun to menstruate (started to have your period)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

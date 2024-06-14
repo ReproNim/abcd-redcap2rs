@@ -1,0 +1,24 @@
+{
+    "id": "fes_p_ss_exp_sum",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fes_p_ss_exp_sum of ce_p_fes"
+    },
+    "prefLabel": {
+        "en": "ExpressIon subscale From the famIly EnvIronment Scale Sum oF Parent Report (RAW Scores) fes_2r_p plus fes_12_p plus fes_22_p plus fes_32_p plus fes_42_p plus fes_52r_p plus fes_62_p plus fes_72r_p plus fes_82_p  ValIdatIon: MInImum oF 5 Items answered"
+    },
+    "question": {
+        "en": "ExpressIon subscale From the famIly EnvIronment Scale Sum oF Parent Report (RAW Scores) fes_2r_p plus fes_12_p plus fes_22_p plus fes_32_p plus fes_42_p plus fes_52r_p plus fes_62_p plus fes_72r_p plus fes_82_p  ValIdatIon: MInImum oF 5 Items answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

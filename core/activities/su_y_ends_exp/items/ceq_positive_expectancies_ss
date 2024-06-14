@@ -1,0 +1,24 @@
+{
+    "id": "ceq_positive_expectancies_ss",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ceq_positive_expectancies_ss of su_y_ends_exp"
+    },
+    "prefLabel": {
+        "en": "Strength of positive expectancies for electronic nicotine delivery systems. Score prorated if some item responses were missing."
+    },
+    "question": {
+        "en": "Strength of positive expectancies for electronic nicotine delivery systems. Score prorated if some item responses were missing."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "scrn_birthcomp",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_birthcomp of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Were there any birth complications that resulted in (Child's name) being hospitalized for more than a month? /\u00ac\u00f8Hubo complicaciones en el parto que causaran que (nombre del menor) tuviera que estar hospitalizado(a) durante m\u221a\u00b0s de un mes?"
+    },
+    "question": {
+        "en": "Were there any birth complications that resulted in (Child's name) being hospitalized for more than a month?",
+        "es": "\u00ac\u00f8Hubo complicaciones en el parto que causaran que (nombre del menor) tuviera que estar hospitalizado(a) durante m\u221a\u00b0s de un mes?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know | Note: If hospitalization was due to prematurity alone then that is not a basis for exclusion."
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

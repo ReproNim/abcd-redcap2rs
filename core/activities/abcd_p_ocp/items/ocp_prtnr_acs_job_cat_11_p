@@ -1,0 +1,53 @@
+{
+    "id": "ocp_prtnr_acs_job_cat_11_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ocp_prtnr_acs_job_cat_11_p of abcd_p_ocp"
+    },
+    "prefLabel": {
+        "en": "Please specify the Protective Service Occupations Job Title:"
+    },
+    "question": {
+        "en": "Please specify the Protective Service Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Supervisors of Protective Service Workers"
+                },
+                "value": 33100
+            },
+            {
+                "name": {
+                    "en": "Fire Fighting and Prevention Workers"
+                },
+                "value": 33200
+            },
+            {
+                "name": {
+                    "en": "Law Enforcement Workers"
+                },
+                "value": 33300
+            },
+            {
+                "name": {
+                    "en": "Other Protective Service Workers (33900)"
+                },
+                "value": 33900
+            }
+        ],
+        "maxValue": 33900,
+        "minValue": 33100,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

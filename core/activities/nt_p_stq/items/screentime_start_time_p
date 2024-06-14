@@ -1,0 +1,24 @@
+{
+    "id": "screentime_start_time_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screentime_start_time_p of nt_p_stq"
+    },
+    "prefLabel": {
+        "en": "Time of page loads"
+    },
+    "question": {
+        "en": "Time of page loads"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "date"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

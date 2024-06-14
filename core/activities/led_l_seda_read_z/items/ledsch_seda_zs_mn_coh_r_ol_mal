@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_zs_mn_coh_r_ol_mal",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_zs_mn_coh_r_ol_mal of led_l_seda_read_z"
+    },
+    "prefLabel": {
+        "en": "CZ Poolsub (''pooled by subject'' - within subjects) Commuting Zone Cohort Slope of Mean Ach, Reading Language Arts, OLS est, CS HLM using SEDA HETOP est male"
+    },
+    "question": {
+        "en": "CZ Poolsub (''pooled by subject'' - within subjects) Commuting Zone Cohort Slope of Mean Ach, Reading Language Arts, OLS est, CS HLM using SEDA HETOP est male"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

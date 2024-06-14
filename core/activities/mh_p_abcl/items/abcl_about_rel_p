@@ -1,0 +1,113 @@
+{
+    "id": "abcl_about_rel_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "abcl_about_rel_p of mh_p_abcl"
+    },
+    "prefLabel": {
+        "en": "Who this person is in relationship to the child"
+    },
+    "question": {
+        "en": "Who this person is in relationship to the child"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Biological Mothe"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Biological Father"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Adoptive Mother"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Adoptive Father"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Custodial Mother"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Custodial Father"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Paternal Grandfather"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Maternal Grandfather"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Paternal Grandmother"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Maternal Grandmother"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Other Female Relative"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Other Male Relative"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Other Female"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Other Male"
+                },
+                "value": 14
+            }
+        ],
+        "maxValue": 14,
+        "minValue": 1,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

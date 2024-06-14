@@ -1,0 +1,24 @@
+{
+    "id": "mtpo_study_2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mtpo_study_2 of nt_y_ears_vibr_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "How many?"
+    },
+    "question": {
+        "en": "How many?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

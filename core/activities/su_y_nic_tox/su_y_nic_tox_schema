@@ -1,0 +1,168 @@
+{
+    "id": "su_y_nic_tox_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Drug Toxicology in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Nic_Tox"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/nic_test_y",
+            "items/nic_dot_y",
+            "items/nic_dot1",
+            "items/nic_timeread",
+            "items/nic_results_y",
+            "items/nic_contrary_results",
+            "items/nic_test_y2",
+            "items/nic_dot_y2",
+            "items/nic_dot2",
+            "items/nic_results_y2",
+            "items/nic2_need",
+            "items/nic2_test",
+            "items/nic2_dot",
+            "items/nic2_dot1",
+            "items/nic2_timeread",
+            "items/nic2_results",
+            "items/nic2_contrary_results",
+            "items/nic2_test2",
+            "items/nic2_dot2_collected",
+            "items/nic2_dot2_test",
+            "items/nic2_results2"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/nic_test_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nic_test_y"
+            },
+            {
+                "isAbout": "items/nic_dot_y",
+                "isVis": "nic_test_y   === '1'",
+                "valueRequired": true,
+                "variableName": "nic_dot_y"
+            },
+            {
+                "isAbout": "items/nic_dot1",
+                "isVis": "nic_test_y   === '1'",
+                "valueRequired": true,
+                "variableName": "nic_dot1"
+            },
+            {
+                "isAbout": "items/nic_timeread",
+                "isVis": "nic_test_y   === '1'",
+                "valueRequired": true,
+                "variableName": "nic_timeread"
+            },
+            {
+                "isAbout": "items/nic_results_y",
+                "isVis": "nic_test_y   === '1'",
+                "valueRequired": true,
+                "variableName": "nic_results_y"
+            },
+            {
+                "isAbout": "items/nic_contrary_results",
+                "isVis": "nic_test_y   === '1'",
+                "valueRequired": true,
+                "variableName": "nic_contrary_results"
+            },
+            {
+                "isAbout": "items/nic_test_y2",
+                "isVis": "nic_contrary_results   === '1'",
+                "valueRequired": true,
+                "variableName": "nic_test_y2"
+            },
+            {
+                "isAbout": "items/nic_dot_y2",
+                "isVis": "nic_test_y2   === '1'",
+                "valueRequired": true,
+                "variableName": "nic_dot_y2"
+            },
+            {
+                "isAbout": "items/nic_dot2",
+                "isVis": "nic_test_y2   === '1'",
+                "valueRequired": true,
+                "variableName": "nic_dot2"
+            },
+            {
+                "isAbout": "items/nic_results_y2",
+                "isVis": "nic_test_y2   === '1'",
+                "valueRequired": true,
+                "variableName": "nic_results_y2"
+            },
+            {
+                "isAbout": "items/nic2_need",
+                "isVis": "baseline_visits_num   === '2' && ( bio_10perc_nic   === '1' ||  bio_15perc_nic   === '1')",
+                "valueRequired": true,
+                "variableName": "nic2_need"
+            },
+            {
+                "isAbout": "items/nic2_test",
+                "isVis": "nic2_need   === '1'",
+                "valueRequired": true,
+                "variableName": "nic2_test"
+            },
+            {
+                "isAbout": "items/nic2_dot",
+                "isVis": "nic2_test   === '1'",
+                "valueRequired": true,
+                "variableName": "nic2_dot"
+            },
+            {
+                "isAbout": "items/nic2_dot1",
+                "isVis": "nic2_test   === '1'",
+                "valueRequired": true,
+                "variableName": "nic2_dot1"
+            },
+            {
+                "isAbout": "items/nic2_timeread",
+                "isVis": "nic2_test   === '1'",
+                "valueRequired": true,
+                "variableName": "nic2_timeread"
+            },
+            {
+                "isAbout": "items/nic2_results",
+                "isVis": "nic2_test   === '1'",
+                "valueRequired": true,
+                "variableName": "nic2_results"
+            },
+            {
+                "isAbout": "items/nic2_contrary_results",
+                "isVis": "nic2_test   === '1'",
+                "valueRequired": true,
+                "variableName": "nic2_contrary_results"
+            },
+            {
+                "isAbout": "items/nic2_test2",
+                "isVis": "nic2_contrary_results   === '1'",
+                "valueRequired": true,
+                "variableName": "nic2_test2"
+            },
+            {
+                "isAbout": "items/nic2_dot2_collected",
+                "isVis": "nic2_test2    === '1'",
+                "valueRequired": true,
+                "variableName": "nic2_dot2_collected"
+            },
+            {
+                "isAbout": "items/nic2_dot2_test",
+                "isVis": "nic2_test2    === '1'",
+                "valueRequired": true,
+                "variableName": "nic2_dot2_test"
+            },
+            {
+                "isAbout": "items/nic2_results2",
+                "isVis": "nic2_test2    === '1'",
+                "valueRequired": true,
+                "variableName": "nic2_results2"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

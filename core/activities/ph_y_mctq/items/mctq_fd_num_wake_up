@@ -1,0 +1,24 @@
+{
+    "id": "mctq_fd_num_wake_up",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mctq_fd_num_wake_up of ph_y_mctq"
+    },
+    "prefLabel": {
+        "en": "After falling asleep, I wake up ____ times during the night. <i>(Min=0, Max = 10)</i>"
+    },
+    "question": {
+        "en": "After falling asleep, I wake up ____ times during the night. <i>(Min=0, Max = 10)< i>"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

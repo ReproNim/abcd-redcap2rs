@@ -1,0 +1,65 @@
+{
+    "id": "parent_rules_q_10",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "parent_rules_q_10 of su_p_pr"
+    },
+    "prefLabel": {
+        "en": "What are the family rules about using electronic nicotine or vaping products"
+    },
+    "question": {
+        "en": "What are the family rules about using electronic nicotine or vaping products"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not allowed to use electronic nicotine products under any circumstances"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Not allowed to use electronic nicotine products in home - no family rules outside home"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Allowed to use electronic nicotine products in designated areas at home"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Allowed to use electronic nicotine products anywhere"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't set rules about using electronic nicotine products"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "I haven't made rules yet about my child using electronic nicotine products"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

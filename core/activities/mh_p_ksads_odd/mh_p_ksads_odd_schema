@@ -1,0 +1,266 @@
+{
+    "id": "mh_p_ksads_odd_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Externalizing in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_P_Ksads_Odd"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ksads_odd_raw_1033_p",
+            "items/ksads_odd_raw_1022_p",
+            "items/ksads_odd_raw_1023_p",
+            "items/ksads_odd_raw_1025_p",
+            "items/ksads_odd_raw_1026_p",
+            "items/ksads_odd_raw_1027_p",
+            "items/ksads_odd_raw_1028_p",
+            "items/ksads_odd_raw_1029_p",
+            "items/ksads_odd_raw_1030_p",
+            "items/ksads_odd_raw_1031_p",
+            "items/ksads_odd_raw_1032_p",
+            "items/ksads_odd_raw_1021_p",
+            "items/ksads_odd_raw_1034_p",
+            "items/ksads_odd_raw_1035_p",
+            "items/ksads_odd_raw_1037_p",
+            "items/ksads_odd_raw_1038_p",
+            "items/ksads_odd_raw_1039_p",
+            "items/ksads_odd_raw_1040_p",
+            "items/ksads_odd_raw_1041_p",
+            "items/ksads_odd_raw_1042_p",
+            "items/ksads_odd_raw_1043_p",
+            "items/ksads_odd_raw_1020_p",
+            "items/ksads_odd_raw_454_p",
+            "items/ksads_odd_raw_455_p",
+            "items/ksads_odd_raw_456_p",
+            "items/ksads_odd_raw_457_p",
+            "items/ksads_odd_raw_458_p",
+            "items/ksads_odd_raw_459_p",
+            "items/ksads_odd_raw_460_p",
+            "items/ksads_odd_raw_461_p",
+            "items/ksads_odd_raw_462_p",
+            "items/ksads_odd_raw_463_p",
+            "items/ksads_odd_raw_464_p",
+            "items/ksads_odd_raw_465_p",
+            "items/ksads_odd_raw_1019_p"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ksads_odd_raw_1033_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1033_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1022_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1022_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1023_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1023_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1025_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1025_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1026_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1026_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1027_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1027_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1028_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1028_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1029_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1029_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1030_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1030_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1031_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1031_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1032_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1032_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1021_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1021_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1034_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1034_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1035_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1035_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1037_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1037_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1038_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1038_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1039_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1039_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1040_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1040_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1041_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1041_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1042_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1042_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1043_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1043_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1020_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1020_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_454_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_454_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_455_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_455_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_456_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_456_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_457_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_457_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_458_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_458_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_459_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_459_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_460_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_460_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_461_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_461_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_462_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_462_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_463_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_463_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_464_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_464_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_465_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_465_p"
+            },
+            {
+                "isAbout": "items/ksads_odd_raw_1019_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_odd_raw_1019_p"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

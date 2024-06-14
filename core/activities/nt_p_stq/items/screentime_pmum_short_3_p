@@ -1,0 +1,66 @@
+{
+    "id": "screentime_pmum_short_3_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screentime_pmum_short_3_p of nt_p_stq"
+    },
+    "prefLabel": {
+        "en": "It is hard for my child to stop using screen  media.EA mi ni?o/a se le dificulta dejar de usar los medios en pantalla."
+    },
+    "question": {
+        "en": "It is hard for my child to stop using screen  media. EA mi ni? o",
+        "es": "a se le dificulta dejar de usar los medios en pantalla."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very often"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

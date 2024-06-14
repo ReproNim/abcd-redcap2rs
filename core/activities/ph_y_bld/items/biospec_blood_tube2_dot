@@ -1,0 +1,24 @@
+{
+    "id": "biospec_blood_tube2_dot",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "biospec_blood_tube2_dot of ph_y_bld"
+    },
+    "prefLabel": {
+        "en": "Tube 2 (<font color = purple\">Purple</font> Top: EDTA) Blood sample date and time collected:\""
+    },
+    "question": {
+        "en": "Tube 2 (<font color = purple\">Purple< font> Top: EDTA) Blood sample date and time collected:\""
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "date"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

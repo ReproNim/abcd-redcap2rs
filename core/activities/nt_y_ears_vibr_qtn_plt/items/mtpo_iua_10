@@ -1,0 +1,41 @@
+{
+    "id": "mtpo_iua_10",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mtpo_iua_10 of nt_y_ears_vibr_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "If I had to choose, I would rather have had only [EARS, Digital Footprint, or No Preference] on my phone."
+    },
+    "question": {
+        "en": "If I had to choose, I would rather have had only [EARS, Digital Footprint, or No Preference] on my phone."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "EARS"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Digital Footprint|3=No Preference"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

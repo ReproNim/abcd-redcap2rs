@@ -1,0 +1,25 @@
+{
+    "id": "kbi_p_c_mental_health",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_p_c_mental_health of mh_p_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "How many times has your child been in the hospital for mental health problems?/  \u00bfCu\u00e1ntas veces ha estado su ni\u00f1o(a) en el hospital por problemas de salud mental?"
+    },
+    "question": {
+        "en": "How many times has your child been in the hospital for mental health problems?",
+        "es": "\u00bfCu\u00e1ntas veces ha estado su ni\u00f1o(a) en el hospital por problemas de salud mental?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

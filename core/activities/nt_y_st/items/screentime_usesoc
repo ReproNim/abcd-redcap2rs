@@ -1,0 +1,24 @@
+{
+    "id": "screentime_usesoc",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screentime_usesoc of nt_y_st"
+    },
+    "prefLabel": {
+        "en": "Do you have a at least one social media account?"
+    },
+    "question": {
+        "en": "Do you have a at least one social media account?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

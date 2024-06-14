@@ -1,0 +1,212 @@
+{
+    "id": "ce_y_via_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "(vancouver_q2 +  vancouver_q4 + vancouver_q6 + vancouver_q8 + vancouver_q10 + vancouver_q12 + vancouver_q14 + vancouver_q16) / 8",
+            "variableName": "via_ss_hc"
+        }
+    ],
+    "description": {
+        "en": "This activity is about Culture in Culture & Environment"
+    },
+    "prefLabel": {
+        "en": "Ce_Y_Via"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/vancouver_admin",
+            "items/vancouver_q1_dd",
+            "items/vancouver_q2",
+            "items/vancouver_q3",
+            "items/vancouver_q4",
+            "items/vancouver_q5",
+            "items/vancouver_q6",
+            "items/vancouver_q7",
+            "items/vancouver_q8",
+            "items/vancouver_q9",
+            "items/vancouver_q10",
+            "items/vancouver_q11",
+            "items/vancouver_q12",
+            "items/vancouver_q13",
+            "items/vancouver_q14",
+            "items/vancouver_q15",
+            "items/vancouver_q16",
+            "items/vancouver_q17"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/via_ss_hc",
+                "isVis": false,
+                "variableName": "via_ss_hc"
+            },
+            {
+                "isAbout": "items/vancouver_q2",
+                "valueRequired": true,
+                "variableName": "vancouver_q2"
+            },
+            {
+                "isAbout": "items/vancouver_q4",
+                "valueRequired": true,
+                "variableName": "vancouver_q4"
+            },
+            {
+                "isAbout": "items/vancouver_q6",
+                "valueRequired": true,
+                "variableName": "vancouver_q6"
+            },
+            {
+                "isAbout": "items/vancouver_q8",
+                "valueRequired": true,
+                "variableName": "vancouver_q8"
+            },
+            {
+                "isAbout": "items/vancouver_q10",
+                "valueRequired": true,
+                "variableName": "vancouver_q10"
+            },
+            {
+                "isAbout": "items/vancouver_q12",
+                "valueRequired": true,
+                "variableName": "vancouver_q12"
+            },
+            {
+                "isAbout": "items/vancouver_q14",
+                "valueRequired": true,
+                "variableName": "vancouver_q14"
+            },
+            {
+                "isAbout": "items/vancouver_q16",
+                "valueRequired": true,
+                "variableName": "vancouver_q16"
+            },
+            {
+                "isAbout": "items/8",
+                "valueRequired": true,
+                "variableName": "8"
+            },
+            {
+                "isAbout": "items/via_ss_hc_nm",
+                "isVis": false,
+                "variableName": "via_ss_hc_nm"
+            },
+            {
+                "isAbout": "items/via_ss_hc_nt",
+                "isVis": false,
+                "variableName": "via_ss_hc_nt"
+            },
+            {
+                "isAbout": "items/vancouver_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vancouver_admin"
+            },
+            {
+                "isAbout": "items/vancouver_q1_dd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vancouver_q1_dd"
+            },
+            {
+                "isAbout": "items/vancouver_q2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vancouver_q2"
+            },
+            {
+                "isAbout": "items/vancouver_q3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vancouver_q3"
+            },
+            {
+                "isAbout": "items/vancouver_q4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vancouver_q4"
+            },
+            {
+                "isAbout": "items/vancouver_q5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vancouver_q5"
+            },
+            {
+                "isAbout": "items/vancouver_q6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vancouver_q6"
+            },
+            {
+                "isAbout": "items/vancouver_q7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vancouver_q7"
+            },
+            {
+                "isAbout": "items/vancouver_q8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vancouver_q8"
+            },
+            {
+                "isAbout": "items/vancouver_q9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vancouver_q9"
+            },
+            {
+                "isAbout": "items/vancouver_q10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vancouver_q10"
+            },
+            {
+                "isAbout": "items/vancouver_q11",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vancouver_q11"
+            },
+            {
+                "isAbout": "items/vancouver_q12",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vancouver_q12"
+            },
+            {
+                "isAbout": "items/vancouver_q13",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vancouver_q13"
+            },
+            {
+                "isAbout": "items/vancouver_q14",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vancouver_q14"
+            },
+            {
+                "isAbout": "items/vancouver_q15",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vancouver_q15"
+            },
+            {
+                "isAbout": "items/vancouver_q16",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vancouver_q16"
+            },
+            {
+                "isAbout": "items/vancouver_q17",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vancouver_q17"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

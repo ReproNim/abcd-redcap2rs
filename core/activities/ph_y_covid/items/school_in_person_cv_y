@@ -1,0 +1,47 @@
+{
+    "id": "school_in_person_cv_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "school_in_person_cv_y of ph_y_covid"
+    },
+    "prefLabel": {
+        "en": "Is in-person schooling available at your school?"
+    },
+    "question": {
+        "en": "Is in-person schooling available at your school?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

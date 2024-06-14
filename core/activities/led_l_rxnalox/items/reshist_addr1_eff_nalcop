@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr1_eff_nalcop",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr1_eff_nalcop of led_l_rxnalox"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - indicates if any state co-prescribing nalaxone policy was effective at date of baseline visit (address 1)"
+    },
+    "question": {
+        "en": "Residential history derived - indicates if any state co-prescribing nalaxone policy was effective at date of baseline visit (address 1)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "sai_p_skate_p12___1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sai_p_skate_p12___1 of ph_p_saiq"
+    },
+    "prefLabel": {
+        "en": "Skateboarding: Did your child participate in this activity in the past 12 months? \u00c2\u00bfSu ni\u00c3\u00b1o(a) particip\u00c3\u00b3 en esta actividad en los \u00c3\u00baltimos 12 meses? (1, Yes S\u00c3\u00ad)"
+    },
+    "question": {
+        "en": "Skateboarding: Did your child participate in this activity in the past 12 months? (1, Yes S\u00c3\u00ad)",
+        "es": "\u00c2\u00bfSu ni\u00c3\u00b1o(a) particip\u00c3\u00b3 en esta actividad en los \u00c3\u00baltimos 12 meses?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "dim_y_ss_mean",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "dim_y_ss_mean of ce_y_dm"
+    },
+    "prefLabel": {
+        "en": "Discrimination Measure mean(dim_matrix_q1,dim_matrix_q2,dim_matrix_q3,dim_matrix_q4,dim_matrix_q5,dim_matrix_q6,dim_matrix_q7); Only add if value 1 - 5; Validation: Minimum of four items must be answered"
+    },
+    "question": {
+        "en": "Discrimination Measure mean(dim_matrix_q1,dim_matrix_q2,dim_matrix_q3,dim_matrix_q4,dim_matrix_q5,dim_matrix_q6,dim_matrix_q7); Only add if value 1 - 5; Validation: Minimum of four items must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

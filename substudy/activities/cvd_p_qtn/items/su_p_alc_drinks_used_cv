@@ -1,0 +1,35 @@
+{
+    "id": "su_p_alc_drinks_used_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_p_alc_drinks_used_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "How many alcoholic drinks did you have on a typical day when you drank alcohol?"
+    },
+    "question": {
+        "en": "How many alcoholic drinks did you have on a typical day when you drank alcohol?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "More than 24[su_p_alc_use_cv] more than 0 and ([event_name] = 'covid19_cv2_arm_2' or [event_name] = 'covid19_cv4_arm_2')"
+                },
+                "value": 25
+            }
+        ],
+        "maxValue": 25,
+        "minValue": 25,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

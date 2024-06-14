@@ -1,0 +1,59 @@
+{
+    "id": "mapi_q03",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mapi_q03 of su_y_can_mapi"
+    },
+    "prefLabel": {
+        "en": "Different things happen to people while they are smoking MARIJUANA or as a result of their MARIJUANA use. Some of these things are listed below. Please indicate how many times each has happened to you during the last six months while you were smoking marijuana or as the result of your marijuana use. Missed out on other things because you spent too much money on marijuana."
+    },
+    "question": {
+        "en": "Different things happen to people while they are smoking MARIJUANA or as a result of their MARIJUANA use. Some of these things are listed below. Please indicate how many times each has happened to you during the last six months while you were smoking marijuana or as the result of your marijuana use. Missed out on other things because you spent too much money on marijuana."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1-2"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "3-5"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "6-10"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "10+"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

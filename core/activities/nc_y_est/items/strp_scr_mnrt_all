@@ -1,0 +1,24 @@
+{
+    "id": "strp_scr_mnrt_all",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "strp_scr_mnrt_all of nc_y_est"
+    },
+    "prefLabel": {
+        "en": "Mean correct latency (in ms) overall"
+    },
+    "question": {
+        "en": "Mean correct latency (in ms) overall"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

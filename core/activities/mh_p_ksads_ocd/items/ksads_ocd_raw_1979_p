@@ -1,0 +1,53 @@
+{
+    "id": "ksads_ocd_raw_1979_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_ocd_raw_1979_p of mh_p_ksads_ocd"
+    },
+    "prefLabel": {
+        "en": "What is the reason your child does these things? Check all that apply."
+    },
+    "question": {
+        "en": "What is the reason your child does these things? Check all that apply."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "To reduce my anxiety"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "To prevent myself from becoming anxious"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "To prevent something bad from happening"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

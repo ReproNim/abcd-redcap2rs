@@ -1,0 +1,42 @@
+{
+    "id": "irma_hurtep_a8",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "irma_hurtep_a8 of irma_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Did your pet run away or have to be given away because of the hurricane? \u00ac\u00f8Se escapA su mascota o tuvo que ser entregada debido al hurac\u221a\u00b0n?"
+    },
+    "question": {
+        "en": "Did your pet run away or have to be given away because of the hurricane?",
+        "es": "\u00ac\u00f8Se escapA su mascota o tuvo que ser entregada debido al hurac\u221a\u00b0n?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

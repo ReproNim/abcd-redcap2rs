@@ -1,0 +1,59 @@
+{
+    "id": "mtpo_study_4_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mtpo_study_4_p of nt_p_ears_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "Why were they not in school?"
+    },
+    "question": {
+        "en": "Why were they not in school?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Holiday"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Vacation"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Illness"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Summer Break"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

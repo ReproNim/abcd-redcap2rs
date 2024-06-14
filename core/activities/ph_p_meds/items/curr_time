@@ -1,0 +1,25 @@
+{
+    "id": "curr_time",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "curr_time of ph_p_meds"
+    },
+    "prefLabel": {
+        "en": "What is the current time/date? /\u00bfCu\u00e1l es la fecha y hora actual?"
+    },
+    "question": {
+        "en": "What is the current time date?",
+        "es": "\u00bfCu\u00e1l es la fecha y hora actual?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

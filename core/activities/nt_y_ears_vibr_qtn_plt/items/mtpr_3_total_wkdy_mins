@@ -1,0 +1,53 @@
+{
+    "id": "mtpr_3_total_wkdy_mins",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mtpr_3_total_wkdy_mins of nt_y_ears_vibr_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "How much of ___ (total time estimate for weekday) do you spend on your mobile device specifically?\n\nFor example, if on a typical weekday, total screen time equals 2 hours/day and you spend thirty minutes of that time on your mobile device, you would enter 0\" for hours and \"30\" for minutes.\"\nMinutes:"
+    },
+    "question": {
+        "en": "How much of ___ (total time estimate for weekday) do you spend on your mobile device specifically? For example, if on a typical weekday, total screen time equals 2 hours day and you spend thirty minutes of that time on your mobile device, you would enter 0\" for hours and \"30\" for minutes. \"\nMinutes:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "15"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "30"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "45"
+                },
+                "value": 45
+            }
+        ],
+        "maxValue": 45,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

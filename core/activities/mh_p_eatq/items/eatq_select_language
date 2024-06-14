@@ -1,0 +1,41 @@
+{
+    "id": "eatq_select_language",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "eatq_select_language of mh_p_eatq"
+    },
+    "prefLabel": {
+        "en": "_Espa_ol?"
+    },
+    "question": {
+        "es": "_Espa_ol?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

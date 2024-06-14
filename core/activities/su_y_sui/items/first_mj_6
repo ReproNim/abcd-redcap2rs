@@ -1,0 +1,101 @@
+{
+    "id": "first_mj_6",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "first_mj_6 of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "You mentioned earlier that you have had a puff of marijuana, weed or pot in the past. I want to ask some more questions about that.  Whose marijuana was it / who did the marijuana belong to?"
+    },
+    "question": {
+        "en": "You mentioned earlier that you have had a puff of marijuana, weed or pot in the past. I want to ask some more questions about that. Whose marijuana was it who did the marijuana belong to?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "My mom"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "My dad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Other guardian"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "An uncle or aunt"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Brother or sister who was age 21 or older"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Brother or sister who was age 20 or younger"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other adult (non-guardian) family member"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Another adult (e.g."
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Friend"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Other young person who is not a friend (20 years or younger)"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "I didn't know the person/it was a stranger"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "I don't know who the marijuana belonged to"
+                },
+                "value": 12
+            }
+        ],
+        "maxValue": 12,
+        "minValue": 1,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

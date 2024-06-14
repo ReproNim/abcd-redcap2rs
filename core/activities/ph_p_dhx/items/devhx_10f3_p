@@ -1,0 +1,48 @@
+{
+    "id": "devhx_10f3_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_10f3_p of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "During the pregnancy with this child, did you/biological mother have any of the following conditions? Rubella (German measles) during first 3 months of pregnancy? /\u00bfRub\u00e9ola (sarampi\u00f3n alem\u00e1n) durante los primeros 3 meses de embarazo?"
+    },
+    "question": {
+        "en": "During the pregnancy with this child, did you biological mother have any of the following conditions? Rubella (German measles) during first 3 months of pregnancy?",
+        "es": "\u00bfRub\u00e9ola (sarampi\u00f3n alem\u00e1n) durante los primeros 3 meses de embarazo?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes /S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No /No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know/ No lo s\u00e9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

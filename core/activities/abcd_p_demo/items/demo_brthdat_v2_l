@@ -1,0 +1,25 @@
+{
+    "id": "demo_brthdat_v2_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_brthdat_v2_l of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "How old is the child? \u00ac\u00f8Qu\u221a\u00a9 edad tiene el/la nino(a)?"
+    },
+    "question": {
+        "en": "How old is the child? la nino(a)?",
+        "es": "\u00ac\u00f8Qu\u221a\u00a9 edad tiene el"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

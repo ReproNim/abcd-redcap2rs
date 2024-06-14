@@ -1,0 +1,24 @@
+{
+    "id": "socialdev_cvict_int2_intf___2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_cvict_int2_intf___2 of sd_y_vict"
+    },
+    "prefLabel": {
+        "en": "Do any of these people know about what happened? A teacher, counselor, or other adult at your school or daycare"
+    },
+    "question": {
+        "en": "Do any of these people know about what happened? A teacher, counselor, or other adult at your school or daycare"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

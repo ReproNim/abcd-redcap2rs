@@ -1,0 +1,41 @@
+{
+    "id": "isip_1b_yn",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "isip_1b_yn of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Have you ever had alcohol not as part of a religious ceremony such as in church or at a Seder dinner?"
+    },
+    "question": {
+        "en": "Have you ever had alcohol not as part of a religious ceremony such as in church or at a Seder dinner?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No | (quantity) // You mentioned earlier that you have had a sip of alcohol in the past. I want to ask some more questions about that."
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

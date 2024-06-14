@@ -1,0 +1,41 @@
+{
+    "id": "su_ends_reasons___21",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_ends_reasons___21 of su_y_ends_reas"
+    },
+    "prefLabel": {
+        "en": "Please select all of the reasons why you used an electronic nicotine or vaping product such as e-cigarettes vape pens or JUUL within the past year:1=I believe it is less harmful to my health;2=I believe it is less harmful to others;3=I prefer the taste of an e-cigarette;4=E-cigarettes are less toxic than tobacco;5=Todealwithcravingfortobacco;6=To quit smoking or avoid relapsing;7=To deal with withdrawal symptoms;8=E-cigarettes are cheaper than smoking;9=To avoid bothering others with tobacco;10=To deal with situations where I can't smoke;11=To avoid having to go outside to smoke;12=To reduce tobacco consumption in preparation of a quit attempt;13=To reduce tobacco consumption with NO intention to quit smoking;14=Unable to stop using it;15=Because my parents use;16=Because my siblings use;17=Because many of my friends use;18=Because many people my age use;19=To help me fit in;20=To calm me down;21=Tomakemefeellesssad;22=Because it is fun;23=Because I'm curious what it's like;24=Other"
+    },
+    "question": {
+        "en": "Please select all of the reasons why you used an electronic nicotine or vaping product such as e-cigarettes vape pens or JUUL within the past year:1=I believe it is less harmful to my health;2=I believe it is less harmful to others;3=I prefer the taste of an e-cigarette;4=E-cigarettes are less toxic than tobacco;5=Todealwithcravingfortobacco;6=To quit smoking or avoid relapsing;7=To deal with withdrawal symptoms;8=E-cigarettes are cheaper than smoking;9=To avoid bothering others with tobacco;10=To deal with situations where I can't smoke;11=To avoid having to go outside to smoke;12=To reduce tobacco consumption in preparation of a quit attempt;13=To reduce tobacco consumption with NO intention to quit smoking;14=Unable to stop using it;15=Because my parents use;16=Because my siblings use;17=Because many of my friends use;18=Because many people my age use;19=To help me fit in;20=To calm me down;21=Tomakemefeellesssad;22=Because it is fun;23=Because I'm curious what it's like;24=Other"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No  [xskipout_end] = 1'' and [event-name] = ''4_year_follow_up_y_arm_1''''"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

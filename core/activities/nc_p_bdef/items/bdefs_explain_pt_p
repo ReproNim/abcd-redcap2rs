@@ -1,0 +1,59 @@
+{
+    "id": "bdefs_explain_pt_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bdefs_explain_pt_p of nc_p_bdef"
+    },
+    "prefLabel": {
+        "en": "Can't seem to get to the point of their explanations"
+    },
+    "question": {
+        "en": "Can't seem to get to the point of their explanations"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never or Rarely"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very Often"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Refuse to Answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

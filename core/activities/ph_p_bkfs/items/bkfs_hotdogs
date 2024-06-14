@@ -1,0 +1,24 @@
+{
+    "id": "bkfs_hotdogs",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_hotdogs of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Hot dogs, corn dogs, or sausage/'Hot Dogs', 'corn dogs', o salchicha"
+    },
+    "question": {
+        "en": "Hot dogs, corn dogs, or sausage 'Hot Dogs', 'corn dogs', o salchicha"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

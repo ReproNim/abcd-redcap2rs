@@ -1,0 +1,41 @@
+{
+    "id": "ksads_sad_raw_1852_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_sad_raw_1852_p of mh_p_ksads_sad"
+    },
+    "prefLabel": {
+        "en": "What makes your child anxious in these situations?Fears people will think badly of him or her"
+    },
+    "question": {
+        "en": "What makes your child anxious in these situations? Fears people will think badly of him or her"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

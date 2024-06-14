@@ -1,0 +1,35 @@
+{
+    "id": "caff_intake_3",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "caff_intake_3 of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Typically, how many drinks of the following beverages did you have per week in the past 6 months? Espresso and espresso drinks, with caffeine (Latte, Mocha, Americano)"
+    },
+    "question": {
+        "en": "Typically, how many drinks of the following beverages did you have per week in the past 6 months? Espresso and espresso drinks, with caffeine (Latte, Mocha, Americano)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "\"0.25. If someone only had 1 coffee in past 6 months it would be 1/24 because there are 24 weeks in 6 months= the answer is \".04\"; this is the smallest possible answer."
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 4,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

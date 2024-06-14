@@ -1,0 +1,24 @@
+{
+    "id": "resiliency7b_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "resiliency7b_y of mh_y_or"
+    },
+    "prefLabel": {
+        "en": "How many CLOSE friends that are another gender do you have (for example, nonbinary)?"
+    },
+    "question": {
+        "en": "How many CLOSE friends that are another gender do you have (for example, nonbinary)?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "zyg_ss_t2_hair_amt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "zyg_ss_t2_hair_amt of gen_y_zygrat"
+    },
+    "prefLabel": {
+        "en": "Amount of hair:"
+    },
+    "question": {
+        "en": "Amount of hair:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "lots"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "some"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "little"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

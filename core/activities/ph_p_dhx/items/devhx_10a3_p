@@ -1,0 +1,48 @@
+{
+    "id": "devhx_10a3_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_10a3_p of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "During the pregnancy with this child, did you/biological mother have any of the following conditions? Severe nausea and vomiting extending past the 6th month or accompanied by weight loss? /\u00bfN\u00e1useas y v\u00f3mitos severos que continuaron hasta despu\u00e9s del 6.\u00ba mes de embarazo o que estuvieron acompa\u00f1ados de una p\u00e9rdida de peso?"
+    },
+    "question": {
+        "en": "During the pregnancy with this child, did you biological mother have any of the following conditions? Severe nausea and vomiting extending past the 6th month or accompanied by weight loss?",
+        "es": "\u00bfN\u00e1useas y v\u00f3mitos severos que continuaron hasta despu\u00e9s del 6. \u00ba mes de embarazo o que estuvieron acompa\u00f1ados de una p\u00e9rdida de peso?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes /S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No /No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know/ No lo s\u00e9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

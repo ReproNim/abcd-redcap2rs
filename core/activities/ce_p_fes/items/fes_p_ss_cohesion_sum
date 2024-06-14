@@ -1,0 +1,24 @@
+{
+    "id": "fes_p_ss_cohesion_sum",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fes_p_ss_cohesion_sum of ce_p_fes"
+    },
+    "prefLabel": {
+        "en": "CohesIon subscale from the FamIly EnvIronment Scale Sum oF Parent Report (RAW Score) fes_1_p plus fes_11r_p plus fes_21_p plus fes_31_p plus fes_41r_p plus fes_51_p plus fes_61r_p plus fes_71_p plus fes_81_p  ValIdatIon:  MInImum oF 5 Items answered"
+    },
+    "question": {
+        "en": "CohesIon subscale from the FamIly EnvIronment Scale Sum oF Parent Report (RAW Score) fes_1_p plus fes_11r_p plus fes_21_p plus fes_31_p plus fes_41r_p plus fes_51_p plus fes_61r_p plus fes_71_p plus fes_81_p  ValIdatIon:  MInImum oF 5 Items answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

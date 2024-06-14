@@ -1,0 +1,25 @@
+{
+    "id": "asr_q125_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "asr_q125_p of mh_p_asr"
+    },
+    "prefLabel": {
+        "en": "In the past 6 months, on how many days were you drunk? En los \u00faltimos 6 meses, \u00bfcu\u00e1ntos d\u00edas estuvo borracho(a)?"
+    },
+    "question": {
+        "en": "In the past 6 months, on how many days were you drunk?",
+        "es": "En los \u00faltimos 6 meses, \u00bfcu\u00e1ntos d\u00edas estuvo borracho(a)?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,65 @@
+{
+    "id": "mdemo_siblings_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mdemo_siblings_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "How has the frequency of your communication changed during this time withsiblings?"
+    },
+    "question": {
+        "en": "How has the frequency of your communication changed during this time withsiblings?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Noticeably Decreased"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat Decreased"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Has Not Changed"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Somewhat Increased"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Noticeably Increased"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Not applicable [event-name] = 'covid19_cv6_arm_2'"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

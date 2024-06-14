@@ -1,0 +1,24 @@
+{
+    "id": "ecbq_blood_time_stamp",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ecbq_blood_time_stamp of ecb_y_ecb"
+    },
+    "prefLabel": {
+        "en": "Collected 3 ml blood sample and enter time stamp"
+    },
+    "question": {
+        "en": "Collected 3 ml blood sample and enter time stamp"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "date"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

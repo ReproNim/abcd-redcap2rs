@@ -1,0 +1,24 @@
+{
+    "id": "tlfb_6mo_2_ecig",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_6mo_2_ecig of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "In the past 6 months, what was your typical dosage of nicotine used in your Electronic cigarettes, vape pens, or e-hookah? For example, strengths tend to range from 6-24 mg/ml."
+    },
+    "question": {
+        "en": "In the past 6 months, what was your typical dosage of nicotine used in your Electronic cigarettes, vape pens, or e-hookah? For example, strengths tend to range from 6-24 mg ml."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "cvd_fit_ss_protocol_startdate",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "cvd_fit_ss_protocol_startdate of cvd_y_fitb_act_w"
+    },
+    "prefLabel": {
+        "en": "First day of (expected) wear of 3 week protocol"
+    },
+    "question": {
+        "en": "First day of (expected) wear of 3 week protocol"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "date"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

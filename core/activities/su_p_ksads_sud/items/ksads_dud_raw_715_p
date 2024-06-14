@@ -1,0 +1,24 @@
+{
+    "id": "ksads_dud_raw_715_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dud_raw_715_p of su_p_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "You said that your child had a time when he or she had the following problems because of using the drug or drugs listed below. When did this begin?Stimulants (e.g., Ritalin, Adderall, ephedrine,speed, uppers, amphetamines, dexedrine, diet pills, crystal meth, methamphetamine, cathinones/bath salt)"
+    },
+    "question": {
+        "en": "You said that your child had a time when he or she had the following problems because of using the drug or drugs listed below. When did this begin? Stimulants (e. g. , Ritalin, Adderall, ephedrine,speed, uppers, amphetamines, dexedrine, diet pills, crystal meth, methamphetamine, cathinones bath salt)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

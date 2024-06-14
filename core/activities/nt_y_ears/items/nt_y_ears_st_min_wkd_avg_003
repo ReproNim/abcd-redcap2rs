@@ -1,0 +1,24 @@
+{
+    "id": "nt_y_ears_st_min_wkd_avg_003",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nt_y_ears_st_min_wkd_avg_003 of nt_y_ears"
+    },
+    "prefLabel": {
+        "en": "Average per Day weekday duration across all apps (minutes)"
+    },
+    "question": {
+        "en": "Average per Day weekday duration across all apps (minutes)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

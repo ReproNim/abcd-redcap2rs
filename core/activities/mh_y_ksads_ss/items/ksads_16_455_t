@@ -1,0 +1,24 @@
+{
+    "id": "ksads_16_455_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_16_455_t of mh_y_ksads_ss"
+    },
+    "prefLabel": {
+        "en": "Symptom - Stays out late at night despite parental prohibition, Present"
+    },
+    "question": {
+        "en": "Symptom - Stays out late at night despite parental prohibition, Present"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

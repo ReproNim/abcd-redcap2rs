@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_other_fruit",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_other_fruit of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Think about everything your child ate or drank  last week.   Remember what your child had for breakfast, lunch, dinner, after school, while watching TV, at bedtime, and on the weekend.</span><br/><span lang=\"es\" style=\"color:maroon;\">Piense en todo lo que su ni\u00f1o(a) comi\u00f3 o bebi\u00f3 la semana pasada. Recuerde lo que tuvo su ni\u00f1o(a) durante el desayuno, almuerzo, cena, despu\u00e9s de la escuela, mientras vi\u00f3 la televisi\u00f3n, a la hora de acostarse, y en el fin de semana."
+    },
+    "question": {
+        "en": "Think about everything your child ate or drank  last week. Remember what your child had for breakfast, lunch, dinner, after school, while watching TV, at bedtime, and on the weekend. < span><br",
+        "es": "><span lang=\"es\" style=\"color:maroon;\">Piense en todo lo que su ni\u00f1o(a) comi\u00f3 o bebi\u00f3 la semana pasada. Recuerde lo que tuvo su ni\u00f1o(a) durante el desayuno, almuerzo, cena, despu\u00e9s de la escuela, mientras vi\u00f3 la televisi\u00f3n, a la hora de acostarse, y en el fin de semana."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

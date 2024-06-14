@@ -1,0 +1,53 @@
+{
+    "id": "feel_afraid_anti_mask_2_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "feel_afraid_anti_mask_2_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "How did you feel having your sibling(s) attend the against wearing masks demonstration(s) without you? Afraid:"
+    },
+    "question": {
+        "en": "How did you feel having your sibling(s) attend the against wearing masks demonstration(s) without you? Afraid:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A little"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very much  [anti_mask_sib_cv] = '1'"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

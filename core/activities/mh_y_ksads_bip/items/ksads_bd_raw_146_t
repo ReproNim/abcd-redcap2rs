@@ -1,0 +1,24 @@
+{
+    "id": "ksads_bd_raw_146_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_bd_raw_146_t of mh_y_ksads_bip"
+    },
+    "prefLabel": {
+        "en": "You said that in the past two weeks you lost your temper a lot, needed a lot less sleep than usual and were more interested in sex and more active sexually than usual. When did this begin?"
+    },
+    "question": {
+        "en": "You said that in the past two weeks you lost your temper a lot, needed a lot less sleep than usual and were more interested in sex and more active sexually than usual. When did this begin?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

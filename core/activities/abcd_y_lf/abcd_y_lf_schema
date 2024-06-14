@@ -1,0 +1,42 @@
+{
+    "id": "abcd_y_lf_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Demographics in ABCD (General)"
+    },
+    "prefLabel": {
+        "en": "Abcd_Y_Lf"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/latent_factor_ss_general_ses",
+            "items/latent_factor_ss_social",
+            "items/latent_factor_ss_perinatal"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/latent_factor_ss_general_ses",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "latent_factor_ss_general_ses"
+            },
+            {
+                "isAbout": "items/latent_factor_ss_social",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "latent_factor_ss_social"
+            },
+            {
+                "isAbout": "items/latent_factor_ss_perinatal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "latent_factor_ss_perinatal"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

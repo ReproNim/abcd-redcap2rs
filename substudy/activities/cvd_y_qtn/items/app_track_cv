@@ -1,0 +1,41 @@
+{
+    "id": "app_track_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "app_track_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "Does your parent/guardian track when you are using an app or using some other tech?"
+    },
+    "question": {
+        "en": "Does your parent guardian track when you are using an app or using some other tech?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No [event-name] = 'covid19_cv6_arm_2'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,59 @@
+{
+    "id": "gish2_cf_kiss",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gish2_cf_kiss of gish_y_sex"
+    },
+    "prefLabel": {
+        "en": "Kissing someone on the mouth"
+    },
+    "question": {
+        "en": "Kissing someone on the mouth"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Approve"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Neither Approve / Disapprove"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Disapprove"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to Answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

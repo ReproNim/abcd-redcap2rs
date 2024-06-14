@@ -1,0 +1,41 @@
+{
+    "id": "p_vac_child_sx_cv___6",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "p_vac_child_sx_cv___6 of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Did your child have any of the following experiences after receiving the coronavirus vaccine (check all that apply): 6; Headache"
+    },
+    "question": {
+        "en": "Did your child have any of the following experiences after receiving the coronavirus vaccine (check all that apply): 6; Headache"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No [p_vac_child_cv] = '2'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

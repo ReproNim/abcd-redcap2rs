@@ -1,0 +1,24 @@
+{
+    "id": "sit_scr_expr_mrt_finalrat",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sit_scr_expr_mrt_finalrat of nc_y_sit"
+    },
+    "prefLabel": {
+        "en": "expressions.meanRT_finalRating:\n\nMean reaction time (in ms) of submitting final rating after onset of rating scale\n\nNote: \npositive values => final rating was higher than initial rating\nnegative values => final rating was lower than initial rating"
+    },
+    "question": {
+        "en": "expressions. meanRT_finalRating:\n\nMean reaction time (in ms) of submitting final rating after onset of rating scale\n\nNote: \npositive values => final rating was higher than initial rating\nnegative values => final rating was lower than initial rating"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

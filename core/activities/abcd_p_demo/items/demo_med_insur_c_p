@@ -1,0 +1,48 @@
+{
+    "id": "demo_med_insur_c_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_med_insur_c_p of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "c. Medicare, forc. Medicare, for people 65 and older, or people with certain disabilitiesc. Medicare, forc. Medicare, para personas de 65 a?os o m?s, o personas con ciertas discapacidades"
+    },
+    "question": {
+        "en": "c. Medicare, forc. Medicare, for people 65 and older, or people with certain disabilitiesc. Medicare, forc. os o m?",
+        "es": "Medicare, para personas de 65 a? s, o personas con ciertas discapacidades"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes Si?"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer Niego contestar"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "ksads_dud_raw_2138_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dud_raw_2138_t of su_y_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "What is the longest period of time you have gone without using?Hallucinogens (psychedelics, LSD, mescaline, peyote, PCP (Angel dust), DMT, salvia, cough medicine or DXM, psilocybin, magic mushrooms)"
+    },
+    "question": {
+        "en": "What is the longest period of time you have gone without using? Hallucinogens (psychedelics, LSD, mescaline, peyote, PCP (Angel dust), DMT, salvia, cough medicine or DXM, psilocybin, magic mushrooms)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

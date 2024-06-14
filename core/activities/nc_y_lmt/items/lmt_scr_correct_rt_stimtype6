@@ -1,0 +1,24 @@
+{
+    "id": "lmt_scr_correct_rt_stimtype6",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "lmt_scr_correct_rt_stimtype6 of nc_y_lmt"
+    },
+    "prefLabel": {
+        "en": "Latency (msec) for Correct Per Stimulus Type (Forward Down Right)"
+    },
+    "question": {
+        "en": "Latency (msec) for Correct Per Stimulus Type (Forward Down Right)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

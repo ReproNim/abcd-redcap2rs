@@ -1,0 +1,24 @@
+{
+    "id": "fit_ss_perday_totalsteps",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fit_ss_perday_totalsteps of nt_y_fitb_act_w"
+    },
+    "prefLabel": {
+        "en": "Number of steps per day according to fitbit daily level summary"
+    },
+    "question": {
+        "en": "Number of steps per day according to fitbit daily level summary"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

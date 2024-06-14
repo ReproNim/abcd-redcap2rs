@@ -1,0 +1,66 @@
+{
+    "id": "parent_rules_q1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "parent_rules_q1 of su_p_pr"
+    },
+    "prefLabel": {
+        "en": "Which statement best describes the rules for your child's drinking in your house? / \u00bfCu\u00e1l de las siguientes afirmaciones describe mejor las reglas que debe seguir su ni\u00f1o(a) con respecto al consumo de alcohol en su casa?"
+    },
+    "question": {
+        "en": "Which statement best describes the rules for your child's drinking in your house?",
+        "es": "\u00bfCu\u00e1l de las siguientes afirmaciones describe mejor las reglas que debe seguir su ni\u00f1o(a) con respecto al consumo de alcohol en su casa?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "My child is not allowed to drink under any circumstances  / Mi ni\u00f1o(a) no tiene permitido beber bajo ninguna circunstancia"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "My child is allowed to drink at home but only on special occasions and under parent supervision / Mi ni\u00f1o(a) tiene permitido beber en casa"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "My child can have a drink when he/she asks for one  /Mi ni\u00f1o(a) puede tomar una copa cuando pide una"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "My child can drink at home whenever he/she wants to / Mi ni\u00f1o(a) puede beber en casa cuando lo desee"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't set rules about my child's drinking / No le pongo reglas a mi ni\u00f1o(a) con respecto al consumo de alcohol"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "I haven't made rules yet about my child drinking   /Todav\u00eda no le he puesto reglas a mi ni\u00f1o(a) con respecto al consumo de alcohol"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "pds_f6_y_dk",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pds_f6_y_dk of ph_y_pds"
+    },
+    "prefLabel": {
+        "en": "how old were you when you started to menstruate? Don't know"
+    },
+    "question": {
+        "en": "how old were you when you started to menstruate? Don't know"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "I Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 777,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

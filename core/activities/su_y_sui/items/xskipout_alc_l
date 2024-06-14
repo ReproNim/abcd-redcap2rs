@@ -1,0 +1,41 @@
+{
+    "id": "xskipout_alc_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "xskipout_alc_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Did the participant have at least 2 drinking days in the past 12 months where they consumed one full drink of alcohol or more?"
+    },
+    "question": {
+        "en": "Did the participant have at least 2 drinking days in the past 12 months where they consumed one full drink of alcohol or more?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

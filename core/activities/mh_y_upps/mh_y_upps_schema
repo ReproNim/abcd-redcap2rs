@@ -1,0 +1,266 @@
+{
+    "id": "mh_y_upps_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Temperament/Personality in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_Y_Upps"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/upps6_y",
+            "items/upps7_y",
+            "items/upps11_y",
+            "items/upps12_y",
+            "items/upps15_y",
+            "items/upps16_y",
+            "items/upps17_y",
+            "items/upps18_y",
+            "items/upps19_y",
+            "items/upps20_y",
+            "items/upps21_y",
+            "items/upps22_y",
+            "items/upps23_y",
+            "items/upps24_y",
+            "items/upps27_y",
+            "items/upps28_y",
+            "items/upps35_y",
+            "items/upps36_y",
+            "items/upps37_y",
+            "items/upps39_y",
+            "items/upps_y_ss_negative_urgency",
+            "items/upps_y_ss_negative_urgency_nm",
+            "items/upps_y_ss_negative_urgency_nt",
+            "items/upps_y_ss_lack_of_planning",
+            "items/upps_y_ss_lack_of_planning_nm",
+            "items/upps_y_ss_lack_of_planning_nt",
+            "items/upps_y_ss_sensation_seeking",
+            "items/upps_y_ss_sensation_seeking_nm",
+            "items/upps_y_ss_sensation_seeking_nt",
+            "items/upps_y_ss_positive_urgency",
+            "items/upps_y_ss_positive_urgency_nm",
+            "items/upps_y_ss_positive_urgency_nt",
+            "items/upps_y_ss_lack_of_perseverance",
+            "items/upps_y_ss_lack_of_pers_nm",
+            "items/upps_y_ss_lack_of_pers_nt"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/upps6_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps6_y"
+            },
+            {
+                "isAbout": "items/upps7_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps7_y"
+            },
+            {
+                "isAbout": "items/upps11_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps11_y"
+            },
+            {
+                "isAbout": "items/upps12_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps12_y"
+            },
+            {
+                "isAbout": "items/upps15_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps15_y"
+            },
+            {
+                "isAbout": "items/upps16_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps16_y"
+            },
+            {
+                "isAbout": "items/upps17_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps17_y"
+            },
+            {
+                "isAbout": "items/upps18_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps18_y"
+            },
+            {
+                "isAbout": "items/upps19_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps19_y"
+            },
+            {
+                "isAbout": "items/upps20_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps20_y"
+            },
+            {
+                "isAbout": "items/upps21_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps21_y"
+            },
+            {
+                "isAbout": "items/upps22_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps22_y"
+            },
+            {
+                "isAbout": "items/upps23_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps23_y"
+            },
+            {
+                "isAbout": "items/upps24_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps24_y"
+            },
+            {
+                "isAbout": "items/upps27_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps27_y"
+            },
+            {
+                "isAbout": "items/upps28_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps28_y"
+            },
+            {
+                "isAbout": "items/upps35_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps35_y"
+            },
+            {
+                "isAbout": "items/upps36_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps36_y"
+            },
+            {
+                "isAbout": "items/upps37_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps37_y"
+            },
+            {
+                "isAbout": "items/upps39_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps39_y"
+            },
+            {
+                "isAbout": "items/upps_y_ss_negative_urgency",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps_y_ss_negative_urgency"
+            },
+            {
+                "isAbout": "items/upps_y_ss_negative_urgency_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps_y_ss_negative_urgency_nm"
+            },
+            {
+                "isAbout": "items/upps_y_ss_negative_urgency_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps_y_ss_negative_urgency_nt"
+            },
+            {
+                "isAbout": "items/upps_y_ss_lack_of_planning",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps_y_ss_lack_of_planning"
+            },
+            {
+                "isAbout": "items/upps_y_ss_lack_of_planning_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps_y_ss_lack_of_planning_nm"
+            },
+            {
+                "isAbout": "items/upps_y_ss_lack_of_planning_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps_y_ss_lack_of_planning_nt"
+            },
+            {
+                "isAbout": "items/upps_y_ss_sensation_seeking",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps_y_ss_sensation_seeking"
+            },
+            {
+                "isAbout": "items/upps_y_ss_sensation_seeking_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps_y_ss_sensation_seeking_nm"
+            },
+            {
+                "isAbout": "items/upps_y_ss_sensation_seeking_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps_y_ss_sensation_seeking_nt"
+            },
+            {
+                "isAbout": "items/upps_y_ss_positive_urgency",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps_y_ss_positive_urgency"
+            },
+            {
+                "isAbout": "items/upps_y_ss_positive_urgency_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps_y_ss_positive_urgency_nm"
+            },
+            {
+                "isAbout": "items/upps_y_ss_positive_urgency_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps_y_ss_positive_urgency_nt"
+            },
+            {
+                "isAbout": "items/upps_y_ss_lack_of_perseverance",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps_y_ss_lack_of_perseverance"
+            },
+            {
+                "isAbout": "items/upps_y_ss_lack_of_pers_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps_y_ss_lack_of_pers_nm"
+            },
+            {
+                "isAbout": "items/upps_y_ss_lack_of_pers_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upps_y_ss_lack_of_pers_nt"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

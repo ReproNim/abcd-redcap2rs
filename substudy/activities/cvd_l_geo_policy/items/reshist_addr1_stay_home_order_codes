@@ -1,0 +1,35 @@
+{
+    "id": "reshist_addr1_stay_home_order_codes",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr1_stay_home_order_codes of cvd_l_geo_policy"
+    },
+    "prefLabel": {
+        "en": "Stay At Home Order codes"
+    },
+    "question": {
+        "en": "Stay At Home Order codes"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mandatory for all individuals, 2 - Mandatory only for all individuals in certain areas of the jurisdiction, 3 - Mandatory only for at-risk individuals in the jurisdiction, 5 - Mandatory only for at-risk individuals in certain areas of the jurisdiction, 6 - Advisory/Recommendation, 7 - No order for individuals to stay home,"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

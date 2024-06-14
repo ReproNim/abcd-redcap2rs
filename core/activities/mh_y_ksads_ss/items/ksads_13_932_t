@@ -1,0 +1,24 @@
+{
+    "id": "ksads_13_932_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_13_932_t of mh_y_ksads_ss"
+    },
+    "prefLabel": {
+        "en": "Diagnosis - Anorexia Nervosa (F50.01) Restricting subtype, PRESENT"
+    },
+    "question": {
+        "en": "Diagnosis - Anorexia Nervosa (F50. 01) Restricting subtype, PRESENT"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

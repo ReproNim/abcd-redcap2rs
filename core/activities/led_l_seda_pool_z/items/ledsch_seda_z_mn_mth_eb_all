@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_z_mn_mth_eb_all",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_z_mn_mth_eb_all of led_l_seda_pool_z"
+    },
+    "prefLabel": {
+        "en": "Commuting Zone Math-ELA Diff in Mean Ach, Math&ELA, EB est, CS all"
+    },
+    "question": {
+        "en": "Commuting Zone Math-ELA Diff in Mean Ach, Math&ELA, EB est, CS all"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

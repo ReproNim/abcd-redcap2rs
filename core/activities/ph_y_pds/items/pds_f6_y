@@ -1,0 +1,24 @@
+{
+    "id": "pds_f6_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pds_f6_y of ph_y_pds"
+    },
+    "prefLabel": {
+        "en": "If yes, how old were you when you started to menstruate?"
+    },
+    "question": {
+        "en": "If yes, how old were you when you started to menstruate?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

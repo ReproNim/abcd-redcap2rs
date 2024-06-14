@@ -1,0 +1,54 @@
+{
+    "id": "ssrs_6_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ssrs_6_p of mh_p_ssrs"
+    },
+    "prefLabel": {
+        "en": "Would rather be alone than with others. Prefiere estar solo(a) que con otros."
+    },
+    "question": {
+        "en": "Would rather be alone than with others.",
+        "es": "Prefiere estar solo(a) que con otros."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not True No es cierto"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes True Algunas veces cierto"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Often True Frequentemente cierto"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Almost Always True Casi siempre cierto"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

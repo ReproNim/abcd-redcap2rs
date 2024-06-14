@@ -1,0 +1,24 @@
+{
+    "id": "first_mj_1b_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "first_mj_1b_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "How many total times have you used marijuana since the last time we saw you?"
+    },
+    "question": {
+        "en": "How many total times have you used marijuana since the last time we saw you?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

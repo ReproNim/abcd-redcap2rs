@@ -1,0 +1,53 @@
+{
+    "id": "fam_sick_severity_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fam_sick_severity_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Rate the symptoms of the person in your family who was most sick:"
+    },
+    "question": {
+        "en": "Rate the symptoms of the person in your family who was most sick:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mild: Symptoms effectively managed at home"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderate: Symptoms severe and required brief hospitalization"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Severe: Symptoms severe and required ventilationGrave: Sintomas severos y requiriendo ventilacion"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Immediate family member died from coronavirusMiembro de la familia inmediata murio de coronavirus\"[fam_diag_cv]more than 0 and ([event_name] = 'covid19_cv2_arm_2' or [event_name] = 'covid19_cv4_arm_2')"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

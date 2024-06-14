@@ -1,0 +1,24 @@
+{
+    "id": "birth_weight_lbs",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "birth_weight_lbs of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "Birth weight pounds"
+    },
+    "question": {
+        "en": "Birth weight pounds"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

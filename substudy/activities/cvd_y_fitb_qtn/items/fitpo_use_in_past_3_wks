@@ -1,0 +1,47 @@
+{
+    "id": "fitpo_use_in_past_3_wks",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fitpo_use_in_past_3_wks of cvd_y_fitb_qtn"
+    },
+    "prefLabel": {
+        "en": "Which option below best describes your use of the Fitbit in the past 3 weeks?"
+    },
+    "question": {
+        "en": "Which option below best describes your use of the Fitbit in the past 3 weeks?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "I wore the Fitbit more during the past 3 weeks compared to my first use"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I wore the Fitbit the same during the past 3 weeks compared to my first use"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I wore the Fitbit less during the past 3 weeks compared to my first use"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

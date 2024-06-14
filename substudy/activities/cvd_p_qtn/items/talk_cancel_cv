@@ -1,0 +1,59 @@
+{
+    "id": "talk_cancel_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "talk_cancel_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Cancellation of school and other events"
+    },
+    "question": {
+        "en": "Cancellation of school and other events"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Occasionally"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Frequently"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Very Frequently"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

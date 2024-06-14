@@ -1,0 +1,53 @@
+{
+    "id": "ksads_bd_raw_935_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_bd_raw_935_p of mh_p_ksads_bp"
+    },
+    "prefLabel": {
+        "en": "What was the longest number of days in a row that your child has had these problems?"
+    },
+    "question": {
+        "en": "What was the longest number of days in a row that your child has had these problems?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1-3 days"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "4-6 days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "7-14 days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "15 days or more"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_c_cellcount_nec",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_c_cellcount_nec of led_l_seda_pool_c"
+    },
+    "prefLabel": {
+        "en": "Total number of math plus Reading Language Arts tests for pooled estimates EdFacts (County) not disadvantaged economically"
+    },
+    "question": {
+        "en": "Total number of math plus Reading Language Arts tests for pooled estimates EdFacts (County) not disadvantaged economically"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,66 @@
+{
+    "id": "gish_m5_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gish_m5_p of gish_p_gi"
+    },
+    "prefLabel": {
+        "en": "He imitates female characters seen on TV or in the movies / Imita a personajes del sexo femenino que aparecen en televisi\u00f3n o en las pel\u00edculas"
+    },
+    "question": {
+        "en": "He imitates female characters seen on TV or in the movies",
+        "es": "Imita a personajes del sexo femenino que aparecen en televisi\u00f3n o en las pel\u00edculas"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "As a favorite activity / Como actividad favorita"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Frequently / Frecuentemente"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Once in a while / De vez en cuando"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Rarely / Casi nunca"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Never / Nunca"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Decline to answer / Prefiero no responder /"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

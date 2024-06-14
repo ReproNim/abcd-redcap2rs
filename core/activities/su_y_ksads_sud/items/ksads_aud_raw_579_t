@@ -1,0 +1,65 @@
+{
+    "id": "ksads_aud_raw_579_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_aud_raw_579_t of su_y_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "Where do you typically drink? (Check all that apply):"
+    },
+    "question": {
+        "en": "Where do you typically drink? (Check all that apply):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "At parties"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "At friends\u00e2\u0080\u0099 house(s)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "At clubs"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "At parks or other outdoor places"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "At home"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

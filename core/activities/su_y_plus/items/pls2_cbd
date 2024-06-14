@@ -1,0 +1,24 @@
+{
+    "id": "pls2_cbd",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pls2_cbd of su_y_plus"
+    },
+    "prefLabel": {
+        "en": "Have you used any CBD (or cannabidiol) products with your doctor's or parent's permission, such as Epidiolex or other over the counter CBD product, in the last 24 hours?"
+    },
+    "question": {
+        "en": "Have you used any CBD (or cannabidiol) products with your doctor's or parent's permission, such as Epidiolex or other over the counter CBD product, in the last 24 hours?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,112 @@
+{
+    "id": "mh_y_poa_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Emotion in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_Y_Poa"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/poa_nihtb_1_y",
+            "items/poa_nihtb_2_y",
+            "items/poa_nihtb_3_y",
+            "items/poa_nihtb_4_y",
+            "items/poa_nihtb_5_y",
+            "items/poa_nihtb_6_y",
+            "items/poa_nihtb_7_y",
+            "items/poa_nihtb_8_y",
+            "items/poa_nihtb_9_y",
+            "items/poa_admin",
+            "items/poa_y_ss_sum",
+            "items/poa_y_ss_sum_nm",
+            "items/poa_y_ss_sum_nt"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/poa_nihtb_1_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_nihtb_1_y"
+            },
+            {
+                "isAbout": "items/poa_nihtb_2_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_nihtb_2_y"
+            },
+            {
+                "isAbout": "items/poa_nihtb_3_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_nihtb_3_y"
+            },
+            {
+                "isAbout": "items/poa_nihtb_4_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_nihtb_4_y"
+            },
+            {
+                "isAbout": "items/poa_nihtb_5_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_nihtb_5_y"
+            },
+            {
+                "isAbout": "items/poa_nihtb_6_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_nihtb_6_y"
+            },
+            {
+                "isAbout": "items/poa_nihtb_7_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_nihtb_7_y"
+            },
+            {
+                "isAbout": "items/poa_nihtb_8_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_nihtb_8_y"
+            },
+            {
+                "isAbout": "items/poa_nihtb_9_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_nihtb_9_y"
+            },
+            {
+                "isAbout": "items/poa_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_admin"
+            },
+            {
+                "isAbout": "items/poa_y_ss_sum",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_y_ss_sum"
+            },
+            {
+                "isAbout": "items/poa_y_ss_sum_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_y_ss_sum_nm"
+            },
+            {
+                "isAbout": "items/poa_y_ss_sum_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_y_ss_sum_nt"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

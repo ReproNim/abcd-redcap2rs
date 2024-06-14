@@ -1,0 +1,65 @@
+{
+    "id": "tlfb_6mo_10_concmj_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_6mo_10_concmj_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "During the past year, what was the typical route of administration you used for your concentrates (pipe, vaporizer, dab/butane)?"
+    },
+    "question": {
+        "en": "During the past year, what was the typical route of administration you used for your concentrates (pipe, vaporizer, dab butane)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Pipe or bong"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Vaporizer"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Dab rig"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Joint or rolled paper"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Do not know"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

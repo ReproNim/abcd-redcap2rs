@@ -1,0 +1,28 @@
+{
+    "id": "nc_y_cct_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Task in Neurocognition"
+    },
+    "prefLabel": {
+        "en": "Nc_Y_Cct"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/cash_choice_task"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/cash_choice_task",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cash_choice_task"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

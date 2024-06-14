@@ -1,0 +1,24 @@
+{
+    "id": "caff_intake_9_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "caff_intake_9_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Energy drinks (Red Bull, Monster, Rock Star, 5-hr energy*, AMP, Full Throttle)"
+    },
+    "question": {
+        "en": "Energy drinks (Red Bull, Monster, Rock Star, 5-hr energy*, AMP, Full Throttle)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

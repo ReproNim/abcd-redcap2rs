@@ -1,0 +1,126 @@
+{
+    "id": "mh_p_ssrs_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Social in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_P_Ssrs"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ssrs_select_language___1",
+            "items/ssrs_6_p",
+            "items/ssrs_15r_p",
+            "items/ssrs_16_p",
+            "items/ssrs_18_p",
+            "items/ssrs_24_p",
+            "items/ssrs_29_p",
+            "items/ssrs_35_p",
+            "items/ssrs_37_p",
+            "items/ssrs_39_p",
+            "items/ssrs_42_p",
+            "items/ssrs_58_p",
+            "items/ssrs_p_ss_sum",
+            "items/ssrs_p_ss_sum_nm",
+            "items/ssrs_ss_sum_nt"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ssrs_select_language___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_select_language___1"
+            },
+            {
+                "isAbout": "items/ssrs_6_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_6_p"
+            },
+            {
+                "isAbout": "items/ssrs_15r_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_15r_p"
+            },
+            {
+                "isAbout": "items/ssrs_16_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_16_p"
+            },
+            {
+                "isAbout": "items/ssrs_18_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_18_p"
+            },
+            {
+                "isAbout": "items/ssrs_24_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_24_p"
+            },
+            {
+                "isAbout": "items/ssrs_29_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_29_p"
+            },
+            {
+                "isAbout": "items/ssrs_35_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_35_p"
+            },
+            {
+                "isAbout": "items/ssrs_37_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_37_p"
+            },
+            {
+                "isAbout": "items/ssrs_39_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_39_p"
+            },
+            {
+                "isAbout": "items/ssrs_42_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_42_p"
+            },
+            {
+                "isAbout": "items/ssrs_58_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_58_p"
+            },
+            {
+                "isAbout": "items/ssrs_p_ss_sum",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_p_ss_sum"
+            },
+            {
+                "isAbout": "items/ssrs_p_ss_sum_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_p_ss_sum_nm"
+            },
+            {
+                "isAbout": "items/ssrs_ss_sum_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_ss_sum_nt"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

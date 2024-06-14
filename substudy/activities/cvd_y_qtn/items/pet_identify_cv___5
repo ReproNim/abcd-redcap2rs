@@ -1,0 +1,41 @@
+{
+    "id": "pet_identify_cv___5",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pet_identify_cv___5 of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "Please select all the pets that you currently have: 5, Small animal (e.g., rabbit, hamster, bird)"
+    },
+    "question": {
+        "en": "Please select all the pets that you currently have: 5, Small animal (e. g. , rabbit, hamster, bird)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No  [pets_cv] = '1'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

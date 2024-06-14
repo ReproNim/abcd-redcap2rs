@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_beef",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_beef of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Beef like roast, steak or in sandwiches/Carne de res, asado, bistec, o en s\u00e1ndwiches"
+    },
+    "question": {
+        "en": "Beef like roast, steak or in sandwiches",
+        "es": "Carne de res, asado, bistec, o en s\u00e1ndwiches"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

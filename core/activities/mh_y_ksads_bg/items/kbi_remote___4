@@ -1,0 +1,41 @@
+{
+    "id": "kbi_remote___4",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_remote___4 of mh_y_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "Remote method of  KSADS Background Items & KSADS-5 administration [Check all that apply]:  4, In person (ONLY if issues arise and hybrid)"
+    },
+    "question": {
+        "en": "Remote method of  KSADS Background Items & KSADS-5 administration [Check all that apply]:  4, In person (ONLY if issues arise and hybrid)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No [sched_delay] = '9' or [sched_hybrid] = '1'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

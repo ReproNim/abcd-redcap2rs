@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_d_rsecdnec",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_d_rsecdnec of led_l_seda_demo_d"
+    },
+    "prefLabel": {
+        "en": "Relative Diversity index between schools:ECD/Non ECD (Geo Dist) CCD the relative diversity index captures ECD-non ECD differences in exposure to ECD students at the average ECD-non ECD student's school within the unit; for more information see Reardon and Firebaugh (2002)"
+    },
+    "question": {
+        "en": "Relative Diversity index between schools:ECD Non ECD (Geo Dist) CCD the relative diversity index captures ECD-non ECD differences in exposure to ECD students at the average ECD-non ECD student's school within the unit; for more information see Reardon and Firebaugh (2002)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

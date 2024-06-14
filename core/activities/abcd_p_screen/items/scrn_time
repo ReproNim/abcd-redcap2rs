@@ -1,0 +1,24 @@
+{
+    "id": "scrn_time",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_time of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Time of screener completion:"
+    },
+    "question": {
+        "en": "Time of screener completion:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

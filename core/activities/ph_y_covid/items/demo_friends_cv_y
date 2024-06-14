@@ -1,0 +1,65 @@
+{
+    "id": "demo_friends_cv_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_friends_cv_y of ph_y_covid"
+    },
+    "prefLabel": {
+        "en": "How has the frequency of your communication changed during this time with friends?"
+    },
+    "question": {
+        "en": "How has the frequency of your communication changed during this time with friends?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Noticeably Decreased"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat Decreased"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Has Not Changed"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Somewhat Increased"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Noticeably Increased"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

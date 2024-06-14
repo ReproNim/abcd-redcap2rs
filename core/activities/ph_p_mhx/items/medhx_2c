@@ -1,0 +1,42 @@
+{
+    "id": "medhx_2c",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "medhx_2c of ph_p_mhx"
+    },
+    "prefLabel": {
+        "en": "Has she/he ever been to a doctor for any of these things\u2026Brain Injury /Lesi\u00f3n Cerebral"
+    },
+    "question": {
+        "en": "Has she he ever been to a doctor for any of these things\u2026Brain Injury",
+        "es": "Lesi\u00f3n Cerebral"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No // Now I'd like to ask you about your child's use of health services during the past year and throughout his/her whole life."
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

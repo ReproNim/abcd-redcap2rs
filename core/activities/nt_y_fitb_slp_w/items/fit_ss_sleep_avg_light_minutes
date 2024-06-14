@@ -1,0 +1,24 @@
+{
+    "id": "fit_ss_sleep_avg_light_minutes",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fit_ss_sleep_avg_light_minutes of nt_y_fitb_slp_w"
+    },
+    "prefLabel": {
+        "en": "Average per day of Minutes classified as being awake through all sleep periods"
+    },
+    "question": {
+        "en": "Average per day of Minutes classified as being awake through all sleep periods"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

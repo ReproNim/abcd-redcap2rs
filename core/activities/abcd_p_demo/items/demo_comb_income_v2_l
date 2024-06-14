@@ -1,0 +1,90 @@
+{
+    "id": "demo_comb_income_v2_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_comb_income_v2_l of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "Which of these categories best describes your TOTAL COMBINED FAMILY INCOME for the past 12 months? This should include income (before taxes and deductions) from all sources, wages, rent from properties, social security, disability and/or veteran's benefits, unemployment benefits, workman's compensation, help from relative (include child payments and alimony), and so on. \u00ac\u00f8Cu\u221a\u00b0l de estas categor\u221a\u2260as es la que mejor describe su INGRESO FAMILIAR TOTAL COMBINADO de los altimos 12 meses? Este debe incluir los ingresos (antes de impuestos y deducciones) provenientes de todas las fuentes, salarios, renta de propiedades, seguro social, pagos por incapacidad o subsidios para veteranos, subsidios por desempleo, compensacion por accidentes de trabajo, ayuda de familiares (incluya pensiones alimenticias para hijos y conyuges divorciados), etc."
+    },
+    "question": {
+        "en": "Which of these categories best describes your TOTAL COMBINED FAMILY INCOME for the past 12 months? This should include income (before taxes and deductions) from all sources, wages, rent from properties, social security, disability and or veteran's benefits, unemployment benefits, workman's compensation, help from relative (include child payments and alimony), and so on.",
+        "es": "\u00ac\u00f8Cu\u221a\u00b0l de estas categor\u221a\u2260as es la que mejor describe su INGRESO FAMILIAR TOTAL COMBINADO de los altimos 12 meses? Este debe incluir los ingresos (antes de impuestos y deducciones) provenientes de todas las fuentes, salarios, renta de propiedades, seguro social, pagos por incapacidad o subsidios para veteranos, subsidios por desempleo, compensacion por accidentes de trabajo, ayuda de familiares (incluya pensiones alimenticias para hijos y conyuges divorciados), etc."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than $5,000"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "$5,000 through $11,999"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "$12,000 through $15,999"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "$16,000 through $24,999"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "$25,000 through $34,999"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "$35,000 through $49,999"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "$50,000 through $74,999"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "$75,000 through $99,999"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "$100,000 through $199,999"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "$200,000 and greater"
+                },
+                "value": 10
+            }
+        ],
+        "maxValue": 10,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

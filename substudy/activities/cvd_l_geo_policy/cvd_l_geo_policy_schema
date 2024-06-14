@@ -1,0 +1,371 @@
+{
+    "id": "cvd_l_geo_policy_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Geocoded Data in COVID-19"
+    },
+    "prefLabel": {
+        "en": "Cvd_L_Geo_Policy"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_general_gb_dates",
+            "items/reshist_addr1_general_gb_order_codes",
+            "items/reshist_addr1_stay_home_dates",
+            "items/reshist_addr1_stay_home_order_codes",
+            "items/reshist_addr1_public_mask_dates",
+            "items/reshist_addr1_public_mask_order_codes",
+            "items/reshist_addr1_bar_order_dates",
+            "items/reshist_addr1_bar_order_codes",
+            "items/reshist_addr1_restaurant_order_dates",
+            "items/reshist_addr1_restaurant_order_codes",
+            "items/reshist_addr2_general_gb_dates",
+            "items/reshist_addr2_general_gb_order_codes",
+            "items/reshist_addr2_stay_home_dates",
+            "items/reshist_addr2_stay_home_order_codes",
+            "items/reshist_addr2_public_mask_dates",
+            "items/reshist_addr2_public_mask_order_codes",
+            "items/reshist_addr2_bar_order_dates",
+            "items/reshist_addr2_bar_order_codes",
+            "items/reshist_addr2_restaurant_order_dates",
+            "items/reshist_addr2_restaurant_order_codes",
+            "items/reshist_addr3_general_gb_dates",
+            "items/reshist_addr3_general_gb_order_codes",
+            "items/reshist_addr3_stay_home_dates",
+            "items/reshist_addr3_stay_home_order_codes",
+            "items/reshist_addr3_public_mask_dates",
+            "items/reshist_addr3_public_mask_order_codes",
+            "items/reshist_addr3_bar_order_dates",
+            "items/reshist_addr3_bar_order_codes",
+            "items/reshist_addr3_restaurant_order_dates",
+            "items/reshist_addr3_restaurant_order_codes",
+            "items/reshist_addr4_general_gb_dates",
+            "items/reshist_addr4_general_gb_order_codes",
+            "items/reshist_addr4_stay_home_dates",
+            "items/reshist_addr4_stay_home_order_codes",
+            "items/reshist_addr4_public_mask_dates",
+            "items/reshist_addr4_public_mask_order_codes",
+            "items/reshist_addr4_bar_order_dates",
+            "items/reshist_addr4_bar_order_codes",
+            "items/reshist_addr4_restaurant_order_dates",
+            "items/reshist_addr4_restaurant_order_codes",
+            "items/reshist_addr5_general_gb_dates",
+            "items/reshist_addr5_general_gb_order_codes",
+            "items/reshist_addr5_stay_home_dates",
+            "items/reshist_addr5_stay_home_order_codes",
+            "items/reshist_addr5_public_mask_dates",
+            "items/reshist_addr5_public_mask_order_codes",
+            "items/reshist_addr5_bar_order_dates",
+            "items/reshist_addr5_bar_order_codes",
+            "items/reshist_addr5_restaurant_order_dates",
+            "items/reshist_addr5_restaurant_order_codes"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_general_gb_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_general_gb_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr1_general_gb_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_general_gb_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr1_stay_home_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_stay_home_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr1_stay_home_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_stay_home_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr1_public_mask_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_public_mask_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr1_public_mask_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_public_mask_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr1_bar_order_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_bar_order_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr1_bar_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_bar_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr1_restaurant_order_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_restaurant_order_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr1_restaurant_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_restaurant_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr2_general_gb_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_general_gb_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr2_general_gb_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_general_gb_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr2_stay_home_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_stay_home_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr2_stay_home_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_stay_home_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr2_public_mask_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_public_mask_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr2_public_mask_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_public_mask_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr2_bar_order_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_bar_order_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr2_bar_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_bar_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr2_restaurant_order_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_restaurant_order_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr2_restaurant_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_restaurant_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr3_general_gb_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_general_gb_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr3_general_gb_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_general_gb_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr3_stay_home_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_stay_home_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr3_stay_home_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_stay_home_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr3_public_mask_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_public_mask_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr3_public_mask_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_public_mask_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr3_bar_order_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_bar_order_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr3_bar_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_bar_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr3_restaurant_order_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_restaurant_order_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr3_restaurant_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_restaurant_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr4_general_gb_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_general_gb_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr4_general_gb_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_general_gb_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr4_stay_home_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_stay_home_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr4_stay_home_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_stay_home_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr4_public_mask_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_public_mask_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr4_public_mask_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_public_mask_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr4_bar_order_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_bar_order_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr4_bar_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_bar_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr4_restaurant_order_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_restaurant_order_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr4_restaurant_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_restaurant_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr5_general_gb_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_general_gb_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr5_general_gb_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_general_gb_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr5_stay_home_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_stay_home_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr5_stay_home_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_stay_home_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr5_public_mask_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_public_mask_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr5_public_mask_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_public_mask_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr5_bar_order_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_bar_order_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr5_bar_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_bar_order_codes"
+            },
+            {
+                "isAbout": "items/reshist_addr5_restaurant_order_dates",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_restaurant_order_dates"
+            },
+            {
+                "isAbout": "items/reshist_addr5_restaurant_order_codes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_restaurant_order_codes"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

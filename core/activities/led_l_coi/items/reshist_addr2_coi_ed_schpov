@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr2_coi_ed_schpov",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr2_coi_ed_schpov of led_l_coi"
+    },
+    "prefLabel": {
+        "en": "Education Domain: School poverty"
+    },
+    "question": {
+        "en": "Education Domain: School poverty"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

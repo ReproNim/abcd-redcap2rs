@@ -1,0 +1,48 @@
+{
+    "id": "parent_rules_q3",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "parent_rules_q3 of su_p_pr"
+    },
+    "prefLabel": {
+        "en": "Are these rules enforced? / \u00bfSe  hacen cumplir estas reglas?"
+    },
+    "question": {
+        "en": "Are these rules enforced?",
+        "es": "\u00bfSe  hacen cumplir estas reglas?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes /S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I have not had to enforce these rules /No he tenido que hacer cumplir estas reglas"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

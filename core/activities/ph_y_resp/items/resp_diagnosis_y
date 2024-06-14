@@ -1,0 +1,53 @@
+{
+    "id": "resp_diagnosis_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "resp_diagnosis_y of ph_y_resp"
+    },
+    "prefLabel": {
+        "en": "If you aren't sure of the age can you recall if it was..."
+    },
+    "question": {
+        "en": "If you aren't sure of the age can you recall if it was. . ."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Before 5 years old (before elementary school)"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Between 5-12 years old (in elementary or middle school)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Between 13-18 years old (in middle or highschool)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "After 18 years old (after high school)"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

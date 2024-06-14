@@ -1,0 +1,24 @@
+{
+    "id": "pps_ss_mean_severity",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pps_ss_mean_severity of mh_y_pps"
+    },
+    "prefLabel": {
+        "en": "Prodromal Psychosis: Mean Endorsed Severity Score\nPPS severity score/Number of yes response\npps_y_ss_severity_score / pps_y_ss_number"
+    },
+    "question": {
+        "en": "Prodromal Psychosis: Mean Endorsed Severity Score\nPPS severity score Number of yes response\npps_y_ss_severity_score pps_y_ss_number"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

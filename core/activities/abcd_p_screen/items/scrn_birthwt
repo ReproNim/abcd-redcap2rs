@@ -1,0 +1,48 @@
+{
+    "id": "scrn_birthwt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_birthwt of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "At birth, did your child weigh less than 2 lbs 11 ounces (1200 grams)? /Al nacer, \u00ac\u00f8su ni\u221a\u00b1o(a) pes\u221a\u2265 menos de 2\u00ac\u2020libras 11\u00ac\u2020onzas (1,200\u00ac\u2020gramos)?"
+    },
+    "question": {
+        "en": "At birth, did your child weigh less than 2 lbs 11 ounces (1200 grams)?",
+        "es": "Al nacer, \u00ac\u00f8su ni\u221a\u00b1o(a) pes\u221a\u2265 menos de 2\u00ac\u2020libras 11\u00ac\u2020onzas (1,200\u00ac\u2020gramos)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes - GO TO END"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

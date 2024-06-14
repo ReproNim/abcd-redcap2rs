@@ -1,0 +1,24 @@
+{
+    "id": "su_mj_use_past_month_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_mj_use_past_month_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "Have you used marijuana in the past month?"
+    },
+    "question": {
+        "en": "Have you used marijuana in the past month?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

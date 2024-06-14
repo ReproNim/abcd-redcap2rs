@@ -1,0 +1,25 @@
+{
+    "id": "medhx_9c_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "medhx_9c_l of ph_p_mhx"
+    },
+    "prefLabel": {
+        "en": "At what age for the most recent time (years)? \u00bfA qu\u00e9 edad durante el tiempo m\u00e1s reciente?"
+    },
+    "question": {
+        "en": "At what age for the most recent time (years)?",
+        "es": "\u00bfA qu\u00e9 edad durante el tiempo m\u00e1s reciente?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

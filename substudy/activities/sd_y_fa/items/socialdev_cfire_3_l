@@ -1,0 +1,53 @@
+{
+    "id": "socialdev_cfire_3_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_cfire_3_l of sd_y_fa"
+    },
+    "prefLabel": {
+        "en": "Since your last SD visit, on how many days did you carry a gun? (Do not count the days when you carried a gun only for hunting or for sport, such as target shooting.)"
+    },
+    "question": {
+        "en": "Since your last SD visit, on how many days did you carry a gun? (Do not count the days when you carried a gun only for hunting or for sport, such as target shooting. )"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1 day"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2 or 3 days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "4 or 5 days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "6 days or more [socialdev_cfire_1_l]='1'"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

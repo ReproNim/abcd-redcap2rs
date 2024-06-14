@@ -1,0 +1,24 @@
+{
+    "id": "ecbq_time",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ecbq_time of ecb_y_ecb"
+    },
+    "prefLabel": {
+        "en": "Time stamp"
+    },
+    "question": {
+        "en": "Time stamp"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "date"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

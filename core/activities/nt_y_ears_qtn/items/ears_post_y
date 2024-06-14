@@ -1,0 +1,35 @@
+{
+    "id": "ears_post_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ears_post_y of nt_y_ears_qtn"
+    },
+    "prefLabel": {
+        "en": "On a typical weekday-how much TIME PER DAY do you spend in TOTAL on your smartphone Play single-player video games?"
+    },
+    "question": {
+        "en": "On a typical weekday-how much TIME PER DAY do you spend in TOTAL on your smartphone Play single-player video games?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0 | 1 = 30 minutes | 2 = 45 minutes | 3 = 1 hour | 4 = 1.5 hours | 5 = 2 hours | 6 = 2.5 hours | 7 = 3 hours | 8 = 4 hours | 9 = 5 hours | 10 = 6 hours | 11 = 7 hours | 12 = 8 hours | 13 = 9 hours | 14 = 10 hours | 15 = 11 hours | 16 = 12 hours | 17 = 13 hours | 18 = 14 hours | 19 = 15 hours | 20 = 16 hours | 21 = 17 hours | 22 = 18 hours | 23 = 19 hours | 24 = 20 hours | 25 = 21 hours | 26 = 22 hours | 27 = 23 hours | 28 = 24 hours | 999 = Don't know"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 0,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

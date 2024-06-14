@@ -1,0 +1,24 @@
+{
+    "id": "ksads2_2_179_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads2_2_179_p of mh_p_ksads_ss"
+    },
+    "prefLabel": {
+        "en": "Symptom - Elevated / Euphoric Mood, Present"
+    },
+    "question": {
+        "en": "Symptom - Elevated Euphoric Mood, Present"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

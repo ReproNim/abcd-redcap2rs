@@ -1,0 +1,42 @@
+{
+    "id": "child_symptom_actions_cv_p___3",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "child_symptom_actions_cv_p___3 of ph_p_covid"
+    },
+    "prefLabel": {
+        "en": "Which of the following ever occurred as a result of your child's symptoms? (check all that apply): My child or I spoke to a healthcare provider over the phone, email, or online / \u00bfCu\u00e1l de las siguientes situaciones ocurri\u00f3 como resultado de los s\u00edntomas de su hijo? (marque todo lo que corresponda): Mi hijo(a) o yo hablamos con un proveedor de atenci\u00f3n m\u00e9dica por tel\u00e9fono, correo electr\u00f3nico o en l\u00ednea"
+    },
+    "question": {
+        "en": "Which of the following ever occurred as a result of your child's symptoms? (check all that apply): My child or I spoke to a healthcare provider over the phone, email, or online",
+        "es": "\u00bfCu\u00e1l de las siguientes situaciones ocurri\u00f3 como resultado de los s\u00edntomas de su hijo? (marque todo lo que corresponda): Mi hijo(a) o yo hablamos con un proveedor de atenci\u00f3n m\u00e9dica por tel\u00e9fono, correo electr\u00f3nico o en l\u00ednea"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No / No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes / S\u00ed"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "screentime_device_cell_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screentime_device_cell_p of nt_p_stq"
+    },
+    "prefLabel": {
+        "en": "What kind of cell phone does your child have? /Qu? tipo de tel?fono celular tiene su hijo/a?"
+    },
+    "question": {
+        "en": "What kind of cell phone does your child have? Qu? fono celular tiene su hijo a?",
+        "es": "tipo de tel?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Apple/iPhone/Apple/iPhone"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Android/Android"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Other/Otro"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Refuse to Answer /Niego contestar"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

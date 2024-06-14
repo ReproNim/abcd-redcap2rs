@@ -1,0 +1,65 @@
+{
+    "id": "naas_self_rating",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "naas_self_rating of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "How would you rate your child? \u00ac\u00f8C\u221a\u2265mo calificar\u221a\u2260a a su ni\u221a\u00b1o(a)?"
+    },
+    "question": {
+        "en": "How would you rate your child? \u00ac\u00f8C\u221a\u2265mo calificar\u221a\u2260a a su ni\u221a\u00b1o(a)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very Native American Muy Nativo Americano"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mostly Native American Mayormente Nativo Americano"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Bicultural Bicultural"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Mostly non-Native American Mayormente no Nativo Americano"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Very non-Native American Muy no Nativo Americano"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't Know No lo s\u221a\u00c9\u00ac\u00a9 // The following questions are about you or the child's family."
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

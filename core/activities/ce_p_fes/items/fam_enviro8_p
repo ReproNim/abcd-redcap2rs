@@ -1,0 +1,42 @@
+{
+    "id": "fam_enviro8_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fam_enviro8_p of ce_p_fes"
+    },
+    "prefLabel": {
+        "en": "Family members often try to one-up or outdo each other./ Los miembros de la familia con frecuencia tratan de superar a los dem\u00e1s."
+    },
+    "question": {
+        "en": "Family members often try to one-up or outdo each other.",
+        "es": "Los miembros de la familia con frecuencia tratan de superar a los dem\u00e1s."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "True /Verdadera"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "False/ Falsa"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "ksads_psychosis_raw_1663_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_psychosis_raw_1663_p of mh_p_ksads_psy"
+    },
+    "prefLabel": {
+        "en": "When we were talking before you said there were times that your child's mind played tricks on him or her, and your child heard, saw, or smelled things that weren't really there. I am going to ask you about a number of different types of experiences kids sometimes have, and I want you to tell me if it happened to your child:Heard voices that told your child to do something?"
+    },
+    "question": {
+        "en": "When we were talking before you said there were times that your child's mind played tricks on him or her, and your child heard, saw, or smelled things that weren't really there. I am going to ask you about a number of different types of experiences kids sometimes have, and I want you to tell me if it happened to your child:Heard voices that told your child to do something?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

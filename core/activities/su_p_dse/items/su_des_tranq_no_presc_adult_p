@@ -1,0 +1,25 @@
+{
+    "id": "su_des_tranq_no_presc_adult_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_des_tranq_no_presc_adult_p of su_p_dse"
+    },
+    "prefLabel": {
+        "en": "Prescription anxiolytics, tranquilizers such as Xanax, Ativan, Valium, Rohypnol or sleeping pills, which were NOT prescribed to the person by a doctor? Ansioliticos  tranquilizantes recetados  como Xanax  Ativan  Valium  Rohypnol  o pastillas para dormir  que NO fueron recetados a la persona por un medico?"
+    },
+    "question": {
+        "en": "Prescription anxiolytics, tranquilizers such as Xanax, Ativan, Valium, Rohypnol or sleeping pills, which were NOT prescribed to the person by a doctor?",
+        "es": "Ansioliticos  tranquilizantes recetados  como Xanax  Ativan  Valium  Rohypnol  o pastillas para dormir  que NO fueron recetados a la persona por un medico?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

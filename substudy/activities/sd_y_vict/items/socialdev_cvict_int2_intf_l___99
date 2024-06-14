@@ -1,0 +1,41 @@
+{
+    "id": "socialdev_cvict_int2_intf_l___99",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_cvict_int2_intf_l___99 of sd_y_vict"
+    },
+    "prefLabel": {
+        "en": "Do any of these people know about what happened? 99, I'd rather not say"
+    },
+    "question": {
+        "en": "Do any of these people know about what happened? 99, I'd rather not say"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

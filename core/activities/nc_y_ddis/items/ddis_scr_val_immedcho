@@ -1,0 +1,24 @@
+{
+    "id": "ddis_scr_val_immedcho",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ddis_scr_val_immedcho of nc_y_ddis"
+    },
+    "prefLabel": {
+        "en": "values.immediateChoiceValidity. (Added in June 2018) Tally of immediate choices in the three validity questions presented after the \"3months\", \"1year\", and \"5years\" delay\u00a0 blocks (e.g. \"get $100 NOW\" vs. \"get $100 in 5 years\"). Values < 3 indicate some inattentive (or at least irrational) behavior by the participant"
+    },
+    "question": {
+        "en": "values. immediateChoiceValidity. (Added in June 2018) Tally of immediate choices in the three validity questions presented after the \"3months\", \"1year\", and \"5years\" delay\u00a0 blocks (e. g. \"get $100 NOW\" vs. \"get $100 in 5 years\"). Values < 3 indicate some inattentive (or at least irrational) behavior by the participant"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "ksads_gad_raw_1966_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_gad_raw_1966_p of mh_p_ksads_gad"
+    },
+    "prefLabel": {
+        "en": "How long did your child's worrying about a lot of things last back then? Please enter weeks, months, or years."
+    },
+    "question": {
+        "en": "How long did your child's worrying about a lot of things last back then? Please enter weeks, months, or years."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

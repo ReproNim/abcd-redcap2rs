@@ -1,0 +1,294 @@
+{
+    "id": "mh_p_ksads_si_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Harm in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_P_Ksads_Si"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ksads_suicidal_raw_1123_p",
+            "items/ksads_suicidal_raw_1110_p",
+            "items/ksads_suicidal_raw_1111_p",
+            "items/ksads_suicidal_raw_1112_p",
+            "items/ksads_suicidal_raw_1113_p",
+            "items/ksads_suicidal_raw_1114_p",
+            "items/ksads_suicidal_raw_1115_p",
+            "items/ksads_suicidal_raw_1116_p",
+            "items/ksads_suicidal_raw_1119_p",
+            "items/ksads_suicidal_raw_1120_p",
+            "items/ksads_suicidal_raw_1121_p",
+            "items/ksads_suicidal_raw_1122_p",
+            "items/ksads_suicidal_raw_1109_p",
+            "items/ksads_suicidal_raw_1124_p",
+            "items/ksads_suicidal_raw_1127_p",
+            "items/ksads_suicidal_raw_822_p",
+            "items/ksads_suicidal_raw_826_p",
+            "items/ksads_suicidal_raw_831_p",
+            "items/ksads_suicidal_raw_834_p",
+            "items/ksads_suicidal_raw_1117_p",
+            "items/ksads_suicidal_raw_1118_p",
+            "items/ksads_suicidal_raw_1125_p",
+            "items/ksads_suicidal_raw_1126_p",
+            "items/ksads_suicidal_raw_1108_p",
+            "items/ksads_suicidal_raw_819_p",
+            "items/ksads_suicidal_raw_820_p",
+            "items/ksads_suicidal_raw_821_p",
+            "items/ksads_suicidal_raw_823_p",
+            "items/ksads_suicidal_raw_824_p",
+            "items/ksads_suicidal_raw_825_p",
+            "items/ksads_suicidal_raw_827_p",
+            "items/ksads_suicidal_raw_828_p",
+            "items/ksads_suicidal_raw_829_p",
+            "items/ksads_suicidal_raw_830_p",
+            "items/ksads_suicidal_raw_832_p",
+            "items/ksads_suicidal_raw_833_p",
+            "items/ksads_suicidal_raw_1105_p",
+            "items/ksads_suicidal_raw_1106_p",
+            "items/ksads_suicidal_raw_1107_p"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ksads_suicidal_raw_1123_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1123_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1110_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1110_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1111_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1111_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1112_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1112_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1113_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1113_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1114_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1114_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1115_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1115_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1116_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1116_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1119_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1119_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1120_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1120_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1121_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1121_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1122_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1122_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1109_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1109_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1124_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1124_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1127_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1127_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_822_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_822_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_826_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_826_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_831_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_831_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_834_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_834_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1117_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1117_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1118_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1118_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1125_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1125_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1126_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1126_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1108_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1108_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_819_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_819_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_820_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_820_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_821_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_821_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_823_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_823_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_824_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_824_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_825_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_825_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_827_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_827_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_828_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_828_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_829_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_829_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_830_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_830_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_832_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_832_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_833_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_833_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1105_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1105_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1106_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1106_p"
+            },
+            {
+                "isAbout": "items/ksads_suicidal_raw_1107_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_suicidal_raw_1107_p"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

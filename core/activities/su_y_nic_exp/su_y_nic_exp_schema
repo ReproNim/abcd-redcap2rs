@@ -1,0 +1,154 @@
+{
+    "id": "su_y_nic_exp_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Attitude in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Nic_Exp"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ascq_section_q01",
+            "items/ascq_section_q02",
+            "items/ascq_section_q03",
+            "items/ascq_section_q04",
+            "items/ascq_section_q05",
+            "items/ascq_section_q06",
+            "items/su_nic_admin",
+            "items/ascq_positive_expectanciesv1nt",
+            "items/ascq_positive_expectanciesv1nm",
+            "items/ascq_positive_expectanciesv1ss",
+            "items/ascq_positive_expectanciesv2nt",
+            "items/ascq_positive_expectanciesv2nm",
+            "items/ascq_positive_expectanciesv2ss",
+            "items/ascq_negative_expectanciesv1nt",
+            "items/ascq_negative_expectanciesv1nm",
+            "items/ascq_negative_expectanciesv1ss",
+            "items/ascq_negative_expectanciesv2nt",
+            "items/ascq_negative_expectanciesv2nm",
+            "items/ascq_negative_expectanciesv2ss"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ascq_section_q01",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ascq_section_q01"
+            },
+            {
+                "isAbout": "items/ascq_section_q02",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ascq_section_q02"
+            },
+            {
+                "isAbout": "items/ascq_section_q03",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ascq_section_q03"
+            },
+            {
+                "isAbout": "items/ascq_section_q04",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ascq_section_q04"
+            },
+            {
+                "isAbout": "items/ascq_section_q05",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ascq_section_q05"
+            },
+            {
+                "isAbout": "items/ascq_section_q06",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ascq_section_q06"
+            },
+            {
+                "isAbout": "items/su_nic_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_nic_admin"
+            },
+            {
+                "isAbout": "items/ascq_positive_expectanciesv1nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ascq_positive_expectanciesv1nt"
+            },
+            {
+                "isAbout": "items/ascq_positive_expectanciesv1nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ascq_positive_expectanciesv1nm"
+            },
+            {
+                "isAbout": "items/ascq_positive_expectanciesv1ss",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ascq_positive_expectanciesv1ss"
+            },
+            {
+                "isAbout": "items/ascq_positive_expectanciesv2nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ascq_positive_expectanciesv2nt"
+            },
+            {
+                "isAbout": "items/ascq_positive_expectanciesv2nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ascq_positive_expectanciesv2nm"
+            },
+            {
+                "isAbout": "items/ascq_positive_expectanciesv2ss",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ascq_positive_expectanciesv2ss"
+            },
+            {
+                "isAbout": "items/ascq_negative_expectanciesv1nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ascq_negative_expectanciesv1nt"
+            },
+            {
+                "isAbout": "items/ascq_negative_expectanciesv1nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ascq_negative_expectanciesv1nm"
+            },
+            {
+                "isAbout": "items/ascq_negative_expectanciesv1ss",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ascq_negative_expectanciesv1ss"
+            },
+            {
+                "isAbout": "items/ascq_negative_expectanciesv2nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ascq_negative_expectanciesv2nt"
+            },
+            {
+                "isAbout": "items/ascq_negative_expectanciesv2nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ascq_negative_expectanciesv2nm"
+            },
+            {
+                "isAbout": "items/ascq_negative_expectanciesv2ss",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ascq_negative_expectanciesv2ss"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "ksads_gad_raw_1915_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_gad_raw_1915_t of mh_y_ksads_gad"
+    },
+    "prefLabel": {
+        "en": "You mentioned earlier that you worry about a lot of different things. Mark below all the different things you find yourself worrying about. Mark as many as apply.How I did on a test"
+    },
+    "question": {
+        "en": "You mentioned earlier that you worry about a lot of different things. Mark below all the different things you find yourself worrying about. Mark as many as apply. How I did on a test"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "child_test_1_cv_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "child_test_1_cv_p of ph_p_covid"
+    },
+    "prefLabel": {
+        "en": "Date of first test: / Fecha de la primer prueba:"
+    },
+    "question": {
+        "en": "Date of first test:",
+        "es": "Fecha de la primer prueba:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

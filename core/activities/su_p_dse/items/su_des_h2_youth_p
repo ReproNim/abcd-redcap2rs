@@ -1,0 +1,36 @@
+{
+    "id": "su_des_h2_youth_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_des_h2_youth_p of su_p_dse"
+    },
+    "prefLabel": {
+        "en": "How many youth (less than 18 years old) other than your child (for example  siblings  cousins  step-siblings) stay or live in this household? Cuantos jovenes (menores de 18 aos) aparte de su hijo/a (por ejemplo  hermanos  primos  hermanastros) se quedan o viven en este hogar?"
+    },
+    "question": {
+        "en": "How many youth (less than 18 years old) other than your child (for example  siblings  cousins  step-siblings) stay or live in this household?",
+        "es": "Cuantos jovenes (menores de 18 aos) aparte de su hijo a (por ejemplo  hermanos  primos  hermanastros) se quedan o viven en este hogar?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't Know  /  No se"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 999,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,35 @@
+{
+    "id": "tlfb_blunt_lt_dk",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_blunt_lt_dk of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Blunts: Don't know"
+    },
+    "question": {
+        "en": "Blunts: Don't know"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know// For the drugs you have tried, I want to know how many times you have used them in your life. We are going to measure this in standard units, do not worry, I will help you with each drug to measure this in standard units, such as one beer, one cigarette, or one gram of marijuana."
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 999,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

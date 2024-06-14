@@ -1,0 +1,78 @@
+{
+    "id": "demo_gender_id_v2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_gender_id_v2 of gish_p_gi"
+    },
+    "prefLabel": {
+        "en": "What is the child's current gender identity? \u00ac\u00f8Cu\u221a\u00b0l es la identidad de g\u221a\u00a9nero actual de el/la ni\u221a\u00b1o(a)?"
+    },
+    "question": {
+        "en": "What is the child's current gender identity? la ni\u221a\u00b1o(a)?",
+        "es": "\u00ac\u00f8Cu\u221a\u00b0l es la identidad de g\u221a\u00a9nero actual de el"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Male Hombre"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Female Mujer"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Trans male Transexual masculino / hombre transexual"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Trans female Transexual femenino / mujer transexual"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Gender queer Interg\u221a\u00c9\u00ac\u00a9nero (\"genderqueer\") / No conforme con el g\u221a\u00c9\u00ac\u00a9nero"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Different Otra identididad"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer Niego contestar"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Don't know No lo s\u221a\u00c9\u00ac\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

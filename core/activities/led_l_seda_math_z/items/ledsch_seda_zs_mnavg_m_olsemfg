@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_zs_mnavg_m_olsemfg",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_zs_mnavg_m_olsemfg of led_l_seda_math_z"
+    },
+    "prefLabel": {
+        "en": "CZ Poolsub (''pooled by subject'' - within subjects) Commuting Zone SE of Mean Ach, Math, OLS est, CS HLM using SEDA HETOP est male minus female opportunity gap"
+    },
+    "question": {
+        "en": "CZ Poolsub (''pooled by subject'' - within subjects) Commuting Zone SE of Mean Ach, Math, OLS est, CS HLM using SEDA HETOP est male minus female opportunity gap"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

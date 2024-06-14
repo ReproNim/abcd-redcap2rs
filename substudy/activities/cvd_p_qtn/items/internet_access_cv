@@ -1,0 +1,47 @@
+{
+    "id": "internet_access_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "internet_access_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Do you have internet access at home?"
+    },
+    "question": {
+        "en": "Do you have internet access at home?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know[school_close_cv] = '2'"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

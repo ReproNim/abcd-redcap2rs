@@ -1,0 +1,107 @@
+{
+    "id": "y_gish2_desc_fem",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "y_gish2_desc_fem of gish_y_gi"
+    },
+    "prefLabel": {
+        "en": "How do you think other people would describe you?"
+    },
+    "question": {
+        "en": "How do you think other people would describe you?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very feminine"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mostly feminine"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat feminine"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Equally feminine and masculine"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Somewhat masculine"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Mostly masculine"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Very masculine"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 7,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

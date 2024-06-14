@@ -1,0 +1,24 @@
+{
+    "id": "nihtbx_reading_fc",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nihtbx_reading_fc of nc_y_nihtb"
+    },
+    "prefLabel": {
+        "en": "NIH Toolbox Oral Reading Recognition Test Age 3+ v2.0 Fully-Corrected T-score"
+    },
+    "question": {
+        "en": "NIH Toolbox Oral Reading Recognition Test Age 3+ v2. 0 Fully-Corrected T-score"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

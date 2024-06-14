@@ -1,0 +1,41 @@
+{
+    "id": "ecbq_physical_breathe",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ecbq_physical_breathe of ecb_y_ecb"
+    },
+    "prefLabel": {
+        "en": "Did you do any physical activity today that made you breathe somewhat harder than normal, such as running, swimming, bicycling, or playing a sport?"
+    },
+    "question": {
+        "en": "Did you do any physical activity today that made you breathe somewhat harder than normal, such as running, swimming, bicycling, or playing a sport?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

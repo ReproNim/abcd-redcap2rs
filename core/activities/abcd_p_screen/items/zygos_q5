@@ -1,0 +1,48 @@
+{
+    "id": "zygos_q5",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "zygos_q5 of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Based on their appearance now, how often do people have trouble telling them apart? Would you say never, sometimes, or always? /Con base en la apariencia actual de los ni\u221a\u00b1os, \u00ac\u00f8con qu\u221a\u00a9 frecuencia tiene problemas la gente para distinguirlos? \u00ac\u00f8Dir\u221a\u2260a que nunca, a veces o siempre?"
+    },
+    "question": {
+        "en": "Based on their appearance now, how often do people have trouble telling them apart? Would you say never, sometimes, or always?",
+        "es": "Con base en la apariencia actual de los ni\u221a\u00b1os, \u00ac\u00f8con qu\u221a\u00a9 frecuencia tiene problemas la gente para distinguirlos? \u00ac\u00f8Dir\u221a\u2260a que nunca, a veces o siempre?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

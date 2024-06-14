@@ -1,0 +1,41 @@
+{
+    "id": "ksads_dp_raw_897_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dp_raw_897_p of mh_p_ksads_dep"
+    },
+    "prefLabel": {
+        "en": "You reported that your child has the following current problems. Let me know if they have been present for a year or longerFeeling restless or fidgety"
+    },
+    "question": {
+        "en": "You reported that your child has the following current problems. Let me know if they have been present for a year or longerFeeling restless or fidgety"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

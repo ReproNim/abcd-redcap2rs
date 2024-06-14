@@ -1,0 +1,25 @@
+{
+    "id": "demo_years_us_v2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_years_us_v2 of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "How many years has the child lived in the United States? \u00ac\u00f8Cu\u221a\u00b0ntos a\u221a\u00b1os lleva el/la ni\u221a\u00b1o(a) viviendo en los Estados Unidos?"
+    },
+    "question": {
+        "en": "How many years has the child lived in the United States?",
+        "es": "\u00ac\u00f8Cu\u221a\u00b0ntos a\u221a\u00b1os lleva el la ni\u221a\u00b1o(a) viviendo en los Estados Unidos?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

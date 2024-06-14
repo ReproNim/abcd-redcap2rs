@@ -1,0 +1,47 @@
+{
+    "id": "ocp_prtnr_acs_job_cat_10_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ocp_prtnr_acs_job_cat_10_p of abcd_p_ocp"
+    },
+    "prefLabel": {
+        "en": "Please specify the Healthcare Support Occupations Job Title:"
+    },
+    "question": {
+        "en": "Please specify the Healthcare Support Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Nursing=Psychiatric=and Home Health Aides"
+                },
+                "value": 31100
+            },
+            {
+                "name": {
+                    "en": "Occupational Therapy and Physical Therapist Assistants and Aides"
+                },
+                "value": 31200
+            },
+            {
+                "name": {
+                    "en": "Other Healthcare Support Occupations"
+                },
+                "value": 31900
+            }
+        ],
+        "maxValue": 31900,
+        "minValue": 31100,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

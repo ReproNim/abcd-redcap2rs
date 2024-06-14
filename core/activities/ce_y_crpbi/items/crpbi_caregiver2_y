@@ -1,0 +1,71 @@
+{
+    "id": "crpbi_caregiver2_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "crpbi_caregiver2_y of ce_y_crpbi"
+    },
+    "prefLabel": {
+        "en": "Who is the second caregiver? If more than one caregiver, choose the person you spend the most time with."
+    },
+    "question": {
+        "en": "Who is the second caregiver? If more than one caregiver, choose the person you spend the most time with."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "mother"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "father"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "grandmother"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "grandfather"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "aunt"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "uncle"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 7
+            }
+        ],
+        "maxValue": 7,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

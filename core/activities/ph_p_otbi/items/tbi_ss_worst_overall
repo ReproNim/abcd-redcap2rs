@@ -1,0 +1,35 @@
+{
+    "id": "tbi_ss_worst_overall",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tbi_ss_worst_overall of ph_p_otbi"
+    },
+    "prefLabel": {
+        "en": "Worst Injury Overall: Worst TBI - 1, Improbable TBI (no TBI or TBI w/o LOC or memory loss); 2, Possible mild TBI (TBI w/o LOC but memory loss); 3, Mild TBI (TBI w/LOC \u2264 30 min); 4, Moderate TBI (TBI w/LOC  30 min - 24 hrs); 5, Severe TBI (TBI w/ LOC \u2265 24 hrs)"
+    },
+    "question": {
+        "en": "Worst Injury Overall: Worst TBI - 1, Improbable TBI (no TBI or TBI w o LOC or memory loss); 2, Possible mild TBI (TBI w o LOC but memory loss); 3, Mild TBI (TBI w LOC \u2264 30 min); 4, Moderate TBI (TBI w LOC  30 min - 24 hrs); 5, Severe TBI (TBI w LOC \u2265 24 hrs)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "E16."
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

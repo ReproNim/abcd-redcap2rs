@@ -1,0 +1,24 @@
+{
+    "id": "ddis_scr_val_cons_per_jbcrit1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ddis_scr_val_cons_per_jbcrit1 of nc_y_ddis"
+    },
+    "prefLabel": {
+        "en": "values.Consistent_per_JBcriterion1: Describes whether subjective value (SV) of the hypothetical $100 standard reward decreases in an orderly, consistent way across progressively longer delays to reward delivery"
+    },
+    "question": {
+        "en": "values. Consistent_per_JBcriterion1: Describes whether subjective value (SV) of the hypothetical $100 standard reward decreases in an orderly, consistent way across progressively longer delays to reward delivery"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

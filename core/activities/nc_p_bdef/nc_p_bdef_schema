@@ -1,0 +1,147 @@
+{
+    "id": "nc_p_bdef_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Questionnaire in Neurocognition"
+    },
+    "prefLabel": {
+        "en": "Nc_P_Bdef"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/bdefs_p_select_language___1",
+            "items/bdefs_start_time",
+            "items/bdefs_calm_down_p",
+            "items/bdefs_consequences_p",
+            "items/bdefs_distract_upset_p",
+            "items/bdefs_explain_idea_p",
+            "items/bdefs_explain_pt_p",
+            "items/bdefs_explain_seq_p",
+            "items/bdefs_impulsive_action_p",
+            "items/bdefs_inconsistant_p",
+            "items/bdefs_lazy_p",
+            "items/bdefs_process_info_p",
+            "items/bdefs_rechannel_p",
+            "items/bdefs_sense_time_p",
+            "items/bdefs_shortcuts_p",
+            "items/bdefs_stop_think_p",
+            "items/bdefs_ss_sum",
+            "items/bdefs_ss_sympt"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/bdefs_p_select_language___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bdefs_p_select_language___1"
+            },
+            {
+                "isAbout": "items/bdefs_start_time",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bdefs_start_time"
+            },
+            {
+                "isAbout": "items/bdefs_calm_down_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bdefs_calm_down_p"
+            },
+            {
+                "isAbout": "items/bdefs_consequences_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bdefs_consequences_p"
+            },
+            {
+                "isAbout": "items/bdefs_distract_upset_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bdefs_distract_upset_p"
+            },
+            {
+                "isAbout": "items/bdefs_explain_idea_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bdefs_explain_idea_p"
+            },
+            {
+                "isAbout": "items/bdefs_explain_pt_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bdefs_explain_pt_p"
+            },
+            {
+                "isAbout": "items/bdefs_explain_seq_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bdefs_explain_seq_p"
+            },
+            {
+                "isAbout": "items/bdefs_impulsive_action_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bdefs_impulsive_action_p"
+            },
+            {
+                "isAbout": "items/bdefs_inconsistant_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bdefs_inconsistant_p"
+            },
+            {
+                "isAbout": "items/bdefs_lazy_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bdefs_lazy_p"
+            },
+            {
+                "isAbout": "items/bdefs_process_info_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bdefs_process_info_p"
+            },
+            {
+                "isAbout": "items/bdefs_rechannel_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bdefs_rechannel_p"
+            },
+            {
+                "isAbout": "items/bdefs_sense_time_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bdefs_sense_time_p"
+            },
+            {
+                "isAbout": "items/bdefs_shortcuts_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bdefs_shortcuts_p"
+            },
+            {
+                "isAbout": "items/bdefs_stop_think_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bdefs_stop_think_p"
+            },
+            {
+                "isAbout": "items/bdefs_ss_sum",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bdefs_ss_sum"
+            },
+            {
+                "isAbout": "items/bdefs_ss_sympt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bdefs_ss_sympt"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

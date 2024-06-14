@@ -1,0 +1,24 @@
+{
+    "id": "abcl_scr_prob_thought_nt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "abcl_scr_prob_thought_nt of mh_p_abcl"
+    },
+    "prefLabel": {
+        "en": "Thought Problems Syndrome Scale (Number Total)"
+    },
+    "question": {
+        "en": "Thought Problems Syndrome Scale (Number Total)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

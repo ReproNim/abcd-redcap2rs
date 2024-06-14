@@ -1,0 +1,42 @@
+{
+    "id": "sai_p_activities___22",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sai_p_activities___22 of ph_p_saiq"
+    },
+    "prefLabel": {
+        "en": "(r) Please indicate whether your child has EVER participated in any of the following sports and activities continuously for 4 months or more (e.g., for a season in sports, or at least four months of lessons, group participation, etc). We will then ask you some follow-up questions about EACH of the sports or activities in which your child has participated. Indique si su ni\u00f1o(a) ha participado ALGUNA VEZ en cualquiera de los siguientes deportes o actividades continuamente por 4 meses o m\u00e1s (por ejemplo, por una temporada de deporte, o al menos 4 meses de lecciones, participaci\u00f3n grupal, etc.). Luego le haremos algunas preguntas de seguimiento acerca de CADA UNO de los deportes o actividades en los cuales su ni\u00f1o(a) ha participado. ( 22,Yoga, Tai Chi)"
+    },
+    "question": {
+        "en": "(r) Please indicate whether your child has EVER participated in any of the following sports and activities continuously for 4 months or more (e. g. , for a season in sports, or at least four months of lessons, group participation, etc). We will then ask you some follow-up questions about EACH of the sports or activities in which your child has participated. ). ( 22,Yoga, Tai Chi)",
+        "es": "Indique si su ni\u00f1o(a) ha participado ALGUNA VEZ en cualquiera de los siguientes deportes o actividades continuamente por 4 meses o m\u00e1s (por ejemplo, por una temporada de deporte, o al menos 4 meses de lecciones, participaci\u00f3n grupal, etc. Luego le haremos algunas preguntas de seguimiento acerca de CADA UNO de los deportes o actividades en los cuales su ni\u00f1o(a) ha participado."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr3_effMML",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr3_effMML of led_l_medmj"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - indicates if the medical marijuana law (MML) (i.e. patients have legal protection to possess MJ for medicinal purposes) was effective at date of baseline visit (address 3)"
+    },
+    "question": {
+        "en": "Residential history derived - indicates if the medical marijuana law (MML) (i. e. patients have legal protection to possess MJ for medicinal purposes) was effective at date of baseline visit (address 3)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

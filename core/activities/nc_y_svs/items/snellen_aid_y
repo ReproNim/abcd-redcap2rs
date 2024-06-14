@@ -1,0 +1,41 @@
+{
+    "id": "snellen_aid_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "snellen_aid_y of nc_y_svs"
+    },
+    "prefLabel": {
+        "en": "Do you wear any necessary corrective aids (glasses, contacts)?"
+    },
+    "question": {
+        "en": "Do you wear any necessary corrective aids (glasses, contacts)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No; Starting from the top of the chart, please read aloud one row at a time from left to right until I tell you to stop. If needed,  say  Keep going."
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

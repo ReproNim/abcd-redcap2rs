@@ -1,0 +1,24 @@
+{
+    "id": "cvd_fit_ss_sleepdate",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "cvd_fit_ss_sleepdate of cvd_y_fitb_slp_d"
+    },
+    "prefLabel": {
+        "en": "Date of the night (PM portion of sleep period) of sleep being considered"
+    },
+    "question": {
+        "en": "Date of the night (PM portion of sleep period) of sleep being considered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "date"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "demo_prnt_age_v2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_prnt_age_v2 of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "How old are you? \u00ac\u00f8Qu\u221a\u00a9 edad tiene usted?"
+    },
+    "question": {
+        "en": "How old are you? \u00ac\u00f8Qu\u221a\u00a9 edad tiene usted?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

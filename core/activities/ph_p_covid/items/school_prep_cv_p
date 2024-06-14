@@ -1,0 +1,60 @@
+{
+    "id": "school_prep_cv_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "school_prep_cv_p of ph_p_covid"
+    },
+    "prefLabel": {
+        "en": "How prepared do you think your child will be for next school year? / Que tan preparado/a piensa que estar\u00e1 su hijo/a para el pr\u00f3ximo ano escolar?"
+    },
+    "question": {
+        "en": "How prepared do you think your child will be for next school year?",
+        "es": "Que tan preparado a piensa que estar\u00e1 su hijo a para el pr\u00f3ximo ano escolar?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all / Para nada"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Slightly / Ligeramente o un poco"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Moderately / Moderadamente"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very / Altamente o Mucho"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Extremely / Extremadamente"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "fam_history_9_yes_no",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fam_history_9_yes_no of mh_p_fhx"
+    },
+    "prefLabel": {
+        "en": "9. Has ANY blood relative of your child been the kind of person who never holds a job for long, or  gets into fights, or gets into trouble with the police from time to time, or had any trouble with the law as a child or an adult? \u00bfALG\u00daN pariente consangu\u00edneo de su ni\u00f1o(a) es el tipo de persona que nunca puede mantener un empleo por mucho tiempo, que de vez en cuando se mete en peleas o tiene problemas con la polic\u00eda o que ha tenido problemas con la ley, ya sea cuando ni\u00f1o o adulto?"
+    },
+    "question": {
+        "en": "9. Has ANY blood relative of your child been the kind of person who never holds a job for long, or  gets into fights, or gets into trouble with the police from time to time, or had any trouble with the law as a child or an adult?",
+        "es": "\u00bfALG\u00daN pariente consangu\u00edneo de su ni\u00f1o(a) es el tipo de persona que nunca puede mantener un empleo por mucho tiempo, que de vez en cuando se mete en peleas o tiene problemas con la polic\u00eda o que ha tenido problemas con la ley, ya sea cuando ni\u00f1o o adulto?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know No lo s\u00e9"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer Niego contestar /  famhx_1   == 1"
+                },
+                "value": 7
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

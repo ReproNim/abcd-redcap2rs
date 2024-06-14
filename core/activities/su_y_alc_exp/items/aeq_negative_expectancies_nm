@@ -1,0 +1,24 @@
+{
+    "id": "aeq_negative_expectancies_nm",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "aeq_negative_expectancies_nm of su_y_alc_exp"
+    },
+    "prefLabel": {
+        "en": "Number of items with missing values"
+    },
+    "question": {
+        "en": "Number of items with missing values"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

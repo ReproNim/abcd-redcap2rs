@@ -1,0 +1,1309 @@
+{
+    "id": "mh_p_ksads_bg_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Psychosocial in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_P_Ksads_Bg"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/kbi_p_c_live_full_time",
+            "items/kbi_p_c_guard___1",
+            "items/kbi_p_c_guard___2",
+            "items/kbi_p_c_guard___3",
+            "items/kbi_p_c_guard___4",
+            "items/kbi_p_c_guard___5",
+            "items/kbi_p_c_guard___6",
+            "items/kbi_p_c_guard___7",
+            "items/kbi_p_c_guard___8",
+            "items/kbi_p_c_guard___9",
+            "items/kbi_p_c_guard___10",
+            "items/kbi_p_c_guard___11",
+            "items/kbi_p_c_guard___12",
+            "items/kbi_p_c_guard___13",
+            "items/kbi_p_conflict",
+            "items/kbi_p_conflict_causes___1",
+            "items/kbi_p_conflict_causes___2",
+            "items/kbi_p_conflict_causes___3",
+            "items/kbi_p_conflict_causes___4",
+            "items/kbi_p_conflict_causes___5",
+            "items/kbi_p_conflict_causes___6",
+            "items/kbi_p_conflict_causes___7",
+            "items/kbi_p_conflict_causes___8",
+            "items/kbi_p_conflict_causes___9",
+            "items/kbi_p_conflict_causes___10",
+            "items/kbi_p_c_school_setting",
+            "items/kbi_p_how_well_c_school",
+            "items/kbi_p_grades_in_school",
+            "items/kbi_p_c_drop_in_grades",
+            "items/kbi_p_c_spec_serv___1",
+            "items/kbi_p_c_spec_serv___2",
+            "items/kbi_p_c_spec_serv___3",
+            "items/kbi_p_c_spec_serv___4",
+            "items/kbi_p_c_spec_serv___5",
+            "items/kbi_p_c_spec_serv___6",
+            "items/kbi_p_c_spec_serv___7",
+            "items/kbi_p_c_spec_serv___8",
+            "items/kbi_p_c_spec_serv___9",
+            "items/kbi_p_c_spec_serv___10",
+            "items/kbi_p_c_det_susp",
+            "items/kbi_p_c_det_reason___1",
+            "items/kbi_p_c_det_reason___2",
+            "items/kbi_p_c_det_reason___3",
+            "items/kbi_p_c_det_reason___4",
+            "items/kbi_p_c_det_reason___5",
+            "items/kbi_p_c_det_reason___6",
+            "items/kbi_p_c_det_reason___7",
+            "items/kbi_p_c_det_reason__999",
+            "items/kbi_p_c_det_reason__888",
+            "items/kbi_p_c_det_reason__8",
+            "items/kbi_p_c_best_friend",
+            "items/kbi_p_c_best_friend_len",
+            "items/kbi_p_c_reg_friend_group",
+            "items/kbi_p_c_reg_friend_group_len",
+            "items/kbi_p_c_reg_friend_group_opin",
+            "items/kbi_p_c_bully",
+            "items/kbi_p_c_gay",
+            "items/kbi_p_c_gay_problems",
+            "items/kbi_p_c_trans",
+            "items/kbi_p_c_trans_problems",
+            "items/kbi_p_c_mh_sa",
+            "items/kbi_p_c_age_services",
+            "items/kbi_p_c_age_services_bl_dk",
+            "items/kbi_p_c_scheck1",
+            "items/kbi_p_c_scheck2",
+            "items/kbi_p_c_scheck3",
+            "items/kbi_p_c_scheck4",
+            "items/kbi_p_c_scheck5",
+            "items/kbi_p_c_scheck6",
+            "items/kbi_p_c_scheck7",
+            "items/kbi_p_c_scheck8",
+            "items/kbi_p_c_scheck9",
+            "items/kbi_p_c_scheck10",
+            "items/kbi_p_c_mental_health",
+            "items/kbi_ss_c_mental_health_p",
+            "items/kbi_p_c_mental_health_dk",
+            "items/kbi_p_c_substance_abuse",
+            "items/kbi_ss_c_substance_abuse_p",
+            "items/kbi_p_c_substance_abuse_dk",
+            "items/kbi_p_select_language___1",
+            "items/kbi_l_p_select_language___1",
+            "items/kbi_p_c_live_full_time_l",
+            "items/kbi_p_c_guard_l___1",
+            "items/kbi_p_c_guard_l___2",
+            "items/kbi_p_c_guard_l___3",
+            "items/kbi_p_c_guard_l___4",
+            "items/kbi_p_c_guard_l___5",
+            "items/kbi_p_c_guard_l___6",
+            "items/kbi_p_c_guard_l___7",
+            "items/kbi_p_c_guard_l___8",
+            "items/kbi_p_c_guard_l___9",
+            "items/kbi_p_c_guard_l___10",
+            "items/kbi_p_c_guard_l___11",
+            "items/kbi_p_c_guard_l___12",
+            "items/kbi_p_c_guard_l___0",
+            "items/kbi_p_conflict_l",
+            "items/kbi_p_conflict_causes_l___1",
+            "items/kbi_p_conflict_causes_l___2",
+            "items/kbi_p_conflict_causes_l___3",
+            "items/kbi_p_conflict_causes_l___4",
+            "items/kbi_p_conflict_causes_l___5",
+            "items/kbi_p_conflict_causes_l___6",
+            "items/kbi_p_conflict_causes_l___7",
+            "items/kbi_p_conflict_causes_l___8",
+            "items/kbi_p_conflict_causes_l___9",
+            "items/kbi_p_conflict_causes_l___0",
+            "items/kbi_p_c_school_setting_l",
+            "items/kbi_p_how_well_c_school_l",
+            "items/kbi_p_grades_in_school_l",
+            "items/kbi_p_c_drop_in_grades_l",
+            "items/kbi_p_c_spec_serv_l___1",
+            "items/kbi_p_c_spec_serv_l___2",
+            "items/kbi_p_c_spec_serv_l___3",
+            "items/kbi_p_c_spec_serv_l___4",
+            "items/kbi_p_c_spec_serv_l___5",
+            "items/kbi_p_c_spec_serv_l___6",
+            "items/kbi_p_c_spec_serv_l___7",
+            "items/kbi_p_c_spec_serv_l___8",
+            "items/kbi_p_c_spec_serv_l___9",
+            "items/kbi_p_c_spec_serv_l___10",
+            "items/kbi_p_c_det_susp_l",
+            "items/kbi_p_c_det_reason_l___1",
+            "items/kbi_p_c_det_reason_l___2",
+            "items/kbi_p_c_det_reason_l___3",
+            "items/kbi_p_c_det_reason_l___4",
+            "items/kbi_p_c_det_reason_l___5",
+            "items/kbi_p_c_det_reason_l___6",
+            "items/kbi_p_c_det_reason_l___7",
+            "items/kbi_p_c_det_reason_l___999",
+            "items/kbi_p_c_det_reason_l___777",
+            "items/kbi_p_c_det_reason_l___8",
+            "items/kbi_p_c_best_friend_l",
+            "items/kbi_p_c_best_friend_len_l",
+            "items/kbi_p_c_reg_friend_group_l",
+            "items/kbi_p_c_reg_friend_group_len_l",
+            "items/kbipcregfriend_groupopin_l",
+            "items/kbi_p_c_bully_l",
+            "items/kbi_p_c_gay_l",
+            "items/kbi_p_c_gay_problems_l",
+            "items/kbi_p_c_trans_l",
+            "items/kbi_p_c_trans_problems_l",
+            "items/kbi_p_c_mh_sa_l",
+            "items/kbi_p_c_age_services_l",
+            "items/kbi_p_c_age_services_dk",
+            "items/kbipcserviceschecklistl1",
+            "items/kbipcserviceschecklistl2",
+            "items/kbipcserviceschecklistl3",
+            "items/kbipcserviceschecklistl4",
+            "items/kbipcserviceschecklistl5",
+            "items/kbipcserviceschecklistl6",
+            "items/kbipcserviceschecklistl7",
+            "items/kbipcserviceschecklistl8",
+            "items/kbipcserviceschecklistl9",
+            "items/kbipcserviceschecklistl10",
+            "items/kbi_p_c_mental_health_l",
+            "items/kbi_ss_c_mental_health_p_l",
+            "items/kbi_p_c_mental_health_dk_l",
+            "items/kbi_p_c_substance_abuse_l",
+            "items/kbi_ss_c_substance_abuse_p_l",
+            "items/kbi_p_c_substance_abuse_dk_l",
+            "items/kbi_p_c_spec_serv_l___777",
+            "items/kbipcserviceschecklistl777",
+            "items/kbi_p_c_serviceschecklist3l8",
+            "items/kbi_p_c_serviceschecklist3l9",
+            "items/kbi_p_c_serviceschecklist3l777",
+            "items/kbi_grades_repeated_p_l___1",
+            "items/kbi_grades_repeated_p_l___2",
+            "items/kbi_grades_repeated_p_l___3",
+            "items/kbi_grades_repeated_p_l___4",
+            "items/kbi_grades_repeated_p_l___5",
+            "items/kbi_grades_repeated_p_l___6",
+            "items/kbi_grades_repeated_p_l___7",
+            "items/kbi_grades_repeated_p_l___8",
+            "items/kbi_grades_repeated_p_l___9",
+            "items/kbi_grades_repeated_p_l___10",
+            "items/kbi_grades_repeated_p_l___999",
+            "items/kbi_grades_repeated_p_l___777",
+            "items/kbi_p_c_serviceschecklist3l1",
+            "items/kbi_p_c_serviceschecklist3l2",
+            "items/kbi_p_c_serviceschecklist3l3",
+            "items/kbi_p_c_serviceschecklist3l4",
+            "items/kbi_p_c_serviceschecklist3l5",
+            "items/kbi_p_c_serviceschecklist3l6",
+            "items/kbi_p_c_serviceschecklist3l7"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/kbi_p_c_live_full_time",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_live_full_time"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard___1",
+                "isVis": "kbi_p_c_live_full_time   === 0",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard___1"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard___2",
+                "isVis": "kbi_p_c_live_full_time   === 0",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard___2"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard___3",
+                "isVis": "kbi_p_c_live_full_time   === 0",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard___3"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard___4",
+                "isVis": "kbi_p_c_live_full_time   === 0",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard___4"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard___5",
+                "isVis": "kbi_p_c_live_full_time   === 0",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard___5"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard___6",
+                "isVis": "kbi_p_c_live_full_time   === 0",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard___6"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard___7",
+                "isVis": "kbi_p_c_live_full_time   === 0",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard___7"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard___8",
+                "isVis": "kbi_p_c_live_full_time   === 0",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard___8"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard___9",
+                "isVis": "kbi_p_c_live_full_time   === 0",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard___9"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard___10",
+                "isVis": "kbi_p_c_live_full_time   === 0",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard___10"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard___11",
+                "isVis": "kbi_p_c_live_full_time   === 0",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard___11"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard___12",
+                "isVis": "kbi_p_c_live_full_time   === 0",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard___12"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard___13",
+                "isVis": "kbi_p_c_live_full_time   === 0",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard___13"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes___1",
+                "isVis": "kbi_p_conflict   === 2 ||  kbi_p_conflict   === 3",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes___1"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes___2",
+                "isVis": "kbi_p_conflict   === 2 ||  kbi_p_conflict   === 3",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes___2"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes___3",
+                "isVis": "kbi_p_conflict   === 2 ||  kbi_p_conflict   === 3",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes___3"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes___4",
+                "isVis": "kbi_p_conflict   === 2 ||  kbi_p_conflict   === 3",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes___4"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes___5",
+                "isVis": "kbi_p_conflict   === 2 ||  kbi_p_conflict   === 3",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes___5"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes___6",
+                "isVis": "kbi_p_conflict   === 2 ||  kbi_p_conflict   === 3",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes___6"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes___7",
+                "isVis": "kbi_p_conflict   === 2 ||  kbi_p_conflict   === 3",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes___7"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes___8",
+                "isVis": "kbi_p_conflict   === 2 ||  kbi_p_conflict   === 3",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes___8"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes___9",
+                "isVis": "kbi_p_conflict   === 2 ||  kbi_p_conflict   === 3",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes___9"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes___10",
+                "isVis": "kbi_p_conflict   === 2 ||  kbi_p_conflict   === 3",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes___10"
+            },
+            {
+                "isAbout": "items/kbi_p_c_school_setting",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_school_setting"
+            },
+            {
+                "isAbout": "items/kbi_p_how_well_c_school",
+                "isVis": "kbi_p_c_school_setting   === 2 ||  kbi_p_c_school_setting   === 3 ||  kbi_p_c_school_setting   === 4  ||  kbi_p_c_school_setting   === 5  ||  kbi_p_c_school_setting   === 6 ||  kbi_p_c_school_setting   === 7 ||  kbi_p_c_school_setting   === 9",
+                "valueRequired": true,
+                "variableName": "kbi_p_how_well_c_school"
+            },
+            {
+                "isAbout": "items/kbi_p_grades_in_school",
+                "isVis": "kbi_p_c_school_setting   === 2 ||  kbi_p_c_school_setting   === 3 ||  kbi_p_c_school_setting   === 4  ||  kbi_p_c_school_setting   === 5  ||  kbi_p_c_school_setting   === 6 ||  kbi_p_c_school_setting   === 7 ||  kbi_p_c_school_setting   === 9",
+                "valueRequired": true,
+                "variableName": "kbi_p_grades_in_school"
+            },
+            {
+                "isAbout": "items/kbi_p_c_drop_in_grades",
+                "isVis": "kbi_p_c_school_setting   === 2 ||  kbi_p_c_school_setting   === 3 ||  kbi_p_c_school_setting   === 4  ||  kbi_p_c_school_setting   === 5  ||  kbi_p_c_school_setting   === 6 ||  kbi_p_c_school_setting   === 7 ||  kbi_p_c_school_setting   === 9",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_drop_in_grades"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv___1",
+                "isVis": "kbi_p_c_school_setting   === 2 ||  kbi_p_c_school_setting   === 3 ||  kbi_p_c_school_setting   === 4  ||  kbi_p_c_school_setting   === 5  ||  kbi_p_c_school_setting   === 6 ||  kbi_p_c_school_setting   === 7 ||  kbi_p_c_school_setting   === 9",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv___1"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv___2",
+                "isVis": "kbi_p_c_school_setting   === 2 ||  kbi_p_c_school_setting   === 3 ||  kbi_p_c_school_setting   === 4  ||  kbi_p_c_school_setting   === 5  ||  kbi_p_c_school_setting   === 6 ||  kbi_p_c_school_setting   === 7 ||  kbi_p_c_school_setting   === 9",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv___2"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv___3",
+                "isVis": "kbi_p_c_school_setting   === 2 ||  kbi_p_c_school_setting   === 3 ||  kbi_p_c_school_setting   === 4  ||  kbi_p_c_school_setting   === 5  ||  kbi_p_c_school_setting   === 6 ||  kbi_p_c_school_setting   === 7 ||  kbi_p_c_school_setting   === 9",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv___3"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv___4",
+                "isVis": "kbi_p_c_school_setting   === 2 ||  kbi_p_c_school_setting   === 3 ||  kbi_p_c_school_setting   === 4  ||  kbi_p_c_school_setting   === 5  ||  kbi_p_c_school_setting   === 6 ||  kbi_p_c_school_setting   === 7 ||  kbi_p_c_school_setting   === 9",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv___4"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv___5",
+                "isVis": "kbi_p_c_school_setting   === 2 ||  kbi_p_c_school_setting   === 3 ||  kbi_p_c_school_setting   === 4  ||  kbi_p_c_school_setting   === 5  ||  kbi_p_c_school_setting   === 6 ||  kbi_p_c_school_setting   === 7 ||  kbi_p_c_school_setting   === 9",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv___5"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv___6",
+                "isVis": "kbi_p_c_school_setting   === 2 ||  kbi_p_c_school_setting   === 3 ||  kbi_p_c_school_setting   === 4  ||  kbi_p_c_school_setting   === 5  ||  kbi_p_c_school_setting   === 6 ||  kbi_p_c_school_setting   === 7 ||  kbi_p_c_school_setting   === 9",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv___6"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv___7",
+                "isVis": "kbi_p_c_school_setting   === 2 ||  kbi_p_c_school_setting   === 3 ||  kbi_p_c_school_setting   === 4  ||  kbi_p_c_school_setting   === 5  ||  kbi_p_c_school_setting   === 6 ||  kbi_p_c_school_setting   === 7 ||  kbi_p_c_school_setting   === 9",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv___7"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv___8",
+                "isVis": "kbi_p_c_school_setting   === 2 ||  kbi_p_c_school_setting   === 3 ||  kbi_p_c_school_setting   === 4  ||  kbi_p_c_school_setting   === 5  ||  kbi_p_c_school_setting   === 6 ||  kbi_p_c_school_setting   === 7 ||  kbi_p_c_school_setting   === 9",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv___8"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv___9",
+                "isVis": "kbi_p_c_school_setting   === 2 ||  kbi_p_c_school_setting   === 3 ||  kbi_p_c_school_setting   === 4  ||  kbi_p_c_school_setting   === 5  ||  kbi_p_c_school_setting   === 6 ||  kbi_p_c_school_setting   === 7 ||  kbi_p_c_school_setting   === 9",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv___9"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv___10",
+                "isVis": "kbi_p_c_school_setting   === 2 ||  kbi_p_c_school_setting   === 3 ||  kbi_p_c_school_setting   === 4  ||  kbi_p_c_school_setting   === 5  ||  kbi_p_c_school_setting   === 6 ||  kbi_p_c_school_setting   === 7 ||  kbi_p_c_school_setting   === 9",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv___10"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_susp",
+                "isVis": "kbi_p_c_school_setting   === 2 ||  kbi_p_c_school_setting   === 3 ||  kbi_p_c_school_setting   === 4  ||  kbi_p_c_school_setting   === 5  ||  kbi_p_c_school_setting   === 6 ||  kbi_p_c_school_setting   === 7 ||  kbi_p_c_school_setting   === 9",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_susp"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason___1",
+                "isVis": "kbi_p_c_det_susp   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason___1"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason___2",
+                "isVis": "kbi_p_c_det_susp   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason___2"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason___3",
+                "isVis": "kbi_p_c_det_susp   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason___3"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason___4",
+                "isVis": "kbi_p_c_det_susp   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason___4"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason___5",
+                "isVis": "kbi_p_c_det_susp   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason___5"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason___6",
+                "isVis": "kbi_p_c_det_susp   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason___6"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason___7",
+                "isVis": "kbi_p_c_det_susp   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason___7"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason__999",
+                "isVis": "kbi_p_c_det_susp   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason__999"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason__888",
+                "isVis": "kbi_p_c_det_susp   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason__888"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason__8",
+                "isVis": "kbi_p_c_det_susp   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason__8"
+            },
+            {
+                "isAbout": "items/kbi_p_c_best_friend",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_best_friend"
+            },
+            {
+                "isAbout": "items/kbi_p_c_best_friend_len",
+                "isVis": "kbi_p_c_best_friend   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_best_friend_len"
+            },
+            {
+                "isAbout": "items/kbi_p_c_reg_friend_group",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_reg_friend_group"
+            },
+            {
+                "isAbout": "items/kbi_p_c_reg_friend_group_len",
+                "isVis": "kbi_p_c_reg_friend_group   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_reg_friend_group_len"
+            },
+            {
+                "isAbout": "items/kbi_p_c_reg_friend_group_opin",
+                "isVis": "kbi_p_c_reg_friend_group   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_reg_friend_group_opin"
+            },
+            {
+                "isAbout": "items/kbi_p_c_bully",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_bully"
+            },
+            {
+                "isAbout": "items/kbi_p_c_gay",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_gay"
+            },
+            {
+                "isAbout": "items/kbi_p_c_gay_problems",
+                "isVis": "kbi_p_c_gay   === 1 ||  kbi_p_c_gay   === 2",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_gay_problems"
+            },
+            {
+                "isAbout": "items/kbi_p_c_trans",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_trans"
+            },
+            {
+                "isAbout": "items/kbi_p_c_trans_problems",
+                "isVis": "kbi_p_c_trans   === 1 ||  kbi_p_c_trans   === 2",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_trans_problems"
+            },
+            {
+                "isAbout": "items/kbi_p_c_mh_sa",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_mh_sa"
+            },
+            {
+                "isAbout": "items/kbi_p_c_age_services",
+                "isVis": "kbi_p_c_mh_sa   === 1 &&  isNull(kbi_p_c_age_services_bl_dk)",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_age_services"
+            },
+            {
+                "isAbout": "items/kbi_p_c_age_services_bl_dk",
+                "isVis": "kbi_p_c_mh_sa   === 1 &&  isNull(kbi_p_c_age_services)",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_age_services_bl_dk"
+            },
+            {
+                "isAbout": "items/kbi_p_c_scheck1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_scheck1"
+            },
+            {
+                "isAbout": "items/kbi_p_c_scheck2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_scheck2"
+            },
+            {
+                "isAbout": "items/kbi_p_c_scheck3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_scheck3"
+            },
+            {
+                "isAbout": "items/kbi_p_c_scheck4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_scheck4"
+            },
+            {
+                "isAbout": "items/kbi_p_c_scheck5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_scheck5"
+            },
+            {
+                "isAbout": "items/kbi_p_c_scheck6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_scheck6"
+            },
+            {
+                "isAbout": "items/kbi_p_c_scheck7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_scheck7"
+            },
+            {
+                "isAbout": "items/kbi_p_c_scheck8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_scheck8"
+            },
+            {
+                "isAbout": "items/kbi_p_c_scheck9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_scheck9"
+            },
+            {
+                "isAbout": "items/kbi_p_c_scheck10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_scheck10"
+            },
+            {
+                "isAbout": "items/kbi_p_c_mental_health",
+                "isVis": "kbi_p_c_scheck3   === 1 &&  isNull(kbi_p_c_mental_health_dk)",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_mental_health"
+            },
+            {
+                "isAbout": "items/kbi_ss_c_mental_health_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_ss_c_mental_health_p"
+            },
+            {
+                "isAbout": "items/kbi_p_c_mental_health_dk",
+                "isVis": "kbi_p_c_scheck3   === 1 &&  isNull(kbi_p_c_mental_health_dk)",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_mental_health_dk"
+            },
+            {
+                "isAbout": "items/kbi_p_c_substance_abuse",
+                "isVis": "kbi_p_c_scheck6   === 1 &&  isNull(kbi_p_c_substance_abuse_dk)",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_substance_abuse"
+            },
+            {
+                "isAbout": "items/kbi_ss_c_substance_abuse_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_ss_c_substance_abuse_p"
+            },
+            {
+                "isAbout": "items/kbi_p_c_substance_abuse_dk",
+                "isVis": "kbi_p_c_scheck6   === 1 &&  isNull(kbi_p_c_substance_abuse)",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_substance_abuse_dk"
+            },
+            {
+                "isAbout": "items/kbi_p_select_language___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_select_language___1"
+            },
+            {
+                "isAbout": "items/kbi_l_p_select_language___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_l_p_select_language___1"
+            },
+            {
+                "isAbout": "items/kbi_p_c_live_full_time_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_live_full_time_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard_l___1",
+                "isVis": "kbi_p_c_live_full_time_l   === '0'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard_l___1"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard_l___2",
+                "isVis": "kbi_p_c_live_full_time_l   === '0'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard_l___2"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard_l___3",
+                "isVis": "kbi_p_c_live_full_time_l   === '0'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard_l___3"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard_l___4",
+                "isVis": "kbi_p_c_live_full_time_l   === '0'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard_l___4"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard_l___5",
+                "isVis": "kbi_p_c_live_full_time_l   === '0'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard_l___5"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard_l___6",
+                "isVis": "kbi_p_c_live_full_time_l   === '0'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard_l___6"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard_l___7",
+                "isVis": "kbi_p_c_live_full_time_l   === '0'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard_l___7"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard_l___8",
+                "isVis": "kbi_p_c_live_full_time_l   === '0'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard_l___8"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard_l___9",
+                "isVis": "kbi_p_c_live_full_time_l   === '0'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard_l___9"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard_l___10",
+                "isVis": "kbi_p_c_live_full_time_l   === '0'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard_l___10"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard_l___11",
+                "isVis": "kbi_p_c_live_full_time_l   === '0'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard_l___11"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard_l___12",
+                "isVis": "kbi_p_c_live_full_time_l   === '0'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard_l___12"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard_l___0",
+                "isVis": "kbi_p_c_live_full_time_l   === '0'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard_l___0"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_l"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes_l___1",
+                "isVis": "kbi_p_conflict_l   === '2' ||  kbi_p_conflict_l   === '3'",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes_l___1"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes_l___2",
+                "isVis": "kbi_p_conflict_l   === '2' ||  kbi_p_conflict_l   === '3'",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes_l___2"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes_l___3",
+                "isVis": "kbi_p_conflict_l   === '2' ||  kbi_p_conflict_l   === '3'",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes_l___3"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes_l___4",
+                "isVis": "kbi_p_conflict_l   === '2' ||  kbi_p_conflict_l   === '3'",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes_l___4"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes_l___5",
+                "isVis": "kbi_p_conflict_l   === '2' ||  kbi_p_conflict_l   === '3'",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes_l___5"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes_l___6",
+                "isVis": "kbi_p_conflict_l   === '2' ||  kbi_p_conflict_l   === '3'",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes_l___6"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes_l___7",
+                "isVis": "kbi_p_conflict_l   === '2' ||  kbi_p_conflict_l   === '3'",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes_l___7"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes_l___8",
+                "isVis": "kbi_p_conflict_l   === '2' ||  kbi_p_conflict_l   === '3'",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes_l___8"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes_l___9",
+                "isVis": "kbi_p_conflict_l   === '2' ||  kbi_p_conflict_l   === '3'",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes_l___9"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes_l___0",
+                "isVis": "kbi_p_conflict_l   === '2' ||  kbi_p_conflict_l   === '3'",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes_l___0"
+            },
+            {
+                "isAbout": "items/kbi_p_c_school_setting_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_school_setting_l"
+            },
+            {
+                "isAbout": "items/kbi_p_how_well_c_school_l",
+                "isVis": "kbi_p_c_school_setting_l   === '2' ||  kbi_p_c_school_setting_l   === '3' ||  kbi_p_c_school_setting_l   === '4'  ||  kbi_p_c_school_setting_l   === '5'  ||  kbi_p_c_school_setting_l   === '6' ||  kbi_p_c_school_setting_l   === '7' ||  kbi_p_c_school_setting_l   === '9'",
+                "valueRequired": true,
+                "variableName": "kbi_p_how_well_c_school_l"
+            },
+            {
+                "isAbout": "items/kbi_p_grades_in_school_l",
+                "isVis": "kbi_p_c_school_setting_l   === '2' ||  kbi_p_c_school_setting_l   === '3' ||  kbi_p_c_school_setting_l   === '4'  ||  kbi_p_c_school_setting_l   === '5'  ||  kbi_p_c_school_setting_l   === '6' ||  kbi_p_c_school_setting_l   === '7' ||  kbi_p_c_school_setting_l   === '9'",
+                "valueRequired": true,
+                "variableName": "kbi_p_grades_in_school_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_drop_in_grades_l",
+                "isVis": "kbi_p_c_school_setting_l   === '2' ||  kbi_p_c_school_setting_l   === '3' ||  kbi_p_c_school_setting_l   === '4'  ||  kbi_p_c_school_setting_l   === '5'  ||  kbi_p_c_school_setting_l   === '6' ||  kbi_p_c_school_setting_l   === '7' ||  kbi_p_c_school_setting_l   === '9'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_drop_in_grades_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv_l___1",
+                "isVis": "kbi_p_c_school_setting_l   === '2' ||  kbi_p_c_school_setting_l   === '3' ||  kbi_p_c_school_setting_l   === '4'  ||  kbi_p_c_school_setting_l   === '5'  ||  kbi_p_c_school_setting_l   === '6' ||  kbi_p_c_school_setting_l   === '7' ||  kbi_p_c_school_setting_l   === '9'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv_l___1"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv_l___2",
+                "isVis": "kbi_p_c_school_setting_l   === '2' ||  kbi_p_c_school_setting_l   === '3' ||  kbi_p_c_school_setting_l   === '4'  ||  kbi_p_c_school_setting_l   === '5'  ||  kbi_p_c_school_setting_l   === '6' ||  kbi_p_c_school_setting_l   === '7' ||  kbi_p_c_school_setting_l   === '9'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv_l___2"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv_l___3",
+                "isVis": "kbi_p_c_school_setting_l   === '2' ||  kbi_p_c_school_setting_l   === '3' ||  kbi_p_c_school_setting_l   === '4'  ||  kbi_p_c_school_setting_l   === '5'  ||  kbi_p_c_school_setting_l   === '6' ||  kbi_p_c_school_setting_l   === '7' ||  kbi_p_c_school_setting_l   === '9'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv_l___3"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv_l___4",
+                "isVis": "kbi_p_c_school_setting_l   === '2' ||  kbi_p_c_school_setting_l   === '3' ||  kbi_p_c_school_setting_l   === '4'  ||  kbi_p_c_school_setting_l   === '5'  ||  kbi_p_c_school_setting_l   === '6' ||  kbi_p_c_school_setting_l   === '7' ||  kbi_p_c_school_setting_l   === '9'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv_l___4"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv_l___5",
+                "isVis": "kbi_p_c_school_setting_l   === '2' ||  kbi_p_c_school_setting_l   === '3' ||  kbi_p_c_school_setting_l   === '4'  ||  kbi_p_c_school_setting_l   === '5'  ||  kbi_p_c_school_setting_l   === '6' ||  kbi_p_c_school_setting_l   === '7' ||  kbi_p_c_school_setting_l   === '9'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv_l___5"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv_l___6",
+                "isVis": "kbi_p_c_school_setting_l   === '2' ||  kbi_p_c_school_setting_l   === '3' ||  kbi_p_c_school_setting_l   === '4'  ||  kbi_p_c_school_setting_l   === '5'  ||  kbi_p_c_school_setting_l   === '6' ||  kbi_p_c_school_setting_l   === '7' ||  kbi_p_c_school_setting_l   === '9'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv_l___6"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv_l___7",
+                "isVis": "kbi_p_c_school_setting_l   === '2' ||  kbi_p_c_school_setting_l   === '3' ||  kbi_p_c_school_setting_l   === '4'  ||  kbi_p_c_school_setting_l   === '5'  ||  kbi_p_c_school_setting_l   === '6' ||  kbi_p_c_school_setting_l   === '7' ||  kbi_p_c_school_setting_l   === '9'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv_l___7"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv_l___8",
+                "isVis": "kbi_p_c_school_setting_l   === '2' ||  kbi_p_c_school_setting_l   === '3' ||  kbi_p_c_school_setting_l   === '4'  ||  kbi_p_c_school_setting_l   === '5'  ||  kbi_p_c_school_setting_l   === '6' ||  kbi_p_c_school_setting_l   === '7' ||  kbi_p_c_school_setting_l   === '9'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv_l___8"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv_l___9",
+                "isVis": "kbi_p_c_school_setting_l   === '2' ||  kbi_p_c_school_setting_l   === '3' ||  kbi_p_c_school_setting_l   === '4'  ||  kbi_p_c_school_setting_l   === '5'  ||  kbi_p_c_school_setting_l   === '6' ||  kbi_p_c_school_setting_l   === '7' ||  kbi_p_c_school_setting_l   === '9'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv_l___9"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv_l___10",
+                "isVis": "kbi_p_c_school_setting_l   === '2' ||  kbi_p_c_school_setting_l   === '3' ||  kbi_p_c_school_setting_l   === '4'  ||  kbi_p_c_school_setting_l   === '5'  ||  kbi_p_c_school_setting_l   === '6' ||  kbi_p_c_school_setting_l   === '7' ||  kbi_p_c_school_setting_l   === '9'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv_l___10"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_susp_l",
+                "isVis": "kbi_p_c_school_setting_l   === '2' ||  kbi_p_c_school_setting_l   === '3' ||  kbi_p_c_school_setting_l   === '4'  ||  kbi_p_c_school_setting_l   === '5'  ||  kbi_p_c_school_setting_l   === '6' ||  kbi_p_c_school_setting_l   === '7' ||  kbi_p_c_school_setting_l   === '9'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_susp_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason_l___1",
+                "isVis": "kbi_p_c_det_susp_l   === '1'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason_l___1"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason_l___2",
+                "isVis": "kbi_p_c_det_susp_l   === '1'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason_l___2"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason_l___3",
+                "isVis": "kbi_p_c_det_susp_l   === '1'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason_l___3"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason_l___4",
+                "isVis": "kbi_p_c_det_susp_l   === '1'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason_l___4"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason_l___5",
+                "isVis": "kbi_p_c_det_susp_l   === '1'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason_l___5"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason_l___6",
+                "isVis": "kbi_p_c_det_susp_l   === '1'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason_l___6"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason_l___7",
+                "isVis": "kbi_p_c_det_susp_l   === '1'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason_l___7"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason_l___999",
+                "isVis": "kbi_p_c_det_susp_l   === '1'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason_l___999"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason_l___777",
+                "isVis": "kbi_p_c_det_susp_l   === 1",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason_l___777"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason_l___8",
+                "isVis": "kbi_p_c_det_susp_l   === '1'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason_l___8"
+            },
+            {
+                "isAbout": "items/kbi_p_c_best_friend_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_best_friend_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_best_friend_len_l",
+                "isVis": "kbi_p_c_best_friend_l   === '1'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_best_friend_len_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_reg_friend_group_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_reg_friend_group_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_reg_friend_group_len_l",
+                "isVis": "kbi_p_c_reg_friend_group_l   === '1'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_reg_friend_group_len_l"
+            },
+            {
+                "isAbout": "items/kbipcregfriend_groupopin_l",
+                "isVis": "kbi_p_c_reg_friend_group_l   === '1'",
+                "valueRequired": true,
+                "variableName": "kbipcregfriend_groupopin_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_bully_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_bully_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_gay_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_gay_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_gay_problems_l",
+                "isVis": "kbi_p_c_gay_l   === '1' ||  kbi_p_c_gay_l   === '2'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_gay_problems_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_trans_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_trans_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_trans_problems_l",
+                "isVis": "kbi_p_c_trans_l   === '1' ||  kbi_p_c_trans_l   === '2'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_trans_problems_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_mh_sa_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_mh_sa_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_age_services_l",
+                "isVis": "kbi_p_c_mh_sa_l   === '1' &&  kbi_p_c_age_services_dk   === \"\"\"\"",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_age_services_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_age_services_dk",
+                "isVis": "kbi_p_c_mh_sa_l   === '1' &&  kbi_p_c_age_services_l   === \"\"\"\"",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_age_services_dk"
+            },
+            {
+                "isAbout": "items/kbipcserviceschecklistl1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbipcserviceschecklistl1"
+            },
+            {
+                "isAbout": "items/kbipcserviceschecklistl2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbipcserviceschecklistl2"
+            },
+            {
+                "isAbout": "items/kbipcserviceschecklistl3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbipcserviceschecklistl3"
+            },
+            {
+                "isAbout": "items/kbipcserviceschecklistl4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbipcserviceschecklistl4"
+            },
+            {
+                "isAbout": "items/kbipcserviceschecklistl5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbipcserviceschecklistl5"
+            },
+            {
+                "isAbout": "items/kbipcserviceschecklistl6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbipcserviceschecklistl6"
+            },
+            {
+                "isAbout": "items/kbipcserviceschecklistl7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbipcserviceschecklistl7"
+            },
+            {
+                "isAbout": "items/kbipcserviceschecklistl8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbipcserviceschecklistl8"
+            },
+            {
+                "isAbout": "items/kbipcserviceschecklistl9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbipcserviceschecklistl9"
+            },
+            {
+                "isAbout": "items/kbipcserviceschecklistl10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbipcserviceschecklistl10"
+            },
+            {
+                "isAbout": "items/kbi_p_c_mental_health_l",
+                "isVis": "kbi_p_c_services_checklist_l___3   === '1'  &&  kbi_p_c_mental_health_dk_l   === ''",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_mental_health_l"
+            },
+            {
+                "isAbout": "items/kbi_ss_c_mental_health_p_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_ss_c_mental_health_p_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_mental_health_dk_l",
+                "isVis": "( kbi_p_c_services_checklist_l___2   === '1' ||  kbi_p_c_services_checklist_l___3   === '1') &&  kbi_p_c_mental_health_l   === ''",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_mental_health_dk_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_substance_abuse_l",
+                "isVis": "kbi_p_c_services_checklist_l___6   === '1' &&  kbi_p_c_substance_abuse_dk_l   === ''",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_substance_abuse_l"
+            },
+            {
+                "isAbout": "items/kbi_ss_c_substance_abuse_p_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_ss_c_substance_abuse_p_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_substance_abuse_dk_l",
+                "isVis": "( kbi_p_c_services_checklist_l___5   === '1' ||  kbi_p_c_services_checklist_l___6   === '1') &&  kbi_p_c_substance_abuse_l   === ''",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_substance_abuse_dk_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv_l___777",
+                "isVis": "kbi_p_c_school_setting_l   === 2 ||  kbi_p_c_school_setting_l   === 3 ||  kbi_p_c_school_setting_l   === 4  ||  kbi_p_c_school_setting_l   === 5  ||  kbi_p_c_school_setting_l   === 6 ||  kbi_p_c_school_setting_l   === 7 ||  kbi_p_c_school_setting_l   === 9",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv_l___777"
+            },
+            {
+                "isAbout": "items/kbipcserviceschecklistl777",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbipcserviceschecklistl777"
+            },
+            {
+                "isAbout": "items/kbi_p_c_serviceschecklist3l8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_serviceschecklist3l8"
+            },
+            {
+                "isAbout": "items/kbi_p_c_serviceschecklist3l9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_serviceschecklist3l9"
+            },
+            {
+                "isAbout": "items/kbi_p_c_serviceschecklist3l777",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_serviceschecklist3l777"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated_p_l___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated_p_l___1"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated_p_l___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated_p_l___2"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated_p_l___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated_p_l___3"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated_p_l___4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated_p_l___4"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated_p_l___5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated_p_l___5"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated_p_l___6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated_p_l___6"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated_p_l___7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated_p_l___7"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated_p_l___8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated_p_l___8"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated_p_l___9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated_p_l___9"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated_p_l___10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated_p_l___10"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated_p_l___999",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated_p_l___999"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated_p_l___777",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated_p_l___777"
+            },
+            {
+                "isAbout": "items/kbi_p_c_serviceschecklist3l1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_serviceschecklist3l1"
+            },
+            {
+                "isAbout": "items/kbi_p_c_serviceschecklist3l2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_serviceschecklist3l2"
+            },
+            {
+                "isAbout": "items/kbi_p_c_serviceschecklist3l3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_serviceschecklist3l3"
+            },
+            {
+                "isAbout": "items/kbi_p_c_serviceschecklist3l4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_serviceschecklist3l4"
+            },
+            {
+                "isAbout": "items/kbi_p_c_serviceschecklist3l5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_serviceschecklist3l5"
+            },
+            {
+                "isAbout": "items/kbi_p_c_serviceschecklist3l6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_serviceschecklist3l6"
+            },
+            {
+                "isAbout": "items/kbi_p_c_serviceschecklist3l7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_serviceschecklist3l7"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,59 @@
+{
+    "id": "ocp_prtnr_acs_job_cat_18_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ocp_prtnr_acs_job_cat_18_p of abcd_p_ocp"
+    },
+    "prefLabel": {
+        "en": "Please specify the Construction and Extraction Occupations Job Title:"
+    },
+    "question": {
+        "en": "Please specify the Construction and Extraction Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Supervisors of Construction and Extraction Workers"
+                },
+                "value": 47100
+            },
+            {
+                "name": {
+                    "en": "Construction Trades Workers"
+                },
+                "value": 47200
+            },
+            {
+                "name": {
+                    "en": "Helpers=Construction Trades"
+                },
+                "value": 47300
+            },
+            {
+                "name": {
+                    "en": "Other Construction and Related Workers"
+                },
+                "value": 47400
+            },
+            {
+                "name": {
+                    "en": "Extraction Workers"
+                },
+                "value": 47500
+            }
+        ],
+        "maxValue": 47500,
+        "minValue": 47100,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

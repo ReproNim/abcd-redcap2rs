@@ -1,0 +1,189 @@
+{
+    "id": "led_l_nbhsoc_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Amenities & Services in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Nbhsoc"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_nanda_forborn_p",
+            "items/reshist_addr1_nanda_college_p",
+            "items/reshist_addr1_nanda_finc100k_p",
+            "items/reshist_addr1_nanda_finc75k_p",
+            "items/reshist_addr1_nanda_unemp_p",
+            "items/reshist_addr1_nanda_disadv_fac",
+            "items/reshist_addr1_nanda_aff_fac",
+            "items/reshist_addr1_nanda_ethimm_fac",
+            "items/reshist_addr2_nanda_forborn_p",
+            "items/reshist_addr2_nanda_college_p",
+            "items/reshist_addr2_nanda_finc100k_p",
+            "items/reshist_addr2_nanda_finc75k_p",
+            "items/reshist_addr2_nanda_unemp_p",
+            "items/reshist_addr2_nanda_disadv_fac",
+            "items/reshist_addr2_nanda_aff_fac",
+            "items/reshist_addr2_nanda_ethimm_fac",
+            "items/reshist_addr3_nanda_forborn_p",
+            "items/reshist_addr3_nanda_college_p",
+            "items/reshist_addr3_nanda_finc100k_p",
+            "items/reshist_addr3_nanda_finc75k_p",
+            "items/reshist_addr3_nanda_unemp_p",
+            "items/reshist_addr3_nanda_disadv_fac",
+            "items/reshist_addr3_nanda_aff_fac",
+            "items/reshist_addr3_nanda_ethimm_fac"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_nanda_forborn_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_nanda_forborn_p"
+            },
+            {
+                "isAbout": "items/reshist_addr1_nanda_college_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_nanda_college_p"
+            },
+            {
+                "isAbout": "items/reshist_addr1_nanda_finc100k_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_nanda_finc100k_p"
+            },
+            {
+                "isAbout": "items/reshist_addr1_nanda_finc75k_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_nanda_finc75k_p"
+            },
+            {
+                "isAbout": "items/reshist_addr1_nanda_unemp_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_nanda_unemp_p"
+            },
+            {
+                "isAbout": "items/reshist_addr1_nanda_disadv_fac",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_nanda_disadv_fac"
+            },
+            {
+                "isAbout": "items/reshist_addr1_nanda_aff_fac",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_nanda_aff_fac"
+            },
+            {
+                "isAbout": "items/reshist_addr1_nanda_ethimm_fac",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_nanda_ethimm_fac"
+            },
+            {
+                "isAbout": "items/reshist_addr2_nanda_forborn_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_nanda_forborn_p"
+            },
+            {
+                "isAbout": "items/reshist_addr2_nanda_college_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_nanda_college_p"
+            },
+            {
+                "isAbout": "items/reshist_addr2_nanda_finc100k_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_nanda_finc100k_p"
+            },
+            {
+                "isAbout": "items/reshist_addr2_nanda_finc75k_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_nanda_finc75k_p"
+            },
+            {
+                "isAbout": "items/reshist_addr2_nanda_unemp_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_nanda_unemp_p"
+            },
+            {
+                "isAbout": "items/reshist_addr2_nanda_disadv_fac",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_nanda_disadv_fac"
+            },
+            {
+                "isAbout": "items/reshist_addr2_nanda_aff_fac",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_nanda_aff_fac"
+            },
+            {
+                "isAbout": "items/reshist_addr2_nanda_ethimm_fac",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_nanda_ethimm_fac"
+            },
+            {
+                "isAbout": "items/reshist_addr3_nanda_forborn_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_nanda_forborn_p"
+            },
+            {
+                "isAbout": "items/reshist_addr3_nanda_college_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_nanda_college_p"
+            },
+            {
+                "isAbout": "items/reshist_addr3_nanda_finc100k_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_nanda_finc100k_p"
+            },
+            {
+                "isAbout": "items/reshist_addr3_nanda_finc75k_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_nanda_finc75k_p"
+            },
+            {
+                "isAbout": "items/reshist_addr3_nanda_unemp_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_nanda_unemp_p"
+            },
+            {
+                "isAbout": "items/reshist_addr3_nanda_disadv_fac",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_nanda_disadv_fac"
+            },
+            {
+                "isAbout": "items/reshist_addr3_nanda_aff_fac",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_nanda_aff_fac"
+            },
+            {
+                "isAbout": "items/reshist_addr3_nanda_ethimm_fac",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_nanda_ethimm_fac"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

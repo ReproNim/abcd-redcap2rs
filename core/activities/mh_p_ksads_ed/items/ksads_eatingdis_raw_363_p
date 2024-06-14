@@ -1,0 +1,24 @@
+{
+    "id": "ksads_eatingdis_raw_363_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_eatingdis_raw_363_p of mh_p_ksads_ed"
+    },
+    "prefLabel": {
+        "en": "What was your child's height and weight then (please make your best guess)?"
+    },
+    "question": {
+        "en": "What was your child's height and weight then (please make your best guess)?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

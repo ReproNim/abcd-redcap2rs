@@ -1,0 +1,24 @@
+{
+    "id": "caff_intake_3_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "caff_intake_3_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Espresso drinks with caffeine (Latte, Mocha, Americano)"
+    },
+    "question": {
+        "en": "Espresso drinks with caffeine (Latte, Mocha, Americano)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

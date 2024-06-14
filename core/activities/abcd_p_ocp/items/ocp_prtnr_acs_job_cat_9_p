@@ -1,0 +1,47 @@
+{
+    "id": "ocp_prtnr_acs_job_cat_9_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ocp_prtnr_acs_job_cat_9_p of abcd_p_ocp"
+    },
+    "prefLabel": {
+        "en": "Please specify the Healthcare Practitioners and Technical Occupations Job Title:"
+    },
+    "question": {
+        "en": "Please specify the Healthcare Practitioners and Technical Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Health Diagnosing and Treating Practitioners"
+                },
+                "value": 29100
+            },
+            {
+                "name": {
+                    "en": "Health Technologists and Technicians"
+                },
+                "value": 29200
+            },
+            {
+                "name": {
+                    "en": "Other Healthcare Practitioners and Technical Occupations"
+                },
+                "value": 29900
+            }
+        ],
+        "maxValue": 29900,
+        "minValue": 29100,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

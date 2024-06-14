@@ -1,0 +1,41 @@
+{
+    "id": "fes_youth_q6",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fes_youth_q6 of ce_y_fes"
+    },
+    "prefLabel": {
+        "en": "Family members sometimes hit each other."
+    },
+    "question": {
+        "en": "Family members sometimes hit each other."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "True"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "False"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

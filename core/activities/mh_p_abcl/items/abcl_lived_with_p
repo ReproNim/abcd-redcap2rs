@@ -1,0 +1,41 @@
+{
+    "id": "abcl_lived_with_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "abcl_lived_with_p of mh_p_abcl"
+    },
+    "prefLabel": {
+        "en": "Has the child lived with this person in the past year?"
+    },
+    "question": {
+        "en": "Has the child lived with this person in the past year?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No ([abcl_about_p] != '0' and [abcl_about_p] != '') and ([event-name] = '4_year_follow_up_y_arm_1')"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

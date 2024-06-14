@@ -1,0 +1,42 @@
+{
+    "id": "irma_dsm5_cs5",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "irma_dsm5_cs5 of irma_y_qtn"
+    },
+    "prefLabel": {
+        "en": "CS5. Do these reactions, thoughts, and feelings make it harder for you to do well in school? CS5. \u00ac\u00f8Estas reacciones, pensamientos y sentimientos hace m\u221a\u00b0s dif\u221a\u2260cil que te vaya bien en la escuela?"
+    },
+    "question": {
+        "en": "CS5. Do these reactions, thoughts, and feelings make it harder for you to do well in school? CS5.",
+        "es": "\u00ac\u00f8Estas reacciones, pensamientos y sentimientos hace m\u221a\u00b0s dif\u221a\u2260cil que te vaya bien en la escuela?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

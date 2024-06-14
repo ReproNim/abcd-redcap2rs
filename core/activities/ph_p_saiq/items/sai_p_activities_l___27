@@ -1,0 +1,41 @@
+{
+    "id": "sai_p_activities_l___27",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sai_p_activities_l___27 of ph_p_saiq"
+    },
+    "prefLabel": {
+        "en": "(27, Competitive Games like Chess,  Cards,  or Darts Juegos competitivos,  como ajedrez,  cartas o dardos)"
+    },
+    "question": {
+        "en": "(27, Competitive Games like Chess,  Cards,  or Darts Juegos competitivos,  como ajedrez,  cartas o dardos)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "via_p_ss_hc_nt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "Number Total Questions"
+    },
+    "prefLabel": {
+        "en": "VIA Heritage Culture Subscale"
+    },
+    "question": {
+        "en": "VIA Heritage Culture Subscale"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

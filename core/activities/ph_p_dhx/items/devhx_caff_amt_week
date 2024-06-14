@@ -1,0 +1,25 @@
+{
+    "id": "devhx_caff_amt_week",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_caff_amt_week of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "During pregnancy. How much caffeine/week? /\u00bfCu\u00e1nta cafe\u00edna a la semana?"
+    },
+    "question": {
+        "en": "During pregnancy. How much caffeine week?",
+        "es": "\u00bfCu\u00e1nta cafe\u00edna a la semana?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

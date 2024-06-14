@@ -1,0 +1,59 @@
+{
+    "id": "menstrualcycle6_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "menstrualcycle6_p of ph_p_pds"
+    },
+    "prefLabel": {
+        "en": "Do their premenstrual symptoms interfere with their relationships with family and friends, productivity, and/or social life activities?"
+    },
+    "question": {
+        "en": "Do their premenstrual symptoms interfere with their relationships with family and friends, productivity, and or social life activities?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all Para nada"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mild Leves"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Moderate Moderados"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Severe Graves"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't know No s\u00e9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

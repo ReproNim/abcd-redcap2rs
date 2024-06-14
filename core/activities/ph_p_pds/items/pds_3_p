@@ -1,0 +1,60 @@
+{
+    "id": "pds_3_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pds_3_p of ph_p_pds"
+    },
+    "prefLabel": {
+        "en": "Have you noticed any changes to their skin, especially pimples? \u00bfHa notado cambios en la piel de su ni\u00f1o(a), particularmente acn\u00e9, granos o espinillas?"
+    },
+    "question": {
+        "en": "Have you noticed any changes to their skin, especially pimples?",
+        "es": "\u00bfHa notado cambios en la piel de su ni\u00f1o(a), particularmente acn\u00e9, granos o espinillas?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "skin has not yet started changing Su piel a\u00fan no ha empezado a mostrar cambios."
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "skin has barely started changing Su piel apenas ha empezado a mostrar cambios."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "skin changes are definitely underway Definitivamente ya est\u00e1n ocurriendo cambios en su piel."
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "skin changes seem complete Parece haber terminado de cambiarle la piel."
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't know No s\u00e9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

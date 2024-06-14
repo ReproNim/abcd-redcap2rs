@@ -1,0 +1,83 @@
+{
+    "id": "physical_activities_hr_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "physical_activities_hr_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "During the\u00a0past week, on how many days did you do\u00a0moderate\u00a0or\u00a0vigorous\u00a0physical activities like heavy lifting, running, aerobics, or bicycling? (Moderate\u00a0or\u00a0vigorous\u00a0physical activities refer to activities that take moderate\u00a0to hard physical effort and make you breathe harder than normal)"
+    },
+    "question": {
+        "en": "During the\u00a0past week, on how many days did you do\u00a0moderate\u00a0or\u00a0vigorous\u00a0physical activities like heavy lifting, running, aerobics, or bicycling? (Moderate\u00a0or\u00a0vigorous\u00a0physical activities refer to activities that take moderate\u00a0to hard physical effort and make you breathe harder than normal)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No moderate or vigorous physical activities"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1 Days"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2 Days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3 Days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4 Days"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5 Days"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6 Days"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7 Days"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 8
+            }
+        ],
+        "maxValue": 8,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

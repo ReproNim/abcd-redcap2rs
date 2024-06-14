@@ -1,0 +1,24 @@
+{
+    "id": "ksads_asd_raw_564_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_asd_raw_564_p of mh_p_ksads_asd"
+    },
+    "prefLabel": {
+        "en": "You said that in the past two weeks your child had unusual body movements. When did this begin?"
+    },
+    "question": {
+        "en": "You said that in the past two weeks your child had unusual body movements. When did this begin?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

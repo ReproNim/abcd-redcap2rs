@@ -1,0 +1,35 @@
+{
+    "id": "nsc_p_ss_mean_3_items",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nsc_p_ss_mean_3_items of ce_p_nsc"
+    },
+    "prefLabel": {
+        "en": "Neighborhood Safety Protocol: Mean of Parent Report, (neighborhood1r_p + neighborhood2r_p + neighborhood3r_p)/3; Validation: No minimum"
+    },
+    "question": {
+        "en": "Neighborhood Safety Protocol: Mean of Parent Report, (neighborhood1r_p + neighborhood2r_p + neighborhood3r_p) 3; Validation: No minimum"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "701;  Mujahid, M. S., et al. (2007)  Assessing the measurement properties of neighborhood scales: from psychometrics to ecometrics.  Am J Epidemiol 165(8): 858-67."
+                },
+                "value": 682
+            }
+        ],
+        "maxValue": 682,
+        "minValue": 682,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "mctq_go_to_school",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mctq_go_to_school of ph_y_mctq"
+    },
+    "prefLabel": {
+        "en": "Do you go to school on a regular basis?"
+    },
+    "question": {
+        "en": "Do you go to school on a regular basis?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Refuse to Answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

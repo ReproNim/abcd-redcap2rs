@@ -1,0 +1,214 @@
+{
+    "id": "ce_p_meim_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "(meim_1_p + meim_4_p + meim_5_p) / 3",
+            "variableName": "meim_p_ss_exp"
+        },
+        {
+            "jsExpression": "(meim_2_p + meim_3_p + meim_6_p) / 3",
+            "variableName": "meim_p_ss_com"
+        }
+    ],
+    "description": {
+        "en": "This activity is about Culture in Culture & Environment"
+    },
+    "prefLabel": {
+        "en": "Ce_P_Meim"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/meim_select_language___1",
+            "items/meim_1_p",
+            "items/meim_2_p",
+            "items/meim_3_p",
+            "items/meim_4_p",
+            "items/meim_5_p",
+            "items/meim_6_p",
+            "items/meim_ethnic_id_p",
+            "items/meim_1f_p",
+            "items/meim_2f_p",
+            "items/meim_3f_p",
+            "items/meim_4f_p",
+            "items/meim_5f_p",
+            "items/meim_6f_p",
+            "items/meim_p_ss_total",
+            "items/meim_p_ss_total_nm",
+            "items/meim_p_ss_total_nt"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/meim_p_ss_exp",
+                "isVis": false,
+                "variableName": "meim_p_ss_exp"
+            },
+            {
+                "isAbout": "items/meim_1_p",
+                "valueRequired": true,
+                "variableName": "meim_1_p"
+            },
+            {
+                "isAbout": "items/meim_4_p",
+                "valueRequired": true,
+                "variableName": "meim_4_p"
+            },
+            {
+                "isAbout": "items/meim_5_p",
+                "valueRequired": true,
+                "variableName": "meim_5_p"
+            },
+            {
+                "isAbout": "items/3",
+                "valueRequired": true,
+                "variableName": "3"
+            },
+            {
+                "isAbout": "items/meim_p_ss_exp_nm",
+                "isVis": false,
+                "variableName": "meim_p_ss_exp_nm"
+            },
+            {
+                "isAbout": "items/meim_p_ss_exp_nt",
+                "isVis": false,
+                "variableName": "meim_p_ss_exp_nt"
+            },
+            {
+                "isAbout": "items/meim_p_ss_com",
+                "isVis": false,
+                "variableName": "meim_p_ss_com"
+            },
+            {
+                "isAbout": "items/meim_2_p",
+                "valueRequired": true,
+                "variableName": "meim_2_p"
+            },
+            {
+                "isAbout": "items/meim_3_p",
+                "valueRequired": true,
+                "variableName": "meim_3_p"
+            },
+            {
+                "isAbout": "items/meim_6_p",
+                "valueRequired": true,
+                "variableName": "meim_6_p"
+            },
+            {
+                "isAbout": "items/meim_p_ss_com_nm",
+                "isVis": false,
+                "variableName": "meim_p_ss_com_nm"
+            },
+            {
+                "isAbout": "items/meim_p_ss_com_nt",
+                "isVis": false,
+                "variableName": "meim_p_ss_com_nt"
+            },
+            {
+                "isAbout": "items/meim_select_language___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "meim_select_language___1"
+            },
+            {
+                "isAbout": "items/meim_1_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "meim_1_p"
+            },
+            {
+                "isAbout": "items/meim_2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "meim_2_p"
+            },
+            {
+                "isAbout": "items/meim_3_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "meim_3_p"
+            },
+            {
+                "isAbout": "items/meim_4_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "meim_4_p"
+            },
+            {
+                "isAbout": "items/meim_5_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "meim_5_p"
+            },
+            {
+                "isAbout": "items/meim_6_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "meim_6_p"
+            },
+            {
+                "isAbout": "items/meim_ethnic_id_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "meim_ethnic_id_p"
+            },
+            {
+                "isAbout": "items/meim_1f_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "meim_1f_p"
+            },
+            {
+                "isAbout": "items/meim_2f_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "meim_2f_p"
+            },
+            {
+                "isAbout": "items/meim_3f_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "meim_3f_p"
+            },
+            {
+                "isAbout": "items/meim_4f_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "meim_4f_p"
+            },
+            {
+                "isAbout": "items/meim_5f_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "meim_5f_p"
+            },
+            {
+                "isAbout": "items/meim_6f_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "meim_6f_p"
+            },
+            {
+                "isAbout": "items/meim_p_ss_total",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "meim_p_ss_total"
+            },
+            {
+                "isAbout": "items/meim_p_ss_total_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "meim_p_ss_total_nm"
+            },
+            {
+                "isAbout": "items/meim_p_ss_total_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "meim_p_ss_total_nt"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "su_des_hall_adult_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_des_hall_adult_p of su_p_dse"
+    },
+    "prefLabel": {
+        "en": "Hallucinogen drugs that cause people to see or experience things that are not real such as LSD or acid, magic mushrooms, salvia, PCP or angel dust, peyote, mescaline, DMT, AMT or Foxy.  Drogas alucinogenas que hacen que las personas vean o sientan cosas que no son reales  como LSD o acido hongos magicos  salvia  PCP o polvo de angel  peyote  mezcalina  DMT  AMT oFoxy."
+    },
+    "question": {
+        "en": "Hallucinogen drugs that cause people to see or experience things that are not real such as LSD or acid, magic mushrooms, salvia, PCP or angel dust, peyote, mescaline, DMT, AMT or Foxy.",
+        "es": "Drogas alucinogenas que hacen que las personas vean o sientan cosas que no son reales  como LSD o acido hongos magicos  salvia  PCP o polvo de angel  peyote  mezcalina  DMT  AMT oFoxy."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

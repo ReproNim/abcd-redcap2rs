@@ -1,0 +1,41 @@
+{
+    "id": "ksads_dud_raw_636_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dud_raw_636_p of su_p_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "Has your child used any of the following drugs more than five times (other than as prescribed by a doctor)?Sedatives/Hypnotics/Anxiolytics (Barbiturates (sedatives, downers), Benzodiazepine, Quaalude (ludes), Valium, lLibrium,  Xanax, ketamine, GHB)"
+    },
+    "question": {
+        "en": "Has your child used any of the following drugs more than five times (other than as prescribed by a doctor)? Sedatives Hypnotics Anxiolytics (Barbiturates (sedatives, downers), Benzodiazepine, Quaalude (ludes), Valium, lLibrium,  Xanax, ketamine, GHB)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "pls4_caf_ago_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pls4_caf_ago_p of su_p_plus"
+    },
+    "prefLabel": {
+        "en": "How long ago did your son/daughter last consume a caffeinated beverage? \u00bfHace cu\u00e1nto tiempo que su ni\u00f1o(a) consumi\u00f3 una bebida con cafe\u00edna?"
+    },
+    "question": {
+        "en": "How long ago did your son daughter last consume a caffeinated beverage?",
+        "es": "\u00bfHace cu\u00e1nto tiempo que su ni\u00f1o(a) consumi\u00f3 una bebida con cafe\u00edna?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

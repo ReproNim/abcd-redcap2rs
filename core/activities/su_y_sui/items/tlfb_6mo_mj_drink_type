@@ -1,0 +1,53 @@
+{
+    "id": "tlfb_6mo_mj_drink_type",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_6mo_mj_drink_type of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Was your marijuana-infused alcohol made with:"
+    },
+    "question": {
+        "en": "Was your marijuana-infused alcohol made with:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Only THC"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Only cannabidiol (CBD)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Both THC and CBD"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

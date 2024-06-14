@@ -1,0 +1,48 @@
+{
+    "id": "sag_miss_school_unexcuse_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sag_miss_school_unexcuse_p of ce_p_sag"
+    },
+    "prefLabel": {
+        "en": "How many days did your child miss school without an acceptable excuse during the past 4 weeks? / \u00c2\u00bfCu\u00c3\u00a1ntos d\u00c3\u00adas falt\u00c3\u00b3 su hijo/a a la escuela sin una excusa aceptable durante las \u00c3\u00baltimas 4 semanas?"
+    },
+    "question": {
+        "en": "How many days did your child miss school without an acceptable excuse during the past 4 weeks?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1ntos d\u00c3\u00adas falt\u00c3\u00b3 su hijo a a la escuela sin una excusa aceptable durante las \u00c3\u00baltimas 4 semanas?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0 days / 0 d\u00c3\u00adas"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "5 days / 4-5 d\u00c3\u00adas"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "10 days / 6-10 d\u00c3\u00adas"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

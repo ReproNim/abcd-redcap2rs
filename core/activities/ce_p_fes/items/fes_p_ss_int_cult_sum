@@ -1,0 +1,24 @@
+{
+    "id": "fes_p_ss_int_cult_sum",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fes_p_ss_int_cult_sum of ce_p_fes"
+    },
+    "prefLabel": {
+        "en": "Intellectual-Cultural subscale from the FamIly EnvIronment Scale Sum oF Parent Report (RAW Scores) fes_6_p plus fes_16r_p plus fes_26_p plus fes_36r_p plus fes_46r_p plus fes_56_p plus fes_66_p plus fes_76r_p plus fes_86_p  ValIdatIon: MInImum oF 5 Items answered"
+    },
+    "question": {
+        "en": "Intellectual-Cultural subscale from the FamIly EnvIronment Scale Sum oF Parent Report (RAW Scores) fes_6_p plus fes_16r_p plus fes_26_p plus fes_36r_p plus fes_46r_p plus fes_56_p plus fes_66_p plus fes_76r_p plus fes_86_p  ValIdatIon: MInImum oF 5 Items answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

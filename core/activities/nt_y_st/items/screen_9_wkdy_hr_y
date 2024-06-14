@@ -1,0 +1,173 @@
+{
+    "id": "screen_9_wkdy_hr_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screen_9_wkdy_hr_y of nt_y_st"
+    },
+    "prefLabel": {
+        "en": "How much of this time is on your smartphone?"
+    },
+    "question": {
+        "en": "How much of this time is on your smartphone?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0 hour"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1 hour"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2 hours"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3 hours"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4 hours"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5 hours"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6 hours"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7 hours"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "8 hours"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "9 hours"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "10 hours"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "11 hours"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "12 hours"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "13 hours"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "14 hours"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "15 hours"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "16 hours"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "17 hours"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "18 hours"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "19 hours"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "20 hours"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "21 hours"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "22 hours"
+                },
+                "value": 22
+            },
+            {
+                "name": {
+                    "en": "23 hours ([event-name] = '4_year_follow_up_y_arm_1' AND [screentime_phone_yn] = '1')  AND ([screentime_9_wkdy_hr] > 0'' OR [screentime_9_wkdy_min] > ''0'')''"
+                },
+                "value": 23
+            }
+        ],
+        "maxValue": 23,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

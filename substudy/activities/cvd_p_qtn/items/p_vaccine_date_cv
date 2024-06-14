@@ -1,0 +1,24 @@
+{
+    "id": "p_vaccine_date_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "p_vaccine_date_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "When were you first vaccinated?"
+    },
+    "question": {
+        "en": "When were you first vaccinated?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

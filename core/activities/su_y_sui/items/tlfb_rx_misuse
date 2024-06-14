@@ -1,0 +1,41 @@
+{
+    "id": "tlfb_rx_misuse",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_rx_misuse of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Have you heard of ____ Taking pills, liquids, or medications to get high in a way that your doctor or parents did not direct you to use them?"
+    },
+    "question": {
+        "en": "Have you heard of ____ Taking pills, liquids, or medications to get high in a way that your doctor or parents did not direct you to use them?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

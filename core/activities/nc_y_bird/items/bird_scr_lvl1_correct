@@ -1,0 +1,24 @@
+{
+    "id": "bird_scr_lvl1_correct",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bird_scr_lvl1_correct of nc_y_bird"
+    },
+    "prefLabel": {
+        "en": "Level 1 correct"
+    },
+    "question": {
+        "es": "Level 1 correct"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

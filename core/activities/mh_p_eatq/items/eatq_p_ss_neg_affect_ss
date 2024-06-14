@@ -1,0 +1,24 @@
+{
+    "id": "eatq_p_ss_neg_affect_ss",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "eatq_p_ss_neg_affect_ss of mh_p_eatq"
+    },
+    "prefLabel": {
+        "en": "Super Scale Negative Affect mean(eatq_phenx_ss_frustration_p, eatq_phenx_ss_depressive_mood_p,  eatq_phenx_ss_aggression_p); Validation: All three scores calculated"
+    },
+    "question": {
+        "en": "Super Scale Negative Affect mean(eatq_phenx_ss_frustration_p, eatq_phenx_ss_depressive_mood_p,  eatq_phenx_ss_aggression_p); Validation: All three scores calculated"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

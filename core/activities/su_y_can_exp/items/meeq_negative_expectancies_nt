@@ -1,0 +1,24 @@
+{
+    "id": "meeq_negative_expectancies_nt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "meeq_negative_expectancies_nt of su_y_can_exp"
+    },
+    "prefLabel": {
+        "en": "Total number of items"
+    },
+    "question": {
+        "en": "Total number of items"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

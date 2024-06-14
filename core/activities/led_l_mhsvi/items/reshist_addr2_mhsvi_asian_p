@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr2_mhsvi_asian_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr2_mhsvi_asian_p of led_l_mhsvi"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - Percentage population estimate Asian; Minority Health SVI (addr2)"
+    },
+    "question": {
+        "en": "Residential history derived - Percentage population estimate Asian; Minority Health SVI (addr2)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

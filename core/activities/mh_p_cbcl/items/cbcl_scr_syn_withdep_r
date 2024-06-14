@@ -1,0 +1,24 @@
+{
+    "id": "cbcl_scr_syn_withdep_r",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "cbcl_scr_syn_withdep_r of mh_p_cbcl"
+    },
+    "prefLabel": {
+        "en": "WithDep CBCL Syndrome Scale (raw score)"
+    },
+    "question": {
+        "en": "WithDep CBCL Syndrome Scale (raw score)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

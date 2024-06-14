@@ -1,0 +1,107 @@
+{
+    "id": "sai_read_hrs_wk_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sai_read_hrs_wk_y of ph_y_saiq"
+    },
+    "prefLabel": {
+        "en": "About how many hours per WEEK do you read on your own in your free time? (including online blogs, news, fiction, and non-fiction books etc)"
+    },
+    "question": {
+        "en": "About how many hours per WEEK do you read on your own in your free time? (including online blogs, news, fiction, and non-fiction books etc)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than 1 hour"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1 hours or more but less than 2 hours"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2 hours or more but less than 3 hours"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3 hours or more but less than 4 hours"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4 hours or more but less than 5 hours"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "6 hours or more but less than 8 hours"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "8 hours or more but less than 12 hours"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "12 hours or more but less than 18 hours"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "18 hours or more but less than 24 hours"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "24 hours or more but less than 36 hours"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "36 hours or more but less than 72 hours"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "More than 72 hours"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

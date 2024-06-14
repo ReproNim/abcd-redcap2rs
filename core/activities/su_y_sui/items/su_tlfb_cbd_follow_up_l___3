@@ -1,0 +1,36 @@
+{
+    "id": "su_tlfb_cbd_follow_up_l___3",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_tlfb_cbd_follow_up_l___3 of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "What type of CBD product did they use? (Choose all that apply) Qu? tipo de producto uso (Eliga todas las que correspondan)   Inhaled or smoked product / Inhalado o producto fumado"
+    },
+    "question": {
+        "en": "What type of CBD product did they use? (Choose all that apply) Qu? Inhalado o producto fumado",
+        "es": "tipo de producto uso (Eliga todas las que correspondan)   Inhaled or smoked product"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Smoked product (pipe = joint = bong)"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 3,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

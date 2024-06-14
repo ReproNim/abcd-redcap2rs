@@ -1,0 +1,83 @@
+{
+    "id": "first_mj_4_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "first_mj_4_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "What type of marijuana was your first experience with?"
+    },
+    "question": {
+        "en": "What type of marijuana was your first experience with?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Regular smoked marijuana flower or bud (smoked pot, grass, weed, ganja)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Smoked marijuana that was very strong (sensimilla, >20% THC strain)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Vaped marijuana flower or bud"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Marijuana that you eat (pot cookies, gummy bears, brownies, etc)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Fake marijuana or synthetics such as K2 and spice (fake weed, herbal incense)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Vaped marijuana concentrate or oil (THC, hash, C02 or BHO oil)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Smoked marijuana oils or concentrates (THC, hash, C02 or BHO oil, kief, dabs or wax)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Marijuana infused alcohol drinks"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Marijuana or THC tinctures that you take orally"
+                },
+                "value": 7
+            }
+        ],
+        "maxValue": 9,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

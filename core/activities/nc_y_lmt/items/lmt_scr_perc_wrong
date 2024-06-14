@@ -1,0 +1,24 @@
+{
+    "id": "lmt_scr_perc_wrong",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "lmt_scr_perc_wrong of nc_y_lmt"
+    },
+    "prefLabel": {
+        "en": "Percentage wrong (including timed out) out of 32 trials."
+    },
+    "question": {
+        "en": "Percentage wrong (including timed out) out of 32 trials."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

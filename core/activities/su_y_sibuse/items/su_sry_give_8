@@ -1,0 +1,53 @@
+{
+    "id": "su_sry_give_8",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_sry_give_8 of su_y_sibuse"
+    },
+    "prefLabel": {
+        "en": "Prescription pain relievers (such as Vicodin, hydrocodone, or Oxycontin) that were not prescribed to them by a doctor."
+    },
+    "question": {
+        "en": "Prescription pain relievers (such as Vicodin, hydrocodone, or Oxycontin) that were not prescribed to them by a doctor."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Just a few times"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Many times"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't Know [su_sry_8]=1 or [su_sry_8]=2 or [su_sry_8]=3 or [su_sry_8]=4"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

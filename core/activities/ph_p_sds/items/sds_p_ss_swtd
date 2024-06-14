@@ -1,0 +1,35 @@
+{
+    "id": "sds_p_ss_swtd",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sds_p_ss_swtd of ph_p_sds"
+    },
+    "prefLabel": {
+        "en": "Sleep-Wake transition Disorders (SWTD) SUM: sleepdisturb6_p + sleepdisturb7_p + sleepdisturb8_p + sleepdisturb12_p +  sleepdisturb18_p + sleepdisturb19_p; Validation: All items must be answered"
+    },
+    "question": {
+        "en": "Sleep-Wake transition Disorders (SWTD) SUM: sleepdisturb6_p + sleepdisturb7_p + sleepdisturb8_p + sleepdisturb12_p +  sleepdisturb18_p + sleepdisturb19_p; Validation: All items must be answered"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "261."
+                },
+                "value": 251
+            }
+        ],
+        "maxValue": 251,
+        "minValue": 251,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

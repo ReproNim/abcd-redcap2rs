@@ -1,0 +1,48 @@
+{
+    "id": "zygos_q6",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "zygos_q6 of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Could one twin fool friends or family by pretending to be the other? Would you say yes, maybe or no?/ \u00ac\u00f8Uno de los gemelos podr\u221a\u2260a enga\u221a\u00b1ar a sus amigos o familiares haci\u221a\u00a9ndose pasar por el otro? \u00ac\u00f8Dir\u221a\u2260a que s\u221a\u2260, tal vez o no?"
+    },
+    "question": {
+        "en": "Could one twin fool friends or family by pretending to be the other? Would you say yes, maybe or no? \u00ac\u00f8Dir\u221a\u2260a que s\u221a\u2260, tal vez o no?",
+        "es": "\u00ac\u00f8Uno de los gemelos podr\u221a\u2260a enga\u221a\u00b1ar a sus amigos o familiares haci\u221a\u00a9ndose pasar por el otro?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Maybe"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

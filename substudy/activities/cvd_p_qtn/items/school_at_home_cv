@@ -1,0 +1,53 @@
+{
+    "id": "school_at_home_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "school_at_home_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Is your child currently doing some or all of their school-at-home?"
+    },
+    "question": {
+        "en": "Is your child currently doing some or all of their school-at-home?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Not Applicable (Already homeschooled / Out for summer)[event_name] = 'covid19_cv4_arm_2'"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

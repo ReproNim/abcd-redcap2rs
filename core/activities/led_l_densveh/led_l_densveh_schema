@@ -1,0 +1,63 @@
+{
+    "id": "led_l_densveh_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Built Environment in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Densveh"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_vehdens_area",
+            "items/reshist_addr1_vehdens_pop",
+            "items/reshist_addr2_vehdens_area",
+            "items/reshist_addr2_vehdens_pop",
+            "items/reshist_addr3_vehdens_area",
+            "items/reshist_addr3_vehdens_pop"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_vehdens_area",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_vehdens_area"
+            },
+            {
+                "isAbout": "items/reshist_addr1_vehdens_pop",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_vehdens_pop"
+            },
+            {
+                "isAbout": "items/reshist_addr2_vehdens_area",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_vehdens_area"
+            },
+            {
+                "isAbout": "items/reshist_addr2_vehdens_pop",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_vehdens_pop"
+            },
+            {
+                "isAbout": "items/reshist_addr3_vehdens_area",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_vehdens_area"
+            },
+            {
+                "isAbout": "items/reshist_addr3_vehdens_pop",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_vehdens_pop"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

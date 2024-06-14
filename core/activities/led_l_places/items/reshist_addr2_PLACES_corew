@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr2_PLACES_corew",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr2_PLACES_corew of led_l_places"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - Older adult women aged >=65 years who are up to date on a core set of clinical preventive services: Flu shot past year, PPV shot ever, Colorectal cancer screening, and Mammogram past 2 years; Prevalence; PLACES (addr2)"
+    },
+    "question": {
+        "en": "Residential history derived - Older adult women aged >=65 years who are up to date on a core set of clinical preventive services: Flu shot past year, PPV shot ever, Colorectal cancer screening, and Mammogram past 2 years; Prevalence; PLACES (addr2)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

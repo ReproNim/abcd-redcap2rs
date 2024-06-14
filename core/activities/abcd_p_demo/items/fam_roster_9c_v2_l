@@ -1,0 +1,119 @@
+{
+    "id": "fam_roster_9c_v2_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fam_roster_9c_v2_l of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "Person #9, relationship to you: Persona #9, parentesco a usted:"
+    },
+    "question": {
+        "en": "Person #9, relationship to you: Persona #9, parentesco a usted:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Husband or wife Esposo(a)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Son-in-law or daughter-in-law Yerno / nuera"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Biological son or daughter Hijo(a) biologico(a)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other relative Otro pariente"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Adopted son or daughter Hijo(a) adoptado(a)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Roomer or boarder Ocupante o inquilino"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Stepson or stepdaughter Hijastro(a)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Housemate or roommate Compa\u221a\u00b1ero(a) de casa o de habitacion"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Brother or sister Hermano(a)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Unmarried partner Pareja en union libre"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Father or mother Padre o madre"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Foster child Hijo(a) en cuidado tutelar"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Grandchild Nieto(a)"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Other nonrelative Otra persona que no es su pariente"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Parent-in-law Suegro(a)"
+                },
+                "value": 15
+            }
+        ],
+        "maxValue": 15,
+        "minValue": 1,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

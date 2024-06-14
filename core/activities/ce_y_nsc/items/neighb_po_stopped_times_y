@@ -1,0 +1,59 @@
+{
+    "id": "neighb_po_stopped_times_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "neighb_po_stopped_times_y of ce_y_nsc"
+    },
+    "prefLabel": {
+        "en": "How many times has this happened to you in the past year?"
+    },
+    "question": {
+        "en": "How many times has this happened to you in the past year?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4 or more times"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

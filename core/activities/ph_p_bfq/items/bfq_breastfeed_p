@@ -1,0 +1,47 @@
+{
+    "id": "bfq_breastfeed_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bfq_breastfeed_p of ph_p_bfq"
+    },
+    "prefLabel": {
+        "en": "When the child was a baby, did (you/ the biological mother) breastfeed him/her?"
+    },
+    "question": {
+        "en": "When the child was a baby, did (you the biological mother) breastfeed him her?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No - Formula Only"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes=s/he was breastfed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

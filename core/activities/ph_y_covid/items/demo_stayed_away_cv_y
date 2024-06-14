@@ -1,0 +1,53 @@
+{
+    "id": "demo_stayed_away_cv_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_stayed_away_cv_y of ph_y_covid"
+    },
+    "prefLabel": {
+        "en": "I stay away from people (other than those who live in my house)"
+    },
+    "question": {
+        "en": "I stay away from people (other than those who live in my house)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "I have not done this in the last week"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I did this some of the time last week"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I did this most of the time last week"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I did this all the time last week"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

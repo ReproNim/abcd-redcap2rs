@@ -1,0 +1,42 @@
+{
+    "id": "demo_prnt_prtnr_adopt_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_prnt_prtnr_adopt_l of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "Is your partner the child's adoptive parent? \u00ac\u00f8Es su pareja el padre o la madre adoptiva de el nin-o o la nin-a?"
+    },
+    "question": {
+        "en": "Is your partner the child's adoptive parent?",
+        "es": "\u00ac\u00f8Es su pareja el padre o la madre adoptiva de el nin-o o la nin-a?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes S\u221a\u2260"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

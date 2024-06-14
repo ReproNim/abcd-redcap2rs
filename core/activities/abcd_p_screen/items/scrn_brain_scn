@@ -1,0 +1,42 @@
+{
+    "id": "scrn_brain_scn",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_brain_scn of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Has your doctor ever requested a brain scan for your child? /\u00ac\u00f8Su m\u221a\u00a9dico alguna vez le ha ordenado un estudio cerebral para su ni\u221a\u00b1o(a)?"
+    },
+    "question": {
+        "en": "Has your doctor ever requested a brain scan for your child?",
+        "es": "\u00ac\u00f8Su m\u221a\u00a9dico alguna vez le ha ordenado un estudio cerebral para su ni\u221a\u00b1o(a)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

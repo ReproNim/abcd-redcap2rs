@@ -1,0 +1,66 @@
+{
+    "id": "kbi_p_grades_in_school_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_p_grades_in_school_l of mh_p_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "What kind of grades does your child get on average? \u00bfCu\u00e1l es el promedio de calificaciones de su ni\u00f1o(a)?"
+    },
+    "question": {
+        "en": "What kind of grades does your child get on average?",
+        "es": "\u00bfCu\u00e1l es el promedio de calificaciones de su ni\u00f1o(a)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "A's / Excellent A / Excelente"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "B's / Good B / Bien"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "C's / Average C / Promedio"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "D's / Below Average D / Por debajo del promedio"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "F's / Struggling a lot F / Tiene mucha dificultad"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "ungraded No se le califica; -1 = Not applicable No aplica"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

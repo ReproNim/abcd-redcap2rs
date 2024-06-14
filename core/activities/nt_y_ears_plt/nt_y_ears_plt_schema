@@ -1,0 +1,2695 @@
+{
+    "id": "nt_y_ears_plt_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Screen Use in Novel Technologies"
+    },
+    "prefLabel": {
+        "en": "Nt_Y_Ears_Plt"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mt_pil_pguid",
+            "items/mt_pil_ears_act_goog_avg",
+            "items/mt_pil_ears_act_goog_tot",
+            "items/mt_pil_ears_act_goog_wday_avg",
+            "items/mt_pil_ears_act_goog_wday_tot",
+            "items/mt_pil_ears_act_goog_wend_avg",
+            "items/mt_pil_ears_act_goog_wend_tot",
+            "items/mt_pil_ears_adv_goog_avg",
+            "items/mt_pil_ears_adv_goog_tot",
+            "items/mt_pil_ears_adv_goog_wday_avg",
+            "items/mt_pil_ears_adv_goog_wday_tot",
+            "items/mt_pil_ears_adv_goog_wend_avg",
+            "items/mt_pil_ears_adv_goog_wend_tot",
+            "items/mt_pil_ears_app_dur_avg",
+            "items/mt_pil_ears_app_dur_tot",
+            "items/mt_pil_ears_app_dur_wday_avg",
+            "items/mt_pil_ears_app_dur_wend_avg",
+            "items/mt_pil_ears_app_dur_wend_tot",
+            "items/mt_pil_ears_app_open_cnt",
+            "items/mt_pil_ears_app_open_cnt_avg",
+            "items/mt_pil_ears_app_unique_cnt",
+            "items/mt_pil_ears_app_unique_cnt_avg",
+            "items/mt_pil_ears_app_wday_dur_tot",
+            "items/mt_pil_ears_arc_goog_avg",
+            "items/mt_pil_ears_arc_goog_tot",
+            "items/mt_pil_ears_arc_goog_wday_avg",
+            "items/mt_pil_ears_arc_goog_wday_tot",
+            "items/mt_pil_ears_arc_goog_wend_avg",
+            "items/mt_pil_ears_arc_goog_wend_tot",
+            "items/mt_pil_ears_art_goog_wday_avg",
+            "items/mt_pil_ears_art_goog_wday_tot",
+            "items/mt_pil_ears_art_goog_wend_avg",
+            "items/mt_pil_ears_art_goog_wend_tot",
+            "items/mt_pil_ears_artdes_goog_avg",
+            "items/mt_pil_ears_artdes_goog_tot",
+            "items/mt_pil_ears_beau_goog_avg",
+            "items/mt_pil_ears_beau_goog_tot",
+            "items/mt_pil_ears_beau_goog_wday_avg",
+            "items/mt_pil_ears_beau_goog_wday_tot",
+            "items/mt_pil_ears_beau_goog_wend_avg",
+            "items/mt_pil_ears_beau_goog_wend_tot",
+            "items/mt_pil_ears_biz_goog_avg",
+            "items/mt_pil_ears_biz_goog_tot",
+            "items/mt_pil_ears_biz_goog_wday_avg",
+            "items/mt_pil_ears_biz_goog_wday_tot",
+            "items/mt_pil_ears_biz_goog_wend_avg",
+            "items/mt_pil_ears_biz_goog_wend_tot",
+            "items/mt_pil_ears_book_goog_avg",
+            "items/mt_pil_ears_book_goog_tot",
+            "items/mt_pil_ears_book_goog_wday_avg",
+            "items/mt_pil_ears_book_goog_wday_tot",
+            "items/mt_pil_ears_book_goog_wend_avg",
+            "items/mt_pil_ears_book_goog_wend_tot",
+            "items/mt_pil_ears_brd_goog_avg",
+            "items/mt_pil_ears_brd_goog_tot",
+            "items/mt_pil_ears_brd_goog_wday_avg",
+            "items/mt_pil_ears_brd_goog_wday_tot",
+            "items/mt_pil_ears_brd_goog_wend_avg",
+            "items/mt_pil_ears_brd_goog_wend_tot",
+            "items/mt_pil_ears_call_abcd_avg",
+            "items/mt_pil_ears_call_abcd_tot",
+            "items/mt_pil_ears_call_abcd_wend_avg",
+            "items/mt_pil_ears_call_abcd_wend_tot",
+            "items/mt_pil_ears_call_open_cnt",
+            "items/mt_pil_ears_call_open_cnt_avg",
+            "items/mt_pil_ears_card_goog_avg",
+            "items/mt_pil_ears_card_goog_tot",
+            "items/mt_pil_ears_card_goog_wday_avg",
+            "items/mt_pil_ears_card_goog_wday_tot",
+            "items/mt_pil_ears_card_goog_wend_avg",
+            "items/mt_pil_ears_card_goog_wend_tot",
+            "items/mt_pil_ears_cas_goog_avg",
+            "items/mt_pil_ears_cas_goog_tot",
+            "items/mt_pil_ears_cas_goog_wday_avg",
+            "items/mt_pil_ears_cas_goog_wday_tot",
+            "items/mt_pil_ears_cas_goog_wend_avg",
+            "items/mt_pil_ears_cas_goog_wend_tot",
+            "items/mt_pil_ears_com_goog_avg",
+            "items/mt_pil_ears_com_goog_tot",
+            "items/mt_pil_ears_com_goog_wday_avg",
+            "items/mt_pil_ears_com_goog_wday_tot",
+            "items/mt_pil_ears_com_goog_wend_avg",
+            "items/mt_pil_ears_com_goog_wend_tot",
+            "items/mt_pil_ears_comm_abcd_avg",
+            "items/mt_pil_ears_comm_abcd_tot",
+            "items/mt_pil_ears_comm_abcd_wday_avg",
+            "items/mt_pil_ears_comm_abcd_wday_tot",
+            "items/mt_pil_ears_comm_abcd_wend_avg",
+            "items/mt_pil_ears_comm_abcd_wend_tot",
+            "items/mt_pil_ears_comm_goog_avg",
+            "items/mt_pil_ears_comm_goog_tot",
+            "items/mt_pil_ears_comm_goog_wday_avg",
+            "items/mt_pil_ears_comm_goog_wday_tot",
+            "items/mt_pil_ears_comm_goog_wend_avg",
+            "items/mt_pil_ears_comm_goog_wend_tot",
+            "items/mt_pil_ears_csl_goog_avg",
+            "items/mt_pil_ears_csl_goog_tot",
+            "items/mt_pil_ears_csl_goog_wday_avg",
+            "items/mt_pil_ears_csl_goog_wday_tot",
+            "items/mt_pil_ears_csl_goog_wend_avg",
+            "items/mt_pil_ears_csl_goog_wend_tot",
+            "items/mt_pil_ears_date_goog_avg",
+            "items/mt_pil_ears_date_goog_tot",
+            "items/mt_pil_ears_date_goog_wday_avg",
+            "items/mt_pil_ears_date_goog_wday_tot",
+            "items/mt_pil_ears_date_goog_wend_avg",
+            "items/mt_pil_ears_date_goog_wend_tot",
+            "items/mt_pil_ears_ed_game_goog_avg",
+            "items/mt_pil_ears_edgamgoog_tot",
+            "items/mt_pil_ears_edgamgoog_wday_avg",
+            "items/mt_pil_ears_edgamgoog_wday_tot",
+            "items/mt_pil_ears_edgamgoog_wend_avg",
+            "items/mt_pil_ears_edgamgoog_wend_tot",
+            "items/mt_pil_ears_educ_goog_avg",
+            "items/mt_pil_ears_educ_goog_tot",
+            "items/mt_pil_ears_educ_goog_wday_avg",
+            "items/mt_pil_ears_educ_goog_wday_tot",
+            "items/mt_pil_ears_educ_goog_wend_avg",
+            "items/mt_pil_ears_educ_goog_wend_tot",
+            "items/mt_pil_ears_ent_goog_avg",
+            "items/mt_pil_ears_ent_goog_tot",
+            "items/mt_pil_ears_ent_goog_wday_avg",
+            "items/mt_pil_ears_ent_goog_wday_tot",
+            "items/mt_pil_ears_ent_goog_wend_avg",
+            "items/mt_pil_ears_ent_goog_wend_tot",
+            "items/mt_pil_ears_evnt_goog_avg",
+            "items/mt_pil_ears_evnt_goog_tot",
+            "items/mt_pil_ears_evnt_goog_wday_avg",
+            "items/mt_pil_ears_evnt_goog_wday_tot",
+            "items/mt_pil_ears_evnt_goog_wend_avg",
+            "items/mt_pil_ears_evnt_goog_wend_tot",
+            "items/mt_pil_ears_fin_goog_avg",
+            "items/mt_pil_ears_fin_goog_tot",
+            "items/mt_pil_ears_fin_goog_wday_avg",
+            "items/mt_pil_ears_fin_goog_wday_tot",
+            "items/mt_pil_ears_fin_goog_wend_avg",
+            "items/mt_pil_ears_fin_goog_wend_tot",
+            "items/mt_pil_ears_food_goog_avg",
+            "items/mt_pil_ears_food_goog_tot",
+            "items/mt_pil_ears_food_goog_wday_avg",
+            "items/mt_pil_ears_food_goog_wday_tot",
+            "items/mt_pil_ears_food_goog_wend_avg",
+            "items/mt_pil_ears_food_goog_wend_tot",
+            "items/mt_pil_ears_game_abcd_avg",
+            "items/mt_pil_ears_game_abcd_tot",
+            "items/mt_pil_ears_game_abcd_wday_avg",
+            "items/mt_pil_ears_game_abcd_wday_tot",
+            "items/mt_pil_ears_game_abcd_wend_avg",
+            "items/mt_pil_ears_game_abcd_wend_tot",
+            "items/mt_pil_ears_goog_wday_avg",
+            "items/mt_pil_ears_goog_wday_tot",
+            "items/mt_pil_ears_hlth_goog_avg",
+            "items/mt_pil_ears_hlth_goog_tot",
+            "items/mt_pil_ears_hlth_goog_wday_avg",
+            "items/mt_pil_ears_hlth_goog_wday_tot",
+            "items/mt_pil_ears_hlth_goog_wend_avg",
+            "items/mt_pil_ears_hlth_goog_wend_tot",
+            "items/mt_pil_ears_home_goog_avg",
+            "items/mt_pil_ears_home_goog_tot",
+            "items/mt_pil_ears_home_goog_wday_avg",
+            "items/mt_pil_ears_home_goog_wday_tot",
+            "items/mt_pil_ears_home_goog_wend_avg",
+            "items/mt_pil_ears_home_goog_wend_tot",
+            "items/mt_pil_ears_lengthdays",
+            "items/mt_pil_ears_lengthdays_wday",
+            "items/mt_pil_ears_lengthdays_wend",
+            "items/mt_pil_ears_lib_goog_avg",
+            "items/mt_pil_ears_lib_goog_tot",
+            "items/mt_pil_ears_lib_goog_wday_avg",
+            "items/mt_pil_ears_lib_goog_wday_tot",
+            "items/mt_pil_ears_lib_goog_wend_avg",
+            "items/mt_pil_ears_lib_goog_wend_tot",
+            "items/mt_pil_ears_ls_goog_avg",
+            "items/mt_pil_ears_ls_goog_tot",
+            "items/mt_pil_ears_ls_goog_wday_avg",
+            "items/mt_pil_ears_ls_goog_wday_tot",
+            "items/mt_pil_ears_ls_goog_wend_avg",
+            "items/mt_pil_ears_ls_goog_wend_tot",
+            "items/mt_pil_ears_maps_goog_avg",
+            "items/mt_pil_ears_maps_goog_tot",
+            "items/mt_pil_ears_maps_goog_wday_avg",
+            "items/mt_pil_ears_maps_goog_wday_tot",
+            "items/mt_pil_ears_maps_goog_wend_avg",
+            "items/mt_pil_ears_maps_goog_wend_tot",
+            "items/mt_pil_ears_med_goog_avg",
+            "items/mt_pil_ears_med_goog_tot",
+            "items/mt_pil_ears_med_goog_wday_avg",
+            "items/mt_pil_ears_med_goog_wday_tot",
+            "items/mt_pil_ears_med_goog_wend_avg",
+            "items/mt_pil_ears_med_goog_wend_tot",
+            "items/mt_pil_ears_mus_abcd_avg",
+            "items/mt_pil_ears_mus_abcd_tot",
+            "items/mt_pil_ears_mus_abcd_wday_avg",
+            "items/mt_pil_ears_mus_abcd_wday_tot",
+            "items/mt_pil_ears_mus_abcd_wend_avg",
+            "items/mt_pil_ears_mus_abcd_wend_tot",
+            "items/mt_pil_ears_mus_game_goog_avg",
+            "items/mt_pil_ears_mus_game_goog_tot",
+            "items/mt_pil_ears_mus_goog_avg",
+            "items/mt_pil_ears_mus_goog_tot",
+            "items/mt_pil_ears_mus_goog_wday_tot",
+            "items/mt_pil_ears_mus_goog_wend_avg",
+            "items/mt_pil_ears_mus_goog_wend_tot",
+            "items/mt_pil_ears_musgamgoog_wday_av",
+            "items/mt_pil_ears_musgamgoog_wend_av",
+            "items/mt_pil_ears_musgamgoog_wend_to",
+            "items/mt_pil_ears_news_abcd_avg",
+            "items/mt_pil_ears_news_abcd_tot",
+            "items/mt_pil_ears_news_abcd_wday_avg",
+            "items/mt_pil_ears_news_abcd_wday_tot",
+            "items/mt_pil_ears_news_abcd_wend_avg",
+            "items/mt_pil_ears_news_abcd_wend_tot",
+            "items/mt_pil_ears_news_goog_avg",
+            "items/mt_pil_ears_news_goog_tot",
+            "items/mt_pil_ears_news_goog_wday_avg",
+            "items/mt_pil_ears_news_goog_wday_tot",
+            "items/mt_pil_ears_news_goog_wend_avg",
+            "items/mt_pil_ears_news_goog_wend_tot",
+            "items/mt_pil_ears_phon_abcd_wday_avg",
+            "items/mt_pil_ears_phon_abcd_wday_tot",
+            "items/mt_pil_ears_pic_goog_avg",
+            "items/mt_pil_ears_pic_goog_tot",
+            "items/mt_pil_ears_pic_goog_wday_avg",
+            "items/mt_pil_ears_pic_goog_wday_tot",
+            "items/mt_pil_ears_pic_goog_wend_avg",
+            "items/mt_pil_ears_pic_goog_wend_tot",
+            "items/mt_pil_ears_prnt_goog_avg",
+            "items/mt_pil_ears_prnt_goog_tot",
+            "items/mt_pil_ears_prnt_goog_wday_avg",
+            "items/mt_pil_ears_prnt_goog_wday_tot",
+            "items/mt_pil_ears_prnt_goog_wend_avg",
+            "items/mt_pil_ears_prnt_goog_wend_tot",
+            "items/mt_pil_ears_prod_goog_avg",
+            "items/mt_pil_ears_prod_goog_tot",
+            "items/mt_pil_ears_prod_goog_wday_avg",
+            "items/mt_pil_ears_prod_goog_wday_tot",
+            "items/mt_pil_ears_prod_goog_wend_avg",
+            "items/mt_pil_ears_prod_goog_wend_tot",
+            "items/mt_pil_ears_prs_goog_avg",
+            "items/mt_pil_ears_prs_goog_tot",
+            "items/mt_pil_ears_prs_goog_wday_avg",
+            "items/mt_pil_ears_prs_goog_wday_tot",
+            "items/mt_pil_ears_prs_goog_wend_avg",
+            "items/mt_pil_ears_prs_goog_wend_tot",
+            "items/mt_pil_ears_puz_goog_avg",
+            "items/mt_pil_ears_puz_goog_tot",
+            "items/mt_pil_ears_puz_goog_wday_avg",
+            "items/mt_pil_ears_puz_goog_wday_tot",
+            "items/mt_pil_ears_puz_goog_wend_avg",
+            "items/mt_pil_ears_puz_goog_wend_tot",
+            "items/mt_pil_ears_race_goog_avg",
+            "items/mt_pil_ears_race_goog_tot",
+            "items/mt_pil_ears_race_goog_wday_avg",
+            "items/mt_pil_ears_race_goog_wday_tot",
+            "items/mt_pil_ears_race_goog_wend_avg",
+            "items/mt_pil_ears_race_goog_wend_tot",
+            "items/mt_pil_ears_read_abcd_avg",
+            "items/mt_pil_ears_read_abcd_tot",
+            "items/mt_pil_ears_read_abcd_wday_avg",
+            "items/mt_pil_ears_read_abcd_wday_tot",
+            "items/mt_pil_ears_read_abcd_wend_avg",
+            "items/mt_pil_ears_read_abcd_wend_tot",
+            "items/mt_pil_ears_rp_goog_avg",
+            "items/mt_pil_ears_rp_goog_tot",
+            "items/mt_pil_ears_rp_goog_wday_avg",
+            "items/mt_pil_ears_rp_goog_wday_tot",
+            "items/mt_pil_ears_rp_goog_wend_avg",
+            "items/mt_pil_ears_rp_goog_wend_tot",
+            "items/mt_pil_ears_scrn_dur_avg",
+            "items/mt_pil_ears_scrn_dur_tot",
+            "items/mt_pil_ears_scrn_dur_wday_avg",
+            "items/mt_pil_ears_scrn_dur_wday_tot",
+            "items/mt_pil_ears_scrn_dur_wend_avg",
+            "items/mt_pil_ears_scrn_dur_wend_tot",
+            "items/mt_pil_ears_scrn_on_cnt",
+            "items/mt_pil_ears_scrn_on_cnt_avg",
+            "items/mt_pil_ears_shop_goog_avg",
+            "items/mt_pil_ears_shop_goog_tot",
+            "items/mt_pil_ears_shop_goog_wday_avg",
+            "items/mt_pil_ears_shop_goog_wday_tot",
+            "items/mt_pil_ears_shop_goog_wend_avg",
+            "items/mt_pil_ears_shop_goog_wend_tot",
+            "items/mt_pil_ears_sim_goog_avg",
+            "items/mt_pil_ears_sim_goog_tot",
+            "items/mt_pil_ears_sim_goog_wday_avg",
+            "items/mt_pil_ears_sim_goog_wday_tot",
+            "items/mt_pil_ears_sim_goog_wend_avg",
+            "items/mt_pil_ears_sim_goog_wend_tot",
+            "items/mt_pil_ears_sms_abcd_avg",
+            "items/mt_pil_ears_sms_abcd_tot",
+            "items/mt_pil_ears_sms_abcd_wday_avg",
+            "items/mt_pil_ears_sms_abcd_wday_tot",
+            "items/mt_pil_ears_sms_abcd_wend_avg",
+            "items/mt_pil_ears_sms_abcd_wend_tot",
+            "items/mt_pil_ears_sms_open_cnt",
+            "items/mt_pil_ears_sms_open_cnt_avg",
+            "items/mt_pil_ears_soc_abcd_avg",
+            "items/mt_pil_ears_soc_abcd_tot",
+            "items/mt_pil_ears_soc_abcd_wday_avg",
+            "items/mt_pil_ears_soc_abcd_wday_tot",
+            "items/mt_pil_ears_soc_abcd_wend_avg",
+            "items/mt_pil_ears_soc_abcd_wend_tot",
+            "items/mt_pil_ears_soc_goog_avg",
+            "items/mt_pil_ears_soc_goog_tot",
+            "items/mt_pil_ears_soc_goog_wday_avg",
+            "items/mt_pil_ears_soc_goog_wday_tot",
+            "items/mt_pil_ears_soc_goog_wend_avg",
+            "items/mt_pil_ears_soc_goog_wend_tot",
+            "items/mt_pil_ears_sprt_game_goog_avg",
+            "items/mt_pil_ears_sprt_game_goog_tot",
+            "items/mt_pil_ears_sprt_goog_avg",
+            "items/mt_pil_ears_sprt_goog_tot",
+            "items/mt_pil_ears_sprt_goog_wday_avg",
+            "items/mt_pil_ears_sprt_goog_wday_tot",
+            "items/mt_pil_ears_sprt_goog_wend_avg",
+            "items/mt_pil_ears_sprt_goog_wend_tot",
+            "items/mt_pil_ears_sprtggog_wday_avg",
+            "items/mt_pil_ears_sprtgamgog_wday_to",
+            "items/mt_pil_ears_sprtgamgog_wend_av",
+            "items/mt_pil_ears_sprtgamgog_wend_to",
+            "items/mt_pil_ears_stg_goog_avg",
+            "items/mt_pil_ears_stg_goog_tot",
+            "items/mt_pil_ears_stg_goog_wday_avg",
+            "items/mt_pil_ears_stg_goog_wday_tot",
+            "items/mt_pil_ears_stg_goog_wend_avg",
+            "items/mt_pil_ears_stg_goog_wend_tot",
+            "items/mt_pil_ears_strm_abcd_avg",
+            "items/mt_pil_ears_strm_abcd_tot",
+            "items/mt_pil_ears_strm_abcd_wday_avg",
+            "items/mt_pil_ears_strm_abcd_wday_tot",
+            "items/mt_pil_ears_strm_abcd_wend_avg",
+            "items/mt_pil_ears_strm_abcd_wend_tot",
+            "items/mt_pil_ears_tls_goog_avg",
+            "items/mt_pil_ears_tls_goog_tot",
+            "items/mt_pil_ears_tls_goog_wday_avg",
+            "items/mt_pil_ears_tls_goog_wday_tot",
+            "items/mt_pil_ears_tls_goog_wend_avg",
+            "items/mt_pil_ears_tls_goog_wend_tot",
+            "items/mt_pil_ears_triv_goog_avg",
+            "items/mt_pil_ears_triv_goog_tot",
+            "items/mt_pil_ears_triv_goog_wday_avg",
+            "items/mt_pil_ears_triv_goog_wday_tot",
+            "items/mt_pil_ears_triv_goog_wend_avg",
+            "items/mt_pil_ears_triv_goog_wend_tot",
+            "items/mt_pil_ears_trvl_goog_avg",
+            "items/mt_pil_ears_trvl_goog_tot",
+            "items/mt_pil_ears_trvl_goog_wday_avg",
+            "items/mt_pil_ears_trvl_goog_wday_tot",
+            "items/mt_pil_ears_trvl_goog_wend_avg",
+            "items/mt_pil_ears_trvl_goog_wend_tot",
+            "items/mt_pil_ears_usetracking_end",
+            "items/mt_pil_ears_usetracking_start",
+            "items/mt_pil_ears_veh_goog_avg",
+            "items/mt_pil_ears_veh_goog_tot",
+            "items/mt_pil_ears_veh_goog_wday_avg",
+            "items/mt_pil_ears_veh_goog_wday_tot",
+            "items/mt_pil_ears_veh_goog_wend_avg",
+            "items/mt_pil_ears_veh_goog_wend_tot",
+            "items/mt_pil_ears_vid_goog_avg",
+            "items/mt_pil_ears_vid_goog_tot",
+            "items/mt_pil_ears_vid_goog_wday_avg",
+            "items/mt_pil_ears_vid_goog_wday_tot",
+            "items/mt_pil_ears_vid_goog_wend_avg",
+            "items/mt_pil_ears_vid_goog_wend_tot",
+            "items/mt_pil_ears_word_goog_avg",
+            "items/mt_pil_ears_word_goog_tot",
+            "items/mt_pil_ears_word_goog_wday_avg",
+            "items/mt_pil_ears_word_goog_wday_tot",
+            "items/mt_pil_ears_word_goog_wend_avg",
+            "items/mt_pil_ears_word_goog_wend_tot",
+            "items/mt_pil_ears_wthr_goog_avg",
+            "items/mt_pil_ears_wthr_goog_tot",
+            "items/mt_pil_ears_wthr_goog_wday_avg",
+            "items/mt_pil_ears_wthr_goog_wday_tot",
+            "items/mt_pil_ears_wthr_goog_wend_avg",
+            "items/mt_pil_ears_wthr_goog_wend_tot",
+            "items/mt_pil_ears_yt_abcd_avg",
+            "items/mt_pil_ears_yt_abcd_tot",
+            "items/mt_pil_ears_yt_abcd_wday_avg",
+            "items/mt_pil_ears_yt_abcd_wday_tot",
+            "items/mt_pil_ears_yt_abcd_wend_avg",
+            "items/mt_pil_ears_yt_abcd_wend_tot"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mt_pil_pguid",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_pguid"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_act_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_act_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_act_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_act_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_act_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_act_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_act_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_act_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_act_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_act_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_act_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_act_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_adv_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_adv_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_adv_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_adv_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_adv_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_adv_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_adv_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_adv_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_adv_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_adv_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_adv_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_adv_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_app_dur_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_app_dur_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_app_dur_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_app_dur_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_app_dur_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_app_dur_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_app_dur_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_app_dur_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_app_dur_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_app_dur_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_app_open_cnt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_app_open_cnt"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_app_open_cnt_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_app_open_cnt_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_app_unique_cnt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_app_unique_cnt"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_app_unique_cnt_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_app_unique_cnt_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_app_wday_dur_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_app_wday_dur_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_arc_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_arc_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_arc_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_arc_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_arc_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_arc_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_arc_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_arc_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_arc_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_arc_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_arc_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_arc_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_art_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_art_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_art_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_art_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_art_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_art_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_art_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_art_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_artdes_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_artdes_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_artdes_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_artdes_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_beau_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_beau_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_beau_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_beau_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_beau_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_beau_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_beau_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_beau_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_beau_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_beau_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_beau_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_beau_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_biz_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_biz_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_biz_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_biz_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_biz_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_biz_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_biz_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_biz_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_biz_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_biz_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_biz_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_biz_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_book_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_book_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_book_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_book_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_book_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_book_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_book_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_book_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_book_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_book_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_book_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_book_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_brd_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_brd_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_brd_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_brd_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_brd_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_brd_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_brd_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_brd_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_brd_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_brd_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_brd_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_brd_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_call_abcd_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_call_abcd_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_call_abcd_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_call_abcd_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_call_abcd_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_call_abcd_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_call_abcd_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_call_abcd_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_call_open_cnt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_call_open_cnt"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_call_open_cnt_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_call_open_cnt_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_card_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_card_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_card_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_card_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_card_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_card_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_card_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_card_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_card_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_card_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_card_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_card_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_cas_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_cas_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_cas_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_cas_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_cas_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_cas_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_cas_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_cas_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_cas_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_cas_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_cas_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_cas_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_com_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_com_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_com_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_com_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_com_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_com_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_com_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_com_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_com_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_com_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_com_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_com_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_comm_abcd_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_comm_abcd_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_comm_abcd_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_comm_abcd_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_comm_abcd_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_comm_abcd_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_comm_abcd_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_comm_abcd_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_comm_abcd_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_comm_abcd_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_comm_abcd_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_comm_abcd_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_comm_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_comm_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_comm_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_comm_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_comm_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_comm_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_comm_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_comm_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_comm_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_comm_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_comm_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_comm_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_csl_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_csl_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_csl_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_csl_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_csl_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_csl_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_csl_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_csl_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_csl_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_csl_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_csl_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_csl_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_date_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_date_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_date_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_date_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_date_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_date_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_date_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_date_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_date_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_date_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_date_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_date_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_ed_game_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_ed_game_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_edgamgoog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_edgamgoog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_edgamgoog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_edgamgoog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_edgamgoog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_edgamgoog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_edgamgoog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_edgamgoog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_edgamgoog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_edgamgoog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_educ_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_educ_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_educ_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_educ_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_educ_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_educ_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_educ_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_educ_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_educ_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_educ_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_educ_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_educ_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_ent_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_ent_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_ent_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_ent_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_ent_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_ent_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_ent_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_ent_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_ent_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_ent_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_ent_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_ent_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_evnt_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_evnt_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_evnt_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_evnt_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_evnt_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_evnt_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_evnt_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_evnt_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_evnt_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_evnt_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_evnt_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_evnt_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_fin_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_fin_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_fin_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_fin_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_fin_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_fin_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_fin_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_fin_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_fin_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_fin_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_fin_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_fin_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_food_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_food_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_food_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_food_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_food_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_food_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_food_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_food_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_food_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_food_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_food_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_food_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_game_abcd_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_game_abcd_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_game_abcd_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_game_abcd_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_game_abcd_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_game_abcd_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_game_abcd_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_game_abcd_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_game_abcd_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_game_abcd_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_game_abcd_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_game_abcd_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_hlth_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_hlth_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_hlth_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_hlth_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_hlth_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_hlth_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_hlth_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_hlth_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_hlth_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_hlth_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_hlth_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_hlth_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_home_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_home_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_home_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_home_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_home_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_home_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_home_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_home_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_home_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_home_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_home_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_home_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_lengthdays",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_lengthdays"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_lengthdays_wday",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_lengthdays_wday"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_lengthdays_wend",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_lengthdays_wend"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_lib_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_lib_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_lib_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_lib_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_lib_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_lib_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_lib_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_lib_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_lib_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_lib_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_lib_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_lib_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_ls_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_ls_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_ls_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_ls_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_ls_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_ls_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_ls_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_ls_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_ls_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_ls_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_ls_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_ls_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_maps_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_maps_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_maps_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_maps_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_maps_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_maps_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_maps_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_maps_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_maps_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_maps_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_maps_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_maps_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_med_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_med_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_med_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_med_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_med_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_med_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_med_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_med_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_med_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_med_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_med_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_med_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_mus_abcd_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_mus_abcd_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_mus_abcd_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_mus_abcd_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_mus_abcd_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_mus_abcd_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_mus_abcd_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_mus_abcd_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_mus_abcd_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_mus_abcd_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_mus_abcd_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_mus_abcd_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_mus_game_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_mus_game_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_mus_game_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_mus_game_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_mus_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_mus_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_mus_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_mus_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_mus_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_mus_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_mus_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_mus_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_mus_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_mus_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_musgamgoog_wday_av",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_musgamgoog_wday_av"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_musgamgoog_wend_av",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_musgamgoog_wend_av"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_musgamgoog_wend_to",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_musgamgoog_wend_to"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_news_abcd_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_news_abcd_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_news_abcd_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_news_abcd_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_news_abcd_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_news_abcd_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_news_abcd_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_news_abcd_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_news_abcd_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_news_abcd_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_news_abcd_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_news_abcd_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_news_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_news_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_news_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_news_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_news_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_news_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_news_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_news_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_news_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_news_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_news_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_news_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_phon_abcd_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_phon_abcd_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_phon_abcd_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_phon_abcd_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_pic_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_pic_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_pic_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_pic_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_pic_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_pic_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_pic_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_pic_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_pic_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_pic_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_pic_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_pic_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_prnt_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_prnt_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_prnt_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_prnt_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_prnt_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_prnt_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_prnt_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_prnt_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_prnt_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_prnt_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_prnt_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_prnt_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_prod_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_prod_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_prod_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_prod_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_prod_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_prod_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_prod_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_prod_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_prod_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_prod_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_prod_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_prod_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_prs_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_prs_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_prs_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_prs_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_prs_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_prs_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_prs_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_prs_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_prs_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_prs_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_prs_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_prs_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_puz_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_puz_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_puz_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_puz_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_puz_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_puz_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_puz_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_puz_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_puz_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_puz_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_puz_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_puz_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_race_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_race_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_race_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_race_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_race_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_race_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_race_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_race_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_race_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_race_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_race_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_race_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_read_abcd_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_read_abcd_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_read_abcd_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_read_abcd_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_read_abcd_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_read_abcd_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_read_abcd_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_read_abcd_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_read_abcd_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_read_abcd_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_read_abcd_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_read_abcd_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_rp_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_rp_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_rp_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_rp_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_rp_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_rp_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_rp_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_rp_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_rp_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_rp_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_rp_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_rp_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_scrn_dur_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_scrn_dur_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_scrn_dur_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_scrn_dur_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_scrn_dur_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_scrn_dur_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_scrn_dur_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_scrn_dur_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_scrn_dur_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_scrn_dur_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_scrn_dur_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_scrn_dur_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_scrn_on_cnt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_scrn_on_cnt"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_scrn_on_cnt_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_scrn_on_cnt_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_shop_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_shop_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_shop_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_shop_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_shop_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_shop_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_shop_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_shop_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_shop_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_shop_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_shop_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_shop_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sim_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sim_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sim_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sim_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sim_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sim_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sim_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sim_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sim_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sim_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sim_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sim_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sms_abcd_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sms_abcd_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sms_abcd_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sms_abcd_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sms_abcd_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sms_abcd_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sms_abcd_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sms_abcd_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sms_abcd_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sms_abcd_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sms_abcd_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sms_abcd_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sms_open_cnt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sms_open_cnt"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sms_open_cnt_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sms_open_cnt_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_soc_abcd_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_soc_abcd_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_soc_abcd_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_soc_abcd_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_soc_abcd_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_soc_abcd_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_soc_abcd_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_soc_abcd_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_soc_abcd_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_soc_abcd_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_soc_abcd_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_soc_abcd_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_soc_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_soc_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_soc_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_soc_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_soc_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_soc_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_soc_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_soc_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_soc_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_soc_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_soc_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_soc_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sprt_game_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sprt_game_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sprt_game_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sprt_game_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sprt_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sprt_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sprt_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sprt_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sprt_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sprt_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sprt_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sprt_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sprt_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sprt_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sprt_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sprt_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sprtggog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sprtggog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sprtgamgog_wday_to",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sprtgamgog_wday_to"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sprtgamgog_wend_av",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sprtgamgog_wend_av"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_sprtgamgog_wend_to",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_sprtgamgog_wend_to"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_stg_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_stg_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_stg_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_stg_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_stg_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_stg_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_stg_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_stg_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_stg_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_stg_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_stg_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_stg_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_strm_abcd_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_strm_abcd_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_strm_abcd_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_strm_abcd_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_strm_abcd_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_strm_abcd_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_strm_abcd_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_strm_abcd_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_strm_abcd_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_strm_abcd_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_strm_abcd_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_strm_abcd_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_tls_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_tls_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_tls_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_tls_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_tls_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_tls_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_tls_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_tls_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_tls_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_tls_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_tls_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_tls_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_triv_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_triv_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_triv_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_triv_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_triv_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_triv_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_triv_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_triv_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_triv_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_triv_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_triv_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_triv_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_trvl_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_trvl_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_trvl_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_trvl_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_trvl_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_trvl_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_trvl_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_trvl_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_trvl_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_trvl_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_trvl_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_trvl_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_usetracking_end",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_usetracking_end"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_usetracking_start",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_usetracking_start"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_veh_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_veh_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_veh_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_veh_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_veh_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_veh_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_veh_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_veh_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_veh_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_veh_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_veh_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_veh_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_vid_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_vid_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_vid_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_vid_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_vid_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_vid_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_vid_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_vid_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_vid_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_vid_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_vid_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_vid_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_word_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_word_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_word_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_word_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_word_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_word_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_word_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_word_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_word_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_word_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_word_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_word_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_wthr_goog_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_wthr_goog_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_wthr_goog_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_wthr_goog_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_wthr_goog_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_wthr_goog_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_wthr_goog_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_wthr_goog_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_wthr_goog_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_wthr_goog_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_wthr_goog_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_wthr_goog_wend_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_yt_abcd_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_yt_abcd_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_yt_abcd_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_yt_abcd_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_yt_abcd_wday_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_yt_abcd_wday_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_yt_abcd_wday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_yt_abcd_wday_tot"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_yt_abcd_wend_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_yt_abcd_wend_avg"
+            },
+            {
+                "isAbout": "items/mt_pil_ears_yt_abcd_wend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pil_ears_yt_abcd_wend_tot"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

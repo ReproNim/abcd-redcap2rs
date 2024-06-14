@@ -1,0 +1,47 @@
+{
+    "id": "bio_dad_hos_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bio_dad_hos_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Did the biological father require hospitalization?"
+    },
+    "question": {
+        "en": "Did the biological father require hospitalization?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know[fam_member_relation_p_cv(2)] = '1' and ([event_name] = 'covid19_cv2_arm_2' or [event_name] = 'covid19_cv4_arm_2')"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,35 @@
+{
+    "id": "mctq_fd_min_to_get_up_calc",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mctq_fd_min_to_get_up_calc of ph_y_mctq"
+    },
+    "prefLabel": {
+        "en": "Sleep inertia in minutes, freeday"
+    },
+    "question": {
+        "en": "Sleep inertia in minutes, freeday"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "[mctq_fd_min_to_get_up], if([mctq_fd_min_to_get_up] < 15=15 + 5*([mctq_fd_min_to_get_up] - 11)=if ([mctq_fd_min_to_get_up] < 18=40 + 10*([mctq_fd_min_to_get_up] - 15), if ([mctq_fd_min_to_get_up] < 22 =75 + 15*([mctq_fd_min_to_get_up] - 18)=180 + 60*([mctq_fd_min_to_get_up] - 22) ))))"
+                },
+                "value": 11
+            }
+        ],
+        "maxValue": 11,
+        "minValue": 11,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

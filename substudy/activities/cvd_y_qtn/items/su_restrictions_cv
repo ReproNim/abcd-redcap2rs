@@ -1,0 +1,53 @@
+{
+    "id": "su_restrictions_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_restrictions_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "After finding out, did your parents/guardians change how hard they tried to keep track of you (what you were doing, where you were, and who you were with)?"
+    },
+    "question": {
+        "en": "After finding out, did your parents guardians change how hard they tried to keep track of you (what you were doing, where you were, and who you were with)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Big change"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Little change"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No change"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't know - not enough time has passed for me to tell"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_ms_mn_avg_r_ol_neg",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_ms_mn_avg_r_ol_neg of led_l_seda_read_m"
+    },
+    "prefLabel": {
+        "en": "Metro Poolsub (''pooled by subject'' - within subjects) Metro Area Mean Ach, Reading Language Arts, OLS est, CS HLM using SEDA HETOP est not disadvantaged economically minus economically disadvantaged gap"
+    },
+    "question": {
+        "en": "Metro Poolsub (''pooled by subject'' - within subjects) Metro Area Mean Ach, Reading Language Arts, OLS est, CS HLM using SEDA HETOP est not disadvantaged economically minus economically disadvantaged gap"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

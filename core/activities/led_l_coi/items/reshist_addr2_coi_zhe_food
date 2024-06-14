@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr2_coi_zhe_food",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr2_coi_zhe_food of led_l_coi"
+    },
+    "prefLabel": {
+        "en": "Health and Environment Domain Access to healthy food: Percentage households without a car located further than a half-mile from the nearest supermarket, transformed to z-scores and multiplied by -1."
+    },
+    "question": {
+        "en": "Health and Environment Domain Access to healthy food: Percentage households without a car located further than a half-mile from the nearest supermarket, transformed to z-scores and multiplied by -1."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

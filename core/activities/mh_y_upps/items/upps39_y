@@ -1,0 +1,53 @@
+{
+    "id": "upps39_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "upps39_y of mh_y_upps"
+    },
+    "prefLabel": {
+        "en": "I tend to lose control when I am in a great mood."
+    },
+    "question": {
+        "en": "I tend to lose control when I am in a great mood."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all like me"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Not like me"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat like me"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very much like me"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

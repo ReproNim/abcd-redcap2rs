@@ -1,0 +1,53 @@
+{
+    "id": "fam_supp_acc_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fam_supp_acc_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Please rate how much the coronavirus pandemic has changed your family's life in each of the following ways.Access to family and close non-family social contacts (such as friends  neighbors  members of a social or religious group you belong to)"
+    },
+    "question": {
+        "en": "Please rate how much the coronavirus pandemic has changed your family's life in each of the following ways. Access to family and close non-family social contacts (such as friends  neighbors  members of a social or religious group you belong to)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No change"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Mild: Continued visits with social distancing and/or regular phone calls and/or televideo or social media contacts"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderate: Loss of in person and remote contact with a few people  but not all supports"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Severe: Loss of in person and remote contact with all supports([event_name] = 'covid19_cv2_arm_2' or [event_name] = 'covid19_cv4_arm_2')"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

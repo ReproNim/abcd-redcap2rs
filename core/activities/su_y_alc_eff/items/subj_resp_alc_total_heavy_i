@@ -1,0 +1,24 @@
+{
+    "id": "subj_resp_alc_total_heavy_i",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "subj_resp_alc_total_heavy_i of su_y_alc_eff"
+    },
+    "prefLabel": {
+        "en": "Number of subjective experiences from drinking alcohol during their heaviest drinking period"
+    },
+    "question": {
+        "en": "Number of subjective experiences from drinking alcohol during their heaviest drinking period"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

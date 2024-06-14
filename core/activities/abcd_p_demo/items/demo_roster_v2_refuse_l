@@ -1,0 +1,41 @@
+{
+    "id": "demo_roster_v2_refuse_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_roster_v2_refuse_l of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "Not applicable No aplica; Refuse to answer Prefiero no contestar"
+    },
+    "question": {
+        "en": "Not applicable No aplica; Refuse to answer Prefiero no contestar"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not applicable (for example"
+                },
+                "value": -1
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer prefiero no contestar"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": -1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

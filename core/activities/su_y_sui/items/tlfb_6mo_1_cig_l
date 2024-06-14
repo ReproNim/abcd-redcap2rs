@@ -1,0 +1,47 @@
+{
+    "id": "tlfb_6mo_1_cig_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_6mo_1_cig_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "During the past year, did your cigarettes typically contain flavor?"
+    },
+    "question": {
+        "en": "During the past year, did your cigarettes typically contain flavor?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No flavoring / tlfb_6mo_skip_l___2   == '1' ||   tlfb_6mo_skip_l___5   == '1'"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

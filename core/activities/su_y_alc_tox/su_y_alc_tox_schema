@@ -1,0 +1,84 @@
+{
+    "id": "su_y_alc_tox_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Drug Toxicology in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Alc_Tox"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/bal_test1_result_y",
+            "items/bal1_dot_y",
+            "items/bal_test2_result_y",
+            "items/bal2_dot_y",
+            "items/bal2_need",
+            "items/bal2_test1_result_y",
+            "items/bal21_dot_y",
+            "items/bal2_test2_result_y",
+            "items/bal22_dot_y"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/bal_test1_result_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bal_test1_result_y"
+            },
+            {
+                "isAbout": "items/bal1_dot_y",
+                "isVis": "bal_test1_result_y   === 1 ||  bal_test1_result_y   === 2",
+                "valueRequired": true,
+                "variableName": "bal1_dot_y"
+            },
+            {
+                "isAbout": "items/bal_test2_result_y",
+                "isVis": "bal_test1_result_y   === 2",
+                "valueRequired": true,
+                "variableName": "bal_test2_result_y"
+            },
+            {
+                "isAbout": "items/bal2_dot_y",
+                "isVis": "bal_test2_result_y   === 1 ||  bal_test2_result_y   === 2",
+                "valueRequired": true,
+                "variableName": "bal2_dot_y"
+            },
+            {
+                "isAbout": "items/bal2_need",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bal2_need"
+            },
+            {
+                "isAbout": "items/bal2_test1_result_y",
+                "isVis": "bal2_need   === 1",
+                "valueRequired": true,
+                "variableName": "bal2_test1_result_y"
+            },
+            {
+                "isAbout": "items/bal21_dot_y",
+                "isVis": "bal2_test1_result_y   === 1 ||  bal2_test1_result_y   === 2 &&  bal2_need   === 1",
+                "valueRequired": true,
+                "variableName": "bal21_dot_y"
+            },
+            {
+                "isAbout": "items/bal2_test2_result_y",
+                "isVis": "bal2_test1_result_y   === 2 &&  bal2_need   === 1 &&  bal2_need   === 1",
+                "valueRequired": true,
+                "variableName": "bal2_test2_result_y"
+            },
+            {
+                "isAbout": "items/bal22_dot_y",
+                "isVis": "bal2_test2_result_y   === 1 ||  bal2_test2_result_y   === 2 &&  bal2_need   === 1",
+                "valueRequired": true,
+                "variableName": "bal22_dot_y"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

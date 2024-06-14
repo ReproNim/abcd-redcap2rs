@@ -1,0 +1,41 @@
+{
+    "id": "ksads_cdr_raw_1061_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_cdr_raw_1061_t of mh_y_ksads_cd"
+    },
+    "prefLabel": {
+        "en": "Was there ever a time that you stayed out all night without permission or ran away?"
+    },
+    "question": {
+        "en": "Was there ever a time that you stayed out all night without permission or ran away?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

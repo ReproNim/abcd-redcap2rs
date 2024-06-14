@@ -1,0 +1,25 @@
+{
+    "id": "sai_p_read_hours",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sai_p_read_hours of ph_p_saiq"
+    },
+    "prefLabel": {
+        "en": "Reading Leisure: About how many hours per week does your child spend reading for pleasure? \u00c2\u00bfAproximadamente  cu\u00c3\u00a1ntas horas por semana pasa su ni\u00c3\u00b1o(a)  leyendo por placer?"
+    },
+    "question": {
+        "en": "Reading Leisure: About how many hours per week does your child spend reading for pleasure?",
+        "es": "\u00c2\u00bfAproximadamente  cu\u00c3\u00a1ntas horas por semana pasa su ni\u00c3\u00b1o(a)  leyendo por placer?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

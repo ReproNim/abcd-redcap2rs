@@ -1,0 +1,91 @@
+{
+    "id": "nc_y_adm_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Administrative in Neurocognition"
+    },
+    "prefLabel": {
+        "en": "Nc_Y_Adm"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ncog_device",
+            "items/neurocog_2_device",
+            "items/neurocog_device",
+            "items/neurocog_2_remote___1",
+            "items/neurocog_2_remote___2",
+            "items/neurocog_2_remote___3",
+            "items/neurocog_intro_ipad_y",
+            "items/neurocog_intro2_ipad_y",
+            "items/neurocog_remote___1",
+            "items/neurocog_remote___2"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ncog_device",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncog_device"
+            },
+            {
+                "isAbout": "items/neurocog_2_device",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_2_device"
+            },
+            {
+                "isAbout": "items/neurocog_device",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_device"
+            },
+            {
+                "isAbout": "items/neurocog_2_remote___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_2_remote___1"
+            },
+            {
+                "isAbout": "items/neurocog_2_remote___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_2_remote___2"
+            },
+            {
+                "isAbout": "items/neurocog_2_remote___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_2_remote___3"
+            },
+            {
+                "isAbout": "items/neurocog_intro_ipad_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_intro_ipad_y"
+            },
+            {
+                "isAbout": "items/neurocog_intro2_ipad_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_intro2_ipad_y"
+            },
+            {
+                "isAbout": "items/neurocog_remote___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_remote___1"
+            },
+            {
+                "isAbout": "items/neurocog_remote___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_remote___2"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "crpbi_caregiver16_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "crpbi_caregiver16_y of ce_y_crpbi"
+    },
+    "prefLabel": {
+        "en": "Second caregiver. Is easy to talk to."
+    },
+    "question": {
+        "en": "Second caregiver. Is easy to talk to."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not like them"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat like them"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A lot like them"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

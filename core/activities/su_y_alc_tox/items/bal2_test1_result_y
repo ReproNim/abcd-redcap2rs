@@ -1,0 +1,59 @@
+{
+    "id": "bal2_test1_result_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bal2_test1_result_y of su_y_alc_tox"
+    },
+    "prefLabel": {
+        "en": "Breathalyzer Test 1 Day 2 Result:"
+    },
+    "question": {
+        "en": "Breathalyzer Test 1 Day 2 Result:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Negative (.000)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Positive (.001 or above)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Participant unable to complete (tried 3 times)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Participant refused"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Not collected (other)"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

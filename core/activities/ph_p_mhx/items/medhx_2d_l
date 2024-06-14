@@ -1,0 +1,41 @@
+{
+    "id": "medhx_2d_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "medhx_2d_l of ph_p_mhx"
+    },
+    "prefLabel": {
+        "en": "Since we last saw you, has she/he been to a doctor for any of these things? Bronchitis Bronquitus"
+    },
+    "question": {
+        "en": "Since we last saw you, has she he been to a doctor for any of these things? Bronchitis Bronquitus"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes S\u00cd"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No// Now I'd like to ask you about your child's use of health services since we last saw you on_____."
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

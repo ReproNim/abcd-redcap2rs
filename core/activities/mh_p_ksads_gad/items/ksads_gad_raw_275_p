@@ -1,0 +1,24 @@
+{
+    "id": "ksads_gad_raw_275_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_gad_raw_275_p of mh_p_ksads_gad"
+    },
+    "prefLabel": {
+        "en": "When was that?"
+    },
+    "question": {
+        "en": "When was that?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

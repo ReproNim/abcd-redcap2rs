@@ -1,0 +1,59 @@
+{
+    "id": "others_worry_y_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "others_worry_y_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "How worried have others around you been about coronavirus (COVID-19)?"
+    },
+    "question": {
+        "en": "How worried have others around you been about coronavirus (COVID-19)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Slightly"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Moderately"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Extremely"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

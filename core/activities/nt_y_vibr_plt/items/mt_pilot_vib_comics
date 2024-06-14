@@ -1,0 +1,24 @@
+{
+    "id": "mt_pilot_vib_comics",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mt_pilot_vib_comics of nt_y_vibr_plt"
+    },
+    "prefLabel": {
+        "en": "App category: comics (as labeled by Google Playstore). Total minutes"
+    },
+    "question": {
+        "en": "App category: comics (as labeled by Google Playstore). Total minutes"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

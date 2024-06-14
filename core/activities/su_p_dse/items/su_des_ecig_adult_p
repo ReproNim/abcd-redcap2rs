@@ -1,0 +1,25 @@
+{
+    "id": "su_des_ecig_adult_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_des_ecig_adult_p of su_p_dse"
+    },
+    "prefLabel": {
+        "en": "Electronic nicotine or vaping products such as e-cigarettes, vape pens or Juuls? Productos electronicos de nicotina o de vapeo  como cigarrillos electronicos  plumas de vapeo o Juuls?"
+    },
+    "question": {
+        "en": "Electronic nicotine or vaping products such as e-cigarettes, vape pens or Juuls?",
+        "es": "Productos electronicos de nicotina o de vapeo  como cigarrillos electronicos  plumas de vapeo o Juuls?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_beans",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_beans of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Chili beans, pinto beans, black beans, including in burritos/Frijoles pintos, frijoles negros, chile con frijoles o burritos de frijoles"
+    },
+    "question": {
+        "en": "Chili beans, pinto beans, black beans, including in burritos",
+        "es": "Frijoles pintos, frijoles negros, chile con frijoles o burritos de frijoles"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

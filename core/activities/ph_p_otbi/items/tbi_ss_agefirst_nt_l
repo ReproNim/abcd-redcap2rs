@@ -1,0 +1,24 @@
+{
+    "id": "tbi_ss_agefirst_nt_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tbi_ss_agefirst_nt_l of ph_p_otbi"
+    },
+    "prefLabel": {
+        "en": "Age at first TBI-LOC"
+    },
+    "question": {
+        "en": "Age at first TBI-LOC"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

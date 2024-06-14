@@ -1,0 +1,24 @@
+{
+    "id": "ksads2_20_601_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads2_20_601_p of mh_p_ksads_ss"
+    },
+    "prefLabel": {
+        "en": "Symptom - Persistent desire to reduce substance use (Solvent), Present"
+    },
+    "question": {
+        "en": "Symptom - Persistent desire to reduce substance use (Solvent), Present"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

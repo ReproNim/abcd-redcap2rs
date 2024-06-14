@@ -1,0 +1,24 @@
+{
+    "id": "caff_max_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "caff_max_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "What was  the largest amount of a caffeinated beverage you drank in ONE DAY in the past month?  [Interviewer: calculate total oz; for example 2 cans of soda=24oz]"
+    },
+    "question": {
+        "en": "What was  the largest amount of a caffeinated beverage you drank in ONE DAY in the past month? [Interviewer: calculate total oz; for example 2 cans of soda=24oz]"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "mtpo_pr_12_yes_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mtpo_pr_12_yes_p of nt_p_ears_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "Have you increased or decreased the amount of time allowed?"
+    },
+    "question": {
+        "en": "Have you increased or decreased the amount of time allowed?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Increased"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Decreased"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

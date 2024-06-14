@@ -1,0 +1,53 @@
+{
+    "id": "fam_ht_acc_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fam_ht_acc_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Please rate how much the coronavirus pandemic has changed your family's life in each of the following ways.Mental health treatment access:"
+    },
+    "question": {
+        "en": "Please rate how much the coronavirus pandemic has changed your family's life in each of the following ways. Mental health treatment access:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No change"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Mild: Appointments moved to telehealth"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderate: Delays or cancellations in appointments and/or delays in getting prescriptions; changes have minimal impact on health"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Severe: Unable to access needed care([event_name] = 'covid19_cv2_arm_2' or [event_name] = 'covid19_cv4_arm_2')"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

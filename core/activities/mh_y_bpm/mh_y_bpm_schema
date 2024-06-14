@@ -1,0 +1,357 @@
+{
+    "id": "mh_y_bpm_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Broad Psychopathology in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_Y_Bpm"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/bpm_1_y",
+            "items/bpm_2_y",
+            "items/bpm_3_y",
+            "items/bpm_4_y",
+            "items/bpm_5_y",
+            "items/bpm_6_y",
+            "items/bpm_7_y",
+            "items/bpm_8_y",
+            "items/bpm_9_y",
+            "items/bpm_10_y",
+            "items/bpm_11_y",
+            "items/bpm_12_y",
+            "items/bpm_13_y",
+            "items/bpm_14_y",
+            "items/bpm_15_y",
+            "items/bpm_16_y",
+            "items/bpm_17_y",
+            "items/bpm_18_y",
+            "items/bpm_19_y",
+            "items/bpm_admin",
+            "items/bpm_y_scr_attention_r",
+            "items/bpm_y_scr_attention_t",
+            "items/bpm_y_scr_attention_nm",
+            "items/bpm_y_scr_attention_nt",
+            "items/bpm_y_ss_attention_mean",
+            "items/bpm_y_ss_attention_nm",
+            "items/bpm_y_ss_attention_nt",
+            "items/bpm_y_scr_internal_r",
+            "items/bpm_y_scr_internal_t",
+            "items/bpm_y_scr_internal_nm",
+            "items/bpm_y_scr_internal_nt",
+            "items/bpm_y_ss_internal_mean",
+            "items/bpm_y_ss_internal_nm",
+            "items/bpm_y_ss_internal_nt",
+            "items/bpm_y_scr_external_r",
+            "items/bpm_y_scr_external_t",
+            "items/bpm_y_scr_external_nm",
+            "items/bpm_y_scr_external_nt",
+            "items/bpm_y_ss_external_mean",
+            "items/bpm_y_ss_external_nm",
+            "items/bpm_y_ss_external_nt",
+            "items/bpm_y_scr_totalprob_r",
+            "items/bpm_y_scr_totalprob_t",
+            "items/bpm_y_scr_totalprob_nm",
+            "items/bpm_y_scr_totalprob_nt",
+            "items/bpm_y_ss_totalprob_mean",
+            "items/bpm_y_ss_totalprob_nm",
+            "items/bpm_y_ss_totalprob_nt"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/bpm_1_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_1_y"
+            },
+            {
+                "isAbout": "items/bpm_2_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_2_y"
+            },
+            {
+                "isAbout": "items/bpm_3_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_3_y"
+            },
+            {
+                "isAbout": "items/bpm_4_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_4_y"
+            },
+            {
+                "isAbout": "items/bpm_5_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_5_y"
+            },
+            {
+                "isAbout": "items/bpm_6_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_6_y"
+            },
+            {
+                "isAbout": "items/bpm_7_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_7_y"
+            },
+            {
+                "isAbout": "items/bpm_8_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_8_y"
+            },
+            {
+                "isAbout": "items/bpm_9_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_9_y"
+            },
+            {
+                "isAbout": "items/bpm_10_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_10_y"
+            },
+            {
+                "isAbout": "items/bpm_11_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_11_y"
+            },
+            {
+                "isAbout": "items/bpm_12_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_12_y"
+            },
+            {
+                "isAbout": "items/bpm_13_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_13_y"
+            },
+            {
+                "isAbout": "items/bpm_14_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_14_y"
+            },
+            {
+                "isAbout": "items/bpm_15_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_15_y"
+            },
+            {
+                "isAbout": "items/bpm_16_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_16_y"
+            },
+            {
+                "isAbout": "items/bpm_17_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_17_y"
+            },
+            {
+                "isAbout": "items/bpm_18_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_18_y"
+            },
+            {
+                "isAbout": "items/bpm_19_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_19_y"
+            },
+            {
+                "isAbout": "items/bpm_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_admin"
+            },
+            {
+                "isAbout": "items/bpm_y_scr_attention_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_scr_attention_r"
+            },
+            {
+                "isAbout": "items/bpm_y_scr_attention_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_scr_attention_t"
+            },
+            {
+                "isAbout": "items/bpm_y_scr_attention_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_scr_attention_nm"
+            },
+            {
+                "isAbout": "items/bpm_y_scr_attention_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_scr_attention_nt"
+            },
+            {
+                "isAbout": "items/bpm_y_ss_attention_mean",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_ss_attention_mean"
+            },
+            {
+                "isAbout": "items/bpm_y_ss_attention_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_ss_attention_nm"
+            },
+            {
+                "isAbout": "items/bpm_y_ss_attention_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_ss_attention_nt"
+            },
+            {
+                "isAbout": "items/bpm_y_scr_internal_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_scr_internal_r"
+            },
+            {
+                "isAbout": "items/bpm_y_scr_internal_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_scr_internal_t"
+            },
+            {
+                "isAbout": "items/bpm_y_scr_internal_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_scr_internal_nm"
+            },
+            {
+                "isAbout": "items/bpm_y_scr_internal_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_scr_internal_nt"
+            },
+            {
+                "isAbout": "items/bpm_y_ss_internal_mean",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_ss_internal_mean"
+            },
+            {
+                "isAbout": "items/bpm_y_ss_internal_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_ss_internal_nm"
+            },
+            {
+                "isAbout": "items/bpm_y_ss_internal_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_ss_internal_nt"
+            },
+            {
+                "isAbout": "items/bpm_y_scr_external_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_scr_external_r"
+            },
+            {
+                "isAbout": "items/bpm_y_scr_external_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_scr_external_t"
+            },
+            {
+                "isAbout": "items/bpm_y_scr_external_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_scr_external_nm"
+            },
+            {
+                "isAbout": "items/bpm_y_scr_external_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_scr_external_nt"
+            },
+            {
+                "isAbout": "items/bpm_y_ss_external_mean",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_ss_external_mean"
+            },
+            {
+                "isAbout": "items/bpm_y_ss_external_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_ss_external_nm"
+            },
+            {
+                "isAbout": "items/bpm_y_ss_external_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_ss_external_nt"
+            },
+            {
+                "isAbout": "items/bpm_y_scr_totalprob_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_scr_totalprob_r"
+            },
+            {
+                "isAbout": "items/bpm_y_scr_totalprob_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_scr_totalprob_t"
+            },
+            {
+                "isAbout": "items/bpm_y_scr_totalprob_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_scr_totalprob_nm"
+            },
+            {
+                "isAbout": "items/bpm_y_scr_totalprob_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_scr_totalprob_nt"
+            },
+            {
+                "isAbout": "items/bpm_y_ss_totalprob_mean",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_ss_totalprob_mean"
+            },
+            {
+                "isAbout": "items/bpm_y_ss_totalprob_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_ss_totalprob_nm"
+            },
+            {
+                "isAbout": "items/bpm_y_ss_totalprob_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_y_ss_totalprob_nt"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

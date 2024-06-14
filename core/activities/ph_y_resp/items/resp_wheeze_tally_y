@@ -1,0 +1,65 @@
+{
+    "id": "resp_wheeze_tally_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "resp_wheeze_tally_y of ph_y_resp"
+    },
+    "prefLabel": {
+        "en": "How many attacks of wheezing have you had in the past 12 months?"
+    },
+    "question": {
+        "en": "How many attacks of wheezing have you had in the past 12 months?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4-12"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "More than 12"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

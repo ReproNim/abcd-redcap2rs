@@ -1,0 +1,371 @@
+{
+    "id": "gen_y_pihat_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Relatedness in Genetics"
+    },
+    "prefLabel": {
+        "en": "Gen_Y_Pihat"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/rel_family_id",
+            "items/rel_birth_id",
+            "items/rel_group_id",
+            "items/rel_ingroup_order",
+            "items/rel_relationship",
+            "items/rel_same_sex",
+            "items/genetic_pi_hat_1",
+            "items/genetic_pi_hat_2",
+            "items/genetic_pi_hat_3",
+            "items/genetic_pi_hat_4",
+            "items/genetic_zygosity_status_1",
+            "items/genetic_zygosity_status_2",
+            "items/genetic_zygosity_status_3",
+            "items/genetic_zygosity_status_4",
+            "items/genetic_paired_subjectid_1",
+            "items/genetic_paired_subjectid_2",
+            "items/genetic_paired_subjectid_3",
+            "items/genetic_paired_subjectid_4",
+            "items/genetic_pc_1",
+            "items/genetic_pc_2",
+            "items/genetic_pc_3",
+            "items/genetic_pc_4",
+            "items/genetic_pc_5",
+            "items/genetic_pc_6",
+            "items/genetic_pc_7",
+            "items/genetic_pc_8",
+            "items/genetic_pc_9",
+            "items/genetic_pc_10",
+            "items/genetic_pc_11",
+            "items/genetic_pc_12",
+            "items/genetic_pc_13",
+            "items/genetic_pc_14",
+            "items/genetic_pc_15",
+            "items/genetic_pc_16",
+            "items/genetic_pc_17",
+            "items/genetic_pc_18",
+            "items/genetic_pc_19",
+            "items/genetic_pc_20",
+            "items/genetic_pc_21",
+            "items/genetic_pc_22",
+            "items/genetic_pc_23",
+            "items/genetic_pc_24",
+            "items/genetic_pc_25",
+            "items/genetic_pc_26",
+            "items/genetic_pc_27",
+            "items/genetic_pc_28",
+            "items/genetic_pc_29",
+            "items/genetic_pc_30",
+            "items/genetic_pc_31",
+            "items/genetic_pc_32"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/rel_family_id",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "rel_family_id"
+            },
+            {
+                "isAbout": "items/rel_birth_id",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "rel_birth_id"
+            },
+            {
+                "isAbout": "items/rel_group_id",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "rel_group_id"
+            },
+            {
+                "isAbout": "items/rel_ingroup_order",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "rel_ingroup_order"
+            },
+            {
+                "isAbout": "items/rel_relationship",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "rel_relationship"
+            },
+            {
+                "isAbout": "items/rel_same_sex",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "rel_same_sex"
+            },
+            {
+                "isAbout": "items/genetic_pi_hat_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pi_hat_1"
+            },
+            {
+                "isAbout": "items/genetic_pi_hat_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pi_hat_2"
+            },
+            {
+                "isAbout": "items/genetic_pi_hat_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pi_hat_3"
+            },
+            {
+                "isAbout": "items/genetic_pi_hat_4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pi_hat_4"
+            },
+            {
+                "isAbout": "items/genetic_zygosity_status_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_zygosity_status_1"
+            },
+            {
+                "isAbout": "items/genetic_zygosity_status_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_zygosity_status_2"
+            },
+            {
+                "isAbout": "items/genetic_zygosity_status_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_zygosity_status_3"
+            },
+            {
+                "isAbout": "items/genetic_zygosity_status_4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_zygosity_status_4"
+            },
+            {
+                "isAbout": "items/genetic_paired_subjectid_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_paired_subjectid_1"
+            },
+            {
+                "isAbout": "items/genetic_paired_subjectid_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_paired_subjectid_2"
+            },
+            {
+                "isAbout": "items/genetic_paired_subjectid_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_paired_subjectid_3"
+            },
+            {
+                "isAbout": "items/genetic_paired_subjectid_4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_paired_subjectid_4"
+            },
+            {
+                "isAbout": "items/genetic_pc_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_1"
+            },
+            {
+                "isAbout": "items/genetic_pc_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_2"
+            },
+            {
+                "isAbout": "items/genetic_pc_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_3"
+            },
+            {
+                "isAbout": "items/genetic_pc_4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_4"
+            },
+            {
+                "isAbout": "items/genetic_pc_5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_5"
+            },
+            {
+                "isAbout": "items/genetic_pc_6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_6"
+            },
+            {
+                "isAbout": "items/genetic_pc_7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_7"
+            },
+            {
+                "isAbout": "items/genetic_pc_8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_8"
+            },
+            {
+                "isAbout": "items/genetic_pc_9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_9"
+            },
+            {
+                "isAbout": "items/genetic_pc_10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_10"
+            },
+            {
+                "isAbout": "items/genetic_pc_11",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_11"
+            },
+            {
+                "isAbout": "items/genetic_pc_12",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_12"
+            },
+            {
+                "isAbout": "items/genetic_pc_13",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_13"
+            },
+            {
+                "isAbout": "items/genetic_pc_14",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_14"
+            },
+            {
+                "isAbout": "items/genetic_pc_15",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_15"
+            },
+            {
+                "isAbout": "items/genetic_pc_16",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_16"
+            },
+            {
+                "isAbout": "items/genetic_pc_17",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_17"
+            },
+            {
+                "isAbout": "items/genetic_pc_18",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_18"
+            },
+            {
+                "isAbout": "items/genetic_pc_19",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_19"
+            },
+            {
+                "isAbout": "items/genetic_pc_20",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_20"
+            },
+            {
+                "isAbout": "items/genetic_pc_21",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_21"
+            },
+            {
+                "isAbout": "items/genetic_pc_22",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_22"
+            },
+            {
+                "isAbout": "items/genetic_pc_23",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_23"
+            },
+            {
+                "isAbout": "items/genetic_pc_24",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_24"
+            },
+            {
+                "isAbout": "items/genetic_pc_25",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_25"
+            },
+            {
+                "isAbout": "items/genetic_pc_26",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_26"
+            },
+            {
+                "isAbout": "items/genetic_pc_27",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_27"
+            },
+            {
+                "isAbout": "items/genetic_pc_28",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_28"
+            },
+            {
+                "isAbout": "items/genetic_pc_29",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_29"
+            },
+            {
+                "isAbout": "items/genetic_pc_30",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_30"
+            },
+            {
+                "isAbout": "items/genetic_pc_31",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_31"
+            },
+            {
+                "isAbout": "items/genetic_pc_32",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "genetic_pc_32"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

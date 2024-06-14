@@ -1,0 +1,65 @@
+{
+    "id": "su_tlfb_past_yr_prim_3_mj_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_tlfb_past_yr_prim_3_mj_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "In the past year, what was the primary way you inhaled or smoked marijuana?"
+    },
+    "question": {
+        "en": "In the past year, what was the primary way you inhaled or smoked marijuana?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "vaporizer (with flower, not concentrate or oil)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "bong, pipe, bowl, homemade device"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "hookah (with tobacco added)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "blunt with tobacco paper"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "rolled joint"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Do not know"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

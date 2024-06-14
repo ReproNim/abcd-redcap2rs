@@ -1,0 +1,24 @@
+{
+    "id": "ksads2_3_213_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads2_3_213_p of mh_p_ksads_ss"
+    },
+    "prefLabel": {
+        "en": "Symptom - Present at least 12 months"
+    },
+    "question": {
+        "en": "Symptom - Present at least 12 months"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

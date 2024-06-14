@@ -1,0 +1,24 @@
+{
+    "id": "ksads_4_251_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_4_251_t of mh_y_ksads_ss"
+    },
+    "prefLabel": {
+        "en": "Symptom - Tenacity of belief that delusion is true, Past"
+    },
+    "question": {
+        "en": "Symptom - Tenacity of belief that delusion is true, Past"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

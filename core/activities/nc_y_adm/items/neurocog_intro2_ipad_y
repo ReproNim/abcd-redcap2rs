@@ -1,0 +1,59 @@
+{
+    "id": "neurocog_intro2_ipad_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "neurocog_intro2_ipad_y of nc_y_adm"
+    },
+    "prefLabel": {
+        "en": "Which iPAD model will you use?"
+    },
+    "question": {
+        "en": "Which iPAD model will you use?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "iPad Air II (otterbox defender series cover)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "9.7'' iPad PRO (otterbox defender series cover)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "9.7'' iPad (NON-Pro) (otterbox defender series cover)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "10.2'' iPad (NON-Pro) (otterbox defender series cover)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other iPad model or Model/cover combination [sched_delay] = '7'"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

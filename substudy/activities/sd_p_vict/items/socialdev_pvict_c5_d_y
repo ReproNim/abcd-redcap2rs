@@ -1,0 +1,24 @@
+{
+    "id": "socialdev_pvict_c5_d_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_pvict_c5_d_y of sd_p_vict"
+    },
+    "prefLabel": {
+        "en": "How old was your child the last time this happened?"
+    },
+    "question": {
+        "en": "How old was your child the last time this happened?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

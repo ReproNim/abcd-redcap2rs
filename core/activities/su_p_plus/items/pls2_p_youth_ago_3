@@ -1,0 +1,25 @@
+{
+    "id": "pls2_p_youth_ago_3",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pls2_p_youth_ago_3 of su_p_plus"
+    },
+    "prefLabel": {
+        "en": "How long ago did your son/daughter take the medication? \u00bfHace cu\u00e1nto tiempo que su ni\u00f1o(a) tom\u00f3 o us\u00f3 dicho medicamento?"
+    },
+    "question": {
+        "en": "How long ago did your son daughter take the medication?",
+        "es": "\u00bfHace cu\u00e1nto tiempo que su ni\u00f1o(a) tom\u00f3 o us\u00f3 dicho medicamento?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

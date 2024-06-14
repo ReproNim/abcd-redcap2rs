@@ -1,0 +1,24 @@
+{
+    "id": "devhx_15",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_15 of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "For how many days  after birth was your child in an incubator?"
+    },
+    "question": {
+        "en": "For how many days  after birth was your child in an incubator?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

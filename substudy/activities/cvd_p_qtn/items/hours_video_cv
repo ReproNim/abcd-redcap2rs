@@ -1,0 +1,89 @@
+{
+    "id": "hours_video_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "hours_video_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "In the past week  how many hours per day did your child: Video-instruction by teachers"
+    },
+    "question": {
+        "en": "In the past week  how many hours per day did your child: Video-instruction by teachers"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "15 minutes ="
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "30 minutes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "45 minutes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "1 hour"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "1.5 hours"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "2 hours"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "3 hours"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "4 hours  9 =  more than 4 hours"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Don't know  [hours_homework_time_cv] more than '0'"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

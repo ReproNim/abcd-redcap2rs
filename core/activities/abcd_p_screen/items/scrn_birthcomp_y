@@ -1,0 +1,25 @@
+{
+    "id": "scrn_birthcomp_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_birthcomp_y of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "What kind of birth complications? /\u00ac\u00f8Qu\u221a\u00a9 tipo de complicaciones tuvo al nacer?"
+    },
+    "question": {
+        "en": "What kind of birth complications?",
+        "es": "\u00ac\u00f8Qu\u221a\u00a9 tipo de complicaciones tuvo al nacer?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

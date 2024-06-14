@@ -1,0 +1,63 @@
+{
+    "id": "cvd_l_geo_adm_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Geocoded Data in COVID-19"
+    },
+    "prefLabel": {
+        "en": "Cvd_L_Geo_Adm"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/covid_geo_error",
+            "items/reshist_addr1_percentOfTime",
+            "items/reshist_addr2_percentOfTime",
+            "items/reshist_addr3_percentOfTime",
+            "items/reshist_addr4_percentOfTime",
+            "items/reshist_addr5_percentOfTime"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/covid_geo_error",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "covid_geo_error"
+            },
+            {
+                "isAbout": "items/reshist_addr1_percentOfTime",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_percentOfTime"
+            },
+            {
+                "isAbout": "items/reshist_addr2_percentOfTime",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_percentOfTime"
+            },
+            {
+                "isAbout": "items/reshist_addr3_percentOfTime",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_percentOfTime"
+            },
+            {
+                "isAbout": "items/reshist_addr4_percentOfTime",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_percentOfTime"
+            },
+            {
+                "isAbout": "items/reshist_addr5_percentOfTime",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_percentOfTime"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

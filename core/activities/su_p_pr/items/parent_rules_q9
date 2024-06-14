@@ -1,0 +1,60 @@
+{
+    "id": "parent_rules_q9",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "parent_rules_q9 of su_p_pr"
+    },
+    "prefLabel": {
+        "en": "Do you enforce penalties for violating family rules about using marijuana? /\u00bfAplica sanciones por no respetar las reglas familiares sobre el consumo de marihuana?"
+    },
+    "question": {
+        "en": "Do you enforce penalties for violating family rules about using marijuana?",
+        "es": "\u00bfAplica sanciones por no respetar las reglas familiares sobre el consumo de marihuana?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never /Nunca"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Rarely/ Rara vez"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes /A veces"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Often/ Con frecuencia"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I have not had to enforce these rules /No he tenido que hacer que cumplan estas reglas"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

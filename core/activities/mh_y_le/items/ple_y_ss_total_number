@@ -1,0 +1,25 @@
+{
+    "id": "ple_y_ss_total_number",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ple_y_ss_total_number of mh_y_le"
+    },
+    "prefLabel": {
+        "en": "Total Number of Events\n: Validation: No Minimum"
+    },
+    "question": {
+        "en": "Calculated value"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

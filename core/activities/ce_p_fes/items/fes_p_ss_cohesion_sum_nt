@@ -1,0 +1,24 @@
+{
+    "id": "fes_p_ss_cohesion_sum_nt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fes_p_ss_cohesion_sum_nt of ce_p_fes"
+    },
+    "prefLabel": {
+        "en": "CohesIon subscale From the FamIly EnvIronment Scale Sum oF Parent Report Number Total QuestIons"
+    },
+    "question": {
+        "en": "CohesIon subscale From the FamIly EnvIronment Scale Sum oF Parent Report Number Total QuestIons"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

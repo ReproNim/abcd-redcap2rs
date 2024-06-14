@@ -1,0 +1,24 @@
+{
+    "id": "pnh_ss_protective_scale",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pnh_ss_protective_scale of ce_y_pnh"
+    },
+    "prefLabel": {
+        "en": "Peer Network Health: Protective Scale Score; sum (pnh_substance, pnh_help, pnh_how_much_help, pnh_encourage, pnh_how_much_encourage); Validation: Items #1,#2, and #3 must be answered"
+    },
+    "question": {
+        "en": "Peer Network Health: Protective Scale Score; sum (pnh_substance, pnh_help, pnh_how_much_help, pnh_encourage, pnh_how_much_encourage); Validation: Items #1,#2, and #3 must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

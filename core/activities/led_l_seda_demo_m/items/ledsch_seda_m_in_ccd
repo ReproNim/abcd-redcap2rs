@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_m_in_ccd",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_m_in_ccd of led_l_seda_demo_m"
+    },
+    "prefLabel": {
+        "en": "Metro has data in the CCD derived"
+    },
+    "question": {
+        "en": "Metro has data in the CCD derived"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

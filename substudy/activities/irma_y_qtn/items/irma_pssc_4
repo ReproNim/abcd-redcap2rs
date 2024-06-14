@@ -1,0 +1,60 @@
+{
+    "id": "irma_pssc_4",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "irma_pssc_4 of irma_y_qtn"
+    },
+    "prefLabel": {
+        "en": "4. In the last month, how often have you felt confident about your ability to handle your personal problems? 4. En el \u221a\u222bltimo mes, \u00ac\u00f8con qu\u221a\u00a9 frecuencia se sintiA seguro acerca de su capacidad para encargarse de sus problemas personales?"
+    },
+    "question": {
+        "en": "4. In the last month, how often have you felt confident about your ability to handle your personal problems? 4.",
+        "es": "En el \u221a\u222bltimo mes, \u00ac\u00f8con qu\u221a\u00a9 frecuencia se sintiA seguro acerca de su capacidad para encargarse de sus problemas personales?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never0 Nunca0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Almost Never1 Casi nunca1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes2 A veces2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Fairly Often3 Bastante a menudo3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very Often4 Muchisimo a menudo4"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,59 @@
+{
+    "id": "su_vape_expect_05",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_vape_expect_05 of su_y_vap_exp"
+    },
+    "prefLabel": {
+        "en": "Vaping is low-cost"
+    },
+    "question": {
+        "en": "Vaping is low-cost"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Disagree strongly"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Disagree somewhat"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Uncertain"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Agree somewhat"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Agree strongly [xskipout_vape] = '1' and [event-name] = '3_year_follow_up_y_arm_1'"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

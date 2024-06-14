@@ -1,0 +1,59 @@
+{
+    "id": "su_ends_motives_17",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_ends_motives_17 of su_y_ends_motiv"
+    },
+    "prefLabel": {
+        "en": "I vape ENDS to fit in with a group I like"
+    },
+    "question": {
+        "en": "I vape ENDS to fit in with a group I like"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all true"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A little true"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat true"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Pretty true"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Very true [xskipout_end] = 1'' and [event-name] = ''4_year_follow_up_y_arm_1''''"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

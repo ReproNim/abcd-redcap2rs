@@ -1,0 +1,90 @@
+{
+    "id": "saip2_run_tspent",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "saip2_run_tspent of ph_p_saiq"
+    },
+    "prefLabel": {
+        "en": "Track, Running, Cross-country: About how many minutes per session? \u00bfAproximadamente cu\u00e1ntos minutos por sesi\u00f3n?"
+    },
+    "question": {
+        "en": "Track, Running, Cross-country: About how many minutes per session?",
+        "es": "\u00bfAproximadamente cu\u00e1ntos minutos por sesi\u00f3n?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "less than 30 minutes menos de 30 minutos"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "30"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "45"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "60 (1 hr) 60 (1 hora)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "90 (1.5 hrs) 90 (1.5 horas)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "120 (2 hrs) 20 (2 horas)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "150 (2.5 hrs) 150 (2.5 horas)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "180 (3 hrs) 180 (3 horas)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "greater than 3 hours Mas de 3 horas"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Don't know No lo s\u00e9  | (minutes) (minutos)"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

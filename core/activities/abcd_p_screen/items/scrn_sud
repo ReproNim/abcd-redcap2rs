@@ -1,0 +1,42 @@
+{
+    "id": "scrn_sud",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_sud of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Has your child been diagnosed with... Alcohol or substance use disorder /Trastorno por consumo de alcohol o drogas"
+    },
+    "question": {
+        "en": "Has your child been diagnosed with. . . Trastorno por consumo de alcohol o drogas",
+        "es": "Alcohol or substance use disorder"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes - GO TO END"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No (Continue)"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

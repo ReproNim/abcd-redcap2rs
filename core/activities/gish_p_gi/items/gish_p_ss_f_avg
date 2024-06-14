@@ -1,0 +1,24 @@
+{
+    "id": "gish_p_ss_f_avg",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gish_p_ss_f_avg of gish_p_gi"
+    },
+    "prefLabel": {
+        "en": "GISH Female GIQ Average (gish_f1_p: f14_p). Validation: No more than 4 f1:f11 and no more than 1 f12:f14 missing or decline"
+    },
+    "question": {
+        "en": "GISH Female GIQ Average (gish_f1_p: f14_p). Validation: No more than 4 f1:f11 and no more than 1 f12:f14 missing or decline"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

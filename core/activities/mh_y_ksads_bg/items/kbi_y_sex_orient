@@ -1,0 +1,59 @@
+{
+    "id": "kbi_y_sex_orient",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_y_sex_orient of mh_y_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "Are you gay or bisexual?"
+    },
+    "question": {
+        "en": "Are you gay or bisexual?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Maybe"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I do not understand this question"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "ocp_prnt_acs_job_cat_19_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ocp_prnt_acs_job_cat_19_p of abcd_p_ocp"
+    },
+    "prefLabel": {
+        "en": "Please specify the Installation, Maintenance, and Repair Occupations Job Title:"
+    },
+    "question": {
+        "en": "Please specify the Installation, Maintenance, and Repair Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Supervisors of Installation=Maintenance=and Repair Workers"
+                },
+                "value": 49100
+            },
+            {
+                "name": {
+                    "en": "Electrical and Electronic Equipment Mechanics=Installers=and Repairers"
+                },
+                "value": 49200
+            },
+            {
+                "name": {
+                    "en": "Vehicle and Mobile Equipment Mechanics=Installers=and Repairers"
+                },
+                "value": 49300
+            },
+            {
+                "name": {
+                    "en": "Other Installation=Maintenance=and Repair Occupations"
+                },
+                "value": 49900
+            }
+        ],
+        "maxValue": 49900,
+        "minValue": 49100,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

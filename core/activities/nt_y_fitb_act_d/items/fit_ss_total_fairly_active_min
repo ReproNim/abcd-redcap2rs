@@ -1,0 +1,24 @@
+{
+    "id": "fit_ss_total_fairly_active_min",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fit_ss_total_fairly_active_min of nt_y_fitb_act_d"
+    },
+    "prefLabel": {
+        "en": "Number of minutes of  moderately active (3-5.9 METS) time observed in all valid minutes  after all exclusions from midnight (00:00) to 11:59 PM (23:59) regardless of sleep status"
+    },
+    "question": {
+        "en": "Number of minutes of  moderately active (3-5. 9 METS) time observed in all valid minutes  after all exclusions from midnight (00:00) to 11:59 PM (23:59) regardless of sleep status"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

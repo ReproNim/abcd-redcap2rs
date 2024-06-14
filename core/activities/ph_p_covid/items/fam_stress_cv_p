@@ -1,0 +1,48 @@
+{
+    "id": "fam_stress_cv_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fam_stress_cv_p of ph_p_covid"
+    },
+    "prefLabel": {
+        "en": "Experience of stress related to coronavirus pandemic / Experiencia de estr\u00e9s relacionada a la pandemia del coronavirus"
+    },
+    "question": {
+        "en": "Experience of stress related to coronavirus pandemic",
+        "es": "Experiencia de estr\u00e9s relacionada a la pandemia del coronavirus"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mild: Occasional worries and/or minor stress-related symptoms (e.g., feel a little anxious, sad, and/or angry; mild/rare trouble sleeping) / Leve: Preocupaciones ocasionales y/o s\u00edntomas menores relacionados con el estr\u00e9s (por ejemplo, sentir un poco de ansiedad, tristeza y/o enojo, problemas leves/raros para dormir)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderate: Frequent worries and/or moderate stress-related symptoms (e.g., feel moderately anxious, sad, and/or angry; moderate/occasional trouble sleeping) / Moderado: Preocupaciones frecuentes y/o s\u00edntomas moderados relacionados con el estr\u00e9s (por ejemplo, sentir ansiedad moderada, tristeza y/o enojo; problemas moderada/ocasional para dormir)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Severe: Persistent worries and/or severe stress-related symptoms (e.g., feel extremely anxious, sad, and/or angry; severe/frequent trouble sleeping) / Severo: Preocupaciones persistentes y/o s\u00edntomas graves relacionados con el estr\u00e9s (por ejemplo sentir ansiedad extrema, tristeza y/o enojo; problemas severas/frecuentes para dormir)"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "su_des_h3_intro_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_des_h3_intro_p of su_p_dse"
+    },
+    "prefLabel": {
+        "en": "You said that there is another household in which your child stays or lives for a significant amount of time:  Nos informo que hay otro hogar en donde su hijo/a pasa una cantidad importante de tiempo:"
+    },
+    "question": {
+        "en": "You said that there is another household in which your child stays or lives for a significant amount of time:  Nos informo que hay otro hogar en donde su hijo",
+        "es": "a pasa una cantidad importante de tiempo:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

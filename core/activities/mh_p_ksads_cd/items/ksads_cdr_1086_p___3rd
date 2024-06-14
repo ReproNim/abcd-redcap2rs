@@ -1,0 +1,41 @@
+{
+    "id": "ksads_cdr_1086_p___3rd",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_cdr_1086_p___3rd of mh_p_ksads_cd"
+    },
+    "prefLabel": {
+        "en": "Please review the symptoms you endorsed in the current and past questions and mark all the grades your child did these things. Lied (3rd, 3rd)"
+    },
+    "question": {
+        "en": "Please review the symptoms you endorsed in the current and past questions and mark all the grades your child did these things. Lied (3rd, 3rd)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

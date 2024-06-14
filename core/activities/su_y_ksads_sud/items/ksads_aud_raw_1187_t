@@ -1,0 +1,25 @@
+{
+    "id": "ksads_aud_raw_1187_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_aud_raw_1187_t of su_y_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "What did you do?Please enter"
+    },
+    "question": {
+        "en": "What did you do?",
+        "es": "Please enter"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "smarte_ss_dot_1to4subit_corr",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "smarte_ss_dot_1to4subit_corr of nc_y_smarte"
+    },
+    "prefLabel": {
+        "en": "Number correct for 1-4 dots arrays in the enumeration task"
+    },
+    "question": {
+        "en": "Number correct for 1-4 dots arrays in the enumeration task"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "peq_ss_relational_aggs",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "peq_ss_relational_aggs of mh_y_peq"
+    },
+    "prefLabel": {
+        "en": "Peer Experiences: Relational Aggression Summary Score; sum(peq_left_out_perp, peq_invite_perp, peq_exclude_perp); Validation: All items must be answered"
+    },
+    "question": {
+        "en": "Peer Experiences: Relational Aggression Summary Score; sum(peq_left_out_perp, peq_invite_perp, peq_exclude_perp); Validation: All items must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

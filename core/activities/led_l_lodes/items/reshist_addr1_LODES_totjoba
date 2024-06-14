@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr1_LODES_totjoba",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr1_LODES_totjoba of led_l_lodes"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - Total density of jobs (per sq. mile of land area) (addr1)"
+    },
+    "question": {
+        "en": "Residential history derived - Total density of jobs (per sq. mile of land area) (addr1)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,95 @@
+{
+    "id": "isip_3_2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "isip_3_2 of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "What type of alcohol was your first sip of an alcoholic beverage?"
+    },
+    "question": {
+        "en": "What type of alcohol was your first sip of an alcoholic beverage?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Beer"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Wine coolers/Beer substitutes (this includes Smirnoff Ice"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Shots of hard alcohol or drinking liquor out of a bottle (this includes rum"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Mixed drinks (for example: liquor mixed with soda or juice)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Malt liquor (this includes Colt 45"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Wine/champagne"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Fortified wine (this includes Mad Dog 20/20"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Liqueurs/Cordials (this includes Bailey's"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "I don't know // You mentioned earlier that you have had a sip of alcohol in the past. I want to ask some more questions about that."
+                },
+                "value": 10
+            }
+        ],
+        "maxValue": 10,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

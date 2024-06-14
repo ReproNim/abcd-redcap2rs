@@ -1,0 +1,108 @@
+{
+    "id": "demo_ed_v2_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_ed_v2_l of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "What grade is the child in? If it is summer, indicate grade starting in the fall. \u00ac\u00f8En qu\u221a\u00a9 grado est\u221a\u00b0 el/la nino(a)? [Si es verano, indique el grado que iniciar\u221a\u00b0 en el otono]"
+    },
+    "question": {
+        "en": "What grade is the child in? If it is summer, indicate grade starting in the fall. la nino(a)?",
+        "es": "\u00ac\u00f8En qu\u221a\u00a9 grado est\u221a\u00b0 el [Si es verano, indique el grado que iniciar\u221a\u00b0 en el otono]"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "KINDERGARTEN Kinder"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1ST GRADE 1.er grado"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2ND GRADE 2. grado"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3RD GRADE 3.er grado"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4TH GRADE 4. grado"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5TH GRADE 5. grado"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6TH GRADE 6. grado"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7TH GRADE 7. grado"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "8TH GRADE 8. grado"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "9TH GRADE 9. grado"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "10TH GRADE 10. grado"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "11TH GRADE 11. grado"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "12TH GRADE 12. grado"
+                },
+                "value": 12
+            }
+        ],
+        "maxValue": 12,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

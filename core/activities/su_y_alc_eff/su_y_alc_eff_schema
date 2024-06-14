@@ -1,0 +1,238 @@
+{
+    "id": "su_y_alc_eff_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Consequence in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Alc_Eff"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/subj_resp_alc_1a",
+            "items/subj_resp_alc_2a",
+            "items/subj_resp_alc_3a",
+            "items/subj_resp_alc_4a",
+            "items/subj_resp_alc_1b",
+            "items/subj_resp_alc_2b",
+            "items/subj_resp_alc_3b",
+            "items/subj_resp_alc_4b",
+            "items/subj_resp_alc_1c",
+            "items/subj_resp_alc_2c",
+            "items/subj_resp_alc_3c",
+            "items/subj_resp_alc_4c",
+            "items/subj_resp_alc_1a_l",
+            "items/subj_resp_alc_2a_l",
+            "items/subj_resp_alc_3a_l",
+            "items/subj_resp_alc_4a_l",
+            "items/subj_resp_alc_1b_l",
+            "items/subj_resp_alc_2b_l",
+            "items/subj_resp_alc_3b_l",
+            "items/subj_resp_alc_4b_l",
+            "items/subj_resp_alc_1c_l",
+            "items/subj_resp_alc_2c_l",
+            "items/subj_resp_alc_3c_l",
+            "items/subj_resp_alc_4c_l",
+            "items/su_alc_admin",
+            "items/subj_resp_alc_total_first",
+            "items/subj_resp_alc_total_6mo",
+            "items/subj_resp_alc_total_heavy",
+            "items/subj_resp_alc_total_first_i",
+            "items/subj_resp_alc_total_6mo_i",
+            "items/subj_resp_alc_total_heavy_i"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/subj_resp_alc_1a",
+                "isVis": "tlfb_alc_use  === 1",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_1a"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_2a",
+                "isVis": "tlfb_alc_use  === 1",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_2a"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_3a",
+                "isVis": "xskipout_alc  >= 2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_alc  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_3a"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_4a",
+                "isVis": "xskipout_alc  >= 2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_alc  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_4a"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_1b",
+                "isVis": "xskipout_alc  >= 2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_alc  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_1b"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_2b",
+                "isVis": "tlfb_alc_use  === 1",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_2b"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_3b",
+                "isVis": "tlfb_alc_use  === 1",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_3b"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_4b",
+                "isVis": "tlfb_alc_use  === 1",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_4b"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_1c",
+                "isVis": "tlfb_alc_use  === 1",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_1c"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_2c",
+                "isVis": "tlfb_alc_use  === 1",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_2c"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_3c",
+                "isVis": "tlfb_alc_use  === 1",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_3c"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_4c",
+                "isVis": "tlfb_alc_use  === 1",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_4c"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_1a_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_1a_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_2a_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_2a_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_3a_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_3a_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_4a_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_4a_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_1b_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_1b_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_2b_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_2b_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_3b_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_3b_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_4b_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_4b_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_1c_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_1c_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_2c_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_2c_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_3c_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_3c_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_4c_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_4c_l"
+            },
+            {
+                "isAbout": "items/su_alc_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_alc_admin"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_total_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_total_first"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_total_6mo",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_total_6mo"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_total_heavy",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_total_heavy"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_total_first_i",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_total_first_i"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_total_6mo_i",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_total_6mo_i"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_total_heavy_i",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_total_heavy_i"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

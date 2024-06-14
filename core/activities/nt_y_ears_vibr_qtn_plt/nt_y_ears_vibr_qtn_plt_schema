@@ -1,0 +1,434 @@
+{
+    "id": "nt_y_ears_vibr_qtn_plt_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Screen Use in Novel Technologies"
+    },
+    "prefLabel": {
+        "en": "Nt_Y_Ears_Vibr_Qtn_Plt"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mtpr_start_time",
+            "items/mtpr_1_wkdy_hrs",
+            "items/mtpr_1_wkdy_mins",
+            "items/mtpr_2_wknd_hrs",
+            "items/mtpr_2_wknd_mins",
+            "items/mtpr_3_total_wkdy_hrs",
+            "items/mtpr_3_total_wkdy_mins",
+            "items/mtpr_4_wknd_hrs",
+            "items/mtpr_4_wknd_mins",
+            "items/mtpr_5",
+            "items/mtpr_6",
+            "items/mtpr_pr_1",
+            "items/mtpr_pr_2",
+            "items/mtpr_pr_3",
+            "items/mtpr_pr_4",
+            "items/mtpr_pr_5",
+            "items/mtpr_hx_1",
+            "items/mtpr_hx_2",
+            "items/mtpr_hx_3",
+            "items/mtpr_hx_4",
+            "items/mtpr_ind_1",
+            "items/mtpr_ind_2",
+            "items/mtpr_ind_3",
+            "items/mtpo_start_time",
+            "items/mtpo_1_wkdy",
+            "items/mtpo_1_wkdy_hrs",
+            "items/mtpo_1_wkdy_mins",
+            "items/mtpo_2_wknd",
+            "items/mtpo_2_wknd_hrs",
+            "items/mtpo_2_wknd_mins",
+            "items/mtpo_3_wkdy",
+            "items/mtpo_3_wkdy_hrs",
+            "items/mtpo_3_wkdy_mins",
+            "items/mtpo_4_total_wknd",
+            "items/mtpo_4_total_wknd_hrs",
+            "items/mtpo_4_total_wknd_mins",
+            "items/mtpo_5",
+            "items/mtpo_6",
+            "items/mtpo_peer_percept_1",
+            "items/mtpo_peer_percept_2",
+            "items/mtpo_peer_percept_3",
+            "items/mtpo_peer_percept_4",
+            "items/mtpo_study_1",
+            "items/mtpo_study_2",
+            "items/mtpo_study_3",
+            "items/mtpo_study_4",
+            "items/mtpo_study_5",
+            "items/mtpo_iua_1",
+            "items/mtpo_iua_2",
+            "items/mtpo_iua_3",
+            "items/mtpo_iua_4",
+            "items/mtpo_iua_7",
+            "items/mtpo_iua_8",
+            "items/mtpo_iua_9",
+            "items/mtpo_iua_10",
+            "items/mtpo_fut_use_1",
+            "items/mtpo_fut_use_2",
+            "items/mtpo_fut_use_3",
+            "items/mtpo_fut_use_4"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mtpr_start_time",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_start_time"
+            },
+            {
+                "isAbout": "items/mtpr_1_wkdy_hrs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_1_wkdy_hrs"
+            },
+            {
+                "isAbout": "items/mtpr_1_wkdy_mins",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_1_wkdy_mins"
+            },
+            {
+                "isAbout": "items/mtpr_2_wknd_hrs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_2_wknd_hrs"
+            },
+            {
+                "isAbout": "items/mtpr_2_wknd_mins",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_2_wknd_mins"
+            },
+            {
+                "isAbout": "items/mtpr_3_total_wkdy_hrs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_3_total_wkdy_hrs"
+            },
+            {
+                "isAbout": "items/mtpr_3_total_wkdy_mins",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_3_total_wkdy_mins"
+            },
+            {
+                "isAbout": "items/mtpr_4_wknd_hrs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_4_wknd_hrs"
+            },
+            {
+                "isAbout": "items/mtpr_4_wknd_mins",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_4_wknd_mins"
+            },
+            {
+                "isAbout": "items/mtpr_5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_5"
+            },
+            {
+                "isAbout": "items/mtpr_6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_6"
+            },
+            {
+                "isAbout": "items/mtpr_pr_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_pr_1"
+            },
+            {
+                "isAbout": "items/mtpr_pr_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_pr_2"
+            },
+            {
+                "isAbout": "items/mtpr_pr_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_pr_3"
+            },
+            {
+                "isAbout": "items/mtpr_pr_4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_pr_4"
+            },
+            {
+                "isAbout": "items/mtpr_pr_5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_pr_5"
+            },
+            {
+                "isAbout": "items/mtpr_hx_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_hx_1"
+            },
+            {
+                "isAbout": "items/mtpr_hx_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_hx_2"
+            },
+            {
+                "isAbout": "items/mtpr_hx_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_hx_3"
+            },
+            {
+                "isAbout": "items/mtpr_hx_4",
+                "isVis": "mtpr_hx_3 ===1",
+                "valueRequired": true,
+                "variableName": "mtpr_hx_4"
+            },
+            {
+                "isAbout": "items/mtpr_ind_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_ind_1"
+            },
+            {
+                "isAbout": "items/mtpr_ind_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_ind_2"
+            },
+            {
+                "isAbout": "items/mtpr_ind_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_ind_3"
+            },
+            {
+                "isAbout": "items/mtpo_start_time",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_start_time"
+            },
+            {
+                "isAbout": "items/mtpo_1_wkdy",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_1_wkdy"
+            },
+            {
+                "isAbout": "items/mtpo_1_wkdy_hrs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_1_wkdy_hrs"
+            },
+            {
+                "isAbout": "items/mtpo_1_wkdy_mins",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_1_wkdy_mins"
+            },
+            {
+                "isAbout": "items/mtpo_2_wknd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_2_wknd"
+            },
+            {
+                "isAbout": "items/mtpo_2_wknd_hrs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_2_wknd_hrs"
+            },
+            {
+                "isAbout": "items/mtpo_2_wknd_mins",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_2_wknd_mins"
+            },
+            {
+                "isAbout": "items/mtpo_3_wkdy",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_3_wkdy"
+            },
+            {
+                "isAbout": "items/mtpo_3_wkdy_hrs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_3_wkdy_hrs"
+            },
+            {
+                "isAbout": "items/mtpo_3_wkdy_mins",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_3_wkdy_mins"
+            },
+            {
+                "isAbout": "items/mtpo_4_total_wknd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_4_total_wknd"
+            },
+            {
+                "isAbout": "items/mtpo_4_total_wknd_hrs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_4_total_wknd_hrs"
+            },
+            {
+                "isAbout": "items/mtpo_4_total_wknd_mins",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_4_total_wknd_mins"
+            },
+            {
+                "isAbout": "items/mtpo_5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_5"
+            },
+            {
+                "isAbout": "items/mtpo_6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_6"
+            },
+            {
+                "isAbout": "items/mtpo_peer_percept_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_peer_percept_1"
+            },
+            {
+                "isAbout": "items/mtpo_peer_percept_2",
+                "isVis": "mtpo_peer_percept_1 === 1",
+                "valueRequired": true,
+                "variableName": "mtpo_peer_percept_2"
+            },
+            {
+                "isAbout": "items/mtpo_peer_percept_3",
+                "isVis": "mtpo_peer_percept_1 === 1",
+                "valueRequired": true,
+                "variableName": "mtpo_peer_percept_3"
+            },
+            {
+                "isAbout": "items/mtpo_peer_percept_4",
+                "isVis": "mtpo_peer_percept_1 === 1",
+                "valueRequired": true,
+                "variableName": "mtpo_peer_percept_4"
+            },
+            {
+                "isAbout": "items/mtpo_study_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_study_1"
+            },
+            {
+                "isAbout": "items/mtpo_study_2",
+                "isVis": "mtpo_study_1 === 1",
+                "valueRequired": true,
+                "variableName": "mtpo_study_2"
+            },
+            {
+                "isAbout": "items/mtpo_study_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_study_3"
+            },
+            {
+                "isAbout": "items/mtpo_study_4",
+                "isVis": "mtpo_study_3 === 1",
+                "valueRequired": true,
+                "variableName": "mtpo_study_4"
+            },
+            {
+                "isAbout": "items/mtpo_study_5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_study_5"
+            },
+            {
+                "isAbout": "items/mtpo_iua_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_iua_1"
+            },
+            {
+                "isAbout": "items/mtpo_iua_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_iua_2"
+            },
+            {
+                "isAbout": "items/mtpo_iua_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_iua_3"
+            },
+            {
+                "isAbout": "items/mtpo_iua_4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_iua_4"
+            },
+            {
+                "isAbout": "items/mtpo_iua_7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_iua_7"
+            },
+            {
+                "isAbout": "items/mtpo_iua_8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_iua_8"
+            },
+            {
+                "isAbout": "items/mtpo_iua_9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_iua_9"
+            },
+            {
+                "isAbout": "items/mtpo_iua_10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_iua_10"
+            },
+            {
+                "isAbout": "items/mtpo_fut_use_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_fut_use_1"
+            },
+            {
+                "isAbout": "items/mtpo_fut_use_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_fut_use_2"
+            },
+            {
+                "isAbout": "items/mtpo_fut_use_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpo_fut_use_3"
+            },
+            {
+                "isAbout": "items/mtpo_fut_use_4",
+                "isVis": "mtpo_fut_use_3 === 1",
+                "valueRequired": true,
+                "variableName": "mtpo_fut_use_4"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

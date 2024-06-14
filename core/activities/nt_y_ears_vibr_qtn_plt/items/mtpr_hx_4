@@ -1,0 +1,53 @@
+{
+    "id": "mtpr_hx_4",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mtpr_hx_4 of nt_y_ears_vibr_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "How many?"
+    },
+    "question": {
+        "en": "How many?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1-2"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "3-4"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "4+"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,105 @@
+{
+    "id": "mh_p_pss_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Stress in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_P_Pss"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pstr_irritations_p",
+            "items/pstr_way_p",
+            "items/pstr_unexpect_upset_p",
+            "items/pstr_unable_control_p",
+            "items/pstr_top_p",
+            "items/pstr_p_select_language___1",
+            "items/pstr_overcome_p",
+            "items/pstr_outside_control_p",
+            "items/pstr_not_cope_p",
+            "items/pstr_feel_stress_p",
+            "items/pstr_confidence_p",
+            "items/pstr_ss_pr"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pstr_irritations_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pstr_irritations_p"
+            },
+            {
+                "isAbout": "items/pstr_way_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pstr_way_p"
+            },
+            {
+                "isAbout": "items/pstr_unexpect_upset_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pstr_unexpect_upset_p"
+            },
+            {
+                "isAbout": "items/pstr_unable_control_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pstr_unable_control_p"
+            },
+            {
+                "isAbout": "items/pstr_top_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pstr_top_p"
+            },
+            {
+                "isAbout": "items/pstr_p_select_language___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pstr_p_select_language___1"
+            },
+            {
+                "isAbout": "items/pstr_overcome_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pstr_overcome_p"
+            },
+            {
+                "isAbout": "items/pstr_outside_control_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pstr_outside_control_p"
+            },
+            {
+                "isAbout": "items/pstr_not_cope_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pstr_not_cope_p"
+            },
+            {
+                "isAbout": "items/pstr_feel_stress_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pstr_feel_stress_p"
+            },
+            {
+                "isAbout": "items/pstr_confidence_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pstr_confidence_p"
+            },
+            {
+                "isAbout": "items/pstr_ss_pr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pstr_ss_pr"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

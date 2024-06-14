@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_milk_kind",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_milk_kind of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "What kind of milk did your child drink?/\u00bfQu\u00e9 tipo de leche bebe su ni\u00f1o(a)?"
+    },
+    "question": {
+        "en": "What kind of milk did your child drink?",
+        "es": "\u00bfQu\u00e9 tipo de leche bebe su ni\u00f1o(a)?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "fitf_s4_q2a_1_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fitf_s4_q2a_1_p of nt_p_fitb_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "Did you encourage your child to change his/her activity or sleep based on the information?"
+    },
+    "question": {
+        "en": "Did you encourage your child to change his her activity or sleep based on the information?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "scrn_speakeng",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_speakeng of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Does (Child's name) speak and understand English well? / \u00ac\u00f8(Nombre del menor) habla y entiende bien el ingl\u221a\u00a9s?"
+    },
+    "question": {
+        "en": "Does (Child's name) speak and understand English well?",
+        "es": "\u00ac\u00f8(Nombre del menor) habla y entiende bien el ingl\u221a\u00a9s?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No - GO TO END"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Unsure"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

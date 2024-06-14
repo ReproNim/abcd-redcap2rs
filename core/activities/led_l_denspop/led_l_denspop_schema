@@ -1,0 +1,42 @@
+{
+    "id": "led_l_denspop_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Built Environment in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Denspop"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_popdensity",
+            "items/reshist_addr2_popdensity",
+            "items/reshist_addr3_popdensity"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_popdensity",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_popdensity"
+            },
+            {
+                "isAbout": "items/reshist_addr2_popdensity",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_popdensity"
+            },
+            {
+                "isAbout": "items/reshist_addr3_popdensity",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_popdensity"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

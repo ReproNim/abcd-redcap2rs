@@ -1,0 +1,35 @@
+{
+    "id": "devhx_9_her_morph_amt_dk",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_9_her_morph_amt_dk of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "Knowing of pregnancy. Heroin/Morphine. How many times per day. Don't know /No lo s\u00e9"
+    },
+    "question": {
+        "en": "Knowing of pregnancy. Heroin Morphine. How many times per day. Don't know No lo s\u00e9"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know /No lo s\u00e9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 999,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

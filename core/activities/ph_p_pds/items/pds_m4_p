@@ -1,0 +1,60 @@
+{
+    "id": "pds_m4_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pds_m4_p of ph_p_pds"
+    },
+    "prefLabel": {
+        "en": "Have you noticed a deepening of his voice? \u00bfHa notado que la voz de su ni\u00f1o se ha vuelto m\u00e1s profunda?"
+    },
+    "question": {
+        "en": "Have you noticed a deepening of his voice?",
+        "es": "\u00bfHa notado que la voz de su ni\u00f1o se ha vuelto m\u00e1s profunda?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "voice has not yet started changing Su voz a\u00fan no ha empezado a cambiar."
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "voice has barely started changing Su voz apenas ha empezado a cambiar."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "voice changes are definitely underway Definitivamente ya est\u00e1n ocurriendo cambios en su voz."
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "voice changes seem complete Parece haber terminado de cambiar su voz."
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't know No s\u00e9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

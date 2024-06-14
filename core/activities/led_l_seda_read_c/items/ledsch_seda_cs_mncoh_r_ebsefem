@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_cs_mncoh_r_ebsefem",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_cs_mncoh_r_ebsefem of led_l_seda_read_c"
+    },
+    "prefLabel": {
+        "en": "County Poolsub (''pooled by subject'' - within subjects) County SE of Cohort Slope of Mean Ach, Reading Language Arts, EB est, CS HLM using SEDA HETOP est female"
+    },
+    "question": {
+        "en": "County Poolsub (''pooled by subject'' - within subjects) County SE of Cohort Slope of Mean Ach, Reading Language Arts, EB est, CS HLM using SEDA HETOP est female"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

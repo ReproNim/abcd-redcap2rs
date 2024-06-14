@@ -1,0 +1,24 @@
+{
+    "id": "reshist_state_so_factor",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_state_so_factor of led_l_biasgender"
+    },
+    "prefLabel": {
+        "en": "State level indicators of bias against sexual orientation from structural variables"
+    },
+    "question": {
+        "en": "State level indicators of bias against sexual orientation from structural variables"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

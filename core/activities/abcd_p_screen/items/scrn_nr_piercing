@@ -1,0 +1,42 @@
+{
+    "id": "scrn_nr_piercing",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_nr_piercing of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Does your child have any non-removable metal piercings on his/her head, face, tongue, neck or chest? /\u00ac\u00f8Su ni\u221a\u00b1o(a) tiene alg\u221a\u222bn piercing (como un arete) o joyer\u221a\u2260a met\u221a\u00b0lica no removible en la cabeza, el rostro, la lengua, el cuello o el pecho?"
+    },
+    "question": {
+        "en": "Does your child have any non-removable metal piercings on his her head, face, tongue, neck or chest?",
+        "es": "\u00ac\u00f8Su ni\u221a\u00b1o(a) tiene alg\u221a\u222bn piercing (como un arete) o joyer\u221a\u2260a met\u221a\u00b0lica no removible en la cabeza, el rostro, la lengua, el cuello o el pecho?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes - GO TO END"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

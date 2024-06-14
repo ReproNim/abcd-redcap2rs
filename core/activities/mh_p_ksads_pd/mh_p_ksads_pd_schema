@@ -1,0 +1,301 @@
+{
+    "id": "mh_p_ksads_pd_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Anxiety in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_P_Ksads_Pd"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ksads_pd_raw_1768_p",
+            "items/ksads_pd_raw_1756_p",
+            "items/ksads_pd_raw_1757_p",
+            "items/ksads_pd_raw_1758_p",
+            "items/ksads_pd_raw_1759_p",
+            "items/ksads_pd_raw_1761_p",
+            "items/ksads_pd_raw_1762_p",
+            "items/ksads_pd_raw_1763_p",
+            "items/ksads_pd_raw_1764_p",
+            "items/ksads_pd_raw_1765_p",
+            "items/ksads_pd_raw_1766_p",
+            "items/ksads_pd_raw_1767_p",
+            "items/ksads_pd_raw_1755_p",
+            "items/ksads_pd_raw_1769_p",
+            "items/ksads_pd_raw_1770_p",
+            "items/ksads_pd_raw_1771_p",
+            "items/ksads_pd_raw_1772_p",
+            "items/ksads_pd_raw_1773_p",
+            "items/ksads_pd_raw_1774_p",
+            "items/ksads_pd_raw_1775_p",
+            "items/ksads_pd_raw_1776_p",
+            "items/ksads_pd_raw_1777_p",
+            "items/ksads_pd_raw_1778_p",
+            "items/ksads_pd_raw_1754_p",
+            "items/ksads_pd_raw_176_p",
+            "items/ksads_pd_raw_177_p",
+            "items/ksads_pd_raw_178_p",
+            "items/ksads_pd_raw_179_p",
+            "items/ksads_pd_raw_180_p",
+            "items/ksads_pd_raw_1743_p",
+            "items/ksads_pd_raw_1744_p",
+            "items/ksads_pd_raw_1745_p",
+            "items/ksads_pd_raw_1746_p",
+            "items/ksads_pd_raw_1747_p",
+            "items/ksads_pd_raw_1748_p",
+            "items/ksads_pd_raw_1749_p",
+            "items/ksads_pd_raw_1750_p",
+            "items/ksads_pd_raw_1751_p",
+            "items/ksads_pd_raw_1752_p",
+            "items/ksads_pd_raw_1753_p"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ksads_pd_raw_1768_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1768_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1756_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1756_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1757_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1757_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1758_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1758_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1759_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1759_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1761_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1761_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1762_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1762_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1763_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1763_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1764_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1764_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1765_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1765_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1766_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1766_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1767_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1767_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1755_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1755_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1769_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1769_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1770_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1770_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1771_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1771_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1772_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1772_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1773_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1773_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1774_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1774_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1775_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1775_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1776_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1776_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1777_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1777_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1778_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1778_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1754_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1754_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_176_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_176_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_177_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_177_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_178_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_178_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_179_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_179_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_180_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_180_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1743_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1743_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1744_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1744_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1745_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1745_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1746_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1746_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1747_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1747_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1748_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1748_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1749_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1749_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1750_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1750_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1751_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1751_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1752_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1752_p"
+            },
+            {
+                "isAbout": "items/ksads_pd_raw_1753_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_pd_raw_1753_p"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

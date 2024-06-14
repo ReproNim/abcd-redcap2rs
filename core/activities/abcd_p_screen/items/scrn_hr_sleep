@@ -1,0 +1,47 @@
+{
+    "id": "scrn_hr_sleep",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_hr_sleep of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Sleeps well? \u00ac\u00f8Duerme bien?"
+    },
+    "question": {
+        "en": "Sleeps well? \u00ac\u00f8Duerme bien?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "very true or often true Muy cierto o frecuentemente cierto"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "somewhat or sometimes true algo cierto o a veces cierto"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "not true falso // I now have a few questions about (Child's name) behavior. Some of these questions may not apply to your child but it is important that we include a diverse group of children in our study. I'm going to read a list of items that describe children and youth. For each item that describes (Child's name) now or within the past 6 months, please indicate if it is very true or often true of your child, somewhat or sometimes true of your child, or not true of your child. Remember, the questions are about how your child is now or in the past 6 months."
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

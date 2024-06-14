@@ -1,0 +1,41 @@
+{
+    "id": "ksads_dp_raw_846_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dp_raw_846_p of mh_p_ksads_dep"
+    },
+    "prefLabel": {
+        "en": "In the past when your child was feeling irritable a lot in June 2012, was he or she sleeping two or more hours a day more than usual, either napping during the day or sleeping more hours at night?"
+    },
+    "question": {
+        "en": "In the past when your child was feeling irritable a lot in June 2012, was he or she sleeping two or more hours a day more than usual, either napping during the day or sleeping more hours at night?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

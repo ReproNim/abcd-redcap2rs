@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr1_seg_entropy_m",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr1_seg_entropy_m of led_l_entropy"
+    },
+    "prefLabel": {
+        "en": "Residential history derived-Multigroup Entropy Score, metro-level, ACS2014-2018 (addr1)"
+    },
+    "question": {
+        "en": "Residential history derived-Multigroup Entropy Score, metro-level, ACS2014-2018 (addr1)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

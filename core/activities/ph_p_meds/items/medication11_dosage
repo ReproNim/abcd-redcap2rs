@@ -1,0 +1,24 @@
+{
+    "id": "medication11_dosage",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "medication11_dosage of ph_p_meds"
+    },
+    "prefLabel": {
+        "en": "medication 11 dosage"
+    },
+    "question": {
+        "en": "medication 11 dosage"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

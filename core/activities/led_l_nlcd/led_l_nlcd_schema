@@ -1,0 +1,651 @@
+{
+    "id": "led_l_nlcd_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Natural Space and Satellite in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Nlcd"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_NLCD2016_devop_t",
+            "items/reshist_addr1_NLCD2016_devlow_t",
+            "items/reshist_addr1_NLCD2016_devmed_t",
+            "items/reshist_addr1_NLCD2016_devhi_t",
+            "items/reshist_addr1_NLCD2016_barren_t",
+            "items/reshist_addr1_NLCD2016_decfor_t",
+            "items/reshist_addr1_NLCD2016_egforr_t",
+            "items/reshist_addr1_NLCD2016_mixfor_t",
+            "items/reshist_addr1_NLCD2016_shrub_t",
+            "items/reshist_addr1_NLCD2016_herb_t",
+            "items/reshist_addr1_NLCD2016_haypst_t",
+            "items/reshist_addr1_NLCD2016_crops_t",
+            "items/reshist_addr1_NLCD2016_woodwt_t",
+            "items/reshist_addr1_NLCD2016_herbwt_t",
+            "items/reshist_addr1_NLCD2016_treecn_t",
+            "items/reshist_addr2_NLCD2016_devop_t",
+            "items/reshist_addr2_NLCD2016_devlow_t",
+            "items/reshist_addr2_NLCD2016_devmed_t",
+            "items/reshist_addr2_NLCD2016_devhi_t",
+            "items/reshist_addr2_NLCD2016_barren_t",
+            "items/reshist_addr2_NLCD2016_decfor_t",
+            "items/reshist_addr2_NLCD2016_egforr_t",
+            "items/reshist_addr2_NLCD2016_mixfor_t",
+            "items/reshist_addr2_NLCD2016_shrub_t",
+            "items/reshist_addr2_NLCD2016_herb_t",
+            "items/reshist_addr2_NLCD2016_haypst_t",
+            "items/reshist_addr2_NLCD2016_crops_t",
+            "items/reshist_addr2_NLCD2016_woodwt_t",
+            "items/reshist_addr2_NLCD2016_herbwt_t",
+            "items/reshist_addr2_NLCD2016_treecn_t",
+            "items/reshist_addr3_NLCD2016_devop_t",
+            "items/reshist_addr3_NLCD2016_devlow_t",
+            "items/reshist_addr3_NLCD2016_devmed_t",
+            "items/reshist_addr3_NLCD2016_devhi_t",
+            "items/reshist_addr3_NLCD2016_barren_t",
+            "items/reshist_addr3_NLCD2016_decfor_t",
+            "items/reshist_addr3_NLCD2016_egforr_t",
+            "items/reshist_addr3_NLCD2016_mixfor_t",
+            "items/reshist_addr3_NLCD2016_shrub_t",
+            "items/reshist_addr3_NLCD2016_herb_t",
+            "items/reshist_addr3_NLCD2016_haypst_t",
+            "items/reshist_addr3_NLCD2016_crops_t",
+            "items/reshist_addr3_NLCD2016_woodwt_t",
+            "items/reshist_addr3_NLCD2016_herbwt_t",
+            "items/reshist_addr3_NLCD2016_treecn_t",
+            "items/reshist_addr1_NLCD2016_devop_c",
+            "items/reshist_addr1_NLCD2016_devlow_c",
+            "items/reshist_addr1_NLCD2016_devmed_c",
+            "items/reshist_addr1_NLCD2016_devhi_c",
+            "items/reshist_addr1_NLCD2016_barren_c",
+            "items/reshist_addr1_NLCD2016_decfor_c",
+            "items/reshist_addr1_NLCD2016_egforr_c",
+            "items/reshist_addr1_NLCD2016_mixfor_c",
+            "items/reshist_addr1_NLCD2016_shrub_c",
+            "items/reshist_addr1_NLCD2016_herb_c",
+            "items/reshist_addr1_NLCD2016_haypst_c",
+            "items/reshist_addr1_NLCD2016_crops_c",
+            "items/reshist_addr1_NLCD2016_woodwt_c",
+            "items/reshist_addr1_NLCD2016_herbwt_c",
+            "items/reshist_addr1_NLCD2016_treecn_c",
+            "items/reshist_addr2_NLCD2016_devop_c",
+            "items/reshist_addr2_NLCD2016_devlow_c",
+            "items/reshist_addr2_NLCD2016_devmed_c",
+            "items/reshist_addr2_NLCD2016_devhi_c",
+            "items/reshist_addr2_NLCD2016_barren_c",
+            "items/reshist_addr2_NLCD2016_decfor_c",
+            "items/reshist_addr2_NLCD2016_egforr_c",
+            "items/reshist_addr2_NLCD2016_mixfor_c",
+            "items/reshist_addr2_NLCD2016_shrub_c",
+            "items/reshist_addr2_NLCD2016_herb_c",
+            "items/reshist_addr2_NLCD2016_haypst_c",
+            "items/reshist_addr2_NLCD2016_crops_c",
+            "items/reshist_addr2_NLCD2016_woodwt_c",
+            "items/reshist_addr2_NLCD2016_herbwt_c",
+            "items/reshist_addr2_NLCD2016_treecn_c",
+            "items/reshist_addr3_NLCD2016_devop_c",
+            "items/reshist_addr3_NLCD2016_devlow_c",
+            "items/reshist_addr3_NLCD2016_devmed_c",
+            "items/reshist_addr3_NLCD2016_devhi_c",
+            "items/reshist_addr3_NLCD2016_barren_c",
+            "items/reshist_addr3_NLCD2016_decfor_c",
+            "items/reshist_addr3_NLCD2016_egforr_c",
+            "items/reshist_addr3_NLCD2016_mixfor_c",
+            "items/reshist_addr3_NLCD2016_shrub_c",
+            "items/reshist_addr3_NLCD2016_herb_c",
+            "items/reshist_addr3_NLCD2016_haypst_c",
+            "items/reshist_addr3_NLCD2016_crops_c",
+            "items/reshist_addr3_NLCD2016_woodwt_c",
+            "items/reshist_addr3_NLCD2016_herbwt_c",
+            "items/reshist_addr3_NLCD2016_treecn_c"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_devop_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_devop_t"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_devlow_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_devlow_t"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_devmed_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_devmed_t"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_devhi_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_devhi_t"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_barren_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_barren_t"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_decfor_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_decfor_t"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_egforr_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_egforr_t"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_mixfor_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_mixfor_t"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_shrub_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_shrub_t"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_herb_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_herb_t"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_haypst_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_haypst_t"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_crops_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_crops_t"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_woodwt_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_woodwt_t"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_herbwt_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_herbwt_t"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_treecn_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_treecn_t"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_devop_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_devop_t"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_devlow_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_devlow_t"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_devmed_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_devmed_t"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_devhi_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_devhi_t"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_barren_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_barren_t"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_decfor_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_decfor_t"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_egforr_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_egforr_t"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_mixfor_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_mixfor_t"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_shrub_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_shrub_t"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_herb_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_herb_t"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_haypst_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_haypst_t"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_crops_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_crops_t"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_woodwt_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_woodwt_t"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_herbwt_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_herbwt_t"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_treecn_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_treecn_t"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_devop_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_devop_t"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_devlow_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_devlow_t"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_devmed_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_devmed_t"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_devhi_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_devhi_t"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_barren_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_barren_t"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_decfor_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_decfor_t"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_egforr_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_egforr_t"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_mixfor_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_mixfor_t"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_shrub_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_shrub_t"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_herb_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_herb_t"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_haypst_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_haypst_t"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_crops_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_crops_t"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_woodwt_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_woodwt_t"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_herbwt_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_herbwt_t"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_treecn_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_treecn_t"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_devop_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_devop_c"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_devlow_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_devlow_c"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_devmed_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_devmed_c"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_devhi_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_devhi_c"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_barren_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_barren_c"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_decfor_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_decfor_c"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_egforr_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_egforr_c"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_mixfor_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_mixfor_c"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_shrub_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_shrub_c"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_herb_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_herb_c"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_haypst_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_haypst_c"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_crops_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_crops_c"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_woodwt_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_woodwt_c"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_herbwt_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_herbwt_c"
+            },
+            {
+                "isAbout": "items/reshist_addr1_NLCD2016_treecn_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_NLCD2016_treecn_c"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_devop_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_devop_c"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_devlow_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_devlow_c"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_devmed_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_devmed_c"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_devhi_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_devhi_c"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_barren_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_barren_c"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_decfor_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_decfor_c"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_egforr_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_egforr_c"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_mixfor_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_mixfor_c"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_shrub_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_shrub_c"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_herb_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_herb_c"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_haypst_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_haypst_c"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_crops_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_crops_c"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_woodwt_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_woodwt_c"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_herbwt_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_herbwt_c"
+            },
+            {
+                "isAbout": "items/reshist_addr2_NLCD2016_treecn_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_NLCD2016_treecn_c"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_devop_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_devop_c"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_devlow_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_devlow_c"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_devmed_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_devmed_c"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_devhi_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_devhi_c"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_barren_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_barren_c"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_decfor_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_decfor_c"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_egforr_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_egforr_c"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_mixfor_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_mixfor_c"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_shrub_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_shrub_c"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_herb_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_herb_c"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_haypst_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_haypst_c"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_crops_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_crops_c"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_woodwt_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_woodwt_c"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_herbwt_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_herbwt_c"
+            },
+            {
+                "isAbout": "items/reshist_addr3_NLCD2016_treecn_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_NLCD2016_treecn_c"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr1_coi_zed_hsgrad",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr1_coi_zed_hsgrad of led_l_coi"
+    },
+    "prefLabel": {
+        "en": "Educational Domain High school graduation rate: Percentage ninth graders graduating from high school on time, transformed to z-scores."
+    },
+    "question": {
+        "en": "Educational Domain High school graduation rate: Percentage ninth graders graduating from high school on time, transformed to z-scores."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

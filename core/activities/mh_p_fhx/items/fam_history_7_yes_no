@@ -1,0 +1,54 @@
+{
+    "id": "fam_history_7_yes_no",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fam_history_7_yes_no of mh_p_fhx"
+    },
+    "prefLabel": {
+        "en": "7. Has ANY blood relative of your child ever had a period of time when others were concerned  because they suddenly became more active day and night and seemed not to need any sleep and talked much more than usual for them? \u00bfALG\u00daN pariente consangu\u00edneo de su ni\u00f1o(a) ha pasado alguna vez por un per\u00edodo en el que otras personas se preocuparan por \u00e9l o ella porque repentinamente se volvi\u00f3  m\u00e1s activo(a) de d\u00eda y de noche, parec\u00eda no necesitar dormir y hablaba mucho m\u00e1s de lo normal para \u00e9l o ella?"
+    },
+    "question": {
+        "en": "7. Has ANY blood relative of your child ever had a period of time when others were concerned  because they suddenly became more active day and night and seemed not to need any sleep and talked much more than usual for them?",
+        "es": "\u00bfALG\u00daN pariente consangu\u00edneo de su ni\u00f1o(a) ha pasado alguna vez por un per\u00edodo en el que otras personas se preocuparan por \u00e9l o ella porque repentinamente se volvi\u00f3  m\u00e1s activo(a) de d\u00eda y de noche, parec\u00eda no necesitar dormir y hablaba mucho m\u00e1s de lo normal para \u00e9l o ella?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know No lo s\u00e9"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer Niego contestar /  famhx_1   == 1"
+                },
+                "value": 7
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

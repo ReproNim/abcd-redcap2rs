@@ -1,0 +1,47 @@
+{
+    "id": "kbi_y_drop_in_grades",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_y_drop_in_grades of mh_y_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "Has there been a drop in your grades in the past year?"
+    },
+    "question": {
+        "en": "Has there been a drop in your grades in the past year?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "bdefs_ss_sum",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bdefs_ss_sum of nc_p_bdef"
+    },
+    "prefLabel": {
+        "en": "Executive function summary score: Sum of all items; maximally 1 item missing / refused to answer"
+    },
+    "question": {
+        "en": "Executive function summary score: Sum of all items; maximally 1 item missing refused to answer"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "socialdev_pvict_g1_last_text_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_pvict_g1_last_text_l of sd_p_vict"
+    },
+    "prefLabel": {
+        "en": "For the remainder of the G1 follow-up questions, if this happened more than once since your last SD visit, think only about the last time this happened."
+    },
+    "question": {
+        "en": "For the remainder of the G1 follow-up questions, if this happened more than once since your last SD visit, think only about the last time this happened."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

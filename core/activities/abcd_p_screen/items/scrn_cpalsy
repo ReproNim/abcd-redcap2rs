@@ -1,0 +1,41 @@
+{
+    "id": "scrn_cpalsy",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_cpalsy of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Has your child been diagnosed with any of the following serious medical or neurological conditions by a health professional? Cerebral Palsy? / \u00ac\u00f8Par\u221a\u00b0lisis cerebral?"
+    },
+    "question": {
+        "en": "Has your child been diagnosed with any of the following serious medical or neurological conditions by a health professional? Cerebral Palsy? \u00ac\u00f8Par\u221a\u00b0lisis cerebral?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes - GO TO END"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "No (Continue)"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

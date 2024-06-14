@@ -1,0 +1,53 @@
+{
+    "id": "screen13_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screen13_y of nt_y_st"
+    },
+    "prefLabel": {
+        "en": "How often do you play mature-rated video games (e.g., Call of Duty, Grand Theft Auto, Assassin's Creed, etc.)?"
+    },
+    "question": {
+        "en": "How often do you play mature-rated video games (e. g. , Call of Duty, Grand Theft Auto, Assassin's Creed, etc. )?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Once in a while"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Regularly"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "All the time"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

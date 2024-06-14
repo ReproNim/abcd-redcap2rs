@@ -1,0 +1,60 @@
+{
+    "id": "child_tested_cv_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "child_tested_cv_p of ph_p_covid"
+    },
+    "prefLabel": {
+        "en": "Has your child been tested for COVID-19? / \u00bfLe han realizado la prueba de COVID-19 a su hijo(a)?"
+    },
+    "question": {
+        "en": "Has your child been tested for COVID-19?",
+        "es": "\u00bfLe han realizado la prueba de COVID-19 a su hijo(a)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No, I never tried to get my child tested / No, nunca trat\u00e9 de hacerle una prueba a mi hijo(a)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No, I tried to get my child tested but was not able to / No, trat\u00e9 de hacerle una prueba a mi hijo(a) pero no pude"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Yes, and all tests showed that my child did not have it (\"negative\" tests) / S\u00ed, y la prueba mostr\u00f3 que mi hijo(a) no lo tuvo (prueba \"negativa\")"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Yes, and one or more tests showed that my child did have it (\"positive\" test) / S\u00ed, y la prueba mostr\u00f3 que mi hijo(a) s\u00ed lo tuvo (prueba \"positiva\")"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Yes, and my child is waiting for the results / S\u00ed, y mi hijo(a) est\u00e1 esperando los resultados"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

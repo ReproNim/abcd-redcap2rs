@@ -1,0 +1,147 @@
+{
+    "id": "led_l_medmj_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Policy Vars in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Medmj"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_effMML",
+            "items/reshist_addr1_effREC",
+            "items/reshist_addr1_active_medlegdisp",
+            "items/reshist_addr1_active_dispREC",
+            "items/reshist_addr1_effhighcbdmj",
+            "items/reshist_addr2_effMML",
+            "items/reshist_addr2_effREC",
+            "items/reshist_addr2_active_medlegdisp",
+            "items/reshist_addr2_active_dispREC",
+            "items/reshist_addr2_effhighcbdmj",
+            "items/reshist_addr3_effMML",
+            "items/reshist_addr3_effREC",
+            "items/reshist_addr3_active_medlegdisp",
+            "items/reshist_addr3_active_dispREC",
+            "items/reshist_addr3_effhighcbdmj",
+            "items/reshist_addr1_decrimmmj_ind",
+            "items/reshist_addr2_decrimmmj_ind",
+            "items/reshist_addr3_decrimmmj_ind"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_effMML",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_effMML"
+            },
+            {
+                "isAbout": "items/reshist_addr1_effREC",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_effREC"
+            },
+            {
+                "isAbout": "items/reshist_addr1_active_medlegdisp",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_active_medlegdisp"
+            },
+            {
+                "isAbout": "items/reshist_addr1_active_dispREC",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_active_dispREC"
+            },
+            {
+                "isAbout": "items/reshist_addr1_effhighcbdmj",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_effhighcbdmj"
+            },
+            {
+                "isAbout": "items/reshist_addr2_effMML",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_effMML"
+            },
+            {
+                "isAbout": "items/reshist_addr2_effREC",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_effREC"
+            },
+            {
+                "isAbout": "items/reshist_addr2_active_medlegdisp",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_active_medlegdisp"
+            },
+            {
+                "isAbout": "items/reshist_addr2_active_dispREC",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_active_dispREC"
+            },
+            {
+                "isAbout": "items/reshist_addr2_effhighcbdmj",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_effhighcbdmj"
+            },
+            {
+                "isAbout": "items/reshist_addr3_effMML",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_effMML"
+            },
+            {
+                "isAbout": "items/reshist_addr3_effREC",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_effREC"
+            },
+            {
+                "isAbout": "items/reshist_addr3_active_medlegdisp",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_active_medlegdisp"
+            },
+            {
+                "isAbout": "items/reshist_addr3_active_dispREC",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_active_dispREC"
+            },
+            {
+                "isAbout": "items/reshist_addr3_effhighcbdmj",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_effhighcbdmj"
+            },
+            {
+                "isAbout": "items/reshist_addr1_decrimmmj_ind",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_decrimmmj_ind"
+            },
+            {
+                "isAbout": "items/reshist_addr2_decrimmmj_ind",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_decrimmmj_ind"
+            },
+            {
+                "isAbout": "items/reshist_addr3_decrimmmj_ind",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_decrimmmj_ind"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

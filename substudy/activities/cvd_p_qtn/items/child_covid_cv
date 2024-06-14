@@ -1,0 +1,47 @@
+{
+    "id": "child_covid_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "child_covid_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Has your healthcare provider ever told you that your child has or might have COVID-19 (coronavirus)?"
+    },
+    "question": {
+        "en": "Has your healthcare provider ever told you that your child has or might have COVID-19 (coronavirus)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,273 @@
+{
+    "id": "nc_y_wisc_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Task in Neurocognition"
+    },
+    "prefLabel": {
+        "en": "Nc_Y_Wisc"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pea_wiscv_trs",
+            "items/pea_wiscv_tss",
+            "items/pea_wiscv_item_a_rs",
+            "items/pea_wiscv_item_b_rs",
+            "items/pea_wiscv_item_1_rs",
+            "items/pea_wiscv_item_2_rs",
+            "items/pea_wiscv_item_3_rs",
+            "items/pea_wiscv_item_4_rs",
+            "items/pea_wiscv_item_5_rs",
+            "items/pea_wiscv_item_6_rs",
+            "items/pea_wiscv_item_7_rs",
+            "items/pea_wiscv_item_8_rs",
+            "items/pea_wiscv_item_9_rs",
+            "items/pea_wiscv_item_10_rs",
+            "items/pea_wiscv_item_11_rs",
+            "items/pea_wiscv_item_12_rs",
+            "items/pea_wiscv_item_13_rs",
+            "items/pea_wiscv_item_14_rs",
+            "items/pea_wiscv_item_15_rs",
+            "items/pea_wiscv_item_16_rs",
+            "items/pea_wiscv_item_17_rs",
+            "items/pea_wiscv_item_18_rs",
+            "items/pea_wiscv_item_19_rs",
+            "items/pea_wiscv_item_20_rs",
+            "items/pea_wiscv_item_21_rs",
+            "items/pea_wiscv_item_22_rs",
+            "items/pea_wiscv_item_23_rs",
+            "items/pea_wiscv_item_24_rs",
+            "items/pea_wiscv_item_25_rs",
+            "items/pea_wiscv_item_26_rs",
+            "items/pea_wiscv_item_27_rs",
+            "items/pea_wiscv_item_28_rs",
+            "items/pea_wiscv_item_29_rs",
+            "items/pea_wiscv_item_30_rs",
+            "items/pea_wiscv_item_31_rs",
+            "items/pea_wiscv_item_32_rs"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pea_wiscv_trs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_trs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_tss",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_tss"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_a_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_a_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_b_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_b_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_1_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_1_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_2_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_2_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_3_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_3_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_4_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_4_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_5_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_5_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_6_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_6_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_7_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_7_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_8_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_8_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_9_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_9_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_10_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_10_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_11_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_11_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_12_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_12_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_13_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_13_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_14_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_14_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_15_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_15_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_16_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_16_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_17_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_17_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_18_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_18_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_19_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_19_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_20_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_20_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_21_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_21_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_22_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_22_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_23_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_23_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_24_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_24_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_25_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_25_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_26_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_26_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_27_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_27_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_28_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_28_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_29_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_29_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_30_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_30_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_31_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_31_rs"
+            },
+            {
+                "isAbout": "items/pea_wiscv_item_32_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_wiscv_item_32_rs"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

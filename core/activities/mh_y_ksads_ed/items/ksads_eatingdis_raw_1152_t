@@ -1,0 +1,41 @@
+{
+    "id": "ksads_eatingdis_raw_1152_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_eatingdis_raw_1152_t of mh_y_ksads_ed"
+    },
+    "prefLabel": {
+        "en": "Please indicate below all the different methods that you used back then to control your weight.Diet pills"
+    },
+    "question": {
+        "en": "Please indicate below all the different methods that you used back then to control your weight. Diet pills"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

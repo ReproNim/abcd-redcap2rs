@@ -1,0 +1,53 @@
+{
+    "id": "upps15_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "upps15_y of mh_y_upps"
+    },
+    "prefLabel": {
+        "en": "I finish what I start."
+    },
+    "question": {
+        "en": "I finish what I start."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all like me"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Not like me"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Somewhat like me"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Very much like me"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

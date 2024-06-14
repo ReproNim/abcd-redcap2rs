@@ -1,0 +1,47 @@
+{
+    "id": "socialdev_ppd_34_praq_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_ppd_34_praq_l of sd_p_pd"
+    },
+    "prefLabel": {
+        "en": "Used physical force to get others to do what he/she wants."
+    },
+    "question": {
+        "en": "Used physical force to get others to do what he she wants."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

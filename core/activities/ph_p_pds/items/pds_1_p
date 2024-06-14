@@ -1,0 +1,59 @@
+{
+    "id": "pds_1_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pds_1_p of ph_p_pds"
+    },
+    "prefLabel": {
+        "en": "Would you say that your child's growth in height: Con respecto a la estatura de su ni\u00f1o(a), \u00bfdir\u00eda usted que...?"
+    },
+    "question": {
+        "en": "Would you say that your child's growth in height: Con respecto a la estatura de su ni\u00f1o(a), \u00bfdir\u00eda usted que. . . ?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "has not yet begun to spurt A\u00fan no ha empezado a crecer."
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "has barely started Apenas ha empezado a crecer."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "is definitely underway Definitivamente est\u00e1 creciendo."
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "seems complete Parece haber terminado de crecer."
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't know No s\u00e9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

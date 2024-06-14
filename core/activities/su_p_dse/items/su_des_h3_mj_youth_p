@@ -1,0 +1,36 @@
+{
+    "id": "su_des_h3_mj_youth_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_des_h3_mj_youth_p of su_p_dse"
+    },
+    "prefLabel": {
+        "en": "Smoked marijuana also called cannabis, blunts, grass, weed, ganja (non-medical)?  Marihuana fumada  tambien llamada canabis  mota  pasto  yerba (usos no medicos)"
+    },
+    "question": {
+        "en": "Smoked marijuana also called cannabis, blunts, grass, weed, ganja (non-medical)?",
+        "es": "Marihuana fumada  tambien llamada canabis  mota  pasto  yerba (usos no medicos)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't Know  /  No se"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 999,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

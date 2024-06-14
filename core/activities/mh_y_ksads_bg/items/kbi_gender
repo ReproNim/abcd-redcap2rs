@@ -1,0 +1,59 @@
+{
+    "id": "kbi_gender",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_gender of mh_y_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "What is your current gender identity?"
+    },
+    "question": {
+        "en": "What is your current gender identity?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Boy"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Girl"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Another gender (e.g. nonbinary)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I don't understand the question"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

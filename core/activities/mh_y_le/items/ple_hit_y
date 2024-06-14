@@ -1,0 +1,41 @@
+{
+    "id": "ple_hit_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ple_hit_y of mh_y_le"
+    },
+    "prefLabel": {
+        "en": "Saw or heard someone getting hit"
+    },
+    "question": {
+        "en": "Saw or heard someone getting hit"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes [event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1'"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "p_gish2_abstinences",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "p_gish2_abstinences of gish_p_sex"
+    },
+    "prefLabel": {
+        "en": "Have you talked with your child about: Abstinence/waiting to have sex / Ha hablado con su ni\u00f1o(a) sobre: Absitencia/esperar a tener relaciones sexuales"
+    },
+    "question": {
+        "en": "Have you talked with your child about: Abstinence waiting to have sex",
+        "es": "Ha hablado con su ni\u00f1o(a) sobre: Absitencia esperar a tener relaciones sexuales"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "ple_close_fam_fu3_y_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ple_close_fam_fu3_y_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "Separated from close family member: Is this due to the coronavirus situation?"
+    },
+    "question": {
+        "en": "Separated from close family member: Is this due to the coronavirus situation?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know  [ple_close_fam_cv] = '1'"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

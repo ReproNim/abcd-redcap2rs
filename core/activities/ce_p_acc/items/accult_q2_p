@@ -1,0 +1,42 @@
+{
+    "id": "accult_q2_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "accult_q2_p of ce_p_acc"
+    },
+    "prefLabel": {
+        "en": "Besides English, do you speak or understand another language or dialect? \u00c2\u00bfAdem\u00c3\u00a1s del ingl\u00c3\u00a9s, habla o entiende otro idioma o dialecto?"
+    },
+    "question": {
+        "en": "Besides English, do you speak or understand another language or dialect?",
+        "es": "\u00c2\u00bfAdem\u00c3\u00a1s del ingl\u00c3\u00a9s, habla o entiende otro idioma o dialecto?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

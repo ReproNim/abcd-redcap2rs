@@ -1,0 +1,59 @@
+{
+    "id": "ksads_dud_raw_1254_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dud_raw_1254_t of su_y_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "In the last 2 weeks, how often have you gone to school or work after you had been using the following drugs or when you were hung over?Cocaine (coke, crack)"
+    },
+    "question": {
+        "en": "In the last 2 weeks, how often have you gone to school or work after you had been using the following drugs or when you were hung over? Cocaine (coke, crack)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Several days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "More than half the days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Nearly every day"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

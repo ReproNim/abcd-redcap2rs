@@ -1,0 +1,24 @@
+{
+    "id": "pnh_ss_protective_scale_nm",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pnh_ss_protective_scale_nm of ce_y_pnh"
+    },
+    "prefLabel": {
+        "en": "Peer Network Health: Protective Scale Missing"
+    },
+    "question": {
+        "en": "Peer Network Health: Protective Scale Missing"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

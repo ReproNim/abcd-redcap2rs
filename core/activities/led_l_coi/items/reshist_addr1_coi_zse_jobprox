@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr1_coi_zse_jobprox",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr1_coi_zse_jobprox of led_l_coi"
+    },
+    "prefLabel": {
+        "en": "Commute duration: Percentage workers commuting more than one hour one way, transformed to z-scores and multiplied by -1."
+    },
+    "question": {
+        "en": "Commute duration: Percentage workers commuting more than one hour one way, transformed to z-scores and multiplied by -1."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

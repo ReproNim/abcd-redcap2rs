@@ -1,0 +1,280 @@
+{
+    "id": "su_y_dapi_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Consequence in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Dapi"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/dapi_q01",
+            "items/dapi_q02",
+            "items/dapi_q03",
+            "items/dapi_q04",
+            "items/dapi_q05",
+            "items/dapi_q06",
+            "items/dapi_q07",
+            "items/dapi_q08",
+            "items/dapi_q09",
+            "items/dapi_q10",
+            "items/dapi_q11",
+            "items/dapi_q12",
+            "items/dapi_q13",
+            "items/dapi_q14",
+            "items/dapi_q15",
+            "items/dapi_q16",
+            "items/dapi_q17",
+            "items/dapi_q18",
+            "items/dapi_q01_l",
+            "items/dapi_q02_l",
+            "items/dapi_q03_l",
+            "items/dapi_q04_l",
+            "items/dapi_q05_l",
+            "items/dapi_q06_l",
+            "items/dapi_q07_l",
+            "items/dapi_q08_l",
+            "items/dapi_q09_l",
+            "items/dapi_q10_l",
+            "items/dapi_q11_l",
+            "items/dapi_q12_l",
+            "items/dapi_q13_l",
+            "items/dapi_q14_l",
+            "items/dapi_q15_l",
+            "items/dapi_q16_l",
+            "items/dapi_q17_l",
+            "items/dapi_q18_l",
+            "items/su_mj_admin"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/dapi_q01",
+                "isVis": "xskipout_other  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_other  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "dapi_q01"
+            },
+            {
+                "isAbout": "items/dapi_q02",
+                "isVis": "xskipout_other  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_other  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "dapi_q02"
+            },
+            {
+                "isAbout": "items/dapi_q03",
+                "isVis": "xskipout_other  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_other  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "dapi_q03"
+            },
+            {
+                "isAbout": "items/dapi_q04",
+                "isVis": "xskipout_other  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_other  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "dapi_q04"
+            },
+            {
+                "isAbout": "items/dapi_q05",
+                "isVis": "xskipout_other  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_other  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "dapi_q05"
+            },
+            {
+                "isAbout": "items/dapi_q06",
+                "isVis": "xskipout_other  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_other  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "dapi_q06"
+            },
+            {
+                "isAbout": "items/dapi_q07",
+                "isVis": "xskipout_other  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_other  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "dapi_q07"
+            },
+            {
+                "isAbout": "items/dapi_q08",
+                "isVis": "xskipout_other  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_other  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "dapi_q08"
+            },
+            {
+                "isAbout": "items/dapi_q09",
+                "isVis": "xskipout_other  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_other  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "dapi_q09"
+            },
+            {
+                "isAbout": "items/dapi_q10",
+                "isVis": "xskipout_other  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_other  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "dapi_q10"
+            },
+            {
+                "isAbout": "items/dapi_q11",
+                "isVis": "xskipout_other  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_other  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "dapi_q11"
+            },
+            {
+                "isAbout": "items/dapi_q12",
+                "isVis": "xskipout_other  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_other  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "dapi_q12"
+            },
+            {
+                "isAbout": "items/dapi_q13",
+                "isVis": "xskipout_other  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_other  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "dapi_q13"
+            },
+            {
+                "isAbout": "items/dapi_q14",
+                "isVis": "xskipout_other  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_other  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "dapi_q14"
+            },
+            {
+                "isAbout": "items/dapi_q15",
+                "isVis": "xskipout_other  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_other  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "dapi_q15"
+            },
+            {
+                "isAbout": "items/dapi_q16",
+                "isVis": "xskipout_other  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_other  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "dapi_q16"
+            },
+            {
+                "isAbout": "items/dapi_q17",
+                "isVis": "xskipout_other  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_other  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "dapi_q17"
+            },
+            {
+                "isAbout": "items/dapi_q18",
+                "isVis": "xskipout_other  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_other  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "dapi_q18"
+            },
+            {
+                "isAbout": "items/dapi_q01_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dapi_q01_l"
+            },
+            {
+                "isAbout": "items/dapi_q02_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dapi_q02_l"
+            },
+            {
+                "isAbout": "items/dapi_q03_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dapi_q03_l"
+            },
+            {
+                "isAbout": "items/dapi_q04_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dapi_q04_l"
+            },
+            {
+                "isAbout": "items/dapi_q05_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dapi_q05_l"
+            },
+            {
+                "isAbout": "items/dapi_q06_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dapi_q06_l"
+            },
+            {
+                "isAbout": "items/dapi_q07_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dapi_q07_l"
+            },
+            {
+                "isAbout": "items/dapi_q08_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dapi_q08_l"
+            },
+            {
+                "isAbout": "items/dapi_q09_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dapi_q09_l"
+            },
+            {
+                "isAbout": "items/dapi_q10_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dapi_q10_l"
+            },
+            {
+                "isAbout": "items/dapi_q11_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dapi_q11_l"
+            },
+            {
+                "isAbout": "items/dapi_q12_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dapi_q12_l"
+            },
+            {
+                "isAbout": "items/dapi_q13_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dapi_q13_l"
+            },
+            {
+                "isAbout": "items/dapi_q14_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dapi_q14_l"
+            },
+            {
+                "isAbout": "items/dapi_q15_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dapi_q15_l"
+            },
+            {
+                "isAbout": "items/dapi_q16_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dapi_q16_l"
+            },
+            {
+                "isAbout": "items/dapi_q17_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dapi_q17_l"
+            },
+            {
+                "isAbout": "items/dapi_q18_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dapi_q18_l"
+            },
+            {
+                "isAbout": "items/su_mj_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_mj_admin"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

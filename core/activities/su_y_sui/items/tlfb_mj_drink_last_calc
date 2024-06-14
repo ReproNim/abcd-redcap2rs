@@ -1,0 +1,25 @@
+{
+    "id": "tlfb_mj_drink_last_calc",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_mj_drink_last_calc of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Days Ago:"
+    },
+    "question": {
+        "en": "Calculated value"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

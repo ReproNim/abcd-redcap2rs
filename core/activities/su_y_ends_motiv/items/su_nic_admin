@@ -1,0 +1,47 @@
+{
+    "id": "su_nic_admin",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_nic_admin of su_y_ends_motiv"
+    },
+    "prefLabel": {
+        "en": "Please indicate how instrument was administered:"
+    },
+    "question": {
+        "en": "Please indicate how instrument was administered:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "RA-Administered"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Youth Self_Administered"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Combination [sched_delay] = '7'"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

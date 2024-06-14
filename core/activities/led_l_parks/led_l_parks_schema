@@ -1,0 +1,105 @@
+{
+    "id": "led_l_parks_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Amenities & Services in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Parks"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_nanda_parks_tot",
+            "items/reshist_addr1_nanda_parks_tc10",
+            "items/reshist_addr1_nanda_parks_a_t",
+            "items/reshist_addr1_nanda_parks_cty",
+            "items/reshist_addr2_nanda_parks_tot",
+            "items/reshist_addr2_nanda_parks_tc10",
+            "items/reshist_addr2_nanda_parks_a_t",
+            "items/reshist_addr2_nanda_parks_cty",
+            "items/reshist_addr3_nanda_parks_tot",
+            "items/reshist_addr3_nanda_parks_tc10",
+            "items/reshist_addr3_nanda_parks_a_t",
+            "items/reshist_addr3_nanda_parks_cty"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_nanda_parks_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_nanda_parks_tot"
+            },
+            {
+                "isAbout": "items/reshist_addr1_nanda_parks_tc10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_nanda_parks_tc10"
+            },
+            {
+                "isAbout": "items/reshist_addr1_nanda_parks_a_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_nanda_parks_a_t"
+            },
+            {
+                "isAbout": "items/reshist_addr1_nanda_parks_cty",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_nanda_parks_cty"
+            },
+            {
+                "isAbout": "items/reshist_addr2_nanda_parks_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_nanda_parks_tot"
+            },
+            {
+                "isAbout": "items/reshist_addr2_nanda_parks_tc10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_nanda_parks_tc10"
+            },
+            {
+                "isAbout": "items/reshist_addr2_nanda_parks_a_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_nanda_parks_a_t"
+            },
+            {
+                "isAbout": "items/reshist_addr2_nanda_parks_cty",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_nanda_parks_cty"
+            },
+            {
+                "isAbout": "items/reshist_addr3_nanda_parks_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_nanda_parks_tot"
+            },
+            {
+                "isAbout": "items/reshist_addr3_nanda_parks_tc10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_nanda_parks_tc10"
+            },
+            {
+                "isAbout": "items/reshist_addr3_nanda_parks_a_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_nanda_parks_a_t"
+            },
+            {
+                "isAbout": "items/reshist_addr3_nanda_parks_cty",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_nanda_parks_cty"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

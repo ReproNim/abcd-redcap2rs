@@ -1,0 +1,24 @@
+{
+    "id": "cvd_fit_ss_weekend_count",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "cvd_fit_ss_weekend_count of cvd_y_fitb_act_w"
+    },
+    "prefLabel": {
+        "en": "Number of weekend days included in averages"
+    },
+    "question": {
+        "en": "Number of weekend days included in averages"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

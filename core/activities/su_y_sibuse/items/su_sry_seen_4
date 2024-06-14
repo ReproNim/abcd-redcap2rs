@@ -1,0 +1,53 @@
+{
+    "id": "su_sry_seen_4",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_sry_seen_4 of su_y_sibuse"
+    },
+    "prefLabel": {
+        "en": "Inhalants (gas, glue, nitrous oxide)"
+    },
+    "question": {
+        "en": "Inhalants (gas, glue, nitrous oxide)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Just a few times"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Many times"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't Know [su_sry_4]=1 or [su_sry_4]=2 or [su_sry_4]=3 or [su_sry_4]=4"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

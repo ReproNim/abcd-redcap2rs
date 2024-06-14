@@ -1,0 +1,47 @@
+{
+    "id": "mypi_mj_oils_vaped",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mypi_mj_oils_vaped of su_y_mypi"
+    },
+    "prefLabel": {
+        "en": "Have you vaped marijuana oils or concentrates, such as THC, hash or BHO oil, in a vape pen or vaporizer at any time in the past 6 months?"
+    },
+    "question": {
+        "en": "Have you vaped marijuana oils or concentrates, such as THC, hash or BHO oil, in a vape pen or vaporizer at any time in the past 6 months?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "no"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "refuse to answer [mypi_mj] = '1' and ([event-name] = 18_month_follow_up_arm_1'' or [event-name] = ''6_month_follow_up_arm_1'') or [mypi_mj_30] = '1' OR [event-name] = '54_month_follow_up_arm_1'''"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

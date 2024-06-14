@@ -1,0 +1,357 @@
+{
+    "id": "ph_p_sds_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Sleep in Physical Health"
+    },
+    "prefLabel": {
+        "en": "Ph_P_Sds"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sleep_dis_select_language___1",
+            "items/sleepdisturb1_p",
+            "items/sleepdisturb2_p",
+            "items/sleepdisturb3_p",
+            "items/sleepdisturb4_p",
+            "items/sleepdisturb5_p",
+            "items/sleepdisturb6_p",
+            "items/sleepdisturb7_p",
+            "items/sleepdisturb8_p",
+            "items/sleepdisturb9_p",
+            "items/sleepdisturb10_p",
+            "items/sleepdisturb11_p",
+            "items/sleepdisturb12_p",
+            "items/sleepdisturb13_p",
+            "items/sleepdisturb14_p",
+            "items/sleepdisturb15_p",
+            "items/sleepdisturb16_p",
+            "items/sleepdisturb17_p",
+            "items/sleepdisturb18_p",
+            "items/sleepdisturb19_p",
+            "items/sleepdisturb20_p",
+            "items/sleepdisturb21_p",
+            "items/sleepdisturb22_p",
+            "items/sleepdisturb23_p",
+            "items/sleepdisturb24_p",
+            "items/sleepdisturb25_p",
+            "items/sleepdisturb26_p",
+            "items/sds_p_ss_dims",
+            "items/sds_p_ss_dims_nm",
+            "items/sds_p_ss_dims_nt",
+            "items/sds_p_ss_sbd",
+            "items/sds_p_ss_sbd_nm",
+            "items/sds_p_ss_sbd_nt",
+            "items/sds_p_ss_da",
+            "items/sds_p_ss_da_nm",
+            "items/sds_p_ss_da_nt",
+            "items/sds_p_ss_swtd",
+            "items/sds_p_ss_swtd_nm",
+            "items/sds_p_ss_swtd_nt",
+            "items/sds_p_ss_does",
+            "items/sds_p_ss_does_nm",
+            "items/sds_p_ss_does_nt",
+            "items/sds_p_ss_shy",
+            "items/sds_p_ss_shy_nm",
+            "items/sds_p_ss_shy_nt",
+            "items/sds_p_ss_total",
+            "items/sds_p_ss_total_nm",
+            "items/sds_p_ss_total_nt"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sleep_dis_select_language___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleep_dis_select_language___1"
+            },
+            {
+                "isAbout": "items/sleepdisturb1_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb1_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb2_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb3_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb3_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb4_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb4_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb5_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb5_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb6_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb6_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb7_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb7_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb8_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb8_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb9_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb9_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb10_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb10_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb11_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb11_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb12_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb12_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb13_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb13_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb14_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb14_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb15_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb15_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb16_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb16_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb17_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb17_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb18_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb18_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb19_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb19_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb20_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb20_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb21_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb21_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb22_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb22_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb23_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb23_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb24_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb24_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb25_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb25_p"
+            },
+            {
+                "isAbout": "items/sleepdisturb26_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleepdisturb26_p"
+            },
+            {
+                "isAbout": "items/sds_p_ss_dims",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_dims"
+            },
+            {
+                "isAbout": "items/sds_p_ss_dims_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_dims_nm"
+            },
+            {
+                "isAbout": "items/sds_p_ss_dims_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_dims_nt"
+            },
+            {
+                "isAbout": "items/sds_p_ss_sbd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_sbd"
+            },
+            {
+                "isAbout": "items/sds_p_ss_sbd_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_sbd_nm"
+            },
+            {
+                "isAbout": "items/sds_p_ss_sbd_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_sbd_nt"
+            },
+            {
+                "isAbout": "items/sds_p_ss_da",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_da"
+            },
+            {
+                "isAbout": "items/sds_p_ss_da_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_da_nm"
+            },
+            {
+                "isAbout": "items/sds_p_ss_da_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_da_nt"
+            },
+            {
+                "isAbout": "items/sds_p_ss_swtd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_swtd"
+            },
+            {
+                "isAbout": "items/sds_p_ss_swtd_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_swtd_nm"
+            },
+            {
+                "isAbout": "items/sds_p_ss_swtd_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_swtd_nt"
+            },
+            {
+                "isAbout": "items/sds_p_ss_does",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_does"
+            },
+            {
+                "isAbout": "items/sds_p_ss_does_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_does_nm"
+            },
+            {
+                "isAbout": "items/sds_p_ss_does_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_does_nt"
+            },
+            {
+                "isAbout": "items/sds_p_ss_shy",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_shy"
+            },
+            {
+                "isAbout": "items/sds_p_ss_shy_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_shy_nm"
+            },
+            {
+                "isAbout": "items/sds_p_ss_shy_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_shy_nt"
+            },
+            {
+                "isAbout": "items/sds_p_ss_total",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_total"
+            },
+            {
+                "isAbout": "items/sds_p_ss_total_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_total_nm"
+            },
+            {
+                "isAbout": "items/sds_p_ss_total_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sds_p_ss_total_nt"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

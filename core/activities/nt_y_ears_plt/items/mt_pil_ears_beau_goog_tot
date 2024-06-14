@@ -1,0 +1,24 @@
+{
+    "id": "mt_pil_ears_beau_goog_tot",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mt_pil_ears_beau_goog_tot of nt_y_ears_plt"
+    },
+    "prefLabel": {
+        "en": "Total duration Google Play Store category: Beauty (minutes)"
+    },
+    "question": {
+        "en": "Total duration Google Play Store category: Beauty (minutes)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

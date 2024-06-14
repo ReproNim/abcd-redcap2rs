@@ -1,0 +1,65 @@
+{
+    "id": "tlfb_6mo_9_concmj",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_6mo_9_concmj of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "What was the typical type of MJ concentrate that you used in the past 6 months"
+    },
+    "question": {
+        "en": "What was the typical type of MJ concentrate that you used in the past 6 months"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Hash"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Kief"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Water hash"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Co2 oil"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "BHO"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

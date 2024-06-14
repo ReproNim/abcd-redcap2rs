@@ -1,0 +1,84 @@
+{
+    "id": "led_l_o3_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Air Pollution in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_O3"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_o3_2016_annavg",
+            "items/reshist_addr2_o3_2016_annavg",
+            "items/reshist_addr3_o3_2016_annavg",
+            "items/reshist_addr1_o3_2016_max",
+            "items/reshist_addr2_o3_2016_max",
+            "items/reshist_addr3_o3_2016_max",
+            "items/reshist_addr1_o3_2016_min",
+            "items/reshist_addr2_o3_2016_min",
+            "items/reshist_addr3_o3_2016_min"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_o3_2016_annavg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_o3_2016_annavg"
+            },
+            {
+                "isAbout": "items/reshist_addr2_o3_2016_annavg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_o3_2016_annavg"
+            },
+            {
+                "isAbout": "items/reshist_addr3_o3_2016_annavg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_o3_2016_annavg"
+            },
+            {
+                "isAbout": "items/reshist_addr1_o3_2016_max",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_o3_2016_max"
+            },
+            {
+                "isAbout": "items/reshist_addr2_o3_2016_max",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_o3_2016_max"
+            },
+            {
+                "isAbout": "items/reshist_addr3_o3_2016_max",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_o3_2016_max"
+            },
+            {
+                "isAbout": "items/reshist_addr1_o3_2016_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_o3_2016_min"
+            },
+            {
+                "isAbout": "items/reshist_addr2_o3_2016_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_o3_2016_min"
+            },
+            {
+                "isAbout": "items/reshist_addr3_o3_2016_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_o3_2016_min"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

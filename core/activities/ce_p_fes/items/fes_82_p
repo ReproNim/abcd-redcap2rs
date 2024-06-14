@@ -1,0 +1,42 @@
+{
+    "id": "fes_82_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fes_82_p of ce_p_fes"
+    },
+    "prefLabel": {
+        "en": "There are a lot of spontaneous discussions in our family.Hay muchas conversaciones espont?neas en nuestra familia."
+    },
+    "question": {
+        "en": "There are a lot of spontaneous discussions in our family.",
+        "es": "Hay muchas conversaciones espont? neas en nuestra familia."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "True /Verdadera"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "False/ Falsa"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

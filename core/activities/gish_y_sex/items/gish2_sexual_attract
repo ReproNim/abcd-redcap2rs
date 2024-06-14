@@ -1,0 +1,77 @@
+{
+    "id": "gish2_sexual_attract",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gish2_sexual_attract of gish_y_sex"
+    },
+    "prefLabel": {
+        "en": "People differ in their sexual attraction to other people. Which best describes your feelings? I am..."
+    },
+    "question": {
+        "en": "People differ in their sexual attraction to other people. Which best describes your feelings? I am. . ."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1, I am attracted only to girls"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "2, I am attracted mostly to girls and a little to boys"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "3, I am attracted equally to girls and boys"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "4, I am attracted mostly to boys and a little to girls"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "5, I am attracted only to boys"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "6, I am not attracted to either boys or girls"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "7, I don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "8, Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

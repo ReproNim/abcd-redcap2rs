@@ -1,0 +1,24 @@
+{
+    "id": "su_des_otob_youth_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_des_otob_youth_p of su_p_dse"
+    },
+    "prefLabel": {
+        "en": "Other tobacco products such as cigars, cigarillos, hookah with tobacco or pipe tobacco  Otros productos de tabaco  como puros  cigarrillos  ho"
+    },
+    "question": {
+        "en": "Other tobacco products such as cigars, cigarillos, hookah with tobacco or pipe tobacco  Otros productos de tabaco  como puros  cigarrillos  ho"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

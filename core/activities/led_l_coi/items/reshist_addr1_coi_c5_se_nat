@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr1_coi_c5_se_nat",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr1_coi_c5_se_nat of led_l_coi"
+    },
+    "prefLabel": {
+        "en": "Child Opportunity Levels, social and economic domain, nationally-normed: Nationally-normed Child Opportunity Levels (from ''very low'' to ''very high'') for the social and economic domain."
+    },
+    "question": {
+        "en": "Child Opportunity Levels, social and economic domain, nationally-normed: Nationally-normed Child Opportunity Levels (from ''very low'' to ''very high'') for the social and economic domain."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

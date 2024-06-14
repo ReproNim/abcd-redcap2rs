@@ -1,0 +1,42 @@
+{
+    "id": "sai_p_sboard_school",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sai_p_sboard_school of ph_p_saiq"
+    },
+    "prefLabel": {
+        "en": "Skiing, Snowboarding: Was any of this activity part of an organized team, group, band, orchestra, chorus, or program at school? \u00c2\u00bfAlguna de estas actividades form\u00c3\u00b3 parte de alg\u00c3\u00ban equipo, grupo, banda, orquesta, coro, o programa organizado en la escuela?"
+    },
+    "question": {
+        "en": "Skiing, Snowboarding: Was any of this activity part of an organized team, group, band, orchestra, chorus, or program at school?",
+        "es": "\u00c2\u00bfAlguna de estas actividades form\u00c3\u00b3 parte de alg\u00c3\u00ban equipo, grupo, banda, orquesta, coro, o programa organizado en la escuela?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

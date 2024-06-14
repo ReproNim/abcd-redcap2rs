@@ -1,0 +1,25 @@
+{
+    "id": "su_des_pr_no_presc_adult_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_des_pr_no_presc_adult_p of su_p_dse"
+    },
+    "prefLabel": {
+        "en": "Prescription pain relievers such as Vicodin, Lortab, Norco, Hydrocodone, Oxycontin or Percocet, which were NOT prescribed to the person by a doctor? Analgesicos recetados como Vicodin  Lortab  Norco  hidrocodona  Oxycontin o Percocet  que NO fueron recetados a la persona por un medico?"
+    },
+    "question": {
+        "en": "Prescription pain relievers such as Vicodin, Lortab, Norco, Hydrocodone, Oxycontin or Percocet, which were NOT prescribed to the person by a doctor?",
+        "es": "Analgesicos recetados como Vicodin  Lortab  Norco  hidrocodona  Oxycontin o Percocet  que NO fueron recetados a la persona por un medico?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

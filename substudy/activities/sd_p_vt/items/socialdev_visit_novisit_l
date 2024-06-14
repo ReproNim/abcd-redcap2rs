@@ -1,0 +1,53 @@
+{
+    "id": "socialdev_visit_novisit_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_visit_novisit_l of sd_p_vt"
+    },
+    "prefLabel": {
+        "en": "If this visit will not be completed, indicate the most appropriate reason, when known:"
+    },
+    "question": {
+        "en": "If this visit will not be completed, indicate the most appropriate reason, when known:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Can't schedule"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Declined this year"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Opted out of SD only"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Ineligible quit ABCD"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

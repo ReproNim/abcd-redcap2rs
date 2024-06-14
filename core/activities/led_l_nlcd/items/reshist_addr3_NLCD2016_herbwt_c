@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr3_NLCD2016_herbwt_c",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr3_NLCD2016_herbwt_c of led_l_nlcd"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - Percent of county classified as Emergent Herbaceous Wetland; NLCD 2016 estimates (addr3)"
+    },
+    "question": {
+        "en": "Residential history derived - Percent of county classified as Emergent Herbaceous Wetland; NLCD 2016 estimates (addr3)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

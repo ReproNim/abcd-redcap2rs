@@ -1,0 +1,35 @@
+{
+    "id": "mctq_sjl_calc",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mctq_sjl_calc of ph_y_mctq"
+    },
+    "prefLabel": {
+        "en": "Absolute social jetlag"
+    },
+    "question": {
+        "en": "Absolute social jetlag"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "abs([mctq_msf_calc]-[mctq_msw_calc])) , abs([mctq_msf_calc]-[mctq_msw_calc])), 4)"
+                },
+                "value": 24
+            }
+        ],
+        "maxValue": 24,
+        "minValue": 24,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

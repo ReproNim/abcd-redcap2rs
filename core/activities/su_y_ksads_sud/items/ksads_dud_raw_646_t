@@ -1,0 +1,59 @@
+{
+    "id": "ksads_dud_raw_646_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dud_raw_646_t of su_y_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "In the past two weeks, how often did you wake up  feeling sick (nausea, headache, tired, anxious, sad, dizzy, a lot of sweating, stomach ache) or missed school or work because of using the drug or drugs listed below the night before?Sedatives/Hypnotics/Anxiolytics (Barbiturates (sedatives, downers), Benzodiazepine, Quaalude (ludes), Valium, lLibrium,  Xanax, ketamine, GHB)"
+    },
+    "question": {
+        "en": "In the past two weeks, how often did you wake up  feeling sick (nausea, headache, tired, anxious, sad, dizzy, a lot of sweating, stomach ache) or missed school or work because of using the drug or drugs listed below the night before? Sedatives Hypnotics Anxiolytics (Barbiturates (sedatives, downers), Benzodiazepine, Quaalude (ludes), Valium, lLibrium,  Xanax, ketamine, GHB)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Several days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "More than half the days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Nearly every day"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

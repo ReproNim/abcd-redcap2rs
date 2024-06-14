@@ -1,0 +1,41 @@
+{
+    "id": "neurocog_reading___1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "neurocog_reading___1 of nc_y_nihtb"
+    },
+    "prefLabel": {
+        "en": "Method of Oral Reading Recognition administration [Check all that apply]: 1, Audio"
+    },
+    "question": {
+        "en": "Method of Oral Reading Recognition administration [Check all that apply]: 1, Audio"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No [sched_hybrid] = '1'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "ptu_p_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ptu_p_y of su_y_peertoler"
+    },
+    "prefLabel": {
+        "en": "How do you think your CLOSE FRIENDS feel (or would feel) about YOU doing each of the following things?\nTrying other drugs like cocaine, heroin, or methamphetamine"
+    },
+    "question": {
+        "en": "How do you think your CLOSE FRIENDS feel (or would feel) about YOU doing each of the following things? Trying other drugs like cocaine, heroin, or methamphetamine"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not Disapprove"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Disapprove"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Strongly Disapprove"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't Know / tlfb_list_l___1   == '1' ||  tlfb_list_l___2   == '1' ||  tlfb_list_l___3   == '1' ||   tlfb_list_l___4   == '1' ||  tlfb_list_l___5   == '1' ||  tlfb_list_l___6   == '1' ||  tlfb_list_l___7   == '1' ||  tlfb_list_l___8   == '1' ||   tlfb_list_l___9   == '1' ||  tlfb_list_l___10   == '1' ||  tlfb_list_l___11   == '1' ||  tlfb_list_l___12   == '1'"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

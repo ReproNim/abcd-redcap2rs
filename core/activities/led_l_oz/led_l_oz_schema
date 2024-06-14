@@ -1,0 +1,63 @@
+{
+    "id": "led_l_oz_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Neighborhood Social Factors in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Oz"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_oz_designation",
+            "items/reshist_addr1_oz_invest_decile",
+            "items/reshist_addr2_oz_designation",
+            "items/reshist_addr2_oz_invest_decile",
+            "items/reshist_addr3_oz_designation",
+            "items/reshist_addr3_oz_invest_decile"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_oz_designation",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_oz_designation"
+            },
+            {
+                "isAbout": "items/reshist_addr1_oz_invest_decile",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_oz_invest_decile"
+            },
+            {
+                "isAbout": "items/reshist_addr2_oz_designation",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_oz_designation"
+            },
+            {
+                "isAbout": "items/reshist_addr2_oz_invest_decile",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_oz_invest_decile"
+            },
+            {
+                "isAbout": "items/reshist_addr3_oz_designation",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_oz_designation"
+            },
+            {
+                "isAbout": "items/reshist_addr3_oz_invest_decile",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_oz_invest_decile"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

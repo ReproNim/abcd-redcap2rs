@@ -1,0 +1,24 @@
+{
+    "id": "mctq_slossweek_calc",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mctq_slossweek_calc of ph_y_mctq"
+    },
+    "prefLabel": {
+        "en": "Weekly sleep loss"
+    },
+    "question": {
+        "en": "Weekly sleep loss"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

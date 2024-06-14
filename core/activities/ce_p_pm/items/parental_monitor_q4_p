@@ -1,0 +1,66 @@
+{
+    "id": "parental_monitor_q4_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "parental_monitor_q4_p of ce_p_pm"
+    },
+    "prefLabel": {
+        "en": "Do you know what your child spends his/her money on? / \u00bfSabe en qu\u00e9 gasta su ni\u00f1o(a) su dinero?"
+    },
+    "question": {
+        "en": "Do you know what your child spends his her money on?",
+        "es": "\u00bfSabe en qu\u00e9 gasta su ni\u00f1o(a) su dinero?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Almost always / Casi siempre"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Most of the time / La mayor parte del tiempo"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "It varies / Var\u00eda"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Seldom / Casi nunca"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Never / Nunca"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Decline to answer / Me niego a contestar"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

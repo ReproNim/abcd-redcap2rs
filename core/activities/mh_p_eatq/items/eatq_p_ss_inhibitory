@@ -1,0 +1,24 @@
+{
+    "id": "eatq_p_ss_inhibitory",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "eatq_p_ss_inhibitory of mh_p_eatq"
+    },
+    "prefLabel": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent inhibitory mean(eatq_phenx_turn_taking_p, eatq_phenx_open_present_p, eatq_phenx_impulse_p, eatq_phenx_laugh_control_p, eatq_phenx_stick_to_plan_p)"
+    },
+    "question": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent inhibitory mean(eatq_phenx_turn_taking_p, eatq_phenx_open_present_p, eatq_phenx_impulse_p, eatq_phenx_laugh_control_p, eatq_phenx_stick_to_plan_p)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

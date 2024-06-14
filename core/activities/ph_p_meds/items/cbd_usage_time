@@ -1,0 +1,60 @@
+{
+    "id": "cbd_usage_time",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "cbd_usage_time of ph_p_meds"
+    },
+    "prefLabel": {
+        "en": "During the past year, how often did h/she use CBD products?  En el ?ltimo a?o, /Qu? tan seguido su hija/o uso productos de CBD?"
+    },
+    "question": {
+        "en": "During the past year, how often did h she use CBD products? ltimo a? o, Qu?",
+        "es": "En el ? tan seguido su hija o uso productos de CBD?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Every day or nearly daily / Todos los d?as o casi diariamente"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A few times a week / Unas cuantas veces por semana"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3-4 times a month/ 3-4 veces al mes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "12-24 times a year/ 12-24 veces al a?o| 5=1-11 times a year/1-11 veces al a?o"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't know / No se"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

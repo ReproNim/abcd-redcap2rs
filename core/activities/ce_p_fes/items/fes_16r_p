@@ -1,0 +1,42 @@
+{
+    "id": "fes_16r_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fes_16r_p of ce_p_fes"
+    },
+    "prefLabel": {
+        "en": "We rarely go to lectures, plays, or concerts.Rara vez vamos a conferencias, obras de teatro o conciertos."
+    },
+    "question": {
+        "en": "We rarely go to lectures, plays, or concerts.",
+        "es": "Rara vez vamos a conferencias, obras de teatro o conciertos."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "True /Verdadera"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "False/ Falsa"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

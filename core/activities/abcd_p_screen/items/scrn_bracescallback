@@ -1,0 +1,41 @@
+{
+    "id": "scrn_bracescallback",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_bracescallback of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "If metal braces will be removed before end of enrollment period, mark to Yes call back. If metal braces will not be removed before end of enrollment period, permanent metal retainer, or metal dental implant that is clearly contraindication, mark No call back. If parent is unsure, ask for their best guess, mark to Yes call back."
+    },
+    "question": {
+        "en": "If metal braces will be removed before end of enrollment period, mark to Yes call back. If metal braces will not be removed before end of enrollment period, permanent metal retainer, or metal dental implant that is clearly contraindication, mark No call back. If parent is unsure, ask for their best guess, mark to Yes call back."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes - Need to Call Back"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No Call Back - GO TO END"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

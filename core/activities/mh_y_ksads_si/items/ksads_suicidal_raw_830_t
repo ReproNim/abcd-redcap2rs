@@ -1,0 +1,41 @@
+{
+    "id": "ksads_suicidal_raw_830_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_suicidal_raw_830_t of mh_y_ksads_si"
+    },
+    "prefLabel": {
+        "en": "In the past two weeks, did you make a suicide attempt and do something to try to kill yourself?"
+    },
+    "question": {
+        "en": "In the past two weeks, did you make a suicide attempt and do something to try to kill yourself?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

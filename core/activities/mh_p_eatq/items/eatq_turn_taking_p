@@ -1,0 +1,60 @@
+{
+    "id": "eatq_turn_taking_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "eatq_turn_taking_p of mh_p_eatq"
+    },
+    "prefLabel": {
+        "en": "Has a hard time waiting his/her turn to speak when excited. / Se le dificulta esperar su turno para hablar cuando est__ emocionado/a."
+    },
+    "question": {
+        "en": "Has a hard time waiting his her turn to speak when excited. a.",
+        "es": "Se le dificulta esperar su turno para hablar cuando est__ emocionado"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Almost always untrue / Casi siempre falso"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Usually untrue / Por lo general falso"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Sometimes true sometimes untrue / Algunas veces verdadero algunas veces falso"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Usually true / Por lo general verdadero"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Almost always true / Casi siempre verdadero"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

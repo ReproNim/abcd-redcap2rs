@@ -1,0 +1,53 @@
+{
+    "id": "socialdev_pvict_int2_h_knew_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_pvict_int2_h_knew_l of sd_p_vict"
+    },
+    "prefLabel": {
+        "en": "Was this someone you knew in person before this happened?"
+    },
+    "question": {
+        "en": "Was this someone you knew in person before this happened?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 98
+            },
+            {
+                "name": {
+                    "en": "I'd rather not say [socialdev_pvict_int2_l]= '1' AND [socialdev_pvict_int2_h_know_l]='1'"
+                },
+                "value": 99
+            }
+        ],
+        "maxValue": 99,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

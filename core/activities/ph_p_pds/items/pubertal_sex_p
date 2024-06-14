@@ -1,0 +1,42 @@
+{
+    "id": "pubertal_sex_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pubertal_sex_p of ph_p_pds"
+    },
+    "prefLabel": {
+        "en": "What sex was your child assigned at birth? \u00bfQu\u00e9 sexo le fue asignado a su ni\u00f1o(a) al nacer?"
+    },
+    "question": {
+        "en": "What sex was your child assigned at birth?",
+        "es": "\u00bfQu\u00e9 sexo le fue asignado a su ni\u00f1o(a) al nacer?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Male Masculino"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Female Femenino"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "zyg_ss_t2_hair_dark",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "zyg_ss_t2_hair_dark of gen_y_zygrat"
+    },
+    "prefLabel": {
+        "en": "Hair darkness:"
+    },
+    "question": {
+        "en": "Hair darkness:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "light"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "medium"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "dark"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

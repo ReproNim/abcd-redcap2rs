@@ -1,0 +1,53 @@
+{
+    "id": "diag_confidence_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "diag_confidence_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "How confident are you in this coronavirus diagnosis?"
+    },
+    "question": {
+        "en": "How confident are you in this coronavirus diagnosis?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Certain"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Fairly certain"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Not sure"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I don't think my child had coronavirus[child_covid_cv]='2'"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "ksads_sad_raw_1894_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_sad_raw_1894_p of mh_p_ksads_sad"
+    },
+    "prefLabel": {
+        "en": "How long did your child's feeling anxious in social situations last back then? Please enter weeks, months, or years."
+    },
+    "question": {
+        "en": "How long did your child's feeling anxious in social situations last back then? Please enter weeks, months, or years."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

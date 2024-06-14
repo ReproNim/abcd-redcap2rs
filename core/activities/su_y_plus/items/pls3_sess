@@ -1,0 +1,59 @@
+{
+    "id": "pls3_sess",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pls3_sess of su_y_plus"
+    },
+    "prefLabel": {
+        "en": "Administrator: have participant complete right before the final NP or MRI session. Which session was this given at?"
+    },
+    "question": {
+        "en": "Administrator: have participant complete right before the final NP or MRI session. Which session was this given at?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "NP Session 1"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "NP Session 2"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "MRI Session 1"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "MRI Session 2"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

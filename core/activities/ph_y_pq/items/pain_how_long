@@ -1,0 +1,53 @@
+{
+    "id": "pain_how_long",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pain_how_long of ph_y_pq"
+    },
+    "prefLabel": {
+        "en": "How long do your aches or pains usually last?"
+    },
+    "question": {
+        "en": "How long do your aches or pains usually last?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than 1 hour"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A few hours"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Half of the day"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "All day"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

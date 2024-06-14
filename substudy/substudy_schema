@@ -1,0 +1,203 @@
+{
+    "id": "substudy_schema",
+    "category": "reproschema:Protocol",
+    "altLabel": {
+        "en": "substudy_schema"
+    },
+    "description": {
+        "en": "This protocol is about substudy in the Adolescent Brain Cognitive Development (ABCD) Study"
+    },
+    "prefLabel": {
+        "en": "Substudy"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "../activities/cvd_p_qtn/cvd_p_qtn_schema",
+            "../activities/cvd_y_qtn/cvd_y_qtn_schema",
+            "../activities/cvd_y_fitb_qtn/cvd_y_fitb_qtn_schema",
+            "../activities/cvd_y_fitb_act_d/cvd_y_fitb_act_d_schema",
+            "../activities/cvd_y_fitb_act_w/cvd_y_fitb_act_w_schema",
+            "../activities/cvd_y_fitb_slp_d/cvd_y_fitb_slp_d_schema",
+            "../activities/cvd_y_fitb_slp_w/cvd_y_fitb_slp_w_schema",
+            "../activities/cvd_l_geo_adm/cvd_l_geo_adm_schema",
+            "../activities/cvd_l_geo_policy/cvd_l_geo_policy_schema",
+            "../activities/cvd_l_geo_jhu/cvd_l_geo_jhu_schema",
+            "../activities/cvd_l_geo_sg/cvd_l_geo_sg_schema",
+            "../activities/cvd_l_geo_bls/cvd_l_geo_bls_schema",
+            "../activities/ecb_y_ecb/ecb_y_ecb_schema",
+            "../activities/sd_p_apq/sd_p_apq_schema",
+            "../activities/sd_p_ders/sd_p_ders_schema",
+            "../activities/sd_p_fa/sd_p_fa_schema",
+            "../activities/sd_p_nbh/sd_p_nbh_schema",
+            "../activities/sd_p_pd/sd_p_pd_schema",
+            "../activities/sd_p_rd/sd_p_rd_schema",
+            "../activities/sd_p_vict/sd_p_vict_schema",
+            "../activities/sd_p_vt/sd_p_vt_schema",
+            "../activities/sd_y_apq/sd_y_apq_schema",
+            "../activities/sd_y_ders/sd_y_ders_schema",
+            "../activities/sd_y_fa/sd_y_fa_schema",
+            "../activities/sd_y_pb/sd_y_pb_schema",
+            "../activities/sd_y_pd/sd_y_pd_schema",
+            "../activities/sd_y_rd/sd_y_rd_schema",
+            "../activities/sd_y_vict/sd_y_vict_schema",
+            "../activities/irma_p_qtn/irma_p_qtn_schema",
+            "../activities/irma_y_qtn/irma_y_qtn_schema"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "../activities/cvd_p_qtn/cvd_p_qtn_schema",
+                "isVis": true,
+                "variableName": "cvd_p_qtn_schema"
+            },
+            {
+                "isAbout": "../activities/cvd_y_qtn/cvd_y_qtn_schema",
+                "isVis": true,
+                "variableName": "cvd_y_qtn_schema"
+            },
+            {
+                "isAbout": "../activities/cvd_y_fitb_qtn/cvd_y_fitb_qtn_schema",
+                "isVis": true,
+                "variableName": "cvd_y_fitb_qtn_schema"
+            },
+            {
+                "isAbout": "../activities/cvd_y_fitb_act_d/cvd_y_fitb_act_d_schema",
+                "isVis": true,
+                "variableName": "cvd_y_fitb_act_d_schema"
+            },
+            {
+                "isAbout": "../activities/cvd_y_fitb_act_w/cvd_y_fitb_act_w_schema",
+                "isVis": true,
+                "variableName": "cvd_y_fitb_act_w_schema"
+            },
+            {
+                "isAbout": "../activities/cvd_y_fitb_slp_d/cvd_y_fitb_slp_d_schema",
+                "isVis": true,
+                "variableName": "cvd_y_fitb_slp_d_schema"
+            },
+            {
+                "isAbout": "../activities/cvd_y_fitb_slp_w/cvd_y_fitb_slp_w_schema",
+                "isVis": true,
+                "variableName": "cvd_y_fitb_slp_w_schema"
+            },
+            {
+                "isAbout": "../activities/cvd_l_geo_adm/cvd_l_geo_adm_schema",
+                "isVis": true,
+                "variableName": "cvd_l_geo_adm_schema"
+            },
+            {
+                "isAbout": "../activities/cvd_l_geo_policy/cvd_l_geo_policy_schema",
+                "isVis": true,
+                "variableName": "cvd_l_geo_policy_schema"
+            },
+            {
+                "isAbout": "../activities/cvd_l_geo_jhu/cvd_l_geo_jhu_schema",
+                "isVis": true,
+                "variableName": "cvd_l_geo_jhu_schema"
+            },
+            {
+                "isAbout": "../activities/cvd_l_geo_sg/cvd_l_geo_sg_schema",
+                "isVis": true,
+                "variableName": "cvd_l_geo_sg_schema"
+            },
+            {
+                "isAbout": "../activities/cvd_l_geo_bls/cvd_l_geo_bls_schema",
+                "isVis": true,
+                "variableName": "cvd_l_geo_bls_schema"
+            },
+            {
+                "isAbout": "../activities/ecb_y_ecb/ecb_y_ecb_schema",
+                "isVis": true,
+                "variableName": "ecb_y_ecb_schema"
+            },
+            {
+                "isAbout": "../activities/sd_p_apq/sd_p_apq_schema",
+                "isVis": true,
+                "variableName": "sd_p_apq_schema"
+            },
+            {
+                "isAbout": "../activities/sd_p_ders/sd_p_ders_schema",
+                "isVis": true,
+                "variableName": "sd_p_ders_schema"
+            },
+            {
+                "isAbout": "../activities/sd_p_fa/sd_p_fa_schema",
+                "isVis": true,
+                "variableName": "sd_p_fa_schema"
+            },
+            {
+                "isAbout": "../activities/sd_p_nbh/sd_p_nbh_schema",
+                "isVis": true,
+                "variableName": "sd_p_nbh_schema"
+            },
+            {
+                "isAbout": "../activities/sd_p_pd/sd_p_pd_schema",
+                "isVis": true,
+                "variableName": "sd_p_pd_schema"
+            },
+            {
+                "isAbout": "../activities/sd_p_rd/sd_p_rd_schema",
+                "isVis": true,
+                "variableName": "sd_p_rd_schema"
+            },
+            {
+                "isAbout": "../activities/sd_p_vict/sd_p_vict_schema",
+                "isVis": true,
+                "variableName": "sd_p_vict_schema"
+            },
+            {
+                "isAbout": "../activities/sd_p_vt/sd_p_vt_schema",
+                "isVis": true,
+                "variableName": "sd_p_vt_schema"
+            },
+            {
+                "isAbout": "../activities/sd_y_apq/sd_y_apq_schema",
+                "isVis": true,
+                "variableName": "sd_y_apq_schema"
+            },
+            {
+                "isAbout": "../activities/sd_y_ders/sd_y_ders_schema",
+                "isVis": true,
+                "variableName": "sd_y_ders_schema"
+            },
+            {
+                "isAbout": "../activities/sd_y_fa/sd_y_fa_schema",
+                "isVis": true,
+                "variableName": "sd_y_fa_schema"
+            },
+            {
+                "isAbout": "../activities/sd_y_pb/sd_y_pb_schema",
+                "isVis": true,
+                "variableName": "sd_y_pb_schema"
+            },
+            {
+                "isAbout": "../activities/sd_y_pd/sd_y_pd_schema",
+                "isVis": true,
+                "variableName": "sd_y_pd_schema"
+            },
+            {
+                "isAbout": "../activities/sd_y_rd/sd_y_rd_schema",
+                "isVis": true,
+                "variableName": "sd_y_rd_schema"
+            },
+            {
+                "isAbout": "../activities/sd_y_vict/sd_y_vict_schema",
+                "isVis": true,
+                "variableName": "sd_y_vict_schema"
+            },
+            {
+                "isAbout": "../activities/irma_p_qtn/irma_p_qtn_schema",
+                "isVis": true,
+                "variableName": "irma_p_qtn_schema"
+            },
+            {
+                "isAbout": "../activities/irma_y_qtn/irma_y_qtn_schema",
+                "isVis": true,
+                "variableName": "irma_y_qtn_schema"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

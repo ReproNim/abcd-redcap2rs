@@ -1,0 +1,24 @@
+{
+    "id": "fitbo_wear_survey_date",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fitbo_wear_survey_date of cvd_y_fitb_qtn"
+    },
+    "prefLabel": {
+        "en": "fitbo_wear survey complete date"
+    },
+    "question": {
+        "en": "fitbo_wear survey complete date"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "date"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

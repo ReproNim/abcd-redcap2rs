@@ -1,0 +1,54 @@
+{
+    "id": "kbi_p_c_det_susp",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_p_c_det_susp of mh_p_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "In the past year, has you/your child had any detentions or suspensions? En el \u00faltimo a\u00f1o?/  \u00bfsu ni\u00f1o(a) ha tenido alguna detenci\u00f3n o suspensi\u00f3n en la escuela?"
+    },
+    "question": {
+        "en": "In the past year, has you your child had any detentions or suspensions?",
+        "es": "En el \u00faltimo a\u00f1o? \u00bfsu ni\u00f1o(a) ha tenido alguna detenci\u00f3n o suspensi\u00f3n en la escuela?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Not sure"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

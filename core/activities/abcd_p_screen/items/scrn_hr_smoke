@@ -1,0 +1,42 @@
+{
+    "id": "scrn_hr_smoke",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_hr_smoke of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Finally, one last question about you and your family. In the past six months, has anyone who lives with your child (e.g., you, a spouse or partner) smoked a cigarette, e-cigarette, or used any other type of tobacco? \n Para terminar, le har\u221a\u00a9 una \u221a\u222bltima pregunta acerca de usted y su familia. En los \u221a\u222bltimos seis meses, \u00ac\u00f8alguna persona que viva con su hijo (p.\u00ac\u2020ej., usted, un c\u221a\u2265nyuge o una pareja) ha fumado un cigarrillo o un cigarrillo electr\u221a\u2265nico, o ha consumido cualquier otro tipo de tabaco?"
+    },
+    "question": {
+        "en": "Finally, one last question about you and your family. In the past six months, has anyone who lives with your child (e. g. , you, a spouse or partner) smoked a cigarette, e-cigarette, or used any other type of tobacco? \u00ac\u2020ej.",
+        "es": "Para terminar, le har\u221a\u00a9 una \u221a\u222bltima pregunta acerca de usted y su familia. En los \u221a\u222bltimos seis meses, \u00ac\u00f8alguna persona que viva con su hijo (p. , usted, un c\u221a\u2265nyuge o una pareja) ha fumado un cigarrillo o un cigarrillo electr\u221a\u2265nico, o ha consumido cualquier otro tipo de tabaco?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

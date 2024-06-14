@@ -1,0 +1,42 @@
+{
+    "id": "scrn_asd_regclasses",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_asd_regclasses of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Is your child attending all regular classes at school? /\u00ac\u00f8Todas las clases a las que asiste su ni\u221a\u00b1o(a) en la escuela son regulares?"
+    },
+    "question": {
+        "en": "Is your child attending all regular classes at school?",
+        "es": "\u00ac\u00f8Todas las clases a las que asiste su ni\u221a\u00b1o(a) en la escuela son regulares?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No - GO TO END"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

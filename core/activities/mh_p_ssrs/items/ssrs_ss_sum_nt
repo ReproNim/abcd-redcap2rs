@@ -1,0 +1,24 @@
+{
+    "id": "ssrs_ss_sum_nt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ssrs_ss_sum_nt of mh_p_ssrs"
+    },
+    "prefLabel": {
+        "en": "SSRS \nSum: Number Total Questions"
+    },
+    "question": {
+        "en": "SSRS \nSum: Number Total Questions"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

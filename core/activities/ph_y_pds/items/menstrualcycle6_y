@@ -1,0 +1,59 @@
+{
+    "id": "menstrualcycle6_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "menstrualcycle6_y of ph_y_pds"
+    },
+    "prefLabel": {
+        "en": "Do your premenstrual symptoms interfere with your/her relationships with family and friends, productivity, and/or social life activities?"
+    },
+    "question": {
+        "en": "Do your premenstrual symptoms interfere with your her relationships with family and friends, productivity, and or social life activities?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mild"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Moderate"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Severe"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Decline to answer; The following questions are about the history of your menstrual cycle. If you do not remember specific details, just try to answer as best you can."
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "sai_p_boxing_comp",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sai_p_boxing_comp of ph_p_saiq"
+    },
+    "prefLabel": {
+        "en": "Boxing  Does your child take part in this activity recreationally or competitively?"
+    },
+    "question": {
+        "en": "Boxing  Does your child take part in this activity recreationally or competitively?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Recreationally"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Competitively"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Don't Know [sai_p_yr_3_activities(31)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

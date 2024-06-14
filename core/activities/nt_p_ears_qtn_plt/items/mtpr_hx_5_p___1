@@ -1,0 +1,41 @@
+{
+    "id": "mtpr_hx_5_p___1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mtpr_hx_5_p___1 of nt_p_ears_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "Select which types of apps are restricted: Gaming"
+    },
+    "question": {
+        "en": "Select which types of apps are restricted: Gaming"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

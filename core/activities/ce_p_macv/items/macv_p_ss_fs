@@ -1,0 +1,25 @@
+{
+    "id": "macv_p_ss_fs",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "macv_p_ss_fs of ce_p_macv"
+    },
+    "prefLabel": {
+        "en": "MACVS Family Support Subscale"
+    },
+    "question": {
+        "en": "Calculated value"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

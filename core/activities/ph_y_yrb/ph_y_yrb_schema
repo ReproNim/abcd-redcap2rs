@@ -1,0 +1,49 @@
+{
+    "id": "ph_y_yrb_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Physical Activity in Physical Health"
+    },
+    "prefLabel": {
+        "en": "Ph_Y_Yrb"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/physical_activity1_y",
+            "items/physical_activity2_y",
+            "items/physical_activity5_y",
+            "items/physical_activity_admin"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/physical_activity1_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "physical_activity1_y"
+            },
+            {
+                "isAbout": "items/physical_activity2_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "physical_activity2_y"
+            },
+            {
+                "isAbout": "items/physical_activity5_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "physical_activity5_y"
+            },
+            {
+                "isAbout": "items/physical_activity_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "physical_activity_admin"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

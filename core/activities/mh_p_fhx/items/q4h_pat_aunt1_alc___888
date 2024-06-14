@@ -1,0 +1,41 @@
+{
+    "id": "q4h_pat_aunt1_alc___888",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "q4h_pat_aunt1_alc___888 of mh_p_fhx"
+    },
+    "prefLabel": {
+        "en": "paternal aunt T??a paterna  (1) (Not Asked)"
+    },
+    "question": {
+        "en": "paternal aunt T? ? a paterna  (1) (Not Asked)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes /  famhx_1   == 1 &&  famhx_4_p   == 1 &&  famhx_2b_p  > 0"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

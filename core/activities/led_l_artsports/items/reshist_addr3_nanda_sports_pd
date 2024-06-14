@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr3_nanda_sports_pd",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr3_nanda_sports_pd of led_l_artsports"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - Number of all spectator sports organizations per 1000 people, census tract; NaNDA (addr3)"
+    },
+    "question": {
+        "en": "Residential history derived - Number of all spectator sports organizations per 1000 people, census tract; NaNDA (addr3)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

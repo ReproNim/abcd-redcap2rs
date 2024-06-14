@@ -1,0 +1,41 @@
+{
+    "id": "ksads_bd_raw_947_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_bd_raw_947_p of mh_p_ksads_bp"
+    },
+    "prefLabel": {
+        "en": "Did the agitation get worse when your child was extra happy or extra cranky?"
+    },
+    "question": {
+        "en": "Did the agitation get worse when your child was extra happy or extra cranky?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

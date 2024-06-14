@@ -1,0 +1,54 @@
+{
+    "id": "child_diagnosis_cv_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "child_diagnosis_cv_p of ph_p_covid"
+    },
+    "prefLabel": {
+        "en": "How was s/he diagnosed? / \u00bfC\u00f3mo fue diagnosticado(a)?"
+    },
+    "question": {
+        "en": "How was s he diagnosed?",
+        "es": "\u00bfC\u00f3mo fue diagnosticado(a)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "By a healthcare worker in person / Por un trabajador de salud en persona"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "By a healthcare worker via tele-medicine / Por un trabajador de salud a trav\u00e9s de la telemedicina"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "By a healthcare worker via telephone or email / Por un trabajador de la salud por tel\u00e9fono o correo electr\u00f3nico"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "By a positive COVID-19 viral test / Por un resultado positivo a la prueba del virus COVID-19"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

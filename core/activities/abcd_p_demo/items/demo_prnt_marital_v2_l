@@ -1,0 +1,72 @@
+{
+    "id": "demo_prnt_marital_v2_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_prnt_marital_v2_l of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "Are you now married, widowed, divorced, separated, never married or living with a partner? \u00ac\u00f8Usted actualmente est\u221a\u00b0 casado(a), viudo(a), divorciado(a), separado(a), nunca se ha casado(a) o vive con una pareja?"
+    },
+    "question": {
+        "en": "Are you now married, widowed, divorced, separated, never married or living with a partner?",
+        "es": "\u00ac\u00f8Usted actualmente est\u221a\u00b0 casado(a), viudo(a), divorciado(a), separado(a), nunca se ha casado(a) o vive con una pareja?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Married Casado(a)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Widowed Viudo(a)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Divorced Divorciado(a)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Separated Separado(a)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Never married Nunca me he casado"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Living with partner Vivo con una pareja"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Refused to answer Prefiero no responder"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

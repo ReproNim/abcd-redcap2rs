@@ -1,0 +1,25 @@
+{
+    "id": "devhx_9_alcohol_effects",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_9_alcohol_effects of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "Knowing of pregnancy. How many drinks did it take to feel the effects of alcohol?/ \u00bfCu\u00e1ntas bebidas tomaba para sentir los efectos del alcohol?"
+    },
+    "question": {
+        "en": "Knowing of pregnancy. How many drinks did it take to feel the effects of alcohol?",
+        "es": "\u00bfCu\u00e1ntas bebidas tomaba para sentir los efectos del alcohol?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

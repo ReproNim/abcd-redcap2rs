@@ -1,0 +1,59 @@
+{
+    "id": "ksads_dmdd_raw_962_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dmdd_raw_962_p of mh_p_ksads_dmdd"
+    },
+    "prefLabel": {
+        "en": "How many temper outbursts does your child typically have per week?"
+    },
+    "question": {
+        "en": "How many temper outbursts does your child typically have per week?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Zero"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "One"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Two"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Three"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Four or more"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

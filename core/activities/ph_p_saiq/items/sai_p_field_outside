@@ -1,0 +1,41 @@
+{
+    "id": "sai_p_field_outside",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sai_p_field_outside of ph_p_saiq"
+    },
+    "prefLabel": {
+        "en": "Field events (e.g. shot, discuss, high jump, javelin etc): Was any of this activity part of an organized team, group, band, orchestra, chorus, or program outside of school?"
+    },
+    "question": {
+        "en": "Field events (e. g. shot, discuss, high jump, javelin etc): Was any of this activity part of an organized team, group, band, orchestra, chorus, or program outside of school?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No [sai_p_yr_3_activities(35)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

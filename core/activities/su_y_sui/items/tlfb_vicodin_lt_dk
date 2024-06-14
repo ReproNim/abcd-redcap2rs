@@ -1,0 +1,35 @@
+{
+    "id": "tlfb_vicodin_lt_dk",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_vicodin_lt_dk of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "PILLS of PRESCRIPTION PAIN RELIEVERS such as Vicodin, Lortab, Norco, Hydrocodone, Oxycontin, or Percocet (that you used in a way a doctor did not direct you to use them):Don't know"
+    },
+    "question": {
+        "en": "PILLS of PRESCRIPTION PAIN RELIEVERS such as Vicodin, Lortab, Norco, Hydrocodone, Oxycontin, or Percocet (that you used in a way a doctor did not direct you to use them):Don't know"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 999,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

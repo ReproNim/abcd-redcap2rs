@@ -1,0 +1,24 @@
+{
+    "id": "tlfb_amp_lt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_amp_lt of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "How many PILLS of stimulant drugs such as AMPHETAMINE, Ritalin, Adderall, or Ephedrine did you use, OTHER than when a doctor had you use them, in your life? (# of pills)"
+    },
+    "question": {
+        "en": "How many PILLS of stimulant drugs such as AMPHETAMINE, Ritalin, Adderall, or Ephedrine did you use, OTHER than when a doctor had you use them, in your life? (# of pills)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

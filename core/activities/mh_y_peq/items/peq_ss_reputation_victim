@@ -1,0 +1,24 @@
+{
+    "id": "peq_ss_reputation_victim",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "peq_ss_reputation_victim of mh_y_peq"
+    },
+    "prefLabel": {
+        "en": "Peer Experiences: Reputational Victimization Summary Score; sum(peq_rumor_vic, peq_gossip_vic, peq_loser_vic); Validation: All items must be answered"
+    },
+    "question": {
+        "en": "Peer Experiences: Reputational Victimization Summary Score; sum(peq_rumor_vic, peq_gossip_vic, peq_loser_vic); Validation: All items must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

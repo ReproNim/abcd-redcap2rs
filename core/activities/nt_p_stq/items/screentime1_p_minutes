@@ -1,0 +1,25 @@
+{
+    "id": "screentime1_p_minutes",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screentime1_p_minutes of nt_p_stq"
+    },
+    "prefLabel": {
+        "en": "On a typical WEEKDAY, how much TIME does your child spend on a computer, cellphone, tablet, or other electronic device?/ En un D\u00cdA DE SEMANA t\u00edpico , \u00bfcu\u00e1nto TIEMPO pasa su ni\u00f1o(a) usando una computadora, un tel\u00e9fono celular, una tableta u otro dispositivo electr\u00f3nico? Minutes/ Minutos"
+    },
+    "question": {
+        "en": "On a typical WEEKDAY, how much TIME does your child spend on a computer, cellphone, tablet, or other electronic device? Minutes Minutos",
+        "es": "En un D\u00cdA DE SEMANA t\u00edpico , \u00bfcu\u00e1nto TIEMPO pasa su ni\u00f1o(a) usando una computadora, un tel\u00e9fono celular, una tableta u otro dispositivo electr\u00f3nico?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

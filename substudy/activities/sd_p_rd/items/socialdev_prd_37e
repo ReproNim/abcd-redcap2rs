@@ -1,0 +1,53 @@
+{
+    "id": "socialdev_prd_37e",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_prd_37e of sd_p_rd"
+    },
+    "prefLabel": {
+        "en": "How long was your child away?"
+    },
+    "question": {
+        "en": "How long was your child away?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "30 minutes to two hours"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "2 to 5 hours"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Overnight"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "More than one night"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

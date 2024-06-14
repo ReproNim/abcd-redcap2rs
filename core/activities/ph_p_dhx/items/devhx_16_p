@@ -1,0 +1,24 @@
+{
+    "id": "devhx_16_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_16_p of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "About how many days  in the first 12 months of life, did your child have a fever of 104 degrees or greater?"
+    },
+    "question": {
+        "en": "About how many days  in the first 12 months of life, did your child have a fever of 104 degrees or greater?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

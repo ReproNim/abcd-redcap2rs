@@ -1,0 +1,41 @@
+{
+    "id": "socialdev_cvict_p8_f_13_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_cvict_p8_f_13_l of sd_y_vict"
+    },
+    "prefLabel": {
+        "en": "Any time kids picked on you by chasing, grabbing or forcing you to do things"
+    },
+    "question": {
+        "en": "Any time kids picked on you by chasing, grabbing or forcing you to do things"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No [socialdev_cvict_p8_e_l]= '1' AND [socialdev_cvict_p4_l]= '1'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

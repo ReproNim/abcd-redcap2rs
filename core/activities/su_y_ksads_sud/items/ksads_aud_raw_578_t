@@ -1,0 +1,101 @@
+{
+    "id": "ksads_aud_raw_578_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_aud_raw_578_t of su_y_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "What are your favorite alcoholic beverages to drink? Check all that apply."
+    },
+    "question": {
+        "en": "What are your favorite alcoholic beverages to drink? Check all that apply."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Beer"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Wine"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Vodka"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Gin"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Tequila"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Whiskey"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Rum"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Bourbon"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Scotch"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Mixed drinks"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Don't drink alcohol"
+                },
+                "value": 12
+            }
+        ],
+        "maxValue": 12,
+        "minValue": 1,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

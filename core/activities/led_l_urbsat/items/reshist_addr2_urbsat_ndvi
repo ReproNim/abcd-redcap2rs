@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr2_urbsat_ndvi",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr2_urbsat_ndvi of led_l_urbsat"
+    },
+    "prefLabel": {
+        "en": "Normalized Difference Vegetation Index: (2017) Fraction of pixel area with NDVI index over 0.2 [0 1]"
+    },
+    "question": {
+        "en": "Normalized Difference Vegetation Index: (2017) Fraction of pixel area with NDVI index over 0. 2 [0 1]"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

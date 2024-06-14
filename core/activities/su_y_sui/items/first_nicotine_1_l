@@ -1,0 +1,47 @@
+{
+    "id": "first_nicotine_1_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "first_nicotine_1_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Have you  had a puff of a cigarette, e-cigarette, or vape pen, hookah, cigar or pipe since the last time we saw you?"
+    },
+    "question": {
+        "en": "Have you  had a puff of a cigarette, e-cigarette, or vape pen, hookah, cigar or pipe since the last time we saw you?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No / tlfb_tob_puff_l   == '1' &&  tlfb_tob_puff_c_l   == '0'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

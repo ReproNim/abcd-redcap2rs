@@ -1,0 +1,41 @@
+{
+    "id": "fit_ss_day_min_gt_600",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fit_ss_day_min_gt_600 of nt_y_fitb_act_d"
+    },
+    "prefLabel": {
+        "en": "Does this day have >599 minutes of non-sleep wear after all exclusions"
+    },
+    "question": {
+        "en": "Does this day have >599 minutes of non-sleep wear after all exclusions"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "no"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "yes   Must be yes to be included in weekly aggregation."
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

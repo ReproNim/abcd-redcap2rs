@@ -1,0 +1,53 @@
+{
+    "id": "biospec_urine_collect2_4",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "biospec_urine_collect2_4 of su_y_uri_tox"
+    },
+    "prefLabel": {
+        "en": "Which of the two urine tests was administered?"
+    },
+    "question": {
+        "en": "Which of the two urine tests was administered?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Both"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Only iCup"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Only Reditest Smoke Cassette"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

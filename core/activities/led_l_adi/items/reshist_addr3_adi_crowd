@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr3_adi_crowd",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr3_adi_crowd of led_l_adi"
+    },
+    "prefLabel": {
+        "en": "Residential history derived- Area Deprivation Index: Percentage of occupied housing units with >1 person per room (crowding) 3"
+    },
+    "question": {
+        "en": "Residential history derived- Area Deprivation Index: Percentage of occupied housing units with >1 person per room (crowding) 3"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

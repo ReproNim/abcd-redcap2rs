@@ -1,0 +1,114 @@
+{
+    "id": "sai_p_lmusic_hours_2_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sai_p_lmusic_hours_2_l of ph_p_saiq"
+    },
+    "prefLabel": {
+        "en": "Since we last saw you on [asnt_timestamp_c], about how many hours per week has your child spent listening to music for pleasure?  Desde la ?ltima vez que nos vimos en [asnt_timestamp_c], ?aproximadamente cu?ntas horas por semana pasa su ni?o(a) escuchando m?sica por placer?"
+    },
+    "question": {
+        "en": "Since we last saw you on [asnt_timestamp_c], about how many hours per week has your child spent listening to music for pleasure? aproximadamente cu? ntas horas por semana pasa su ni? o(a) escuchando m?",
+        "es": "Desde la ? ltima vez que nos vimos en [asnt_timestamp_c], ? sica por placer?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than 1 hour"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1 hour or more, but less than 2 hours"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "2 hours or more, but less than 3 hours"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "3 hours or more, but less than 4 hours"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "4 hours or more, but less than 5 hours"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "5 hours or more, but less than 6 hours"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "6 hours or more, but less than 8 hours"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "8 hours or more, but less than 12 hours"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "12 hours or more, but less than 18 hours"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "18 hours or more, but less than 24 hours"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "24 hours or more, but less than 36 hours"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "36 hours or more, but less than 72 hours"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "More than 72 hours"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

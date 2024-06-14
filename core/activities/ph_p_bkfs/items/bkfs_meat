@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_meat",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_meat of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Meat balls, meat loaf, beef stew, Hamburger Helper/Alb\u00f3ndigas, picadillo, guisado de res, Hamburger Helper"
+    },
+    "question": {
+        "en": "Meat balls, meat loaf, beef stew, Hamburger Helper",
+        "es": "Alb\u00f3ndigas, picadillo, guisado de res, Hamburger Helper"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

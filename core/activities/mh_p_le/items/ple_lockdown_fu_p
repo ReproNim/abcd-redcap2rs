@@ -1,0 +1,53 @@
+{
+    "id": "ple_lockdown_fu_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ple_lockdown_fu_p of mh_p_le"
+    },
+    "prefLabel": {
+        "en": "Was this a good or bad experience for your child?"
+    },
+    "question": {
+        "en": "Was this a good or bad experience for your child?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mostly good"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mostly bad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Don't know [ple_lockdown_p] = '1'"
+                },
+                "value": 7
+            }
+        ],
+        "maxValue": 7,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "ksads_sa_raw_205_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_sa_raw_205_p of mh_p_ksads_sep"
+    },
+    "prefLabel": {
+        "en": "You said that in the past two weeks your child felt super upset when separated from mom, dad, or caregiver and did not want to go to school because of this. When did this begin?"
+    },
+    "question": {
+        "en": "You said that in the past two weeks your child felt super upset when separated from mom, dad, or caregiver and did not want to go to school because of this. When did this begin?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

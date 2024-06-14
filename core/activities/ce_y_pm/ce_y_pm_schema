@@ -1,0 +1,84 @@
+{
+    "id": "ce_y_pm_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Parenting in Culture & Environment"
+    },
+    "prefLabel": {
+        "en": "Ce_Y_Pm"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/parent_monitor_q1_y",
+            "items/parent_monitor_q2_y",
+            "items/parent_monitor_q3_y",
+            "items/parent_monitor_q4_y",
+            "items/parent_monitor_q5_y",
+            "items/parental_monitor_admin",
+            "items/pmq_y_ss_mean",
+            "items/pmq_y_ss_mean_nm",
+            "items/pmq_y_ss_mean_nt"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/parent_monitor_q1_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_monitor_q1_y"
+            },
+            {
+                "isAbout": "items/parent_monitor_q2_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_monitor_q2_y"
+            },
+            {
+                "isAbout": "items/parent_monitor_q3_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_monitor_q3_y"
+            },
+            {
+                "isAbout": "items/parent_monitor_q4_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_monitor_q4_y"
+            },
+            {
+                "isAbout": "items/parent_monitor_q5_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_monitor_q5_y"
+            },
+            {
+                "isAbout": "items/parental_monitor_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parental_monitor_admin"
+            },
+            {
+                "isAbout": "items/pmq_y_ss_mean",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pmq_y_ss_mean"
+            },
+            {
+                "isAbout": "items/pmq_y_ss_mean_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pmq_y_ss_mean_nm"
+            },
+            {
+                "isAbout": "items/pmq_y_ss_mean_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pmq_y_ss_mean_nt"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "tlfb_age_calc_inmonths_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_age_calc_inmonths_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Age in months"
+    },
+    "question": {
+        "en": "Age in months"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

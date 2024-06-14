@@ -1,0 +1,24 @@
+{
+    "id": "mtpo_2_wknd_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mtpo_2_wknd_p of nt_p_ears_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "On a typical WEEKEND DAY (Saturday-Sunday), how much TIME per day does your child spend in TOTAL on a computer, cellphone, tablet, iPod, or other electronic device?\n\nPlease do NOT include time spent on school related work, but do include watching TV, shows or videos, texting or chatting, playing games, or visiting social networking sites (Facebook, Twitter, Instagram)."
+    },
+    "question": {
+        "en": "On a typical WEEKEND DAY (Saturday-Sunday), how much TIME per day does your child spend in TOTAL on a computer, cellphone, tablet, iPod, or other electronic device? Please do NOT include time spent on school related work, but do include watching TV, shows or videos, texting or chatting, playing games, or visiting social networking sites (Facebook, Twitter, Instagram)."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr2_Op_PDMP",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr2_Op_PDMP of led_l_rxmonit"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - indicates if a \u201cmodern PDMP system\u201d became operational and users could access was enabled at date of baseline visit (address 2)"
+    },
+    "question": {
+        "en": "Residential history derived - indicates if a \u201cmodern PDMP system\u201d became operational and users could access was enabled at date of baseline visit (address 2)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

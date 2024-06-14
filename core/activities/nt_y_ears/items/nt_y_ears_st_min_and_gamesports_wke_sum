@@ -1,0 +1,24 @@
+{
+    "id": "nt_y_ears_st_min_and_gamesports_wke_sum",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nt_y_ears_st_min_and_gamesports_wke_sum of nt_y_ears"
+    },
+    "prefLabel": {
+        "en": "Total weekend duration over tracking period Google Play Store category: Game - Sports (minutes)"
+    },
+    "question": {
+        "en": "Total weekend duration over tracking period Google Play Store category: Game - Sports (minutes)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

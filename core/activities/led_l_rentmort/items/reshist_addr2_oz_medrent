@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr2_oz_medrent",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr2_oz_medrent of led_l_rentmort"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - Median rent per month; ACS2014-2018; census tract (addr3)"
+    },
+    "question": {
+        "en": "Residential history derived - Median rent per month; ACS2014-2018; census tract (addr3)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "med_otc_4_rxnorm_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "med_otc_4_rxnorm_p of ph_p_meds"
+    },
+    "prefLabel": {
+        "en": "OTC Med 4. Medication Name (please choose the formulation that most closely matches the medication taken by your child; no need to include dosage)  Nombre del Medicamento (por favor, elija la formulaci\u00c3\u00b3n que m\u00c3\u00a1s se aproxime a la medicaci\u00c3\u00b3n tomada por su ni\u00c3\u00b1o(a); no hay necesidad de incluir la dosis)"
+    },
+    "question": {
+        "en": "OTC Med 4. Medication Name (please choose the formulation that most closely matches the medication taken by your child; no need to include dosage)  Nombre del Medicamento (por favor, elija la formulaci\u00c3\u00b3n que m\u00c3\u00a1s se aproxime a la medicaci\u00c3\u00b3n tomada por su ni\u00c3\u00b1o(a); no hay necesidad de incluir la dosis)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

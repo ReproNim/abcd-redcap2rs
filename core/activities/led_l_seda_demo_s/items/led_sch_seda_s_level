@@ -1,0 +1,24 @@
+{
+    "id": "led_sch_seda_s_level",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "led_sch_seda_s_level of led_l_seda_demo_s"
+    },
+    "prefLabel": {
+        "en": "school level (CCD) (2018)"
+    },
+    "question": {
+        "en": "school level (CCD) (2018)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

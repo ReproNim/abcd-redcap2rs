@@ -1,0 +1,42 @@
+{
+    "id": "led_l_traffic_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Built Environment in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Traffic"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_traffic_count",
+            "items/reshist_addr2_traffic_count",
+            "items/reshist_addr3_traffic_count"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_traffic_count",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_traffic_count"
+            },
+            {
+                "isAbout": "items/reshist_addr2_traffic_count",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_traffic_count"
+            },
+            {
+                "isAbout": "items/reshist_addr3_traffic_count",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_traffic_count"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

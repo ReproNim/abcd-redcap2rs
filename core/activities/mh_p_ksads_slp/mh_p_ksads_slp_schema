@@ -1,0 +1,56 @@
+{
+    "id": "mh_p_ksads_slp_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Sleep in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_P_Ksads_Slp"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ksads_sleepprob_raw_814_p",
+            "items/ksads_sleepprob_raw_816_p",
+            "items/ksads_sleepprob_raw_817_p",
+            "items/ksads_sleepprob_raw_815_p",
+            "items/ksads_sleepprob_raw_818_p"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ksads_sleepprob_raw_814_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_sleepprob_raw_814_p"
+            },
+            {
+                "isAbout": "items/ksads_sleepprob_raw_816_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_sleepprob_raw_816_p"
+            },
+            {
+                "isAbout": "items/ksads_sleepprob_raw_817_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_sleepprob_raw_817_p"
+            },
+            {
+                "isAbout": "items/ksads_sleepprob_raw_815_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_sleepprob_raw_815_p"
+            },
+            {
+                "isAbout": "items/ksads_sleepprob_raw_818_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_sleepprob_raw_818_p"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

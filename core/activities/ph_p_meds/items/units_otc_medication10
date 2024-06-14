@@ -1,0 +1,125 @@
+{
+    "id": "units_otc_medication10",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "units_otc_medication10 of ph_p_meds"
+    },
+    "prefLabel": {
+        "en": "OTC Med 10. Strength unit / Unidad"
+    },
+    "question": {
+        "en": "OTC Med 10. Strength unit Unidad"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "capsule (cap."
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "tablet (tab.)"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "tablespoon (tbsp"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "teaspoon (tsp"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "drop (gtt)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "gram (g)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "milligram (mg)"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "megagram (MGG)"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "kilogram (kg)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "liter (L)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "microgram (msg)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "mililiter (mL)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "ounce (oz)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "pound (lb)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "quart (qt)"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "OTHER"
+                },
+                "value": 14
+            }
+        ],
+        "maxValue": 16,
+        "minValue": 1,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

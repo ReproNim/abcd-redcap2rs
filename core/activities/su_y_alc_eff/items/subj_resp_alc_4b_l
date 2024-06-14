@@ -1,0 +1,24 @@
+{
+    "id": "subj_resp_alc_4b_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "subj_resp_alc_4b_l of su_y_alc_eff"
+    },
+    "prefLabel": {
+        "en": "Recent 6 months (Drinking at least once a month for 3 consecutive months): How many drinks did it take for you to pass out, or fall asleep when you did not want to?"
+    },
+    "question": {
+        "en": "Recent 6 months (Drinking at least once a month for 3 consecutive months): How many drinks did it take for you to pass out, or fall asleep when you did not want to?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

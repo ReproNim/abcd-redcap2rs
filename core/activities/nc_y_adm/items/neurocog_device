@@ -1,0 +1,59 @@
+{
+    "id": "neurocog_device",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "neurocog_device of nc_y_adm"
+    },
+    "prefLabel": {
+        "en": "NCog Session:"
+    },
+    "question": {
+        "en": "NCog Session:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Completed in full without disruption"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Completed in full with temporary technical disruption"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Completed partially due to technical disruption"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Did not complete due to not being able to share screen"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Did not complete due to technical issues [sched_delay] = '9'"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

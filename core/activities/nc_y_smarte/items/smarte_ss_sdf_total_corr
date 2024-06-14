@@ -1,0 +1,24 @@
+{
+    "id": "smarte_ss_sdf_total_corr",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "smarte_ss_sdf_total_corr of nc_y_smarte"
+    },
+    "prefLabel": {
+        "en": "Total number correct for the single-digit arithmetic task (SMARTE single-digit subscore)"
+    },
+    "question": {
+        "en": "Total number correct for the single-digit arithmetic task (SMARTE single-digit subscore)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

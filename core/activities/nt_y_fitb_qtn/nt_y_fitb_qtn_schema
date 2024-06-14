@@ -1,0 +1,147 @@
+{
+    "id": "nt_y_fitb_qtn_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Actigraphy in Novel Technologies"
+    },
+    "prefLabel": {
+        "en": "Nt_Y_Fitb_Qtn"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/fitpr_physical",
+            "items/fitpr_physical_health",
+            "items/fitpr_sedentary",
+            "items/fitpr_sedentary_health",
+            "items/fitpr_sleep",
+            "items/fitpr_sleep_health",
+            "items/fitpo_physical",
+            "items/fitpo_physical_healthy",
+            "items/fitpo_sedentary",
+            "items/fitpo_sendentary_healthy",
+            "items/fitpo_sleep",
+            "items/fitpo_sleep_health",
+            "items/fitpo_enjoy",
+            "items/fitpo_use_app",
+            "items/fitpo_potential_app",
+            "items/fitpo_see_activity",
+            "items/fitpo_change",
+            "items/fitpo_wear_longer"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/fitpr_physical",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpr_physical"
+            },
+            {
+                "isAbout": "items/fitpr_physical_health",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpr_physical_health"
+            },
+            {
+                "isAbout": "items/fitpr_sedentary",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpr_sedentary"
+            },
+            {
+                "isAbout": "items/fitpr_sedentary_health",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpr_sedentary_health"
+            },
+            {
+                "isAbout": "items/fitpr_sleep",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpr_sleep"
+            },
+            {
+                "isAbout": "items/fitpr_sleep_health",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpr_sleep_health"
+            },
+            {
+                "isAbout": "items/fitpo_physical",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_physical"
+            },
+            {
+                "isAbout": "items/fitpo_physical_healthy",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_physical_healthy"
+            },
+            {
+                "isAbout": "items/fitpo_sedentary",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_sedentary"
+            },
+            {
+                "isAbout": "items/fitpo_sendentary_healthy",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_sendentary_healthy"
+            },
+            {
+                "isAbout": "items/fitpo_sleep",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_sleep"
+            },
+            {
+                "isAbout": "items/fitpo_sleep_health",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_sleep_health"
+            },
+            {
+                "isAbout": "items/fitpo_enjoy",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_enjoy"
+            },
+            {
+                "isAbout": "items/fitpo_use_app",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_use_app"
+            },
+            {
+                "isAbout": "items/fitpo_potential_app",
+                "isVis": "fitpo_use_app === 0 && fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_potential_app"
+            },
+            {
+                "isAbout": "items/fitpo_see_activity",
+                "isVis": "fitpo_use_app === 1 && fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_see_activity"
+            },
+            {
+                "isAbout": "items/fitpo_change",
+                "isVis": "fitpo_use_app === 1 && fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_change"
+            },
+            {
+                "isAbout": "items/fitpo_wear_longer",
+                "isVis": "fitbit_assent === 1 && fitbit_permission === 1",
+                "valueRequired": true,
+                "variableName": "fitpo_wear_longer"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

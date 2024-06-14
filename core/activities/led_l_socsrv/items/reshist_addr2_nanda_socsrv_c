@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr2_nanda_socsrv_c",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr2_nanda_socsrv_c of led_l_socsrv"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - Count # all social services, census tract; NaNDA (addr2)"
+    },
+    "question": {
+        "en": "Residential history derived - Count # all social services, census tract; NaNDA (addr2)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

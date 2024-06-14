@@ -1,0 +1,147 @@
+{
+    "id": "led_l_rxopioid_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Policy Vars in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Rxopioid"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_opioid_Rxper100K_0",
+            "items/reshist_addr1_opioid_Rxper100K_1",
+            "items/reshist_addr1_opioid_Rxper100K_2",
+            "items/reshist_addr1_opioid_Rxper100K_3",
+            "items/reshist_addr1_opioid_Rxper100K_4",
+            "items/reshist_addr1_opioid_Rxper100K_5",
+            "items/reshist_addr2_opioid_Rxper100K_0",
+            "items/reshist_addr2_opioid_Rxper100K_1",
+            "items/reshist_addr2_opioid_Rxper100K_2",
+            "items/reshist_addr2_opioid_Rxper100K_3",
+            "items/reshist_addr2_opioid_Rxper100K_4",
+            "items/reshist_addr2_opioid_Rxper100K_5",
+            "items/reshist_addr3_opioid_Rxper100K_0",
+            "items/reshist_addr3_opioid_Rxper100K_1",
+            "items/reshist_addr3_opioid_Rxper100K_2",
+            "items/reshist_addr3_opioid_Rxper100K_3",
+            "items/reshist_addr3_opioid_Rxper100K_4",
+            "items/reshist_addr3_opioid_Rxper100K_5"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_opioid_Rxper100K_0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_opioid_Rxper100K_0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_opioid_Rxper100K_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_opioid_Rxper100K_1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_opioid_Rxper100K_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_opioid_Rxper100K_2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_opioid_Rxper100K_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_opioid_Rxper100K_3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_opioid_Rxper100K_4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_opioid_Rxper100K_4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_opioid_Rxper100K_5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_opioid_Rxper100K_5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_opioid_Rxper100K_0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_opioid_Rxper100K_0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_opioid_Rxper100K_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_opioid_Rxper100K_1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_opioid_Rxper100K_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_opioid_Rxper100K_2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_opioid_Rxper100K_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_opioid_Rxper100K_3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_opioid_Rxper100K_4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_opioid_Rxper100K_4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_opioid_Rxper100K_5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_opioid_Rxper100K_5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_opioid_Rxper100K_0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_opioid_Rxper100K_0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_opioid_Rxper100K_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_opioid_Rxper100K_1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_opioid_Rxper100K_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_opioid_Rxper100K_2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_opioid_Rxper100K_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_opioid_Rxper100K_3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_opioid_Rxper100K_4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_opioid_Rxper100K_4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_opioid_Rxper100K_5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_opioid_Rxper100K_5"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

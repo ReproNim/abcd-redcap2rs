@@ -1,0 +1,196 @@
+{
+    "id": "su_y_can_eff_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Consequence in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Can_Eff"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sub_res_mj_q01",
+            "items/sub_res_mj_q02",
+            "items/sub_res_mj_q03",
+            "items/sub_res_mj_q04",
+            "items/sub_res_mj_q05",
+            "items/sub_res_mj_q06",
+            "items/sub_res_mj_q07",
+            "items/sub_res_mj_q08",
+            "items/sub_res_mj_q09",
+            "items/sub_res_mj_q10",
+            "items/sub_res_mj_q11",
+            "items/sub_res_mj_q01_l",
+            "items/sub_res_mj_q02_l",
+            "items/sub_res_mj_q03_l",
+            "items/sub_res_mj_q04_l",
+            "items/sub_res_mj_q05_l",
+            "items/sub_res_mj_q06_l",
+            "items/sub_res_mj_q07_l",
+            "items/sub_res_mj_q08_l",
+            "items/sub_res_mj_q09_l",
+            "items/sub_res_mj_q10_l",
+            "items/sub_res_mj_q11_l",
+            "items/su_mj_admin",
+            "items/sub_res_mj_total",
+            "items/sub_res_mj_total_i"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sub_res_mj_q01",
+                "isVis": "tlfb_mj_use  === 1 ||  tlfb_blunt_use  === 1 ||  tlfb_mj_use  === 1 ||  tlfb_edible_use  === 1 ||  tlfb_mj_conc_use  === 1",
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q01"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q02",
+                "isVis": "tlfb_mj_use  === 1 ||  tlfb_blunt_use  === 1 ||  tlfb_mj_use  === 1 ||  tlfb_edible_use  === 1 ||  tlfb_mj_conc_use  === 1",
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q02"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q03",
+                "isVis": "tlfb_mj_use  === 1 ||  tlfb_blunt_use  === 1 ||  tlfb_mj_use  === 1 ||  tlfb_edible_use  === 1 ||  tlfb_mj_conc_use  === 1",
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q03"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q04",
+                "isVis": "tlfb_mj_use  === 1 ||  tlfb_blunt_use  === 1 ||  tlfb_mj_use  === 1 ||  tlfb_edible_use  === 1 ||  tlfb_mj_conc_use  === 1",
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q04"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q05",
+                "isVis": "tlfb_mj_use  === 1 ||  tlfb_blunt_use  === 1 ||  tlfb_mj_use  === 1 ||  tlfb_edible_use  === 1 ||  tlfb_mj_conc_use  === 1",
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q05"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q06",
+                "isVis": "tlfb_mj_use  === 1 ||  tlfb_blunt_use  === 1 ||  tlfb_mj_use  === 1 ||  tlfb_edible_use  === 1 ||  tlfb_mj_conc_use  === 1",
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q06"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q07",
+                "isVis": "tlfb_mj_use  === 1 ||  tlfb_blunt_use  === 1 ||  tlfb_mj_use  === 1 ||  tlfb_edible_use  === 1 ||  tlfb_mj_conc_use  === 1",
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q07"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q08",
+                "isVis": "tlfb_mj_use  === 1 ||  tlfb_blunt_use  === 1 ||  tlfb_mj_use  === 1 ||  tlfb_edible_use  === 1 ||  tlfb_mj_conc_use  === 1",
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q08"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q09",
+                "isVis": "tlfb_mj_use  === 1 ||  tlfb_blunt_use  === 1 ||  tlfb_mj_use  === 1 ||  tlfb_edible_use  === 1 ||  tlfb_mj_conc_use  === 1",
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q09"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q10",
+                "isVis": "tlfb_mj_use  === 1 ||  tlfb_blunt_use  === 1 ||  tlfb_mj_use  === 1 ||  tlfb_edible_use  === 1 ||  tlfb_mj_conc_use  === 1",
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q10"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q11",
+                "isVis": "tlfb_mj_use  === 1 ||  tlfb_blunt_use  === 1 ||  tlfb_mj_use  === 1 ||  tlfb_edible_use  === 1 ||  tlfb_mj_conc_use  === 1",
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q11"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q01_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q01_l"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q02_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q02_l"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q03_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q03_l"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q04_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q04_l"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q05_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q05_l"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q06_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q06_l"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q07_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q07_l"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q08_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q08_l"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q09_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q09_l"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q10_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q10_l"
+            },
+            {
+                "isAbout": "items/sub_res_mj_q11_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sub_res_mj_q11_l"
+            },
+            {
+                "isAbout": "items/su_mj_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_mj_admin"
+            },
+            {
+                "isAbout": "items/sub_res_mj_total",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sub_res_mj_total"
+            },
+            {
+                "isAbout": "items/sub_res_mj_total_i",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sub_res_mj_total_i"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

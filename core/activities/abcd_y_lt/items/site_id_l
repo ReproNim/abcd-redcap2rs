@@ -1,0 +1,24 @@
+{
+    "id": "site_id_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "site_id_l of abcd_y_lt"
+    },
+    "prefLabel": {
+        "en": "Site ID at each event"
+    },
+    "question": {
+        "en": "Site ID at each event"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

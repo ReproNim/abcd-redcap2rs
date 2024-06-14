@@ -1,0 +1,102 @@
+{
+    "id": "sai_p_yoga_perwk_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sai_p_yoga_perwk_l of ph_p_saiq"
+    },
+    "prefLabel": {
+        "en": "Yoga, Tai ChiAbout how many days per week? \u00bfAproximadamente cu\u00e1ntos d\u00edas a la semana?"
+    },
+    "question": {
+        "en": "Yoga, Tai ChiAbout how many days per week?",
+        "es": "\u00bfAproximadamente cu\u00e1ntos d\u00edas a la semana?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know No lo s\u00e9"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Once every 2 weeks Una vez cada 2 semanas"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "One day every month Un d\u00eda cada mes"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Less than one day per month Menos de un d\u00eda al mes  | (1-7)"
+                },
+                "value": 10
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

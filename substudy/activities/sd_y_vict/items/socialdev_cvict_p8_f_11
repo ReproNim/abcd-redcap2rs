@@ -1,0 +1,41 @@
+{
+    "id": "socialdev_cvict_p8_f_11",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_cvict_p8_f_11 of sd_y_vict"
+    },
+    "prefLabel": {
+        "en": "Any time another kid hit you at home, at school, or anywhere"
+    },
+    "question": {
+        "en": "Any time another kid hit you at home, at school, or anywhere"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

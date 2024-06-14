@@ -1,0 +1,59 @@
+{
+    "id": "ksads_dud_raw_1379_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dud_raw_1379_t of su_y_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "In the past two weeks, how often has using the following drugs made your moods notably worse?Tobacco (tobacco cigarettes, electronic cigarettes, vape pens, e-hookah, hookah, cigars, and smokeless tobacco/chew/snuff)"
+    },
+    "question": {
+        "en": "In the past two weeks, how often has using the following drugs made your moods notably worse? Tobacco (tobacco cigarettes, electronic cigarettes, vape pens, e-hookah, hookah, cigars, and smokeless tobacco chew snuff)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Several days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "More than half the days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Nearly every day"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

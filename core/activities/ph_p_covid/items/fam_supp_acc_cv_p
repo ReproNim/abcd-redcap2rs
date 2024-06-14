@@ -1,0 +1,48 @@
+{
+    "id": "fam_supp_acc_cv_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fam_supp_acc_cv_p of ph_p_covid"
+    },
+    "prefLabel": {
+        "en": "Access to family and close non-family social contacts (such as friends, neighbors, members of a social or religious group you belong to) / Acceso a familiares y contactos sociales cercanos (por ejemplo, amigos, vecinos, miembros de un grupo social o religioso al que perteneces)"
+    },
+    "question": {
+        "en": "Access to family and close non-family social contacts (such as friends, neighbors, members of a social or religious group you belong to)",
+        "es": "Acceso a familiares y contactos sociales cercanos (por ejemplo, amigos, vecinos, miembros de un grupo social o religioso al que perteneces)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mild: Continued visits with physical distancing and/or regular phone calls and/or televideo or social media contacts / Leve: Visitas continuas con distanciamiento fisica y/o llamadas regulares y/o contactos de televideo o redes sociales"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderate: Loss of in person and remote contact with a few people, but not all supports / Moderado: P\u00e9rdida de contacto en persona y lejano con algunas personas, pero no todos los apoyos"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Severe: Loss of in person and remote contact with all supports / Severo: P\u00e9rdida de contacto en persona y lejano con todos los apoyos"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

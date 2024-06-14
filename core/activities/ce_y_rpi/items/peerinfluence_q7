@@ -1,0 +1,41 @@
+{
+    "id": "peerinfluence_q7",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "peerinfluence_q7 of ce_y_rpi"
+    },
+    "prefLabel": {
+        "en": "Which sort of person are you most like?"
+    },
+    "question": {
+        "en": "Which sort of person are you most like?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1, Some people change the way they act so much when they are with their friends that they wonder who they \"really are\""
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2, Other people act the same way when they are alone as they do when they are with their friends"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

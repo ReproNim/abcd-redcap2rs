@@ -1,0 +1,224 @@
+{
+    "id": "led_l_seda_demo_d_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about School (Demographics) in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Seda_Demo_D"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ledsch_seda_d_baplusavgall",
+            "items/ledsch_seda_d_gshi",
+            "items/ledsch_seda_d_gslo",
+            "items/ledsch_seda_d_hsecdnec",
+            "items/ledsch_seda_d_hsflnfl",
+            "items/ledsch_seda_d_lninc50avgall",
+            "items/ledsch_seda_d_perasn",
+            "items/ledsch_seda_d_perblk",
+            "items/ledsch_seda_d_perecd",
+            "items/ledsch_seda_d_perell",
+            "items/ledsch_seda_d_perfl",
+            "items/ledsch_seda_d_perfrl",
+            "items/ledsch_seda_d_perhsp",
+            "items/ledsch_seda_d_perind",
+            "items/ledsch_seda_d_perrl",
+            "items/ledsch_seda_d_perspeced",
+            "items/ledsch_seda_d_perwht",
+            "items/ledsch_seda_d_povertyavgall",
+            "items/ledsch_seda_d_rsecdnec",
+            "items/ledsch_seda_d_rsflnfl",
+            "items/ledsch_seda_d_rural",
+            "items/ledsch_seda_d_sesavgall",
+            "items/ledsch_seda_d_singl_momavgall",
+            "items/ledsch_seda_d_snapavgall",
+            "items/ledsch_seda_d_suburb",
+            "items/ledsch_seda_d_totenrl",
+            "items/ledsch_seda_d_town",
+            "items/ledsch_seda_d_unempavgall",
+            "items/ledsch_seda_d_urban"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ledsch_seda_d_baplusavgall",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_baplusavgall"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_gshi",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_gshi"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_gslo",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_gslo"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_hsecdnec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_hsecdnec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_hsflnfl",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_hsflnfl"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_lninc50avgall",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_lninc50avgall"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_perasn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_perasn"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_perblk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_perblk"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_perecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_perecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_perell",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_perell"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_perfl",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_perfl"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_perfrl",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_perfrl"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_perhsp",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_perhsp"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_perind",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_perind"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_perrl",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_perrl"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_perspeced",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_perspeced"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_perwht",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_perwht"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_povertyavgall",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_povertyavgall"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_rsecdnec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_rsecdnec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_rsflnfl",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_rsflnfl"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_rural",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_rural"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_sesavgall",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_sesavgall"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_singl_momavgall",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_singl_momavgall"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_snapavgall",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_snapavgall"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_suburb",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_suburb"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_totenrl",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_totenrl"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_town",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_town"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_unempavgall",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_unempavgall"
+            },
+            {
+                "isAbout": "items/ledsch_seda_d_urban",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_d_urban"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

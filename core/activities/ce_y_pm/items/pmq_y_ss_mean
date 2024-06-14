@@ -1,0 +1,35 @@
+{
+    "id": "pmq_y_ss_mean",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pmq_y_ss_mean of ce_y_pm"
+    },
+    "prefLabel": {
+        "en": "Parental Monitoring: Mean (parent_monitor_q1_y + parent_monitor_q2_y + parent_monitor_q3_y + parent_monitor_q4_y parent_monitor_q5_y)/5; Validation: no minimum number of answers"
+    },
+    "question": {
+        "es": "Parental Monitoring: Mean (parent_monitor_q1_y + parent_monitor_q2_y + parent_monitor_q3_y + parent_monitor_q4_y parent_monitor_q5_y)/5; Validation: no minimum number of answers"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "40."
+                },
+                "value": 429
+            }
+        ],
+        "maxValue": 429,
+        "minValue": 429,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,83 @@
+{
+    "id": "ocp_prnt_acs_job_cat_20_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ocp_prnt_acs_job_cat_20_p of abcd_p_ocp"
+    },
+    "prefLabel": {
+        "en": "Please specify the Production Occupations Job Title:"
+    },
+    "question": {
+        "en": "Please specify the Production Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Supervisors of Production Workers"
+                },
+                "value": 51100
+            },
+            {
+                "name": {
+                    "en": "Assemblers and Fabricators"
+                },
+                "value": 51200
+            },
+            {
+                "name": {
+                    "en": "Food Processing Workers"
+                },
+                "value": 51300
+            },
+            {
+                "name": {
+                    "en": "Metal Workers and Plastic Workers"
+                },
+                "value": 51400
+            },
+            {
+                "name": {
+                    "en": "Printing Workers"
+                },
+                "value": 51510
+            },
+            {
+                "name": {
+                    "en": "Textile=Apparel=and Furnishings Workers"
+                },
+                "value": 51600
+            },
+            {
+                "name": {
+                    "en": "Woodworkers"
+                },
+                "value": 51700
+            },
+            {
+                "name": {
+                    "en": "Plant and System Operators"
+                },
+                "value": 51800
+            },
+            {
+                "name": {
+                    "en": "Other Production Occupations"
+                },
+                "value": 51900
+            }
+        ],
+        "maxValue": 51900,
+        "minValue": 51100,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

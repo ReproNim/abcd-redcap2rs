@@ -1,0 +1,24 @@
+{
+    "id": "ksads_dud_raw_716_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dud_raw_716_p of su_p_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "You said that your child had a time when he or she had the following problems because of using the drug or drugs listed below. When did this begin?Sedatives/Hypnotics/Anxiolytics (Barbiturates (sedatives, downers), Benzodiazepine, Quaalude (ludes), Valium, lLibrium,  Xanax, ketamine, GHB)"
+    },
+    "question": {
+        "en": "You said that your child had a time when he or she had the following problems because of using the drug or drugs listed below. When did this begin? Sedatives Hypnotics Anxiolytics (Barbiturates (sedatives, downers), Benzodiazepine, Quaalude (ludes), Valium, lLibrium,  Xanax, ketamine, GHB)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

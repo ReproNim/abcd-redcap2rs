@@ -1,0 +1,24 @@
+{
+    "id": "nihtbx_cryst_rawscore",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nihtbx_cryst_rawscore of nc_y_nihtb"
+    },
+    "prefLabel": {
+        "en": "Crystallized Composite Raw Score"
+    },
+    "question": {
+        "en": "Crystallized Composite Raw Score"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

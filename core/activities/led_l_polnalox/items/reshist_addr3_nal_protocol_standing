@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr3_nal_protocol_standing",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr3_nal_protocol_standing of led_l_polnalox"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - indicates if Naloxone law allowing distribution through a standing or protocol order was effective at date of baseline visit (address 3)"
+    },
+    "question": {
+        "en": "Residential history derived - indicates if Naloxone law allowing distribution through a standing or protocol order was effective at date of baseline visit (address 3)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

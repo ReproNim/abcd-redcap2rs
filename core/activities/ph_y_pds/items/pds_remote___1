@@ -1,0 +1,41 @@
+{
+    "id": "pds_remote___1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pds_remote___1 of ph_y_pds"
+    },
+    "prefLabel": {
+        "en": "Remote method of Pubertal Developmental Scale administration [Check all that apply]: 1, Audio (i.e. phone call) ; 2, Video/Webcam ; 3, Screen Sharing ; 4, Link"
+    },
+    "question": {
+        "en": "Remote method of Pubertal Developmental Scale administration [Check all that apply]: 1, Audio (i. e. phone call) ; 2, Video Webcam ; 3, Screen Sharing ; 4, Link"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No [sched_delay] = '9'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

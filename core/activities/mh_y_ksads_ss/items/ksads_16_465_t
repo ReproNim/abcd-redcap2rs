@@ -1,0 +1,24 @@
+{
+    "id": "ksads_16_465_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_16_465_t of mh_y_ksads_ss"
+    },
+    "prefLabel": {
+        "en": "Symptom - Has been physically cruel to animals, Present"
+    },
+    "question": {
+        "en": "Symptom - Has been physically cruel to animals, Present"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

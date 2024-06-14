@@ -1,0 +1,161 @@
+{
+    "id": "mh_p_ksads_asd_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Autism Spectrum in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_P_Ksads_Asd"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ksads_asd_raw_565_p",
+            "items/ksads_asd_raw_577_p",
+            "items/ksads_asd_raw_576_p",
+            "items/ksads_asd_raw_575_p",
+            "items/ksads_asd_raw_574_p",
+            "items/ksads_asd_raw_573_p",
+            "items/ksads_asd_raw_572_p",
+            "items/ksads_asd_raw_571_p",
+            "items/ksads_asd_raw_570_p",
+            "items/ksads_asd_raw_569_p",
+            "items/ksads_asd_raw_568_p",
+            "items/ksads_asd_raw_567_p",
+            "items/ksads_asd_raw_566_p",
+            "items/ksads_asd_raw_564_p",
+            "items/ksads_asd_raw_563_p",
+            "items/ksads_asd_raw_562_p",
+            "items/ksads_asd_raw_561_p",
+            "items/ksads_asd_raw_560_p",
+            "items/ksads_asd_raw_559_p",
+            "items/ksads_asd_raw_558_p"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ksads_asd_raw_565_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_asd_raw_565_p"
+            },
+            {
+                "isAbout": "items/ksads_asd_raw_577_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_asd_raw_577_p"
+            },
+            {
+                "isAbout": "items/ksads_asd_raw_576_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_asd_raw_576_p"
+            },
+            {
+                "isAbout": "items/ksads_asd_raw_575_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_asd_raw_575_p"
+            },
+            {
+                "isAbout": "items/ksads_asd_raw_574_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_asd_raw_574_p"
+            },
+            {
+                "isAbout": "items/ksads_asd_raw_573_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_asd_raw_573_p"
+            },
+            {
+                "isAbout": "items/ksads_asd_raw_572_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_asd_raw_572_p"
+            },
+            {
+                "isAbout": "items/ksads_asd_raw_571_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_asd_raw_571_p"
+            },
+            {
+                "isAbout": "items/ksads_asd_raw_570_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_asd_raw_570_p"
+            },
+            {
+                "isAbout": "items/ksads_asd_raw_569_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_asd_raw_569_p"
+            },
+            {
+                "isAbout": "items/ksads_asd_raw_568_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_asd_raw_568_p"
+            },
+            {
+                "isAbout": "items/ksads_asd_raw_567_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_asd_raw_567_p"
+            },
+            {
+                "isAbout": "items/ksads_asd_raw_566_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_asd_raw_566_p"
+            },
+            {
+                "isAbout": "items/ksads_asd_raw_564_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_asd_raw_564_p"
+            },
+            {
+                "isAbout": "items/ksads_asd_raw_563_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_asd_raw_563_p"
+            },
+            {
+                "isAbout": "items/ksads_asd_raw_562_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_asd_raw_562_p"
+            },
+            {
+                "isAbout": "items/ksads_asd_raw_561_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_asd_raw_561_p"
+            },
+            {
+                "isAbout": "items/ksads_asd_raw_560_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_asd_raw_560_p"
+            },
+            {
+                "isAbout": "items/ksads_asd_raw_559_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_asd_raw_559_p"
+            },
+            {
+                "isAbout": "items/ksads_asd_raw_558_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_asd_raw_558_p"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,63 @@
+{
+    "id": "nc_y_ehis_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Administrative in Neurocognition"
+    },
+    "prefLabel": {
+        "en": "Nc_Y_Ehis"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ehi1b",
+            "items/ehi2b",
+            "items/ehi3b",
+            "items/ehi4b",
+            "items/ehi_time",
+            "items/ehi_y_ss_scoreb"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ehi1b",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ehi1b"
+            },
+            {
+                "isAbout": "items/ehi2b",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ehi2b"
+            },
+            {
+                "isAbout": "items/ehi3b",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ehi3b"
+            },
+            {
+                "isAbout": "items/ehi4b",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ehi4b"
+            },
+            {
+                "isAbout": "items/ehi_time",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ehi_time"
+            },
+            {
+                "isAbout": "items/ehi_y_ss_scoreb",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ehi_y_ss_scoreb"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

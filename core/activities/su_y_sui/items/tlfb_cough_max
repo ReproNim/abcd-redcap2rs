@@ -1,0 +1,24 @@
+{
+    "id": "tlfb_cough_max",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_cough_max of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Over-the-Counter cough or cold medicine or DXM: (ml)"
+    },
+    "question": {
+        "en": "Over-the-Counter cough or cold medicine or DXM: (ml)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

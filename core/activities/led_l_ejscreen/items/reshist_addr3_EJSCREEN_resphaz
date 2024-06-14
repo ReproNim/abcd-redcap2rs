@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr3_EJSCREEN_resphaz",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr3_EJSCREEN_resphaz of led_l_ejscreen"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - NATA Respiratory Hazard Index; Ratio of exposure concentration to EPA Reference Concentration; EJSCREEN (addr3)"
+    },
+    "question": {
+        "en": "Residential history derived - NATA Respiratory Hazard Index; Ratio of exposure concentration to EPA Reference Concentration; EJSCREEN (addr3)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

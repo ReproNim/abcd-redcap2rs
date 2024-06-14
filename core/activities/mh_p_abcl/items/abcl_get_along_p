@@ -1,0 +1,53 @@
+{
+    "id": "abcl_get_along_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "abcl_get_along_p of mh_p_abcl"
+    },
+    "prefLabel": {
+        "en": "How well does he/she get along with close friends?"
+    },
+    "question": {
+        "en": "How well does he she get along with close friends?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not well"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Average/ Promedio"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Above average/ Mas que el promedio"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Far above average /Bastante mas que el promedio"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,77 @@
+{
+    "id": "ce_p_sag_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about School in Culture & Environment"
+    },
+    "prefLabel": {
+        "en": "Ce_P_Sag"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sag_p_select_language",
+            "items/sag_miss_school_excuse_p",
+            "items/sag_miss_school_unexcuse_p",
+            "items/sag_excused_absence_p",
+            "items/sag_unexcuse_absence_p",
+            "items/sag_grade_type",
+            "items/sag_iep_current_p",
+            "items/sag_iep_ever_p"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sag_p_select_language",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sag_p_select_language"
+            },
+            {
+                "isAbout": "items/sag_miss_school_excuse_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sag_miss_school_excuse_p"
+            },
+            {
+                "isAbout": "items/sag_miss_school_unexcuse_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sag_miss_school_unexcuse_p"
+            },
+            {
+                "isAbout": "items/sag_excused_absence_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sag_excused_absence_p"
+            },
+            {
+                "isAbout": "items/sag_unexcuse_absence_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sag_unexcuse_absence_p"
+            },
+            {
+                "isAbout": "items/sag_grade_type",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sag_grade_type"
+            },
+            {
+                "isAbout": "items/sag_iep_current_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sag_iep_current_p"
+            },
+            {
+                "isAbout": "items/sag_iep_ever_p",
+                "isVis": "sag_iep_current_p === 0 || sag_iep_current_p === 999",
+                "valueRequired": true,
+                "variableName": "sag_iep_ever_p"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

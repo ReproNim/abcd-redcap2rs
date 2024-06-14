@@ -1,0 +1,41 @@
+{
+    "id": "ksads_dp_raw_877_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dp_raw_877_p of mh_p_ksads_dep"
+    },
+    "prefLabel": {
+        "en": "Do the things we have just been talking about (i.e.,feeling irritable, feeling bored, difficulty making decisions, increased appetite, feeling restless or fidgety, feeling bad about yourself and thoughts of death) cause problems for your child in any of the following areas:At work"
+    },
+    "question": {
+        "en": "Do the things we have just been talking about (i. e. ,feeling irritable, feeling bored, difficulty making decisions, increased appetite, feeling restless or fidgety, feeling bad about yourself and thoughts of death) cause problems for your child in any of the following areas:At work"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

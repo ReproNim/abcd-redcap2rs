@@ -1,0 +1,24 @@
+{
+    "id": "tlfb_tincture_date1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_tincture_date1 of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "When did you first try CONCENTRATED MARIJUANA TINCTURES?"
+    },
+    "question": {
+        "en": "When did you first try CONCENTRATED MARIJUANA TINCTURES?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "date"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

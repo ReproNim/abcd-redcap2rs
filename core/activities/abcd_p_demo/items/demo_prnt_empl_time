@@ -1,0 +1,42 @@
+{
+    "id": "demo_prnt_empl_time",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_prnt_empl_time of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "Working Full time or Part time? a. Trabajo de Tiempo COMPLETO MEDIO Tiempo"
+    },
+    "question": {
+        "en": "Working Full time or Part time? a.",
+        "es": "Trabajo de Tiempo COMPLETO MEDIO Tiempo"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Full time Tiempo COMPLETO"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Part time MEDIO Tiempo // The following questions are about your partner. Your \"partner\" refers to any significant figure in your life that helps you in raising your child or has helped you for more than 2 years. This person should be involved 40% or more of the daily activities your child does. For example, your partner could be your spouse. However, your partner could also be your boyfriend/girlfriend or relative."
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

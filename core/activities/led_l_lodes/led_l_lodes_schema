@@ -1,0 +1,399 @@
+{
+    "id": "led_l_lodes_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Neighborhood Social Factors in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Lodes"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_LODES_totjobn",
+            "items/reshist_addr1_LODES_jobwn",
+            "items/reshist_addr1_LODES_jobbn",
+            "items/reshist_addr1_LODES_jobaiann",
+            "items/reshist_addr1_LODES_joban",
+            "items/reshist_addr1_LODES_jobnapin",
+            "items/reshist_addr1_LODES_jobmrn",
+            "items/reshist_addr1_LODES_jobnhn",
+            "items/reshist_addr1_LODES_jobhn",
+            "items/reshist_addr1_LODES_totjoba",
+            "items/reshist_addr1_LODES_jobwa",
+            "items/reshist_addr1_LODES_jobba",
+            "items/reshist_addr1_LODES_jobaiana",
+            "items/reshist_addr1_LODES_jobaa",
+            "items/reshist_addr1_LODES_jobnapia",
+            "items/reshist_addr1_LODES_jobmra",
+            "items/reshist_addr1_LODES_jobnha",
+            "items/reshist_addr1_LODES_jobha",
+            "items/reshist_addr2_LODES_totjobn",
+            "items/reshist_addr2_LODES_jobwn",
+            "items/reshist_addr2_LODES_jobbn",
+            "items/reshist_addr2_LODES_jobaiann",
+            "items/reshist_addr2_LODES_joban",
+            "items/reshist_addr2_LODES_jobnapin",
+            "items/reshist_addr2_LODES_jobmrn",
+            "items/reshist_addr2_LODES_jobnhn",
+            "items/reshist_addr2_LODES_jobhn",
+            "items/reshist_addr2_LODES_totjoba",
+            "items/reshist_addr2_LODES_jobwa",
+            "items/reshist_addr2_LODES_jobba",
+            "items/reshist_addr2_LODES_jobaiana",
+            "items/reshist_addr2_LODES_jobaa",
+            "items/reshist_addr2_LODES_jobnapia",
+            "items/reshist_addr2_LODES_jobmra",
+            "items/reshist_addr2_LODES_jobnha",
+            "items/reshist_addr2_LODES_jobha",
+            "items/reshist_addr3_LODES_totjobn",
+            "items/reshist_addr3_LODES_jobwn",
+            "items/reshist_addr3_LODES_jobbn",
+            "items/reshist_addr3_LODES_jobaiann",
+            "items/reshist_addr3_LODES_joban",
+            "items/reshist_addr3_LODES_jobnapin",
+            "items/reshist_addr3_LODES_jobmrn",
+            "items/reshist_addr3_LODES_jobnhn",
+            "items/reshist_addr3_LODES_jobhn",
+            "items/reshist_addr3_LODES_totjoba",
+            "items/reshist_addr3_LODES_jobwa",
+            "items/reshist_addr3_LODES_jobba",
+            "items/reshist_addr3_LODES_jobaiana",
+            "items/reshist_addr3_LODES_jobaa",
+            "items/reshist_addr3_LODES_jobnapia",
+            "items/reshist_addr3_LODES_jobmra",
+            "items/reshist_addr3_LODES_jobnha",
+            "items/reshist_addr3_LODES_jobha"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_LODES_totjobn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_LODES_totjobn"
+            },
+            {
+                "isAbout": "items/reshist_addr1_LODES_jobwn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_LODES_jobwn"
+            },
+            {
+                "isAbout": "items/reshist_addr1_LODES_jobbn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_LODES_jobbn"
+            },
+            {
+                "isAbout": "items/reshist_addr1_LODES_jobaiann",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_LODES_jobaiann"
+            },
+            {
+                "isAbout": "items/reshist_addr1_LODES_joban",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_LODES_joban"
+            },
+            {
+                "isAbout": "items/reshist_addr1_LODES_jobnapin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_LODES_jobnapin"
+            },
+            {
+                "isAbout": "items/reshist_addr1_LODES_jobmrn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_LODES_jobmrn"
+            },
+            {
+                "isAbout": "items/reshist_addr1_LODES_jobnhn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_LODES_jobnhn"
+            },
+            {
+                "isAbout": "items/reshist_addr1_LODES_jobhn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_LODES_jobhn"
+            },
+            {
+                "isAbout": "items/reshist_addr1_LODES_totjoba",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_LODES_totjoba"
+            },
+            {
+                "isAbout": "items/reshist_addr1_LODES_jobwa",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_LODES_jobwa"
+            },
+            {
+                "isAbout": "items/reshist_addr1_LODES_jobba",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_LODES_jobba"
+            },
+            {
+                "isAbout": "items/reshist_addr1_LODES_jobaiana",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_LODES_jobaiana"
+            },
+            {
+                "isAbout": "items/reshist_addr1_LODES_jobaa",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_LODES_jobaa"
+            },
+            {
+                "isAbout": "items/reshist_addr1_LODES_jobnapia",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_LODES_jobnapia"
+            },
+            {
+                "isAbout": "items/reshist_addr1_LODES_jobmra",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_LODES_jobmra"
+            },
+            {
+                "isAbout": "items/reshist_addr1_LODES_jobnha",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_LODES_jobnha"
+            },
+            {
+                "isAbout": "items/reshist_addr1_LODES_jobha",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_LODES_jobha"
+            },
+            {
+                "isAbout": "items/reshist_addr2_LODES_totjobn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_LODES_totjobn"
+            },
+            {
+                "isAbout": "items/reshist_addr2_LODES_jobwn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_LODES_jobwn"
+            },
+            {
+                "isAbout": "items/reshist_addr2_LODES_jobbn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_LODES_jobbn"
+            },
+            {
+                "isAbout": "items/reshist_addr2_LODES_jobaiann",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_LODES_jobaiann"
+            },
+            {
+                "isAbout": "items/reshist_addr2_LODES_joban",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_LODES_joban"
+            },
+            {
+                "isAbout": "items/reshist_addr2_LODES_jobnapin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_LODES_jobnapin"
+            },
+            {
+                "isAbout": "items/reshist_addr2_LODES_jobmrn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_LODES_jobmrn"
+            },
+            {
+                "isAbout": "items/reshist_addr2_LODES_jobnhn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_LODES_jobnhn"
+            },
+            {
+                "isAbout": "items/reshist_addr2_LODES_jobhn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_LODES_jobhn"
+            },
+            {
+                "isAbout": "items/reshist_addr2_LODES_totjoba",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_LODES_totjoba"
+            },
+            {
+                "isAbout": "items/reshist_addr2_LODES_jobwa",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_LODES_jobwa"
+            },
+            {
+                "isAbout": "items/reshist_addr2_LODES_jobba",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_LODES_jobba"
+            },
+            {
+                "isAbout": "items/reshist_addr2_LODES_jobaiana",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_LODES_jobaiana"
+            },
+            {
+                "isAbout": "items/reshist_addr2_LODES_jobaa",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_LODES_jobaa"
+            },
+            {
+                "isAbout": "items/reshist_addr2_LODES_jobnapia",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_LODES_jobnapia"
+            },
+            {
+                "isAbout": "items/reshist_addr2_LODES_jobmra",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_LODES_jobmra"
+            },
+            {
+                "isAbout": "items/reshist_addr2_LODES_jobnha",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_LODES_jobnha"
+            },
+            {
+                "isAbout": "items/reshist_addr2_LODES_jobha",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_LODES_jobha"
+            },
+            {
+                "isAbout": "items/reshist_addr3_LODES_totjobn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_LODES_totjobn"
+            },
+            {
+                "isAbout": "items/reshist_addr3_LODES_jobwn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_LODES_jobwn"
+            },
+            {
+                "isAbout": "items/reshist_addr3_LODES_jobbn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_LODES_jobbn"
+            },
+            {
+                "isAbout": "items/reshist_addr3_LODES_jobaiann",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_LODES_jobaiann"
+            },
+            {
+                "isAbout": "items/reshist_addr3_LODES_joban",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_LODES_joban"
+            },
+            {
+                "isAbout": "items/reshist_addr3_LODES_jobnapin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_LODES_jobnapin"
+            },
+            {
+                "isAbout": "items/reshist_addr3_LODES_jobmrn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_LODES_jobmrn"
+            },
+            {
+                "isAbout": "items/reshist_addr3_LODES_jobnhn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_LODES_jobnhn"
+            },
+            {
+                "isAbout": "items/reshist_addr3_LODES_jobhn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_LODES_jobhn"
+            },
+            {
+                "isAbout": "items/reshist_addr3_LODES_totjoba",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_LODES_totjoba"
+            },
+            {
+                "isAbout": "items/reshist_addr3_LODES_jobwa",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_LODES_jobwa"
+            },
+            {
+                "isAbout": "items/reshist_addr3_LODES_jobba",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_LODES_jobba"
+            },
+            {
+                "isAbout": "items/reshist_addr3_LODES_jobaiana",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_LODES_jobaiana"
+            },
+            {
+                "isAbout": "items/reshist_addr3_LODES_jobaa",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_LODES_jobaa"
+            },
+            {
+                "isAbout": "items/reshist_addr3_LODES_jobnapia",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_LODES_jobnapia"
+            },
+            {
+                "isAbout": "items/reshist_addr3_LODES_jobmra",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_LODES_jobmra"
+            },
+            {
+                "isAbout": "items/reshist_addr3_LODES_jobnha",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_LODES_jobnha"
+            },
+            {
+                "isAbout": "items/reshist_addr3_LODES_jobha",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_LODES_jobha"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

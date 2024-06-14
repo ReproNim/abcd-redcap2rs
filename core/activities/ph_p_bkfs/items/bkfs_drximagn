@@ -1,0 +1,24 @@
+{
+    "id": "bkfs_drximagn",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_drximagn of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "drximagn"
+    },
+    "question": {
+        "en": "drximagn"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

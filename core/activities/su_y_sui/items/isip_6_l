@@ -1,0 +1,41 @@
+{
+    "id": "isip_6_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "isip_6_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Do you remember when this happened, or did you find out later (for example: your parents or somebody else told you about it)?"
+    },
+    "question": {
+        "en": "Do you remember when this happened, or did you find out later (for example: your parents or somebody else told you about it)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "I remember it"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I don't remember it - somebody told me about it /( isip_1b_yn_l   == '1' && ( isip_1d_c_l   == '0' ||   isip_2_c_l   == '0' ||  isip_3_c_l   == '0' ||  isip_4_c_l   == '0' ||  isip_5_c_l   == '0' ||  isip_6_c_l   == '0')) || ( isip_1b_c_l   == '1' && ( isip_2_c_l   == '0' ||  isip_3_c_l   == '0' ||  isip_4_c_l   == '0' ||  isip_5_c_l   == '0' ||  isip_6_c_l   == '0'))"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

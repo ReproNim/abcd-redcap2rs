@@ -1,0 +1,24 @@
+{
+    "id": "tbi_4d_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tbi_4d_l of ph_p_otbi"
+    },
+    "prefLabel": {
+        "en": "How old was your child?"
+    },
+    "question": {
+        "en": "How old was your child?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

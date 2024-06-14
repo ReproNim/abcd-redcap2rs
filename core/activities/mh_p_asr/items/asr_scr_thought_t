@@ -1,0 +1,35 @@
+{
+    "id": "asr_scr_thought_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "asr_scr_thought_t of mh_p_asr"
+    },
+    "prefLabel": {
+        "en": "Thought Problems ASR Syndrome Scale (t-score)"
+    },
+    "question": {
+        "en": "Thought Problems ASR Syndrome Scale (t-score)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "35 and 36-59, based on national probability samples."
+                },
+                "value": 18
+            }
+        ],
+        "maxValue": 18,
+        "minValue": 18,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

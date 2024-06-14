@@ -1,0 +1,35 @@
+{
+    "id": "mctq_days_per_week_calc",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mctq_days_per_week_calc of ph_y_mctq"
+    },
+    "prefLabel": {
+        "en": "Number of work days per week"
+    },
+    "question": {
+        "en": "Number of work days per week"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "[mctq_days_per_week])"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 0,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

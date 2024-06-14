@@ -1,0 +1,24 @@
+{
+    "id": "cvd_fit_ss_wk_avg_day_min",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "cvd_fit_ss_wk_avg_day_min of cvd_y_fitb_act_w"
+    },
+    "prefLabel": {
+        "en": "Average number of minutes of wear not excluded or considered sleep (by 60 second sleep record)"
+    },
+    "question": {
+        "en": "Average number of minutes of wear not excluded or considered sleep (by 60 second sleep record)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

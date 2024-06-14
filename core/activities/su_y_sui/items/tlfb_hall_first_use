@@ -1,0 +1,41 @@
+{
+    "id": "tlfb_hall_first_use",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_hall_first_use of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Was this the first time you tried HALLUCINOGEN DRUGS that cause people to see or experience things that are not real, such as LSD or acid, PCP or angel dust, peyote, mescaline, psilocybin, DMT, AMT, or Foxy?"
+    },
+    "question": {
+        "en": "Was this the first time you tried HALLUCINOGEN DRUGS that cause people to see or experience things that are not real, such as LSD or acid, PCP or angel dust, peyote, mescaline, psilocybin, DMT, AMT, or Foxy?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No / tlfb_lsd_use_l  == '1'  &&  event_name_number  > '11'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

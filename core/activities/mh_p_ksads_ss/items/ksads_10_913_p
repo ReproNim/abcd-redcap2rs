@@ -1,0 +1,24 @@
+{
+    "id": "ksads_10_913_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_10_913_p of mh_p_ksads_ss"
+    },
+    "prefLabel": {
+        "en": "Diagnosis - Other Specified Anxiety Disorder (Generalized Anxiety Disorder impairment does not meet minimum duration) F41.8"
+    },
+    "question": {
+        "en": "Diagnosis - Other Specified Anxiety Disorder (Generalized Anxiety Disorder impairment does not meet minimum duration) F41. 8"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

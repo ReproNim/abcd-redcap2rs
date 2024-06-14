@@ -1,0 +1,41 @@
+{
+    "id": "ksads_cdr_raw_1048_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_cdr_raw_1048_t of mh_y_ksads_cd"
+    },
+    "prefLabel": {
+        "en": "Was there ever a time that you broke in to a home, store, or building that you weren\u00c3\u00a2\u00c2\u0080\u00c2\u0099t supposed to go into?"
+    },
+    "question": {
+        "en": "Was there ever a time that you broke in to a home, store, or building that you weren\u00c3\u00a2\u00c2\u0080\u00c2\u0099t supposed to go into?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

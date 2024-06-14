@@ -1,0 +1,24 @@
+{
+    "id": "medhx_ss_6r_times_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "medhx_ss_6r_times_p of ph_p_mhx"
+    },
+    "prefLabel": {
+        "en": "Gun Shot Wound\n: How many times?"
+    },
+    "question": {
+        "en": "Gun Shot Wound\n: How many times?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

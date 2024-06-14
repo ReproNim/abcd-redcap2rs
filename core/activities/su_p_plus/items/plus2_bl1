@@ -1,0 +1,24 @@
+{
+    "id": "plus2_bl1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "plus2_bl1 of su_p_plus"
+    },
+    "prefLabel": {
+        "en": "Participant is completing their baseline visit in one day. Please change form status to 'complete' and then submit."
+    },
+    "question": {
+        "en": "Participant is completing their baseline visit in one day. Please change form status to 'complete' and then submit."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

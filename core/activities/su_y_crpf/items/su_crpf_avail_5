@@ -1,0 +1,59 @@
+{
+    "id": "su_crpf_avail_5",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_crpf_avail_5 of su_y_crpf"
+    },
+    "prefLabel": {
+        "en": "If you wanted to get some drug like cocaine, LSD, or amphetamines, how easy would it be for you to get some?"
+    },
+    "question": {
+        "en": "If you wanted to get some drug like cocaine, LSD, or amphetamines, how easy would it be for you to get some?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very Hard"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sort of hard"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sort of easy"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very easy"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

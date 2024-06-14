@@ -1,0 +1,24 @@
+{
+    "id": "screentime_1_wkdy_hrs_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screentime_1_wkdy_hrs_p of nt_p_stq"
+    },
+    "prefLabel": {
+        "en": "Hours: Horas:"
+    },
+    "question": {
+        "en": "Hours: Horas:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

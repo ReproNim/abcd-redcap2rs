@@ -1,0 +1,24 @@
+{
+    "id": "peq_ss_relational_victim_nt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "peq_ss_relational_victim_nt of mh_y_peq"
+    },
+    "prefLabel": {
+        "en": "Peer Experiences: Relational Victimization Number Total"
+    },
+    "question": {
+        "en": "Peer Experiences: Relational Victimization Number Total"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

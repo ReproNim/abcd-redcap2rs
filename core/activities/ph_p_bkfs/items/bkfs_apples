@@ -1,0 +1,24 @@
+{
+    "id": "bkfs_apples",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_apples of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Apples, bananas, or oranges/Manzanas, pl\u00e1tanos, o naranjas"
+    },
+    "question": {
+        "en": "Apples, bananas, or oranges Manzanas, pl\u00e1tanos, o naranjas"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

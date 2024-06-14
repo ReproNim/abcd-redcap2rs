@@ -1,0 +1,60 @@
+{
+    "id": "sleepdisturb1_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sleepdisturb1_p of ph_p_sds"
+    },
+    "prefLabel": {
+        "en": "How many hours of sleep does your child get on most nights? \u00bfCu\u00e1ntas horas duerme su ni\u00f1o(a) la mayor\u00eda de las noches?"
+    },
+    "question": {
+        "en": "How many hours of sleep does your child get on most nights?",
+        "es": "\u00bfCu\u00e1ntas horas duerme su ni\u00f1o(a) la mayor\u00eda de las noches?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "9-11 hours/ 9 a 11 horas"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "8-9 hours /8 a 9 horas"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "7-8 hours /7 a 8 horas"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "5-7 hours /5 a 7 horas"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Less than 5 hours/ Menos de 5 horas// Consider each question pertaining to the PAST 6 MONTHS of the child's life"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

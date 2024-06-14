@@ -1,0 +1,24 @@
+{
+    "id": "su_y_hair_qnt_alc_001",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_y_hair_qnt_alc_001 of su_y_hair_tox"
+    },
+    "prefLabel": {
+        "en": "Quantification of mass spectrometry results for EtG (alcohol; run on GC-MS) (unit: pg/1mg)"
+    },
+    "question": {
+        "en": "Quantification of mass spectrometry results for EtG (alcohol; run on GC-MS) (unit: pg 1mg)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

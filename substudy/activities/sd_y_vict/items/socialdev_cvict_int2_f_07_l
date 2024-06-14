@@ -1,0 +1,41 @@
+{
+    "id": "socialdev_cvict_int2_f_07_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_cvict_int2_f_07_l of sd_y_vict"
+    },
+    "prefLabel": {
+        "en": "Any time someone threatened to hurt you, and you thought they might do it"
+    },
+    "question": {
+        "en": "Any time someone threatened to hurt you, and you thought they might do it"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No [socialdev_cvict_int2_l]= '1' AND [socialdev_cvict_int2_e_l]= '1' AND [socialdev_cvict_c7_l]= '1'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

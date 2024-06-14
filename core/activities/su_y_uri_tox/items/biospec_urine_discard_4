@@ -1,0 +1,35 @@
+{
+    "id": "biospec_urine_discard_4",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "biospec_urine_discard_4 of su_y_uri_tox"
+    },
+    "prefLabel": {
+        "en": "Reason sample discarded"
+    },
+    "question": {
+        "es": "Reason sample discarded"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "This specimen collection was attempted and discarded due to blood or other biological matter in the specimen"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 0,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

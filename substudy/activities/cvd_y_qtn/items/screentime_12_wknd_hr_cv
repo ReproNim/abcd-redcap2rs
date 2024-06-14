@@ -1,0 +1,209 @@
+{
+    "id": "screentime_12_wknd_hr_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screentime_12_wknd_hr_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "Visit social media apps (e.g., Snapchat, Facebook, Twitter, Instagram, TikTok, etc.? (Do not include time spent editing photos or videos to post on social media.)"
+    },
+    "question": {
+        "en": "Visit social media apps (e. g. , Snapchat, Facebook, Twitter, Instagram, TikTok, etc. ? (Do not include time spent editing photos or videos to post on social media. )"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "15 minutes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "30 minutes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "45 minutes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "1 hour"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "1.5 hours"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "2 hours"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "2.5 hours"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "3 hours"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "4 hours"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "5 hours"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "6 hours"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "7 hours"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "8 hours"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "9 hours"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "10 hours"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "11 hours"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "12 hours"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "13 hours"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "14 hours"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "15 hours"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "16 hours"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "17 hours"
+                },
+                "value": 22
+            },
+            {
+                "name": {
+                    "en": "18 hours"
+                },
+                "value": 23
+            },
+            {
+                "name": {
+                    "en": "19 hours"
+                },
+                "value": 24
+            },
+            {
+                "name": {
+                    "en": "20 hours"
+                },
+                "value": 25
+            },
+            {
+                "name": {
+                    "en": "21 hours"
+                },
+                "value": 26
+            },
+            {
+                "name": {
+                    "en": "22 hours"
+                },
+                "value": 27
+            },
+            {
+                "name": {
+                    "en": "23 hours"
+                },
+                "value": 28
+            },
+            {
+                "name": {
+                    "en": "24 hours"
+                },
+                "value": 29
+            }
+        ],
+        "maxValue": 29,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

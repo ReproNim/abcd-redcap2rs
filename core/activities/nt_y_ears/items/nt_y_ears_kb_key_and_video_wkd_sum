@@ -1,0 +1,24 @@
+{
+    "id": "nt_y_ears_kb_key_and_video_wkd_sum",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nt_y_ears_kb_key_and_video_wkd_sum of nt_y_ears"
+    },
+    "prefLabel": {
+        "en": "Total number of keystrokes on weekdays over duration of tracking period in Android OS: VideoPlayers (count)"
+    },
+    "question": {
+        "en": "Total number of keystrokes on weekdays over duration of tracking period in Android OS: VideoPlayers (count)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

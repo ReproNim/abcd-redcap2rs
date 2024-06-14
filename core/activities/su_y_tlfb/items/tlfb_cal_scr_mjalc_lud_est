@@ -1,0 +1,24 @@
+{
+    "id": "tlfb_cal_scr_mjalc_lud_est",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_cal_scr_mjalc_lud_est of su_y_tlfb"
+    },
+    "prefLabel": {
+        "en": "Last day used, estimated period MJ infused alcohol drinks on use days"
+    },
+    "question": {
+        "en": "Last day used, estimated period MJ infused alcohol drinks on use days"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

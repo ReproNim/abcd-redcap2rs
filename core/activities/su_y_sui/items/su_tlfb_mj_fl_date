@@ -1,0 +1,24 @@
+{
+    "id": "su_tlfb_mj_fl_date",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_tlfb_mj_fl_date of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "When did you first try vaping marijuana flower or bud? (non-CBD)"
+    },
+    "question": {
+        "en": "When did you first try vaping marijuana flower or bud? (non-CBD)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "date"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

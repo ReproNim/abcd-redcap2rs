@@ -1,0 +1,42 @@
+{
+    "id": "demo_prnt_race_a_v2___18",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_prnt_race_a_v2___18 of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "What race do you consider yourself to be? Please check all that apply. \u00ac\u00f8De qu\u221a\u00a9 raza se considera usted? Seleccione 1 o m\u221a\u00b0s de estas categor\u221a\u2260as: (18, Asian Indian India asi\u221a\u00b0tica)"
+    },
+    "question": {
+        "en": "What race do you consider yourself to be? Please check all that apply. \u00ac\u00f8De qu\u221a\u00a9 raza se considera usted?",
+        "es": "Seleccione 1 o m\u221a\u00b0s de estas categor\u221a\u2260as: (18, Asian Indian India asi\u221a\u00b0tica)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes // The following questions are about you or the child's family."
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

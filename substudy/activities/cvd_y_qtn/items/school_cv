@@ -1,0 +1,71 @@
+{
+    "id": "school_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "school_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "In the  past week, is your schooling like it was in January 2020?"
+    },
+    "question": {
+        "en": "In the  past week, is your schooling like it was in January 2020?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No - I was going to school in person and now it's online /school-at-home"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No - I was going to school in person and now I'm not doing any in-person or school-at-home activity"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No - I was going to school in person all school days - now my school is in-person only some days or part of the usual school day"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "No - school is out for summer or I'm doing a summer school program"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Yes - I go to my school all school days in person"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Yes - I am doing my same homeschool/online school program"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other  [eventname] = 'covid19_cv1_arm_2'  OR [eventname] = 'covid19_cv2_arm_2'  OR [eventname] = 'covid19_cv3_arm_2'"
+                },
+                "value": 7
+            }
+        ],
+        "maxValue": 7,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

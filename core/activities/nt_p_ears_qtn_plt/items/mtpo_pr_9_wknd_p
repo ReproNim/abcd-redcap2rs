@@ -1,0 +1,24 @@
+{
+    "id": "mtpo_pr_9_wknd_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mtpo_pr_9_wknd_p of nt_p_ears_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "How many hours per weekend day is your child allowed to use screens?"
+    },
+    "question": {
+        "en": "How many hours per weekend day is your child allowed to use screens?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

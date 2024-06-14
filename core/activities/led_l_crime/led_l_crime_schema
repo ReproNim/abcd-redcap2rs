@@ -1,0 +1,189 @@
+{
+    "id": "led_l_crime_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Built Environment in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Crime"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_grndtot",
+            "items/reshist_addr1_p1tot",
+            "items/reshist_addr1_p1vlnt",
+            "items/reshist_addr1_drugtot",
+            "items/reshist_addr1_drgsale",
+            "items/reshist_addr1_mjsale",
+            "items/reshist_addr1_drgposs",
+            "items/reshist_addr1_dui",
+            "items/reshist_addr2_grndtot",
+            "items/reshist_addr2_p1tot",
+            "items/reshist_addr2_p1vlnt",
+            "items/reshist_addr2_drugtot",
+            "items/reshist_addr2_drgsale",
+            "items/reshist_addr2_mjsale",
+            "items/reshist_addr2_drgposs",
+            "items/reshist_addr2_dui",
+            "items/reshist_addr3_grndtot",
+            "items/reshist_addr3_p1tot",
+            "items/reshist_addr3_p1vlnt",
+            "items/reshist_addr3_drugtot",
+            "items/reshist_addr3_drgsale",
+            "items/reshist_addr3_mjsale",
+            "items/reshist_addr3_drgposs",
+            "items/reshist_addr3_dui"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_grndtot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_grndtot"
+            },
+            {
+                "isAbout": "items/reshist_addr1_p1tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_p1tot"
+            },
+            {
+                "isAbout": "items/reshist_addr1_p1vlnt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_p1vlnt"
+            },
+            {
+                "isAbout": "items/reshist_addr1_drugtot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_drugtot"
+            },
+            {
+                "isAbout": "items/reshist_addr1_drgsale",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_drgsale"
+            },
+            {
+                "isAbout": "items/reshist_addr1_mjsale",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_mjsale"
+            },
+            {
+                "isAbout": "items/reshist_addr1_drgposs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_drgposs"
+            },
+            {
+                "isAbout": "items/reshist_addr1_dui",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_dui"
+            },
+            {
+                "isAbout": "items/reshist_addr2_grndtot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_grndtot"
+            },
+            {
+                "isAbout": "items/reshist_addr2_p1tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_p1tot"
+            },
+            {
+                "isAbout": "items/reshist_addr2_p1vlnt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_p1vlnt"
+            },
+            {
+                "isAbout": "items/reshist_addr2_drugtot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_drugtot"
+            },
+            {
+                "isAbout": "items/reshist_addr2_drgsale",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_drgsale"
+            },
+            {
+                "isAbout": "items/reshist_addr2_mjsale",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_mjsale"
+            },
+            {
+                "isAbout": "items/reshist_addr2_drgposs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_drgposs"
+            },
+            {
+                "isAbout": "items/reshist_addr2_dui",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_dui"
+            },
+            {
+                "isAbout": "items/reshist_addr3_grndtot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_grndtot"
+            },
+            {
+                "isAbout": "items/reshist_addr3_p1tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_p1tot"
+            },
+            {
+                "isAbout": "items/reshist_addr3_p1vlnt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_p1vlnt"
+            },
+            {
+                "isAbout": "items/reshist_addr3_drugtot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_drugtot"
+            },
+            {
+                "isAbout": "items/reshist_addr3_drgsale",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_drgsale"
+            },
+            {
+                "isAbout": "items/reshist_addr3_mjsale",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_mjsale"
+            },
+            {
+                "isAbout": "items/reshist_addr3_drgposs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_drgposs"
+            },
+            {
+                "isAbout": "items/reshist_addr3_dui",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_dui"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

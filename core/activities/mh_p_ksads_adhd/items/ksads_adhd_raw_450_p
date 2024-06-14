@@ -1,0 +1,24 @@
+{
+    "id": "ksads_adhd_raw_450_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_adhd_raw_450_p of mh_p_ksads_adhd"
+    },
+    "prefLabel": {
+        "en": "You said that in the past your child had a lot of trouble keeping focused and paying attention; was often easily distracted; was impulsive and often acted before he or she thought. When was that?"
+    },
+    "question": {
+        "en": "You said that in the past your child had a lot of trouble keeping focused and paying attention; was often easily distracted; was impulsive and often acted before he or she thought. When was that?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

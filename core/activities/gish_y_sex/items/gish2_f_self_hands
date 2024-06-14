@@ -1,0 +1,65 @@
+{
+    "id": "gish2_f_self_hands",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gish2_f_self_hands of gish_y_sex"
+    },
+    "prefLabel": {
+        "en": "Put their hands under someone's clothes"
+    },
+    "question": {
+        "en": "Put their hands under someone's clothes"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A Few"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Most"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "All"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to Answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

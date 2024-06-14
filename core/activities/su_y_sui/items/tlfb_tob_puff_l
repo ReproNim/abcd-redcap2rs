@@ -1,0 +1,41 @@
+{
+    "id": "tlfb_tob_puff_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_tob_puff_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "A puff from a tobacco or electronic cigarette, Juul, vape pens, e-hookah, cigar or pipe"
+    },
+    "question": {
+        "en": "A puff from a tobacco or electronic cigarette, Juul, vape pens, e-hookah, cigar or pipe"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes / tlfb_tob_l   == '1' ||  tlfb_tob_c_l   == '1'"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

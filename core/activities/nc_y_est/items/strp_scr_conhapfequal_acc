@@ -1,0 +1,24 @@
+{
+    "id": "strp_scr_conhapfequal_acc",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "strp_scr_conhapfequal_acc of nc_y_est"
+    },
+    "prefLabel": {
+        "en": "expressions.Str_ConHapfEqual_ACC"
+    },
+    "question": {
+        "en": "expressions. Str_ConHapfEqual_ACC"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

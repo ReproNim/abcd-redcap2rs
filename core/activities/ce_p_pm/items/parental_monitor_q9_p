@@ -1,0 +1,48 @@
+{
+    "id": "parental_monitor_q9_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "parental_monitor_q9_p of ce_p_pm"
+    },
+    "prefLabel": {
+        "en": "Has it happened in the last month that you have not had a clue where your child has been at night? / En el \u00faltimo mes, \u00bfha sucedido que no tiene ninguna idea acerca de d\u00f3nde ha estado su ni\u00f1o(a) en la noche?"
+    },
+    "question": {
+        "en": "Has it happened in the last month that you have not had a clue where your child has been at night?",
+        "es": "En el \u00faltimo mes, \u00bfha sucedido que no tiene ninguna idea acerca de d\u00f3nde ha estado su ni\u00f1o(a) en la noche?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No / No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes / S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Decline to answer / Me niego a contestar"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

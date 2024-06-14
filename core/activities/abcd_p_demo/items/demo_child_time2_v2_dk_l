@@ -1,0 +1,42 @@
+{
+    "id": "demo_child_time2_v2_dk_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_child_time2_v2_dk_l of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "Don't know/Refuse to answer No lo s\u221a\u00a9/Prefiere no contestar"
+    },
+    "question": {
+        "en": "Don't know Refuse to answer No lo s\u221a\u00a9",
+        "es": "Prefiere no contestar"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know No lo s\u221a\u00a9"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer Prefiere no contestar"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 777,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

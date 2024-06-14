@@ -1,0 +1,25 @@
+{
+    "id": "tbi_8k",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tbi_8k of ph_p_otbi"
+    },
+    "prefLabel": {
+        "en": "At what age did these effects begin? \u00bfA qu\u00e9 edad comenzaron estos efectos?"
+    },
+    "question": {
+        "en": "At what age did these effects begin?",
+        "es": "\u00bfA qu\u00e9 edad comenzaron estos efectos?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

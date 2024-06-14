@@ -1,0 +1,47 @@
+{
+    "id": "fitbo_when_sport",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fitbo_when_sport of cvd_y_fitb_qtn"
+    },
+    "prefLabel": {
+        "en": "When:"
+    },
+    "question": {
+        "en": "When:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Weekends only"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Weekdays only"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Both weekends and weekdays; [fitpo_sports] > 1\"\""
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

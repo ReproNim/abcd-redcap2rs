@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_cheese",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_cheese of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Cheese, Remember cheese in sandwiches or nachos with cheese or quesadillas/Queso, recuerde el queso en s\u00e1ndwiches, nachos con queso, y quesadillas</span></font>"
+    },
+    "question": {
+        "en": "Cheese, Remember cheese in sandwiches or nachos with cheese or quesadillas span>< font>",
+        "es": "Queso, recuerde el queso en s\u00e1ndwiches, nachos con queso, y quesadillas<"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

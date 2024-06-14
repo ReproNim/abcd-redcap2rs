@@ -1,0 +1,24 @@
+{
+    "id": "cvd_fit_ss_sleep_period_minutes",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "cvd_fit_ss_sleep_period_minutes of cvd_y_fitb_slp_w"
+    },
+    "prefLabel": {
+        "en": "Sum of all Minutes classifed as being any kind of sleep (i.e. light+deep+REM) for all included days"
+    },
+    "question": {
+        "en": "Sum of all Minutes classifed as being any kind of sleep (i. e. light+deep+REM) for all included days"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

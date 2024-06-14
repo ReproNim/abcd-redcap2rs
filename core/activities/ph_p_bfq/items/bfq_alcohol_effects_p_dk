@@ -1,0 +1,35 @@
+{
+    "id": "bfq_alcohol_effects_p_dk",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bfq_alcohol_effects_p_dk of ph_p_bfq"
+    },
+    "prefLabel": {
+        "en": "How many drinks did it take to feel the effects of alcohol?"
+    },
+    "question": {
+        "en": "How many drinks did it take to feel the effects of alcohol?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know [bfq_alcohol_p] ='1' and [bfq_alcohol_effects_p] = ''"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 999,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

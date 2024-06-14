@@ -1,0 +1,35 @@
+{
+    "id": "bis_y_ss_basm_rr",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bis_y_ss_basm_rr of mh_y_bisbas"
+    },
+    "prefLabel": {
+        "en": "BIS/BAS: BAS Reward Responsiveness (modified):  bisbas8_y + bisbas9_y + bisbas11_y + bisbas12_y; Validation: All items must be answered"
+    },
+    "question": {
+        "en": "BIS BAS: BAS Reward Responsiveness (modified):  bisbas8_y + bisbas9_y + bisbas11_y + bisbas12_y; Validation: All items must be answered"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "442."
+                },
+                "value": 429
+            }
+        ],
+        "maxValue": 429,
+        "minValue": 429,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

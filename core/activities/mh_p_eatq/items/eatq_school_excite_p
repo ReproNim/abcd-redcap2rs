@@ -1,0 +1,60 @@
+{
+    "id": "eatq_school_excite_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "eatq_school_excite_p of mh_p_eatq"
+    },
+    "prefLabel": {
+        "en": "Likes it when something exciting and different happens at school. / Le gusta cuando algo emocionante y diferente sucede en la escuela."
+    },
+    "question": {
+        "en": "Likes it when something exciting and different happens at school.",
+        "es": "Le gusta cuando algo emocionante y diferente sucede en la escuela."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Almost always untrue / Casi siempre falso"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Usually untrue / Por lo general falso"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimes true sometimes untrue / Algunas veces verdadero algunas veces falso"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Usually true / Por lo general verdadero"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Almost always true / Casi siempre verdadero"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "covid_geo_error",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "covid_geo_error of cvd_l_geo_adm"
+    },
+    "prefLabel": {
+        "en": "Participant had additional address(es) that could were unable to be geocoded."
+    },
+    "question": {
+        "en": "Participant had additional address(es) that could were unable to be geocoded."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,66 @@
+{
+    "id": "naas_mom_id",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "naas_mom_id of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "Which identification does (did) your child's Native American parent's mother use? \u00ac\u00f8Qu\u221a\u00a9 identificaci\u221a\u2265n usa (usaba) la mam\u221a\u00b0 del padre / la madre Americano(a) Nativo(a) del ni\u221a\u00b1o / la ni\u221a\u00b1a?"
+    },
+    "question": {
+        "en": "Which identification does (did) your child's Native American parent's mother use? la ni\u221a\u00b1a?",
+        "es": "\u00ac\u00f8Qu\u221a\u00a9 identificaci\u221a\u2265n usa (usaba) la mam\u221a\u00b0 del padre la madre Americano(a) Nativo(a) del ni\u221a\u00b1o"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Native American American(a) Nativo(a)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Native American and some non-Native American (e.g."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Native American and non-Native American (bicultural) Americano Nativo y no Americano Nativo (bicultural)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Non-Native American and some Native American No Americano Nativo y algo Americano Nativo"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Non-Native American (e.g."
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't Know No lo s\u221a\u00c9\u00ac\u00a9 // The following questions are about you or the child's family."
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

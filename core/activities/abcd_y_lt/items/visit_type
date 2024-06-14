@@ -1,0 +1,24 @@
+{
+    "id": "visit_type",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "visit_type of abcd_y_lt"
+    },
+    "prefLabel": {
+        "en": "Setting in which the visit for this event was completed."
+    },
+    "question": {
+        "en": "Setting in which the visit for this event was completed."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

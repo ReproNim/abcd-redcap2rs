@@ -1,0 +1,24 @@
+{
+    "id": "nihtbx_picvocab_cs",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nihtbx_picvocab_cs of nc_y_nihtb"
+    },
+    "prefLabel": {
+        "en": "NIH Toolbox Picture Vocabulary Test Age 3+ v2.0 Computed Score"
+    },
+    "question": {
+        "en": "NIH Toolbox Picture Vocabulary Test Age 3+ v2. 0 Computed Score"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

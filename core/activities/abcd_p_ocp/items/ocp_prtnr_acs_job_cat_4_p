@@ -1,0 +1,47 @@
+{
+    "id": "ocp_prtnr_acs_job_cat_4_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ocp_prtnr_acs_job_cat_4_p of abcd_p_ocp"
+    },
+    "prefLabel": {
+        "en": "Please specify the Architecture and Engineering Occupations Job Title:"
+    },
+    "question": {
+        "en": "Please specify the Architecture and Engineering Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Architects=Surveyors=and Catographers"
+                },
+                "value": 17100
+            },
+            {
+                "name": {
+                    "en": "Engineers"
+                },
+                "value": 17200
+            },
+            {
+                "name": {
+                    "en": "Drafters=Engineering Technicians=Except Drafters"
+                },
+                "value": 17300
+            }
+        ],
+        "maxValue": 17300,
+        "minValue": 17100,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

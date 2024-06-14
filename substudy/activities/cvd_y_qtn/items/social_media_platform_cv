@@ -1,0 +1,83 @@
+{
+    "id": "social_media_platform_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "social_media_platform_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "The following questions ask about your use of different forms of media (television, social media, and other internet sources) to check for news related to the coronavirus pandemic in the past week.Which platform did you use the most when checking for news related to coronavirus?"
+    },
+    "question": {
+        "en": "The following questions ask about your use of different forms of media (television, social media, and other internet sources) to check for news related to the coronavirus pandemic in the past week. Which platform did you use the most when checking for news related to coronavirus?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Twitter"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Instagram"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "TikTok"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Snapchat"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "YouTube"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Reddit"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Facebook"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 9
+            }
+        ],
+        "maxValue": 9,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "fit_ss_fitbit_rest_hr",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fit_ss_fitbit_rest_hr of nt_y_fitb_act_w"
+    },
+    "prefLabel": {
+        "en": "Average resting heart rate from all included days from the daily level fitbit record"
+    },
+    "question": {
+        "en": "Average resting heart rate from all included days from the daily level fitbit record"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_milk",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_milk of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Glasses of milk/Vasos de leche"
+    },
+    "question": {
+        "en": "Glasses of milk",
+        "es": "Vasos de leche"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

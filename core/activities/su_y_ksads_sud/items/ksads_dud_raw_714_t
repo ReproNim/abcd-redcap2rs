@@ -1,0 +1,24 @@
+{
+    "id": "ksads_dud_raw_714_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dud_raw_714_t of su_y_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "You said that you had a time when you had the following problems because of using the drug or drugs listed below. When did this begin?Marijuana (pot, weed, hash, THC, blunts, synthetic marijuana/K2/Spice, marijuana edibles, concentrates such as dabs or shatter)"
+    },
+    "question": {
+        "en": "You said that you had a time when you had the following problems because of using the drug or drugs listed below. When did this begin? Marijuana (pot, weed, hash, THC, blunts, synthetic marijuana K2 Spice, marijuana edibles, concentrates such as dabs or shatter)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

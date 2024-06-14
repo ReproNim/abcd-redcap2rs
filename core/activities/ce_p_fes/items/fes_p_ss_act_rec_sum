@@ -1,0 +1,24 @@
+{
+    "id": "fes_p_ss_act_rec_sum",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fes_p_ss_act_rec_sum of ce_p_fes"
+    },
+    "prefLabel": {
+        "en": "ActIvIty-RecreatIonal subscale from the FamIly EnvIronment Scale Sum oF Parent Report (RAW Scores) fes_7r_p plus fes_17_p plus fes_27r_p plus fes_37_p plus fes_47_p plus fes_57r_p plus fes_67_p plus fes_77_p plus fes_87r_p  ValIdatIon: MInImum oF 5 Items answered"
+    },
+    "question": {
+        "en": "ActIvIty-RecreatIonal subscale from the FamIly EnvIronment Scale Sum oF Parent Report (RAW Scores) fes_7r_p plus fes_17_p plus fes_27r_p plus fes_37_p plus fes_47_p plus fes_57r_p plus fes_67_p plus fes_77_p plus fes_87r_p  ValIdatIon: MInImum oF 5 Items answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

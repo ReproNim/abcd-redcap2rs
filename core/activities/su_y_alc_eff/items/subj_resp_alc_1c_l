@@ -1,0 +1,24 @@
+{
+    "id": "subj_resp_alc_1c_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "subj_resp_alc_1c_l of su_y_alc_eff"
+    },
+    "prefLabel": {
+        "en": "Period of heaviest drinking: How many drinks did it take for you to begin to feel different? (where you could feel an effect)"
+    },
+    "question": {
+        "en": "Period of heaviest drinking: How many drinks did it take for you to begin to feel different? (where you could feel an effect)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

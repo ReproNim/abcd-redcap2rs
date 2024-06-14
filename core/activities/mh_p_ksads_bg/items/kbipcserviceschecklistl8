@@ -1,0 +1,41 @@
+{
+    "id": "kbipcserviceschecklistl8",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbipcserviceschecklistl8 of mh_p_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "Click below all types of mental health or substance abuse services your child has received since we last saw you: Seleccione todos los tipos de servicios de salud mental o para el abuso de sustancias que haya recibido su ni\u00f1o(a) desde la \u00faltima vez que nos vimos: (8, Medication management Administraci\u00f3n de medicamentos)"
+    },
+    "question": {
+        "es": "Click below all types of mental health or substance abuse services your child has received since we last saw you: Seleccione todos los tipos de servicios de salud mental o para el abuso de sustancias que haya recibido su ni\u00f1o(a) desde la \u00faltima vez que nos vimos: (8, Medication management Administraci\u00f3n de medicamentos)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "macv_y_ss_r",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "macv_y_ss_r of ce_y_macv"
+    },
+    "prefLabel": {
+        "en": "Religion: mean: religion = 1, 6, 11, 15, 20, 25, 28"
+    },
+    "question": {
+        "en": "Religion: mean: religion = 1, 6, 11, 15, 20, 25, 28"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

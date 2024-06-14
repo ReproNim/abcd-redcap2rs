@@ -1,0 +1,48 @@
+{
+    "id": "parent_rules_q8",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "parent_rules_q8 of su_p_pr"
+    },
+    "prefLabel": {
+        "en": "Are these the same rules for all family members? / \u00bfEstas reglas son las mismas para todos los miembros de la familia?"
+    },
+    "question": {
+        "en": "Are these the same rules for all family members?",
+        "es": "\u00bfEstas reglas son las mismas para todos los miembros de la familia?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No, applies only to children, not teen or adults"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No, applies only to children and teen, not adults"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

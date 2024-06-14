@@ -1,0 +1,77 @@
+{
+    "id": "mh_p_ksads_hi_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Harm in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_P_Ksads_Hi"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ksads_homicidal_raw_835_p",
+            "items/ksads_homicidal_raw_836_p",
+            "items/ksads_homicidal_raw_837_p",
+            "items/ksads_homicidal_raw_838_p",
+            "items/ksads_homicidal_raw_839_p",
+            "items/ksads_homicidal_raw_840_p",
+            "items/ksads_homicidal_raw_841_p",
+            "items/ksads_homicidal_raw_842_p"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ksads_homicidal_raw_835_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_homicidal_raw_835_p"
+            },
+            {
+                "isAbout": "items/ksads_homicidal_raw_836_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_homicidal_raw_836_p"
+            },
+            {
+                "isAbout": "items/ksads_homicidal_raw_837_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_homicidal_raw_837_p"
+            },
+            {
+                "isAbout": "items/ksads_homicidal_raw_838_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_homicidal_raw_838_p"
+            },
+            {
+                "isAbout": "items/ksads_homicidal_raw_839_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_homicidal_raw_839_p"
+            },
+            {
+                "isAbout": "items/ksads_homicidal_raw_840_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_homicidal_raw_840_p"
+            },
+            {
+                "isAbout": "items/ksads_homicidal_raw_841_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_homicidal_raw_841_p"
+            },
+            {
+                "isAbout": "items/ksads_homicidal_raw_842_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_homicidal_raw_842_p"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

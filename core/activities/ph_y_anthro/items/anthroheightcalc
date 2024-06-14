@@ -1,0 +1,25 @@
+{
+    "id": "anthroheightcalc",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "anthroheightcalc of ph_y_anthro"
+    },
+    "prefLabel": {
+        "en": "Standing Height Average (inches): If three measurements were obtained, the two closest measurements will be averaged. Should the third measurement fall equally between the first two measurements, all three will be averaged."
+    },
+    "question": {
+        "en": "Calculated value"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

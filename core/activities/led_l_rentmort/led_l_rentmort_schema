@@ -1,0 +1,126 @@
+{
+    "id": "led_l_rentmort_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Neighborhood Social Factors in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Rentmort"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_oz_pcownership",
+            "items/reshist_addr1_oz_medhvalue",
+            "items/reshist_addr1_oz_rentburden",
+            "items/reshist_addr1_oz_sevrentburden",
+            "items/reshist_addr1_oz_medrent",
+            "items/reshist_addr2_oz_pcownership",
+            "items/reshist_addr2_oz_medhvalue",
+            "items/reshist_addr2_oz_rentburden",
+            "items/reshist_addr2_oz_sevrentburden",
+            "items/reshist_addr2_oz_medrent",
+            "items/reshist_addr3_oz_pcownership",
+            "items/reshist_addr3_oz_medhvalue",
+            "items/reshist_addr3_oz_rentburden",
+            "items/reshist_addr3_oz_sevrentburden",
+            "items/reshist_addr3_oz_medrent"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_oz_pcownership",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_oz_pcownership"
+            },
+            {
+                "isAbout": "items/reshist_addr1_oz_medhvalue",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_oz_medhvalue"
+            },
+            {
+                "isAbout": "items/reshist_addr1_oz_rentburden",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_oz_rentburden"
+            },
+            {
+                "isAbout": "items/reshist_addr1_oz_sevrentburden",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_oz_sevrentburden"
+            },
+            {
+                "isAbout": "items/reshist_addr1_oz_medrent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_oz_medrent"
+            },
+            {
+                "isAbout": "items/reshist_addr2_oz_pcownership",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_oz_pcownership"
+            },
+            {
+                "isAbout": "items/reshist_addr2_oz_medhvalue",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_oz_medhvalue"
+            },
+            {
+                "isAbout": "items/reshist_addr2_oz_rentburden",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_oz_rentburden"
+            },
+            {
+                "isAbout": "items/reshist_addr2_oz_sevrentburden",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_oz_sevrentburden"
+            },
+            {
+                "isAbout": "items/reshist_addr2_oz_medrent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_oz_medrent"
+            },
+            {
+                "isAbout": "items/reshist_addr3_oz_pcownership",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_oz_pcownership"
+            },
+            {
+                "isAbout": "items/reshist_addr3_oz_medhvalue",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_oz_medhvalue"
+            },
+            {
+                "isAbout": "items/reshist_addr3_oz_rentburden",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_oz_rentburden"
+            },
+            {
+                "isAbout": "items/reshist_addr3_oz_sevrentburden",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_oz_sevrentburden"
+            },
+            {
+                "isAbout": "items/reshist_addr3_oz_medrent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_oz_medrent"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

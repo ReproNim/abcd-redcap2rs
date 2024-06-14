@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr3_coi_zed_reading",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr3_coi_zed_reading of led_l_coi"
+    },
+    "prefLabel": {
+        "en": "Educational Domain Third grade reading proficiency: Percentage third graders scoring proficient on standardized reading tests, converted to NAEP scale score points, transformed to z-scores."
+    },
+    "question": {
+        "en": "Educational Domain Third grade reading proficiency: Percentage third graders scoring proficient on standardized reading tests, converted to NAEP scale score points, transformed to z-scores."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,105 @@
+{
+    "id": "mh_y_or_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Peers in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_Y_Or"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/resiliency5a_y",
+            "items/resiliency6a_y",
+            "items/resiliency5b_y",
+            "items/resiliency6b_y",
+            "items/resiliency_device",
+            "items/resiliency7a_y",
+            "items/resiliency7b_y",
+            "items/resiliency_admin",
+            "items/resiliency_remote___1",
+            "items/resiliency_remote___2",
+            "items/resiliency_remote___3",
+            "items/resiliency_remote___4"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/resiliency5a_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resiliency5a_y"
+            },
+            {
+                "isAbout": "items/resiliency6a_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resiliency6a_y"
+            },
+            {
+                "isAbout": "items/resiliency5b_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resiliency5b_y"
+            },
+            {
+                "isAbout": "items/resiliency6b_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resiliency6b_y"
+            },
+            {
+                "isAbout": "items/resiliency_device",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resiliency_device"
+            },
+            {
+                "isAbout": "items/resiliency7a_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resiliency7a_y"
+            },
+            {
+                "isAbout": "items/resiliency7b_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resiliency7b_y"
+            },
+            {
+                "isAbout": "items/resiliency_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resiliency_admin"
+            },
+            {
+                "isAbout": "items/resiliency_remote___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resiliency_remote___1"
+            },
+            {
+                "isAbout": "items/resiliency_remote___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resiliency_remote___2"
+            },
+            {
+                "isAbout": "items/resiliency_remote___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resiliency_remote___3"
+            },
+            {
+                "isAbout": "items/resiliency_remote___4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resiliency_remote___4"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

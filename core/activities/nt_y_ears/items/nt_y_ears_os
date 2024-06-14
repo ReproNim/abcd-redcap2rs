@@ -1,0 +1,41 @@
+{
+    "id": "nt_y_ears_os",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nt_y_ears_os of nt_y_ears"
+    },
+    "prefLabel": {
+        "en": "Operating system of the device the participant used"
+    },
+    "question": {
+        "en": "Operating system of the device the participant used"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Android"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "iOS"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

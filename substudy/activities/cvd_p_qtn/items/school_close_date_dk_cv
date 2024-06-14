@@ -1,0 +1,47 @@
+{
+    "id": "school_close_date_dk_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "school_close_date_dk_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Last date of in-person class:  Other Reasons"
+    },
+    "question": {
+        "en": "Last date of in-person class:  Other Reasons"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Not applicable[school_close_date_cv] = '' and [school_close_cv] = '2'"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

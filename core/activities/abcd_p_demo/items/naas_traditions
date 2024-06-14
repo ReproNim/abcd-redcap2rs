@@ -1,0 +1,66 @@
+{
+    "id": "naas_traditions",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "naas_traditions of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "Does your family participate in Native American traditions, ceremonies, occasions, and so on? \u00ac\u00f8Participa su familia en tradiciones, eventos o ceremonias Americanas Nativas?"
+    },
+    "question": {
+        "en": "Does your family participate in Native American traditions, ceremonies, occasions, and so on?",
+        "es": "\u00ac\u00f8Participa su familia en tradiciones, eventos o ceremonias Americanas Nativas?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "All of them En Todas"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Most of them En la mayor\u221a\u00c9\u00ac\u2260a de ellas"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Some of them Algunas de ellas"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A few of them Unas cuantas de ellas"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "None at all Ninguna de ellas"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't Know No lo s\u221a\u00c9\u00ac\u00a9 // The following questions are about you or the child's family."
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,140 @@
+{
+    "id": "su_y_peertoler_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Attitude in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Peertoler"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ptu_a_y",
+            "items/ptu_b_y",
+            "items/ptu_c_y",
+            "items/ptu_d_y",
+            "items/ptu_e_y",
+            "items/ptu_f_y",
+            "items/ptu_g_y",
+            "items/ptu_h_y",
+            "items/ptu_i_y",
+            "items/ptu_j_y",
+            "items/ptu_k_y",
+            "items/ptu_l_y",
+            "items/ptu_m_y",
+            "items/ptu_n_y",
+            "items/ptu_o_y",
+            "items/ptu_p_y",
+            "items/sua_admin"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ptu_a_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ptu_a_y"
+            },
+            {
+                "isAbout": "items/ptu_b_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ptu_b_y"
+            },
+            {
+                "isAbout": "items/ptu_c_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ptu_c_y"
+            },
+            {
+                "isAbout": "items/ptu_d_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ptu_d_y"
+            },
+            {
+                "isAbout": "items/ptu_e_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ptu_e_y"
+            },
+            {
+                "isAbout": "items/ptu_f_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ptu_f_y"
+            },
+            {
+                "isAbout": "items/ptu_g_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ptu_g_y"
+            },
+            {
+                "isAbout": "items/ptu_h_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ptu_h_y"
+            },
+            {
+                "isAbout": "items/ptu_i_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ptu_i_y"
+            },
+            {
+                "isAbout": "items/ptu_j_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ptu_j_y"
+            },
+            {
+                "isAbout": "items/ptu_k_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ptu_k_y"
+            },
+            {
+                "isAbout": "items/ptu_l_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ptu_l_y"
+            },
+            {
+                "isAbout": "items/ptu_m_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ptu_m_y"
+            },
+            {
+                "isAbout": "items/ptu_n_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ptu_n_y"
+            },
+            {
+                "isAbout": "items/ptu_o_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ptu_o_y"
+            },
+            {
+                "isAbout": "items/ptu_p_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ptu_p_y"
+            },
+            {
+                "isAbout": "items/sua_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sua_admin"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

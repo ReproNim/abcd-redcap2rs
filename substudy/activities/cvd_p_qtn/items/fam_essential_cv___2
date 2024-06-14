@@ -1,0 +1,42 @@
+{
+    "id": "fam_essential_cv___2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fam_essential_cv___2 of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Did the stimulus payments help your household pay for any of the following (check all that apply): Other household or recreational expenses (e.g., clothing, furniture, electronics, sports equipment, toys, or trips) / \u00bfLos pagos de est\u00edmulo ayudaron a su hogar a pagar algo de lo siguiente? (marque todo lo que corresponda): Otros gastos dom\u00e9sticos o recreativos (e.g ropa, muebles, electr\u00f3nicos, equipo de deportes, juguetes o viajes)"
+    },
+    "question": {
+        "en": "Did the stimulus payments help your household pay for any of the following (check all that apply): Other household or recreational expenses (e. g. , clothing, furniture, electronics, sports equipment, toys, or trips) (marque todo lo que corresponda): Otros gastos dom\u00e9sticos o recreativos (e.",
+        "es": "\u00bfLos pagos de est\u00edmulo ayudaron a su hogar a pagar algo de lo siguiente? g ropa, muebles, electr\u00f3nicos, equipo de deportes, juguetes o viajes)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

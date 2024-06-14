@@ -1,0 +1,120 @@
+{
+    "id": "devhx_9_other5_name_2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_9_other5_name_2 of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "Knowing of pregnancy. Drug 5/ Nombre de la droga"
+    },
+    "question": {
+        "en": "Knowing of pregnancy. Drug 5",
+        "es": "Nombre de la droga"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Amphetamines or methamphetamine (meth"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Barbituates"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Benzodiazepines"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Caffeine"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Cathinones (bath salts"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Fake or synthetic marijuana (like spice or K2)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "GHB (liquid G or Georgia home boy)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Hallucinogens (LSD or acid"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Inhalants"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Ketamine (special K)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "MDMA (ecstasy"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Opioids"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

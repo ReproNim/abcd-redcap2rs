@@ -1,0 +1,24 @@
+{
+    "id": "ksads_agorap_raw_196_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_agorap_raw_196_p of mh_p_ksads_ago"
+    },
+    "prefLabel": {
+        "en": "When was that? If this happened more than once, let me know when it was the worst."
+    },
+    "question": {
+        "en": "When was that? If this happened more than once, let me know when it was the worst."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

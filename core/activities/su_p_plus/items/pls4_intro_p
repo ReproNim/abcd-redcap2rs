@@ -1,0 +1,25 @@
+{
+    "id": "pls4_intro_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pls4_intro_p of su_p_plus"
+    },
+    "prefLabel": {
+        "en": "Please take a moment to answer some questions about your son/daughter's medication use within the past day.\n\nIf medication is not listed in the drop-down menu (with the exception of multivitamins), scroll down to notes section and enter information there. For multivitamins, please choose  \"Vitamin\" from the drop-down menu. Por favor dedique unos momentos a contestar algunas preguntas sobre los medicamentos que ha tomado o usado su ni\u00f1o(a) en el \u00faltimo d\u00eda.\n\nSi la medicaci\u00f3n no est\u00e1 en el men\u00fa desplegable (con la excepci\u00f3n de multivitaminas), despl\u00e1cese hacia abajo a la secci\u00f3n de notas e ingrese la informaci\u00f3n ah\u00ed. Para multivitaminas, por favor escoja \"Vitamina\" en el men\u00fa desplegable."
+    },
+    "question": {
+        "en": "Please take a moment to answer some questions about your son daughter's medication use within the past day. If medication is not listed in the drop-down menu (with the exception of multivitamins), scroll down to notes section and enter information there. For multivitamins, please choose  \"Vitamin\" from the drop-down menu.",
+        "es": "Por favor dedique unos momentos a contestar algunas preguntas sobre los medicamentos que ha tomado o usado su ni\u00f1o(a) en el \u00faltimo d\u00eda. Si la medicaci\u00f3n no est\u00e1 en el men\u00fa desplegable (con la excepci\u00f3n de multivitaminas), despl\u00e1cese hacia abajo a la secci\u00f3n de notas e ingrese la informaci\u00f3n ah\u00ed. Para multivitaminas, por favor escoja \"Vitamina\" en el men\u00fa desplegable."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

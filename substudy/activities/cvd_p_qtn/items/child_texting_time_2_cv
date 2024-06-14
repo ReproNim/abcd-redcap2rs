@@ -1,0 +1,215 @@
+{
+    "id": "child_texting_time_2_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "child_texting_time_2_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "through texting  :Hours (Question round 3 and 4)"
+    },
+    "question": {
+        "en": "through texting  :Hours (Question round 3 and 4)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "15 Minutes"
+                },
+                "value": 29
+            },
+            {
+                "name": {
+                    "en": "30 Minutes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "45 Minutes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "1 Hour"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "1.5 Hours"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "2 Hours"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "2.5 Hours"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "3 Hours"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "4 Hours"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "5 Hours"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "6 Hours"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "7 Hours"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "8 Hours"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "9 Hours"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "10 Hours"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "11 Hours"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "12 Hours"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "13 Hours"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "14 Hours"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "15 Hours"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "16 Hours"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "17 Hours"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "18 Hours"
+                },
+                "value": 22
+            },
+            {
+                "name": {
+                    "en": "19 Hours"
+                },
+                "value": 23
+            },
+            {
+                "name": {
+                    "en": "20 Hours"
+                },
+                "value": 24
+            },
+            {
+                "name": {
+                    "en": "21 Hours"
+                },
+                "value": 25
+            },
+            {
+                "name": {
+                    "en": "22 Hours"
+                },
+                "value": 26
+            },
+            {
+                "name": {
+                    "en": "23 Hours"
+                },
+                "value": 27
+            },
+            {
+                "name": {
+                    "en": "24 Hours"
+                },
+                "value": 28
+            },
+            {
+                "name": {
+                    "en": "Don't know([event_name] = 'covid19_cv3_arm_2' or [event_name] = 'covid19_cv4_arm_2')"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

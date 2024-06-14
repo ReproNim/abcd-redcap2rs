@@ -1,0 +1,24 @@
+{
+    "id": "pbp_ss_rule_break_nt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pbp_ss_rule_break_nt of ce_y_pbp"
+    },
+    "prefLabel": {
+        "en": "Involvement with Rule Breaking/Delinquent Peers Total"
+    },
+    "question": {
+        "en": "Involvement with Rule Breaking Delinquent Peers Total"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

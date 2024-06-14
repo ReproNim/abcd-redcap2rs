@@ -1,0 +1,47 @@
+{
+    "id": "icup_reditest_reason",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "icup_reditest_reason of su_y_uri_tox"
+    },
+    "prefLabel": {
+        "en": "Reason Reditest Smoke Cassette was not collected:"
+    },
+    "question": {
+        "en": "Reason Reditest Smoke Cassette was not collected:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not applicable (not randomized)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Supplies not available"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

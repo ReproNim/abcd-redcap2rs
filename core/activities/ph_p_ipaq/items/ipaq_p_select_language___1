@@ -1,0 +1,41 @@
+{
+    "id": "ipaq_p_select_language___1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ipaq_p_select_language___1 of ph_p_ipaq"
+    },
+    "prefLabel": {
+        "en": "Espanol?"
+    },
+    "question": {
+        "es": "Espanol?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

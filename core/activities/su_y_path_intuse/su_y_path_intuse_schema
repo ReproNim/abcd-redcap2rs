@@ -1,0 +1,266 @@
+{
+    "id": "su_y_path_intuse_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Attitude in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Path_Intuse"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/path_alc_youth1",
+            "items/path_alc_youth2",
+            "items/path_alc_youth3",
+            "items/path_alc_youth4",
+            "items/path_alc_youth5",
+            "items/path_alc_youth6",
+            "items/path_alc_youth7",
+            "items/path_alc_youth8",
+            "items/path_alc_youth9",
+            "items/path_alc_youth1_l",
+            "items/path_alc_youth1a_l",
+            "items/path_alc_youth1b_l",
+            "items/path_alc_youth2_l",
+            "items/path_alc_youth3_l",
+            "items/path_alc_youth4_l",
+            "items/path_alc_youth4a_l",
+            "items/path_alc_youth4b_l",
+            "items/path_alc_youth5_l",
+            "items/path_alc_youth6_l",
+            "items/path_alc_youth7_l",
+            "items/path_alc_youth7a_l",
+            "items/path_alc_youth7b_l",
+            "items/path_alc_youth8_l",
+            "items/path_alc_youth9_l",
+            "items/sua_admin",
+            "items/path_nic_dep_q01",
+            "items/path_nic_dep_q02",
+            "items/path_nic_dep_q03",
+            "items/path_nic_dep_q04",
+            "items/path_nic_dep_q05",
+            "items/path_nic_dep_q06",
+            "items/path_nic_dep_q07",
+            "items/path_nic_dep_q08",
+            "items/path_nic_dep_q09",
+            "items/path_nic_dep_q10"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/path_alc_youth1",
+                "isVis": "tlfb_tob_puff  ===0 &&  tlfb_chew_use  ===0 &&  tlfb_cigar_use  ===0 &&  tlfb_hookah_use  ===0 &&  tlfb_pipes_use  ===0 &&  tlfb_nicotine_use  ===0 &&  tlfb_tob   === 1",
+                "valueRequired": true,
+                "variableName": "path_alc_youth1"
+            },
+            {
+                "isAbout": "items/path_alc_youth2",
+                "isVis": "tlfb_alc   ===1 &&  tlfb_alc_sip  ===0",
+                "valueRequired": true,
+                "variableName": "path_alc_youth2"
+            },
+            {
+                "isAbout": "items/path_alc_youth3",
+                "isVis": "tlfb_mj   === 1 &&  tlfb_mj_puff  ===0 &&  tlfb_mj_conc_use  ===0 &&  tlfb_mj_drink_use  ===0 &&  tlfb_tincture_use  ===0 ||  tlfb_mj_synth_use  ===0",
+                "valueRequired": true,
+                "variableName": "path_alc_youth3"
+            },
+            {
+                "isAbout": "items/path_alc_youth4",
+                "isVis": "tlfb_tob_puff  ===0 &&  tlfb_chew_use  ===0 &&  tlfb_cigar_use  ===0 &&  tlfb_hookah_use  ===0 &&  tlfb_pipes_use  ===0 &&  tlfb_nicotine_use  ===0 &&  tlfb_tob   === 1",
+                "valueRequired": true,
+                "variableName": "path_alc_youth4"
+            },
+            {
+                "isAbout": "items/path_alc_youth5",
+                "isVis": "tlfb_alc   ===1 &&  tlfb_alc_sip   ===0",
+                "valueRequired": true,
+                "variableName": "path_alc_youth5"
+            },
+            {
+                "isAbout": "items/path_alc_youth6",
+                "isVis": "tlfb_mj   ===1 &&  tlfb_mj_puff  ===0 &&  tlfb_mj_conc_use  ===0 &&  tlfb_mj_drink_use  ===0 &&  tlfb_tincture_use  ===0 ||  tlfb_mj_synth_use  ===0",
+                "valueRequired": true,
+                "variableName": "path_alc_youth6"
+            },
+            {
+                "isAbout": "items/path_alc_youth7",
+                "isVis": "tlfb_tob_puff  ===0 &&  tlfb_chew_use  ===0 &&  tlfb_cigar_use  ===0 &&  tlfb_hookah_use  ===0 &&  tlfb_pipes_use  ===0 &&  tlfb_nicotine_use  ===0 &&  tlfb_tob   === 1",
+                "valueRequired": true,
+                "variableName": "path_alc_youth7"
+            },
+            {
+                "isAbout": "items/path_alc_youth8",
+                "isVis": "tlfb_alc   ===1 &&  tlfb_alc_sip  ===0",
+                "valueRequired": true,
+                "variableName": "path_alc_youth8"
+            },
+            {
+                "isAbout": "items/path_alc_youth9",
+                "isVis": "tlfb_mj   === 1 &&  tlfb_mj_puff  ===0 &&  tlfb_mj_conc_use  ===0 &&  tlfb_mj_drink_use  ===0 &&  tlfb_tincture_use  ===0 ||  tlfb_mj_synth_use  ===0",
+                "valueRequired": true,
+                "variableName": "path_alc_youth9"
+            },
+            {
+                "isAbout": "items/path_alc_youth1_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_alc_youth1_l"
+            },
+            {
+                "isAbout": "items/path_alc_youth1a_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_alc_youth1a_l"
+            },
+            {
+                "isAbout": "items/path_alc_youth1b_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_alc_youth1b_l"
+            },
+            {
+                "isAbout": "items/path_alc_youth2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_alc_youth2_l"
+            },
+            {
+                "isAbout": "items/path_alc_youth3_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_alc_youth3_l"
+            },
+            {
+                "isAbout": "items/path_alc_youth4_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_alc_youth4_l"
+            },
+            {
+                "isAbout": "items/path_alc_youth4a_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_alc_youth4a_l"
+            },
+            {
+                "isAbout": "items/path_alc_youth4b_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_alc_youth4b_l"
+            },
+            {
+                "isAbout": "items/path_alc_youth5_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_alc_youth5_l"
+            },
+            {
+                "isAbout": "items/path_alc_youth6_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_alc_youth6_l"
+            },
+            {
+                "isAbout": "items/path_alc_youth7_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_alc_youth7_l"
+            },
+            {
+                "isAbout": "items/path_alc_youth7a_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_alc_youth7a_l"
+            },
+            {
+                "isAbout": "items/path_alc_youth7b_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_alc_youth7b_l"
+            },
+            {
+                "isAbout": "items/path_alc_youth8_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_alc_youth8_l"
+            },
+            {
+                "isAbout": "items/path_alc_youth9_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_alc_youth9_l"
+            },
+            {
+                "isAbout": "items/sua_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sua_admin"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q01",
+                "isVis": "xskipout_tob  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_tob  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q01"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q02",
+                "isVis": "xskipout_tob  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_tob  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q02"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q03",
+                "isVis": "xskipout_tob  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_tob  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q03"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q04",
+                "isVis": "xskipout_tob  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_tob  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q04"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q05",
+                "isVis": "xskipout_tob  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_tob  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q05"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q06",
+                "isVis": "xskipout_tob  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_tob  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q06"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q07",
+                "isVis": "xskipout_tob  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_tob  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q07"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q08",
+                "isVis": "xskipout_tob  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_tob  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q08"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q09",
+                "isVis": "xskipout_tob  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_tob  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q09"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q10",
+                "isVis": "xskipout_tob  >=2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_tob  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q10"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

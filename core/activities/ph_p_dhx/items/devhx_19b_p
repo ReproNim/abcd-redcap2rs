@@ -1,0 +1,25 @@
+{
+    "id": "devhx_19b_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_19b_p of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "At approximately what age (number of months) was he/she FIRST able to do each of the following? Sit without assistance? /\u00bfSentarse sin ayuda?"
+    },
+    "question": {
+        "en": "At approximately what age (number of months) was he she FIRST able to do each of the following? Sit without assistance?",
+        "es": "\u00bfSentarse sin ayuda?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

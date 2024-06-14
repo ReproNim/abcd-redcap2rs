@@ -1,0 +1,41 @@
+{
+    "id": "ksads_gad_raw_1949_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_gad_raw_1949_p of mh_p_ksads_gad"
+    },
+    "prefLabel": {
+        "en": "Back then, did your child have any of these other symptoms a lot when he or she worried? Mark all that apply.Feels keyed up"
+    },
+    "question": {
+        "en": "Back then, did your child have any of these other symptoms a lot when he or she worried? Mark all that apply. Feels keyed up"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

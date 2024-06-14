@@ -1,0 +1,41 @@
+{
+    "id": "ksads_adhd_raw_1018_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_adhd_raw_1018_p of mh_p_ksads_adhd"
+    },
+    "prefLabel": {
+        "en": "You reported that your child had the symptoms we've just talked about both currently and in the past. Was there ever a 6 month period when your child didn't have these symptoms?"
+    },
+    "question": {
+        "en": "You reported that your child had the symptoms we've just talked about both currently and in the past. Was there ever a 6 month period when your child didn't have these symptoms?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

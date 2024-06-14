@@ -1,0 +1,53 @@
+{
+    "id": "kbi_y_sex_orient_probs",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_y_sex_orient_probs of mh_y_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "Has this caused any problems for you with your family or with kids at school?"
+    },
+    "question": {
+        "en": "Has this caused any problems for you with your family or with kids at school?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A lot"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr5_covidgeo_sg_ptwork1yrp_db2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr5_covidgeo_sg_ptwork1yrp_db2 of cvd_l_geo_sg"
+    },
+    "prefLabel": {
+        "en": "SafeGraph Device exhibiting Parttime work behavior (1 year prior) by census block ratio. 2 days before from questionnaire dissemenation date"
+    },
+    "question": {
+        "en": "SafeGraph Device exhibiting Parttime work behavior (1 year prior) by census block ratio. 2 days before from questionnaire dissemenation date"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "su_y_hair_length",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_y_hair_length of su_y_hair_tox"
+    },
+    "prefLabel": {
+        "en": "Estimated length of hair"
+    },
+    "question": {
+        "en": "Estimated length of hair"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Short"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Shoulder Length"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Long"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

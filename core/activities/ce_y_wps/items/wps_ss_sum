@@ -1,0 +1,24 @@
+{
+    "id": "wps_ss_sum",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "wps_ss_sum of ce_y_wps"
+    },
+    "prefLabel": {
+        "en": "WPS SumSum[wps_q1_y. wps_q2_y. wps_q3_y,wps_q4_y, wps_q5_y, wps_q6_y]Validation: Minimum of 4 items answered (4 answers other than not applicable = 0)"
+    },
+    "question": {
+        "en": "WPS SumSum[wps_q1_y. wps_q2_y. wps_q3_y,wps_q4_y, wps_q5_y, wps_q6_y]Validation: Minimum of 4 items answered (4 answers other than not applicable = 0)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

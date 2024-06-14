@@ -1,0 +1,24 @@
+{
+    "id": "ksads_eatingdis_raw_377_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_eatingdis_raw_377_p of mh_p_ksads_ed"
+    },
+    "prefLabel": {
+        "en": "You said that in the past two weeks your child had eating binges, when he or she ate way more than they needed to the point of feeling sick. When did this begin?"
+    },
+    "question": {
+        "en": "You said that in the past two weeks your child had eating binges, when he or she ate way more than they needed to the point of feeling sick. When did this begin?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,95 @@
+{
+    "id": "tlfb_6mo_7_mj_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_6mo_7_mj_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "(r) During the past year, how high did you typically get when you smoked marijuana?"
+    },
+    "question": {
+        "en": "(r) During the past year, how high did you typically get when you smoked marijuana?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Sober0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Buzzed2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "High4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Very High6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Going"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "9"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Gone10 / tlfb_6mo_skip_l___9   == '1'"
+                },
+                "value": 10
+            }
+        ],
+        "maxValue": 10,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "fes_22_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fes_22_p of ce_p_fes"
+    },
+    "prefLabel": {
+        "en": "It's hard to blow off steam at home without upsetting somebody.Es dif?cil desahogarse en casa sin que alguien se moleste."
+    },
+    "question": {
+        "en": "It's hard to blow off steam at home without upsetting somebody.",
+        "es": "Es dif? cil desahogarse en casa sin que alguien se moleste."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "True /Verdadera"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "False/ Falsa"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

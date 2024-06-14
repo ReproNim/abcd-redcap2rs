@@ -1,0 +1,53 @@
+{
+    "id": "screentime_12_wknd_min",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screentime_12_wknd_min of nt_y_st"
+    },
+    "prefLabel": {
+        "en": "On a typical weekend day: Visit social media apps (e.g., Snapchat, Facebook, Twitter, Instagram, TikTok, etc.? (Do not include time spent editing photos or videos to post on social media.)"
+    },
+    "question": {
+        "en": "On a typical weekend day: Visit social media apps (e. g. , Snapchat, Facebook, Twitter, Instagram, TikTok, etc. ? (Do not include time spent editing photos or videos to post on social media. )"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "15"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "30"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "45"
+                },
+                "value": 45
+            }
+        ],
+        "maxValue": 45,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

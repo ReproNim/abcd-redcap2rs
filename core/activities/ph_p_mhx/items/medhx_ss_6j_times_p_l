@@ -1,0 +1,24 @@
+{
+    "id": "medhx_ss_6j_times_p_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "medhx_ss_6j_times_p_l of ph_p_mhx"
+    },
+    "prefLabel": {
+        "en": "Knocked Unconscious\nHow many times?"
+    },
+    "question": {
+        "en": "Knocked Unconscious\nHow many times?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

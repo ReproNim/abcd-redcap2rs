@@ -1,0 +1,24 @@
+{
+    "id": "eatq_p_ss_surgency",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "eatq_p_ss_surgency of mh_p_eatq"
+    },
+    "prefLabel": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent surgency mean(eatq_phenx_africa_p, eatq_phenx_ski_slope_p, eatq_phenx_city_move_p, eatq_phenx_sea_dive_p, eatq_phenx_travel_p, eatq_phenx_race_car_p, eatq_phenx_school_excite_p, eatq_phenx_energized_p, eatq_phenx_rides_scared_p)"
+    },
+    "question": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent surgency mean(eatq_phenx_africa_p, eatq_phenx_ski_slope_p, eatq_phenx_city_move_p, eatq_phenx_sea_dive_p, eatq_phenx_travel_p, eatq_phenx_race_car_p, eatq_phenx_school_excite_p, eatq_phenx_energized_p, eatq_phenx_rides_scared_p)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "tlfb_other_use_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_other_use_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Have you used [tlfb_other_txt_l] since your last in person visit [asnt_timestamp_c]."
+    },
+    "question": {
+        "en": "Have you used [tlfb_other_txt_l] since your last in person visit [asnt_timestamp_c]."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No / tlfb_list_l___12"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

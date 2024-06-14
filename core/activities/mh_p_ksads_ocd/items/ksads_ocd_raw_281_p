@@ -1,0 +1,41 @@
+{
+    "id": "ksads_ocd_raw_281_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_ocd_raw_281_p of mh_p_ksads_ocd"
+    },
+    "prefLabel": {
+        "en": "In the past two weeks, has your child had any unwanted or upsetting thoughts or images that kept coming into his or her mind over and over, even though your child didn't want to have them? Mark all that apply.Thoughts that things had to be lined up exactly right or done a special way"
+    },
+    "question": {
+        "en": "In the past two weeks, has your child had any unwanted or upsetting thoughts or images that kept coming into his or her mind over and over, even though your child didn't want to have them? Mark all that apply. Thoughts that things had to be lined up exactly right or done a special way"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

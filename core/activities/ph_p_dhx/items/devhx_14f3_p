@@ -1,0 +1,48 @@
+{
+    "id": "devhx_14f3_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_14f3_p of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "Did he/she have any of the following complications at birth? Required oxygen?/ \u00bfRequiri\u00f3 ox\u00edgeno?"
+    },
+    "question": {
+        "en": "Did he she have any of the following complications at birth? Required oxygen?",
+        "es": "\u00bfRequiri\u00f3 ox\u00edgeno?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes /S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No /No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know/ No lo s\u00e9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

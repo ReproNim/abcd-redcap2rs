@@ -1,0 +1,35 @@
+{
+    "id": "fhx_3h_older_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fhx_3h_older_p of mh_p_fhx"
+    },
+    "prefLabel": {
+        "en": "# of older half siblings # de medio hermanos y hermanas mayores"
+    },
+    "question": {
+        "en": "# of older half siblings # de medio hermanos y hermanas mayores"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "= 1 && ( fhx_3ha_p  > 0 ||  fhx_3hb_p  > 0) && isNull( fhx_3h_older_dk_p___999)"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

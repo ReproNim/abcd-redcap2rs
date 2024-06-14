@@ -1,0 +1,53 @@
+{
+    "id": "screen_12_wknd_min_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screen_12_wknd_min_y of nt_y_st"
+    },
+    "prefLabel": {
+        "en": "How much of this time is on your smartphone?"
+    },
+    "question": {
+        "en": "How much of this time is on your smartphone?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "15"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "30"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "45 ([event-name] = '4_year_follow_up_y_arm_1' AND [screentime_phone_yn] = '1') AND ([screentime_12_wknd_hr] > 0'' OR [screentime_12_wknd_min] > ''0'')''"
+                },
+                "value": 45
+            }
+        ],
+        "maxValue": 45,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "kbi_grades_repeated___6",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_grades_repeated___6 of mh_y_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "Please indicate what grades you repeated in the past:  6, 6th"
+    },
+    "question": {
+        "en": "Please indicate what grades you repeated in the past:  6, 6th"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes  [kbi_y_grade_repeat] = '1' and [event-name] = ''3_year_follow_up_y_arm_1''"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

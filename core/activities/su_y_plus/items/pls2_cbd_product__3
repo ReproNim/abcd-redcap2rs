@@ -1,0 +1,41 @@
+{
+    "id": "pls2_cbd_product__3",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pls2_cbd_product__3 of su_y_plus"
+    },
+    "prefLabel": {
+        "en": "What type of CBD product did you use (Choose all that apply)? 3, Inhaled or smoked product"
+    },
+    "question": {
+        "en": "What type of CBD product did you use (Choose all that apply)? 3, Inhaled or smoked product"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

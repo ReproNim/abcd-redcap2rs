@@ -1,0 +1,47 @@
+{
+    "id": "q12g_pat_uncle4_hospitalized",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "q12g_pat_uncle4_hospitalized of mh_p_fhx"
+    },
+    "prefLabel": {
+        "en": "paternal uncle T\u00edo paterno  (4)"
+    },
+    "question": {
+        "en": "paternal uncle T\u00edo paterno  (4)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Don't know No lo s\u00e9/  famhx_1   == 1 &&  fam_history_12_yes_no   == 1 &&  famhx_2a_p  > 3"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

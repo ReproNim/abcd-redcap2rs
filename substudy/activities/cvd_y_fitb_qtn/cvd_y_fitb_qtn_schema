@@ -1,0 +1,287 @@
+{
+    "id": "cvd_y_fitb_qtn_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Actigraphy in COVID-19"
+    },
+    "prefLabel": {
+        "en": "Cvd_Y_Fitb_Qtn"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/fitbo_wear_survey_date",
+            "items/fitpo_wear",
+            "items/fitpo_taken_off",
+            "items/fitpo_tech_issues",
+            "items/fitpo_check_tracker",
+            "items/fitpo_use_apps",
+            "items/fitpo_overnight_wear",
+            "items/fitpo_sports",
+            "items/fitpo_which_sports",
+            "items/fitbo_when_sport",
+            "items/fitpo_experience",
+            "items/fitpo_activity",
+            "items/fitpo_longer_wear",
+            "items/fitpo_own_tracker",
+            "items/fitpo_past_3_weeks___1",
+            "items/fitpo_past_3_weeks___2",
+            "items/fitpo_past_3_weeks___3",
+            "items/fitpo_past_3_weeks___4",
+            "items/fitpo_past_3_weeks___5",
+            "items/fitpo_past_3_weeks___6",
+            "items/fitpo_cv_situation",
+            "items/fitpo_use_in_past_3_wks",
+            "items/fitpo_sleep_time",
+            "items/fitpo_woken_up",
+            "items/fitpo_sleeping",
+            "items/fitpo_physical_activity",
+            "items/fitpo_how_phys_act___1",
+            "items/fitpo_how_phys_act___2",
+            "items/fitpo_how_phys_act___3",
+            "items/fitpo_how_phys_act___4",
+            "items/fitpo_how_phys_act___5",
+            "items/fitpo_how_phys_act___6",
+            "items/fitpo_how_phys_act___7",
+            "items/fitpo_how_phys_act___8",
+            "items/fitpo_how_phys_act___9",
+            "items/fitpo_how_phys_act___10",
+            "items/fitpo_how_phys_act___11",
+            "items/fitpo_how_phys_act___12"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/fitbo_wear_survey_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitbo_wear_survey_date"
+            },
+            {
+                "isAbout": "items/fitpo_wear",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_wear"
+            },
+            {
+                "isAbout": "items/fitpo_taken_off",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_taken_off"
+            },
+            {
+                "isAbout": "items/fitpo_tech_issues",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_tech_issues"
+            },
+            {
+                "isAbout": "items/fitpo_check_tracker",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_check_tracker"
+            },
+            {
+                "isAbout": "items/fitpo_use_apps",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_use_apps"
+            },
+            {
+                "isAbout": "items/fitpo_overnight_wear",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_overnight_wear"
+            },
+            {
+                "isAbout": "items/fitpo_sports",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_sports"
+            },
+            {
+                "isAbout": "items/fitpo_which_sports",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_which_sports"
+            },
+            {
+                "isAbout": "items/fitbo_when_sport",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitbo_when_sport"
+            },
+            {
+                "isAbout": "items/fitpo_experience",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_experience"
+            },
+            {
+                "isAbout": "items/fitpo_activity",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_activity"
+            },
+            {
+                "isAbout": "items/fitpo_longer_wear",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_longer_wear"
+            },
+            {
+                "isAbout": "items/fitpo_own_tracker",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_own_tracker"
+            },
+            {
+                "isAbout": "items/fitpo_past_3_weeks___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_past_3_weeks___1"
+            },
+            {
+                "isAbout": "items/fitpo_past_3_weeks___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_past_3_weeks___2"
+            },
+            {
+                "isAbout": "items/fitpo_past_3_weeks___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_past_3_weeks___3"
+            },
+            {
+                "isAbout": "items/fitpo_past_3_weeks___4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_past_3_weeks___4"
+            },
+            {
+                "isAbout": "items/fitpo_past_3_weeks___5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_past_3_weeks___5"
+            },
+            {
+                "isAbout": "items/fitpo_past_3_weeks___6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_past_3_weeks___6"
+            },
+            {
+                "isAbout": "items/fitpo_cv_situation",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_cv_situation"
+            },
+            {
+                "isAbout": "items/fitpo_use_in_past_3_wks",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_use_in_past_3_wks"
+            },
+            {
+                "isAbout": "items/fitpo_sleep_time",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_sleep_time"
+            },
+            {
+                "isAbout": "items/fitpo_woken_up",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_woken_up"
+            },
+            {
+                "isAbout": "items/fitpo_sleeping",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_sleeping"
+            },
+            {
+                "isAbout": "items/fitpo_physical_activity",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_physical_activity"
+            },
+            {
+                "isAbout": "items/fitpo_how_phys_act___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_how_phys_act___1"
+            },
+            {
+                "isAbout": "items/fitpo_how_phys_act___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_how_phys_act___2"
+            },
+            {
+                "isAbout": "items/fitpo_how_phys_act___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_how_phys_act___3"
+            },
+            {
+                "isAbout": "items/fitpo_how_phys_act___4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_how_phys_act___4"
+            },
+            {
+                "isAbout": "items/fitpo_how_phys_act___5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_how_phys_act___5"
+            },
+            {
+                "isAbout": "items/fitpo_how_phys_act___6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_how_phys_act___6"
+            },
+            {
+                "isAbout": "items/fitpo_how_phys_act___7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_how_phys_act___7"
+            },
+            {
+                "isAbout": "items/fitpo_how_phys_act___8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_how_phys_act___8"
+            },
+            {
+                "isAbout": "items/fitpo_how_phys_act___9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_how_phys_act___9"
+            },
+            {
+                "isAbout": "items/fitpo_how_phys_act___10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_how_phys_act___10"
+            },
+            {
+                "isAbout": "items/fitpo_how_phys_act___11",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_how_phys_act___11"
+            },
+            {
+                "isAbout": "items/fitpo_how_phys_act___12",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_how_phys_act___12"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "tlfb_mj_puff_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_mj_puff_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "A puff or eaten any marijuana, also called pot, grass, weed or ganja?"
+    },
+    "question": {
+        "en": "A puff or eaten any marijuana, also called pot, grass, weed or ganja?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes / tlfb_mj_l   == '1' ||   tlfb_mj_c_l   == '1'"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

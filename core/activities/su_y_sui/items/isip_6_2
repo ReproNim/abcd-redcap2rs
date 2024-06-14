@@ -1,0 +1,47 @@
+{
+    "id": "isip_6_2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "isip_6_2 of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Do you remember when this happened, or did you find out later (for example: your parents or somebody else told you about it)?"
+    },
+    "question": {
+        "en": "Do you remember when this happened, or did you find out later (for example: your parents or somebody else told you about it)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "I remember it"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I don't remember it - somebody told me about it// You mentioned earlier that you have had a sip of alcohol in the past. I want to ask some more questions about that."
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

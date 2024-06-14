@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr3_coi_z_he_nat",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr3_coi_z_he_nat of led_l_coi"
+    },
+    "prefLabel": {
+        "en": "Z-scores, health and environment domain, nationally-normed: Weighted average of health and environment domain component indicator z-scores, nationally normed."
+    },
+    "question": {
+        "en": "Z-scores, health and environment domain, nationally-normed: Weighted average of health and environment domain component indicator z-scores, nationally normed."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

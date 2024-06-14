@@ -1,0 +1,59 @@
+{
+    "id": "social_media_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "social_media_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "The following questions ask about your use of different forms of media (television, social media, and other internet sources) to check for news related to the coronavirus pandemic in the past week.How often did you look at coronavirus-related social media activity (e.g. Facebook, Twitter, Instagram, TikTok, SnapChat)?"
+    },
+    "question": {
+        "en": "The following questions ask about your use of different forms of media (television, social media, and other internet sources) to check for news related to the coronavirus pandemic in the past week. How often did you look at coronavirus-related social media activity (e. g. Facebook, Twitter, Instagram, TikTok, SnapChat)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Once per day or less"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Several times per day"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Almost every hour"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Several times per hour"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Almost continuously"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

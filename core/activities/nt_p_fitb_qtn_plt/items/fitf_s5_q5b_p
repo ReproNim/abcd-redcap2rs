@@ -1,0 +1,71 @@
+{
+    "id": "fitf_s5_q5b_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fitf_s5_q5b_p of nt_p_fitb_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "On weekends"
+    },
+    "question": {
+        "en": "On weekends"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "5-6 am"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "6-7 am"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "7-8 am"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "8-9 am"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "9-10 am"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "10-11 am"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "11am-12pm"
+                },
+                "value": 7
+            }
+        ],
+        "maxValue": 7,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

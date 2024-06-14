@@ -1,0 +1,24 @@
+{
+    "id": "socialdev_pvict_c9_j___3",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_pvict_c9_j___3 of sd_p_vict"
+    },
+    "prefLabel": {
+        "en": "Did the person who did this use any of these? Stick, rock, bottle, or tool such as a hammer"
+    },
+    "question": {
+        "en": "Did the person who did this use any of these? Stick, rock, bottle, or tool such as a hammer"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

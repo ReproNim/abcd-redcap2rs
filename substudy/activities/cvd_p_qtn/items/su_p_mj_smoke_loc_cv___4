@@ -1,0 +1,41 @@
+{
+    "id": "su_p_mj_smoke_loc_cv___4",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_p_mj_smoke_loc_cv___4 of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Where did you smoke a marijuana or cannabis product? (check all that apply) : 4 Outside"
+    },
+    "question": {
+        "en": "Where did you smoke a marijuana or cannabis product? (check all that apply) : 4 Outside"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No[su_p_mj_smoke_cv] more than 0"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

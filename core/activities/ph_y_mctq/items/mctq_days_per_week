@@ -1,0 +1,71 @@
+{
+    "id": "mctq_days_per_week",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mctq_days_per_week of ph_y_mctq"
+    },
+    "prefLabel": {
+        "en": "I go to school on _____ day(s) per week."
+    },
+    "question": {
+        "en": "I go to school on _____ day(s) per week."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7"
+                },
+                "value": 7
+            }
+        ],
+        "maxValue": 7,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

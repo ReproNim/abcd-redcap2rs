@@ -1,0 +1,54 @@
+{
+    "id": "kbi_p_c_reg_friend_group_len_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_p_c_reg_friend_group_len_l of mh_p_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "How long has your child hung out with them? \u00bfHace cu\u00e1nto tiempo que su ni\u00f1o(a) comparte con ellos?"
+    },
+    "question": {
+        "en": "How long has your child hung out with them?",
+        "es": "\u00bfHace cu\u00e1nto tiempo que su ni\u00f1o(a) comparte con ellos?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than a year Menos de un ano"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1-2 years De 1 a 2 anos"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "More than 3 years Ms de 3 anos"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "tlfb_opi_lt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_opi_lt of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "How many HITS have you used HEROIN, OPIUM, junk, smack, or dope in your life? (# of hits)"
+    },
+    "question": {
+        "en": "How many HITS have you used HEROIN, OPIUM, junk, smack, or dope in your life? (# of hits)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

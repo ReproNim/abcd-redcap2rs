@@ -1,0 +1,42 @@
+{
+    "id": "ears_post_app_1_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ears_post_app_1_p of nt_p_ears_qtn"
+    },
+    "prefLabel": {
+        "en": "Have they used their phone more or less? / \u00bfHa usado su celular m\u00e1s o menos?"
+    },
+    "question": {
+        "en": "Have they used their phone more or less?",
+        "es": "\u00bfHa usado su celular m\u00e1s o menos?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "More / M\u00e1s"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Less / Menos"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

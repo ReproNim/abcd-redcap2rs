@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_d_mn_avg_ol_se_ecd",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_d_mn_avg_ol_se_ecd of led_l_seda_pool_d"
+    },
+    "prefLabel": {
+        "en": "Geographically Defined District SE of Mean Ach, Math&Reading Language Arts, OLS est, CS economically disadvantaged"
+    },
+    "question": {
+        "en": "Geographically Defined District SE of Mean Ach, Math&Reading Language Arts, OLS est, CS economically disadvantaged"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

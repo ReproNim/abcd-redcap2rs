@@ -1,0 +1,54 @@
+{
+    "id": "material_access_cv_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "material_access_cv_p of ph_p_covid"
+    },
+    "prefLabel": {
+        "en": "Were you or your child able to access school provided materials (e.g. online, through pick up, some other way) / \u00bfUsted o su hijo/a pudieron acceder materiales proporcionados por la escuela? (Por internet, recogiendo paquetes de la escuela, o de alguna otra manera)"
+    },
+    "question": {
+        "en": "Were you or your child able to access school provided materials (e. g. online, through pick up, some other way)",
+        "es": "\u00bfUsted o su hijo a pudieron acceder materiales proporcionados por la escuela? (Por internet, recogiendo paquetes de la escuela, o de alguna otra manera)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No / No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes / S\u00ed"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know / No se"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Not applicable / No aplica"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

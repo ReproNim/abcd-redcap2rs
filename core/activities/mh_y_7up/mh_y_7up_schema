@@ -1,0 +1,98 @@
+{
+    "id": "mh_y_7up_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Mood in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_Y_7Up"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sup_1_y",
+            "items/sup_2_y",
+            "items/sup_3_y",
+            "items/sup_4_y",
+            "items/sup_5_y",
+            "items/sup_6_y",
+            "items/sup_7_y",
+            "items/up_admin",
+            "items/sup_y_ss_sum",
+            "items/sup_y_ss_sum_nm",
+            "items/sup_y_ss_sum_nt"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sup_1_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sup_1_y"
+            },
+            {
+                "isAbout": "items/sup_2_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sup_2_y"
+            },
+            {
+                "isAbout": "items/sup_3_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sup_3_y"
+            },
+            {
+                "isAbout": "items/sup_4_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sup_4_y"
+            },
+            {
+                "isAbout": "items/sup_5_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sup_5_y"
+            },
+            {
+                "isAbout": "items/sup_6_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sup_6_y"
+            },
+            {
+                "isAbout": "items/sup_7_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sup_7_y"
+            },
+            {
+                "isAbout": "items/up_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "up_admin"
+            },
+            {
+                "isAbout": "items/sup_y_ss_sum",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sup_y_ss_sum"
+            },
+            {
+                "isAbout": "items/sup_y_ss_sum_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sup_y_ss_sum_nm"
+            },
+            {
+                "isAbout": "items/sup_y_ss_sum_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sup_y_ss_sum_nt"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

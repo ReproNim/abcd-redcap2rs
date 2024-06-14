@@ -1,0 +1,24 @@
+{
+    "id": "upps_y_ss_positive_urgency",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "upps_y_ss_positive_urgency of mh_y_upps"
+    },
+    "prefLabel": {
+        "en": "UPPS-P for Children Short Form (ABCD-version), Positive Urgency: upps35_y + upps36_y + upps37_y + upps39_y; Validation: Minimum of three items answered"
+    },
+    "question": {
+        "en": "UPPS-P for Children Short Form (ABCD-version), Positive Urgency: upps35_y + upps36_y + upps37_y + upps39_y; Validation: Minimum of three items answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

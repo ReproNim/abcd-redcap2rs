@@ -1,0 +1,47 @@
+{
+    "id": "mypi_mj_lst_wk",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mypi_mj_lst_wk of su_y_mypi"
+    },
+    "prefLabel": {
+        "en": "Did you smoke marijuana, pot, grass, weed, or ganja in the last week?"
+    },
+    "question": {
+        "en": "Did you smoke marijuana, pot, grass, weed, or ganja in the last week?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "no"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

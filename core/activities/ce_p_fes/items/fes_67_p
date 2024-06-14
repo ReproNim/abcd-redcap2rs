@@ -1,0 +1,42 @@
+{
+    "id": "fes_67_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fes_67_p of ce_p_fes"
+    },
+    "prefLabel": {
+        "en": "Family members sometimes attend courses or take lessons for some hobby or interest (outside of school).Los miembros de la familia a veces asisten a cursos o toman clases para alg?n pasatiempo o inter?s (fuera de la escuela)."
+    },
+    "question": {
+        "en": "Family members sometimes attend courses or take lessons for some hobby or interest (outside of school). n pasatiempo o inter?",
+        "es": "Los miembros de la familia a veces asisten a cursos o toman clases para alg? s (fuera de la escuela)."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "True /Verdadera"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "False/ Falsa"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

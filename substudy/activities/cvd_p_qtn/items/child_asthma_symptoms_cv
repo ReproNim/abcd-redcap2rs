@@ -1,0 +1,47 @@
+{
+    "id": "child_asthma_symptoms_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "child_asthma_symptoms_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Since March  has your child's asthma symptoms (e.g.  wheezing  coughing  shortness of breath  chest tightness or pain):"
+    },
+    "question": {
+        "en": "Since March  has your child's asthma symptoms (e. g. wheezing  coughing  shortness of breath  chest tightness or pain):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Increased in frequency or severity"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Decreased in frequency or severity"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Stayed the Same[child_diag_asthma_cv] = '2'"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "socialdev_visit_consent_l___1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_visit_consent_l___1 of sd_p_vt"
+    },
+    "prefLabel": {
+        "en": "Did the participant's legal guardian give consent for participation in the Social Development substudy?1, Yes"
+    },
+    "question": {
+        "en": "Did the participant's legal guardian give consent for participation in the Social Development substudy? 1, Yes"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

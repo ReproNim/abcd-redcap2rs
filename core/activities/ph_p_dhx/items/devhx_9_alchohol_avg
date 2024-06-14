@@ -1,0 +1,25 @@
+{
+    "id": "devhx_9_alchohol_avg",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_9_alchohol_avg of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "Knowing of pregnancy. Average drinks per week /\u00bfPromedio de bebidas por semana?"
+    },
+    "question": {
+        "en": "Knowing of pregnancy. Average drinks per week",
+        "es": "\u00bfPromedio de bebidas por semana?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

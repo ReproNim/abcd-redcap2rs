@@ -1,0 +1,24 @@
+{
+    "id": "eatq_p_ss_attention",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "eatq_p_ss_attention of mh_p_eatq"
+    },
+    "prefLabel": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent attention; sum(eatq_phenx_concentrate_p, eatq_phenx_distracted_p, eatq_phenx_try_focus_p, eatq_phenx_peripheral_p, eatq_phenx_sidetracked_p, eatq_phenx_close_attention_p); Validation: Maximum of 1 item missing"
+    },
+    "question": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent attention; sum(eatq_phenx_concentrate_p, eatq_phenx_distracted_p, eatq_phenx_try_focus_p, eatq_phenx_peripheral_p, eatq_phenx_sidetracked_p, eatq_phenx_close_attention_p); Validation: Maximum of 1 item missing"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

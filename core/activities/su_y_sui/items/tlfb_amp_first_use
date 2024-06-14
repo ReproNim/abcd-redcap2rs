@@ -1,0 +1,41 @@
+{
+    "id": "tlfb_amp_first_use",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_amp_first_use of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Was this the first time you tried STIMULANT DRUGS such as AMPHETAMINE, Ritalin, Adderall, ephedrine in any way a doctor did not direct you to use them?"
+    },
+    "question": {
+        "en": "Was this the first time you tried STIMULANT DRUGS such as AMPHETAMINE, Ritalin, Adderall, ephedrine in any way a doctor did not direct you to use them?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No / tlfb_amp_use_l  == '1'  &&  event_name_number  > '11'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

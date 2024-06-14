@@ -1,0 +1,47 @@
+{
+    "id": "mchild_asthma_medi_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mchild_asthma_medi_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "In the past month; has your child's asthma medications changed or has she/he stopped taking some asthma medications?"
+    },
+    "question": {
+        "en": "In the past month; has your child's asthma medications changed or has she he stopped taking some asthma medications?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I don't know [child_diag_asthma_cv] = '2' AND [event-name] = 'covid19_cv6_arm_2'"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

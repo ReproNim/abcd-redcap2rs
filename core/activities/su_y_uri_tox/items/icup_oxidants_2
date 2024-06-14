@@ -1,0 +1,41 @@
+{
+    "id": "icup_oxidants_2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "icup_oxidants_2 of su_y_uri_tox"
+    },
+    "prefLabel": {
+        "en": "Oxidants"
+    },
+    "question": {
+        "en": "Oxidants"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Normal"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Abnormal"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

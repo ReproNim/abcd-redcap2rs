@@ -1,0 +1,24 @@
+{
+    "id": "ksads_eatingdis_raw_1140_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_eatingdis_raw_1140_p of mh_p_ksads_ed"
+    },
+    "prefLabel": {
+        "en": "How long has your child been binge eating at least once a week? Please enter weeks, months, or years."
+    },
+    "question": {
+        "en": "How long has your child been binge eating at least once a week? Please enter weeks, months, or years."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

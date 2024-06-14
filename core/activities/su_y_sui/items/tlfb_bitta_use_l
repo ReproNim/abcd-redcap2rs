@@ -1,0 +1,41 @@
+{
+    "id": "tlfb_bitta_use_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_bitta_use_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Bittamugen or byphoditin"
+    },
+    "question": {
+        "en": "Bittamugen or byphoditin"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes / tlfb_bitta_l   == '1' ||  tlfb_bitta_c_l   == '1'"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

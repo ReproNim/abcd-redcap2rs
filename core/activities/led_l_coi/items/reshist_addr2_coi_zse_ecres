@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr2_coi_zse_ecres",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr2_coi_zse_ecres of led_l_coi"
+    },
+    "prefLabel": {
+        "en": "Economic resource index: combines poverty rate, public assistance rate, homeownership rate, high skill employment, and median household income, transformed to z-scores."
+    },
+    "question": {
+        "en": "Economic resource index: combines poverty rate, public assistance rate, homeownership rate, high skill employment, and median household income, transformed to z-scores."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

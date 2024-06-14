@@ -1,0 +1,41 @@
+{
+    "id": "q5m_full_sib_same1_drugs___3",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "q5m_full_sib_same1_drugs___3 of mh_p_fhx"
+    },
+    "prefLabel": {
+        "en": "full sibling-same age Hermano(a) de doble v\u00c3\u00adnculo- con la misma edad   (1) (Arrests/DUI Arrestos/DUI)"
+    },
+    "question": {
+        "es": "full sibling-same age Hermano(a) de doble v\u00c3\u00adnculo- con la misma edad   (1) (Arrests/DUI Arrestos/DUI)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes /  famhx_1   == 1 &&  fam_history_5_yes_no   == 1 &&  fhx_3c_sibs_same_birth  > 0"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

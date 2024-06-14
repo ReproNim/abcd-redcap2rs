@@ -1,0 +1,53 @@
+{
+    "id": "ocp_prtnr_acs_job_cat_1_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ocp_prtnr_acs_job_cat_1_p of abcd_p_ocp"
+    },
+    "prefLabel": {
+        "en": "Please specify the Management Occupations Job Title:"
+    },
+    "question": {
+        "en": "Please specify the Management Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Top executives (11100)"
+                },
+                "value": 11100
+            },
+            {
+                "name": {
+                    "en": "Advertising=Marketing=Promotions=Public Relations=and Sales Managers (11200)"
+                },
+                "value": 11200
+            },
+            {
+                "name": {
+                    "en": "Operations Specialties Managers (11300)"
+                },
+                "value": 11300
+            },
+            {
+                "name": {
+                    "en": "Other Management Occupations (11900)"
+                },
+                "value": 11900
+            }
+        ],
+        "maxValue": 11900,
+        "minValue": 11100,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

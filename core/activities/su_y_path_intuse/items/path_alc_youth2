@@ -1,0 +1,65 @@
+{
+    "id": "path_alc_youth2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "path_alc_youth2 of su_y_path_intuse"
+    },
+    "prefLabel": {
+        "en": "Have you ever been curious about drinking alcohol?"
+    },
+    "question": {
+        "en": "Have you ever been curious about drinking alcohol?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very curious"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat curious"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A little curious"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Not at all curious"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Refused to answer"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

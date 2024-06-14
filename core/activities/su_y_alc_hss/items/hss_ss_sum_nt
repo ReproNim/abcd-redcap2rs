@@ -1,0 +1,24 @@
+{
+    "id": "hss_ss_sum_nt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "hss_ss_sum_nt of su_y_alc_hss"
+    },
+    "prefLabel": {
+        "en": "HSS Sum number total (Baseline)"
+    },
+    "question": {
+        "en": "HSS Sum number total (Baseline)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

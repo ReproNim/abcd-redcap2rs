@@ -1,0 +1,59 @@
+{
+    "id": "fam_act_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fam_act_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "Over the past week:I participated in family activities..."
+    },
+    "question": {
+        "en": "Over the past week:I participated in family activities. . ."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Occasionally"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Frequently"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very frequently"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "ksads_cdr_540_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_cdr_540_p of mh_p_ksads_cd"
+    },
+    "prefLabel": {
+        "en": "You said that in the past your child often told lies; cut school, got into physical fights with people; and made fun of or picked on other kids. When was that? If this was true of your child for a very long time, let me know when it started."
+    },
+    "question": {
+        "en": "You said that in the past your child often told lies; cut school, got into physical fights with people; and made fun of or picked on other kids. When was that? If this was true of your child for a very long time, let me know when it started."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,35 @@
+{
+    "id": "su_tlfb_vaped_something___1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_tlfb_vaped_something___1 of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Have you vaped something other than nicotine, marijuana, or just flavoring?"
+    },
+    "question": {
+        "en": "Have you vaped something other than nicotine, marijuana, or just flavoring?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Cocaine"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

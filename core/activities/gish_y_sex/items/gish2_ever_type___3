@@ -1,0 +1,41 @@
+{
+    "id": "gish2_ever_type___3",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gish2_ever_type___3 of gish_y_sex"
+    },
+    "prefLabel": {
+        "en": "I have had romantic relationship with... boys"
+    },
+    "question": {
+        "en": "I have had romantic relationship with. . . boys"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

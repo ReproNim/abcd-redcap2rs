@@ -1,0 +1,35 @@
+{
+    "id": "su_des_h3_coc_youth_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_des_h3_coc_youth_p of su_p_dse"
+    },
+    "prefLabel": {
+        "en": "Stimulant drugs such as cocaine, crack cocaine, methamphetamine or amphetamine? Drogas estimulantes como cocaina  crack de cocaina  metanfetaminas o anfetaminas?"
+    },
+    "question": {
+        "en": "Stimulant drugs such as cocaine, crack cocaine, methamphetamine or amphetamine? Drogas estimulantes como cocaina  crack de cocaina  metanfetaminas o anfetaminas?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't Know  /  No se"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 999,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

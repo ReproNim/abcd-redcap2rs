@@ -1,0 +1,41 @@
+{
+    "id": "ksads_suicidal_raw_1127_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_suicidal_raw_1127_p of mh_p_ksads_si"
+    },
+    "prefLabel": {
+        "en": "Did your child think that they had at least some chance of dying as a result?"
+    },
+    "question": {
+        "en": "Did your child think that they had at least some chance of dying as a result?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

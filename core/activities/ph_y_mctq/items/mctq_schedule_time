@@ -1,0 +1,59 @@
+{
+    "id": "mctq_schedule_time",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mctq_schedule_time of ph_y_mctq"
+    },
+    "prefLabel": {
+        "en": "My usual school schedule starts at:"
+    },
+    "question": {
+        "en": "My usual school schedule starts at:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Morning (4:00 AM to 11:59 AM)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Afternoon (12:00 PM Noon to 4:59 PM)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Evening (5:00 PM to 8:59 PM)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Nighttime (9:00 PM to 3:59 AM)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't regularly travel to school / I am home schooled"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

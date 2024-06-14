@@ -1,0 +1,24 @@
+{
+    "id": "screentime_phone_descript",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screentime_phone_descript of nt_y_st"
+    },
+    "prefLabel": {
+        "en": "How much do you agree with the following statements in relation to your cell phone use?"
+    },
+    "question": {
+        "en": "How much do you agree with the following statements in relation to your cell phone use?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

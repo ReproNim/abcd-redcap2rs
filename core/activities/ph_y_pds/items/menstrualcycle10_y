@@ -1,0 +1,59 @@
+{
+    "id": "menstrualcycle10_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "menstrualcycle10_y of ph_y_pds"
+    },
+    "prefLabel": {
+        "en": "How long does your menstrual pain last?"
+    },
+    "question": {
+        "en": "How long does your menstrual pain last?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0 days"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1 day"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2 days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3 days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4 days or more  [pds_f5_y] = '4' and [event-name] = ''3_year_follow_up_y_arm_1''"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_ds_mnavg_mebseecd",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_ds_mnavg_mebseecd of led_l_seda_math_d"
+    },
+    "prefLabel": {
+        "en": "Geo Dist Poolsub (\"pooled by subject\" - within subjects) Geographically Defined District SE of Mean Ach, Math, EB est, CS HLM using SEDA HETOP est economically disadvantaged"
+    },
+    "question": {
+        "en": "Geo Dist Poolsub (\"pooled by subject\" - within subjects) Geographically Defined District SE of Mean Ach, Math, EB est, CS HLM using SEDA HETOP est economically disadvantaged"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

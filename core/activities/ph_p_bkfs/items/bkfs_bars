@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_bars",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_bars of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Breakfast bars, granola bars, Protein bars/Barras de desayuno, barras de granola, barras de prote\u00edna"
+    },
+    "question": {
+        "en": "Breakfast bars, granola bars, Protein bars",
+        "es": "Barras de desayuno, barras de granola, barras de prote\u00edna"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

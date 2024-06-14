@@ -1,0 +1,35 @@
+{
+    "id": "su_p_days_drunk_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_p_days_drunk_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "On how many days were you drunk?"
+    },
+    "question": {
+        "en": "On how many days were you drunk?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "10 or more[su_p_alc_use_cv] more than 0 and ([event_name] = 'covid19_cv2_arm_2' or [event_name] = 'covid19_cv4_arm_2')"
+                },
+                "value": 10
+            }
+        ],
+        "maxValue": 10,
+        "minValue": 10,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

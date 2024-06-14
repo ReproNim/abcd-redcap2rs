@@ -1,0 +1,847 @@
+{
+    "id": "nc_y_nihtb_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Task in Neurocognition"
+    },
+    "prefLabel": {
+        "en": "Nc_Y_Nihtb"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/nihtbx_picvocab_date",
+            "items/nihtbx_picvocab_language",
+            "items/nihtbx_picvocab_uncorrected",
+            "items/nihtbx_picvocab_agecorrected",
+            "items/nihtbx_picvocab_v",
+            "items/nihtbx_flanker_date",
+            "items/nihtbx_flanker_language",
+            "items/nihtbx_flanker_uncorrected",
+            "items/nihtbx_flanker_agecorrected",
+            "items/nihtbx_flanker_v",
+            "items/nihtbx_list_date",
+            "items/nihtbx_list_language",
+            "items/nihtbx_list_uncorrected",
+            "items/nihtbx_list_agecorrected",
+            "items/nihtbx_list_v",
+            "items/nihtbx_cardsort_date",
+            "items/nihtbx_cardsort_language",
+            "items/nihtbx_cardsort_uncorrected",
+            "items/nihtbx_cardsort_agecorrected",
+            "items/nihtbx_cardsort_v",
+            "items/nihtbx_pattern_date",
+            "items/nihtbx_pattern_language",
+            "items/nihtbx_pattern_uncorrected",
+            "items/nihtbx_pattern_agecorrected",
+            "items/nihtbx_pattern_v",
+            "items/nihtbx_picture_date",
+            "items/nihtbx_picture_language",
+            "items/nihtbx_picture_uncorrected",
+            "items/nihtbx_picture_agecorrected",
+            "items/nihtbx_picture_v",
+            "items/nihtbx_reading_date",
+            "items/nihtbx_reading_language",
+            "items/nihtbx_reading_uncorrected",
+            "items/nihtbx_reading_agecorrected",
+            "items/nihtbx_reading_v",
+            "items/nihtbx_fluidcomp_language",
+            "items/nihtbx_fluidcomp_uncorrected",
+            "items/nihtbx_fluidcomp_agecorrected",
+            "items/nihtbx_fluidcomp_v",
+            "items/nihtbx_cryst_language",
+            "items/nihtbx_cryst_uncorrected",
+            "items/nihtbx_cryst_agecorrected",
+            "items/nihtbx_cryst_v",
+            "items/nihtbx_totalcomp_language",
+            "items/nihtbx_totalcomp_uncorrected",
+            "items/nihtbx_totalcomp_agecorrected",
+            "items/nihtbx_totalcomp_v",
+            "items/nihtbx_picvocab_rs",
+            "items/nihtbx_picvocab_theta",
+            "items/nihtbx_picvocab_itmcnt",
+            "items/nihtbx_picvocab_cs",
+            "items/nihtbx_picvocab_fc",
+            "items/nihtbx_flanker_rawscore",
+            "items/nihtbx_flanker_theta",
+            "items/nihtbx_flanker_itmcnt",
+            "items/nihtbx_flanker_cs",
+            "items/nihtbx_flanker_fc",
+            "items/nihtbx_list_rawscore",
+            "items/nihtbx_list_theta",
+            "items/nihtbx_list_itmcnt",
+            "items/nihtbx_list_cs",
+            "items/nihtbx_list_fc",
+            "items/nihtbx_cardsort_rawscore",
+            "items/nihtbx_cardsort_theta",
+            "items/nihtbx_cardsort_itmcnt",
+            "items/nihtbx_cardsort_cs",
+            "items/nihtbx_cardsort_fc",
+            "items/nihtbx_pattern_rawscore",
+            "items/nihtbx_pattern_theta",
+            "items/nihtbx_pattern_itmcnt",
+            "items/nihtbx_pattern_cs",
+            "items/nihtbx_pattern_fc",
+            "items/nihtbx_picture_rawscore",
+            "items/nihtbx_picture_theta",
+            "items/nihtbx_picture_itmcnt",
+            "items/nihtbx_picture_cs",
+            "items/nihtbx_picture_fc",
+            "items/nihtbx_reading_rawscore",
+            "items/nihtbx_reading_theta",
+            "items/nihtbx_reading_itmcnt",
+            "items/nihtbx_reading_cs",
+            "items/nihtbx_reading_fc",
+            "items/nihtbx_fluidcomp_rs",
+            "items/nihtbx_fluidcomp_theta",
+            "items/nihtbx_fluidcomp_itmcnt",
+            "items/nihtbx_fluidcomp_cs",
+            "items/nihtbx_fluidcomp_fc",
+            "items/nihtbx_cryst_rawscore",
+            "items/nihtbx_cryst_theta",
+            "items/nihtbx_cryst_itmcnt",
+            "items/nihtbx_cryst_cs",
+            "items/nihtbx_cryst_fc",
+            "items/nihtbx_totalcomp_rawscore",
+            "items/nihtbx_totalcomp_theta",
+            "items/nihtbx_totalcomp_itmcnt",
+            "items/nihtbx_totalcomp_cs",
+            "items/nihtbx_totalcomp_fc",
+            "items/neurocog_card___1",
+            "items/neurocog_card___2",
+            "items/neurocog_card___3",
+            "items/neurocog_flanker___1",
+            "items/neurocog_flanker___2",
+            "items/neurocog_flanker___3",
+            "items/neurocog_pattern___1",
+            "items/neurocog_pattern___2",
+            "items/neurocog_pattern___3",
+            "items/neurocog_pic_sequence___1",
+            "items/neurocog_pic_sequence___2",
+            "items/neurocog_pic_sequence___3",
+            "items/neurocog_pic_vocab___1",
+            "items/neurocog_pic_vocab___2",
+            "items/neurocog_pic_vocab___3",
+            "items/neurocog_reading___1",
+            "items/neurocog_reading___2",
+            "items/neurocog_reading___3",
+            "items/neurocog_working_mem___1",
+            "items/neurocog_working_mem___2",
+            "items/neurocog_working_mem___3"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/nihtbx_picvocab_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_picvocab_date"
+            },
+            {
+                "isAbout": "items/nihtbx_picvocab_language",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_picvocab_language"
+            },
+            {
+                "isAbout": "items/nihtbx_picvocab_uncorrected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_picvocab_uncorrected"
+            },
+            {
+                "isAbout": "items/nihtbx_picvocab_agecorrected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_picvocab_agecorrected"
+            },
+            {
+                "isAbout": "items/nihtbx_picvocab_v",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_picvocab_v"
+            },
+            {
+                "isAbout": "items/nihtbx_flanker_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_flanker_date"
+            },
+            {
+                "isAbout": "items/nihtbx_flanker_language",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_flanker_language"
+            },
+            {
+                "isAbout": "items/nihtbx_flanker_uncorrected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_flanker_uncorrected"
+            },
+            {
+                "isAbout": "items/nihtbx_flanker_agecorrected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_flanker_agecorrected"
+            },
+            {
+                "isAbout": "items/nihtbx_flanker_v",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_flanker_v"
+            },
+            {
+                "isAbout": "items/nihtbx_list_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_list_date"
+            },
+            {
+                "isAbout": "items/nihtbx_list_language",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_list_language"
+            },
+            {
+                "isAbout": "items/nihtbx_list_uncorrected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_list_uncorrected"
+            },
+            {
+                "isAbout": "items/nihtbx_list_agecorrected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_list_agecorrected"
+            },
+            {
+                "isAbout": "items/nihtbx_list_v",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_list_v"
+            },
+            {
+                "isAbout": "items/nihtbx_cardsort_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_cardsort_date"
+            },
+            {
+                "isAbout": "items/nihtbx_cardsort_language",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_cardsort_language"
+            },
+            {
+                "isAbout": "items/nihtbx_cardsort_uncorrected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_cardsort_uncorrected"
+            },
+            {
+                "isAbout": "items/nihtbx_cardsort_agecorrected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_cardsort_agecorrected"
+            },
+            {
+                "isAbout": "items/nihtbx_cardsort_v",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_cardsort_v"
+            },
+            {
+                "isAbout": "items/nihtbx_pattern_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_pattern_date"
+            },
+            {
+                "isAbout": "items/nihtbx_pattern_language",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_pattern_language"
+            },
+            {
+                "isAbout": "items/nihtbx_pattern_uncorrected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_pattern_uncorrected"
+            },
+            {
+                "isAbout": "items/nihtbx_pattern_agecorrected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_pattern_agecorrected"
+            },
+            {
+                "isAbout": "items/nihtbx_pattern_v",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_pattern_v"
+            },
+            {
+                "isAbout": "items/nihtbx_picture_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_picture_date"
+            },
+            {
+                "isAbout": "items/nihtbx_picture_language",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_picture_language"
+            },
+            {
+                "isAbout": "items/nihtbx_picture_uncorrected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_picture_uncorrected"
+            },
+            {
+                "isAbout": "items/nihtbx_picture_agecorrected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_picture_agecorrected"
+            },
+            {
+                "isAbout": "items/nihtbx_picture_v",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_picture_v"
+            },
+            {
+                "isAbout": "items/nihtbx_reading_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_reading_date"
+            },
+            {
+                "isAbout": "items/nihtbx_reading_language",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_reading_language"
+            },
+            {
+                "isAbout": "items/nihtbx_reading_uncorrected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_reading_uncorrected"
+            },
+            {
+                "isAbout": "items/nihtbx_reading_agecorrected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_reading_agecorrected"
+            },
+            {
+                "isAbout": "items/nihtbx_reading_v",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_reading_v"
+            },
+            {
+                "isAbout": "items/nihtbx_fluidcomp_language",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_fluidcomp_language"
+            },
+            {
+                "isAbout": "items/nihtbx_fluidcomp_uncorrected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_fluidcomp_uncorrected"
+            },
+            {
+                "isAbout": "items/nihtbx_fluidcomp_agecorrected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_fluidcomp_agecorrected"
+            },
+            {
+                "isAbout": "items/nihtbx_fluidcomp_v",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_fluidcomp_v"
+            },
+            {
+                "isAbout": "items/nihtbx_cryst_language",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_cryst_language"
+            },
+            {
+                "isAbout": "items/nihtbx_cryst_uncorrected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_cryst_uncorrected"
+            },
+            {
+                "isAbout": "items/nihtbx_cryst_agecorrected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_cryst_agecorrected"
+            },
+            {
+                "isAbout": "items/nihtbx_cryst_v",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_cryst_v"
+            },
+            {
+                "isAbout": "items/nihtbx_totalcomp_language",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_totalcomp_language"
+            },
+            {
+                "isAbout": "items/nihtbx_totalcomp_uncorrected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_totalcomp_uncorrected"
+            },
+            {
+                "isAbout": "items/nihtbx_totalcomp_agecorrected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_totalcomp_agecorrected"
+            },
+            {
+                "isAbout": "items/nihtbx_totalcomp_v",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_totalcomp_v"
+            },
+            {
+                "isAbout": "items/nihtbx_picvocab_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_picvocab_rs"
+            },
+            {
+                "isAbout": "items/nihtbx_picvocab_theta",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_picvocab_theta"
+            },
+            {
+                "isAbout": "items/nihtbx_picvocab_itmcnt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_picvocab_itmcnt"
+            },
+            {
+                "isAbout": "items/nihtbx_picvocab_cs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_picvocab_cs"
+            },
+            {
+                "isAbout": "items/nihtbx_picvocab_fc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_picvocab_fc"
+            },
+            {
+                "isAbout": "items/nihtbx_flanker_rawscore",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_flanker_rawscore"
+            },
+            {
+                "isAbout": "items/nihtbx_flanker_theta",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_flanker_theta"
+            },
+            {
+                "isAbout": "items/nihtbx_flanker_itmcnt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_flanker_itmcnt"
+            },
+            {
+                "isAbout": "items/nihtbx_flanker_cs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_flanker_cs"
+            },
+            {
+                "isAbout": "items/nihtbx_flanker_fc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_flanker_fc"
+            },
+            {
+                "isAbout": "items/nihtbx_list_rawscore",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_list_rawscore"
+            },
+            {
+                "isAbout": "items/nihtbx_list_theta",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_list_theta"
+            },
+            {
+                "isAbout": "items/nihtbx_list_itmcnt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_list_itmcnt"
+            },
+            {
+                "isAbout": "items/nihtbx_list_cs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_list_cs"
+            },
+            {
+                "isAbout": "items/nihtbx_list_fc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_list_fc"
+            },
+            {
+                "isAbout": "items/nihtbx_cardsort_rawscore",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_cardsort_rawscore"
+            },
+            {
+                "isAbout": "items/nihtbx_cardsort_theta",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_cardsort_theta"
+            },
+            {
+                "isAbout": "items/nihtbx_cardsort_itmcnt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_cardsort_itmcnt"
+            },
+            {
+                "isAbout": "items/nihtbx_cardsort_cs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_cardsort_cs"
+            },
+            {
+                "isAbout": "items/nihtbx_cardsort_fc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_cardsort_fc"
+            },
+            {
+                "isAbout": "items/nihtbx_pattern_rawscore",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_pattern_rawscore"
+            },
+            {
+                "isAbout": "items/nihtbx_pattern_theta",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_pattern_theta"
+            },
+            {
+                "isAbout": "items/nihtbx_pattern_itmcnt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_pattern_itmcnt"
+            },
+            {
+                "isAbout": "items/nihtbx_pattern_cs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_pattern_cs"
+            },
+            {
+                "isAbout": "items/nihtbx_pattern_fc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_pattern_fc"
+            },
+            {
+                "isAbout": "items/nihtbx_picture_rawscore",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_picture_rawscore"
+            },
+            {
+                "isAbout": "items/nihtbx_picture_theta",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_picture_theta"
+            },
+            {
+                "isAbout": "items/nihtbx_picture_itmcnt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_picture_itmcnt"
+            },
+            {
+                "isAbout": "items/nihtbx_picture_cs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_picture_cs"
+            },
+            {
+                "isAbout": "items/nihtbx_picture_fc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_picture_fc"
+            },
+            {
+                "isAbout": "items/nihtbx_reading_rawscore",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_reading_rawscore"
+            },
+            {
+                "isAbout": "items/nihtbx_reading_theta",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_reading_theta"
+            },
+            {
+                "isAbout": "items/nihtbx_reading_itmcnt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_reading_itmcnt"
+            },
+            {
+                "isAbout": "items/nihtbx_reading_cs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_reading_cs"
+            },
+            {
+                "isAbout": "items/nihtbx_reading_fc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_reading_fc"
+            },
+            {
+                "isAbout": "items/nihtbx_fluidcomp_rs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_fluidcomp_rs"
+            },
+            {
+                "isAbout": "items/nihtbx_fluidcomp_theta",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_fluidcomp_theta"
+            },
+            {
+                "isAbout": "items/nihtbx_fluidcomp_itmcnt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_fluidcomp_itmcnt"
+            },
+            {
+                "isAbout": "items/nihtbx_fluidcomp_cs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_fluidcomp_cs"
+            },
+            {
+                "isAbout": "items/nihtbx_fluidcomp_fc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_fluidcomp_fc"
+            },
+            {
+                "isAbout": "items/nihtbx_cryst_rawscore",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_cryst_rawscore"
+            },
+            {
+                "isAbout": "items/nihtbx_cryst_theta",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_cryst_theta"
+            },
+            {
+                "isAbout": "items/nihtbx_cryst_itmcnt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_cryst_itmcnt"
+            },
+            {
+                "isAbout": "items/nihtbx_cryst_cs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_cryst_cs"
+            },
+            {
+                "isAbout": "items/nihtbx_cryst_fc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_cryst_fc"
+            },
+            {
+                "isAbout": "items/nihtbx_totalcomp_rawscore",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_totalcomp_rawscore"
+            },
+            {
+                "isAbout": "items/nihtbx_totalcomp_theta",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_totalcomp_theta"
+            },
+            {
+                "isAbout": "items/nihtbx_totalcomp_itmcnt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_totalcomp_itmcnt"
+            },
+            {
+                "isAbout": "items/nihtbx_totalcomp_cs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_totalcomp_cs"
+            },
+            {
+                "isAbout": "items/nihtbx_totalcomp_fc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nihtbx_totalcomp_fc"
+            },
+            {
+                "isAbout": "items/neurocog_card___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_card___1"
+            },
+            {
+                "isAbout": "items/neurocog_card___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_card___2"
+            },
+            {
+                "isAbout": "items/neurocog_card___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_card___3"
+            },
+            {
+                "isAbout": "items/neurocog_flanker___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_flanker___1"
+            },
+            {
+                "isAbout": "items/neurocog_flanker___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_flanker___2"
+            },
+            {
+                "isAbout": "items/neurocog_flanker___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_flanker___3"
+            },
+            {
+                "isAbout": "items/neurocog_pattern___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_pattern___1"
+            },
+            {
+                "isAbout": "items/neurocog_pattern___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_pattern___2"
+            },
+            {
+                "isAbout": "items/neurocog_pattern___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_pattern___3"
+            },
+            {
+                "isAbout": "items/neurocog_pic_sequence___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_pic_sequence___1"
+            },
+            {
+                "isAbout": "items/neurocog_pic_sequence___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_pic_sequence___2"
+            },
+            {
+                "isAbout": "items/neurocog_pic_sequence___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_pic_sequence___3"
+            },
+            {
+                "isAbout": "items/neurocog_pic_vocab___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_pic_vocab___1"
+            },
+            {
+                "isAbout": "items/neurocog_pic_vocab___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_pic_vocab___2"
+            },
+            {
+                "isAbout": "items/neurocog_pic_vocab___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_pic_vocab___3"
+            },
+            {
+                "isAbout": "items/neurocog_reading___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_reading___1"
+            },
+            {
+                "isAbout": "items/neurocog_reading___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_reading___2"
+            },
+            {
+                "isAbout": "items/neurocog_reading___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_reading___3"
+            },
+            {
+                "isAbout": "items/neurocog_working_mem___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_working_mem___1"
+            },
+            {
+                "isAbout": "items/neurocog_working_mem___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_working_mem___2"
+            },
+            {
+                "isAbout": "items/neurocog_working_mem___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_working_mem___3"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

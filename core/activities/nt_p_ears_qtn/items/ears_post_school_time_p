@@ -1,0 +1,48 @@
+{
+    "id": "ears_post_school_time_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ears_post_school_time_p of nt_p_ears_qtn"
+    },
+    "prefLabel": {
+        "en": "Did they use their smartphone more or less during this time? / \u00bfSu ni\u00f1o(a) us\u00f3 su \"tel\u00e9fono inteligente\" m\u00e1s o menos durante este tiempo?"
+    },
+    "question": {
+        "en": "Did they use their smartphone more or less during this time?",
+        "es": "\u00bfSu ni\u00f1o(a) us\u00f3 su \"tel\u00e9fono inteligente\" m\u00e1s o menos durante este tiempo?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "More / M\u00e1s"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Less / Menos"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No change / No hubo cambio"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

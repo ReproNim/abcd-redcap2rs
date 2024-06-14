@@ -1,0 +1,24 @@
+{
+    "id": "ksads_eatingdis_raw_359_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_eatingdis_raw_359_t of mh_y_ksads_ed"
+    },
+    "prefLabel": {
+        "en": "What is your current height and weight (please make your best guess)?"
+    },
+    "question": {
+        "en": "What is your current height and weight (please make your best guess)?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

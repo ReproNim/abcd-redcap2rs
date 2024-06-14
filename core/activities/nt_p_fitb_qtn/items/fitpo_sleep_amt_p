@@ -1,0 +1,60 @@
+{
+    "id": "fitpo_sleep_amt_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fitpo_sleep_amt_p of nt_p_fitb_qtn"
+    },
+    "prefLabel": {
+        "en": "In your opinion compared to other kids your child's age how much sleep does your child get? / En su opini\u00c3\u00b3n en comparaci\u00c3\u00b3n con otros ni\u00c3\u00b1os de la edad de su hijo/a \u00c2\u00bfcu\u00c3\u00a1nto duerme su hijo/a?"
+    },
+    "question": {
+        "en": "In your opinion compared to other kids your child's age how much sleep does your child get? a?",
+        "es": "En su opini\u00c3\u00b3n en comparaci\u00c3\u00b3n con otros ni\u00c3\u00b1os de la edad de su hijo a \u00c2\u00bfcu\u00c3\u00a1nto duerme su hijo"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Much less / Mucho menos"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A little less / Un poco menos"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "About the same / M\u00c3\u00a1s o menos la misma"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A little more / Un poco m\u00c3\u00a1s"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Much more / Mucho m\u00c3\u00a1s"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,72 @@
+{
+    "id": "irma_meqc_17",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "irma_meqc_17 of irma_y_qtn"
+    },
+    "prefLabel": {
+        "en": "17. Which Social Media platform did you use the most when checking for news related to Hurricane Irma? 17. \u00ac\u00f8Qu\u221a\u00a9 plataforma de medios sociales usA m\u221a\u00b0s al buscar noticias relacionadas con el hurac\u221a\u00b0n?"
+    },
+    "question": {
+        "en": "17. Which Social Media platform did you use the most when checking for news related to Hurricane Irma? 17.",
+        "es": "\u00ac\u00f8Qu\u221a\u00a9 plataforma de medios sociales usA m\u221a\u00b0s al buscar noticias relacionadas con el hurac\u221a\u00b0n?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Facebook Facebook"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Twitter Twitter"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Instagram Instagram"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Snapchat Snapchat"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "YouTube YouTube"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other Otro"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "I did not check any social media platforms for news related to Hurricane Irma No revis\u221a\u00a9 ninguna plataforma de redes sociales para noticias relacionadas con el hurac\u221a\u00b0n Irma"
+                },
+                "value": 7
+            }
+        ],
+        "maxValue": 7,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

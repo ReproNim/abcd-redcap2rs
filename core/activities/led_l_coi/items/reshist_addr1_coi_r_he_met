@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr1_coi_r_he_met",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr1_coi_r_he_met of led_l_coi"
+    },
+    "prefLabel": {
+        "en": "Child Opportunity Scores, health and environment domain, metro-normed: Metro-normed Child Opportunity Scores (from 1 to 100) for the health and environment domain."
+    },
+    "question": {
+        "en": "Child Opportunity Scores, health and environment domain, metro-normed: Metro-normed Child Opportunity Scores (from 1 to 100) for the health and environment domain."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

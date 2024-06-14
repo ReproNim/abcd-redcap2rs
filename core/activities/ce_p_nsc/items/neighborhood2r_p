@@ -1,0 +1,60 @@
+{
+    "id": "neighborhood2r_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "neighborhood2r_p of ce_p_nsc"
+    },
+    "prefLabel": {
+        "en": "Violence is not a problem in my neighborhood./ La violencia no es un problema en mi vecindario."
+    },
+    "question": {
+        "en": "Violence is not a problem in my neighborhood.",
+        "es": "La violencia no es un problema en mi vecindario."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Disagree /Muy en desacuerdo"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Disagree /En desacuerdo"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neutral (neither agree nor disagree)/ Neutral (ni de acuerdo ni en desacuerdo)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Agree /De acuerdo"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly Agree/ Muy de acuerdo//The following questions are about your neighborhood. Your neighborhood is the area within about a 20-minute walk (or about a mile) from your home. For each of the statements please indicate whether you strongly agree, agree, neither agree nor disagree, disagree, or strongly disagree"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

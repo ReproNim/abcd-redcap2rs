@@ -1,0 +1,53 @@
+{
+    "id": "famhx_ss_parent_vs_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "famhx_ss_parent_vs_p of mh_p_fhx"
+    },
+    "prefLabel": {
+        "en": "Overall parents visions of others spying/plotting problem"
+    },
+    "question": {
+        "en": "Overall parents visions of others spying plotting problem"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "none"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "father only"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "mother only"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "both; -1=father missing (mother positive); -2=mother missing (father positive)"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

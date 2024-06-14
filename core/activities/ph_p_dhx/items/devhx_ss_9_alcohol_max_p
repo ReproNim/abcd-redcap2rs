@@ -1,0 +1,24 @@
+{
+    "id": "devhx_ss_9_alcohol_max_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_ss_9_alcohol_max_p of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "Alcohol? \n\nMaximum drinks in one sitting?"
+    },
+    "question": {
+        "en": "Alcohol? Maximum drinks in one sitting?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

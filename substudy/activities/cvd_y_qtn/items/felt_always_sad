@@ -1,0 +1,65 @@
+{
+    "id": "felt_always_sad",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "felt_always_sad of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "In the past week. . . : I could not stop feeling sad"
+    },
+    "question": {
+        "en": "In the past week. . . : I could not stop feeling sad"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Almost Never"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Almost Always"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't know [eventname] = 'covid19_cv1_arm_2' or [eventname] = 'covid19_cv3_arm_2'"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,889 @@
+{
+    "id": "su_y_mypi_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Substance Use in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Mypi"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mypi_alc",
+            "items/mypi_alc_full_drink",
+            "items/mypi_alc_sip",
+            "items/mypi_alc_ceremony_drink",
+            "items/mypi_alc_sip_1b",
+            "items/mypi_alc_drink_used",
+            "items/mypi_alc_sip_use",
+            "items/mypi_alc_drink_pst_mo",
+            "items/mypi_alc_sip_pst_mo",
+            "items/mypi_alc_drink_lst_wk",
+            "items/mypi_alc_sip_lst_wk",
+            "items/mypi_tob",
+            "items/mypi_tob_used",
+            "items/mypi_tob_ceremony",
+            "items/mypi_tob_pst_6mo",
+            "items/mypi_tob_pst_mo",
+            "items/mypi_tob_lst_wk",
+            "items/mypi_ecig",
+            "items/mypi_ecig_nicotine_1",
+            "items/mypi_ecig_pst_6mo",
+            "items/mypi_ecig_pst_mo",
+            "items/mypi_ecig_lst_wk",
+            "items/mypi_chew",
+            "items/mypi_chew_pst_used",
+            "items/mypi_chew_pst_6mo",
+            "items/mypi_chew_pst_mo",
+            "items/mypi_chew_lst_wk",
+            "items/mypi_mj",
+            "items/mypi_mj_30",
+            "items/mypi_mj_used",
+            "items/mypi_mj_pst_6mo",
+            "items/mypi_mj_pst_mo",
+            "items/mypi_mj_lst_wk",
+            "items/mypi_mj_edible",
+            "items/mypi_mj_edible_pst_6mo",
+            "items/mypi_mj_edible_pst_mo",
+            "items/mypi_mj_edible_lst_wk",
+            "items/mypi_mj_oils",
+            "items/mypi_mj_oils_pst_6mo",
+            "items/mypi_mj_oils_pst_mo",
+            "items/mypi_mj_oils_lst_wk",
+            "items/mypi_mj_tinc_used",
+            "items/mypi_mj_tinc_pst_6mo",
+            "items/mypi_mj_tinc_pst_mo",
+            "items/mypi_mj_tinc_lst_wk",
+            "items/mypi_mj_synth_used",
+            "items/mypi_mj_synth_pst_6mo",
+            "items/mypi_mj_synth_pst_mo",
+            "items/mypi_mj_synth_lst_wk",
+            "items/mypi_sniff",
+            "items/mypi_sniff_used",
+            "items/mypi_sniff_pst_6mo",
+            "items/mypi_sniff_pst_mo",
+            "items/mypi_sniff_lst_wk",
+            "items/mypi_pills",
+            "items/mypi_pills_used",
+            "items/mypi_pills_pst_6mo",
+            "items/mypi_pills_pst_mo",
+            "items/mypi_pills_lst_wk",
+            "items/mypi_pills_dep_used",
+            "items/mypi_pills_dep_pst_6mo",
+            "items/mypi_pills_dep_pst_mo",
+            "items/mypi_pills_dep_lst_wk",
+            "items/mypi_pr_used",
+            "items/mypi_pr_pst_6mo",
+            "items/mypi_pr_pst_mo",
+            "items/mypi_pr_lst_wk",
+            "items/mypi_cold_used",
+            "items/mypi_cold_pst_6mo",
+            "items/mypi_cold_pst_mo",
+            "items/mypi_cold_lst_wk",
+            "items/mypi_high_other",
+            "items/mypi_high_other_used",
+            "items/mypi_high_other_pst_6mo",
+            "items/mypi_high_other_pst_mo",
+            "items/mypi_high_other_lst_wk",
+            "items/mypi_completion_date",
+            "items/mypi_mushroom_first",
+            "items/mypi_steroids_first",
+            "items/mypi_ecstasy_used",
+            "items/mypi_mj_oils_vaped",
+            "items/mypi_ketamine_first",
+            "items/mypi_hallucinogen_used",
+            "items/mypi_mj_vape",
+            "items/mypi_mj_oils_vaped_first",
+            "items/mypi_ketamine_used",
+            "items/mypi_ghb_used",
+            "items/mypi_salvia_first",
+            "items/mypi_cathinones_used",
+            "items/mypi_salvia_used",
+            "items/mypi_cathinones_first",
+            "items/mypi_alc_first",
+            "items/mypi_full_cig",
+            "items/mypi_tob_first",
+            "items/mypi_tobo_used",
+            "items/mypi_tobo_first",
+            "items/mypi_cigar_used",
+            "items/mypi_flavoring",
+            "items/mypi_cigar_first",
+            "items/mypi_chew_pst_first",
+            "items/mypi_flavoring_first",
+            "items/mypi_mj_first",
+            "items/mypi_mj_edible_first",
+            "items/mypi_mj_oils_first",
+            "items/mypi_mj_tinc_first",
+            "items/mypi_mj_synth_first",
+            "items/mypi_sniff_first",
+            "items/mypi_pills_first",
+            "items/mypi_mj_vape_first",
+            "items/mypi_pills_dep_first",
+            "items/mypi_pr_first",
+            "items/mypi_coke_used",
+            "items/mypi_coke_first",
+            "items/mypi_meth_used",
+            "items/mypi_meth_first",
+            "items/mypi_heroin_used",
+            "items/mypi_heroin_first",
+            "items/mypi_cold_first",
+            "items/mypi_bypho_first",
+            "items/mypi_ecstasy_first",
+            "items/mypi_steroids_used",
+            "items/mypi_ghb_first",
+            "items/mypi_mushroom_used",
+            "items/mypi_hallucinogen_first"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mypi_alc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_alc"
+            },
+            {
+                "isAbout": "items/mypi_alc_full_drink",
+                "isVis": "mypi_alc   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_alc_full_drink"
+            },
+            {
+                "isAbout": "items/mypi_alc_sip",
+                "isVis": "mypi_alc_full_drink   === '0'",
+                "valueRequired": true,
+                "variableName": "mypi_alc_sip"
+            },
+            {
+                "isAbout": "items/mypi_alc_ceremony_drink",
+                "isVis": "mypi_alc_full_drink   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_alc_ceremony_drink"
+            },
+            {
+                "isAbout": "items/mypi_alc_sip_1b",
+                "isVis": "mypi_alc_sip   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_alc_sip_1b"
+            },
+            {
+                "isAbout": "items/mypi_alc_drink_used",
+                "isVis": "mypi_alc_full_drink   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_alc_drink_used"
+            },
+            {
+                "isAbout": "items/mypi_alc_sip_use",
+                "isVis": "mypi_alc_sip   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_alc_sip_use"
+            },
+            {
+                "isAbout": "items/mypi_alc_drink_pst_mo",
+                "isVis": "mypi_alc_full_drink   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_alc_drink_pst_mo"
+            },
+            {
+                "isAbout": "items/mypi_alc_sip_pst_mo",
+                "isVis": "mypi_alc_sip   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_alc_sip_pst_mo"
+            },
+            {
+                "isAbout": "items/mypi_alc_drink_lst_wk",
+                "isVis": "mypi_alc_drink_pst_mo   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_alc_drink_lst_wk"
+            },
+            {
+                "isAbout": "items/mypi_alc_sip_lst_wk",
+                "isVis": "mypi_alc_sip_pst_mo   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_alc_sip_lst_wk"
+            },
+            {
+                "isAbout": "items/mypi_tob",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_tob"
+            },
+            {
+                "isAbout": "items/mypi_tob_used",
+                "isVis": "mypi_tob   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_tob_used"
+            },
+            {
+                "isAbout": "items/mypi_tob_ceremony",
+                "isVis": "mypi_tob_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_tob_ceremony"
+            },
+            {
+                "isAbout": "items/mypi_tob_pst_6mo",
+                "isVis": "mypi_tob_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_tob_pst_6mo"
+            },
+            {
+                "isAbout": "items/mypi_tob_pst_mo",
+                "isVis": "mypi_tob_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_tob_pst_mo"
+            },
+            {
+                "isAbout": "items/mypi_tob_lst_wk",
+                "isVis": "mypi_tob_pst_mo   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_tob_lst_wk"
+            },
+            {
+                "isAbout": "items/mypi_ecig",
+                "isVis": "mypi_tob_used   === '0'",
+                "valueRequired": true,
+                "variableName": "mypi_ecig"
+            },
+            {
+                "isAbout": "items/mypi_ecig_nicotine_1",
+                "isVis": "mypi_ecig   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_ecig_nicotine_1"
+            },
+            {
+                "isAbout": "items/mypi_ecig_pst_6mo",
+                "isVis": "mypi_ecig   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_ecig_pst_6mo"
+            },
+            {
+                "isAbout": "items/mypi_ecig_pst_mo",
+                "isVis": "mypi_ecig   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_ecig_pst_mo"
+            },
+            {
+                "isAbout": "items/mypi_ecig_lst_wk",
+                "isVis": "mypi_ecig_pst_mo   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_ecig_lst_wk"
+            },
+            {
+                "isAbout": "items/mypi_chew",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_chew"
+            },
+            {
+                "isAbout": "items/mypi_chew_pst_used",
+                "isVis": "mypi_chew   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_chew_pst_used"
+            },
+            {
+                "isAbout": "items/mypi_chew_pst_6mo",
+                "isVis": "mypi_chew_pst_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_chew_pst_6mo"
+            },
+            {
+                "isAbout": "items/mypi_chew_pst_mo",
+                "isVis": "mypi_chew_pst_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_chew_pst_mo"
+            },
+            {
+                "isAbout": "items/mypi_chew_lst_wk",
+                "isVis": "mypi_chew_pst_mo   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_chew_lst_wk"
+            },
+            {
+                "isAbout": "items/mypi_mj",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_mj"
+            },
+            {
+                "isAbout": "items/mypi_mj_30",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_mj_30"
+            },
+            {
+                "isAbout": "items/mypi_mj_used",
+                "isVis": "mypi_mj   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_used"
+            },
+            {
+                "isAbout": "items/mypi_mj_pst_6mo",
+                "isVis": "mypi_mj_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_pst_6mo"
+            },
+            {
+                "isAbout": "items/mypi_mj_pst_mo",
+                "isVis": "mypi_mj_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_pst_mo"
+            },
+            {
+                "isAbout": "items/mypi_mj_lst_wk",
+                "isVis": "mypi_mj_pst_mo   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_lst_wk"
+            },
+            {
+                "isAbout": "items/mypi_mj_edible",
+                "isVis": "mypi_mj   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_edible"
+            },
+            {
+                "isAbout": "items/mypi_mj_edible_pst_6mo",
+                "isVis": "mypi_mj_edible   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_edible_pst_6mo"
+            },
+            {
+                "isAbout": "items/mypi_mj_edible_pst_mo",
+                "isVis": "mypi_mj_edible   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_edible_pst_mo"
+            },
+            {
+                "isAbout": "items/mypi_mj_edible_lst_wk",
+                "isVis": "mypi_mj_edible_pst_mo   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_edible_lst_wk"
+            },
+            {
+                "isAbout": "items/mypi_mj_oils",
+                "isVis": "mypi_mj   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_oils"
+            },
+            {
+                "isAbout": "items/mypi_mj_oils_pst_6mo",
+                "isVis": "mypi_mj_oils   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_oils_pst_6mo"
+            },
+            {
+                "isAbout": "items/mypi_mj_oils_pst_mo",
+                "isVis": "mypi_mj_oils   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_oils_pst_mo"
+            },
+            {
+                "isAbout": "items/mypi_mj_oils_lst_wk",
+                "isVis": "mypi_mj_oils_pst_mo   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_oils_lst_wk"
+            },
+            {
+                "isAbout": "items/mypi_mj_tinc_used",
+                "isVis": "mypi_mj   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_tinc_used"
+            },
+            {
+                "isAbout": "items/mypi_mj_tinc_pst_6mo",
+                "isVis": "mypi_mj_tinc_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_tinc_pst_6mo"
+            },
+            {
+                "isAbout": "items/mypi_mj_tinc_pst_mo",
+                "isVis": "mypi_mj_tinc_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_tinc_pst_mo"
+            },
+            {
+                "isAbout": "items/mypi_mj_tinc_lst_wk",
+                "isVis": "mypi_mj_tinc_pst_mo   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_tinc_lst_wk"
+            },
+            {
+                "isAbout": "items/mypi_mj_synth_used",
+                "isVis": "mypi_mj   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_synth_used"
+            },
+            {
+                "isAbout": "items/mypi_mj_synth_pst_6mo",
+                "isVis": "mypi_mj_synth_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_synth_pst_6mo"
+            },
+            {
+                "isAbout": "items/mypi_mj_synth_pst_mo",
+                "isVis": "mypi_mj_synth_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_synth_pst_mo"
+            },
+            {
+                "isAbout": "items/mypi_mj_synth_lst_wk",
+                "isVis": "mypi_mj_synth_pst_mo   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_synth_lst_wk"
+            },
+            {
+                "isAbout": "items/mypi_sniff",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_sniff"
+            },
+            {
+                "isAbout": "items/mypi_sniff_used",
+                "isVis": "mypi_sniff   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_sniff_used"
+            },
+            {
+                "isAbout": "items/mypi_sniff_pst_6mo",
+                "isVis": "mypi_sniff_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_sniff_pst_6mo"
+            },
+            {
+                "isAbout": "items/mypi_sniff_pst_mo",
+                "isVis": "mypi_sniff_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_sniff_pst_mo"
+            },
+            {
+                "isAbout": "items/mypi_sniff_lst_wk",
+                "isVis": "mypi_sniff_pst_mo   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_sniff_lst_wk"
+            },
+            {
+                "isAbout": "items/mypi_pills",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_pills"
+            },
+            {
+                "isAbout": "items/mypi_pills_used",
+                "isVis": "mypi_pills   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_pills_used"
+            },
+            {
+                "isAbout": "items/mypi_pills_pst_6mo",
+                "isVis": "mypi_pills_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_pills_pst_6mo"
+            },
+            {
+                "isAbout": "items/mypi_pills_pst_mo",
+                "isVis": "mypi_pills_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_pills_pst_mo"
+            },
+            {
+                "isAbout": "items/mypi_pills_lst_wk",
+                "isVis": "mypi_pills_pst_mo   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_pills_lst_wk"
+            },
+            {
+                "isAbout": "items/mypi_pills_dep_used",
+                "isVis": "mypi_pills   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_pills_dep_used"
+            },
+            {
+                "isAbout": "items/mypi_pills_dep_pst_6mo",
+                "isVis": "mypi_pills_dep_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_pills_dep_pst_6mo"
+            },
+            {
+                "isAbout": "items/mypi_pills_dep_pst_mo",
+                "isVis": "mypi_pills_dep_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_pills_dep_pst_mo"
+            },
+            {
+                "isAbout": "items/mypi_pills_dep_lst_wk",
+                "isVis": "mypi_pills_dep_pst_mo   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_pills_dep_lst_wk"
+            },
+            {
+                "isAbout": "items/mypi_pr_used",
+                "isVis": "mypi_pills   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_pr_used"
+            },
+            {
+                "isAbout": "items/mypi_pr_pst_6mo",
+                "isVis": "mypi_pr_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_pr_pst_6mo"
+            },
+            {
+                "isAbout": "items/mypi_pr_pst_mo",
+                "isVis": "mypi_pr_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_pr_pst_mo"
+            },
+            {
+                "isAbout": "items/mypi_pr_lst_wk",
+                "isVis": "mypi_pr_pst_mo   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_pr_lst_wk"
+            },
+            {
+                "isAbout": "items/mypi_cold_used",
+                "isVis": "mypi_pills   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_cold_used"
+            },
+            {
+                "isAbout": "items/mypi_cold_pst_6mo",
+                "isVis": "mypi_cold_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_cold_pst_6mo"
+            },
+            {
+                "isAbout": "items/mypi_cold_pst_mo",
+                "isVis": "mypi_cold_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_cold_pst_mo"
+            },
+            {
+                "isAbout": "items/mypi_cold_lst_wk",
+                "isVis": "mypi_cold_pst_mo   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_cold_lst_wk"
+            },
+            {
+                "isAbout": "items/mypi_high_other",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_high_other"
+            },
+            {
+                "isAbout": "items/mypi_high_other_used",
+                "isVis": "mypi_high_other   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_high_other_used"
+            },
+            {
+                "isAbout": "items/mypi_high_other_pst_6mo",
+                "isVis": "mypi_high_other_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_high_other_pst_6mo"
+            },
+            {
+                "isAbout": "items/mypi_high_other_pst_mo",
+                "isVis": "mypi_high_other_used   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_high_other_pst_mo"
+            },
+            {
+                "isAbout": "items/mypi_high_other_lst_wk",
+                "isVis": "mypi_high_other_pst_mo   === '1'",
+                "valueRequired": true,
+                "variableName": "mypi_high_other_lst_wk"
+            },
+            {
+                "isAbout": "items/mypi_completion_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_completion_date"
+            },
+            {
+                "isAbout": "items/mypi_mushroom_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_mushroom_first"
+            },
+            {
+                "isAbout": "items/mypi_steroids_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_steroids_first"
+            },
+            {
+                "isAbout": "items/mypi_ecstasy_used",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_ecstasy_used"
+            },
+            {
+                "isAbout": "items/mypi_mj_oils_vaped",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_mj_oils_vaped"
+            },
+            {
+                "isAbout": "items/mypi_ketamine_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_ketamine_first"
+            },
+            {
+                "isAbout": "items/mypi_hallucinogen_used",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_hallucinogen_used"
+            },
+            {
+                "isAbout": "items/mypi_mj_vape",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_mj_vape"
+            },
+            {
+                "isAbout": "items/mypi_mj_oils_vaped_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_mj_oils_vaped_first"
+            },
+            {
+                "isAbout": "items/mypi_ketamine_used",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_ketamine_used"
+            },
+            {
+                "isAbout": "items/mypi_ghb_used",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_ghb_used"
+            },
+            {
+                "isAbout": "items/mypi_salvia_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_salvia_first"
+            },
+            {
+                "isAbout": "items/mypi_cathinones_used",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_cathinones_used"
+            },
+            {
+                "isAbout": "items/mypi_salvia_used",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_salvia_used"
+            },
+            {
+                "isAbout": "items/mypi_cathinones_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_cathinones_first"
+            },
+            {
+                "isAbout": "items/mypi_alc_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_alc_first"
+            },
+            {
+                "isAbout": "items/mypi_full_cig",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_full_cig"
+            },
+            {
+                "isAbout": "items/mypi_tob_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_tob_first"
+            },
+            {
+                "isAbout": "items/mypi_tobo_used",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_tobo_used"
+            },
+            {
+                "isAbout": "items/mypi_tobo_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_tobo_first"
+            },
+            {
+                "isAbout": "items/mypi_cigar_used",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_cigar_used"
+            },
+            {
+                "isAbout": "items/mypi_flavoring",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_flavoring"
+            },
+            {
+                "isAbout": "items/mypi_cigar_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_cigar_first"
+            },
+            {
+                "isAbout": "items/mypi_chew_pst_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_chew_pst_first"
+            },
+            {
+                "isAbout": "items/mypi_flavoring_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_flavoring_first"
+            },
+            {
+                "isAbout": "items/mypi_mj_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_mj_first"
+            },
+            {
+                "isAbout": "items/mypi_mj_edible_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_mj_edible_first"
+            },
+            {
+                "isAbout": "items/mypi_mj_oils_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_mj_oils_first"
+            },
+            {
+                "isAbout": "items/mypi_mj_tinc_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_mj_tinc_first"
+            },
+            {
+                "isAbout": "items/mypi_mj_synth_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_mj_synth_first"
+            },
+            {
+                "isAbout": "items/mypi_sniff_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_sniff_first"
+            },
+            {
+                "isAbout": "items/mypi_pills_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_pills_first"
+            },
+            {
+                "isAbout": "items/mypi_mj_vape_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_mj_vape_first"
+            },
+            {
+                "isAbout": "items/mypi_pills_dep_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_pills_dep_first"
+            },
+            {
+                "isAbout": "items/mypi_pr_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_pr_first"
+            },
+            {
+                "isAbout": "items/mypi_coke_used",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_coke_used"
+            },
+            {
+                "isAbout": "items/mypi_coke_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_coke_first"
+            },
+            {
+                "isAbout": "items/mypi_meth_used",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_meth_used"
+            },
+            {
+                "isAbout": "items/mypi_meth_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_meth_first"
+            },
+            {
+                "isAbout": "items/mypi_heroin_used",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_heroin_used"
+            },
+            {
+                "isAbout": "items/mypi_heroin_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_heroin_first"
+            },
+            {
+                "isAbout": "items/mypi_cold_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_cold_first"
+            },
+            {
+                "isAbout": "items/mypi_bypho_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_bypho_first"
+            },
+            {
+                "isAbout": "items/mypi_ecstasy_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_ecstasy_first"
+            },
+            {
+                "isAbout": "items/mypi_steroids_used",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_steroids_used"
+            },
+            {
+                "isAbout": "items/mypi_ghb_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_ghb_first"
+            },
+            {
+                "isAbout": "items/mypi_mushroom_used",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_mushroom_used"
+            },
+            {
+                "isAbout": "items/mypi_hallucinogen_first",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mypi_hallucinogen_first"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

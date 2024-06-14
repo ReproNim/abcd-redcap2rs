@@ -1,0 +1,41 @@
+{
+    "id": "demo_child_time2_v2_dk",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_child_time2_v2_dk of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "About how much time does the child spend at this other household? Approximately how many hours per week \u00ac\u00f8Aproximadamente cu\u221a\u00b0nto tiempo pasa su ni\u221a\u00b1o(a) en ese otro hogar? \u00ac\u00f8Aproximadamente cu\u221a\u00b0ntas horas por semana?"
+    },
+    "question": {
+        "en": "About how much time does the child spend at this other household? Approximately how many hours per week \u00ac\u00f8Aproximadamente cu\u221a\u00b0nto tiempo pasa su ni\u221a\u00b1o(a) en ese otro hogar? \u00ac\u00f8Aproximadamente cu\u221a\u00b0ntas horas por semana?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Dont know No lo s\u221a\u00a9"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer Prefiere no contestar"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 777,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

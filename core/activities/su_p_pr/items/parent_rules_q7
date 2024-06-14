@@ -1,0 +1,66 @@
+{
+    "id": "parent_rules_q7",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "parent_rules_q7 of su_p_pr"
+    },
+    "prefLabel": {
+        "en": "What are the family rules about using marijuana for your son/daughter? /\u00bfCu\u00e1les son las reglas familiares que debe seguir su ni\u00f1o(a) con respecto al consumo de marihuana?"
+    },
+    "question": {
+        "en": "What are the family rules about using marijuana for your son daughter?",
+        "es": "\u00bfCu\u00e1les son las reglas familiares que debe seguir su ni\u00f1o(a) con respecto al consumo de marihuana?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not allowed to use marijuana under any circumstances /No tiene permitido consumir marihuana bajo ninguna circunstancia"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Not allowed to use marijuana in home - no family rules outside home /No tiene permitido consumir marihuana en casa; no hay reglas familiares con respecto al consumo de marihuana fuera de la casa"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Allowed to use marijuana in home with permission /Tiene permitido consumir marihuana en casa"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Allowed to use marijuana in home whenever he/she wants /Tiene permitido consumir marihuana en casa cuando lo desee"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't set rules about marijuana use /No pongo reglas con respecto al consumo de marihuana"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "I haven't made rules yet about my child's marijuana use T/odav\u00eda no le he puesto reglas a mi ni\u00f1o(a) con respecto al consumo de marihuana"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

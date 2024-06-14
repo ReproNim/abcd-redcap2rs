@@ -1,0 +1,24 @@
+{
+    "id": "bkfs_popcornfreq",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_popcornfreq of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Popcorn, Frequency last week"
+    },
+    "question": {
+        "en": "Popcorn, Frequency last week"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

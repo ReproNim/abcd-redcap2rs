@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_d_hsecdnec",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_d_hsecdnec of led_l_seda_demo_d"
+    },
+    "prefLabel": {
+        "en": "Information index between schools:ECD/Non ECD (Geo Dist) CCD the information theory index is computed as the average deviation of each student's school racial diversity from the district-wide racial diversity. Values of 0 indicate no segregation while values of 1 indicate complete segregation. See Theil (1972) for more information"
+    },
+    "question": {
+        "en": "Information index between schools:ECD Non ECD (Geo Dist) CCD the information theory index is computed as the average deviation of each student's school racial diversity from the district-wide racial diversity. Values of 0 indicate no segregation while values of 1 indicate complete segregation. See Theil (1972) for more information"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

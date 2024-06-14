@@ -1,0 +1,25 @@
+{
+    "id": "pls4_date_year_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pls4_date_year_p of su_p_plus"
+    },
+    "prefLabel": {
+        "en": "What is the current time/date: Time(hh:mm) AM/PM Date(dd/mm/yyyy): Hora y fecha actual: Hora (hh:mm) a.m./p.m.  Fecha (dd/mm/aaaa):"
+    },
+    "question": {
+        "en": "What is the current time date: Time(hh:mm) AM PM Date(dd mm m. p. m. Fecha (dd mm aaaa):",
+        "es": "yyyy): Hora y fecha actual: Hora (hh:mm) a."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "irma_hurtep_a11",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "irma_hurtep_a11 of irma_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Were you without power or water for a week or more? \u00ac\u00f8Estabas sin energ\u221a\u2260a o agua durante una semana o m\u221a\u00b0s?"
+    },
+    "question": {
+        "en": "Were you without power or water for a week or more?",
+        "es": "\u00ac\u00f8Estabas sin energ\u221a\u2260a o agua durante una semana o m\u221a\u00b0s?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

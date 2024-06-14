@@ -1,0 +1,71 @@
+{
+    "id": "xskipout_session",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "xskipout_session of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "TLFB Session:"
+    },
+    "question": {
+        "en": "TLFB Session:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Completed in full without disruption"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Completed in full with temporary technical disruption"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Completed in full with temporary privacy disruption"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Completed partially due to technical disruption"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Completed partially due to privacy disruption"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Did not complete due to technical concerns"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Did not complete due to privacy concerns"
+                },
+                "value": 7
+            }
+        ],
+        "maxValue": 7,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

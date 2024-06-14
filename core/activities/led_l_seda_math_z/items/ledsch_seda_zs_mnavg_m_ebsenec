@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_zs_mnavg_m_ebsenec",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_zs_mnavg_m_ebsenec of led_l_seda_math_z"
+    },
+    "prefLabel": {
+        "en": "CZ Poolsub (''pooled by subject'' - within subjects) Commuting Zone SE of Mean Ach, Math, EB est, CS HLM using SEDA HETOP est not disadvantaged economically"
+    },
+    "question": {
+        "en": "CZ Poolsub (''pooled by subject'' - within subjects) Commuting Zone SE of Mean Ach, Math, EB est, CS HLM using SEDA HETOP est not disadvantaged economically"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

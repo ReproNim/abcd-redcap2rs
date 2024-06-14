@@ -1,0 +1,24 @@
+{
+    "id": "reshist_state_immigrant_factor",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_state_immigrant_factor of led_l_biasimm"
+    },
+    "prefLabel": {
+        "en": "State level indicators of immigrant bias from survey and implicit bias measures and state level structural variables"
+    },
+    "question": {
+        "en": "State level indicators of immigrant bias from survey and implicit bias measures and state level structural variables"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

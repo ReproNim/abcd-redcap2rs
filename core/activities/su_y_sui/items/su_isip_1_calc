@@ -1,0 +1,24 @@
+{
+    "id": "su_isip_1_calc",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_isip_1_calc of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "How many total times have you had a sip of alcohol?\n\nIf either  \"Have you heard of \"alcohol ...?\" or \"Have you had a sip ...?\" is not endorsed ,\" values for  \"isip_1\" are missing. Here, these missing values have been replaced with \"0.\""
+    },
+    "question": {
+        "en": "How many total times have you had a sip of alcohol? If either  \"Have you heard of \"alcohol . . . ? \" or \"Have you had a sip . . . ? \" is not endorsed ,\" values for  \"isip_1\" are missing. Here, these missing values have been replaced with \"0. \""
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

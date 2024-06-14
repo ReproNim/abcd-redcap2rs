@@ -1,0 +1,60 @@
+{
+    "id": "meim_1f_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "meim_1f_p of ce_p_meim"
+    },
+    "prefLabel": {
+        "en": "I have spent time trying to find out more about my ethnic group, such as its history, traditions, and customs. He pasado tiempo intentando saber mas sobre mi grupo etnico, como su historia, tradiciones y costumbres."
+    },
+    "question": {
+        "en": "I have spent time trying to find out more about my ethnic group, such as its history, traditions, and customs.",
+        "es": "He pasado tiempo intentando saber mas sobre mi grupo etnico, como su historia, tradiciones y costumbres."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Agree"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Agree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Neutral"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Disagree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Strongly Disagree"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

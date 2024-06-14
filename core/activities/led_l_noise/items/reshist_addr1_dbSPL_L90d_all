@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr1_dbSPL_L90d_all",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr1_dbSPL_L90d_all of led_l_noise"
+    },
+    "prefLabel": {
+        "en": "Residential history derived- L90 daytime existing (all sounds); 7 am \u2013 7 pm"
+    },
+    "question": {
+        "en": "Residential history derived- L90 daytime existing (all sounds); 7 am \u2013 7 pm"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

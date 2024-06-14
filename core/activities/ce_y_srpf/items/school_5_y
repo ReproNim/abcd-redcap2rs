@@ -1,0 +1,53 @@
+{
+    "id": "school_5_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "school_5_y of ce_y_srpf"
+    },
+    "prefLabel": {
+        "en": "There are lots of chances for students in my school to get involved in sports, clubs, or other school activities outside of class."
+    },
+    "question": {
+        "en": "There are lots of chances for students in my school to get involved in sports, clubs, or other school activities outside of class."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "NO!"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "no"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "yes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "YES! //Mark (the BIG) YES! if you think the statement is definitely true for you. Mark (the little) yes if you think the statement is mostly true for you. Mark (the little) no if you think the statement is mostly not true for you. Mark (the BIG) NO! if you think the statement is definitely not true for you"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "sit_scr_script_starttime",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sit_scr_script_starttime of nc_y_sit"
+    },
+    "prefLabel": {
+        "en": "script.starttime:\n\nTime script was started"
+    },
+    "question": {
+        "en": "script. starttime:\n\nTime script was started"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

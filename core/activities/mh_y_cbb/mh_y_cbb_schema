@@ -1,0 +1,91 @@
+{
+    "id": "mh_y_cbb_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Social in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_Y_Cbb"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/cybb_phenx_harm",
+            "items/cybb_phenx_harm_12mo",
+            "items/cybb_phenx_harm_often",
+            "items/cybb_phenx_power",
+            "items/cybb_phenx_harm2",
+            "items/cybb_phenx_harm2_12mo",
+            "items/cybb_phenx_harm2_often",
+            "items/cybb_phenx_power2",
+            "items/cybb_admin",
+            "items/cybb_device"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/cybb_phenx_harm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cybb_phenx_harm"
+            },
+            {
+                "isAbout": "items/cybb_phenx_harm_12mo",
+                "isVis": "cybb_phenx_harm === 1",
+                "valueRequired": true,
+                "variableName": "cybb_phenx_harm_12mo"
+            },
+            {
+                "isAbout": "items/cybb_phenx_harm_often",
+                "isVis": "cybb_phenx_harm_12mo === 1",
+                "valueRequired": true,
+                "variableName": "cybb_phenx_harm_often"
+            },
+            {
+                "isAbout": "items/cybb_phenx_power",
+                "isVis": "cybb_phenx_harm === 1",
+                "valueRequired": true,
+                "variableName": "cybb_phenx_power"
+            },
+            {
+                "isAbout": "items/cybb_phenx_harm2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cybb_phenx_harm2"
+            },
+            {
+                "isAbout": "items/cybb_phenx_harm2_12mo",
+                "isVis": "cybb_phenx_harm2 === 1",
+                "valueRequired": true,
+                "variableName": "cybb_phenx_harm2_12mo"
+            },
+            {
+                "isAbout": "items/cybb_phenx_harm2_often",
+                "isVis": "cybb_phenx_harm2_12mo === 1",
+                "valueRequired": true,
+                "variableName": "cybb_phenx_harm2_often"
+            },
+            {
+                "isAbout": "items/cybb_phenx_power2",
+                "isVis": "cybb_phenx_harm2 === 1",
+                "valueRequired": true,
+                "variableName": "cybb_phenx_power2"
+            },
+            {
+                "isAbout": "items/cybb_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cybb_admin"
+            },
+            {
+                "isAbout": "items/cybb_device",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cybb_device"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

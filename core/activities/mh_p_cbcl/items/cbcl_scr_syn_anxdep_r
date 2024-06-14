@@ -1,0 +1,59 @@
+{
+    "id": "cbcl_scr_syn_anxdep_r",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "cbcl_scr_syn_anxdep_r of mh_p_cbcl"
+    },
+    "prefLabel": {
+        "en": "AnxDep CBCL Syndrome Scale (raw score) = cbcl_q14_p and cbcl_q29_p and cbcl_q30_p and cbcl_q31_p and cbcl_q32_p and cbcl_q33_p and cbcl_q35_p and cbcl_q45_p and cbcl_q50_p and cbcl_q52_p and cbcl_q71_p and cbcl_q91_p and cbcl_q112_p"
+    },
+    "question": {
+        "en": "AnxDep CBCL Syndrome Scale (raw score) = cbcl_q14_p and cbcl_q29_p and cbcl_q30_p and cbcl_q31_p and cbcl_q32_p and cbcl_q33_p and cbcl_q35_p and cbcl_q45_p and cbcl_q50_p and cbcl_q52_p and cbcl_q71_p and cbcl_q91_p and cbcl_q112_p"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Image artifacts prevent radiology read"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "No abnormal findings"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Normal anatomical variant of no clinical significance"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Consider clinical referral"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "=Consider immediate clinical referral"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

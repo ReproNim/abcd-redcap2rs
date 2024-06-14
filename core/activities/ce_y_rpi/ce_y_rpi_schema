@@ -1,0 +1,105 @@
+{
+    "id": "ce_y_rpi_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Peers in Culture & Environment"
+    },
+    "prefLabel": {
+        "en": "Ce_Y_Rpi"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/peerinfluence_q1",
+            "items/peerinfluence_q2",
+            "items/peerinfluence_q3",
+            "items/peerinfluence_q4",
+            "items/peerinfluence_q5",
+            "items/peerinfluence_q6",
+            "items/peerinfluence_q7",
+            "items/peerinfluence_q8",
+            "items/peerinfluence_q9",
+            "items/peerinfluence_q10",
+            "items/peerinfluence_admin",
+            "items/peerinfluence_ss_mean"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/peerinfluence_q1",
+                "isVis": "event_num >= 4",
+                "valueRequired": true,
+                "variableName": "peerinfluence_q1"
+            },
+            {
+                "isAbout": "items/peerinfluence_q2",
+                "isVis": "event_num >= 4",
+                "valueRequired": true,
+                "variableName": "peerinfluence_q2"
+            },
+            {
+                "isAbout": "items/peerinfluence_q3",
+                "isVis": "event_num >= 4",
+                "valueRequired": true,
+                "variableName": "peerinfluence_q3"
+            },
+            {
+                "isAbout": "items/peerinfluence_q4",
+                "isVis": "event_num >= 4",
+                "valueRequired": true,
+                "variableName": "peerinfluence_q4"
+            },
+            {
+                "isAbout": "items/peerinfluence_q5",
+                "isVis": "event_num >= 4",
+                "valueRequired": true,
+                "variableName": "peerinfluence_q5"
+            },
+            {
+                "isAbout": "items/peerinfluence_q6",
+                "isVis": "event_num >= 4",
+                "valueRequired": true,
+                "variableName": "peerinfluence_q6"
+            },
+            {
+                "isAbout": "items/peerinfluence_q7",
+                "isVis": "event_num >= 4",
+                "valueRequired": true,
+                "variableName": "peerinfluence_q7"
+            },
+            {
+                "isAbout": "items/peerinfluence_q8",
+                "isVis": "event_num >= 4",
+                "valueRequired": true,
+                "variableName": "peerinfluence_q8"
+            },
+            {
+                "isAbout": "items/peerinfluence_q9",
+                "isVis": "event_num >= 4",
+                "valueRequired": true,
+                "variableName": "peerinfluence_q9"
+            },
+            {
+                "isAbout": "items/peerinfluence_q10",
+                "isVis": "event_num >= 4",
+                "valueRequired": true,
+                "variableName": "peerinfluence_q10"
+            },
+            {
+                "isAbout": "items/peerinfluence_admin",
+                "isVis": "event_num >= 3",
+                "valueRequired": true,
+                "variableName": "peerinfluence_admin"
+            },
+            {
+                "isAbout": "items/peerinfluence_ss_mean",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peerinfluence_ss_mean"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

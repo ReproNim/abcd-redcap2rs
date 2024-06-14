@@ -1,0 +1,41 @@
+{
+    "id": "ocp_prnt_acs_job_cat_6_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ocp_prnt_acs_job_cat_6_p of abcd_p_ocp"
+    },
+    "prefLabel": {
+        "en": "Please specify the Social Service Occupations Job Title:"
+    },
+    "question": {
+        "en": "Please specify the Social Service Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Counselors=Social Workers=and Other Community and Social Service Specialists"
+                },
+                "value": 21100
+            },
+            {
+                "name": {
+                    "en": "Religious Workers"
+                },
+                "value": 21200
+            }
+        ],
+        "maxValue": 21200,
+        "minValue": 21100,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "demo_yrs_2_no_display_l___1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_yrs_2_no_display_l___1 of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "Prior to 2/28/18, demo_yrs_2a_l and demo_yrs_2b_l only opened if \"less than once a month\" or \"More than once a week\" were chosen,\n Did not display when \"Never,\" \"One to three times a month,\" \"About once a week,\" \"Don't know\" or \"Declined\" were chosen. Those pGUIDs associated with the items that should have displayed are marked as yes. (1, yes)"
+    },
+    "question": {
+        "en": "Prior to 2 28 18, demo_yrs_2a_l and demo_yrs_2b_l only opened if \"less than once a month\" or \"More than once a week\" were chosen,\n Did not display when \"Never,\" \"One to three times a month,\" \"About once a week,\" \"Don't know\" or \"Declined\" were chosen. Those pGUIDs associated with the items that should have displayed are marked as yes. (1, yes)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

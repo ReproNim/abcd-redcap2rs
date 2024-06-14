@@ -1,0 +1,42 @@
+{
+    "id": "led_l_densalc_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Neighborhood Social Factors in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Densalc"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_alcoh_out_dens",
+            "items/reshist_addr2_alcoh_out_dens",
+            "items/reshist_addr3_alcoh_out_dens"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_alcoh_out_dens",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_alcoh_out_dens"
+            },
+            {
+                "isAbout": "items/reshist_addr2_alcoh_out_dens",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_alcoh_out_dens"
+            },
+            {
+                "isAbout": "items/reshist_addr3_alcoh_out_dens",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_alcoh_out_dens"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

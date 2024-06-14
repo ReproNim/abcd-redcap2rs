@@ -1,0 +1,24 @@
+{
+    "id": "su_tlfb_cbd_date1_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_tlfb_cbd_date1_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "When did you first try CBD-only products such as tinctures, oils or edibles not used as your doctor or parent directed?"
+    },
+    "question": {
+        "en": "When did you first try CBD-only products such as tinctures, oils or edibles not used as your doctor or parent directed?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "date"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

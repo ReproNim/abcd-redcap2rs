@@ -1,0 +1,65 @@
+{
+    "id": "pds_m5_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pds_m5_y of ph_y_pds"
+    },
+    "prefLabel": {
+        "en": "Have you begun to grow hair on your face?"
+    },
+    "question": {
+        "en": "Have you begun to grow hair on your face?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Facial hair not yet started growing"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Facial hair has barely started growing"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Facial hair has definitely started"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Facial hair growth seems complete"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

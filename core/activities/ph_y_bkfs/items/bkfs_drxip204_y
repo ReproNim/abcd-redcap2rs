@@ -1,0 +1,24 @@
+{
+    "id": "bkfs_drxip204_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_drxip204_y of ph_y_bkfs"
+    },
+    "prefLabel": {
+        "en": "drxip204"
+    },
+    "question": {
+        "en": "drxip204"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

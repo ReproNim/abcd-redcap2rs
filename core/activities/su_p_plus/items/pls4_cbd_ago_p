@@ -1,0 +1,25 @@
+{
+    "id": "pls4_cbd_ago_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pls4_cbd_ago_p of su_p_plus"
+    },
+    "prefLabel": {
+        "en": "How long ago did h/she last use the CBD product? /Hace cuanto tiempo uso el producto de CBD?"
+    },
+    "question": {
+        "en": "How long ago did h she last use the CBD product?",
+        "es": "Hace cuanto tiempo uso el producto de CBD?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

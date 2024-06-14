@@ -1,0 +1,54 @@
+{
+    "id": "ple_friend_fu_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ple_friend_fu_p of mh_p_le"
+    },
+    "prefLabel": {
+        "en": "Was this a good or bad experience for your child? \u00bfEsto fue una buena o mala experiencia para su ni\u00f1o(a)?"
+    },
+    "question": {
+        "en": "Was this a good or bad experience for your child?",
+        "es": "\u00bfEsto fue una buena o mala experiencia para su ni\u00f1o(a)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mostly good Principalmente bueno"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mostly bad Principalmente malo"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Not applicable No aplicable"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Don't know No s\u00e9"
+                },
+                "value": 7
+            }
+        ],
+        "maxValue": 7,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

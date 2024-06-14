@@ -1,0 +1,60 @@
+{
+    "id": "sleepdisturb2_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sleepdisturb2_p of ph_p_sds"
+    },
+    "prefLabel": {
+        "en": "How long after going to bed does your child usually fall asleep? Despu\u00e9s de acostarse \u00bfgeneralmente cu\u00e1nto tiempo tarda su ni\u00f1o(a) en quedarse dormido(a)?"
+    },
+    "question": {
+        "en": "How long after going to bed does your child usually fall asleep?",
+        "es": "Despu\u00e9s de acostarse \u00bfgeneralmente cu\u00e1nto tiempo tarda su ni\u00f1o(a) en quedarse dormido(a)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than 15 minutes /Menos de 15 minutos"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "15-30 minutes 15 a 30 minutos"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "30-45 minutes /30 a 45 minutos"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "45-60 minutes /45 a 60 minutos"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "More than 60 minutes /M\u00e1s de 60 minutos//Consider each question pertaining to the PAST 6 MONTHS of the child's life"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

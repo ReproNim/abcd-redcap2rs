@@ -1,0 +1,24 @@
+{
+    "id": "tlfb_mj_synth_lt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_mj_synth_lt of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "How many times have you used FAKE MARIJUANA or synthetics such as K2 and spice in your life? (# of times used)"
+    },
+    "question": {
+        "en": "How many times have you used FAKE MARIJUANA or synthetics such as K2 and spice in your life? (# of times used)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

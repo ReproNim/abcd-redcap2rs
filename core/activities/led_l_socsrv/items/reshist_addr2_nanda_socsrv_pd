@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr2_nanda_socsrv_pd",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr2_nanda_socsrv_pd of led_l_socsrv"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - Number of all social services per 1000 people, census tract; NaNDA (addr2)"
+    },
+    "question": {
+        "en": "Residential history derived - Number of all social services per 1000 people, census tract; NaNDA (addr2)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

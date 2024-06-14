@@ -1,0 +1,105 @@
+{
+    "id": "ce_p_pm_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Parenting in Culture & Environment"
+    },
+    "prefLabel": {
+        "en": "Ce_P_Pm"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pm_p_select_language___1",
+            "items/parental_monitor_q1_p",
+            "items/parental_monitor_q2_p",
+            "items/parental_monitor_q3_p",
+            "items/parental_monitor_q4_p",
+            "items/parental_monitor_q5_p",
+            "items/parental_monitor_q6_p",
+            "items/parental_monitor_q7_p",
+            "items/parental_monitor_q8_p",
+            "items/parental_monitor_q9_p",
+            "items/parental_monitor_q10_p",
+            "items/parental_monitor_ss_mean"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pm_p_select_language___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pm_p_select_language___1"
+            },
+            {
+                "isAbout": "items/parental_monitor_q1_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parental_monitor_q1_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parental_monitor_q2_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q3_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parental_monitor_q3_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q4_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parental_monitor_q4_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q5_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parental_monitor_q5_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q6_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parental_monitor_q6_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q7_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parental_monitor_q7_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q8_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parental_monitor_q8_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q9_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parental_monitor_q9_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q10_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parental_monitor_q10_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_ss_mean",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parental_monitor_ss_mean"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

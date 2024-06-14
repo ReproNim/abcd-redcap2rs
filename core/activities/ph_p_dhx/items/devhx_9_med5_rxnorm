@@ -1,0 +1,25 @@
+{
+    "id": "devhx_9_med5_rxnorm",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_9_med5_rxnorm of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "Knowing of pregnancy. Medication 5 Name (please choose the formulation that most closely matches the medication; no need to include dosage)  /Nombre del Medicamento (por favor, elija la formulaci\u00f3n que m\u00e1s se aproxime a la medicaci\u00f3n tomada por su ni\u00f1o(a); no hay necesidad de incluir la dosis)"
+    },
+    "question": {
+        "en": "Knowing of pregnancy. Medication 5 Name (please choose the formulation that most closely matches the medication; no need to include dosage)",
+        "es": "Nombre del Medicamento (por favor, elija la formulaci\u00f3n que m\u00e1s se aproxime a la medicaci\u00f3n tomada por su ni\u00f1o(a); no hay necesidad de incluir la dosis)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

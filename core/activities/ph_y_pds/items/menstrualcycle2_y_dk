@@ -1,0 +1,41 @@
+{
+    "id": "menstrualcycle2_y_dk",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "menstrualcycle2_y_dk of ph_y_pds"
+    },
+    "prefLabel": {
+        "en": "On average, how many days are there between the first day of your period and the first day of your next period? (e.g., 30 days). Don't know"
+    },
+    "question": {
+        "en": "On average, how many days are there between the first day of your period and the first day of your next period? (e. g. , 30 days). Don't know"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 777,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

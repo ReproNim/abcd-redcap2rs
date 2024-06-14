@@ -1,0 +1,53 @@
+{
+    "id": "socialdev_cpd_046_ypi_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_cpd_046_ypi_l of sd_y_pd"
+    },
+    "prefLabel": {
+        "en": "It has happened that I've taken advantage of (used) someone in order to get what I want."
+    },
+    "question": {
+        "en": "It has happened that I've taken advantage of (used) someone in order to get what I want."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Does not apply at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Does not apply well"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Applies fairly well"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Applies very well"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

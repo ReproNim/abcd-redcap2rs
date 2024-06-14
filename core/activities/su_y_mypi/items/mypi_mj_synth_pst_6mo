@@ -1,0 +1,47 @@
+{
+    "id": "mypi_mj_synth_pst_6mo",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mypi_mj_synth_pst_6mo of su_y_mypi"
+    },
+    "prefLabel": {
+        "en": "Did you use \"fake\" marijuana or synthetics such as K2 or spice 5 or more times in the past 6 months, so from last (name of month 6 months ago) until today?"
+    },
+    "question": {
+        "en": "Did you use \"fake\" marijuana or synthetics such as K2 or spice 5 or more times in the past 6 months, so from last (name of month 6 months ago) until today?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "no"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

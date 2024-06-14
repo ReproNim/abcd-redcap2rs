@@ -1,0 +1,24 @@
+{
+    "id": "lmt_scr_correct_num_stimtype1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "lmt_scr_correct_num_stimtype1 of nc_y_lmt"
+    },
+    "prefLabel": {
+        "en": "Count Number Correct Per Stimulus Type (Backward Down Left)"
+    },
+    "question": {
+        "en": "Count Number Correct Per Stimulus Type (Backward Down Left)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

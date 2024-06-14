@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_lunch_meat",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_lunch_meat of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Lunch meat like bologna, ham, Lunchables/Carnes fr\u00edas como bologna, jam\u00f3n, o 'Lunchables'"
+    },
+    "question": {
+        "en": "Lunch meat like bologna, ham, Lunchables",
+        "es": "Carnes fr\u00edas como bologna, jam\u00f3n, o 'Lunchables'"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr1_LODES_joban",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr1_LODES_joban of led_l_lodes"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - Number of jobs for workers with Race: Asian Alone; LODES; census tract (addr1)"
+    },
+    "question": {
+        "en": "Residential history derived - Number of jobs for workers with Race: Asian Alone; LODES; census tract (addr1)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

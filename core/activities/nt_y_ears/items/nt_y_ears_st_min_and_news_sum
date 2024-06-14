@@ -1,0 +1,24 @@
+{
+    "id": "nt_y_ears_st_min_and_news_sum",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nt_y_ears_st_min_and_news_sum of nt_y_ears"
+    },
+    "prefLabel": {
+        "en": "Total duration over tracking period Google Play Store category: News & Magazines (minutes)"
+    },
+    "question": {
+        "en": "Total duration over tracking period Google Play Store category: News & Magazines (minutes)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "gish_y_ss_f_avg",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gish_y_ss_f_avg of gish_y_gi"
+    },
+    "prefLabel": {
+        "en": "GISH Female Gender Averaged (gish_f1_y:gish_f4_y); Validation: No more than 1 item missing or decline"
+    },
+    "question": {
+        "en": "GISH Female Gender Averaged (gish_f1_y:gish_f4_y); Validation: No more than 1 item missing or decline"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

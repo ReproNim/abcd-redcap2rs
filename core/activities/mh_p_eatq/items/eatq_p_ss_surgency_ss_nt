@@ -1,0 +1,24 @@
+{
+    "id": "eatq_p_ss_surgency_ss_nt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "eatq_p_ss_surgency_ss_nt of mh_p_eatq"
+    },
+    "prefLabel": {
+        "en": "Super Scale Surgency Number Total"
+    },
+    "question": {
+        "en": "Super Scale Surgency Number Total"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

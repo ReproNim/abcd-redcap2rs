@@ -1,0 +1,357 @@
+{
+    "id": "nc_y_est_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Task in Neurocognition"
+    },
+    "prefLabel": {
+        "en": "Nc_Y_Est"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/strp_scr_script_startdate",
+            "items/strp_scr_script_starttime",
+            "items/strp_scr_script_subjectid",
+            "items/strp_scr_script_wrong_event",
+            "items/strp_scr_script_session",
+            "items/strp_scr_script_groupid",
+            "items/strp_scr_script_elapsedtime",
+            "items/strp_scr_comp_platform",
+            "items/strp_scr_values_completed",
+            "items/strp_scr_values_keyassign",
+            "items/strp_scr_val_acc_prac1",
+            "items/strp_scr_val_prac1runs",
+            "items/strp_scr_val_acc_prac2",
+            "items/strp_scr_val_prac2runs",
+            "items/strp_scr_acc_all",
+            "items/strp_scr_acc_morecongr",
+            "items/strp_scr_acc_morecongrcongr",
+            "items/strp_scr_acc_morecongrincongr",
+            "items/strp_scr_acc_equal",
+            "items/strp_scr_acc_equalcongr",
+            "items/strp_scr_acc_equalincongr",
+            "items/strp_scr_acc_congr",
+            "items/strp_scr_acc_incongr",
+            "items/strp_scr_mnrt_all",
+            "items/strp_scr_mnrt_morecongr",
+            "items/strp_scr_mnrt_morecongrcongr",
+            "items/strp_scr_mnrt_morecongrincongr",
+            "items/strp_scr_mnrt_eq",
+            "items/strp_scr_mnrt_eqcongr",
+            "items/strp_scr_mnrt_eqincongr",
+            "items/strp_scr_mnrt_congr",
+            "items/strp_scr_mnrt_incongr",
+            "items/strp_scr_conhapfequal_acc",
+            "items/strp_scr_conangfequal_acc",
+            "items/strp_scr_inchapfequal_acc",
+            "items/strp_scr_incangfequal_acc",
+            "items/strp_scr_conhapf75con_acc",
+            "items/strp_scr_conangf75con_acc",
+            "items/strp_scr_inchapf75con_acc",
+            "items/strp_scr_incangf75con_acc",
+            "items/strp_scr_conhapfequal_rt",
+            "items/strp_scr_conangfequal_rt",
+            "items/strp_scr_inchapfequal_rt",
+            "items/strp_scr_incangfequal_rt",
+            "items/strp_scr_conhapf75con_rt",
+            "items/strp_scr_conangf75con_rt",
+            "items/strp_scr_inchapf75con_rt",
+            "items/strp_scr_incangf75con_rt"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/strp_scr_script_startdate",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_script_startdate"
+            },
+            {
+                "isAbout": "items/strp_scr_script_starttime",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_script_starttime"
+            },
+            {
+                "isAbout": "items/strp_scr_script_subjectid",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_script_subjectid"
+            },
+            {
+                "isAbout": "items/strp_scr_script_wrong_event",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_script_wrong_event"
+            },
+            {
+                "isAbout": "items/strp_scr_script_session",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_script_session"
+            },
+            {
+                "isAbout": "items/strp_scr_script_groupid",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_script_groupid"
+            },
+            {
+                "isAbout": "items/strp_scr_script_elapsedtime",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_script_elapsedtime"
+            },
+            {
+                "isAbout": "items/strp_scr_comp_platform",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_comp_platform"
+            },
+            {
+                "isAbout": "items/strp_scr_values_completed",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_values_completed"
+            },
+            {
+                "isAbout": "items/strp_scr_values_keyassign",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_values_keyassign"
+            },
+            {
+                "isAbout": "items/strp_scr_val_acc_prac1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_val_acc_prac1"
+            },
+            {
+                "isAbout": "items/strp_scr_val_prac1runs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_val_prac1runs"
+            },
+            {
+                "isAbout": "items/strp_scr_val_acc_prac2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_val_acc_prac2"
+            },
+            {
+                "isAbout": "items/strp_scr_val_prac2runs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_val_prac2runs"
+            },
+            {
+                "isAbout": "items/strp_scr_acc_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_acc_all"
+            },
+            {
+                "isAbout": "items/strp_scr_acc_morecongr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_acc_morecongr"
+            },
+            {
+                "isAbout": "items/strp_scr_acc_morecongrcongr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_acc_morecongrcongr"
+            },
+            {
+                "isAbout": "items/strp_scr_acc_morecongrincongr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_acc_morecongrincongr"
+            },
+            {
+                "isAbout": "items/strp_scr_acc_equal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_acc_equal"
+            },
+            {
+                "isAbout": "items/strp_scr_acc_equalcongr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_acc_equalcongr"
+            },
+            {
+                "isAbout": "items/strp_scr_acc_equalincongr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_acc_equalincongr"
+            },
+            {
+                "isAbout": "items/strp_scr_acc_congr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_acc_congr"
+            },
+            {
+                "isAbout": "items/strp_scr_acc_incongr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_acc_incongr"
+            },
+            {
+                "isAbout": "items/strp_scr_mnrt_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_mnrt_all"
+            },
+            {
+                "isAbout": "items/strp_scr_mnrt_morecongr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_mnrt_morecongr"
+            },
+            {
+                "isAbout": "items/strp_scr_mnrt_morecongrcongr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_mnrt_morecongrcongr"
+            },
+            {
+                "isAbout": "items/strp_scr_mnrt_morecongrincongr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_mnrt_morecongrincongr"
+            },
+            {
+                "isAbout": "items/strp_scr_mnrt_eq",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_mnrt_eq"
+            },
+            {
+                "isAbout": "items/strp_scr_mnrt_eqcongr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_mnrt_eqcongr"
+            },
+            {
+                "isAbout": "items/strp_scr_mnrt_eqincongr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_mnrt_eqincongr"
+            },
+            {
+                "isAbout": "items/strp_scr_mnrt_congr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_mnrt_congr"
+            },
+            {
+                "isAbout": "items/strp_scr_mnrt_incongr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_mnrt_incongr"
+            },
+            {
+                "isAbout": "items/strp_scr_conhapfequal_acc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_conhapfequal_acc"
+            },
+            {
+                "isAbout": "items/strp_scr_conangfequal_acc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_conangfequal_acc"
+            },
+            {
+                "isAbout": "items/strp_scr_inchapfequal_acc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_inchapfequal_acc"
+            },
+            {
+                "isAbout": "items/strp_scr_incangfequal_acc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_incangfequal_acc"
+            },
+            {
+                "isAbout": "items/strp_scr_conhapf75con_acc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_conhapf75con_acc"
+            },
+            {
+                "isAbout": "items/strp_scr_conangf75con_acc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_conangf75con_acc"
+            },
+            {
+                "isAbout": "items/strp_scr_inchapf75con_acc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_inchapf75con_acc"
+            },
+            {
+                "isAbout": "items/strp_scr_incangf75con_acc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_incangf75con_acc"
+            },
+            {
+                "isAbout": "items/strp_scr_conhapfequal_rt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_conhapfequal_rt"
+            },
+            {
+                "isAbout": "items/strp_scr_conangfequal_rt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_conangfequal_rt"
+            },
+            {
+                "isAbout": "items/strp_scr_inchapfequal_rt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_inchapfequal_rt"
+            },
+            {
+                "isAbout": "items/strp_scr_incangfequal_rt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_incangfequal_rt"
+            },
+            {
+                "isAbout": "items/strp_scr_conhapf75con_rt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_conhapf75con_rt"
+            },
+            {
+                "isAbout": "items/strp_scr_conangf75con_rt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_conangf75con_rt"
+            },
+            {
+                "isAbout": "items/strp_scr_inchapf75con_rt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_inchapf75con_rt"
+            },
+            {
+                "isAbout": "items/strp_scr_incangf75con_rt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strp_scr_incangf75con_rt"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

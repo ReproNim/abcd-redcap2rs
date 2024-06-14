@@ -1,0 +1,24 @@
+{
+    "id": "kbi_y_sex_orient",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_y_sex_orient of gish_y_sex"
+    },
+    "prefLabel": {
+        "en": "Are you gay or bisexual?"
+    },
+    "question": {
+        "en": "Are you gay or bisexual?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

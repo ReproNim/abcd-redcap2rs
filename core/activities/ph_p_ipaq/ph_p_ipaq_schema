@@ -1,0 +1,105 @@
+{
+    "id": "ph_p_ipaq_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Physical Activity in Physical Health"
+    },
+    "prefLabel": {
+        "en": "Ph_P_Ipaq"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ipaq_light_acts_hrs",
+            "items/ipaq_vig_acts_min",
+            "items/ipaq_vig_acts_hrs",
+            "items/ipaq_vig_acts",
+            "items/ipaq_p_select_language___1",
+            "items/ipaq_mod_acts_min",
+            "items/ipaq_mod_acts_hrs",
+            "items/ipaq_mod_acts",
+            "items/ipaq_light_acts_min",
+            "items/ipaq_light_acts",
+            "items/ipaq_inactive_min",
+            "items/ipaq_inactive_hrs"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ipaq_light_acts_hrs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ipaq_light_acts_hrs"
+            },
+            {
+                "isAbout": "items/ipaq_vig_acts_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ipaq_vig_acts_min"
+            },
+            {
+                "isAbout": "items/ipaq_vig_acts_hrs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ipaq_vig_acts_hrs"
+            },
+            {
+                "isAbout": "items/ipaq_vig_acts",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ipaq_vig_acts"
+            },
+            {
+                "isAbout": "items/ipaq_p_select_language___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ipaq_p_select_language___1"
+            },
+            {
+                "isAbout": "items/ipaq_mod_acts_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ipaq_mod_acts_min"
+            },
+            {
+                "isAbout": "items/ipaq_mod_acts_hrs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ipaq_mod_acts_hrs"
+            },
+            {
+                "isAbout": "items/ipaq_mod_acts",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ipaq_mod_acts"
+            },
+            {
+                "isAbout": "items/ipaq_light_acts_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ipaq_light_acts_min"
+            },
+            {
+                "isAbout": "items/ipaq_light_acts",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ipaq_light_acts"
+            },
+            {
+                "isAbout": "items/ipaq_inactive_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ipaq_inactive_min"
+            },
+            {
+                "isAbout": "items/ipaq_inactive_hrs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ipaq_inactive_hrs"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

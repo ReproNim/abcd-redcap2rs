@@ -1,0 +1,54 @@
+{
+    "id": "irma_hurtep_b8",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "irma_hurtep_b8 of irma_p_qtn"
+    },
+    "prefLabel": {
+        "en": "How often did you check reports about the hurricane in the days before the storm? \u00ac\u00f8Con qu\u221a\u00a9 frecuencia revisA los reportes sobre el hurac\u221a\u00b0n en los d\u221a\u2260as antes de la tormenta?"
+    },
+    "question": {
+        "en": "How often did you check reports about the hurricane in the days before the storm?",
+        "es": "\u00ac\u00f8Con qu\u221a\u00a9 frecuencia revisA los reportes sobre el hurac\u221a\u00b0n en los d\u221a\u2260as antes de la tormenta?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all De ningun modo"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "A little Un poco"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A lot Mucho"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A whole lot Muchisimo"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

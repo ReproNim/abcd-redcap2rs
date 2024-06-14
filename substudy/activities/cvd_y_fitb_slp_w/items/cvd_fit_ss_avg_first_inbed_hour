@@ -1,0 +1,35 @@
+{
+    "id": "cvd_fit_ss_avg_first_inbed_hour",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "cvd_fit_ss_avg_first_inbed_hour of cvd_y_fitb_slp_w"
+    },
+    "prefLabel": {
+        "en": "First Minute that the participant was identified as being in-bed (but not necessarily asleep)"
+    },
+    "question": {
+        "en": "First Minute that the participant was identified as being in-bed (but not necessarily asleep)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "noon,  23:59=11:59A"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 0,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "fes_youth_q18",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fes_youth_q18 of ce_y_fes"
+    },
+    "prefLabel": {
+        "en": "There is plenty of time and attention for everyone in our family."
+    },
+    "question": {
+        "en": "There is plenty of time and attention for everyone in our family."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "True"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "False"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "cbd_permission",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "cbd_permission of ph_p_meds"
+    },
+    "prefLabel": {
+        "en": "Has your son/daughter used any CBD (or cannabidiol) products with your or your doctor's permission, such as Epidiolex or other over the counter CBD product, in the past year?  Su hija/hijo ha usado alg?n producto de CBD (cannabidiol) con su permiso o el permiso de su doctor, tales como Epidiolex u otro producto de venta libre de CBD en el ?ltimo a?o?"
+    },
+    "question": {
+        "en": "Has your son daughter used any CBD (or cannabidiol) products with your or your doctor's permission, such as Epidiolex or other over the counter CBD product, in the past year? Su hija hijo ha usado alg? ltimo a? o?",
+        "es": "n producto de CBD (cannabidiol) con su permiso o el permiso de su doctor, tales como Epidiolex u otro producto de venta libre de CBD en el ?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes /Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No /No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "I don?t know/ No lo s?"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

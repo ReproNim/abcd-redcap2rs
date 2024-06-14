@@ -1,0 +1,59 @@
+{
+    "id": "energetic_y_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "energetic_y_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "Please rate how each item describes you now or within the past week. I felt energetic"
+    },
+    "question": {
+        "en": "Please rate how each item describes you now or within the past week. I felt energetic"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not true"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat true"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very true"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

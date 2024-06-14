@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr3_svi_min_20142018",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr3_svi_min_20142018 of led_l_svi"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - Census tract CDC SVI (percentile % minority subcomponent) at tertiary residential address (ACS 2014-2018 5 yr avg)"
+    },
+    "question": {
+        "en": "Residential history derived - Census tract CDC SVI (percentile % minority subcomponent) at tertiary residential address (ACS 2014-2018 5 yr avg)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "pls4_need_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pls4_need_p of su_p_plus"
+    },
+    "prefLabel": {
+        "en": "For RA ONLY: Will Neurocog and/or MRI be completedin Session 4?"
+    },
+    "question": {
+        "en": "For RA ONLY: Will Neurocog and or MRI be completedin Session 4?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

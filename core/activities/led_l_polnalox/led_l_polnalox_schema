@@ -1,0 +1,84 @@
+{
+    "id": "led_l_polnalox_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Policy Vars in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Polnalox"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_anynal",
+            "items/reshist_addr1_nal_protocol_standing",
+            "items/reshist_addr1_nal_Rx_prescriptive_auth",
+            "items/reshist_addr2_anynal",
+            "items/reshist_addr2_nal_protocol_standing",
+            "items/reshist_addr2_nal_Rx_prescriptive_auth",
+            "items/reshist_addr3_anynal",
+            "items/reshist_addr3_nal_protocol_standing",
+            "items/reshist_addr3_nal_Rx_prescriptive_auth"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_anynal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_anynal"
+            },
+            {
+                "isAbout": "items/reshist_addr1_nal_protocol_standing",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_nal_protocol_standing"
+            },
+            {
+                "isAbout": "items/reshist_addr1_nal_Rx_prescriptive_auth",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_nal_Rx_prescriptive_auth"
+            },
+            {
+                "isAbout": "items/reshist_addr2_anynal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_anynal"
+            },
+            {
+                "isAbout": "items/reshist_addr2_nal_protocol_standing",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_nal_protocol_standing"
+            },
+            {
+                "isAbout": "items/reshist_addr2_nal_Rx_prescriptive_auth",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_nal_Rx_prescriptive_auth"
+            },
+            {
+                "isAbout": "items/reshist_addr3_anynal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_anynal"
+            },
+            {
+                "isAbout": "items/reshist_addr3_nal_protocol_standing",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_nal_protocol_standing"
+            },
+            {
+                "isAbout": "items/reshist_addr3_nal_Rx_prescriptive_auth",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_nal_Rx_prescriptive_auth"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "sai_p_mma_p12",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sai_p_mma_p12 of ph_p_saiq"
+    },
+    "prefLabel": {
+        "en": "Mixed Martial Arts: Did your child participate in this activity in the past 12 months? \u00c2\u00bfSu ni\u00c3\u00b1o(a) particip\u00c3\u00b3 en esta actividad en los \u00c3\u00baltimos 12 meses?"
+    },
+    "question": {
+        "en": "Mixed Martial Arts: Did your child participate in this activity in the past 12 months?",
+        "es": "\u00c2\u00bfSu ni\u00c3\u00b1o(a) particip\u00c3\u00b3 en esta actividad en los \u00c3\u00baltimos 12 meses?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

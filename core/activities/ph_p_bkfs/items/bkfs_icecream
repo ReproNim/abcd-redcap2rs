@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_icecream",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_icecream of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Ice cream/Helados (nieve)"
+    },
+    "question": {
+        "en": "Ice cream",
+        "es": "Helados (nieve)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

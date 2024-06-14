@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr5_restaurant_order_dates",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr5_restaurant_order_dates of cvd_l_geo_policy"
+    },
+    "prefLabel": {
+        "en": "Dates of policy changes for Restaurants due to COVID"
+    },
+    "question": {
+        "en": "Dates of policy changes for Restaurants due to COVID"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

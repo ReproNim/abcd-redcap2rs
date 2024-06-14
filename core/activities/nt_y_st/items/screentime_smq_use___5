@@ -1,0 +1,35 @@
+{
+    "id": "screentime_smq_use___5",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screentime_smq_use___5 of nt_y_st"
+    },
+    "prefLabel": {
+        "en": "Which social media sites do you have an account on? Select all that are applicable:  5, YouTube"
+    },
+    "question": {
+        "en": "Which social media sites do you have an account on? Select all that are applicable:  5, YouTube"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes=0 No"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

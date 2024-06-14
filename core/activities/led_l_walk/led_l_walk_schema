@@ -1,0 +1,42 @@
+{
+    "id": "led_l_walk_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Built Environment in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Walk"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_walkindex",
+            "items/reshist_addr2_walkindex",
+            "items/reshist_addr3_walkindex"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_walkindex",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_walkindex"
+            },
+            {
+                "isAbout": "items/reshist_addr2_walkindex",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_walkindex"
+            },
+            {
+                "isAbout": "items/reshist_addr3_walkindex",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_walkindex"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

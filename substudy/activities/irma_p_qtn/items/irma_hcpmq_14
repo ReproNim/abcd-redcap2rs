@@ -1,0 +1,60 @@
+{
+    "id": "irma_hcpmq_14",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "irma_hcpmq_14 of irma_p_qtn"
+    },
+    "prefLabel": {
+        "en": "14. I monitored how much hurricane-related news and media my child was exposed to. 14. Supervis\u221a\u00a9 la cantidad de noticias y medios relacionados con los huracanes a los que mi hijo estuvo expuesto."
+    },
+    "question": {
+        "en": "14. I monitored how much hurricane-related news and media my child was exposed to. 14.",
+        "es": "Supervis\u221a\u00a9 la cantidad de noticias y medios relacionados con los huracanes a los que mi hijo estuvo expuesto."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all like me or my family0 Nada como yo o mi familia0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1 1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat like me or my family2 Algo as\u221a\u2260 como yo o mi familia2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3 3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very much like me or my family4 Muy parecido a m\u221a\u2260 o mi familia4"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

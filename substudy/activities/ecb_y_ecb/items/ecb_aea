@@ -1,0 +1,24 @@
+{
+    "id": "ecb_aea",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ecb_aea of ecb_y_ecb"
+    },
+    "prefLabel": {
+        "en": "AEA:"
+    },
+    "question": {
+        "en": "AEA:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

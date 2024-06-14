@@ -1,0 +1,24 @@
+{
+    "id": "cvd_fit_ss_meet_abcd_rule",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "cvd_fit_ss_meet_abcd_rule of cvd_y_fitb_act_w"
+    },
+    "prefLabel": {
+        "en": "0=no, 1=yes.  ABCD inclusion rule is minimum of 4 days, 1 of which must be a weekend day"
+    },
+    "question": {
+        "es": "0=no, 1=yes.  ABCD inclusion rule is minimum of 4 days, 1 of which must be a weekend day"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

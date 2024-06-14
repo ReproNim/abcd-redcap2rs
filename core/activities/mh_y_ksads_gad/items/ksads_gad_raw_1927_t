@@ -1,0 +1,59 @@
+{
+    "id": "ksads_gad_raw_1927_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_gad_raw_1927_t of mh_y_ksads_gad"
+    },
+    "prefLabel": {
+        "en": "In addition to problems with worrying, how often are the things below true of you?I have muscle tension"
+    },
+    "question": {
+        "en": "In addition to problems with worrying, how often are the things below true of you? I have muscle tension"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Several days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "More than half the days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Nearly every day"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

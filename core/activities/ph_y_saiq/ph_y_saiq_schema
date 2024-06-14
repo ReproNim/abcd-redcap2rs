@@ -1,0 +1,77 @@
+{
+    "id": "ph_y_saiq_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Physical Activity in Physical Health"
+    },
+    "prefLabel": {
+        "en": "Ph_Y_Saiq"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sai_read_hrs_wk_y",
+            "items/sai_readmusic_admin_y",
+            "items/sai_lmusic_y",
+            "items/sai_lmusic_feel_y",
+            "items/sai_lmusic_hrs_day_y",
+            "items/sai_lmusic_studying_y",
+            "items/sai_read_y",
+            "items/sai_read_enjoy_y"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sai_read_hrs_wk_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sai_read_hrs_wk_y"
+            },
+            {
+                "isAbout": "items/sai_readmusic_admin_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sai_readmusic_admin_y"
+            },
+            {
+                "isAbout": "items/sai_lmusic_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sai_lmusic_y"
+            },
+            {
+                "isAbout": "items/sai_lmusic_feel_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sai_lmusic_feel_y"
+            },
+            {
+                "isAbout": "items/sai_lmusic_hrs_day_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sai_lmusic_hrs_day_y"
+            },
+            {
+                "isAbout": "items/sai_lmusic_studying_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sai_lmusic_studying_y"
+            },
+            {
+                "isAbout": "items/sai_read_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sai_read_y"
+            },
+            {
+                "isAbout": "items/sai_read_enjoy_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sai_read_enjoy_y"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

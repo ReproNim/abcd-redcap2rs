@@ -1,0 +1,42 @@
+{
+    "id": "fes_76r_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fes_76r_p of ce_p_fes"
+    },
+    "prefLabel": {
+        "en": "Watching TV is more important than reading in our family.En nuestra familia ver la televisi?n es m?s importante que leer."
+    },
+    "question": {
+        "en": "Watching TV is more important than reading in our family. n es m? s importante que leer.",
+        "es": "En nuestra familia ver la televisi?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "True /Verdadera"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "False/ Falsa"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "kbi_desc_self_3",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_desc_self_3 of gish_y_sex"
+    },
+    "prefLabel": {
+        "en": "Would you describe yourself as:"
+    },
+    "question": {
+        "en": "Would you describe yourself as:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

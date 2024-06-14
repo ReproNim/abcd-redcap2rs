@@ -1,0 +1,24 @@
+{
+    "id": "pds_p_ss_female_category_2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pds_p_ss_female_category_2 of ph_p_pds"
+    },
+    "prefLabel": {
+        "en": "Pubertal Developmental Scale Parent: Female Category - based on sex at birth; pubertdev_sum_p_f = pubertdev_2_p plus pubertdev_f4_p;  1 - prepuberty - pubertdev_sum_p_f  =  2 and pubertdev_f5b_p= 1;  2 - early puberty - pubertdev_sum_p_f  = 3 and pubertdev_f5b_p = 1;  3 - mid puberty -   pubertdev_sum_p_f  > 3  and pubertdev_f5b_p = 1;  4 - late puberty -  pubertdev_sum_p_f   <= 7 and pubertdev_f5b_p = 4 ;  5 - post puberty - pubertdev_sum_p_f  = 8 and pubertdev_f5b_p = 4 ; Validation: All items must be answered"
+    },
+    "question": {
+        "en": "Pubertal Developmental Scale Parent: Female Category - based on sex at birth; pubertdev_sum_p_f = pubertdev_2_p plus pubertdev_f4_p;  1 - prepuberty - pubertdev_sum_p_f  =  2 and pubertdev_f5b_p= 1;  2 - early puberty - pubertdev_sum_p_f  = 3 and pubertdev_f5b_p = 1;  3 - mid puberty -   pubertdev_sum_p_f  > 3  and pubertdev_f5b_p = 1;  4 - late puberty -  pubertdev_sum_p_f   <= 7 and pubertdev_f5b_p = 4 ;  5 - post puberty - pubertdev_sum_p_f  = 8 and pubertdev_f5b_p = 4 ; Validation: All items must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

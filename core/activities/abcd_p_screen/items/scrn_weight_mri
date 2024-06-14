@@ -1,0 +1,41 @@
+{
+    "id": "scrn_weight_mri",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_weight_mri of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Is weight within acceptable range for MRI? (under 250 lbs)"
+    },
+    "question": {
+        "en": "Is weight within acceptable range for MRI? (under 250 lbs)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "No - GO TO END"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

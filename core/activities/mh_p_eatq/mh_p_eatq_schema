@@ -1,0 +1,777 @@
+{
+    "id": "mh_p_eatq_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Temperament/Personality in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_P_Eatq"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/eatq_select_language",
+            "items/eatq_trouble_p",
+            "items/eatq_insult_p",
+            "items/eatq_finish_p",
+            "items/eatq_africa_p",
+            "items/eatq_deal_p",
+            "items/eatq_turn_taking_p",
+            "items/eatq_enjoy_p",
+            "items/eatq_open_present_p",
+            "items/eatq_ski_slope_p",
+            "items/eatq_cry_p",
+            "items/eatq_angry_hit_p",
+            "items/eatq_care_p",
+            "items/eatq_share_p",
+            "items/eatq_before_hw_p",
+            "items/eatq_concentrate_p",
+            "items/eatq_city_move_p",
+            "items/eatq_right_away_p",
+            "items/eatq_spend_time_p",
+            "items/eatq_rude_p",
+            "items/eatq_annoyed_p",
+            "items/eatq_irritated_crit_p",
+            "items/eatq_distracted_p",
+            "items/eatq_impulse_p",
+            "items/eatq_hugs_p",
+            "items/eatq_blame_p",
+            "items/eatq_sad_p",
+            "items/eatq_social_p",
+            "items/eatq_sea_dive_p",
+            "items/eatq_travel_p",
+            "items/eatq_worry_p",
+            "items/eatq_irritated_place_p",
+            "items/eatq_doorslam_p",
+            "items/eatq_hardly_sad_p",
+            "items/eatq_race_car_p",
+            "items/eatq_try_focus_p",
+            "items/eatq_finish_hw_p",
+            "items/eatq_school_excite_p",
+            "items/eatq_early_start_p",
+            "items/eatq_peripheral_p",
+            "items/eatq_energized_p",
+            "items/eatq_makes_fun_p",
+            "items/eatq_no_criticize_p",
+            "items/eatq_close_rel_p",
+            "items/eatq_is_shy_p",
+            "items/eatq_irritated_enjoy_p",
+            "items/eatq_puts_off_p",
+            "items/eatq_laugh_control_p",
+            "items/eatq_attachment_p",
+            "items/eatq_sidetracked_p",
+            "items/eatq_not_shy_p",
+            "items/eatq_friendly_p",
+            "items/eatq_seems_sad_p",
+            "items/eatq_ball_scared_p",
+            "items/eatq_meet_p",
+            "items/eatq_dark_scared_p",
+            "items/eatq_rides_scared_p",
+            "items/eatq_disagree_p",
+            "items/eatq_frustrated_p",
+            "items/eatq_stick_to_plan_p",
+            "items/eatq_close_attention_p",
+            "items/eatq_alone_p",
+            "items/eatq_shy_meet_p",
+            "items/eatq_p_ss_aggression_nm",
+            "items/eatq_p_ss_aggression_nt",
+            "items/eatq_p_ss_attention",
+            "items/eatq_p_ss_attention_nm",
+            "items/eatq_p_ss_attention_nt",
+            "items/eatq_p_ss_depressive_mood",
+            "items/eatq_p_ss_depressive_mood_nm",
+            "items/eatq_p_ss_depressive_mood_nt",
+            "items/eatq_p_ss_effort_cont_ss",
+            "items/eatq_p_ss_effort_cont_ss_nm",
+            "items/eatq_p_ss_effort_cont_ss_nt",
+            "items/eatq_p_ss_fear",
+            "items/eatq_p_ss_fear_nm",
+            "items/eatq_p_ss_fear_nt",
+            "items/eatq_p_ss_frustration",
+            "items/eatq_p_ss_frustration_nm",
+            "items/eatq_p_ss_frustration_nt",
+            "items/eatq_p_ss_inhibitory",
+            "items/eatq_p_ss_inhibitory_nm",
+            "items/eatq_p_ss_inhibitory_nt",
+            "items/eatq_p_ss_activation",
+            "items/eatq_p_ss_neg_affect_ss",
+            "items/eatq_p_ss_neg_affect_ss_nm",
+            "items/eatq_p_ss_neg_affect_ss_nt",
+            "items/eatq_p_ss_shyness",
+            "items/eatq_p_ss_shyness_nm",
+            "items/eatq_p_ss_shyness_nt",
+            "items/eatq_p_ss_surgency",
+            "items/eatq_p_ss_surgency_nm",
+            "items/eatq_p_ss_surgency_nt",
+            "items/eatq_p_ss_surgency_ss",
+            "items/eatq_p_ss_activation_nm",
+            "items/eatq_p_ss_surgency_ss_nm",
+            "items/eatq_p_ss_surgency_ss_nt",
+            "items/gish_p_ss_f_sum2",
+            "items/gish_p_ss_f_sum2_nm",
+            "items/gish_p_ss_f_sum2_nt",
+            "items/gish_p_ss_m_sum2",
+            "items/gish_p_ss_m_sum2_nm",
+            "items/gish_p_ss_m_sum2_nt",
+            "items/eatq_p_ss_activation_nt",
+            "items/eatq_p_ss_affiliation",
+            "items/eatq_p_ss_affiliation_nm",
+            "items/eatq_p_ss_affiliation_nt",
+            "items/eatq_p_ss_aggression"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/eatq_select_language",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_select_language"
+            },
+            {
+                "isAbout": "items/eatq_trouble_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_trouble_p"
+            },
+            {
+                "isAbout": "items/eatq_insult_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_insult_p"
+            },
+            {
+                "isAbout": "items/eatq_finish_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_finish_p"
+            },
+            {
+                "isAbout": "items/eatq_africa_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_africa_p"
+            },
+            {
+                "isAbout": "items/eatq_deal_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_deal_p"
+            },
+            {
+                "isAbout": "items/eatq_turn_taking_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_turn_taking_p"
+            },
+            {
+                "isAbout": "items/eatq_enjoy_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_enjoy_p"
+            },
+            {
+                "isAbout": "items/eatq_open_present_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_open_present_p"
+            },
+            {
+                "isAbout": "items/eatq_ski_slope_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_ski_slope_p"
+            },
+            {
+                "isAbout": "items/eatq_cry_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_cry_p"
+            },
+            {
+                "isAbout": "items/eatq_angry_hit_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_angry_hit_p"
+            },
+            {
+                "isAbout": "items/eatq_care_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_care_p"
+            },
+            {
+                "isAbout": "items/eatq_share_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_share_p"
+            },
+            {
+                "isAbout": "items/eatq_before_hw_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_before_hw_p"
+            },
+            {
+                "isAbout": "items/eatq_concentrate_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_concentrate_p"
+            },
+            {
+                "isAbout": "items/eatq_city_move_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_city_move_p"
+            },
+            {
+                "isAbout": "items/eatq_right_away_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_right_away_p"
+            },
+            {
+                "isAbout": "items/eatq_spend_time_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_spend_time_p"
+            },
+            {
+                "isAbout": "items/eatq_rude_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_rude_p"
+            },
+            {
+                "isAbout": "items/eatq_annoyed_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_annoyed_p"
+            },
+            {
+                "isAbout": "items/eatq_irritated_crit_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_irritated_crit_p"
+            },
+            {
+                "isAbout": "items/eatq_distracted_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_distracted_p"
+            },
+            {
+                "isAbout": "items/eatq_impulse_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_impulse_p"
+            },
+            {
+                "isAbout": "items/eatq_hugs_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_hugs_p"
+            },
+            {
+                "isAbout": "items/eatq_blame_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_blame_p"
+            },
+            {
+                "isAbout": "items/eatq_sad_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_sad_p"
+            },
+            {
+                "isAbout": "items/eatq_social_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_social_p"
+            },
+            {
+                "isAbout": "items/eatq_sea_dive_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_sea_dive_p"
+            },
+            {
+                "isAbout": "items/eatq_travel_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_travel_p"
+            },
+            {
+                "isAbout": "items/eatq_worry_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_worry_p"
+            },
+            {
+                "isAbout": "items/eatq_irritated_place_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_irritated_place_p"
+            },
+            {
+                "isAbout": "items/eatq_doorslam_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_doorslam_p"
+            },
+            {
+                "isAbout": "items/eatq_hardly_sad_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_hardly_sad_p"
+            },
+            {
+                "isAbout": "items/eatq_race_car_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_race_car_p"
+            },
+            {
+                "isAbout": "items/eatq_try_focus_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_try_focus_p"
+            },
+            {
+                "isAbout": "items/eatq_finish_hw_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_finish_hw_p"
+            },
+            {
+                "isAbout": "items/eatq_school_excite_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_school_excite_p"
+            },
+            {
+                "isAbout": "items/eatq_early_start_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_early_start_p"
+            },
+            {
+                "isAbout": "items/eatq_peripheral_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_peripheral_p"
+            },
+            {
+                "isAbout": "items/eatq_energized_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_energized_p"
+            },
+            {
+                "isAbout": "items/eatq_makes_fun_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_makes_fun_p"
+            },
+            {
+                "isAbout": "items/eatq_no_criticize_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_no_criticize_p"
+            },
+            {
+                "isAbout": "items/eatq_close_rel_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_close_rel_p"
+            },
+            {
+                "isAbout": "items/eatq_is_shy_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_is_shy_p"
+            },
+            {
+                "isAbout": "items/eatq_irritated_enjoy_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_irritated_enjoy_p"
+            },
+            {
+                "isAbout": "items/eatq_puts_off_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_puts_off_p"
+            },
+            {
+                "isAbout": "items/eatq_laugh_control_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_laugh_control_p"
+            },
+            {
+                "isAbout": "items/eatq_attachment_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_attachment_p"
+            },
+            {
+                "isAbout": "items/eatq_sidetracked_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_sidetracked_p"
+            },
+            {
+                "isAbout": "items/eatq_not_shy_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_not_shy_p"
+            },
+            {
+                "isAbout": "items/eatq_friendly_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_friendly_p"
+            },
+            {
+                "isAbout": "items/eatq_seems_sad_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_seems_sad_p"
+            },
+            {
+                "isAbout": "items/eatq_ball_scared_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_ball_scared_p"
+            },
+            {
+                "isAbout": "items/eatq_meet_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_meet_p"
+            },
+            {
+                "isAbout": "items/eatq_dark_scared_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_dark_scared_p"
+            },
+            {
+                "isAbout": "items/eatq_rides_scared_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_rides_scared_p"
+            },
+            {
+                "isAbout": "items/eatq_disagree_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_disagree_p"
+            },
+            {
+                "isAbout": "items/eatq_frustrated_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_frustrated_p"
+            },
+            {
+                "isAbout": "items/eatq_stick_to_plan_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_stick_to_plan_p"
+            },
+            {
+                "isAbout": "items/eatq_close_attention_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_close_attention_p"
+            },
+            {
+                "isAbout": "items/eatq_alone_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_alone_p"
+            },
+            {
+                "isAbout": "items/eatq_shy_meet_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_shy_meet_p"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_aggression_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_aggression_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_aggression_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_aggression_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_attention",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_attention"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_attention_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_attention_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_attention_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_attention_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_depressive_mood",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_depressive_mood"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_depressive_mood_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_depressive_mood_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_depressive_mood_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_depressive_mood_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_effort_cont_ss",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_effort_cont_ss"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_effort_cont_ss_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_effort_cont_ss_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_effort_cont_ss_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_effort_cont_ss_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_fear",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_fear"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_fear_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_fear_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_fear_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_fear_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_frustration",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_frustration"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_frustration_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_frustration_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_frustration_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_frustration_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_inhibitory",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_inhibitory"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_inhibitory_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_inhibitory_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_inhibitory_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_inhibitory_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_activation",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_activation"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_neg_affect_ss",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_neg_affect_ss"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_neg_affect_ss_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_neg_affect_ss_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_neg_affect_ss_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_neg_affect_ss_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_shyness",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_shyness"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_shyness_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_shyness_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_shyness_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_shyness_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_surgency",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_surgency"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_surgency_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_surgency_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_surgency_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_surgency_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_surgency_ss",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_surgency_ss"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_activation_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_activation_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_surgency_ss_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_surgency_ss_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_surgency_ss_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_surgency_ss_nt"
+            },
+            {
+                "isAbout": "items/gish_p_ss_f_sum2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish_p_ss_f_sum2"
+            },
+            {
+                "isAbout": "items/gish_p_ss_f_sum2_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish_p_ss_f_sum2_nm"
+            },
+            {
+                "isAbout": "items/gish_p_ss_f_sum2_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish_p_ss_f_sum2_nt"
+            },
+            {
+                "isAbout": "items/gish_p_ss_m_sum2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish_p_ss_m_sum2"
+            },
+            {
+                "isAbout": "items/gish_p_ss_m_sum2_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish_p_ss_m_sum2_nm"
+            },
+            {
+                "isAbout": "items/gish_p_ss_m_sum2_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish_p_ss_m_sum2_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_activation_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_activation_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_affiliation",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_affiliation"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_affiliation_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_affiliation_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_affiliation_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_affiliation_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_aggression",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "eatq_p_ss_aggression"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

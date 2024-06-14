@@ -1,0 +1,47 @@
+{
+    "id": "tlfb_6mo_4_ecig",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_6mo_4_ecig of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "In the past six months, did you typically use a closed (one you throw away) or a re-chargeable (one with a battery) e-cigarette?"
+    },
+    "question": {
+        "en": "In the past six months, did you typically use a closed (one you throw away) or a re-chargeable (one with a battery) e-cigarette?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Disposable (throw-away)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Re-chargeable"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

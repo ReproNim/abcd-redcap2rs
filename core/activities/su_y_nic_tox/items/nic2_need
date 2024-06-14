@@ -1,0 +1,41 @@
+{
+    "id": "nic2_need",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nic2_need of su_y_nic_tox"
+    },
+    "prefLabel": {
+        "en": "Is NIC Test Day 2 needed for this participant?"
+    },
+    "question": {
+        "en": "Is NIC Test Day 2 needed for this participant?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No | Select 'Yes\" if participant will complete Ncog and/or MRI on day 2."
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

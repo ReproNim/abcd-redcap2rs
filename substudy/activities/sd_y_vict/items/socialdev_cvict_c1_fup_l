@@ -1,0 +1,24 @@
+{
+    "id": "socialdev_cvict_c1_fup_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_cvict_c1_fup_l of sd_y_vict"
+    },
+    "prefLabel": {
+        "en": "Earlier you said that at some time since your last SD visit someone used force to take something from you that you were carrying or wearing."
+    },
+    "question": {
+        "en": "Earlier you said that at some time since your last SD visit someone used force to take something from you that you were carrying or wearing."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

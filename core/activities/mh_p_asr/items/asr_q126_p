@@ -1,0 +1,25 @@
+{
+    "id": "asr_q126_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "asr_q126_p of mh_p_asr"
+    },
+    "prefLabel": {
+        "en": "In the past 6 months, on how many days did you use drugs for nonmedical purposes (including marijuana, cocaine, and other drugs, except alcohol and nicotine)? En los \u00faltimos 6 meses, \u00bfcu\u00e1ntos d\u00edas consumi\u00f3 drogas sin raz\u00f3n m\u00e9dica (incluyendo marihuana, coca\u00edna, y otras drogas, sin incluir alcohol o tabaco)?"
+    },
+    "question": {
+        "en": "In the past 6 months, on how many days did you use drugs for nonmedical purposes (including marijuana, cocaine, and other drugs, except alcohol and nicotine)?",
+        "es": "En los \u00faltimos 6 meses, \u00bfcu\u00e1ntos d\u00edas consumi\u00f3 drogas sin raz\u00f3n m\u00e9dica (incluyendo marihuana, coca\u00edna, y otras drogas, sin incluir alcohol o tabaco)?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

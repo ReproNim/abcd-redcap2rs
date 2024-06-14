@@ -1,0 +1,42 @@
+{
+    "id": "kbi_p_c_spec_serv___7",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_p_c_spec_serv___7 of mh_p_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "Does your child receive special services at school? /  \u00bfSu ni\u00f1o(a) recibe servicios especiales en la escuela?   Seleccione todas las opciones que correspondan o apliquen: ( 7, Tutoring Support /Recibe apoyo con clases particulares)"
+    },
+    "question": {
+        "en": "Does your child receive special services at school?",
+        "es": "\u00bfSu ni\u00f1o(a) recibe servicios especiales en la escuela? Seleccione todas las opciones que correspondan o apliquen: ( 7, Tutoring Support Recibe apoyo con clases particulares)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

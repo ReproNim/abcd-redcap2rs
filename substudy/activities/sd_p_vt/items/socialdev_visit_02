@@ -1,0 +1,41 @@
+{
+    "id": "socialdev_visit_02",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_visit_02 of sd_p_vt"
+    },
+    "prefLabel": {
+        "en": "Which caregiver is completing today's visit?"
+    },
+    "question": {
+        "en": "Which caregiver is completing today's visit?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Primary caregiver"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Secondary caregiver"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

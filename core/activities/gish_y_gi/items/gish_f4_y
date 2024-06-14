@@ -1,0 +1,65 @@
+{
+    "id": "gish_f4_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gish_f4_y of gish_y_gi"
+    },
+    "prefLabel": {
+        "en": "How much have you dressed or acted as a boy during play?"
+    },
+    "question": {
+        "en": "How much have you dressed or acted as a boy during play?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

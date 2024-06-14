@@ -1,0 +1,65 @@
+{
+    "id": "devhx_21_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_21_p of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "Would you say his/her speech development was earlier, average,  or later than most other children?"
+    },
+    "question": {
+        "en": "Would you say his her speech development was earlier, average,  or later than most other children?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Much earlier/ Mucho m\u00e1s temprano"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat earlier /Un poco m\u00e1s temprano"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "About average /M\u00e1s o menos igual al promedio"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Somewhat later /Un poco m\u00e1s tard\u00edo"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Much later /Mucho m\u00e1s tard\u00edo"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't know/ No lo s\u00e9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,36 @@
+{
+    "id": "devhx_11_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_11_p of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "About how many times did you/biological mother see a doctor or other medical professional for prenatal care during this pregnancy? /\u00bfAproximadamente cu\u00e1ntas veces usted o la madre biol\u00f3gica visit\u00f3  a un m\u00e9dico u otro profesional de la salud para recibir atenci\u00f3n prenatal durante este embarazo?"
+    },
+    "question": {
+        "en": "About how many times did you biological mother see a doctor or other medical professional for prenatal care during this pregnancy?",
+        "es": "\u00bfAproximadamente cu\u00e1ntas veces usted o la madre biol\u00f3gica visit\u00f3  a un m\u00e9dico u otro profesional de la salud para recibir atenci\u00f3n prenatal durante este embarazo?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Routine care/Cuidado rutinario.   If you don't know, please choose \"don't know\" in what follows below    /Si no sabe, por favor escoja \"no se\" en lo que sigue abajo."
+                },
+                "value": 14
+            }
+        ],
+        "maxValue": 14,
+        "minValue": 14,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

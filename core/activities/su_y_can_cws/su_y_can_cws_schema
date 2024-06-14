@@ -1,0 +1,147 @@
+{
+    "id": "su_y_can_cws_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Consequence in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Can_Cws"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/su_cws_1",
+            "items/su_cws_2",
+            "items/su_cws_3",
+            "items/su_cws_4",
+            "items/su_cws_5",
+            "items/su_cws_6",
+            "items/su_cws_7",
+            "items/su_cws_8",
+            "items/su_cws_9",
+            "items/su_cws_10",
+            "items/su_cws_11",
+            "items/su_cws_12",
+            "items/su_cws_13",
+            "items/su_cws_14",
+            "items/su_cws_15",
+            "items/su_cws_16",
+            "items/su_cws_17",
+            "items/su_mj_admin"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/su_cws_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_cws_1"
+            },
+            {
+                "isAbout": "items/su_cws_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_cws_2"
+            },
+            {
+                "isAbout": "items/su_cws_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_cws_3"
+            },
+            {
+                "isAbout": "items/su_cws_4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_cws_4"
+            },
+            {
+                "isAbout": "items/su_cws_5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_cws_5"
+            },
+            {
+                "isAbout": "items/su_cws_6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_cws_6"
+            },
+            {
+                "isAbout": "items/su_cws_7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_cws_7"
+            },
+            {
+                "isAbout": "items/su_cws_8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_cws_8"
+            },
+            {
+                "isAbout": "items/su_cws_9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_cws_9"
+            },
+            {
+                "isAbout": "items/su_cws_10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_cws_10"
+            },
+            {
+                "isAbout": "items/su_cws_11",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_cws_11"
+            },
+            {
+                "isAbout": "items/su_cws_12",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_cws_12"
+            },
+            {
+                "isAbout": "items/su_cws_13",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_cws_13"
+            },
+            {
+                "isAbout": "items/su_cws_14",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_cws_14"
+            },
+            {
+                "isAbout": "items/su_cws_15",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_cws_15"
+            },
+            {
+                "isAbout": "items/su_cws_16",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_cws_16"
+            },
+            {
+                "isAbout": "items/su_cws_17",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_cws_17"
+            },
+            {
+                "isAbout": "items/su_mj_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_mj_admin"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

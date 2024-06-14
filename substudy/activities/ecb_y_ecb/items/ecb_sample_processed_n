@@ -1,0 +1,65 @@
+{
+    "id": "ecb_sample_processed_n",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ecb_sample_processed_n of ecb_y_ecb"
+    },
+    "prefLabel": {
+        "en": "Provide Reason:"
+    },
+    "question": {
+        "es": "Provide Reason:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Sample quantity too small"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sample quality too poor"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Lab Error"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Sample Missing"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,553 @@
+{
+    "id": "mh_y_pps_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Psychosis in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_Y_Pps"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/prodromal_1_y",
+            "items/pps_1_bother_yn",
+            "items/prodromal_1b_y",
+            "items/prodromal_2_y",
+            "items/pps_2_bother_yn",
+            "items/prodromal_2b_y",
+            "items/prodromal_3_y",
+            "items/pps_3_bother_yn",
+            "items/prodromal_3b_y",
+            "items/prodromal_4_y",
+            "items/pps_4_bother_yn",
+            "items/prodromal_4b_y",
+            "items/prodromal_5_y",
+            "items/pps_5_bother_yn",
+            "items/prodromal_5b_y",
+            "items/prodromal_6_y",
+            "items/pps_6_bother_yn",
+            "items/prodromal_6b_y",
+            "items/prodromal_7_y",
+            "items/pps_7_bother_yn",
+            "items/prodromal_7b_y",
+            "items/prodromal_8_y",
+            "items/pps_8_bother_yn",
+            "items/prodromal_8b_y",
+            "items/prodromal_9_y",
+            "items/pps_9_bother_yn",
+            "items/prodromal_9b_y",
+            "items/prodromal_10_y",
+            "items/pps_10_bother_yn",
+            "items/prodromal_10b_y",
+            "items/prodromal_11_y",
+            "items/pps_11_bother_yn",
+            "items/prodromal_11b_y",
+            "items/prodromal_12_y",
+            "items/pps_12_bother_yn",
+            "items/prodromal_12b_y",
+            "items/prodromal_13_y",
+            "items/pps_13_bother_yn",
+            "items/prodromal_13b_y",
+            "items/prodromal_14_y",
+            "items/pps_14_bother_yn",
+            "items/prodromal_14b_y",
+            "items/prodromal_15_y",
+            "items/pps_15_bother_yn",
+            "items/prodromal_15b_y",
+            "items/prodromal_16_y",
+            "items/pps_16_bother_yn",
+            "items/prodromal_16b_y",
+            "items/prodromal_17_y",
+            "items/pps_17_bother_yn",
+            "items/prodromal_17b_y",
+            "items/prodromal_18_y",
+            "items/pps_18_bother_yn",
+            "items/prodromal_18b_y",
+            "items/prodromal_19_y",
+            "items/pps_19_bother_yn",
+            "items/prodromal_19b_y",
+            "items/prodromal_20_y",
+            "items/pps_20_bother_yn",
+            "items/prodromal_20b_y",
+            "items/prodromal_21_y",
+            "items/pps_21_bother_yn",
+            "items/prodromal_21b_y",
+            "items/pps_y_ss_number",
+            "items/pps_y_ss_number_nm",
+            "items/pps_y_ss_number_nt",
+            "items/pps_y_ss_bother_sum",
+            "items/pps_y_ss_bother_sum_nm",
+            "items/pps_y_ss_bother_sum_nt",
+            "items/pps_y_ss_bother_n_1",
+            "items/pps_y_ss_bother_n_1_nm",
+            "items/pps_y_ss_bother_n_1_nt",
+            "items/pps_y_ss_severity_score",
+            "items/pps_y_ss_severity_score_nm",
+            "items/pps_y_ss_severity_score_nt",
+            "items/pps_ss_mean_severity"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/prodromal_1_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_1_y"
+            },
+            {
+                "isAbout": "items/pps_1_bother_yn",
+                "isVis": "prodromal_1_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_1_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_1b_y",
+                "isVis": "pps_1_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_1b_y"
+            },
+            {
+                "isAbout": "items/prodromal_2_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_2_y"
+            },
+            {
+                "isAbout": "items/pps_2_bother_yn",
+                "isVis": "prodromal_2_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_2_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_2b_y",
+                "isVis": "pps_2_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_2b_y"
+            },
+            {
+                "isAbout": "items/prodromal_3_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_3_y"
+            },
+            {
+                "isAbout": "items/pps_3_bother_yn",
+                "isVis": "prodromal_3_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_3_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_3b_y",
+                "isVis": "pps_3_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_3b_y"
+            },
+            {
+                "isAbout": "items/prodromal_4_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_4_y"
+            },
+            {
+                "isAbout": "items/pps_4_bother_yn",
+                "isVis": "prodromal_4_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_4_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_4b_y",
+                "isVis": "pps_4_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_4b_y"
+            },
+            {
+                "isAbout": "items/prodromal_5_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_5_y"
+            },
+            {
+                "isAbout": "items/pps_5_bother_yn",
+                "isVis": "prodromal_5_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_5_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_5b_y",
+                "isVis": "pps_5_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_5b_y"
+            },
+            {
+                "isAbout": "items/prodromal_6_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_6_y"
+            },
+            {
+                "isAbout": "items/pps_6_bother_yn",
+                "isVis": "prodromal_6_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_6_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_6b_y",
+                "isVis": "pps_6_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_6b_y"
+            },
+            {
+                "isAbout": "items/prodromal_7_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_7_y"
+            },
+            {
+                "isAbout": "items/pps_7_bother_yn",
+                "isVis": "prodromal_7_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_7_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_7b_y",
+                "isVis": "pps_7_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_7b_y"
+            },
+            {
+                "isAbout": "items/prodromal_8_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_8_y"
+            },
+            {
+                "isAbout": "items/pps_8_bother_yn",
+                "isVis": "prodromal_8_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_8_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_8b_y",
+                "isVis": "pps_8_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_8b_y"
+            },
+            {
+                "isAbout": "items/prodromal_9_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_9_y"
+            },
+            {
+                "isAbout": "items/pps_9_bother_yn",
+                "isVis": "prodromal_9_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_9_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_9b_y",
+                "isVis": "pps_9_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_9b_y"
+            },
+            {
+                "isAbout": "items/prodromal_10_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_10_y"
+            },
+            {
+                "isAbout": "items/pps_10_bother_yn",
+                "isVis": "prodromal_10_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_10_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_10b_y",
+                "isVis": "pps_10_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_10b_y"
+            },
+            {
+                "isAbout": "items/prodromal_11_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_11_y"
+            },
+            {
+                "isAbout": "items/pps_11_bother_yn",
+                "isVis": "prodromal_11_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_11_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_11b_y",
+                "isVis": "pps_11_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_11b_y"
+            },
+            {
+                "isAbout": "items/prodromal_12_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_12_y"
+            },
+            {
+                "isAbout": "items/pps_12_bother_yn",
+                "isVis": "prodromal_12_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_12_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_12b_y",
+                "isVis": "pps_12_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_12b_y"
+            },
+            {
+                "isAbout": "items/prodromal_13_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_13_y"
+            },
+            {
+                "isAbout": "items/pps_13_bother_yn",
+                "isVis": "prodromal_13_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_13_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_13b_y",
+                "isVis": "pps_13_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_13b_y"
+            },
+            {
+                "isAbout": "items/prodromal_14_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_14_y"
+            },
+            {
+                "isAbout": "items/pps_14_bother_yn",
+                "isVis": "prodromal_14_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_14_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_14b_y",
+                "isVis": "pps_14_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_14b_y"
+            },
+            {
+                "isAbout": "items/prodromal_15_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_15_y"
+            },
+            {
+                "isAbout": "items/pps_15_bother_yn",
+                "isVis": "prodromal_15_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_15_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_15b_y",
+                "isVis": "pps_15_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_15b_y"
+            },
+            {
+                "isAbout": "items/prodromal_16_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_16_y"
+            },
+            {
+                "isAbout": "items/pps_16_bother_yn",
+                "isVis": "prodromal_16_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_16_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_16b_y",
+                "isVis": "pps_16_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_16b_y"
+            },
+            {
+                "isAbout": "items/prodromal_17_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_17_y"
+            },
+            {
+                "isAbout": "items/pps_17_bother_yn",
+                "isVis": "prodromal_17_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_17_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_17b_y",
+                "isVis": "pps_17_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_17b_y"
+            },
+            {
+                "isAbout": "items/prodromal_18_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_18_y"
+            },
+            {
+                "isAbout": "items/pps_18_bother_yn",
+                "isVis": "prodromal_18_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_18_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_18b_y",
+                "isVis": "pps_18_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_18b_y"
+            },
+            {
+                "isAbout": "items/prodromal_19_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_19_y"
+            },
+            {
+                "isAbout": "items/pps_19_bother_yn",
+                "isVis": "prodromal_19_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_19_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_19b_y",
+                "isVis": "pps_19_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_19b_y"
+            },
+            {
+                "isAbout": "items/prodromal_20_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_20_y"
+            },
+            {
+                "isAbout": "items/pps_20_bother_yn",
+                "isVis": "prodromal_20_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_20_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_20b_y",
+                "isVis": "pps_20_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_20b_y"
+            },
+            {
+                "isAbout": "items/prodromal_21_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_21_y"
+            },
+            {
+                "isAbout": "items/pps_21_bother_yn",
+                "isVis": "prodromal_21_y   === 1",
+                "valueRequired": true,
+                "variableName": "pps_21_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_21b_y",
+                "isVis": "pps_21_bother_yn   === 1",
+                "valueRequired": true,
+                "variableName": "prodromal_21b_y"
+            },
+            {
+                "isAbout": "items/pps_y_ss_number",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pps_y_ss_number"
+            },
+            {
+                "isAbout": "items/pps_y_ss_number_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pps_y_ss_number_nm"
+            },
+            {
+                "isAbout": "items/pps_y_ss_number_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pps_y_ss_number_nt"
+            },
+            {
+                "isAbout": "items/pps_y_ss_bother_sum",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pps_y_ss_bother_sum"
+            },
+            {
+                "isAbout": "items/pps_y_ss_bother_sum_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pps_y_ss_bother_sum_nm"
+            },
+            {
+                "isAbout": "items/pps_y_ss_bother_sum_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pps_y_ss_bother_sum_nt"
+            },
+            {
+                "isAbout": "items/pps_y_ss_bother_n_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pps_y_ss_bother_n_1"
+            },
+            {
+                "isAbout": "items/pps_y_ss_bother_n_1_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pps_y_ss_bother_n_1_nm"
+            },
+            {
+                "isAbout": "items/pps_y_ss_bother_n_1_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pps_y_ss_bother_n_1_nt"
+            },
+            {
+                "isAbout": "items/pps_y_ss_severity_score",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pps_y_ss_severity_score"
+            },
+            {
+                "isAbout": "items/pps_y_ss_severity_score_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pps_y_ss_severity_score_nm"
+            },
+            {
+                "isAbout": "items/pps_y_ss_severity_score_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pps_y_ss_severity_score_nt"
+            },
+            {
+                "isAbout": "items/pps_ss_mean_severity",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pps_ss_mean_severity"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

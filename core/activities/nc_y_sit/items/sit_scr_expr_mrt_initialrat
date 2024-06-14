@@ -1,0 +1,24 @@
+{
+    "id": "sit_scr_expr_mrt_initialrat",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sit_scr_expr_mrt_initialrat of nc_y_sit"
+    },
+    "prefLabel": {
+        "en": "expressions.meanRT_initialRating:\n\nMean reaction time (in ms) of submitting initial rating after onset of rating scale"
+    },
+    "question": {
+        "en": "expressions. meanRT_initialRating:\n\nMean reaction time (in ms) of submitting initial rating after onset of rating scale"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "biospec_urine_toxscrn_date_4",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "biospec_urine_toxscrn_date_4 of su_y_uri_tox"
+    },
+    "prefLabel": {
+        "en": "Date/time of urine sample collection:"
+    },
+    "question": {
+        "en": "Date time of urine sample collection:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

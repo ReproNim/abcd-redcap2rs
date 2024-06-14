@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr2_urbsat_grass",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr2_urbsat_grass of led_l_urbsat"
+    },
+    "prefLabel": {
+        "en": "Grass land use: (2017) CGLS herbaceous vegetation fraction of total pixel area [0 1]"
+    },
+    "question": {
+        "en": "Grass land use: (2017) CGLS herbaceous vegetation fraction of total pixel area [0 1]"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

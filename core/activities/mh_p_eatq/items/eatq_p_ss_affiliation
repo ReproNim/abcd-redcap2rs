@@ -1,0 +1,24 @@
+{
+    "id": "eatq_p_ss_affiliation",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "eatq_p_ss_affiliation of mh_p_eatq"
+    },
+    "prefLabel": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent affiliation; sum(eatq_phenx_care_p, eatq_phenx_share_p, eatq_phenx_spend_time_p, eatq_phenx_hugs_p, eatq_phenx_close_rel_p, eatq_phenx_friendly_p); Validation: Maximum of 1 item missing"
+    },
+    "question": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent affiliation; sum(eatq_phenx_care_p, eatq_phenx_share_p, eatq_phenx_spend_time_p, eatq_phenx_hugs_p, eatq_phenx_close_rel_p, eatq_phenx_friendly_p); Validation: Maximum of 1 item missing"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

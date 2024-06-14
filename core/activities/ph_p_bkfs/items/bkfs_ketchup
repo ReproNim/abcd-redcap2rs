@@ -1,0 +1,24 @@
+{
+    "id": "bkfs_ketchup",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_ketchup of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Ketchup or salsa/K\u00e9tchup or salsa"
+    },
+    "question": {
+        "en": "Ketchup or salsa K\u00e9tchup or salsa"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

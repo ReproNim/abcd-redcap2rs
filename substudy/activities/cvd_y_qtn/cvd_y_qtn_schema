@@ -1,0 +1,2170 @@
+{
+    "id": "cvd_y_qtn_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about COVID in COVID-19"
+    },
+    "prefLabel": {
+        "en": "Cvd_Y_Qtn"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/afraid_against_mask_2_cv",
+            "items/afraid_anti_mask",
+            "items/afraid_anti_mask_4_cv",
+            "items/afraid_blm_2_cv",
+            "items/afraid_blm_4_cv",
+            "items/afraid_blm_cv",
+            "items/afraid_pro_po_2_cv",
+            "items/afraid_pro_po_4_cv",
+            "items/afraid_pro_po_cv",
+            "items/afraid_reopen_bus_2_cv",
+            "items/afraid_reopen_bus_4_cv",
+            "items/afraid_reopen_bus_cv",
+            "items/against_mask_social_media_cv",
+            "items/against_mask_time_cv",
+            "items/angry_against_mask_2_cv",
+            "items/angry_anti_mask_4_cv",
+            "items/angry_anti_mask_cv",
+            "items/angry_blm_2_cv",
+            "items/angry_blm_4_cv",
+            "items/angry_blm_cv",
+            "items/angry_pro_po_2_cv",
+            "items/angry_pro_po_4_cv",
+            "items/angry_pro_po_cv",
+            "items/angry_reopen_bus_2_cv",
+            "items/angry_reopen_bus_4_cv",
+            "items/angry_reopen_bus_cv",
+            "items/anti_mask_2_cv",
+            "items/anti_mask_3_cv",
+            "items/anti_mask_4_cv",
+            "items/anti_mask_cv",
+            "items/anti_mask_demo_help_cv",
+            "items/anti_mask_friends_cv",
+            "items/anti_mask_neigh_cv",
+            "items/anti_mask_parents_cv",
+            "items/anti_mask_po_force_cv",
+            "items/anti_mask_po_help_cv",
+            "items/anti_mask_sib_cv",
+            "items/anti_mask_violence_cv",
+            "items/assist_sched_cv",
+            "items/attentive_y_cv",
+            "items/bedtime_routine_cv",
+            "items/blm_2_cv",
+            "items/blm_3_cv",
+            "items/blm_4_cv",
+            "items/blm_cv",
+            "items/blm_demo_help_cv",
+            "items/blm_friends_cv",
+            "items/blm_neigh_cv",
+            "items/blm_parents_cv",
+            "items/blm_po_force_cv",
+            "items/blm_po_help_cv",
+            "items/blm_sib_cv",
+            "items/blm_social_media_cv",
+            "items/blm_time_cv",
+            "items/blm_violence_cv",
+            "items/calm_y_cv",
+            "items/check_hw_cv",
+            "items/concentrate_y_cv",
+            "items/confident_y_cv",
+            "items/coverage_cv",
+            "items/create_asgn_act_cv",
+            "items/delighted_y_cv",
+            "items/demo_affect_life_cv",
+            "items/demo_afraid_cv",
+            "items/demo_avoid_news",
+            "items/demo_exercise_cv",
+            "items/demo_friends_cv",
+            "items/demo_hand_sanitizer_cv",
+            "items/demo_mask_coverage_cv",
+            "items/demo_online_cv",
+            "items/demo_parents_cv",
+            "items/demo_schoolwork_on_comp_cv",
+            "items/demo_siblings_cv",
+            "items/demo_stayed_away_cv",
+            "items/demo_stayed_indoors_cv",
+            "items/demo_tone_friends_cv",
+            "items/demo_tone_parents_cv",
+            "items/demo_tone_siblings_cv",
+            "items/demo_touching_people_cv",
+            "items/demo_touching_things_cv",
+            "items/demo_wash_hands_cv",
+            "items/demo_wipes_cv",
+            "items/ease_y_cv",
+            "items/energetic_y_cv",
+            "items/enjoy_school_y_cv",
+            "items/enjoyed_school_wk_y_cv",
+            "items/enthusiastic_y_cv",
+            "items/exp_rac_disc_cv",
+            "items/fam_act_cv",
+            "items/feel_afraid_anti_mask_2_cv",
+            "items/feel_afraid_anti_mask_cv",
+            "items/feel_afraid_blm_2_cv",
+            "items/feel_afraid_blm_cv",
+            "items/feel_afraid_po_2_cv",
+            "items/feel_afraid_po_cv",
+            "items/feel_afraid_reopen_bus_2_cv",
+            "items/feel_afraid_reopen_bus_cv",
+            "items/feel_proud_anti_mask_2_cv",
+            "items/feel_proud_anti_mask_cv",
+            "items/feel_proud_blm_2_cv",
+            "items/feel_proud_blm_cv",
+            "items/feel_proud_po_2_cv",
+            "items/feel_proud_po_cv",
+            "items/feel_proud_reopen_bus_2_cv",
+            "items/feel_proud_reopen_bus_cv",
+            "items/felt_alone_cv",
+            "items/felt_always_sad",
+            "items/felt_angry_cv",
+            "items/felt_cv",
+            "items/felt_life_went_wrong_cv",
+            "items/felt_lonely_cv",
+            "items/felt_nervous_cv",
+            "items/felt_no_fun_cv",
+            "items/felt_sad_cv",
+            "items/felt_scared_cv",
+            "items/felt_unhappy_cv",
+            "items/hopeful_against_mask_2_cv",
+            "items/hopeful_anti_mask",
+            "items/hopeful_anti_mask_4_cv",
+            "items/hopeful_blm_2_cv",
+            "items/hopeful_blm_4_cv",
+            "items/hopeful_blm_cv",
+            "items/hopeful_pro_po_2_cv",
+            "items/hopeful_pro_po_4_cv",
+            "items/hopeful_pro_po_cv",
+            "items/hopeful_reopen_bus_2_cv",
+            "items/hopeful_reopen_bus_4_cv",
+            "items/hopeful_reopen_bus_cv",
+            "items/hopeful_y_cv",
+            "items/hours_language_cv",
+            "items/hours_math_cv",
+            "items/hours_other_cv",
+            "items/hours_reading_cv",
+            "items/hours_science_cv",
+            "items/hours_social_cv",
+            "items/inspired_against_mask_2_cv",
+            "items/inspired_anti_mask",
+            "items/inspired_anti_mask_4_cv",
+            "items/inspired_blm_2_cv",
+            "items/inspired_blm_4_cv",
+            "items/inspired_blm_cv",
+            "items/inspired_pro_po_2_cv",
+            "items/inspired_pro_po_4_cv",
+            "items/inspired_pro_po_cv",
+            "items/inspired_reopen_bus_2_cv",
+            "items/inspired_reopen_bus_4_cv",
+            "items/inspired_reopen_bus_cv",
+            "items/interested_y_cv",
+            "items/life_change_y_cv",
+            "items/mctq_fd_awakening_min_cv",
+            "items/mctq_fd_btime_cv",
+            "items/mctq_fd_min_to_get_up_cv",
+            "items/mctq_fd_min_to_sleep_cv",
+            "items/mctq_fd_num_wake_up_cv",
+            "items/mctq_fd_time_asleep_cv",
+            "items/mctq_fd_wake_up_time_cv",
+            "items/mctq_schedule_time_cv",
+            "items/mental_health_cv",
+            "items/missing_school_cv",
+            "items/mod_phys_act_hour_2_cv",
+            "items/mod_phys_act_hour_cv",
+            "items/mod_phys_act_min_cv",
+            "items/money_cv",
+            "items/news_update_cv",
+            "items/online_arts_cv",
+            "items/online_other_cv",
+            "items/online_science_cv",
+            "items/others_worry_y_cv",
+            "items/outdoor_act_cv",
+            "items/parent_involve_school_cv",
+            "items/parent_involved_school_cv",
+            "items/parent_monitor_q1_y_cv",
+            "items/parent_monitor_q3_y_cv",
+            "items/parent_monitor_q4_y_cv",
+            "items/parent_monitor_q5_y_cv",
+            "items/past_week_cope_cv___1",
+            "items/past_week_cope_cv___2",
+            "items/past_week_cope_cv___3",
+            "items/past_week_cope_cv___4",
+            "items/past_week_cope_cv___5",
+            "items/past_week_cope_cv___6",
+            "items/past_week_cope_cv___7",
+            "items/past_week_cope_cv___8",
+            "items/past_week_cope_cv___9",
+            "items/pet_identify_cv___1",
+            "items/pet_identify_cv___2",
+            "items/pet_identify_cv___3",
+            "items/pet_identify_cv___4",
+            "items/pet_identify_cv___5",
+            "items/pet_identify_cv___6",
+            "items/pets_cv",
+            "items/physical_activities_hr_cv",
+            "items/ple_close_fam_cv",
+            "items/ple_close_fam_fu_y_cv",
+            "items/ple_close_fam_fu2_cv",
+            "items/ple_close_fam_fu3_y_cv",
+            "items/pro_po_2_cv",
+            "items/pro_po_3_cv",
+            "items/pro_po_4_cv",
+            "items/pro_po_cv",
+            "items/pro_po_demo_help_cv",
+            "items/pro_po_force_cv",
+            "items/pro_po_friends_cv",
+            "items/pro_po_help_cv",
+            "items/pro_po_neigh_cv",
+            "items/pro_po_parents_cv",
+            "items/pro_po_sib_cv",
+            "items/pro_po_social_media_cv",
+            "items/pro_po_time_cv",
+            "items/pro_po_violence_cv",
+            "items/pstr_confidence_p_cv",
+            "items/pstr_overcome_p_cv",
+            "items/pstr_unable_control_cv",
+            "items/pstr_way_p_cv",
+            "items/questionnaire_privacy_cv",
+            "items/reg_meals_cv",
+            "items/relationships_w_family_cv",
+            "items/relationships_w_friends_cv",
+            "items/reopen_bus_2_cv",
+            "items/reopen_bus_3_cv",
+            "items/reopen_bus_4_cv",
+            "items/reopen_bus_cv",
+            "items/reopen_bus_demo_help_cv",
+            "items/reopen_bus_friends_cv",
+            "items/reopen_bus_neigh_cv",
+            "items/reopen_bus_parents_cv",
+            "items/reopen_bus_po_force_cv",
+            "items/reopen_bus_po_help_cv",
+            "items/reopen_bus_sib_cv",
+            "items/reopen_bus_social_media_cv",
+            "items/reopen_bus_time_cv",
+            "items/reopen_bus_violence_cv",
+            "items/routine_cv",
+            "items/scared_easily_cv",
+            "items/school_cv",
+            "items/school_like_activities_cv",
+            "items/school_like_activities_reduced_cv",
+            "items/school_work_cv",
+            "items/schooling_cv",
+            "items/screentime_10_wknd_hr_cv",
+            "items/screentime_11_wknd_hr_cv",
+            "items/screentime_12_wknd_hr_cv",
+            "items/screentime_14_wknd_hr_cv",
+            "items/screentime_15_wknd_hr_cv",
+            "items/screentime_7_wknd_hr_cv",
+            "items/screentime_9_wknd_hr_cv",
+            "items/screentime_cv",
+            "items/screentime_music_cv",
+            "items/screentime_wknd_hr_cv",
+            "items/screentime_wknd_typical_hr_cv",
+            "items/sitting_weekday_hour_2_cv",
+            "items/sitting_weekday_hour_cv",
+            "items/social_media_cv",
+            "items/social_media_platform_cv",
+            "items/something_awful_cv",
+            "items/stressful_y_cv",
+            "items/strle_angry_cv",
+            "items/strle_not_talk_about_cv",
+            "items/strle_pictures_cv",
+            "items/strle_reminder_pl_cv",
+            "items/strle_rv_fr_mem_cv",
+            "items/strle_strong_feelings_cv",
+            "items/strle_think_about_cv",
+            "items/strle_think_of_cv",
+            "items/strle_try_not_to_think_cv",
+            "items/su_alcohol_cv",
+            "items/su_liquids_cv",
+            "items/su_medication_cv",
+            "items/su_meth_cv",
+            "items/su_mj_edible_cv",
+            "items/su_mj_oils_cv",
+            "items/su_mj_use_past_month_cv",
+            "items/su_smoked_mj_fl_cv",
+            "items/su_smoked_tob_cig_cv",
+            "items/su_tobacco_chew_cv",
+            "items/su_tobacco_cig_cv",
+            "items/su_vape_nic_cv",
+            "items/su_vaped_mj_fl_cv",
+            "items/su_vaped_mj_oils_cv",
+            "items/teach_concept_cv",
+            "items/tv_view_cv",
+            "items/walk_10_min_per_day_cv",
+            "items/walking_hour_per_day_2_cv",
+            "items/walking_hour_per_day_cv",
+            "items/walking_min_per_day_cv",
+            "items/witness_rac_disc_cv",
+            "items/worried_about_me_cv",
+            "items/worried_at_home_cv",
+            "items/worried_at_night_cv",
+            "items/worried_cv",
+            "items/worry_y_cv",
+            "items/monitor_school_cv",
+            "items/screen_time_affects_cv",
+            "items/screen_time_awake_cv",
+            "items/screens_escape_cv",
+            "items/yabcdcovid19_complete_date",
+            "items/mdemo_online_cv",
+            "items/mdemo_friends_cv",
+            "items/mdemo_parents_cv",
+            "items/mdemo_siblings_cv",
+            "items/app_track_cv",
+            "items/monitor_screen_cv",
+            "items/su_30_days_cv",
+            "items/su_restrictions_cv",
+            "items/su_planned_use_cv",
+            "items/in_person_school_days_cv",
+            "items/online_school_days_cv"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/afraid_against_mask_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "afraid_against_mask_2_cv"
+            },
+            {
+                "isAbout": "items/afraid_anti_mask",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "afraid_anti_mask"
+            },
+            {
+                "isAbout": "items/afraid_anti_mask_4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "afraid_anti_mask_4_cv"
+            },
+            {
+                "isAbout": "items/afraid_blm_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "afraid_blm_2_cv"
+            },
+            {
+                "isAbout": "items/afraid_blm_4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "afraid_blm_4_cv"
+            },
+            {
+                "isAbout": "items/afraid_blm_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "afraid_blm_cv"
+            },
+            {
+                "isAbout": "items/afraid_pro_po_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "afraid_pro_po_2_cv"
+            },
+            {
+                "isAbout": "items/afraid_pro_po_4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "afraid_pro_po_4_cv"
+            },
+            {
+                "isAbout": "items/afraid_pro_po_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "afraid_pro_po_cv"
+            },
+            {
+                "isAbout": "items/afraid_reopen_bus_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "afraid_reopen_bus_2_cv"
+            },
+            {
+                "isAbout": "items/afraid_reopen_bus_4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "afraid_reopen_bus_4_cv"
+            },
+            {
+                "isAbout": "items/afraid_reopen_bus_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "afraid_reopen_bus_cv"
+            },
+            {
+                "isAbout": "items/against_mask_social_media_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "against_mask_social_media_cv"
+            },
+            {
+                "isAbout": "items/against_mask_time_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "against_mask_time_cv"
+            },
+            {
+                "isAbout": "items/angry_against_mask_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "angry_against_mask_2_cv"
+            },
+            {
+                "isAbout": "items/angry_anti_mask_4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "angry_anti_mask_4_cv"
+            },
+            {
+                "isAbout": "items/angry_anti_mask_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "angry_anti_mask_cv"
+            },
+            {
+                "isAbout": "items/angry_blm_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "angry_blm_2_cv"
+            },
+            {
+                "isAbout": "items/angry_blm_4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "angry_blm_4_cv"
+            },
+            {
+                "isAbout": "items/angry_blm_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "angry_blm_cv"
+            },
+            {
+                "isAbout": "items/angry_pro_po_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "angry_pro_po_2_cv"
+            },
+            {
+                "isAbout": "items/angry_pro_po_4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "angry_pro_po_4_cv"
+            },
+            {
+                "isAbout": "items/angry_pro_po_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "angry_pro_po_cv"
+            },
+            {
+                "isAbout": "items/angry_reopen_bus_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "angry_reopen_bus_2_cv"
+            },
+            {
+                "isAbout": "items/angry_reopen_bus_4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "angry_reopen_bus_4_cv"
+            },
+            {
+                "isAbout": "items/angry_reopen_bus_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "angry_reopen_bus_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "anti_mask_2_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_3_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "anti_mask_3_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "anti_mask_4_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "anti_mask_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_demo_help_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "anti_mask_demo_help_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_friends_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "anti_mask_friends_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_neigh_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "anti_mask_neigh_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_parents_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "anti_mask_parents_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_po_force_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "anti_mask_po_force_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_po_help_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "anti_mask_po_help_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_sib_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "anti_mask_sib_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_violence_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "anti_mask_violence_cv"
+            },
+            {
+                "isAbout": "items/assist_sched_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "assist_sched_cv"
+            },
+            {
+                "isAbout": "items/attentive_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "attentive_y_cv"
+            },
+            {
+                "isAbout": "items/bedtime_routine_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bedtime_routine_cv"
+            },
+            {
+                "isAbout": "items/blm_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blm_2_cv"
+            },
+            {
+                "isAbout": "items/blm_3_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blm_3_cv"
+            },
+            {
+                "isAbout": "items/blm_4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blm_4_cv"
+            },
+            {
+                "isAbout": "items/blm_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blm_cv"
+            },
+            {
+                "isAbout": "items/blm_demo_help_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blm_demo_help_cv"
+            },
+            {
+                "isAbout": "items/blm_friends_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blm_friends_cv"
+            },
+            {
+                "isAbout": "items/blm_neigh_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blm_neigh_cv"
+            },
+            {
+                "isAbout": "items/blm_parents_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blm_parents_cv"
+            },
+            {
+                "isAbout": "items/blm_po_force_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blm_po_force_cv"
+            },
+            {
+                "isAbout": "items/blm_po_help_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blm_po_help_cv"
+            },
+            {
+                "isAbout": "items/blm_sib_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blm_sib_cv"
+            },
+            {
+                "isAbout": "items/blm_social_media_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blm_social_media_cv"
+            },
+            {
+                "isAbout": "items/blm_time_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blm_time_cv"
+            },
+            {
+                "isAbout": "items/blm_violence_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blm_violence_cv"
+            },
+            {
+                "isAbout": "items/calm_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "calm_y_cv"
+            },
+            {
+                "isAbout": "items/check_hw_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "check_hw_cv"
+            },
+            {
+                "isAbout": "items/concentrate_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "concentrate_y_cv"
+            },
+            {
+                "isAbout": "items/confident_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "confident_y_cv"
+            },
+            {
+                "isAbout": "items/coverage_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "coverage_cv"
+            },
+            {
+                "isAbout": "items/create_asgn_act_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "create_asgn_act_cv"
+            },
+            {
+                "isAbout": "items/delighted_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "delighted_y_cv"
+            },
+            {
+                "isAbout": "items/demo_affect_life_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_affect_life_cv"
+            },
+            {
+                "isAbout": "items/demo_afraid_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_afraid_cv"
+            },
+            {
+                "isAbout": "items/demo_avoid_news",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_avoid_news"
+            },
+            {
+                "isAbout": "items/demo_exercise_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_exercise_cv"
+            },
+            {
+                "isAbout": "items/demo_friends_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_friends_cv"
+            },
+            {
+                "isAbout": "items/demo_hand_sanitizer_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_hand_sanitizer_cv"
+            },
+            {
+                "isAbout": "items/demo_mask_coverage_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_mask_coverage_cv"
+            },
+            {
+                "isAbout": "items/demo_online_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_online_cv"
+            },
+            {
+                "isAbout": "items/demo_parents_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_parents_cv"
+            },
+            {
+                "isAbout": "items/demo_schoolwork_on_comp_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_schoolwork_on_comp_cv"
+            },
+            {
+                "isAbout": "items/demo_siblings_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_siblings_cv"
+            },
+            {
+                "isAbout": "items/demo_stayed_away_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_stayed_away_cv"
+            },
+            {
+                "isAbout": "items/demo_stayed_indoors_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_stayed_indoors_cv"
+            },
+            {
+                "isAbout": "items/demo_tone_friends_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_tone_friends_cv"
+            },
+            {
+                "isAbout": "items/demo_tone_parents_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_tone_parents_cv"
+            },
+            {
+                "isAbout": "items/demo_tone_siblings_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_tone_siblings_cv"
+            },
+            {
+                "isAbout": "items/demo_touching_people_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_touching_people_cv"
+            },
+            {
+                "isAbout": "items/demo_touching_things_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_touching_things_cv"
+            },
+            {
+                "isAbout": "items/demo_wash_hands_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_wash_hands_cv"
+            },
+            {
+                "isAbout": "items/demo_wipes_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_wipes_cv"
+            },
+            {
+                "isAbout": "items/ease_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ease_y_cv"
+            },
+            {
+                "isAbout": "items/energetic_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "energetic_y_cv"
+            },
+            {
+                "isAbout": "items/enjoy_school_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "enjoy_school_y_cv"
+            },
+            {
+                "isAbout": "items/enjoyed_school_wk_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "enjoyed_school_wk_y_cv"
+            },
+            {
+                "isAbout": "items/enthusiastic_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "enthusiastic_y_cv"
+            },
+            {
+                "isAbout": "items/exp_rac_disc_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "exp_rac_disc_cv"
+            },
+            {
+                "isAbout": "items/fam_act_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fam_act_cv"
+            },
+            {
+                "isAbout": "items/feel_afraid_anti_mask_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feel_afraid_anti_mask_2_cv"
+            },
+            {
+                "isAbout": "items/feel_afraid_anti_mask_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feel_afraid_anti_mask_cv"
+            },
+            {
+                "isAbout": "items/feel_afraid_blm_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feel_afraid_blm_2_cv"
+            },
+            {
+                "isAbout": "items/feel_afraid_blm_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feel_afraid_blm_cv"
+            },
+            {
+                "isAbout": "items/feel_afraid_po_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feel_afraid_po_2_cv"
+            },
+            {
+                "isAbout": "items/feel_afraid_po_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feel_afraid_po_cv"
+            },
+            {
+                "isAbout": "items/feel_afraid_reopen_bus_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feel_afraid_reopen_bus_2_cv"
+            },
+            {
+                "isAbout": "items/feel_afraid_reopen_bus_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feel_afraid_reopen_bus_cv"
+            },
+            {
+                "isAbout": "items/feel_proud_anti_mask_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feel_proud_anti_mask_2_cv"
+            },
+            {
+                "isAbout": "items/feel_proud_anti_mask_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feel_proud_anti_mask_cv"
+            },
+            {
+                "isAbout": "items/feel_proud_blm_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feel_proud_blm_2_cv"
+            },
+            {
+                "isAbout": "items/feel_proud_blm_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feel_proud_blm_cv"
+            },
+            {
+                "isAbout": "items/feel_proud_po_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feel_proud_po_2_cv"
+            },
+            {
+                "isAbout": "items/feel_proud_po_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feel_proud_po_cv"
+            },
+            {
+                "isAbout": "items/feel_proud_reopen_bus_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feel_proud_reopen_bus_2_cv"
+            },
+            {
+                "isAbout": "items/feel_proud_reopen_bus_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feel_proud_reopen_bus_cv"
+            },
+            {
+                "isAbout": "items/felt_alone_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "felt_alone_cv"
+            },
+            {
+                "isAbout": "items/felt_always_sad",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "felt_always_sad"
+            },
+            {
+                "isAbout": "items/felt_angry_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "felt_angry_cv"
+            },
+            {
+                "isAbout": "items/felt_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "felt_cv"
+            },
+            {
+                "isAbout": "items/felt_life_went_wrong_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "felt_life_went_wrong_cv"
+            },
+            {
+                "isAbout": "items/felt_lonely_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "felt_lonely_cv"
+            },
+            {
+                "isAbout": "items/felt_nervous_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "felt_nervous_cv"
+            },
+            {
+                "isAbout": "items/felt_no_fun_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "felt_no_fun_cv"
+            },
+            {
+                "isAbout": "items/felt_sad_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "felt_sad_cv"
+            },
+            {
+                "isAbout": "items/felt_scared_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "felt_scared_cv"
+            },
+            {
+                "isAbout": "items/felt_unhappy_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "felt_unhappy_cv"
+            },
+            {
+                "isAbout": "items/hopeful_against_mask_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hopeful_against_mask_2_cv"
+            },
+            {
+                "isAbout": "items/hopeful_anti_mask",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hopeful_anti_mask"
+            },
+            {
+                "isAbout": "items/hopeful_anti_mask_4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hopeful_anti_mask_4_cv"
+            },
+            {
+                "isAbout": "items/hopeful_blm_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hopeful_blm_2_cv"
+            },
+            {
+                "isAbout": "items/hopeful_blm_4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hopeful_blm_4_cv"
+            },
+            {
+                "isAbout": "items/hopeful_blm_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hopeful_blm_cv"
+            },
+            {
+                "isAbout": "items/hopeful_pro_po_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hopeful_pro_po_2_cv"
+            },
+            {
+                "isAbout": "items/hopeful_pro_po_4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hopeful_pro_po_4_cv"
+            },
+            {
+                "isAbout": "items/hopeful_pro_po_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hopeful_pro_po_cv"
+            },
+            {
+                "isAbout": "items/hopeful_reopen_bus_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hopeful_reopen_bus_2_cv"
+            },
+            {
+                "isAbout": "items/hopeful_reopen_bus_4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hopeful_reopen_bus_4_cv"
+            },
+            {
+                "isAbout": "items/hopeful_reopen_bus_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hopeful_reopen_bus_cv"
+            },
+            {
+                "isAbout": "items/hopeful_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hopeful_y_cv"
+            },
+            {
+                "isAbout": "items/hours_language_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hours_language_cv"
+            },
+            {
+                "isAbout": "items/hours_math_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hours_math_cv"
+            },
+            {
+                "isAbout": "items/hours_other_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hours_other_cv"
+            },
+            {
+                "isAbout": "items/hours_reading_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hours_reading_cv"
+            },
+            {
+                "isAbout": "items/hours_science_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hours_science_cv"
+            },
+            {
+                "isAbout": "items/hours_social_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hours_social_cv"
+            },
+            {
+                "isAbout": "items/inspired_against_mask_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "inspired_against_mask_2_cv"
+            },
+            {
+                "isAbout": "items/inspired_anti_mask",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "inspired_anti_mask"
+            },
+            {
+                "isAbout": "items/inspired_anti_mask_4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "inspired_anti_mask_4_cv"
+            },
+            {
+                "isAbout": "items/inspired_blm_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "inspired_blm_2_cv"
+            },
+            {
+                "isAbout": "items/inspired_blm_4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "inspired_blm_4_cv"
+            },
+            {
+                "isAbout": "items/inspired_blm_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "inspired_blm_cv"
+            },
+            {
+                "isAbout": "items/inspired_pro_po_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "inspired_pro_po_2_cv"
+            },
+            {
+                "isAbout": "items/inspired_pro_po_4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "inspired_pro_po_4_cv"
+            },
+            {
+                "isAbout": "items/inspired_pro_po_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "inspired_pro_po_cv"
+            },
+            {
+                "isAbout": "items/inspired_reopen_bus_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "inspired_reopen_bus_2_cv"
+            },
+            {
+                "isAbout": "items/inspired_reopen_bus_4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "inspired_reopen_bus_4_cv"
+            },
+            {
+                "isAbout": "items/inspired_reopen_bus_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "inspired_reopen_bus_cv"
+            },
+            {
+                "isAbout": "items/interested_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "interested_y_cv"
+            },
+            {
+                "isAbout": "items/life_change_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "life_change_y_cv"
+            },
+            {
+                "isAbout": "items/mctq_fd_awakening_min_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_fd_awakening_min_cv"
+            },
+            {
+                "isAbout": "items/mctq_fd_btime_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_fd_btime_cv"
+            },
+            {
+                "isAbout": "items/mctq_fd_min_to_get_up_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_fd_min_to_get_up_cv"
+            },
+            {
+                "isAbout": "items/mctq_fd_min_to_sleep_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_fd_min_to_sleep_cv"
+            },
+            {
+                "isAbout": "items/mctq_fd_num_wake_up_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_fd_num_wake_up_cv"
+            },
+            {
+                "isAbout": "items/mctq_fd_time_asleep_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_fd_time_asleep_cv"
+            },
+            {
+                "isAbout": "items/mctq_fd_wake_up_time_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_fd_wake_up_time_cv"
+            },
+            {
+                "isAbout": "items/mctq_schedule_time_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_schedule_time_cv"
+            },
+            {
+                "isAbout": "items/mental_health_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mental_health_cv"
+            },
+            {
+                "isAbout": "items/missing_school_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "missing_school_cv"
+            },
+            {
+                "isAbout": "items/mod_phys_act_hour_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mod_phys_act_hour_2_cv"
+            },
+            {
+                "isAbout": "items/mod_phys_act_hour_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mod_phys_act_hour_cv"
+            },
+            {
+                "isAbout": "items/mod_phys_act_min_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mod_phys_act_min_cv"
+            },
+            {
+                "isAbout": "items/money_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "money_cv"
+            },
+            {
+                "isAbout": "items/news_update_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "news_update_cv"
+            },
+            {
+                "isAbout": "items/online_arts_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "online_arts_cv"
+            },
+            {
+                "isAbout": "items/online_other_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "online_other_cv"
+            },
+            {
+                "isAbout": "items/online_science_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "online_science_cv"
+            },
+            {
+                "isAbout": "items/others_worry_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "others_worry_y_cv"
+            },
+            {
+                "isAbout": "items/outdoor_act_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "outdoor_act_cv"
+            },
+            {
+                "isAbout": "items/parent_involve_school_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_involve_school_cv"
+            },
+            {
+                "isAbout": "items/parent_involved_school_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_involved_school_cv"
+            },
+            {
+                "isAbout": "items/parent_monitor_q1_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_monitor_q1_y_cv"
+            },
+            {
+                "isAbout": "items/parent_monitor_q3_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_monitor_q3_y_cv"
+            },
+            {
+                "isAbout": "items/parent_monitor_q4_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_monitor_q4_y_cv"
+            },
+            {
+                "isAbout": "items/parent_monitor_q5_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_monitor_q5_y_cv"
+            },
+            {
+                "isAbout": "items/past_week_cope_cv___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "past_week_cope_cv___1"
+            },
+            {
+                "isAbout": "items/past_week_cope_cv___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "past_week_cope_cv___2"
+            },
+            {
+                "isAbout": "items/past_week_cope_cv___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "past_week_cope_cv___3"
+            },
+            {
+                "isAbout": "items/past_week_cope_cv___4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "past_week_cope_cv___4"
+            },
+            {
+                "isAbout": "items/past_week_cope_cv___5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "past_week_cope_cv___5"
+            },
+            {
+                "isAbout": "items/past_week_cope_cv___6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "past_week_cope_cv___6"
+            },
+            {
+                "isAbout": "items/past_week_cope_cv___7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "past_week_cope_cv___7"
+            },
+            {
+                "isAbout": "items/past_week_cope_cv___8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "past_week_cope_cv___8"
+            },
+            {
+                "isAbout": "items/past_week_cope_cv___9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "past_week_cope_cv___9"
+            },
+            {
+                "isAbout": "items/pet_identify_cv___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pet_identify_cv___1"
+            },
+            {
+                "isAbout": "items/pet_identify_cv___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pet_identify_cv___2"
+            },
+            {
+                "isAbout": "items/pet_identify_cv___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pet_identify_cv___3"
+            },
+            {
+                "isAbout": "items/pet_identify_cv___4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pet_identify_cv___4"
+            },
+            {
+                "isAbout": "items/pet_identify_cv___5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pet_identify_cv___5"
+            },
+            {
+                "isAbout": "items/pet_identify_cv___6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pet_identify_cv___6"
+            },
+            {
+                "isAbout": "items/pets_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pets_cv"
+            },
+            {
+                "isAbout": "items/physical_activities_hr_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "physical_activities_hr_cv"
+            },
+            {
+                "isAbout": "items/ple_close_fam_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_close_fam_cv"
+            },
+            {
+                "isAbout": "items/ple_close_fam_fu_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_close_fam_fu_y_cv"
+            },
+            {
+                "isAbout": "items/ple_close_fam_fu2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_close_fam_fu2_cv"
+            },
+            {
+                "isAbout": "items/ple_close_fam_fu3_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_close_fam_fu3_y_cv"
+            },
+            {
+                "isAbout": "items/pro_po_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pro_po_2_cv"
+            },
+            {
+                "isAbout": "items/pro_po_3_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pro_po_3_cv"
+            },
+            {
+                "isAbout": "items/pro_po_4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pro_po_4_cv"
+            },
+            {
+                "isAbout": "items/pro_po_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pro_po_cv"
+            },
+            {
+                "isAbout": "items/pro_po_demo_help_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pro_po_demo_help_cv"
+            },
+            {
+                "isAbout": "items/pro_po_force_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pro_po_force_cv"
+            },
+            {
+                "isAbout": "items/pro_po_friends_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pro_po_friends_cv"
+            },
+            {
+                "isAbout": "items/pro_po_help_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pro_po_help_cv"
+            },
+            {
+                "isAbout": "items/pro_po_neigh_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pro_po_neigh_cv"
+            },
+            {
+                "isAbout": "items/pro_po_parents_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pro_po_parents_cv"
+            },
+            {
+                "isAbout": "items/pro_po_sib_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pro_po_sib_cv"
+            },
+            {
+                "isAbout": "items/pro_po_social_media_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pro_po_social_media_cv"
+            },
+            {
+                "isAbout": "items/pro_po_time_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pro_po_time_cv"
+            },
+            {
+                "isAbout": "items/pro_po_violence_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pro_po_violence_cv"
+            },
+            {
+                "isAbout": "items/pstr_confidence_p_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pstr_confidence_p_cv"
+            },
+            {
+                "isAbout": "items/pstr_overcome_p_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pstr_overcome_p_cv"
+            },
+            {
+                "isAbout": "items/pstr_unable_control_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pstr_unable_control_cv"
+            },
+            {
+                "isAbout": "items/pstr_way_p_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pstr_way_p_cv"
+            },
+            {
+                "isAbout": "items/questionnaire_privacy_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "questionnaire_privacy_cv"
+            },
+            {
+                "isAbout": "items/reg_meals_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reg_meals_cv"
+            },
+            {
+                "isAbout": "items/relationships_w_family_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "relationships_w_family_cv"
+            },
+            {
+                "isAbout": "items/relationships_w_friends_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "relationships_w_friends_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reopen_bus_2_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_3_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reopen_bus_3_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reopen_bus_4_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reopen_bus_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_demo_help_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reopen_bus_demo_help_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_friends_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reopen_bus_friends_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_neigh_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reopen_bus_neigh_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_parents_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reopen_bus_parents_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_po_force_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reopen_bus_po_force_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_po_help_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reopen_bus_po_help_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_sib_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reopen_bus_sib_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_social_media_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reopen_bus_social_media_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_time_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reopen_bus_time_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_violence_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reopen_bus_violence_cv"
+            },
+            {
+                "isAbout": "items/routine_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "routine_cv"
+            },
+            {
+                "isAbout": "items/scared_easily_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "scared_easily_cv"
+            },
+            {
+                "isAbout": "items/school_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "school_cv"
+            },
+            {
+                "isAbout": "items/school_like_activities_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "school_like_activities_cv"
+            },
+            {
+                "isAbout": "items/school_like_activities_reduced_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "school_like_activities_reduced_cv"
+            },
+            {
+                "isAbout": "items/school_work_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "school_work_cv"
+            },
+            {
+                "isAbout": "items/schooling_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "schooling_cv"
+            },
+            {
+                "isAbout": "items/screentime_10_wknd_hr_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_10_wknd_hr_cv"
+            },
+            {
+                "isAbout": "items/screentime_11_wknd_hr_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_11_wknd_hr_cv"
+            },
+            {
+                "isAbout": "items/screentime_12_wknd_hr_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_12_wknd_hr_cv"
+            },
+            {
+                "isAbout": "items/screentime_14_wknd_hr_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_14_wknd_hr_cv"
+            },
+            {
+                "isAbout": "items/screentime_15_wknd_hr_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_15_wknd_hr_cv"
+            },
+            {
+                "isAbout": "items/screentime_7_wknd_hr_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_7_wknd_hr_cv"
+            },
+            {
+                "isAbout": "items/screentime_9_wknd_hr_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_9_wknd_hr_cv"
+            },
+            {
+                "isAbout": "items/screentime_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_cv"
+            },
+            {
+                "isAbout": "items/screentime_music_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_music_cv"
+            },
+            {
+                "isAbout": "items/screentime_wknd_hr_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_wknd_hr_cv"
+            },
+            {
+                "isAbout": "items/screentime_wknd_typical_hr_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_wknd_typical_hr_cv"
+            },
+            {
+                "isAbout": "items/sitting_weekday_hour_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sitting_weekday_hour_2_cv"
+            },
+            {
+                "isAbout": "items/sitting_weekday_hour_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sitting_weekday_hour_cv"
+            },
+            {
+                "isAbout": "items/social_media_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "social_media_cv"
+            },
+            {
+                "isAbout": "items/social_media_platform_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "social_media_platform_cv"
+            },
+            {
+                "isAbout": "items/something_awful_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "something_awful_cv"
+            },
+            {
+                "isAbout": "items/stressful_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "stressful_y_cv"
+            },
+            {
+                "isAbout": "items/strle_angry_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strle_angry_cv"
+            },
+            {
+                "isAbout": "items/strle_not_talk_about_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strle_not_talk_about_cv"
+            },
+            {
+                "isAbout": "items/strle_pictures_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strle_pictures_cv"
+            },
+            {
+                "isAbout": "items/strle_reminder_pl_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strle_reminder_pl_cv"
+            },
+            {
+                "isAbout": "items/strle_rv_fr_mem_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strle_rv_fr_mem_cv"
+            },
+            {
+                "isAbout": "items/strle_strong_feelings_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strle_strong_feelings_cv"
+            },
+            {
+                "isAbout": "items/strle_think_about_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strle_think_about_cv"
+            },
+            {
+                "isAbout": "items/strle_think_of_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strle_think_of_cv"
+            },
+            {
+                "isAbout": "items/strle_try_not_to_think_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strle_try_not_to_think_cv"
+            },
+            {
+                "isAbout": "items/su_alcohol_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_alcohol_cv"
+            },
+            {
+                "isAbout": "items/su_liquids_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_liquids_cv"
+            },
+            {
+                "isAbout": "items/su_medication_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_medication_cv"
+            },
+            {
+                "isAbout": "items/su_meth_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_meth_cv"
+            },
+            {
+                "isAbout": "items/su_mj_edible_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_mj_edible_cv"
+            },
+            {
+                "isAbout": "items/su_mj_oils_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_mj_oils_cv"
+            },
+            {
+                "isAbout": "items/su_mj_use_past_month_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_mj_use_past_month_cv"
+            },
+            {
+                "isAbout": "items/su_smoked_mj_fl_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_smoked_mj_fl_cv"
+            },
+            {
+                "isAbout": "items/su_smoked_tob_cig_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_smoked_tob_cig_cv"
+            },
+            {
+                "isAbout": "items/su_tobacco_chew_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_tobacco_chew_cv"
+            },
+            {
+                "isAbout": "items/su_tobacco_cig_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_tobacco_cig_cv"
+            },
+            {
+                "isAbout": "items/su_vape_nic_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vape_nic_cv"
+            },
+            {
+                "isAbout": "items/su_vaped_mj_fl_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vaped_mj_fl_cv"
+            },
+            {
+                "isAbout": "items/su_vaped_mj_oils_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vaped_mj_oils_cv"
+            },
+            {
+                "isAbout": "items/teach_concept_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "teach_concept_cv"
+            },
+            {
+                "isAbout": "items/tv_view_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "tv_view_cv"
+            },
+            {
+                "isAbout": "items/walk_10_min_per_day_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "walk_10_min_per_day_cv"
+            },
+            {
+                "isAbout": "items/walking_hour_per_day_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "walking_hour_per_day_2_cv"
+            },
+            {
+                "isAbout": "items/walking_hour_per_day_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "walking_hour_per_day_cv"
+            },
+            {
+                "isAbout": "items/walking_min_per_day_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "walking_min_per_day_cv"
+            },
+            {
+                "isAbout": "items/witness_rac_disc_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "witness_rac_disc_cv"
+            },
+            {
+                "isAbout": "items/worried_about_me_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "worried_about_me_cv"
+            },
+            {
+                "isAbout": "items/worried_at_home_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "worried_at_home_cv"
+            },
+            {
+                "isAbout": "items/worried_at_night_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "worried_at_night_cv"
+            },
+            {
+                "isAbout": "items/worried_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "worried_cv"
+            },
+            {
+                "isAbout": "items/worry_y_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "worry_y_cv"
+            },
+            {
+                "isAbout": "items/monitor_school_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "monitor_school_cv"
+            },
+            {
+                "isAbout": "items/screen_time_affects_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screen_time_affects_cv"
+            },
+            {
+                "isAbout": "items/screen_time_awake_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screen_time_awake_cv"
+            },
+            {
+                "isAbout": "items/screens_escape_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screens_escape_cv"
+            },
+            {
+                "isAbout": "items/yabcdcovid19_complete_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "yabcdcovid19_complete_date"
+            },
+            {
+                "isAbout": "items/mdemo_online_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mdemo_online_cv"
+            },
+            {
+                "isAbout": "items/mdemo_friends_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mdemo_friends_cv"
+            },
+            {
+                "isAbout": "items/mdemo_parents_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mdemo_parents_cv"
+            },
+            {
+                "isAbout": "items/mdemo_siblings_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mdemo_siblings_cv"
+            },
+            {
+                "isAbout": "items/app_track_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "app_track_cv"
+            },
+            {
+                "isAbout": "items/monitor_screen_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "monitor_screen_cv"
+            },
+            {
+                "isAbout": "items/su_30_days_cv",
+                "isVis": "(su_alcohol_cv >= \"2\" || su_tobacco_cig_cv >= \"2\" || su_vape_nic_cv >= \"2\" || su_smoked_tob_cig_cv >= \"2\" || su_tobacco_chew_cv >= \"2\" || su_mj_use_past_month_cv >= \"2\" || su_vaped_mj_fl_cv >= \"2\" || su_smoked_mj_fl_cv >= \"2\" || su_vaped_mj_oils_cv >= \"2\" || su_vaped_mj_oils_cv >= \"2\" || su_mj_oils_cv >= \"2\" || su_mj_edible_cv >= \"2\" || su_medication_cv >= \"2\" || su_liquids_cv >= \"2\" || su_meth_cv >= \"2\")",
+                "valueRequired": true,
+                "variableName": "su_30_days_cv"
+            },
+            {
+                "isAbout": "items/su_restrictions_cv",
+                "isVis": "su_30_days_cv = '1'",
+                "valueRequired": true,
+                "variableName": "su_restrictions_cv"
+            },
+            {
+                "isAbout": "items/su_planned_use_cv",
+                "isVis": "event-name = 'covid19_cv7_arm_2'",
+                "valueRequired": true,
+                "variableName": "su_planned_use_cv"
+            },
+            {
+                "isAbout": "items/in_person_school_days_cv",
+                "isVis": "schooling_cv = '3'",
+                "valueRequired": true,
+                "variableName": "in_person_school_days_cv"
+            },
+            {
+                "isAbout": "items/online_school_days_cv",
+                "isVis": "schooling_cv = '3'",
+                "valueRequired": true,
+                "variableName": "online_school_days_cv"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

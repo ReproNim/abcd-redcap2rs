@@ -1,0 +1,24 @@
+{
+    "id": "ksads_21_367_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_21_367_p of mh_p_ksads_ss"
+    },
+    "prefLabel": {
+        "en": "Symptom - Feelings of Feelings of detachment Present"
+    },
+    "question": {
+        "en": "Symptom - Feelings of Feelings of detachment Present"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

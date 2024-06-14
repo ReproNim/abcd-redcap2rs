@@ -1,0 +1,53 @@
+{
+    "id": "socialdev_pvict_c9_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_pvict_c9_l of sd_p_vict"
+    },
+    "prefLabel": {
+        "en": "Since your last SD visit, has your child been hit or attacked because of your child's skin color, religion, or where your child's family comes from?  Or because of a physical problem your child has?  Or because someone said your child was gay?"
+    },
+    "question": {
+        "en": "Since your last SD visit, has your child been hit or attacked because of your child's skin color, religion, or where your child's family comes from? Or because of a physical problem your child has? Or because someone said your child was gay?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 98
+            },
+            {
+                "name": {
+                    "en": "I'd rather not say"
+                },
+                "value": 99
+            }
+        ],
+        "maxValue": 99,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

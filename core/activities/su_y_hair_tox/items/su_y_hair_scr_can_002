@@ -1,0 +1,47 @@
+{
+    "id": "su_y_hair_scr_can_002",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_y_hair_scr_can_002 of su_y_hair_tox"
+    },
+    "prefLabel": {
+        "en": "THCCOOH assay (sent directly to mass spectrometry regardless of screen results)"
+    },
+    "question": {
+        "en": "THCCOOH assay (sent directly to mass spectrometry regardless of screen results)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not completed"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Completed"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Quantity not sufficient"
+                },
+                "value": 666
+            }
+        ],
+        "maxValue": 666,
+        "minValue": 3,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,2471 @@
+{
+    "id": "cvd_l_geo_sg_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Geocoded Data in COVID-19"
+    },
+    "prefLabel": {
+        "en": "Cvd_L_Geo_Sg"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_covidgeo_sg_disttravel_db0",
+            "items/reshist_addr1_covidgeo_sg_disttravel_db1",
+            "items/reshist_addr1_covidgeo_sg_disttravel_db2",
+            "items/reshist_addr1_covidgeo_sg_disttravel_db3",
+            "items/reshist_addr1_covidgeo_sg_disttravel_db4",
+            "items/reshist_addr1_covidgeo_sg_disttravel_db5",
+            "items/reshist_addr1_covidgeo_sg_disttravel_db6",
+            "items/reshist_addr1_covidgeo_sg_disttravel1yrp_db0",
+            "items/reshist_addr1_covidgeo_sg_disttravel1yrp_db1",
+            "items/reshist_addr1_covidgeo_sg_disttravel1yrp_db2",
+            "items/reshist_addr1_covidgeo_sg_disttravel1yrp_db3",
+            "items/reshist_addr1_covidgeo_sg_disttravel1yrp_db4",
+            "items/reshist_addr1_covidgeo_sg_disttravel1yrp_db5",
+            "items/reshist_addr1_covidgeo_sg_disttravel1yrp_db6",
+            "items/reshist_addr1_covidgeo_sg_homedwell_db0",
+            "items/reshist_addr1_covidgeo_sg_homedwell_db1",
+            "items/reshist_addr1_covidgeo_sg_homedwell_db2",
+            "items/reshist_addr1_covidgeo_sg_homedwell_db3",
+            "items/reshist_addr1_covidgeo_sg_homedwell_db4",
+            "items/reshist_addr1_covidgeo_sg_homedwell_db5",
+            "items/reshist_addr1_covidgeo_sg_homedwell_db6",
+            "items/reshist_addr1_covidgeo_sg_homedwell1yrp_db0",
+            "items/reshist_addr1_covidgeo_sg_homedwell1yrp_db1",
+            "items/reshist_addr1_covidgeo_sg_homedwell1yrp_db2",
+            "items/reshist_addr1_covidgeo_sg_homedwell1yrp_db3",
+            "items/reshist_addr1_covidgeo_sg_homedwell1yrp_db4",
+            "items/reshist_addr1_covidgeo_sg_homedwell1yrp_db5",
+            "items/reshist_addr1_covidgeo_sg_homedwell1yrp_db6",
+            "items/reshist_addr1_covidgeo_sg_devathome_db0",
+            "items/reshist_addr1_covidgeo_sg_devathome_db1",
+            "items/reshist_addr1_covidgeo_sg_devathome_db2",
+            "items/reshist_addr1_covidgeo_sg_devathome_db3",
+            "items/reshist_addr1_covidgeo_sg_devathome_db4",
+            "items/reshist_addr1_covidgeo_sg_devathome_db5",
+            "items/reshist_addr1_covidgeo_sg_devathome_db6",
+            "items/reshist_addr1_covidgeo_sg_devathome1yrp_db0",
+            "items/reshist_addr1_covidgeo_sg_devathome1yrp_db1",
+            "items/reshist_addr1_covidgeo_sg_devathome1yrp_db2",
+            "items/reshist_addr1_covidgeo_sg_devathome1yrp_db3",
+            "items/reshist_addr1_covidgeo_sg_devathome1yrp_db4",
+            "items/reshist_addr1_covidgeo_sg_devathome1yrp_db5",
+            "items/reshist_addr1_covidgeo_sg_devathome1yrp_db6",
+            "items/reshist_addr1_covidgeo_sg_ftwork_db0",
+            "items/reshist_addr1_covidgeo_sg_ftwork_db1",
+            "items/reshist_addr1_covidgeo_sg_ftwork_db2",
+            "items/reshist_addr1_covidgeo_sg_ftwork_db3",
+            "items/reshist_addr1_covidgeo_sg_ftwork_db4",
+            "items/reshist_addr1_covidgeo_sg_ftwork_db5",
+            "items/reshist_addr1_covidgeo_sg_ftwork_db6",
+            "items/reshist_addr1_covidgeo_sg_ftwork1yrp_db0",
+            "items/reshist_addr1_covidgeo_sg_ftwork1yrp_db1",
+            "items/reshist_addr1_covidgeo_sg_ftwork1yrp_db2",
+            "items/reshist_addr1_covidgeo_sg_ftwork1yrp_db3",
+            "items/reshist_addr1_covidgeo_sg_ftwork1yrp_db4",
+            "items/reshist_addr1_covidgeo_sg_ftwork1yrp_db5",
+            "items/reshist_addr1_covidgeo_sg_ftwork1yrp_db6",
+            "items/reshist_addr1_covidgeo_sg_ptwork_db0",
+            "items/reshist_addr1_covidgeo_sg_ptwork_db1",
+            "items/reshist_addr1_covidgeo_sg_ptwork_db2",
+            "items/reshist_addr1_covidgeo_sg_ptwork_db3",
+            "items/reshist_addr1_covidgeo_sg_ptwork_db4",
+            "items/reshist_addr1_covidgeo_sg_ptwork_db5",
+            "items/reshist_addr1_covidgeo_sg_ptwork_db6",
+            "items/reshist_addr1_covidgeo_sg_ptwork1yrp_db0",
+            "items/reshist_addr1_covidgeo_sg_ptwork1yrp_db1",
+            "items/reshist_addr1_covidgeo_sg_ptwork1yrp_db2",
+            "items/reshist_addr1_covidgeo_sg_ptwork1yrp_db3",
+            "items/reshist_addr1_covidgeo_sg_ptwork1yrp_db4",
+            "items/reshist_addr1_covidgeo_sg_ptwork1yrp_db5",
+            "items/reshist_addr1_covidgeo_sg_ptwork1yrp_db6",
+            "items/reshist_addr2_covidgeo_sg_disttravel_db0",
+            "items/reshist_addr2_covidgeo_sg_disttravel_db1",
+            "items/reshist_addr2_covidgeo_sg_disttravel_db2",
+            "items/reshist_addr2_covidgeo_sg_disttravel_db3",
+            "items/reshist_addr2_covidgeo_sg_disttravel_db4",
+            "items/reshist_addr2_covidgeo_sg_disttravel_db5",
+            "items/reshist_addr2_covidgeo_sg_disttravel_db6",
+            "items/reshist_addr2_covidgeo_sg_disttravel1yrp_db0",
+            "items/reshist_addr2_covidgeo_sg_disttravel1yrp_db1",
+            "items/reshist_addr2_covidgeo_sg_disttravel1yrp_db2",
+            "items/reshist_addr2_covidgeo_sg_disttravel1yrp_db3",
+            "items/reshist_addr2_covidgeo_sg_disttravel1yrp_db4",
+            "items/reshist_addr2_covidgeo_sg_disttravel1yrp_db5",
+            "items/reshist_addr2_covidgeo_sg_disttravel1yrp_db6",
+            "items/reshist_addr2_covidgeo_sg_homedwell_db0",
+            "items/reshist_addr2_covidgeo_sg_homedwell_db1",
+            "items/reshist_addr2_covidgeo_sg_homedwell_db2",
+            "items/reshist_addr2_covidgeo_sg_homedwell_db3",
+            "items/reshist_addr2_covidgeo_sg_homedwell_db4",
+            "items/reshist_addr2_covidgeo_sg_homedwell_db5",
+            "items/reshist_addr2_covidgeo_sg_homedwell_db6",
+            "items/reshist_addr2_covidgeo_sg_homedwell1yrp_db0",
+            "items/reshist_addr2_covidgeo_sg_homedwell1yrp_db1",
+            "items/reshist_addr2_covidgeo_sg_homedwell1yrp_db2",
+            "items/reshist_addr2_covidgeo_sg_homedwell1yrp_db3",
+            "items/reshist_addr2_covidgeo_sg_homedwell1yrp_db4",
+            "items/reshist_addr2_covidgeo_sg_homedwell1yrp_db5",
+            "items/reshist_addr2_covidgeo_sg_homedwell1yrp_db6",
+            "items/reshist_addr2_covidgeo_sg_devathome_db0",
+            "items/reshist_addr2_covidgeo_sg_devathome_db1",
+            "items/reshist_addr2_covidgeo_sg_devathome_db2",
+            "items/reshist_addr2_covidgeo_sg_devathome_db3",
+            "items/reshist_addr2_covidgeo_sg_devathome_db4",
+            "items/reshist_addr2_covidgeo_sg_devathome_db5",
+            "items/reshist_addr2_covidgeo_sg_devathome_db6",
+            "items/reshist_addr2_covidgeo_sg_devathome1yrp_db0",
+            "items/reshist_addr2_covidgeo_sg_devathome1yrp_db1",
+            "items/reshist_addr2_covidgeo_sg_devathome1yrp_db2",
+            "items/reshist_addr2_covidgeo_sg_devathome1yrp_db3",
+            "items/reshist_addr2_covidgeo_sg_devathome1yrp_db4",
+            "items/reshist_addr2_covidgeo_sg_devathome1yrp_db5",
+            "items/reshist_addr2_covidgeo_sg_devathome1yrp_db6",
+            "items/reshist_addr2_covidgeo_sg_ftwork_db0",
+            "items/reshist_addr2_covidgeo_sg_ftwork_db1",
+            "items/reshist_addr2_covidgeo_sg_ftwork_db2",
+            "items/reshist_addr2_covidgeo_sg_ftwork_db3",
+            "items/reshist_addr2_covidgeo_sg_ftwork_db4",
+            "items/reshist_addr2_covidgeo_sg_ftwork_db5",
+            "items/reshist_addr2_covidgeo_sg_ftwork_db6",
+            "items/reshist_addr2_covidgeo_sg_ftwork1yrp_db0",
+            "items/reshist_addr2_covidgeo_sg_ftwork1yrp_db1",
+            "items/reshist_addr2_covidgeo_sg_ftwork1yrp_db2",
+            "items/reshist_addr2_covidgeo_sg_ftwork1yrp_db3",
+            "items/reshist_addr2_covidgeo_sg_ftwork1yrp_db4",
+            "items/reshist_addr2_covidgeo_sg_ftwork1yrp_db5",
+            "items/reshist_addr2_covidgeo_sg_ftwork1yrp_db6",
+            "items/reshist_addr2_covidgeo_sg_ptwork_db0",
+            "items/reshist_addr2_covidgeo_sg_ptwork_db1",
+            "items/reshist_addr2_covidgeo_sg_ptwork_db2",
+            "items/reshist_addr2_covidgeo_sg_ptwork_db3",
+            "items/reshist_addr2_covidgeo_sg_ptwork_db4",
+            "items/reshist_addr2_covidgeo_sg_ptwork_db5",
+            "items/reshist_addr2_covidgeo_sg_ptwork_db6",
+            "items/reshist_addr2_covidgeo_sg_ptwork1yrp_db0",
+            "items/reshist_addr2_covidgeo_sg_ptwork1yrp_db1",
+            "items/reshist_addr2_covidgeo_sg_ptwork1yrp_db2",
+            "items/reshist_addr2_covidgeo_sg_ptwork1yrp_db3",
+            "items/reshist_addr2_covidgeo_sg_ptwork1yrp_db4",
+            "items/reshist_addr2_covidgeo_sg_ptwork1yrp_db5",
+            "items/reshist_addr2_covidgeo_sg_ptwork1yrp_db6",
+            "items/reshist_addr3_covidgeo_sg_disttravel_db0",
+            "items/reshist_addr3_covidgeo_sg_disttravel_db1",
+            "items/reshist_addr3_covidgeo_sg_disttravel_db2",
+            "items/reshist_addr3_covidgeo_sg_disttravel_db3",
+            "items/reshist_addr3_covidgeo_sg_disttravel_db4",
+            "items/reshist_addr3_covidgeo_sg_disttravel_db5",
+            "items/reshist_addr3_covidgeo_sg_disttravel_db6",
+            "items/reshist_addr3_covidgeo_sg_disttravel1yrp_db0",
+            "items/reshist_addr3_covidgeo_sg_disttravel1yrp_db1",
+            "items/reshist_addr3_covidgeo_sg_disttravel1yrp_db2",
+            "items/reshist_addr3_covidgeo_sg_disttravel1yrp_db3",
+            "items/reshist_addr3_covidgeo_sg_disttravel1yrp_db4",
+            "items/reshist_addr3_covidgeo_sg_disttravel1yrp_db5",
+            "items/reshist_addr3_covidgeo_sg_disttravel1yrp_db6",
+            "items/reshist_addr3_covidgeo_sg_homedwell_db0",
+            "items/reshist_addr3_covidgeo_sg_homedwell_db1",
+            "items/reshist_addr3_covidgeo_sg_homedwell_db2",
+            "items/reshist_addr3_covidgeo_sg_homedwell_db3",
+            "items/reshist_addr3_covidgeo_sg_homedwell_db4",
+            "items/reshist_addr3_covidgeo_sg_homedwell_db5",
+            "items/reshist_addr3_covidgeo_sg_homedwell_db6",
+            "items/reshist_addr3_covidgeo_sg_homedwell1yrp_db0",
+            "items/reshist_addr3_covidgeo_sg_homedwell1yrp_db1",
+            "items/reshist_addr3_covidgeo_sg_homedwell1yrp_db2",
+            "items/reshist_addr3_covidgeo_sg_homedwell1yrp_db3",
+            "items/reshist_addr3_covidgeo_sg_homedwell1yrp_db4",
+            "items/reshist_addr3_covidgeo_sg_homedwell1yrp_db5",
+            "items/reshist_addr3_covidgeo_sg_homedwell1yrp_db6",
+            "items/reshist_addr3_covidgeo_sg_devathome_db0",
+            "items/reshist_addr3_covidgeo_sg_devathome_db1",
+            "items/reshist_addr3_covidgeo_sg_devathome_db2",
+            "items/reshist_addr3_covidgeo_sg_devathome_db3",
+            "items/reshist_addr3_covidgeo_sg_devathome_db4",
+            "items/reshist_addr3_covidgeo_sg_devathome_db5",
+            "items/reshist_addr3_covidgeo_sg_devathome_db6",
+            "items/reshist_addr3_covidgeo_sg_devathome1yrp_db0",
+            "items/reshist_addr3_covidgeo_sg_devathome1yrp_db1",
+            "items/reshist_addr3_covidgeo_sg_devathome1yrp_db2",
+            "items/reshist_addr3_covidgeo_sg_devathome1yrp_db3",
+            "items/reshist_addr3_covidgeo_sg_devathome1yrp_db4",
+            "items/reshist_addr3_covidgeo_sg_devathome1yrp_db5",
+            "items/reshist_addr3_covidgeo_sg_devathome1yrp_db6",
+            "items/reshist_addr3_covidgeo_sg_ftwork_db0",
+            "items/reshist_addr3_covidgeo_sg_ftwork_db1",
+            "items/reshist_addr3_covidgeo_sg_ftwork_db2",
+            "items/reshist_addr3_covidgeo_sg_ftwork_db3",
+            "items/reshist_addr3_covidgeo_sg_ftwork_db4",
+            "items/reshist_addr3_covidgeo_sg_ftwork_db5",
+            "items/reshist_addr3_covidgeo_sg_ftwork_db6",
+            "items/reshist_addr3_covidgeo_sg_ftwork1yrp_db0",
+            "items/reshist_addr3_covidgeo_sg_ftwork1yrp_db1",
+            "items/reshist_addr3_covidgeo_sg_ftwork1yrp_db2",
+            "items/reshist_addr3_covidgeo_sg_ftwork1yrp_db3",
+            "items/reshist_addr3_covidgeo_sg_ftwork1yrp_db4",
+            "items/reshist_addr3_covidgeo_sg_ftwork1yrp_db5",
+            "items/reshist_addr3_covidgeo_sg_ftwork1yrp_db6",
+            "items/reshist_addr3_covidgeo_sg_ptwork_db0",
+            "items/reshist_addr3_covidgeo_sg_ptwork_db1",
+            "items/reshist_addr3_covidgeo_sg_ptwork_db2",
+            "items/reshist_addr3_covidgeo_sg_ptwork_db3",
+            "items/reshist_addr3_covidgeo_sg_ptwork_db4",
+            "items/reshist_addr3_covidgeo_sg_ptwork_db5",
+            "items/reshist_addr3_covidgeo_sg_ptwork_db6",
+            "items/reshist_addr3_covidgeo_sg_ptwork1yrp_db0",
+            "items/reshist_addr3_covidgeo_sg_ptwork1yrp_db1",
+            "items/reshist_addr3_covidgeo_sg_ptwork1yrp_db2",
+            "items/reshist_addr3_covidgeo_sg_ptwork1yrp_db3",
+            "items/reshist_addr3_covidgeo_sg_ptwork1yrp_db4",
+            "items/reshist_addr3_covidgeo_sg_ptwork1yrp_db5",
+            "items/reshist_addr3_covidgeo_sg_ptwork1yrp_db6",
+            "items/reshist_addr4_covidgeo_sg_disttravel_db0",
+            "items/reshist_addr4_covidgeo_sg_disttravel_db1",
+            "items/reshist_addr4_covidgeo_sg_disttravel_db2",
+            "items/reshist_addr4_covidgeo_sg_disttravel_db3",
+            "items/reshist_addr4_covidgeo_sg_disttravel_db4",
+            "items/reshist_addr4_covidgeo_sg_disttravel_db5",
+            "items/reshist_addr4_covidgeo_sg_disttravel_db6",
+            "items/reshist_addr4_covidgeo_sg_disttravel1yrp_db0",
+            "items/reshist_addr4_covidgeo_sg_disttravel1yrp_db1",
+            "items/reshist_addr4_covidgeo_sg_disttravel1yrp_db2",
+            "items/reshist_addr4_covidgeo_sg_disttravel1yrp_db3",
+            "items/reshist_addr4_covidgeo_sg_disttravel1yrp_db4",
+            "items/reshist_addr4_covidgeo_sg_disttravel1yrp_db5",
+            "items/reshist_addr4_covidgeo_sg_disttravel1yrp_db6",
+            "items/reshist_addr4_covidgeo_sg_homedwell_db0",
+            "items/reshist_addr4_covidgeo_sg_homedwell_db1",
+            "items/reshist_addr4_covidgeo_sg_homedwell_db2",
+            "items/reshist_addr4_covidgeo_sg_homedwell_db3",
+            "items/reshist_addr4_covidgeo_sg_homedwell_db4",
+            "items/reshist_addr4_covidgeo_sg_homedwell_db5",
+            "items/reshist_addr4_covidgeo_sg_homedwell_db6",
+            "items/reshist_addr4_covidgeo_sg_homedwell1yrp_db0",
+            "items/reshist_addr4_covidgeo_sg_homedwell1yrp_db1",
+            "items/reshist_addr4_covidgeo_sg_homedwell1yrp_db2",
+            "items/reshist_addr4_covidgeo_sg_homedwell1yrp_db3",
+            "items/reshist_addr4_covidgeo_sg_homedwell1yrp_db4",
+            "items/reshist_addr4_covidgeo_sg_homedwell1yrp_db5",
+            "items/reshist_addr4_covidgeo_sg_homedwell1yrp_db6",
+            "items/reshist_addr4_covidgeo_sg_devathome_db0",
+            "items/reshist_addr4_covidgeo_sg_devathome_db1",
+            "items/reshist_addr4_covidgeo_sg_devathome_db2",
+            "items/reshist_addr4_covidgeo_sg_devathome_db3",
+            "items/reshist_addr4_covidgeo_sg_devathome_db4",
+            "items/reshist_addr4_covidgeo_sg_devathome_db5",
+            "items/reshist_addr4_covidgeo_sg_devathome_db6",
+            "items/reshist_addr4_covidgeo_sg_devathome1yrp_db0",
+            "items/reshist_addr4_covidgeo_sg_devathome1yrp_db1",
+            "items/reshist_addr4_covidgeo_sg_devathome1yrp_db2",
+            "items/reshist_addr4_covidgeo_sg_devathome1yrp_db3",
+            "items/reshist_addr4_covidgeo_sg_devathome1yrp_db4",
+            "items/reshist_addr4_covidgeo_sg_devathome1yrp_db5",
+            "items/reshist_addr4_covidgeo_sg_devathome1yrp_db6",
+            "items/reshist_addr4_covidgeo_sg_ftwork_db0",
+            "items/reshist_addr4_covidgeo_sg_ftwork_db1",
+            "items/reshist_addr4_covidgeo_sg_ftwork_db2",
+            "items/reshist_addr4_covidgeo_sg_ftwork_db3",
+            "items/reshist_addr4_covidgeo_sg_ftwork_db4",
+            "items/reshist_addr4_covidgeo_sg_ftwork_db5",
+            "items/reshist_addr4_covidgeo_sg_ftwork_db6",
+            "items/reshist_addr4_covidgeo_sg_ftwork1yrp_db0",
+            "items/reshist_addr4_covidgeo_sg_ftwork1yrp_db1",
+            "items/reshist_addr4_covidgeo_sg_ftwork1yrp_db2",
+            "items/reshist_addr4_covidgeo_sg_ftwork1yrp_db3",
+            "items/reshist_addr4_covidgeo_sg_ftwork1yrp_db4",
+            "items/reshist_addr4_covidgeo_sg_ftwork1yrp_db5",
+            "items/reshist_addr4_covidgeo_sg_ftwork1yrp_db6",
+            "items/reshist_addr4_covidgeo_sg_ptwork_db0",
+            "items/reshist_addr4_covidgeo_sg_ptwork_db1",
+            "items/reshist_addr4_covidgeo_sg_ptwork_db2",
+            "items/reshist_addr4_covidgeo_sg_ptwork_db3",
+            "items/reshist_addr4_covidgeo_sg_ptwork_db4",
+            "items/reshist_addr4_covidgeo_sg_ptwork_db5",
+            "items/reshist_addr4_covidgeo_sg_ptwork_db6",
+            "items/reshist_addr4_covidgeo_sg_ptwork1yrp_db0",
+            "items/reshist_addr4_covidgeo_sg_ptwork1yrp_db1",
+            "items/reshist_addr4_covidgeo_sg_ptwork1yrp_db2",
+            "items/reshist_addr4_covidgeo_sg_ptwork1yrp_db3",
+            "items/reshist_addr4_covidgeo_sg_ptwork1yrp_db4",
+            "items/reshist_addr4_covidgeo_sg_ptwork1yrp_db5",
+            "items/reshist_addr4_covidgeo_sg_ptwork1yrp_db6",
+            "items/reshist_addr5_covidgeo_sg_disttravel_db0",
+            "items/reshist_addr5_covidgeo_sg_disttravel_db1",
+            "items/reshist_addr5_covidgeo_sg_disttravel_db2",
+            "items/reshist_addr5_covidgeo_sg_disttravel_db3",
+            "items/reshist_addr5_covidgeo_sg_disttravel_db4",
+            "items/reshist_addr5_covidgeo_sg_disttravel_db5",
+            "items/reshist_addr5_covidgeo_sg_disttravel_db6",
+            "items/reshist_addr5_covidgeo_sg_disttravel1yrp_db0",
+            "items/reshist_addr5_covidgeo_sg_disttravel1yrp_db1",
+            "items/reshist_addr5_covidgeo_sg_disttravel1yrp_db2",
+            "items/reshist_addr5_covidgeo_sg_disttravel1yrp_db3",
+            "items/reshist_addr5_covidgeo_sg_disttravel1yrp_db4",
+            "items/reshist_addr5_covidgeo_sg_disttravel1yrp_db5",
+            "items/reshist_addr5_covidgeo_sg_disttravel1yrp_db6",
+            "items/reshist_addr5_covidgeo_sg_homedwell_db0",
+            "items/reshist_addr5_covidgeo_sg_homedwell_db1",
+            "items/reshist_addr5_covidgeo_sg_homedwell_db2",
+            "items/reshist_addr5_covidgeo_sg_homedwell_db3",
+            "items/reshist_addr5_covidgeo_sg_homedwell_db4",
+            "items/reshist_addr5_covidgeo_sg_homedwell_db5",
+            "items/reshist_addr5_covidgeo_sg_homedwell_db6",
+            "items/reshist_addr5_covidgeo_sg_homedwell1yrp_db0",
+            "items/reshist_addr5_covidgeo_sg_homedwell1yrp_db1",
+            "items/reshist_addr5_covidgeo_sg_homedwell1yrp_db2",
+            "items/reshist_addr5_covidgeo_sg_homedwell1yrp_db3",
+            "items/reshist_addr5_covidgeo_sg_homedwell1yrp_db4",
+            "items/reshist_addr5_covidgeo_sg_homedwell1yrp_db5",
+            "items/reshist_addr5_covidgeo_sg_homedwell1yrp_db6",
+            "items/reshist_addr5_covidgeo_sg_devathome_db0",
+            "items/reshist_addr5_covidgeo_sg_devathome_db1",
+            "items/reshist_addr5_covidgeo_sg_devathome_db2",
+            "items/reshist_addr5_covidgeo_sg_devathome_db3",
+            "items/reshist_addr5_covidgeo_sg_devathome_db4",
+            "items/reshist_addr5_covidgeo_sg_devathome_db5",
+            "items/reshist_addr5_covidgeo_sg_devathome_db6",
+            "items/reshist_addr5_covidgeo_sg_devathome1yrp_db0",
+            "items/reshist_addr5_covidgeo_sg_devathome1yrp_db1",
+            "items/reshist_addr5_covidgeo_sg_devathome1yrp_db2",
+            "items/reshist_addr5_covidgeo_sg_devathome1yrp_db3",
+            "items/reshist_addr5_covidgeo_sg_devathome1yrp_db4",
+            "items/reshist_addr5_covidgeo_sg_devathome1yrp_db5",
+            "items/reshist_addr5_covidgeo_sg_devathome1yrp_db6",
+            "items/reshist_addr5_covidgeo_sg_ftwork_db0",
+            "items/reshist_addr5_covidgeo_sg_ftwork_db1",
+            "items/reshist_addr5_covidgeo_sg_ftwork_db2",
+            "items/reshist_addr5_covidgeo_sg_ftwork_db3",
+            "items/reshist_addr5_covidgeo_sg_ftwork_db4",
+            "items/reshist_addr5_covidgeo_sg_ftwork_db5",
+            "items/reshist_addr5_covidgeo_sg_ftwork_db6",
+            "items/reshist_addr5_covidgeo_sg_ftwork1yrp_db0",
+            "items/reshist_addr5_covidgeo_sg_ftwork1yrp_db1",
+            "items/reshist_addr5_covidgeo_sg_ftwork1yrp_db2",
+            "items/reshist_addr5_covidgeo_sg_ftwork1yrp_db3",
+            "items/reshist_addr5_covidgeo_sg_ftwork1yrp_db4",
+            "items/reshist_addr5_covidgeo_sg_ftwork1yrp_db5",
+            "items/reshist_addr5_covidgeo_sg_ftwork1yrp_db6",
+            "items/reshist_addr5_covidgeo_sg_ptwork_db0",
+            "items/reshist_addr5_covidgeo_sg_ptwork_db1",
+            "items/reshist_addr5_covidgeo_sg_ptwork_db2",
+            "items/reshist_addr5_covidgeo_sg_ptwork_db3",
+            "items/reshist_addr5_covidgeo_sg_ptwork_db4",
+            "items/reshist_addr5_covidgeo_sg_ptwork_db5",
+            "items/reshist_addr5_covidgeo_sg_ptwork_db6",
+            "items/reshist_addr5_covidgeo_sg_ptwork1yrp_db0",
+            "items/reshist_addr5_covidgeo_sg_ptwork1yrp_db1",
+            "items/reshist_addr5_covidgeo_sg_ptwork1yrp_db2",
+            "items/reshist_addr5_covidgeo_sg_ptwork1yrp_db3",
+            "items/reshist_addr5_covidgeo_sg_ptwork1yrp_db4",
+            "items/reshist_addr5_covidgeo_sg_ptwork1yrp_db5",
+            "items/reshist_addr5_covidgeo_sg_ptwork1yrp_db6"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_disttravel_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_disttravel_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_disttravel_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_disttravel_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_disttravel_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_disttravel_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_disttravel_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_disttravel_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_disttravel_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_disttravel_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_disttravel_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_disttravel_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_disttravel_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_disttravel_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_disttravel1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_disttravel1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_disttravel1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_disttravel1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_disttravel1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_disttravel1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_disttravel1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_disttravel1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_disttravel1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_disttravel1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_disttravel1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_disttravel1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_disttravel1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_disttravel1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_homedwell_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_homedwell_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_homedwell_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_homedwell_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_homedwell_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_homedwell_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_homedwell_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_homedwell_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_homedwell_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_homedwell_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_homedwell_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_homedwell_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_homedwell_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_homedwell_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_homedwell1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_homedwell1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_homedwell1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_homedwell1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_homedwell1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_homedwell1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_homedwell1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_homedwell1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_homedwell1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_homedwell1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_homedwell1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_homedwell1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_homedwell1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_homedwell1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_devathome_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_devathome_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_devathome_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_devathome_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_devathome_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_devathome_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_devathome_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_devathome_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_devathome_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_devathome_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_devathome_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_devathome_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_devathome_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_devathome_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_devathome1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_devathome1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_devathome1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_devathome1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_devathome1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_devathome1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_devathome1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_devathome1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_devathome1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_devathome1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_devathome1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_devathome1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_devathome1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_devathome1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ftwork_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ftwork_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ftwork_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ftwork_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ftwork_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ftwork_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ftwork_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ftwork_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ftwork_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ftwork_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ftwork_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ftwork_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ftwork_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ftwork_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ftwork1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ftwork1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ftwork1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ftwork1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ftwork1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ftwork1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ftwork1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ftwork1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ftwork1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ftwork1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ftwork1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ftwork1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ftwork1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ftwork1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ptwork_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ptwork_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ptwork_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ptwork_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ptwork_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ptwork_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ptwork_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ptwork_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ptwork_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ptwork_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ptwork_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ptwork_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ptwork_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ptwork_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ptwork1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ptwork1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ptwork1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ptwork1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ptwork1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ptwork1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ptwork1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ptwork1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ptwork1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ptwork1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ptwork1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ptwork1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_sg_ptwork1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_sg_ptwork1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_disttravel_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_disttravel_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_disttravel_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_disttravel_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_disttravel_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_disttravel_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_disttravel_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_disttravel_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_disttravel_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_disttravel_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_disttravel_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_disttravel_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_disttravel_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_disttravel_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_disttravel1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_disttravel1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_disttravel1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_disttravel1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_disttravel1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_disttravel1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_disttravel1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_disttravel1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_disttravel1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_disttravel1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_disttravel1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_disttravel1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_disttravel1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_disttravel1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_homedwell_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_homedwell_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_homedwell_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_homedwell_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_homedwell_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_homedwell_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_homedwell_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_homedwell_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_homedwell_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_homedwell_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_homedwell_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_homedwell_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_homedwell_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_homedwell_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_homedwell1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_homedwell1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_homedwell1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_homedwell1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_homedwell1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_homedwell1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_homedwell1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_homedwell1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_homedwell1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_homedwell1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_homedwell1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_homedwell1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_homedwell1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_homedwell1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_devathome_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_devathome_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_devathome_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_devathome_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_devathome_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_devathome_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_devathome_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_devathome_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_devathome_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_devathome_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_devathome_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_devathome_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_devathome_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_devathome_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_devathome1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_devathome1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_devathome1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_devathome1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_devathome1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_devathome1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_devathome1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_devathome1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_devathome1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_devathome1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_devathome1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_devathome1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_devathome1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_devathome1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ftwork_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ftwork_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ftwork_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ftwork_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ftwork_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ftwork_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ftwork_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ftwork_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ftwork_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ftwork_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ftwork_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ftwork_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ftwork_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ftwork_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ftwork1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ftwork1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ftwork1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ftwork1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ftwork1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ftwork1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ftwork1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ftwork1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ftwork1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ftwork1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ftwork1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ftwork1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ftwork1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ftwork1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ptwork_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ptwork_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ptwork_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ptwork_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ptwork_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ptwork_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ptwork_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ptwork_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ptwork_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ptwork_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ptwork_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ptwork_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ptwork_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ptwork_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ptwork1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ptwork1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ptwork1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ptwork1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ptwork1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ptwork1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ptwork1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ptwork1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ptwork1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ptwork1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ptwork1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ptwork1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_sg_ptwork1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_sg_ptwork1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_disttravel_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_disttravel_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_disttravel_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_disttravel_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_disttravel_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_disttravel_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_disttravel_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_disttravel_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_disttravel_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_disttravel_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_disttravel_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_disttravel_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_disttravel_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_disttravel_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_disttravel1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_disttravel1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_disttravel1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_disttravel1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_disttravel1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_disttravel1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_disttravel1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_disttravel1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_disttravel1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_disttravel1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_disttravel1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_disttravel1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_disttravel1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_disttravel1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_homedwell_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_homedwell_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_homedwell_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_homedwell_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_homedwell_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_homedwell_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_homedwell_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_homedwell_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_homedwell_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_homedwell_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_homedwell_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_homedwell_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_homedwell_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_homedwell_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_homedwell1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_homedwell1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_homedwell1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_homedwell1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_homedwell1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_homedwell1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_homedwell1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_homedwell1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_homedwell1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_homedwell1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_homedwell1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_homedwell1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_homedwell1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_homedwell1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_devathome_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_devathome_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_devathome_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_devathome_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_devathome_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_devathome_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_devathome_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_devathome_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_devathome_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_devathome_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_devathome_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_devathome_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_devathome_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_devathome_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_devathome1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_devathome1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_devathome1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_devathome1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_devathome1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_devathome1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_devathome1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_devathome1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_devathome1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_devathome1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_devathome1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_devathome1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_devathome1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_devathome1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ftwork_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ftwork_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ftwork_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ftwork_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ftwork_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ftwork_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ftwork_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ftwork_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ftwork_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ftwork_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ftwork_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ftwork_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ftwork_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ftwork_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ftwork1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ftwork1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ftwork1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ftwork1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ftwork1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ftwork1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ftwork1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ftwork1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ftwork1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ftwork1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ftwork1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ftwork1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ftwork1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ftwork1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ptwork_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ptwork_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ptwork_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ptwork_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ptwork_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ptwork_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ptwork_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ptwork_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ptwork_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ptwork_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ptwork_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ptwork_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ptwork_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ptwork_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ptwork1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ptwork1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ptwork1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ptwork1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ptwork1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ptwork1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ptwork1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ptwork1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ptwork1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ptwork1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ptwork1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ptwork1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_sg_ptwork1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_sg_ptwork1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_disttravel_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_disttravel_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_disttravel_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_disttravel_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_disttravel_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_disttravel_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_disttravel_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_disttravel_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_disttravel_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_disttravel_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_disttravel_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_disttravel_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_disttravel_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_disttravel_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_disttravel1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_disttravel1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_disttravel1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_disttravel1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_disttravel1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_disttravel1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_disttravel1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_disttravel1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_disttravel1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_disttravel1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_disttravel1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_disttravel1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_disttravel1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_disttravel1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_homedwell_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_homedwell_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_homedwell_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_homedwell_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_homedwell_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_homedwell_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_homedwell_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_homedwell_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_homedwell_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_homedwell_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_homedwell_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_homedwell_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_homedwell_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_homedwell_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_homedwell1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_homedwell1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_homedwell1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_homedwell1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_homedwell1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_homedwell1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_homedwell1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_homedwell1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_homedwell1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_homedwell1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_homedwell1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_homedwell1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_homedwell1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_homedwell1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_devathome_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_devathome_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_devathome_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_devathome_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_devathome_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_devathome_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_devathome_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_devathome_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_devathome_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_devathome_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_devathome_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_devathome_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_devathome_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_devathome_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_devathome1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_devathome1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_devathome1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_devathome1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_devathome1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_devathome1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_devathome1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_devathome1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_devathome1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_devathome1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_devathome1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_devathome1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_devathome1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_devathome1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ftwork_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ftwork_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ftwork_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ftwork_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ftwork_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ftwork_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ftwork_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ftwork_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ftwork_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ftwork_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ftwork_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ftwork_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ftwork_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ftwork_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ftwork1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ftwork1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ftwork1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ftwork1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ftwork1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ftwork1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ftwork1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ftwork1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ftwork1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ftwork1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ftwork1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ftwork1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ftwork1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ftwork1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ptwork_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ptwork_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ptwork_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ptwork_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ptwork_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ptwork_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ptwork_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ptwork_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ptwork_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ptwork_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ptwork_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ptwork_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ptwork_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ptwork_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ptwork1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ptwork1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ptwork1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ptwork1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ptwork1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ptwork1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ptwork1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ptwork1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ptwork1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ptwork1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ptwork1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ptwork1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_sg_ptwork1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_sg_ptwork1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_disttravel_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_disttravel_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_disttravel_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_disttravel_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_disttravel_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_disttravel_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_disttravel_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_disttravel_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_disttravel_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_disttravel_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_disttravel_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_disttravel_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_disttravel_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_disttravel_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_disttravel1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_disttravel1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_disttravel1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_disttravel1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_disttravel1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_disttravel1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_disttravel1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_disttravel1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_disttravel1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_disttravel1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_disttravel1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_disttravel1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_disttravel1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_disttravel1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_homedwell_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_homedwell_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_homedwell_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_homedwell_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_homedwell_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_homedwell_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_homedwell_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_homedwell_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_homedwell_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_homedwell_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_homedwell_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_homedwell_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_homedwell_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_homedwell_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_homedwell1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_homedwell1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_homedwell1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_homedwell1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_homedwell1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_homedwell1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_homedwell1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_homedwell1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_homedwell1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_homedwell1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_homedwell1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_homedwell1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_homedwell1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_homedwell1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_devathome_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_devathome_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_devathome_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_devathome_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_devathome_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_devathome_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_devathome_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_devathome_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_devathome_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_devathome_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_devathome_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_devathome_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_devathome_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_devathome_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_devathome1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_devathome1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_devathome1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_devathome1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_devathome1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_devathome1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_devathome1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_devathome1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_devathome1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_devathome1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_devathome1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_devathome1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_devathome1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_devathome1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ftwork_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ftwork_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ftwork_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ftwork_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ftwork_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ftwork_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ftwork_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ftwork_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ftwork_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ftwork_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ftwork_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ftwork_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ftwork_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ftwork_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ftwork1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ftwork1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ftwork1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ftwork1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ftwork1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ftwork1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ftwork1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ftwork1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ftwork1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ftwork1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ftwork1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ftwork1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ftwork1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ftwork1yrp_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ptwork_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ptwork_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ptwork_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ptwork_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ptwork_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ptwork_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ptwork_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ptwork_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ptwork_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ptwork_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ptwork_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ptwork_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ptwork_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ptwork_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ptwork1yrp_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ptwork1yrp_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ptwork1yrp_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ptwork1yrp_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ptwork1yrp_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ptwork1yrp_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ptwork1yrp_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ptwork1yrp_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ptwork1yrp_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ptwork1yrp_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ptwork1yrp_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ptwork1yrp_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_sg_ptwork1yrp_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_sg_ptwork1yrp_db6"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "tlfb_mj_max",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_mj_max of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Smoked marijuana (pot, grass, weed, ganja): (# of grams)"
+    },
+    "question": {
+        "en": "Smoked marijuana (pot, grass, weed, ganja): (# of grams)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

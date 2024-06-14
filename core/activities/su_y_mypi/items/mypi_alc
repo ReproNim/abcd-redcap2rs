@@ -1,0 +1,47 @@
+{
+    "id": "mypi_alc",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mypi_alc of su_y_mypi"
+    },
+    "prefLabel": {
+        "en": "Have you heard of drinks that contain alcohol, such as beer, wine or liquor, like rum, vodka, gin, whiskey, or tequila?"
+    },
+    "question": {
+        "en": "Have you heard of drinks that contain alcohol, such as beer, wine or liquor, like rum, vodka, gin, whiskey, or tequila?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "no"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

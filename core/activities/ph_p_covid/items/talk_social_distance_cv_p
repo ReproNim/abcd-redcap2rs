@@ -1,0 +1,59 @@
+{
+    "id": "talk_social_distance_cv_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "talk_social_distance_cv_p of ph_p_covid"
+    },
+    "prefLabel": {
+        "en": "The importance of physical distancing / La importancia del distanciamiento fisica"
+    },
+    "question": {
+        "en": "The importance of physical distancing La importancia del distanciamiento fisica"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never / Nunca"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Rarely / Raramente o Casi nunca"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Occasionally / Ocasionalmente o de vez en cuando"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Frequently / Frecuentemente"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Very Frequently / Muy frecuentemente"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

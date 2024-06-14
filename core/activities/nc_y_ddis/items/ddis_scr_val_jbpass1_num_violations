@@ -1,0 +1,24 @@
+{
+    "id": "ddis_scr_val_jbpass1_num_violations",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ddis_scr_val_jbpass1_num_violations of nc_y_ddis"
+    },
+    "prefLabel": {
+        "en": "values.JBPass1_NumberViolations: This is the tally of delay intervals (task blocks) where the participant's revealed subjective value (SV) of the standard $100 reward was actually greater than the SV observed for the next shorter delay"
+    },
+    "question": {
+        "en": "values. JBPass1_NumberViolations: This is the tally of delay intervals (task blocks) where the participant's revealed subjective value (SV) of the standard $100 reward was actually greater than the SV observed for the next shorter delay"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "isip_2_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "isip_2_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Did you continue to drink the alcoholic drink (and finish it) after the first sip?"
+    },
+    "question": {
+        "en": "Did you continue to drink the alcoholic drink (and finish it) after the first sip?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No /( isip_1b_yn_l   == '1' && ( isip_1d_c_l   == '0' ||   isip_2_c_l   == '0' ||  isip_3_c_l   == '0' ||  isip_4_c_l   == '0' ||  isip_5_c_l   == '0' ||  isip_6_c_l   == '0')) || ( isip_1b_c_l   == '1' && ( isip_2_c_l   == '0' ||  isip_3_c_l   == '0' ||  isip_4_c_l   == '0' ||  isip_5_c_l   == '0' ||  isip_6_c_l   == '0'))"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

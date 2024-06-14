@@ -1,0 +1,35 @@
+{
+    "id": "su_des_h2_other_youth_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_des_h2_other_youth_p of su_p_dse"
+    },
+    "prefLabel": {
+        "en": "Other drugs such as ecstasy/MDMA, ketamine, GHB? Otras drogas como extasis/MDMA  ketamina  GHB?"
+    },
+    "question": {
+        "en": "Other drugs such as ecstasy MDMA, ketamine, GHB? Otras drogas como extasis MDMA  ketamina  GHB?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't Know  /  No se"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 999,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

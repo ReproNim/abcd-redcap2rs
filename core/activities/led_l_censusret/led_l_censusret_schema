@@ -1,0 +1,63 @@
+{
+    "id": "led_l_censusret_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Neighborhood Social Factors in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Censusret"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_census-2010ret",
+            "items/reshist_addr1_census-ACS1418ret",
+            "items/reshist_addr2_census-2010ret",
+            "items/reshist_addr2_census-ACS1418ret",
+            "items/reshist_addr3_census-2010ret",
+            "items/reshist_addr3_census-ACS1418ret"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_census-2010ret",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_census-2010ret"
+            },
+            {
+                "isAbout": "items/reshist_addr1_census-ACS1418ret",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_census-ACS1418ret"
+            },
+            {
+                "isAbout": "items/reshist_addr2_census-2010ret",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_census-2010ret"
+            },
+            {
+                "isAbout": "items/reshist_addr2_census-ACS1418ret",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_census-ACS1418ret"
+            },
+            {
+                "isAbout": "items/reshist_addr3_census-2010ret",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_census-2010ret"
+            },
+            {
+                "isAbout": "items/reshist_addr3_census-ACS1418ret",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_census-ACS1418ret"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

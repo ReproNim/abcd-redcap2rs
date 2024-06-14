@@ -1,0 +1,59 @@
+{
+    "id": "socialdev_crd_20",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_crd_20 of sd_y_rd"
+    },
+    "prefLabel": {
+        "en": "Have you avoided paying for things such as movies, the bus, subway rides, or food?"
+    },
+    "question": {
+        "en": "Have you avoided paying for things such as movies, the bus, subway rides, or food?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Once or twice"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "More often"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 98
+            },
+            {
+                "name": {
+                    "en": "I'd rather not say"
+                },
+                "value": 99
+            }
+        ],
+        "maxValue": 99,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

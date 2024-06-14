@@ -1,0 +1,189 @@
+{
+    "id": "su_y_sal_tox_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Drug Toxicology in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Sal_Tox"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/tox1_results_y",
+            "items/tox1_dot_y",
+            "items/tox1_results_yn_y",
+            "items/tox1_coc_y",
+            "items/tox1_op_y",
+            "items/tox1_bzo_y",
+            "items/tox1_thc_y",
+            "items/tox1_amp_y",
+            "items/tox1_meth_y",
+            "items/tox1_mtd_y",
+            "items/tox2_need",
+            "items/tox2_results_y",
+            "items/tox2_dot_y",
+            "items/tox2_results_yn_y",
+            "items/tox2_coc_y",
+            "items/tox2_op_y",
+            "items/tox2_bzo_y",
+            "items/tox2_thc_y",
+            "items/tox2_amp_y",
+            "items/tox2_meth_y",
+            "items/tox2_mtd_y",
+            "items/tox1_results_2_y",
+            "items/tox1_dot_2_y",
+            "items/tox2_results_2_y"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/tox1_results_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "tox1_results_y"
+            },
+            {
+                "isAbout": "items/tox1_dot_y",
+                "isVis": "tox1_results_y   === '1' ||  tox1_results_y   === '2'",
+                "valueRequired": true,
+                "variableName": "tox1_dot_y"
+            },
+            {
+                "isAbout": "items/tox1_results_yn_y",
+                "isVis": "tox1_results_y   === '1' ||  tox1_results_y   === '2'",
+                "valueRequired": true,
+                "variableName": "tox1_results_yn_y"
+            },
+            {
+                "isAbout": "items/tox1_coc_y",
+                "isVis": "tox1_results_y   === '1'",
+                "valueRequired": true,
+                "variableName": "tox1_coc_y"
+            },
+            {
+                "isAbout": "items/tox1_op_y",
+                "isVis": "tox1_results_y   === '1'",
+                "valueRequired": true,
+                "variableName": "tox1_op_y"
+            },
+            {
+                "isAbout": "items/tox1_bzo_y",
+                "isVis": "tox1_results_y   === '1'",
+                "valueRequired": true,
+                "variableName": "tox1_bzo_y"
+            },
+            {
+                "isAbout": "items/tox1_thc_y",
+                "isVis": "tox1_results_y   === '1'",
+                "valueRequired": true,
+                "variableName": "tox1_thc_y"
+            },
+            {
+                "isAbout": "items/tox1_amp_y",
+                "isVis": "tox1_results_y   === '1'",
+                "valueRequired": true,
+                "variableName": "tox1_amp_y"
+            },
+            {
+                "isAbout": "items/tox1_meth_y",
+                "isVis": "tox1_results_y   === '1'",
+                "valueRequired": true,
+                "variableName": "tox1_meth_y"
+            },
+            {
+                "isAbout": "items/tox1_mtd_y",
+                "isVis": "tox1_results_y   === '1'",
+                "valueRequired": true,
+                "variableName": "tox1_mtd_y"
+            },
+            {
+                "isAbout": "items/tox2_need",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "tox2_need"
+            },
+            {
+                "isAbout": "items/tox2_results_y",
+                "isVis": "tox2_need   === '1'",
+                "valueRequired": true,
+                "variableName": "tox2_results_y"
+            },
+            {
+                "isAbout": "items/tox2_dot_y",
+                "isVis": "tox2_results_y   === '1' ||  tox2_results_y   === '2' &&  tox2_need   === '1'",
+                "valueRequired": true,
+                "variableName": "tox2_dot_y"
+            },
+            {
+                "isAbout": "items/tox2_results_yn_y",
+                "isVis": "tox2_results_y   === '1' ||  tox2_results_y   === '2'",
+                "valueRequired": true,
+                "variableName": "tox2_results_yn_y"
+            },
+            {
+                "isAbout": "items/tox2_coc_y",
+                "isVis": "tox2_results_y   === '1' &&  tox2_need   === '1'",
+                "valueRequired": true,
+                "variableName": "tox2_coc_y"
+            },
+            {
+                "isAbout": "items/tox2_op_y",
+                "isVis": "tox2_results_y   === '1' &&  tox2_need   === '1'",
+                "valueRequired": true,
+                "variableName": "tox2_op_y"
+            },
+            {
+                "isAbout": "items/tox2_bzo_y",
+                "isVis": "tox2_results_y   === '1' &&  tox2_need   === '1'",
+                "valueRequired": true,
+                "variableName": "tox2_bzo_y"
+            },
+            {
+                "isAbout": "items/tox2_thc_y",
+                "isVis": "tox2_results_y   === '1' &&  tox2_need   === '1'",
+                "valueRequired": true,
+                "variableName": "tox2_thc_y"
+            },
+            {
+                "isAbout": "items/tox2_amp_y",
+                "isVis": "tox2_results_y   === '1' &&  tox2_need   === '1'",
+                "valueRequired": true,
+                "variableName": "tox2_amp_y"
+            },
+            {
+                "isAbout": "items/tox2_meth_y",
+                "isVis": "tox2_results_y   === '1' &&  tox2_need   === '1'",
+                "valueRequired": true,
+                "variableName": "tox2_meth_y"
+            },
+            {
+                "isAbout": "items/tox2_mtd_y",
+                "isVis": "tox2_results_y   === '1' &&  tox2_need   === '1'",
+                "valueRequired": true,
+                "variableName": "tox2_mtd_y"
+            },
+            {
+                "isAbout": "items/tox1_results_2_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "tox1_results_2_y"
+            },
+            {
+                "isAbout": "items/tox1_dot_2_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "tox1_dot_2_y"
+            },
+            {
+                "isAbout": "items/tox2_results_2_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "tox2_results_2_y"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

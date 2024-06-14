@@ -1,0 +1,71 @@
+{
+    "id": "screentime_vgaq4",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screentime_vgaq4 of nt_y_st"
+    },
+    "prefLabel": {
+        "en": "I've tried to play video games less but I can't."
+    },
+    "question": {
+        "en": "I've tried to play video games less but I can't."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very rarely"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Very often"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

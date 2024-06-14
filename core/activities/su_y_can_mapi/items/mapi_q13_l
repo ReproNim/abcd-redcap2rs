@@ -1,0 +1,59 @@
+{
+    "id": "mapi_q13_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mapi_q13_l of su_y_can_mapi"
+    },
+    "prefLabel": {
+        "en": "Please indicate how many times each has happened to you during the last six months while you were smoking marijuana or as the result of your marijuana use: missed a day (or part of a day) of school or work."
+    },
+    "question": {
+        "en": "Please indicate how many times each has happened to you during the last six months while you were smoking marijuana or as the result of your marijuana use: missed a day (or part of a day) of school or work."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1-2"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "3-5"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "6-10"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "10+ / xskipout_mj_l   == '1'"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

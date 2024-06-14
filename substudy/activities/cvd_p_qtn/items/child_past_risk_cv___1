@@ -1,0 +1,41 @@
+{
+    "id": "child_past_risk_cv___1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "child_past_risk_cv___1 of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "In the two weeks before your child had symptoms  did he/she: (check all that apply)  :  1 Have contact with someone who tested positive for COVID-19"
+    },
+    "question": {
+        "en": "In the two weeks before your child had symptoms  did he she: (check all that apply)  :  1 Have contact with someone who tested positive for COVID-19"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No[child_symptoms_cv(1)] = '1' or [child_symptoms_cv(2)] = '1' or [child_symptoms_cv(3)] = '1'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

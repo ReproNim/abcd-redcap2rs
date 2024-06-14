@@ -1,0 +1,48 @@
+{
+    "id": "prosocial_q2_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "prosocial_q2_p of ce_p_psb"
+    },
+    "prefLabel": {
+        "en": "My child is\u2026 Helpful if someone is hurt, upset, or feeling ill. /Ayuda cuando alguien se lastima, se molesta o se siente enfermo."
+    },
+    "question": {
+        "en": "My child is\u2026 Helpful if someone is hurt, upset, or feeling ill.",
+        "es": "Ayuda cuando alguien se lastima, se molesta o se siente enfermo."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not True/ Falso"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat True /Algo cierto"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Certainly True /Totalmente cierto//For each item, please mark the box for Not True, Somewhat True, or Certainly True. It would help us if you answered all items as best you can even if you are not absolutely certain. Please give your answers on the basis of  the child's behavior over the last six months or this school year"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

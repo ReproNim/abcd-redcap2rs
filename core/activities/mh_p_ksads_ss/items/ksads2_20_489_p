@@ -1,0 +1,24 @@
+{
+    "id": "ksads2_20_489_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads2_20_489_p of mh_p_ksads_ss"
+    },
+    "prefLabel": {
+        "en": "Symptom - Often used more of substance than planned (Cannabis), Present"
+    },
+    "question": {
+        "en": "Symptom - Often used more of substance than planned (Cannabis), Present"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,83 @@
+{
+    "id": "hormone_sal_sex",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "hormone_sal_sex of ph_y_sal_horm"
+    },
+    "prefLabel": {
+        "en": "Hormone saliva sample tube cap color:"
+    },
+    "question": {
+        "en": "Hormone saliva sample tube cap color:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Pink/Purple (female)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Blue (male)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Participant unable to complete"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Participant/Parent refused"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Institution not authorized to collect samples due to COVID"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Staff discomfort due to COVID"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Exceed 15min of < 6ft distance from youth (COVID)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Not approved by ABCD for collection"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Not collected (other)"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 9,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

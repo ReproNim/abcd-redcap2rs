@@ -1,0 +1,41 @@
+{
+    "id": "ksads_agorap_raw_1796_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_agorap_raw_1796_p of mh_p_ksads_ago"
+    },
+    "prefLabel": {
+        "en": "Your child's afraid he or she might do something embarrassing"
+    },
+    "question": {
+        "en": "Your child's afraid he or she might do something embarrassing"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

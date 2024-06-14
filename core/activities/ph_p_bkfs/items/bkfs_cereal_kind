@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_cereal_kind",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_cereal_kind of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "What kind of cereal did your child eat? (Select one)/\u00bfQu\u00e9 tipo de cereal comi\u00f3 su ni\u00f1o/a? (Marque s\u00f3lo uno.)"
+    },
+    "question": {
+        "en": "What kind of cereal did your child eat? (Select one) a? )",
+        "es": "\u00bfQu\u00e9 tipo de cereal comi\u00f3 su ni\u00f1o (Marque s\u00f3lo uno."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

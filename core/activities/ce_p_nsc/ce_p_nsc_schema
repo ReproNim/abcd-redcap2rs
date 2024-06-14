@@ -1,0 +1,70 @@
+{
+    "id": "ce_p_nsc_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Community in Culture & Environment"
+    },
+    "prefLabel": {
+        "en": "Ce_P_Nsc"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/nei_p_select_language___1",
+            "items/neighborhood1r_p",
+            "items/neighborhood2r_p",
+            "items/neighborhood3r_p",
+            "items/nsc_p_ss_mean_3_items",
+            "items/nsc_p_ss_mean_3_items_nm",
+            "items/nsc_p_ss_mean_3_items_nt"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/nei_p_select_language___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nei_p_select_language___1"
+            },
+            {
+                "isAbout": "items/neighborhood1r_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neighborhood1r_p"
+            },
+            {
+                "isAbout": "items/neighborhood2r_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neighborhood2r_p"
+            },
+            {
+                "isAbout": "items/neighborhood3r_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neighborhood3r_p"
+            },
+            {
+                "isAbout": "items/nsc_p_ss_mean_3_items",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nsc_p_ss_mean_3_items"
+            },
+            {
+                "isAbout": "items/nsc_p_ss_mean_3_items_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nsc_p_ss_mean_3_items_nm"
+            },
+            {
+                "isAbout": "items/nsc_p_ss_mean_3_items_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nsc_p_ss_mean_3_items_nt"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

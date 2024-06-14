@@ -1,0 +1,48 @@
+{
+    "id": "stimulus_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "stimulus_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Since April 2020, have you or your household received one or more coronavirus related economic impact stimulus payments? For example, some received stimulus payments in April/May 2020, or December 2020/January 2021, or March/April 2021. / Desde abril de 2020, \u00bfusted o su hogar han recibido uno o m\u00e1s pagos de est\u00edmulo de impacto econ\u00f3mico relacionados con el coronavirus? Por ejemplo, algunos recibieron pagos de est\u00edmulo en abril / mayo de 2020, o diciembre de 2020 / enero de 2021, o marzo / abril de 2021."
+    },
+    "question": {
+        "en": "Since April 2020, have you or your household received one or more coronavirus related economic impact stimulus payments? For example, some received stimulus payments in April May 2020, or December 2020 January 2021, or March April 2021.",
+        "es": "Desde abril de 2020, \u00bfusted o su hogar han recibido uno o m\u00e1s pagos de est\u00edmulo de impacto econ\u00f3mico relacionados con el coronavirus? Por ejemplo, algunos recibieron pagos de est\u00edmulo en abril mayo de 2020, o diciembre de 2020 enero de 2021, o marzo abril de 2021."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes / S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No / No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer / Niego contestar"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

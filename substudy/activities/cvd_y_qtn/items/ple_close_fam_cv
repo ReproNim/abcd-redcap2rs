@@ -1,0 +1,47 @@
+{
+    "id": "ple_close_fam_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ple_close_fam_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "Are you separated from a close family member (like can't be together with a parent, or can't visit a close family member)?"
+    },
+    "question": {
+        "en": "Are you separated from a close family member (like can't be together with a parent, or can't visit a close family member)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

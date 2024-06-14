@@ -1,0 +1,25 @@
+{
+    "id": "screentime_device_cell_age_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screentime_device_cell_age_p of nt_p_stq"
+    },
+    "prefLabel": {
+        "en": "How old was your child when he/she got their own cell phone? /Cu?ntos a?os ten?a su hijo/a cuando recibi? su propio tel?fono celular?"
+    },
+    "question": {
+        "en": "How old was your child when he she got their own cell phone? Cu? ntos a? os ten? a su hijo su propio tel? fono celular?",
+        "es": "a cuando recibi?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,120 @@
+{
+    "id": "sai_p_mma_nmonth_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sai_p_mma_nmonth_l of ph_p_saiq"
+    },
+    "prefLabel": {
+        "en": "Mixed Martial Arts Artes marciales mixtas Since we last saw you, about how many months did your child participate in this activity? Desde la \u00faltima vez que nos vimos, \u00bfaproximadamente cu\u00e1ntos meses al a\u00f1o participA su ni\u00f1o(a) en esta actividad?"
+    },
+    "question": {
+        "en": "Mixed Martial Arts Artes marciales mixtas Since we last saw you, about how many months did your child participate in this activity?",
+        "es": "Desde la \u00faltima vez que nos vimos, \u00bfaproximadamente cu\u00e1ntos meses al a\u00f1o participA su ni\u00f1o(a) en esta actividad?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know No lo s\u00e9"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "8"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "9"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "10"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "11"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "12"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "More than 12 months M\u00e1s de 12 meses  | (0-12)"
+                },
+                "value": 13
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

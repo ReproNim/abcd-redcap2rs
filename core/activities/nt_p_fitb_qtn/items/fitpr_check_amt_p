@@ -1,0 +1,54 @@
+{
+    "id": "fitpr_check_amt_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fitpr_check_amt_p of nt_p_fitb_qtn"
+    },
+    "prefLabel": {
+        "en": "How often did s/he check the activity tracker throughout the day (while awake)? / \u00c2\u00bfCon qu\u00c3\u00a9 frecuencia revisaba el rastreador de actividades durante el d\u00c3\u00ada (mientras estaba despierto/a)?"
+    },
+    "question": {
+        "en": "How often did s he check the activity tracker throughout the day (while awake)? a)?",
+        "es": "\u00c2\u00bfCon qu\u00c3\u00a9 frecuencia revisaba el rastreador de actividades durante el d\u00c3\u00ada (mientras estaba despierto"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Several time per day / Varias veces al d\u00c3\u00ada"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "About once per day / Aproximadamente una vez al d\u00c3\u00ada"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Several time per week / Varias veces a la semana"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "About once per week / Aproximadamente una vez a la semana"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

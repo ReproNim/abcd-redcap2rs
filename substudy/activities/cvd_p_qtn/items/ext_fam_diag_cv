@@ -1,0 +1,35 @@
+{
+    "id": "ext_fam_diag_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ext_fam_diag_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Number of extended family member(s) and/or close friends diagnosed with coronavirus:"
+    },
+    "question": {
+        "en": "Number of extended family member(s) and or close friends diagnosed with coronavirus:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "10 or more([event_name] = 'covid19_cv2_arm_2' or [event_name] = 'covid19_cv4_arm_2')"
+                },
+                "value": 10
+            }
+        ],
+        "maxValue": 10,
+        "minValue": 10,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

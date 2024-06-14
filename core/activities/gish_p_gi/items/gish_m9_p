@@ -1,0 +1,66 @@
+{
+    "id": "gish_m9_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gish_m9_p of gish_p_gi"
+    },
+    "prefLabel": {
+        "en": "In playing \"mother/father\", \"house\", or \"school\" games, he takes the role of / Cuando juega a \"la mam\u00e1 o el pap\u00e1\", \"la casita\" o \"la escuelita\", asume el papel de:"
+    },
+    "question": {
+        "en": "In playing \"mother father\", \"house\", or \"school\" games, he takes the role of",
+        "es": "Cuando juega a \"la mam\u00e1 o el pap\u00e1\", \"la casita\" o \"la escuelita\", asume el papel de:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "A girl or woman at all times / Una ni\u00f1a o mujer, todo el tiempo"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Usually a girl or woman / Una ni\u00f1a o mujer, por lo general"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Half the time a girl or woman and half the time a boy or man / Una ni\u00f1a o mujer la mitad de las veces, y la otra mitad de un ni\u00f1o o un hombre"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Usually a boy or man / Un ni\u00f1o o un hombre, por lo general"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "A boy or man at all times / Un ni\u00f1o o un hombre, todo el tiempo"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Decline to answer / Prefiero no responder /"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

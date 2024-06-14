@@ -1,0 +1,41 @@
+{
+    "id": "child_news_time_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "child_news_time_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Over the past week about how much time per day do you think your child has been getting news from television news sources about the coronavirus and its impact? (hours)"
+    },
+    "question": {
+        "en": "Over the past week about how much time per day do you think your child has been getting news from television news sources about the coronavirus and its impact? (hours)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than 1"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 24
+            }
+        ],
+        "maxValue": 24,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,59 @@
+{
+    "id": "poa_nihtb_6_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "poa_nihtb_6_y of mh_y_poa"
+    },
+    "prefLabel": {
+        "en": "I felt interested."
+    },
+    "question": {
+        "en": "I felt interested."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not True"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat True"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Very True"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

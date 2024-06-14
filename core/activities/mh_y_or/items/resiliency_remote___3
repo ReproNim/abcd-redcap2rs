@@ -1,0 +1,41 @@
+{
+    "id": "resiliency_remote___3",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "resiliency_remote___3 of mh_y_or"
+    },
+    "prefLabel": {
+        "en": "Remote method of  REDCap Module Health Part 2 administration [Check all that apply]:  3= Screen Sharing ;[sched_delay] = '9' or [sched_hybrid] = '1'"
+    },
+    "question": {
+        "en": "Remote method of  REDCap Module Health Part 2 administration [Check all that apply]:  3= Screen Sharing ;[sched_delay] = '9' or [sched_hybrid] = '1'"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

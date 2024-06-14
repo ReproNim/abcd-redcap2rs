@@ -1,0 +1,24 @@
+{
+    "id": "nihtbx_flanker_theta",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nihtbx_flanker_theta of nc_y_nihtb"
+    },
+    "prefLabel": {
+        "en": "NIH Toolbox Flanker Inhibitory Control and Attention Test Ages 8-11 v2.0 Theta"
+    },
+    "question": {
+        "en": "NIH Toolbox Flanker Inhibitory Control and Attention Test Ages 8-11 v2. 0 Theta"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

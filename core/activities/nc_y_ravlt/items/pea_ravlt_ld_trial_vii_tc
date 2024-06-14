@@ -1,0 +1,24 @@
+{
+    "id": "pea_ravlt_ld_trial_vii_tc",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pea_ravlt_ld_trial_vii_tc of nc_y_ravlt"
+    },
+    "prefLabel": {
+        "en": "RAVLT Long Delay Trial VII Total Correct"
+    },
+    "question": {
+        "en": "RAVLT Long Delay Trial VII Total Correct"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "ksads_dud_raw_1539_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dud_raw_1539_t of su_y_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "You often used more than you planned?Tobacco (tobacco cigarettes, electronic cigarettes, vape pens, e-hookah, hookah, cigars, and smokeless tobacco/chew/snuff)"
+    },
+    "question": {
+        "en": "You often used more than you planned? Tobacco (tobacco cigarettes, electronic cigarettes, vape pens, e-hookah, hookah, cigars, and smokeless tobacco chew snuff)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

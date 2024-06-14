@@ -1,0 +1,47 @@
+{
+    "id": "child_care_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "child_care_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "During this period of school closure  are you the primary (or co-primary) person responsible for your child's care during the day?"
+    },
+    "question": {
+        "en": "During this period of school closure  are you the primary (or co-primary) person responsible for your child's care during the day?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer   [school_close_cv] = '2' OR [school_at_home_cv] = '1'"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

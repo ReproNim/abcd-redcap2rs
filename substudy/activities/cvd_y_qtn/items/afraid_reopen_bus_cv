@@ -1,0 +1,53 @@
+{
+    "id": "afraid_reopen_bus_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "afraid_reopen_bus_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "How did you feel when you saw or heard about the demonstrations on the TV, internet, or radio for reopening of businesses? Afraid:"
+    },
+    "question": {
+        "en": "How did you feel when you saw or heard about the demonstrations on the TV, internet, or radio for reopening of businesses? Afraid:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A little"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very much  [reopen_bus_cv] = '1'"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

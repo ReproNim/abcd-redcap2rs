@@ -1,0 +1,24 @@
+{
+    "id": "pls3_youth_caffeine_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pls3_youth_caffeine_t of su_y_plus"
+    },
+    "prefLabel": {
+        "en": "How long ago did you last consume a caffeinated beverage?"
+    },
+    "question": {
+        "en": "How long ago did you last consume a caffeinated beverage?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

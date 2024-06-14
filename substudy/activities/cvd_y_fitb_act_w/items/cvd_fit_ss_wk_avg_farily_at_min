@@ -1,0 +1,24 @@
+{
+    "id": "cvd_fit_ss_wk_avg_farily_at_min",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "cvd_fit_ss_wk_avg_farily_at_min of cvd_y_fitb_act_w"
+    },
+    "prefLabel": {
+        "en": "Average minutes spent in moderate (3-5.9 METS) activity during day_min on included days"
+    },
+    "question": {
+        "en": "Average minutes spent in moderate (3-5. 9 METS) activity during day_min on included days"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

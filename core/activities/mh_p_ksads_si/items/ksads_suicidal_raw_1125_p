@@ -1,0 +1,24 @@
+{
+    "id": "ksads_suicidal_raw_1125_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_suicidal_raw_1125_p of mh_p_ksads_si"
+    },
+    "prefLabel": {
+        "en": "You mentioned that were was a time in the past when your child made a suicide attempt. How many times in the past has your child attempted suicide?"
+    },
+    "question": {
+        "en": "You mentioned that were was a time in the past when your child made a suicide attempt. How many times in the past has your child attempted suicide?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

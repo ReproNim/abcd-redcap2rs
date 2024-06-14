@@ -1,0 +1,48 @@
+{
+    "id": "demo_yrs_2a_2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_yrs_2a_2 of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "Does your child's religion have rules forbidding the use of alcohol? \u00ac\u00f8La religi\u221a\u2265n de su ni\u221a\u00b1o(a) tiene reglas que proh\u221a\u2260ben el uso del alcohol?"
+    },
+    "question": {
+        "en": "Does your child's religion have rules forbidding the use of alcohol?",
+        "es": "\u00ac\u00f8La religi\u221a\u2265n de su ni\u221a\u00b1o(a) tiene reglas que proh\u221a\u2260ben el uso del alcohol?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes S\u221a\u2260"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know No lo s\u221a\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

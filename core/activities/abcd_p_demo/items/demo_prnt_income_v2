@@ -1,0 +1,96 @@
+{
+    "id": "demo_prnt_income_v2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_prnt_income_v2 of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "How much did you earn, before taxes and other deductions, during the past 12 months? \u00ac\u00f8Cu\u221a\u00b0l fue su ingreso, antes de impuestos y otras deducciones, en los \u221a\u222bltimos 12 meses?"
+    },
+    "question": {
+        "en": "How much did you earn, before taxes and other deductions, during the past 12 months?",
+        "es": "\u00ac\u00f8Cu\u221a\u00b0l fue su ingreso, antes de impuestos y otras deducciones, en los \u221a\u222bltimos 12 meses?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than $5,000"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "$5,000 through $11,999"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "$12,000 through $15,999"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "$16,000 through $24,999"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "$25,000 through $34,999"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "$35,000 through $49,999"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "$50,000 through $74,999"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "$75,000 through $99,999"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "$100,000 through $199,999"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "$200,000 and greater. 777 = Refuse to answer No deseo responder"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Don't know No lo s\u221a\u00c9\u00ac\u00a9 // The following questions are about your partner. Your \"partner\" refers to any significant figure in your life that helps you in raising your child or has helped you for more than 2 years. This person should be involved 40% or more of the daily activities your child does. For example, your partner could be your spouse. However, your partner could also be your boyfriend/girlfriend or relative."
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

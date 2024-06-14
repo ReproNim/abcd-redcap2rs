@@ -1,0 +1,24 @@
+{
+    "id": "nt_y_ears_kb_min_ios_navigation_wkd_avg",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nt_y_ears_kb_min_ios_navigation_wkd_avg of nt_y_ears"
+    },
+    "prefLabel": {
+        "en": "Average number per day of minutes on weekdays using the keyboard over duration of tracking period in Apple iOS: Navigation (minutes)"
+    },
+    "question": {
+        "en": "Average number per day of minutes on weekdays using the keyboard over duration of tracking period in Apple iOS: Navigation (minutes)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

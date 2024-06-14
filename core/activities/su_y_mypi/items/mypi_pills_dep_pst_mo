@@ -1,0 +1,47 @@
+{
+    "id": "mypi_pills_dep_pst_mo",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mypi_pills_dep_pst_mo of su_y_mypi"
+    },
+    "prefLabel": {
+        "en": "Did you use prescription anxiolytics, tranquilizers or sedatives such as Xanax, Ativan, Valium, Rohypnol, or sleeping pills in any way a doctor did not direct you to use them in the past month?"
+    },
+    "question": {
+        "en": "Did you use prescription anxiolytics, tranquilizers or sedatives such as Xanax, Ativan, Valium, Rohypnol, or sleeping pills in any way a doctor did not direct you to use them in the past month?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "no"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

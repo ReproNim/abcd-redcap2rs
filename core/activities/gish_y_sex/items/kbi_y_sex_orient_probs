@@ -1,0 +1,24 @@
+{
+    "id": "kbi_y_sex_orient_probs",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_y_sex_orient_probs of gish_y_sex"
+    },
+    "prefLabel": {
+        "en": "Has this caused any problems for you with your family or with kids at school?"
+    },
+    "question": {
+        "en": "Has this caused any problems for you with your family or with kids at school?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

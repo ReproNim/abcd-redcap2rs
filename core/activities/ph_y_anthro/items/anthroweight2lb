@@ -1,0 +1,24 @@
+{
+    "id": "anthroweight2lb",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "anthroweight2lb of ph_y_anthro"
+    },
+    "prefLabel": {
+        "en": "2.  Ok, you can relax and step away from the scale. 3. Now step back on the scale again for another measurement and remember to stand completely still in the center of the scale with your feet close together, your hands at your side, and your head looking straight ahead. Please stay as still as possible while I measure your weight. (OBTAIN & RECORD WEIGHT #2 (in lbs))"
+    },
+    "question": {
+        "en": "2. Ok, you can relax and step away from the scale. 3. Now step back on the scale again for another measurement and remember to stand completely still in the center of the scale with your feet close together, your hands at your side, and your head looking straight ahead. Please stay as still as possible while I measure your weight. (OBTAIN & RECORD WEIGHT #2 (in lbs))"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

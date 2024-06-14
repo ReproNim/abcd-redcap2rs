@@ -1,0 +1,24 @@
+{
+    "id": "ddis_scr_expr_mnrt_allcho",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ddis_scr_expr_mnrt_allcho of nc_y_ddis"
+    },
+    "prefLabel": {
+        "en": "expressions.meanRT_allChoices: mean latency (in ms) of all choices"
+    },
+    "question": {
+        "en": "expressions. meanRT_allChoices: mean latency (in ms) of all choices"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "ssrs_29_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ssrs_29_p of mh_p_ssrs"
+    },
+    "prefLabel": {
+        "en": "Is regarded by other children as odd or weird. Es considerado/a por otros ni\u00f1os como extra\u00f1o/a o raro/a."
+    },
+    "question": {
+        "en": "Is regarded by other children as odd or weird. a o raro a.",
+        "es": "Es considerado a por otros ni\u00f1os como extra\u00f1o"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not True No es cierto"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes True Algunas veces cierto"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Often True Frequentemente cierto"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Almost Always True Casi siempre cierto"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

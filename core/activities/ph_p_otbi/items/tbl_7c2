@@ -1,0 +1,42 @@
+{
+    "id": "tbl_7c2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tbl_7c2 of ph_p_otbi"
+    },
+    "prefLabel": {
+        "en": "Was he/she dazed or did he/she have a gap in his/her memory from the injury? \u00bfSe sinti\u00f3 \u00e9l/ella aturdido, o tuvo lapsos de memoria  por causa de la lesi\u00f3n?"
+    },
+    "question": {
+        "en": "Was he she dazed or did he she have a gap in his her memory from the injury?",
+        "es": "\u00bfSe sinti\u00f3 \u00e9l ella aturdido, o tuvo lapsos de memoria  por causa de la lesi\u00f3n?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

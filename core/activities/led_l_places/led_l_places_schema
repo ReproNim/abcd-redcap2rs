@@ -1,0 +1,609 @@
+{
+    "id": "led_l_places_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Community Health Burden in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Places"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_PLACES_access2",
+            "items/reshist_addr1_PLACES_arthritis",
+            "items/reshist_addr1_PLACES_binge",
+            "items/reshist_addr1_PLACES_bphigh",
+            "items/reshist_addr1_PLACES_bpmed",
+            "items/reshist_addr1_PLACES_cancer",
+            "items/reshist_addr1_PLACES_casthma",
+            "items/reshist_addr1_PLACES_cervical",
+            "items/reshist_addr1_PLACES_chd",
+            "items/reshist_addr1_PLACES_checkup",
+            "items/reshist_addr1_PLACES_cholscreen",
+            "items/reshist_addr1_PLACES_colon_screen",
+            "items/reshist_addr1_PLACES_copd",
+            "items/reshist_addr1_PLACES_corem",
+            "items/reshist_addr1_PLACES_corew",
+            "items/reshist_addr1_PLACES_csmoking",
+            "items/reshist_addr1_PLACES_dental",
+            "items/reshist_addr1_PLACES_diabetes",
+            "items/reshist_addr1_PLACES_highchol",
+            "items/reshist_addr1_PLACES_kidney",
+            "items/reshist_addr1_PLACES_lpa",
+            "items/reshist_addr1_PLACES_mammouse",
+            "items/reshist_addr1_PLACES_mhlth",
+            "items/reshist_addr1_PLACES_obesity",
+            "items/reshist_addr1_PLACES_phlth",
+            "items/reshist_addr1_PLACES_sleep",
+            "items/reshist_addr1_PLACES_stroke",
+            "items/reshist_addr1_PLACES_teethlost",
+            "items/reshist_addr2_PLACES_access2",
+            "items/reshist_addr2_PLACES_arthritis",
+            "items/reshist_addr2_PLACES_binge",
+            "items/reshist_addr2_PLACES_bphigh",
+            "items/reshist_addr2_PLACES_bpmed",
+            "items/reshist_addr2_PLACES_cancer",
+            "items/reshist_addr2_PLACES_casthma",
+            "items/reshist_addr2_PLACES_cervical",
+            "items/reshist_addr2_PLACES_chd",
+            "items/reshist_addr2_PLACES_checkup",
+            "items/reshist_addr2_PLACES_cholscreen",
+            "items/reshist_addr2_PLACES_colon_screen",
+            "items/reshist_addr2_PLACES_copd",
+            "items/reshist_addr2_PLACES_corem",
+            "items/reshist_addr2_PLACES_corew",
+            "items/reshist_addr2_PLACES_csmoking",
+            "items/reshist_addr2_PLACES_dental",
+            "items/reshist_addr2_PLACES_diabetes",
+            "items/reshist_addr2_PLACES_highchol",
+            "items/reshist_addr2_PLACES_kidney",
+            "items/reshist_addr2_PLACES_lpa",
+            "items/reshist_addr2_PLACES_mammouse",
+            "items/reshist_addr2_PLACES_mhlth",
+            "items/reshist_addr2_PLACES_obesity",
+            "items/reshist_addr2_PLACES_phlth",
+            "items/reshist_addr2_PLACES_sleep",
+            "items/reshist_addr2_PLACES_stroke",
+            "items/reshist_addr2_PLACES_teethlost",
+            "items/reshist_addr3_PLACES_access2",
+            "items/reshist_addr3_PLACES_arthritis",
+            "items/reshist_addr3_PLACES_binge",
+            "items/reshist_addr3_PLACES_bphigh",
+            "items/reshist_addr3_PLACES_bpmed",
+            "items/reshist_addr3_PLACES_cancer",
+            "items/reshist_addr3_PLACES_casthma",
+            "items/reshist_addr3_PLACES_cervical",
+            "items/reshist_addr3_PLACES_chd",
+            "items/reshist_addr3_PLACES_checkup",
+            "items/reshist_addr3_PLACES_cholscreen",
+            "items/reshist_addr3_PLACES_colon_screen",
+            "items/reshist_addr3_PLACES_copd",
+            "items/reshist_addr3_PLACES_corem",
+            "items/reshist_addr3_PLACES_corew",
+            "items/reshist_addr3_PLACES_csmoking",
+            "items/reshist_addr3_PLACES_dental",
+            "items/reshist_addr3_PLACES_diabetes",
+            "items/reshist_addr3_PLACES_highchol",
+            "items/reshist_addr3_PLACES_kidney",
+            "items/reshist_addr3_PLACES_lpa",
+            "items/reshist_addr3_PLACES_mammouse",
+            "items/reshist_addr3_PLACES_mhlth",
+            "items/reshist_addr3_PLACES_obesity",
+            "items/reshist_addr3_PLACES_phlth",
+            "items/reshist_addr3_PLACES_sleep",
+            "items/reshist_addr3_PLACES_stroke",
+            "items/reshist_addr3_PLACES_teethlost"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_PLACES_access2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_access2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_arthritis",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_arthritis"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_binge",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_binge"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_bphigh",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_bphigh"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_bpmed",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_bpmed"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_cancer",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_cancer"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_casthma",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_casthma"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_cervical",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_cervical"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_chd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_chd"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_checkup",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_checkup"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_cholscreen",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_cholscreen"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_colon_screen",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_colon_screen"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_copd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_copd"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_corem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_corem"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_corew",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_corew"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_csmoking",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_csmoking"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_dental",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_dental"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_diabetes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_diabetes"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_highchol",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_highchol"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_kidney",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_kidney"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_lpa",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_lpa"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_mammouse",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_mammouse"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_mhlth",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_mhlth"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_obesity",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_obesity"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_phlth",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_phlth"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_sleep",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_sleep"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_stroke",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_stroke"
+            },
+            {
+                "isAbout": "items/reshist_addr1_PLACES_teethlost",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_PLACES_teethlost"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_access2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_access2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_arthritis",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_arthritis"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_binge",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_binge"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_bphigh",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_bphigh"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_bpmed",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_bpmed"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_cancer",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_cancer"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_casthma",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_casthma"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_cervical",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_cervical"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_chd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_chd"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_checkup",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_checkup"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_cholscreen",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_cholscreen"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_colon_screen",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_colon_screen"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_copd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_copd"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_corem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_corem"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_corew",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_corew"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_csmoking",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_csmoking"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_dental",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_dental"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_diabetes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_diabetes"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_highchol",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_highchol"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_kidney",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_kidney"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_lpa",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_lpa"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_mammouse",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_mammouse"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_mhlth",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_mhlth"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_obesity",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_obesity"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_phlth",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_phlth"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_sleep",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_sleep"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_stroke",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_stroke"
+            },
+            {
+                "isAbout": "items/reshist_addr2_PLACES_teethlost",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_PLACES_teethlost"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_access2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_access2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_arthritis",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_arthritis"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_binge",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_binge"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_bphigh",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_bphigh"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_bpmed",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_bpmed"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_cancer",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_cancer"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_casthma",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_casthma"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_cervical",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_cervical"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_chd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_chd"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_checkup",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_checkup"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_cholscreen",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_cholscreen"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_colon_screen",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_colon_screen"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_copd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_copd"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_corem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_corem"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_corew",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_corew"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_csmoking",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_csmoking"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_dental",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_dental"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_diabetes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_diabetes"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_highchol",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_highchol"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_kidney",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_kidney"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_lpa",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_lpa"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_mammouse",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_mammouse"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_mhlth",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_mhlth"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_obesity",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_obesity"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_phlth",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_phlth"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_sleep",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_sleep"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_stroke",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_stroke"
+            },
+            {
+                "isAbout": "items/reshist_addr3_PLACES_teethlost",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_PLACES_teethlost"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

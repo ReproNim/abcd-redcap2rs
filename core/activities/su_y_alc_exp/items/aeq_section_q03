@@ -1,0 +1,59 @@
+{
+    "id": "aeq_section_q03",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "aeq_section_q03 of su_y_alc_exp"
+    },
+    "prefLabel": {
+        "en": "Alcohol can hurt how well a person gets along with others (makes people mean to others)."
+    },
+    "question": {
+        "en": "Alcohol can hurt how well a person gets along with others (makes people mean to others)."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Disagree Strongly"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Disagree Somewhat"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Uncertain"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Agree Somewhat"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Agree Strongly / tlfb_alc_l   == '1' ||  tlfb_alc_c_l   == '1'"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

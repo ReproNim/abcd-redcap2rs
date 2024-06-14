@@ -1,0 +1,53 @@
+{
+    "id": "strle_rv_fr_mem_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "strle_rv_fr_mem_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "Below is a list of comments made by people after a stressful life event. Thinking about the coronavirus situation, please check each item showing how often these comments were true for you in the past week. If they did not occur this week, check \"not at all\".Do you try to remove it from your memory?"
+    },
+    "question": {
+        "en": "Below is a list of comments made by people after a stressful life event. Thinking about the coronavirus situation, please check each item showing how often these comments were true for you in the past week. If they did not occur this week, check \"not at all\". Do you try to remove it from your memory?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Often  [eventname] = 'covid19_cv4_arm_2'"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

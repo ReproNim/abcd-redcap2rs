@@ -1,0 +1,24 @@
+{
+    "id": "pbp_ss_prosocial_peers",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pbp_ss_prosocial_peers of ce_y_pbp"
+    },
+    "prefLabel": {
+        "en": "Involvement with Prosocial Peers sum(pbp_athletes, pbp_church, pbp_good_student) Validation: Minimum of two items must be answered"
+    },
+    "question": {
+        "en": "Involvement with Prosocial Peers sum(pbp_athletes, pbp_church, pbp_good_student) Validation: Minimum of two items must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

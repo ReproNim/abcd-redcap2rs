@@ -1,0 +1,41 @@
+{
+    "id": "ksads_suicidal_raw_1119_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_suicidal_raw_1119_p of mh_p_ksads_si"
+    },
+    "prefLabel": {
+        "en": "Did your child think about how they would do it (even if they had no intention of actually doing it)?"
+    },
+    "question": {
+        "en": "Did your child think about how they would do it (even if they had no intention of actually doing it)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

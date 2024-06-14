@@ -1,0 +1,24 @@
+{
+    "id": "ehi_time",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ehi_time of nc_y_ehis"
+    },
+    "prefLabel": {
+        "en": "Current Time:"
+    },
+    "question": {
+        "en": "Current Time:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

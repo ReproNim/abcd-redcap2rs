@@ -1,0 +1,210 @@
+{
+    "id": "nc_y_ravlt_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Task in Neurocognition"
+    },
+    "prefLabel": {
+        "en": "Nc_Y_Ravlt"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pea_ravlt_sd_trial_i_tc",
+            "items/pea_ravlt_sd_trial_i_tr",
+            "items/pea_ravlt_sd_trial_i_ti",
+            "items/pea_ravlt_sd_trial_ii_tc",
+            "items/pea_ravlt_sd_trial_ii_tr",
+            "items/pea_ravlt_sd_trial_ii_ti",
+            "items/pea_ravlt_sd_trial_iii_tc",
+            "items/pea_ravlt_sd_trial_iii_tr",
+            "items/pea_ravlt_sd_trial_iii_ti",
+            "items/pea_ravlt_sd_trial_iv_tc",
+            "items/pea_ravlt_sd_trial_iv_tr",
+            "items/pea_ravlt_sd_trial_iv_ti",
+            "items/pea_ravlt_sd_trial_v_tc",
+            "items/pea_ravlt_sd_trial_v_tr",
+            "items/pea_ravlt_sd_trial_v_ti",
+            "items/pea_ravlt_sd_listb_tc",
+            "items/pea_ravlt_sd_listb_tr",
+            "items/pea_ravlt_sd_listb_ti",
+            "items/pea_ravlt_sd_trial_vi_tc",
+            "items/pea_ravlt_sd_trial_vi_tr",
+            "items/pea_ravlt_sd_trial_vi_ti",
+            "items/pea_ravlt_ld_trial_vii_tc",
+            "items/pea_ravlt_ld_trial_vii_tr",
+            "items/pea_ravlt_ld_trial_vii_ti",
+            "items/neurocog_2_ravlt___1",
+            "items/neurocog_2_ravlt___2",
+            "items/neurocog_2_ravlt___3"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pea_ravlt_sd_trial_i_tc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_trial_i_tc"
+            },
+            {
+                "isAbout": "items/pea_ravlt_sd_trial_i_tr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_trial_i_tr"
+            },
+            {
+                "isAbout": "items/pea_ravlt_sd_trial_i_ti",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_trial_i_ti"
+            },
+            {
+                "isAbout": "items/pea_ravlt_sd_trial_ii_tc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_trial_ii_tc"
+            },
+            {
+                "isAbout": "items/pea_ravlt_sd_trial_ii_tr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_trial_ii_tr"
+            },
+            {
+                "isAbout": "items/pea_ravlt_sd_trial_ii_ti",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_trial_ii_ti"
+            },
+            {
+                "isAbout": "items/pea_ravlt_sd_trial_iii_tc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_trial_iii_tc"
+            },
+            {
+                "isAbout": "items/pea_ravlt_sd_trial_iii_tr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_trial_iii_tr"
+            },
+            {
+                "isAbout": "items/pea_ravlt_sd_trial_iii_ti",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_trial_iii_ti"
+            },
+            {
+                "isAbout": "items/pea_ravlt_sd_trial_iv_tc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_trial_iv_tc"
+            },
+            {
+                "isAbout": "items/pea_ravlt_sd_trial_iv_tr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_trial_iv_tr"
+            },
+            {
+                "isAbout": "items/pea_ravlt_sd_trial_iv_ti",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_trial_iv_ti"
+            },
+            {
+                "isAbout": "items/pea_ravlt_sd_trial_v_tc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_trial_v_tc"
+            },
+            {
+                "isAbout": "items/pea_ravlt_sd_trial_v_tr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_trial_v_tr"
+            },
+            {
+                "isAbout": "items/pea_ravlt_sd_trial_v_ti",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_trial_v_ti"
+            },
+            {
+                "isAbout": "items/pea_ravlt_sd_listb_tc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_listb_tc"
+            },
+            {
+                "isAbout": "items/pea_ravlt_sd_listb_tr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_listb_tr"
+            },
+            {
+                "isAbout": "items/pea_ravlt_sd_listb_ti",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_listb_ti"
+            },
+            {
+                "isAbout": "items/pea_ravlt_sd_trial_vi_tc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_trial_vi_tc"
+            },
+            {
+                "isAbout": "items/pea_ravlt_sd_trial_vi_tr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_trial_vi_tr"
+            },
+            {
+                "isAbout": "items/pea_ravlt_sd_trial_vi_ti",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_sd_trial_vi_ti"
+            },
+            {
+                "isAbout": "items/pea_ravlt_ld_trial_vii_tc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_ld_trial_vii_tc"
+            },
+            {
+                "isAbout": "items/pea_ravlt_ld_trial_vii_tr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_ld_trial_vii_tr"
+            },
+            {
+                "isAbout": "items/pea_ravlt_ld_trial_vii_ti",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pea_ravlt_ld_trial_vii_ti"
+            },
+            {
+                "isAbout": "items/neurocog_2_ravlt___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_2_ravlt___1"
+            },
+            {
+                "isAbout": "items/neurocog_2_ravlt___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_2_ravlt___2"
+            },
+            {
+                "isAbout": "items/neurocog_2_ravlt___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_2_ravlt___3"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

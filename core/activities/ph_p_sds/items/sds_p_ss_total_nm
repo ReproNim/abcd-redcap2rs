@@ -1,0 +1,24 @@
+{
+    "id": "sds_p_ss_total_nm",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sds_p_ss_total_nm of ph_p_sds"
+    },
+    "prefLabel": {
+        "en": "Total Score:  Number Missing Answers"
+    },
+    "question": {
+        "en": "Total Score:  Number Missing Answers"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

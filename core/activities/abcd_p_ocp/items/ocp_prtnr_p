@@ -1,0 +1,42 @@
+{
+    "id": "ocp_prtnr_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ocp_prtnr_p of abcd_p_ocp"
+    },
+    "prefLabel": {
+        "en": "Do you have a partner? / \u00ac\u00f8Usted tiene una pareja?"
+    },
+    "question": {
+        "en": "Do you have a partner?",
+        "es": "\u00ac\u00f8Usted tiene una pareja?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes / Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No/No"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

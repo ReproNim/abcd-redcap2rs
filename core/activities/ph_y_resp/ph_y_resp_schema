@@ -1,0 +1,406 @@
+{
+    "id": "ph_y_resp_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Medical in Physical Health"
+    },
+    "prefLabel": {
+        "en": "Ph_Y_Resp"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/resp_wheeze_yn_y",
+            "items/resp_wheeze_yr_y",
+            "items/resp_wheeze_age_y",
+            "items/resp_current_yn_y",
+            "items/resp_wheeze_tally_y",
+            "items/resp_wheeze_sleep_y",
+            "items/resp_wheeze_speech_yn_y",
+            "items/resp_wheeze_active_y",
+            "items/resp_wheeze_abs_y",
+            "items/resp_wheeze_trig1_y",
+            "items/resp_wheeze_trig2_y",
+            "items/resp_wheeze_trig3_y",
+            "items/resp_wheeze_trig4_y",
+            "items/resp_wheeze_trig5_y",
+            "items/resp_wheeze_trig6_y",
+            "items/resp_wheeze_trig7_y",
+            "items/resp_wheeze_trig8_y",
+            "items/resp_wheeze_trig9_y",
+            "items/resp_wheeze_trig10_y",
+            "items/resp_wheeze_trig11_y",
+            "items/resp_wheeze_trig12_y",
+            "items/resp_wheeze_trig13_y",
+            "items/resp_wheeze_trig14_y",
+            "items/resp_wheeze_trig15_y",
+            "items/resp_wheeze_trig16_y",
+            "items/resp_wheeze_trig17_y",
+            "items/resp_wheeze_trig18_y",
+            "items/resp_others_y",
+            "items/resp_otherspec_y",
+            "items/resp_exercise_yn_y",
+            "items/resp_pmcough_yn_y",
+            "items/resp_pmcough_month_y___1",
+            "items/resp_pmcough_month_y___2",
+            "items/resp_pmcough_month_y___3",
+            "items/resp_pmcough_month_y___4",
+            "items/resp_pmcough_month_y___5",
+            "items/resp_pmcough_month_y___6",
+            "items/resp_pmcough_month_y___7",
+            "items/resp_pmcough_month_y___8",
+            "items/resp_pmcough_month_y___9",
+            "items/resp_pmcough_month_y___10",
+            "items/resp_pmcough_month_y___11",
+            "items/resp_pmcough_month_y___12",
+            "items/resp_diagnosis_yn_y",
+            "items/resp_diagnosis_age_y",
+            "items/resp_diagnosis_y",
+            "items/resp_asthma_yn_y",
+            "items/resp_asthma_hosp_yn_y",
+            "items/resp_asthma_hosp_y",
+            "items/resp_recent_hosp_y",
+            "items/resp_urgentcare_yn_y",
+            "items/resp_bronch_yn_y",
+            "items/resp_bronch_tally_y",
+            "items/resp_bronch_hosp_yn_y",
+            "items/resp_bronch_hosp_y"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/resp_wheeze_yn_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_yn_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_yr_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_yr_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_age_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_age_y"
+            },
+            {
+                "isAbout": "items/resp_current_yn_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_current_yn_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_tally_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_tally_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_sleep_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_sleep_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_speech_yn_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_speech_yn_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_active_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_active_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_abs_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_abs_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_trig1_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_trig1_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_trig2_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_trig2_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_trig3_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_trig3_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_trig4_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_trig4_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_trig5_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_trig5_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_trig6_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_trig6_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_trig7_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_trig7_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_trig8_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_trig8_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_trig9_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_trig9_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_trig10_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_trig10_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_trig11_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_trig11_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_trig12_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_trig12_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_trig13_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_trig13_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_trig14_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_trig14_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_trig15_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_trig15_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_trig16_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_trig16_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_trig17_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_trig17_y"
+            },
+            {
+                "isAbout": "items/resp_wheeze_trig18_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_wheeze_trig18_y"
+            },
+            {
+                "isAbout": "items/resp_others_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_others_y"
+            },
+            {
+                "isAbout": "items/resp_otherspec_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_otherspec_y"
+            },
+            {
+                "isAbout": "items/resp_exercise_yn_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_exercise_yn_y"
+            },
+            {
+                "isAbout": "items/resp_pmcough_yn_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_pmcough_yn_y"
+            },
+            {
+                "isAbout": "items/resp_pmcough_month_y___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_pmcough_month_y___1"
+            },
+            {
+                "isAbout": "items/resp_pmcough_month_y___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_pmcough_month_y___2"
+            },
+            {
+                "isAbout": "items/resp_pmcough_month_y___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_pmcough_month_y___3"
+            },
+            {
+                "isAbout": "items/resp_pmcough_month_y___4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_pmcough_month_y___4"
+            },
+            {
+                "isAbout": "items/resp_pmcough_month_y___5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_pmcough_month_y___5"
+            },
+            {
+                "isAbout": "items/resp_pmcough_month_y___6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_pmcough_month_y___6"
+            },
+            {
+                "isAbout": "items/resp_pmcough_month_y___7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_pmcough_month_y___7"
+            },
+            {
+                "isAbout": "items/resp_pmcough_month_y___8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_pmcough_month_y___8"
+            },
+            {
+                "isAbout": "items/resp_pmcough_month_y___9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_pmcough_month_y___9"
+            },
+            {
+                "isAbout": "items/resp_pmcough_month_y___10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_pmcough_month_y___10"
+            },
+            {
+                "isAbout": "items/resp_pmcough_month_y___11",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_pmcough_month_y___11"
+            },
+            {
+                "isAbout": "items/resp_pmcough_month_y___12",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_pmcough_month_y___12"
+            },
+            {
+                "isAbout": "items/resp_diagnosis_yn_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_diagnosis_yn_y"
+            },
+            {
+                "isAbout": "items/resp_diagnosis_age_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_diagnosis_age_y"
+            },
+            {
+                "isAbout": "items/resp_diagnosis_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_diagnosis_y"
+            },
+            {
+                "isAbout": "items/resp_asthma_yn_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_asthma_yn_y"
+            },
+            {
+                "isAbout": "items/resp_asthma_hosp_yn_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_asthma_hosp_yn_y"
+            },
+            {
+                "isAbout": "items/resp_asthma_hosp_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_asthma_hosp_y"
+            },
+            {
+                "isAbout": "items/resp_recent_hosp_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_recent_hosp_y"
+            },
+            {
+                "isAbout": "items/resp_urgentcare_yn_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_urgentcare_yn_y"
+            },
+            {
+                "isAbout": "items/resp_bronch_yn_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_bronch_yn_y"
+            },
+            {
+                "isAbout": "items/resp_bronch_tally_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_bronch_tally_y"
+            },
+            {
+                "isAbout": "items/resp_bronch_hosp_yn_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_bronch_hosp_yn_y"
+            },
+            {
+                "isAbout": "items/resp_bronch_hosp_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "resp_bronch_hosp_y"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

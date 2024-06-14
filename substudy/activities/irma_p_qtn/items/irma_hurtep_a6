@@ -1,0 +1,42 @@
+{
+    "id": "irma_hurtep_a6",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "irma_hurtep_a6 of irma_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Did you or your family have trouble getting enough food and water after the hurricane? \u00ac\u00f8Usted o su familia tuvieron problemas para obtener suficiente comida y agua despu\u221a\u00a9s del hurac\u221a\u00b0n"
+    },
+    "question": {
+        "en": "Did you or your family have trouble getting enough food and water after the hurricane?",
+        "es": "\u00ac\u00f8Usted o su familia tuvieron problemas para obtener suficiente comida y agua despu\u221a\u00a9s del hurac\u221a\u00b0n"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "gdt_scr_expressions_net_score",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gdt_scr_expressions_net_score of nc_y_gdt"
+    },
+    "prefLabel": {
+        "en": "Reflects the number of safe (bets on 3 or 4 numbers) vs. risky (bets on 1 or 2 numbers) choices. It is computed as number of safe bets minus number of risky bets."
+    },
+    "question": {
+        "en": "Reflects the number of safe (bets on 3 or 4 numbers) vs. risky (bets on 1 or 2 numbers) choices. It is computed as number of safe bets minus number of risky bets."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

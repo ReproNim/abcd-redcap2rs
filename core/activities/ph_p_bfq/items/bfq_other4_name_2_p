@@ -1,0 +1,113 @@
+{
+    "id": "bfq_other4_name_2_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bfq_other4_name_2_p of ph_p_bfq"
+    },
+    "prefLabel": {
+        "en": "Name of drug"
+    },
+    "question": {
+        "en": "Name of drug"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Amphetamines or methamphetamine (meth=crystal meth=ice)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Benzodiazepines"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Caffeine"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Cathinones (bath salts=drone=M-cat=MDVP or MEPH)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Fake or synthetic marijuana (like spice or K2)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "GHB (liquid G or Georgia home boy)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Hallucinogens (LSD or acid=PCP or angel dust,psilocybin=magic mushrooms=shrooms=peyote,mescaline=DMT=salvia=steroids (arnolds=pumpers=or roids)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Inhalants"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Ketamine (special K)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "MDMA (ecstasy=molly)"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Opioids"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Don't Know [bfq_other3_name_2_p] <> '0' and [bfq_other3_name_2_p] <> \"\""
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

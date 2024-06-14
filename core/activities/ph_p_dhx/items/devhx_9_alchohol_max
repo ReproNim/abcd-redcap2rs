@@ -1,0 +1,25 @@
+{
+    "id": "devhx_9_alchohol_max",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_9_alchohol_max of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "Knowing of pregnancy. Maximum drinks in one sitting? /\u00bfN\u00famero de bebidas m\u00e1ximas en una sola sesi\u00f3n?"
+    },
+    "question": {
+        "en": "Knowing of pregnancy. Maximum drinks in one sitting?",
+        "es": "\u00bfN\u00famero de bebidas m\u00e1ximas en una sola sesi\u00f3n?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

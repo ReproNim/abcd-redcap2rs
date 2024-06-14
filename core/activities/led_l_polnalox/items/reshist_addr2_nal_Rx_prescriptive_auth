@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr2_nal_Rx_prescriptive_auth",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr2_nal_Rx_prescriptive_auth of led_l_polnalox"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - indicates if Naloxone law allowing pharmacists prescriptive authority was effective at date of baseline visit (address 2)"
+    },
+    "question": {
+        "en": "Residential history derived - indicates if Naloxone law allowing pharmacists prescriptive authority was effective at date of baseline visit (address 2)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "school_close_date_cv_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "school_close_date_cv_p of ph_p_covid"
+    },
+    "prefLabel": {
+        "en": "Last date of in-person class / Ultima fecha de clases en persona"
+    },
+    "question": {
+        "en": "Last date of in-person class",
+        "es": "Ultima fecha de clases en persona"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

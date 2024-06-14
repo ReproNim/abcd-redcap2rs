@@ -1,0 +1,24 @@
+{
+    "id": "fitpo_in_school_p___3",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fitpo_in_school_p___3 of nt_p_fitb_qtn"
+    },
+    "prefLabel": {
+        "en": "Was your child in school? Third Week"
+    },
+    "question": {
+        "en": "Was your child in school? Third Week"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

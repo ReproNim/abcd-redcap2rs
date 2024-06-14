@@ -1,0 +1,77 @@
+{
+    "id": "biospec_blood_tube2_collect",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "biospec_blood_tube2_collect of ph_y_bld"
+    },
+    "prefLabel": {
+        "en": "Tube 2 (<font color = purple\">Purple</font> Top: EDTA) Blood Sample collected?\""
+    },
+    "question": {
+        "en": "Tube 2 (<font color = purple\">Purple< font> Top: EDTA) Blood Sample collected? \""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Unable to Complete"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Refused"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Institution not authorized to collect samples due to COVID"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Staff discomfort due to COVID"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Exceed 15min of < 6ft distance from youth (COVID)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Not approved by ABCD for collection"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Not collected (other)"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

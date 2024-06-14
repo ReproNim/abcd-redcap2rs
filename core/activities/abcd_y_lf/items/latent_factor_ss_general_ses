@@ -1,0 +1,24 @@
+{
+    "id": "latent_factor_ss_general_ses",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "latent_factor_ss_general_ses of abcd_y_lf"
+    },
+    "prefLabel": {
+        "en": "General latent factor of economic, social, and physiological well-being."
+    },
+    "question": {
+        "en": "General latent factor of economic, social, and physiological well-being."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

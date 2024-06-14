@@ -1,0 +1,25 @@
+{
+    "id": "child_test_3_cv_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "child_test_3_cv_p of ph_p_covid"
+    },
+    "prefLabel": {
+        "en": "Date of third test: / Fecha de la tercer prueba:"
+    },
+    "question": {
+        "en": "Date of third test:",
+        "es": "Fecha de la tercer prueba:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

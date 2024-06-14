@@ -1,0 +1,24 @@
+{
+    "id": "tbi_ss_worst2_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tbi_ss_worst2_l of ph_p_otbi"
+    },
+    "prefLabel": {
+        "en": "Worst Injury2 = possible mild TBI\n (TBI w/o LOC but memory loss)"
+    },
+    "question": {
+        "en": "Worst Injury2 = possible mild TBI\n (TBI w o LOC but memory loss)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

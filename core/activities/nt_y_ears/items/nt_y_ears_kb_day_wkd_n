@@ -1,0 +1,24 @@
+{
+    "id": "nt_y_ears_kb_day_wkd_n",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nt_y_ears_kb_day_wkd_n of nt_y_ears"
+    },
+    "prefLabel": {
+        "en": "Number of weekday days during usage tracking period with at least 1 upload (days)"
+    },
+    "question": {
+        "en": "Number of weekday days during usage tracking period with at least 1 upload (days)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "ksads_dud_raw_1361_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dud_raw_1361_p of su_p_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "Was there ever a time that your child threw up or hurt himself or herself after using the following drugs?dbo.Get_dynamic_Quickanswer('1.20.2.Q1',UserID)"
+    },
+    "question": {
+        "en": "Was there ever a time that your child threw up or hurt himself or herself after using the following drugs? dbo. Get_dynamic_Quickanswer('1. 20. 2. Q1',UserID)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

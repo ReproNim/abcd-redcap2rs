@@ -1,0 +1,24 @@
+{
+    "id": "devhx_19d_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_19d_p of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "At approximately what age (number of months) was your child FIRST able to do each of the following? Say his/her first word?"
+    },
+    "question": {
+        "en": "At approximately what age (number of months) was your child FIRST able to do each of the following? Say his her first word?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

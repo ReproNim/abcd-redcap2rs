@@ -1,0 +1,66 @@
+{
+    "id": "naas_comm_contact",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "naas_comm_contact of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "What contact did your child's Native American parent have with Native American communities? \u00ac\u00f8Qu\u221a\u00a9 contacto ha tenido el padre / la madre Americano(a) Nativo(a) del ni\u221a\u00b1o / la ni\u221a\u00b1a con las comunidades nativas americanas?"
+    },
+    "question": {
+        "en": "What contact did your child's Native American parent have with Native American communities?",
+        "es": "\u00ac\u00f8Qu\u221a\u00a9 contacto ha tenido el padre la madre Americano(a) Nativo(a) del ni\u221a\u00b1o la ni\u221a\u00b1a con las comunidades nativas americanas?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Raised for 1 year or more on the reservation or other Native American community Criado(a) por m\u221a\u00c9\u00ac\u00b0s de un a\u221a\u00c9\u00ac\u00b1o en la reserva u otra comunidad de Americanos Nativos"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Raised for 1 year or less on the reservation or other Native American community Criado(a) por un a\u221a\u00c9\u00ac\u00b1o o menos de un a\u221a\u00c9\u00ac\u00b1o en una reserva u otra comunidad de Americanos Nativos"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Occasional visits to the reservation or other Native American community Visitas ocasionales a la reserva o alguna otra comunidad de Americanos Nativos"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Occasional communications with people on reservation or other Native American community Comunicaciones ocasionales con personas en la reserva u otra comunidad Americana Nativa"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "No exposure or communications with people on reservation or other Native American community No he sido expuesto(a) o he tenido comunicaci\u221a\u00c9\u00ac\u2265n con personas de una reserva o comunidad de Americanos Nativos."
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't Know No lo s\u221a\u00c9\u00ac\u00a9 // The following questions are about you or the child's family."
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

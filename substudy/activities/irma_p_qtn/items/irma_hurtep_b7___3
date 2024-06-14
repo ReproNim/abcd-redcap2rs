@@ -1,0 +1,42 @@
+{
+    "id": "irma_hurtep_b7___3",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "irma_hurtep_b7___3 of irma_p_qtn"
+    },
+    "prefLabel": {
+        "en": "How did you get news of information about Hurricane Irma? Check all that apply. \u00ac\u00f8CAmo obtuvo noticias de informaciAn sobre el hurac\u221a\u00b0n? Marque todo lo que corresponda. (3, Social media (e.g., Facebook, Twitter, Instagram) Medios de ComunicaciAn social (e.g., Facebook, Twitter, Instagram))"
+    },
+    "question": {
+        "en": "How did you get news of information about Hurricane Irma? Check all that apply. (3, Social media (e. g. g. , Facebook, Twitter, Instagram))",
+        "es": "\u00ac\u00f8CAmo obtuvo noticias de informaciAn sobre el hurac\u221a\u00b0n? Marque todo lo que corresponda. , Facebook, Twitter, Instagram) Medios de ComunicaciAn social (e."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

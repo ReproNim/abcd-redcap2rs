@@ -1,0 +1,53 @@
+{
+    "id": "tlfb_6mo_10_concmj",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_6mo_10_concmj of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "In the past six months, what was the typical route of administration you used for your concentrates (pipe, vaporizer, dab/butane)?"
+    },
+    "question": {
+        "en": "In the past six months, what was the typical route of administration you used for your concentrates (pipe, vaporizer, dab butane)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Pipe"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Vaporizer"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Dab/Butane"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

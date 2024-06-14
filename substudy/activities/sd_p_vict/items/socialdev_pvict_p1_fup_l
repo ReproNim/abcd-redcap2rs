@@ -1,0 +1,24 @@
+{
+    "id": "socialdev_pvict_p1_fup_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_pvict_p1_fup_l of sd_p_vict"
+    },
+    "prefLabel": {
+        "en": "Earlier you said that at some time since your last SD visit a group of kids or a gang hit, jumped, or attacked your child."
+    },
+    "question": {
+        "en": "Earlier you said that at some time since your last SD visit a group of kids or a gang hit, jumped, or attacked your child."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,35 @@
+{
+    "id": "cvd_fit_ss_mstep_lt_80_dailystep",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "cvd_fit_ss_mstep_lt_80_dailystep of cvd_y_fitb_act_d"
+    },
+    "prefLabel": {
+        "en": "Is the QC'd step value after all exclusions 80%+ the value of the daily level as reported by fitbit"
+    },
+    "question": {
+        "en": "Is the QC'd step value after all exclusions 80%+ the value of the daily level as reported by fitbit"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "QC'd value 80%+ of daily reported level.   1=QC'd value <80% of daily reported value.  A value of 1 indicates that there is likely data loss at the minute level of steps and active level (and possibly heart rate)"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 0,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

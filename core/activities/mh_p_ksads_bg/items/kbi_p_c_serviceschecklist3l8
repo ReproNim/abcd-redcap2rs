@@ -1,0 +1,41 @@
+{
+    "id": "kbi_p_c_serviceschecklist3l8",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_p_c_serviceschecklist3l8 of mh_p_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "Click below all types of mental health or substance abuse services your child has received since we last saw you:  8, Medication management"
+    },
+    "question": {
+        "en": "Click below all types of mental health or substance abuse services your child has received since we last saw you:  8, Medication management"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes [kbi_p_c_mh_sa_l] = '1' and  [event_name_number] > '30'"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

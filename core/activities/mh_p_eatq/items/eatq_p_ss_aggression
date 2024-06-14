@@ -1,0 +1,24 @@
+{
+    "id": "eatq_p_ss_aggression",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "eatq_p_ss_aggression of mh_p_eatq"
+    },
+    "prefLabel": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent aggression; sum(eatq_phenx_insult_p, eatq_phenx_angry_hit_p, eatq_phenx_rude_p, eatq_phenx_blame_p, eatq_phenx_doorslam_p, eatq_phenx_makes_fun_p, eatq_phenx_no_criticize_p); Validation: Maximum of 1 item missing"
+    },
+    "question": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent aggression; sum(eatq_phenx_insult_p, eatq_phenx_angry_hit_p, eatq_phenx_rude_p, eatq_phenx_blame_p, eatq_phenx_doorslam_p, eatq_phenx_makes_fun_p, eatq_phenx_no_criticize_p); Validation: Maximum of 1 item missing"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

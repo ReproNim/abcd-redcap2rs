@@ -1,0 +1,24 @@
+{
+    "id": "sit_scr_script_subjectid",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sit_scr_script_subjectid of nc_y_sit"
+    },
+    "prefLabel": {
+        "en": "script.subjectid:\n\nSubject id number"
+    },
+    "question": {
+        "en": "script. subjectid:\n\nSubject id number"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

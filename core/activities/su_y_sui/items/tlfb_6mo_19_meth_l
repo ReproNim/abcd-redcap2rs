@@ -1,0 +1,71 @@
+{
+    "id": "tlfb_6mo_19_meth_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_6mo_19_meth_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Of the times you used methamphetamine During the past year, how often did you inject it?"
+    },
+    "question": {
+        "en": "Of the times you used methamphetamine During the past year, how often did you inject it?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Almost never"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Most of the time"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Almost always"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Don't know / tlfb_6mo_skip_l___17   == '1'"
+                },
+                "value": 7
+            }
+        ],
+        "maxValue": 7,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "fes_37_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fes_37_p of ce_p_fes"
+    },
+    "prefLabel": {
+        "en": "We often go to the movies, sports events, camping, etc.A menudo vamos al cine, a eventos deportivos, a acampar, etc."
+    },
+    "question": {
+        "en": "We often go to the movies, sports events, camping, etc. A menudo vamos al cine, a eventos deportivos, a acampar, etc."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "True /Verdadera"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "False/ Falsa"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

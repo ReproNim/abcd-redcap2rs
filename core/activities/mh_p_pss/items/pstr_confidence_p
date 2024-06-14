@@ -1,0 +1,65 @@
+{
+    "id": "pstr_confidence_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pstr_confidence_p of mh_p_pss"
+    },
+    "prefLabel": {
+        "en": "In the last month, how often have you felt confident about your ability to handle your personal problems?"
+    },
+    "question": {
+        "en": "In the last month, how often have you felt confident about your ability to handle your personal problems?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Almost Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Fairly Often"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very Often"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Refuse to Answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

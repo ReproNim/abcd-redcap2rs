@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_d_mn_mth_ol_se_neg",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_d_mn_mth_ol_se_neg of led_l_seda_pool_d"
+    },
+    "prefLabel": {
+        "en": "Geo Dist SE of Math-ELA Diff in Mean Ach, Math and ELA, OLS est, CS not disadvantaged economically minus economically disadvantaged gap"
+    },
+    "question": {
+        "en": "Geo Dist SE of Math-ELA Diff in Mean Ach, Math and ELA, OLS est, CS not disadvantaged economically minus economically disadvantaged gap"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

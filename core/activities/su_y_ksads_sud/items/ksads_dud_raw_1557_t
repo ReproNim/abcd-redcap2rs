@@ -1,0 +1,41 @@
+{
+    "id": "ksads_dud_raw_1557_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dud_raw_1557_t of su_y_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "You drove after you had been using?Opioids (heroin, OxyContin morphine, codeine, methadone, Demerol, Percodan)"
+    },
+    "question": {
+        "en": "You drove after you had been using? Opioids (heroin, OxyContin morphine, codeine, methadone, Demerol, Percodan)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

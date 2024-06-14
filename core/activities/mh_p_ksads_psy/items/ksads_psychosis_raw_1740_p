@@ -1,0 +1,41 @@
+{
+    "id": "ksads_psychosis_raw_1740_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_psychosis_raw_1740_p of mh_p_ksads_psy"
+    },
+    "prefLabel": {
+        "en": "Mark off all the things that were true of your child in the past when they were having these symptoms we were just talking about back then.My child often sat still in a stupor, as if he or she were frozen."
+    },
+    "question": {
+        "en": "Mark off all the things that were true of your child in the past when they were having these symptoms we were just talking about back then. My child often sat still in a stupor, as if he or she were frozen."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

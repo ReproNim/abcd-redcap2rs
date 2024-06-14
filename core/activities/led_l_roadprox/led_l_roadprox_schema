@@ -1,0 +1,42 @@
+{
+    "id": "led_l_roadprox_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Built Environment in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Roadprox"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_proxrd",
+            "items/reshist_addr2_proxrd",
+            "items/reshist_addr3_proxrd"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_proxrd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_proxrd"
+            },
+            {
+                "isAbout": "items/reshist_addr2_proxrd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_proxrd"
+            },
+            {
+                "isAbout": "items/reshist_addr3_proxrd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_proxrd"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

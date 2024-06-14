@@ -1,0 +1,210 @@
+{
+    "id": "led_l_seda_demo_c_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about School (Demographics) in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Seda_Demo_C"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ledsch_seda_c_baplusavgall",
+            "items/ledsch_seda_c_hsecdnec",
+            "items/ledsch_seda_c_hsflnfl",
+            "items/ledsch_seda_c_lninc50avgall",
+            "items/ledsch_seda_c_perasn",
+            "items/ledsch_seda_c_perblk",
+            "items/ledsch_seda_c_perecd",
+            "items/ledsch_seda_c_perell",
+            "items/ledsch_seda_c_perfl",
+            "items/ledsch_seda_c_perfrl",
+            "items/ledsch_seda_c_perhsp",
+            "items/ledsch_seda_c_perind",
+            "items/ledsch_seda_c_perrl",
+            "items/ledsch_seda_c_perspeced",
+            "items/ledsch_seda_c_perwht",
+            "items/ledsch_seda_c_povertyavgall",
+            "items/ledsch_seda_c_rsecdnec",
+            "items/ledsch_seda_c_rsflnfl",
+            "items/ledsch_seda_c_rural",
+            "items/ledsch_seda_c_sesavgall",
+            "items/ledsch_seda_c_single_momavgall",
+            "items/ledsch_seda_c_snapavgall",
+            "items/ledsch_seda_c_suburb",
+            "items/ledsch_seda_c_totenrl",
+            "items/ledsch_seda_c_town",
+            "items/ledsch_seda_c_unempavgall",
+            "items/ledsch_seda_c_urban"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ledsch_seda_c_baplusavgall",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_baplusavgall"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_hsecdnec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_hsecdnec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_hsflnfl",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_hsflnfl"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_lninc50avgall",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_lninc50avgall"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_perasn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_perasn"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_perblk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_perblk"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_perecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_perecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_perell",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_perell"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_perfl",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_perfl"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_perfrl",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_perfrl"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_perhsp",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_perhsp"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_perind",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_perind"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_perrl",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_perrl"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_perspeced",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_perspeced"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_perwht",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_perwht"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_povertyavgall",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_povertyavgall"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_rsecdnec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_rsecdnec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_rsflnfl",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_rsflnfl"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_rural",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_rural"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_sesavgall",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_sesavgall"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_single_momavgall",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_single_momavgall"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_snapavgall",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_snapavgall"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_suburb",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_suburb"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_totenrl",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_totenrl"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_town",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_town"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_unempavgall",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_unempavgall"
+            },
+            {
+                "isAbout": "items/ledsch_seda_c_urban",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_c_urban"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

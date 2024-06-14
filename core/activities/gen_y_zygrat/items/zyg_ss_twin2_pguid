@@ -1,0 +1,24 @@
+{
+    "id": "zyg_ss_twin2_pguid",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "zyg_ss_twin2_pguid of gen_y_zygrat"
+    },
+    "prefLabel": {
+        "en": "Co-Twin's pGUID: Copy and pasted from REDCap by RAs"
+    },
+    "question": {
+        "en": "Co-Twin's pGUID: Copy and pasted from REDCap by RAs"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

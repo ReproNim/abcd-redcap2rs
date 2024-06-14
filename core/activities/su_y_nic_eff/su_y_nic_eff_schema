@@ -1,0 +1,196 @@
+{
+    "id": "su_y_nic_eff_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Consequence in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Nic_Eff"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/subj_resp_nic_q01",
+            "items/subj_resp_nic_q02",
+            "items/subj_resp_nic_q03",
+            "items/subj_resp_nic_q04",
+            "items/subj_resp_nic_q05",
+            "items/subj_resp_nic_q06",
+            "items/subj_resp_nic_q07",
+            "items/subj_resp_nic_q08",
+            "items/subj_resp_nic_q09",
+            "items/res_tobacco_q01_l",
+            "items/res_tobacco_q02_l",
+            "items/res_tobacco_q08_l",
+            "items/res_tobacco_q09_l",
+            "items/res_tobacco_q10_l",
+            "items/res_tobacco_q16_l",
+            "items/res_tobacco_q17_l",
+            "items/res_tobacco_q18_l",
+            "items/res_tobacco_q24_l",
+            "items/su_nic_admin",
+            "items/res_tobacco_total_cig",
+            "items/res_tobacco_total_cig_i",
+            "items/res_tobacco_total_ecig",
+            "items/res_tobacco_total_ecig_i",
+            "items/res_tobacco_total_chew",
+            "items/res_tobacco_total_chew_i"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/subj_resp_nic_q01",
+                "isVis": "tlfb_cig_use  === 1",
+                "valueRequired": true,
+                "variableName": "subj_resp_nic_q01"
+            },
+            {
+                "isAbout": "items/subj_resp_nic_q02",
+                "isVis": "tlfb_cig_use  === 1",
+                "valueRequired": true,
+                "variableName": "subj_resp_nic_q02"
+            },
+            {
+                "isAbout": "items/subj_resp_nic_q03",
+                "isVis": "tlfb_cig_use  === 1",
+                "valueRequired": true,
+                "variableName": "subj_resp_nic_q03"
+            },
+            {
+                "isAbout": "items/subj_resp_nic_q04",
+                "isVis": "tlfb_ecig_use  === 1 ||  tlfb_hookah_use  === 1",
+                "valueRequired": true,
+                "variableName": "subj_resp_nic_q04"
+            },
+            {
+                "isAbout": "items/subj_resp_nic_q05",
+                "isVis": "tlfb_ecig_use  === 1 ||  tlfb_hookah_use  === 1",
+                "valueRequired": true,
+                "variableName": "subj_resp_nic_q05"
+            },
+            {
+                "isAbout": "items/subj_resp_nic_q06",
+                "isVis": "tlfb_ecig_use  === 1 ||  tlfb_hookah_use  === 1",
+                "valueRequired": true,
+                "variableName": "subj_resp_nic_q06"
+            },
+            {
+                "isAbout": "items/subj_resp_nic_q07",
+                "isVis": "tlfb_chew_use  === 1",
+                "valueRequired": true,
+                "variableName": "subj_resp_nic_q07"
+            },
+            {
+                "isAbout": "items/subj_resp_nic_q08",
+                "isVis": "tlfb_chew_use  === 1",
+                "valueRequired": true,
+                "variableName": "subj_resp_nic_q08"
+            },
+            {
+                "isAbout": "items/subj_resp_nic_q09",
+                "isVis": "tlfb_chew_use  === 1",
+                "valueRequired": true,
+                "variableName": "subj_resp_nic_q09"
+            },
+            {
+                "isAbout": "items/res_tobacco_q01_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "res_tobacco_q01_l"
+            },
+            {
+                "isAbout": "items/res_tobacco_q02_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "res_tobacco_q02_l"
+            },
+            {
+                "isAbout": "items/res_tobacco_q08_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "res_tobacco_q08_l"
+            },
+            {
+                "isAbout": "items/res_tobacco_q09_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "res_tobacco_q09_l"
+            },
+            {
+                "isAbout": "items/res_tobacco_q10_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "res_tobacco_q10_l"
+            },
+            {
+                "isAbout": "items/res_tobacco_q16_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "res_tobacco_q16_l"
+            },
+            {
+                "isAbout": "items/res_tobacco_q17_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "res_tobacco_q17_l"
+            },
+            {
+                "isAbout": "items/res_tobacco_q18_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "res_tobacco_q18_l"
+            },
+            {
+                "isAbout": "items/res_tobacco_q24_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "res_tobacco_q24_l"
+            },
+            {
+                "isAbout": "items/su_nic_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_nic_admin"
+            },
+            {
+                "isAbout": "items/res_tobacco_total_cig",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "res_tobacco_total_cig"
+            },
+            {
+                "isAbout": "items/res_tobacco_total_cig_i",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "res_tobacco_total_cig_i"
+            },
+            {
+                "isAbout": "items/res_tobacco_total_ecig",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "res_tobacco_total_ecig"
+            },
+            {
+                "isAbout": "items/res_tobacco_total_ecig_i",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "res_tobacco_total_ecig_i"
+            },
+            {
+                "isAbout": "items/res_tobacco_total_chew",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "res_tobacco_total_chew"
+            },
+            {
+                "isAbout": "items/res_tobacco_total_chew_i",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "res_tobacco_total_chew_i"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

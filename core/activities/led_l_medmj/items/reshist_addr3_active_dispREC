@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr3_active_dispREC",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr3_active_dispREC of led_l_medmj"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - indicates if a rec store was opened in the state at date of baseline visit (address 3)"
+    },
+    "question": {
+        "en": "Residential history derived - indicates if a rec store was opened in the state at date of baseline visit (address 3)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

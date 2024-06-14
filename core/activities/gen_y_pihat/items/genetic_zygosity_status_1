@@ -1,0 +1,47 @@
+{
+    "id": "genetic_zygosity_status_1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "genetic_zygosity_status_1 of gen_y_pihat"
+    },
+    "prefLabel": {
+        "en": "Genetically inferred zygosity status between participant and genetic_paired_subjectid_1"
+    },
+    "question": {
+        "en": "Genetically inferred zygosity status between participant and genetic_paired_subjectid_1"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "monozygotic"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "dizygotic"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "siblings ;-1= not available (twins/sibs, genetic_pi_hat not calculated)"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

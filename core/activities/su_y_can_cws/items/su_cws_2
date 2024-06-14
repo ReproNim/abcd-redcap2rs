@@ -1,0 +1,95 @@
+{
+    "id": "su_cws_2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_cws_2 of su_y_can_cws"
+    },
+    "prefLabel": {
+        "en": "Aggression"
+    },
+    "question": {
+        "en": "Aggression"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Some"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "8"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "A Lot"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "10 [xskipout_mj_l] = '1' and [event-name] = '3_year_follow_up_y_arm_1'"
+                },
+                "value": 10
+            }
+        ],
+        "maxValue": 10,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "mctq_sjlrel_calc",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mctq_sjlrel_calc of ph_y_mctq"
+    },
+    "prefLabel": {
+        "en": "Relative social jetlag"
+    },
+    "question": {
+        "en": "Relative social jetlag"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

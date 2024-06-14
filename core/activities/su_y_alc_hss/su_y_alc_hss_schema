@@ -1,0 +1,308 @@
+{
+    "id": "su_y_alc_hss_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Consequence in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Alc_Hss"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/hangover1",
+            "items/hangover2",
+            "items/hangover3",
+            "items/hangover4",
+            "items/hangover5",
+            "items/hangover6",
+            "items/hangover7",
+            "items/hangover8",
+            "items/hangover9",
+            "items/hangover10",
+            "items/hangover11",
+            "items/hangover12",
+            "items/hangover13",
+            "items/hangover14",
+            "items/hangover1_l",
+            "items/hangover2_l",
+            "items/hangover3_l",
+            "items/hangover4_l",
+            "items/hangover5_l",
+            "items/hangover6_l",
+            "items/hangover7_l",
+            "items/hangover8_l",
+            "items/hangover9_l",
+            "items/hangover10_l",
+            "items/hangover11_l",
+            "items/hangover12_l",
+            "items/hangover13_l",
+            "items/hangover14_l",
+            "items/su_alc_admin",
+            "items/hss_ss_sum",
+            "items/hss_ss_sum_nm",
+            "items/hss_ss_sum_nt",
+            "items/hss_ss_wt_sum",
+            "items/hss_ss_wt_sum_nm",
+            "items/hss_ss_wt_sum_nt",
+            "items/hss_ss_sum_l",
+            "items/hss_ss_sum_nm_l",
+            "items/hss_ss_sum_nt_l",
+            "items/hss_ss_wt_sum_l",
+            "items/hss_ss_wt_sum_nm_l",
+            "items/hss_ss_wt_sum_nt_l"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/hangover1",
+                "isVis": "xskipout_alc  >= 2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_alc  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "hangover1"
+            },
+            {
+                "isAbout": "items/hangover2",
+                "isVis": "xskipout_alc  >= 2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_alc  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "hangover2"
+            },
+            {
+                "isAbout": "items/hangover3",
+                "isVis": "xskipout_alc  >= 2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_alc  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "hangover3"
+            },
+            {
+                "isAbout": "items/hangover4",
+                "isVis": "xskipout_alc  >= 2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_alc  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "hangover4"
+            },
+            {
+                "isAbout": "items/hangover5",
+                "isVis": "xskipout_alc  >= 2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_alc  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "hangover5"
+            },
+            {
+                "isAbout": "items/hangover6",
+                "isVis": "xskipout_alc  >= 2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_alc  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "hangover6"
+            },
+            {
+                "isAbout": "items/hangover7",
+                "isVis": "xskipout_alc  >= 2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_alc  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "hangover7"
+            },
+            {
+                "isAbout": "items/hangover8",
+                "isVis": "xskipout_alc  >= 2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_alc  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "hangover8"
+            },
+            {
+                "isAbout": "items/hangover9",
+                "isVis": "xskipout_alc  >= 2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_alc  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "hangover9"
+            },
+            {
+                "isAbout": "items/hangover10",
+                "isVis": "xskipout_alc  >= 2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_alc  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "hangover10"
+            },
+            {
+                "isAbout": "items/hangover11",
+                "isVis": "xskipout_alc  >= 2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_alc  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "hangover11"
+            },
+            {
+                "isAbout": "items/hangover12",
+                "isVis": "xskipout_alc  >= 2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_alc  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "hangover12"
+            },
+            {
+                "isAbout": "items/hangover13",
+                "isVis": "xskipout_alc  >= 2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_alc  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "hangover13"
+            },
+            {
+                "isAbout": "items/hangover14",
+                "isVis": "xskipout_alc  >= 2 &&  tlfb_age  >=9 &&  tlfb_age  <= 11 ||  xskipout_alc  >= 3 &&  tlfb_age  >=12",
+                "valueRequired": true,
+                "variableName": "hangover14"
+            },
+            {
+                "isAbout": "items/hangover1_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hangover1_l"
+            },
+            {
+                "isAbout": "items/hangover2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hangover2_l"
+            },
+            {
+                "isAbout": "items/hangover3_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hangover3_l"
+            },
+            {
+                "isAbout": "items/hangover4_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hangover4_l"
+            },
+            {
+                "isAbout": "items/hangover5_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hangover5_l"
+            },
+            {
+                "isAbout": "items/hangover6_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hangover6_l"
+            },
+            {
+                "isAbout": "items/hangover7_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hangover7_l"
+            },
+            {
+                "isAbout": "items/hangover8_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hangover8_l"
+            },
+            {
+                "isAbout": "items/hangover9_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hangover9_l"
+            },
+            {
+                "isAbout": "items/hangover10_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hangover10_l"
+            },
+            {
+                "isAbout": "items/hangover11_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hangover11_l"
+            },
+            {
+                "isAbout": "items/hangover12_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hangover12_l"
+            },
+            {
+                "isAbout": "items/hangover13_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hangover13_l"
+            },
+            {
+                "isAbout": "items/hangover14_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hangover14_l"
+            },
+            {
+                "isAbout": "items/su_alc_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_alc_admin"
+            },
+            {
+                "isAbout": "items/hss_ss_sum",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hss_ss_sum"
+            },
+            {
+                "isAbout": "items/hss_ss_sum_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hss_ss_sum_nm"
+            },
+            {
+                "isAbout": "items/hss_ss_sum_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hss_ss_sum_nt"
+            },
+            {
+                "isAbout": "items/hss_ss_wt_sum",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hss_ss_wt_sum"
+            },
+            {
+                "isAbout": "items/hss_ss_wt_sum_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hss_ss_wt_sum_nm"
+            },
+            {
+                "isAbout": "items/hss_ss_wt_sum_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hss_ss_wt_sum_nt"
+            },
+            {
+                "isAbout": "items/hss_ss_sum_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hss_ss_sum_l"
+            },
+            {
+                "isAbout": "items/hss_ss_sum_nm_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hss_ss_sum_nm_l"
+            },
+            {
+                "isAbout": "items/hss_ss_sum_nt_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hss_ss_sum_nt_l"
+            },
+            {
+                "isAbout": "items/hss_ss_wt_sum_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hss_ss_wt_sum_l"
+            },
+            {
+                "isAbout": "items/hss_ss_wt_sum_nm_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hss_ss_wt_sum_nm_l"
+            },
+            {
+                "isAbout": "items/hss_ss_wt_sum_nt_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hss_ss_wt_sum_nt_l"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

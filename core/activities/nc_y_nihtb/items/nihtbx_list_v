@@ -1,0 +1,24 @@
+{
+    "id": "nihtbx_list_v",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nihtbx_list_v of nc_y_nihtb"
+    },
+    "prefLabel": {
+        "en": "NIH Toolbox List Sorting Working Memory Test Age 7+ Version"
+    },
+    "question": {
+        "en": "NIH Toolbox List Sorting Working Memory Test Age 7+ Version"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

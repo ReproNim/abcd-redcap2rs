@@ -1,0 +1,24 @@
+{
+    "id": "caff_ago",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "caff_ago of ph_p_meds"
+    },
+    "prefLabel": {
+        "en": "How long ago did your child last consume a caffeinated beverage?"
+    },
+    "question": {
+        "en": "How long ago did your child last consume a caffeinated beverage?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

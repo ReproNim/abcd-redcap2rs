@@ -1,0 +1,66 @@
+{
+    "id": "p_gish_desc_fem",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "p_gish_desc_fem of gish_p_gi"
+    },
+    "prefLabel": {
+        "en": "How do you think others would describe your child? / \u00bfC\u00f3mo piensa usted que otras personas describir\u00edan a su ni\u00f1o(a)?"
+    },
+    "question": {
+        "en": "How do you think others would describe your child?",
+        "es": "\u00bfC\u00f3mo piensa usted que otras personas describir\u00edan a su ni\u00f1o(a)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very feminine / Muy femenino(a)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mostly feminine / Mayormente Femenino(a)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat feminine / Un Poco Femenino(a)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Equally feminine and masculine / Igualmente femenino(a) y masculino(a)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Somewhat masculine / Un Poco Masculino(a)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Mostly masculine / Mayormente Masculino(a)"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "first_mj_1a_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "first_mj_1a_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "How old were you the first time you first used marijuana?"
+    },
+    "question": {
+        "en": "How old were you the first time you first used marijuana?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

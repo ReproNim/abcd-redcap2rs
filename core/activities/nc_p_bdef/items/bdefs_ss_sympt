@@ -1,0 +1,24 @@
+{
+    "id": "bdefs_ss_sympt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bdefs_ss_sympt of nc_p_bdef"
+    },
+    "prefLabel": {
+        "en": "Executive function symptom count: Sum of all items with value >= 3; maximally 1 item missing / refused to answer"
+    },
+    "question": {
+        "en": "Executive function symptom count: Sum of all items with value >= 3; maximally 1 item missing refused to answer"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

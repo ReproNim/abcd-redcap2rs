@@ -1,0 +1,59 @@
+{
+    "id": "macv_q19",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "macv_q19 of ce_y_macv"
+    },
+    "prefLabel": {
+        "en": "When there are problems in life, a person can only count on him or herself."
+    },
+    "question": {
+        "en": "When there are problems in life, a person can only count on him or herself."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at All"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A Little"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very Much"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Completely"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

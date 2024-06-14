@@ -1,0 +1,59 @@
+{
+    "id": "ksads_dud_raw_1253_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dud_raw_1253_p of su_p_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "In the last 2 weeks, how often has your child gone to school or work after he or she had been using the following drugs or when your child was hung over?Sedatives/Hypnotics/Anxiolytics (Barbiturates (sedatives, downers), Benzodiazepine, Quaalude (ludes), Valium, lLibrium,  Xanax, ketamine, GHB)"
+    },
+    "question": {
+        "en": "In the last 2 weeks, how often has your child gone to school or work after he or she had been using the following drugs or when your child was hung over? Sedatives Hypnotics Anxiolytics (Barbiturates (sedatives, downers), Benzodiazepine, Quaalude (ludes), Valium, lLibrium,  Xanax, ketamine, GHB)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Several days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "More than half the days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Nearly every day"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

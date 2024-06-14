@@ -1,0 +1,42 @@
+{
+    "id": "fes_7r_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fes_7r_p of ce_p_fes"
+    },
+    "prefLabel": {
+        "en": "We spend most weekends and evenings at home.Pasamos la mayor?a de los fines de semana y las noches en casa."
+    },
+    "question": {
+        "en": "We spend most weekends and evenings at home. Pasamos la mayor?",
+        "es": "a de los fines de semana y las noches en casa."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "True /Verdadera"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "False/ Falsa"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

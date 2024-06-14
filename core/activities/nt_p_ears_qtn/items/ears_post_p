@@ -1,0 +1,210 @@
+{
+    "id": "ears_post_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ears_post_p of nt_p_ears_qtn"
+    },
+    "prefLabel": {
+        "en": "On a typical WEEKDAY (Monday- Friday) over the past 3 weeks, how much TIME per day does your child spend in TOTAL on their smartphone? / En las \u00faltimas 3 semanas en un D\u00cdA DE SEMANA t\u00edpico (Lunes-Viernes), \u00bfcu\u00e1nto TIEMPO al d\u00eda pasa su ni\u00f1o(a) en TOTAL usando su tel\u00e9fono inteligente?"
+    },
+    "question": {
+        "en": "On a typical WEEKDAY (Monday- Friday) over the past 3 weeks, how much TIME per day does your child spend in TOTAL on their smartphone?",
+        "es": "En las \u00faltimas 3 semanas en un D\u00cdA DE SEMANA t\u00edpico (Lunes-Viernes), \u00bfcu\u00e1nto TIEMPO al d\u00eda pasa su ni\u00f1o(a) en TOTAL usando su tel\u00e9fono inteligente?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "30 minutes / 30 minutos"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "45 minutes / 45 minutos"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "1 hour / 1 Horas"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "1.5 hours / 1.5 Horas"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "2 hours / 2 Horas"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "2.5 hours / 2.5 Horas"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "3 hours / 3 Horas"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "4 hours / 4 Horas"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "5 hours / 5 Horas"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "6 hours / 6 Horas"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "7 hours / 7 Horas"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "8 hours / 8 Horas"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "9 hours / 9 Horas"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "10 hours / 10 Horas"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "11 hours / 11 Horas"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "12 hours / 12 Horas"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "13 hours / 13 Horas"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "14 hours / 14 Horas"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "15 hours / 15 Horas"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "16 hours / 16 Horas"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "17 hours / 17 Horas"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "18 hours / 18 Horas"
+                },
+                "value": 22
+            },
+            {
+                "name": {
+                    "en": "19 hours / 19 Horas"
+                },
+                "value": 23
+            },
+            {
+                "name": {
+                    "en": "20 hours / 20 Horas"
+                },
+                "value": 24
+            },
+            {
+                "name": {
+                    "en": "21 hours / 21 Horas"
+                },
+                "value": 25
+            },
+            {
+                "name": {
+                    "en": "22 hours / 22 Horas"
+                },
+                "value": 26
+            },
+            {
+                "name": {
+                    "en": "23 hours / 23 Horas"
+                },
+                "value": 27
+            },
+            {
+                "name": {
+                    "en": "24 hours / 24 Horas"
+                },
+                "value": 28
+            },
+            {
+                "name": {
+                    "en": "Don't know / No s\u00e9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

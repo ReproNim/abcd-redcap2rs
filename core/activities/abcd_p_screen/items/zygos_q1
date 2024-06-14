@@ -1,0 +1,48 @@
+{
+    "id": "zygos_q1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "zygos_q1 of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "When standing together, how do the twins' eyes compare... are their eyes the same color and shade, different shade, or different color? /Cuando est\u221a\u00b0n parados uno junto al otro, \u00ac\u00f8c\u221a\u2265mo se comparan los ojos de los gemelos? \u00ac\u00f8Son del mismo color y tonalidad, de diferente tonalidad o de diferente color?"
+    },
+    "question": {
+        "en": "When standing together, how do the twins' eyes compare. . . are their eyes the same color and shade, different shade, or different color?",
+        "es": "Cuando est\u221a\u00b0n parados uno junto al otro, \u00ac\u00f8c\u221a\u2265mo se comparan los ojos de los gemelos? \u00ac\u00f8Son del mismo color y tonalidad, de diferente tonalidad o de diferente color?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Same Color and Shade"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Different Shade"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Different Color"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

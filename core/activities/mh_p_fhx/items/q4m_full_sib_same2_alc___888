@@ -1,0 +1,42 @@
+{
+    "id": "q4m_full_sib_same2_alc___888",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "q4m_full_sib_same2_alc___888 of mh_p_fhx"
+    },
+    "prefLabel": {
+        "en": "full sibling-same age Hermano(a) de doble v??nculo- con la misma edad   (2) (not asked)"
+    },
+    "question": {
+        "en": "full sibling-same age Hermano(a) de doble v? ?",
+        "es": "nculo- con la misma edad   (2) (not asked)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes /  famhx_1   == 1 &&  famhx_4_p   == 1 &&  fhx_3c_sibs_same_birth  > 1"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

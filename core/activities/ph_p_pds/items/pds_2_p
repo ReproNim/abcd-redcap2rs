@@ -1,0 +1,60 @@
+{
+    "id": "pds_2_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pds_2_p of ph_p_pds"
+    },
+    "prefLabel": {
+        "en": "And how about the growth of your child's body hair (\"body hair\" means hair any place other than their head, such as under their arms)? Would you say that your child's body hair growth: \u00bfY qu\u00e9 dir\u00eda del crecimiento del vello corporal de su ni\u00f1o(a) (\"vello corporal\" se refiere al vello que crece en cualquier parte del cuerpo que no sea el pelo de la cabeza, como en las axilas)?\u00bfDir\u00eda usted que el vello corporal de su ni\u00f1o(a)...?"
+    },
+    "question": {
+        "en": "And how about the growth of your child's body hair (\"body hair\" means hair any place other than their head, such as under their arms)? . . ?",
+        "es": "Would you say that your child's body hair growth: \u00bfY qu\u00e9 dir\u00eda del crecimiento del vello corporal de su ni\u00f1o(a) (\"vello corporal\" se refiere al vello que crece en cualquier parte del cuerpo que no sea el pelo de la cabeza, como en las axilas)? \u00bfDir\u00eda usted que el vello corporal de su ni\u00f1o(a)."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "has not yet begun to grow A\u00fan no le ha empezado a salir."
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "has barely started to grow Apenas le est\u00e1 empezando a salir."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "is definitely underway Definitivamente ya le est\u00e1 saliendo."
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "seems complete Parece haber terminado de salir."
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't know No s\u00e9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

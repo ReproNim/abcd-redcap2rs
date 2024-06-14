@@ -1,0 +1,24 @@
+{
+    "id": "tlfb_bsalts_last",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_bsalts_last of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "When is the last time you used _______? Cathinones (bathsalts, done, M-cat, MDVP or meph): Reminder: The child reported using cathinones for the first time on: [tlfb_bsalts_date1]."
+    },
+    "question": {
+        "en": "When is the last time you used _______? Cathinones (bathsalts, done, M-cat, MDVP or meph): Reminder: The child reported using cathinones for the first time on: [tlfb_bsalts_date1]."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "date"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

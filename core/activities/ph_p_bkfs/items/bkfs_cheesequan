@@ -1,0 +1,24 @@
+{
+    "id": "bkfs_cheesequan",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_cheesequan of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Cheese, Quantity in one day"
+    },
+    "question": {
+        "en": "Cheese, Quantity in one day"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "ce_y_psb_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Temperament/Personality in Culture & Environment"
+    },
+    "prefLabel": {
+        "en": "Ce_Y_Psb"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/prosocial_q1_y",
+            "items/prosocial_q2_y",
+            "items/prosocial_q3_y",
+            "items/prosocial_admin"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/prosocial_q1_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prosocial_q1_y"
+            },
+            {
+                "isAbout": "items/prosocial_q2_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prosocial_q2_y"
+            },
+            {
+                "isAbout": "items/prosocial_q3_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prosocial_q3_y"
+            },
+            {
+                "isAbout": "items/prosocial_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prosocial_admin"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

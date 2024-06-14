@@ -1,0 +1,25 @@
+{
+    "id": "demo_adopt_agex_v2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_adopt_agex_v2 of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "How old was he/she at the time of adoption? \u00ac\u00f8Qu\u221a\u00a9 edad ten\u221a\u2260a el/ella en el momento de la adopci\u221a\u2265n?"
+    },
+    "question": {
+        "en": "How old was he she at the time of adoption?",
+        "es": "\u00ac\u00f8Qu\u221a\u00a9 edad ten\u221a\u2260a el ella en el momento de la adopci\u221a\u2265n?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

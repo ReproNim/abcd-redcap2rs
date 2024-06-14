@@ -1,0 +1,42 @@
+{
+    "id": "scrn_met_injremove",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_met_injremove of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Was the object completely removed? /\u00ac\u00f8Fue el objeto removid\u221a\u2265 o retirad\u221a\u2265 por completo?"
+    },
+    "question": {
+        "en": "Was the object completely removed?",
+        "es": "\u00ac\u00f8Fue el objeto removid\u221a\u2265 o retirad\u221a\u2265 por completo?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No - GO TO END"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

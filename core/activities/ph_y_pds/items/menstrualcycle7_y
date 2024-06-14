@@ -1,0 +1,47 @@
+{
+    "id": "menstrualcycle7_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "menstrualcycle7_y of ph_y_pds"
+    },
+    "prefLabel": {
+        "en": "On average, how long does your menstrual period (bleeding) last?"
+    },
+    "question": {
+        "en": "On average, how long does your menstrual period (bleeding) last?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1-2 days"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "3-7 days"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "More than 7 days  [pds_f5_y] = '4' and [event-name] = ''3_year_follow_up_y_arm_1''"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,144 @@
+{
+    "id": "demo_relig_v2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_relig_v2 of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "What is the child's religious preference? \u00ac\u00f8Cu\u221a\u00b0l es la preferencia religiosa del ni\u221a\u00b1o / de la ni\u221a\u00b1a?"
+    },
+    "question": {
+        "en": "What is the child's religious preference?",
+        "es": "\u00ac\u00f8Cu\u221a\u00b0l es la preferencia religiosa del ni\u221a\u00b1o de la ni\u221a\u00b1a?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mainline Protestant (e.g."
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Evangelical Protestant (e.g."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Historically Black Church (e.g."
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Roman Catholic (Catholic) Cat\u221a\u2265lica romana (catolicismo)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Jewish (Judaism) Jud\u221a\u2260a (juda\u221a\u2260smo)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Mormon (Church of Jesus Christ of Latter Day Saints/LDS) Mormona (Iglesia de Jesucristo de los Santos de los \u221a\u00f6ltimos D\u221a\u2260as)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Jehovahs Witness Testigo de Jehov\u221a\u00b0"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Muslim (Islam) Musulmana (Islam)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Buddhist Budista"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Hindu Hind\u221a\u222b"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Orthodox Christian (Greek"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Unitarian (Universalist) Unitaria (universalista)"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Other Christian Otra religi\u221a\u2265n cristiana"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Atheist (do not believe in God) Ate\u221a\u2260smo (no cree en Dios)"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Agnostic (not sure if there is a God) Agnosticismo (no est\u221a\u00b0 seguro(a) de la existencia de un dios)"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Something else (Specify) Otra (Especifique)"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Nothing in Particular Ninguna en particular"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Refused to answer Prefiero no responder"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Dont know No lo s\u221a\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

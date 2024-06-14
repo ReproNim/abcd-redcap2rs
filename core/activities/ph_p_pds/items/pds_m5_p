@@ -1,0 +1,60 @@
+{
+    "id": "pds_m5_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pds_m5_p of ph_p_pds"
+    },
+    "prefLabel": {
+        "en": "Has he begun to grow hair on his face? \u00bfA su ni\u00f1o le ha empezado a crecer vello en la cara?"
+    },
+    "question": {
+        "en": "Has he begun to grow hair on his face?",
+        "es": "\u00bfA su ni\u00f1o le ha empezado a crecer vello en la cara?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "facial hair has not yet started growing A\u00fan no le ha empezado a salir vello facial."
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "facial hair has barely started growing Apenas le ha empezado a salir vello facial."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "facial hair has definitely started Definitivamente ya le ha empezado a salir vello facial."
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "facial growth seems complete Ya parece haber terminado de salirle el vello facial."
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't know No s\u00e9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

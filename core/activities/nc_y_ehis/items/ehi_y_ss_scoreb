@@ -1,0 +1,53 @@
+{
+    "id": "ehi_y_ss_scoreb",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ehi_y_ss_scoreb of nc_y_ehis"
+    },
+    "prefLabel": {
+        "en": "Handedness score rating"
+    },
+    "question": {
+        "en": "Handedness score rating"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "right handed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "left handed"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "mixed handed//Calculation: if ((mean([ehi1b], [ehi2b], [ehi3b],[ehi4b]) < -60),2, if ((mean([ehi1b], [ehi2b], [ehi3b],[ehi4b]) > 60),1,3))"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "77.  //If mixed handed, use the hand that the child writes with for NeuroCog and fMRI tasks."
+                },
+                "value": 164
+            }
+        ],
+        "maxValue": 164,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "ocp_prtnr_acs_job_cat_8_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ocp_prtnr_acs_job_cat_8_p of abcd_p_ocp"
+    },
+    "prefLabel": {
+        "en": "Please specify the Arts, Design, Entertainment, Sports, and Media Occupations Job Title:"
+    },
+    "question": {
+        "en": "Please specify the Arts, Design, Entertainment, Sports, and Media Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Art and Design Workers"
+                },
+                "value": 27100
+            },
+            {
+                "name": {
+                    "en": "Entertainers and Performers=Sports and Related Workers"
+                },
+                "value": 27200
+            },
+            {
+                "name": {
+                    "en": "Media and Communication Workers"
+                },
+                "value": 27300
+            },
+            {
+                "name": {
+                    "en": "Media and Communication Equipment Workers"
+                },
+                "value": 27400
+            }
+        ],
+        "maxValue": 27400,
+        "minValue": 27100,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

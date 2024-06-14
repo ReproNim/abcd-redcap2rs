@@ -1,0 +1,553 @@
+{
+    "id": "nt_y_vibr_plt_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Screen Use in Novel Technologies"
+    },
+    "prefLabel": {
+        "en": "Nt_Y_Vibr_Plt"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mt_pilot_vib_pguid",
+            "items/mt_pilot_vib_device",
+            "items/mt_pilot_vib_os",
+            "items/mt_pilot_vib_phonecall_total",
+            "items/mt_pilot_vib_usage_tot",
+            "items/mt_pilot_vib_usage_wkday_tot",
+            "items/mt_pilot_vib_usage_wkend_tot",
+            "items/mt_pilot_vib_screenon_total",
+            "items/mt_pilot_vib_lengthdays",
+            "items/mt_pilot_vib_lastupload_date",
+            "items/mt_pilot_vib_dataused_mb",
+            "items/mt_pilot_vib_inccalls",
+            "items/mt_pilot_vib_outgocalls",
+            "items/mt_pilot_vib_youtube",
+            "items/mt_pilot_vib_game",
+            "items/mt_pilot_vib_socialcomm",
+            "items/mt_pilot_vib_streaming",
+            "items/mt_pilot_vib_productivity",
+            "items/mt_pilot_vib_weather",
+            "items/mt_pilot_vib_daydream",
+            "items/mt_pilot_vib_artdesign",
+            "items/mt_pilot_vib_vehicles",
+            "items/mt_pilot_vib_beauty",
+            "items/mt_pilot_vib_books",
+            "items/mt_pilot_vib_business",
+            "items/mt_pilot_vib_comics",
+            "items/mt_pilot_vib_communication",
+            "items/mt_pilot_vib_dating",
+            "items/mt_pilot_vib_education",
+            "items/mt_pilot_vib_entertainment",
+            "items/mt_pilot_vib_events",
+            "items/mt_pilot_vib_finance",
+            "items/mt_pilot_vib_food",
+            "items/mt_pilot_vib_healthfitness",
+            "items/mt_pilot_vib_house",
+            "items/mt_pilot_vib_libraries",
+            "items/mt_pilot_vib_lifestyle",
+            "items/mt_pilot_vib_maps",
+            "items/mt_pilot_vib_medical",
+            "items/mt_pilot_vib_musicaudio",
+            "items/mt_pilot_vib_news",
+            "items/mt_pilot_vib_parenting",
+            "items/mt_pilot_vib_personalisation",
+            "items/mt_pilot_vib_photo",
+            "items/mt_pilot_vib_shopping",
+            "items/mt_pilot_vib_social",
+            "items/mt_pilot_vib_sports",
+            "items/mt_pilot_vib_tools",
+            "items/mt_pilot_vib_travel",
+            "items/mt_pilot_vib_video",
+            "items/mt_pilot_vib_wearos",
+            "items/mt_pilot_vib_action_game",
+            "items/mt_pilot_vib_adventure_game",
+            "items/mt_pilot_arcade_game",
+            "items/mt_pilot_board_game",
+            "items/mt_pilot_card_game",
+            "items/mt_pilot_casino_game",
+            "items/mt_pilot_casual_game",
+            "items/mt_pilot_education_game",
+            "items/mt_pilot_music_game",
+            "items/mt_pilot_puzzle_game",
+            "items/mt_pilot_racing_game",
+            "items/mt_pilot_roleplaying_game",
+            "items/mt_pilot_simulation_game",
+            "items/mt_pilot_strategy_game",
+            "items/mt_pilot_trivia_game",
+            "items/mt_pilot_word_game",
+            "items/mt_pilot_5andup_game",
+            "items/mt_pilot_6to8_game",
+            "items/mt_pilot_9andup_game",
+            "items/mt_pilot_popcharacters_game",
+            "items/mt_pilot_actionadv_game",
+            "items/mt_pilot_brain_game",
+            "items/mt_pilot_creativity_game",
+            "items/mt_pilot_musicandvideo_game",
+            "items/mt_pilot_pretend_game"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mt_pilot_vib_pguid",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_pguid"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_device",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_device"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_os",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_os"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_phonecall_total",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_phonecall_total"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_usage_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_usage_tot"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_usage_wkday_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_usage_wkday_tot"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_usage_wkend_tot",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_usage_wkend_tot"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_screenon_total",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_screenon_total"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_lengthdays",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_lengthdays"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_lastupload_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_lastupload_date"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_dataused_mb",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_dataused_mb"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_inccalls",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_inccalls"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_outgocalls",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_outgocalls"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_youtube",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_youtube"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_socialcomm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_socialcomm"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_streaming",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_streaming"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_productivity",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_productivity"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_weather",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_weather"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_daydream",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_daydream"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_artdesign",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_artdesign"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_vehicles",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_vehicles"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_beauty",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_beauty"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_books",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_books"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_business",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_business"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_comics",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_comics"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_communication",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_communication"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_dating",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_dating"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_education",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_education"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_entertainment",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_entertainment"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_events",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_events"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_finance",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_finance"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_food",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_food"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_healthfitness",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_healthfitness"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_house",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_house"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_libraries",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_libraries"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_lifestyle",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_lifestyle"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_maps",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_maps"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_medical",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_medical"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_musicaudio",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_musicaudio"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_news",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_news"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_parenting",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_parenting"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_personalisation",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_personalisation"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_photo",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_photo"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_shopping",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_shopping"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_social",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_social"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_sports",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_sports"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_tools",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_tools"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_travel",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_travel"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_video",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_video"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_wearos",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_wearos"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_action_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_action_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_vib_adventure_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_vib_adventure_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_arcade_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_arcade_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_board_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_board_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_card_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_card_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_casino_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_casino_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_casual_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_casual_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_education_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_education_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_music_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_music_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_puzzle_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_puzzle_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_racing_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_racing_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_roleplaying_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_roleplaying_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_simulation_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_simulation_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_strategy_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_strategy_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_trivia_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_trivia_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_word_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_word_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_5andup_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_5andup_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_6to8_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_6to8_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_9andup_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_9andup_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_popcharacters_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_popcharacters_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_actionadv_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_actionadv_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_brain_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_brain_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_creativity_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_creativity_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_musicandvideo_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_musicandvideo_game"
+            },
+            {
+                "isAbout": "items/mt_pilot_pretend_game",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mt_pilot_pretend_game"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

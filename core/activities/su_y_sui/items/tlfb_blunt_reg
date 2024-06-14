@@ -1,0 +1,41 @@
+{
+    "id": "tlfb_blunt_reg",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_blunt_reg of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "INTERVIEWER (code silently): Have you begun using BLUNTS (when you combine tobacco and marijuana in joints) regularly? (at least once a week for 6 months)[Interviewer Note: If blunt ONLY contains MJ, then count as smoked MJ.]"
+    },
+    "question": {
+        "en": "INTERVIEWER (code silently): Have you begun using BLUNTS (when you combine tobacco and marijuana in joints) regularly? (at least once a week for 6 months)[Interviewer Note: If blunt ONLY contains MJ, then count as smoked MJ. ]"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No // Now I'm going to ask how old you were you when you first tried each of the drugs we have been talking about, and how old you were when you first started using the drug regularly (which means using it every week for at least SIX MONTHS)."
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

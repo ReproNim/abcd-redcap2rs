@@ -1,0 +1,53 @@
+{
+    "id": "ears_post_over_3wk_2_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ears_post_over_3wk_2_y of nt_y_ears_qtn"
+    },
+    "prefLabel": {
+        "en": "What percent of time did someone else use it?"
+    },
+    "question": {
+        "en": "What percent of time did someone else use it?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Rarely (just briefly)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some (about a quarter of the time"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "About half the time"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "More than half the time"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

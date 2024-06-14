@@ -1,0 +1,25 @@
+{
+    "id": "meim_ss_exp",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "meim_ss_exp of ce_y_meim"
+    },
+    "prefLabel": {
+        "en": "MEIM-R Exploration Subscale"
+    },
+    "question": {
+        "en": "Calculated value"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

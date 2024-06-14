@@ -1,0 +1,105 @@
+{
+    "id": "led_l_socsrv_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Amenities & Services in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Socsrv"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_nanda_socsrv_c",
+            "items/reshist_addr1_nanda_socsrv_pd",
+            "items/reshist_addr1_nanda_socsrv_cty",
+            "items/reshist_addr1_nanda_socsrv_pdc",
+            "items/reshist_addr2_nanda_socsrv_c",
+            "items/reshist_addr2_nanda_socsrv_pd",
+            "items/reshist_addr2_nanda_socsrv_cty",
+            "items/reshist_addr2_nanda_socsrv_pdc",
+            "items/reshist_addr3_nanda_socsrv_c",
+            "items/reshist_addr3_nanda_socsrv_pd",
+            "items/reshist_addr3_nanda_socsrv_cty",
+            "items/reshist_addr3_nanda_socsrv_pdc"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_nanda_socsrv_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_nanda_socsrv_c"
+            },
+            {
+                "isAbout": "items/reshist_addr1_nanda_socsrv_pd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_nanda_socsrv_pd"
+            },
+            {
+                "isAbout": "items/reshist_addr1_nanda_socsrv_cty",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_nanda_socsrv_cty"
+            },
+            {
+                "isAbout": "items/reshist_addr1_nanda_socsrv_pdc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_nanda_socsrv_pdc"
+            },
+            {
+                "isAbout": "items/reshist_addr2_nanda_socsrv_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_nanda_socsrv_c"
+            },
+            {
+                "isAbout": "items/reshist_addr2_nanda_socsrv_pd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_nanda_socsrv_pd"
+            },
+            {
+                "isAbout": "items/reshist_addr2_nanda_socsrv_cty",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_nanda_socsrv_cty"
+            },
+            {
+                "isAbout": "items/reshist_addr2_nanda_socsrv_pdc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_nanda_socsrv_pdc"
+            },
+            {
+                "isAbout": "items/reshist_addr3_nanda_socsrv_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_nanda_socsrv_c"
+            },
+            {
+                "isAbout": "items/reshist_addr3_nanda_socsrv_pd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_nanda_socsrv_pd"
+            },
+            {
+                "isAbout": "items/reshist_addr3_nanda_socsrv_cty",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_nanda_socsrv_cty"
+            },
+            {
+                "isAbout": "items/reshist_addr3_nanda_socsrv_pdc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_nanda_socsrv_pdc"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

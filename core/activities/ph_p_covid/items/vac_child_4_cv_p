@@ -1,0 +1,54 @@
+{
+    "id": "vac_child_4_cv_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "vac_child_4_cv_p of ph_p_covid"
+    },
+    "prefLabel": {
+        "en": "Has your child received their fourth vaccination (booster)? / \u00bfSu hijo/a ha recibido su cuarta vacuna (refuerzo)?"
+    },
+    "question": {
+        "en": "Has your child received their fourth vaccination (booster)?",
+        "es": "\u00bfSu hijo a ha recibido su cuarta vacuna (refuerzo)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No / No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes / S\u00ed"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't Know / No se"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer / Niego contestar"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

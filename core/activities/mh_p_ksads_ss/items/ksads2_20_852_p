@@ -1,0 +1,24 @@
+{
+    "id": "ksads2_20_852_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads2_20_852_p of mh_p_ksads_ss"
+    },
+    "prefLabel": {
+        "en": "Diagnosis - Unspecified Substance Related Disorder, Past (F10.99)"
+    },
+    "question": {
+        "en": "Diagnosis - Unspecified Substance Related Disorder, Past (F10. 99)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

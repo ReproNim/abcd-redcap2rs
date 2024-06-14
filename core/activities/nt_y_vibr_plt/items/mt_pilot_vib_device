@@ -1,0 +1,24 @@
+{
+    "id": "mt_pilot_vib_device",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mt_pilot_vib_device of nt_y_vibr_plt"
+    },
+    "prefLabel": {
+        "en": "Type of device"
+    },
+    "question": {
+        "en": "Type of device"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

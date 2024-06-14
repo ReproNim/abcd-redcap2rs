@@ -1,0 +1,41 @@
+{
+    "id": "ksads_dp_raw_900_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dp_raw_900_p of mh_p_ksads_dep"
+    },
+    "prefLabel": {
+        "en": "You said your child had the following symptoms when he or she was depressed back in June 2012. Were they a problem for him or her for at least a year back then?Poor appetite or overeating"
+    },
+    "question": {
+        "en": "You said your child had the following symptoms when he or she was depressed back in June 2012. Were they a problem for him or her for at least a year back then? Poor appetite or overeating"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

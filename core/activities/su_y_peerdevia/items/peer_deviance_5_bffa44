@@ -1,0 +1,59 @@
+{
+    "id": "peer_deviance_5_bffa44",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "peer_deviance_5_bffa44 of su_y_peerdevia"
+    },
+    "prefLabel": {
+        "en": "Use marijuana"
+    },
+    "question": {
+        "en": "Use marijuana"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "A Few"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Most"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "All"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,756 @@
+{
+    "id": "su_y_hair_tox_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Drug Toxicology in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Hair_Tox"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/su_y_hair_date_accessioned",
+            "items/su_y_hair_status_y",
+            "items/su_y_hair_dot_y",
+            "items/su_y_hair_color___1",
+            "items/su_y_hair_color___2",
+            "items/su_y_hair_color___3",
+            "items/su_y_hair_color___4",
+            "items/su_y_hair_color___5",
+            "items/su_y_hair_color___6",
+            "items/su_y_hair_color___7",
+            "items/su_y_hair_length",
+            "items/su_y_hair_cosmetic",
+            "items/su_y_hair_selection",
+            "items/su_y_hair_length_lab",
+            "items/su_y_hair_scr_coc_001",
+            "items/su_y_hair_scr_opi_001",
+            "items/su_y_hair_scr_pcp_001",
+            "items/su_y_hair_scr_amp_001",
+            "items/su_y_hair_scr_can_001",
+            "items/su_y_hair_scr_can_002",
+            "items/su_y_hair_scr_can_003",
+            "items/su_y_hair_scr_alc_001",
+            "items/su_y_hair_scr_nic_001",
+            "items/su_y_hair_scr_bnz_001",
+            "items/su_y_hair_scr_ftl_001",
+            "items/su_y_hair_cnf_amp_001",
+            "items/su_y_hair_qnt_amp_001",
+            "items/su_y_hair_cnf_amp_002",
+            "items/su_y_hair_qnt_amp_002",
+            "items/su_y_hair_cnf_amp_003",
+            "items/su_y_hair_qnt_amp_003",
+            "items/su_y_hair_cnf_amp_004",
+            "items/su_y_hair_qnt_amp_004",
+            "items/su_y_hair_cnf_amp_005",
+            "items/su_y_hair_qnt_amp_005",
+            "items/su_y_hair_cnf_coc_001",
+            "items/su_y_hair_qnt_coc_001",
+            "items/su_y_hair_cnf_coc_002",
+            "items/su_y_hair_qnt_coc_002",
+            "items/su_y_hair_cnf_coc_003",
+            "items/su_y_hair_qnt_coc_003",
+            "items/su_y_hair_cnf_coc_004",
+            "items/su_y_hair_qnt_coc_004",
+            "items/su_y_hair_cnf_alc_001",
+            "items/su_y_hair_qnt_alc_001",
+            "items/su_y_hair_cnf_alc_002",
+            "items/su_y_hair_qnt_alc_002",
+            "items/su_y_hair_cnf_nic_001",
+            "items/su_y_hair_qnt_nic_001",
+            "items/su_y_hair_cnf_nic_002",
+            "items/su_y_hair_qnt_nic_002",
+            "items/su_y_hair_cnf_can_001",
+            "items/su_y_hair_qnt_can_001",
+            "items/su_y_hair_cnf_can_002",
+            "items/su_y_hair_qnt_can_002",
+            "items/su_y_hair_cnf_can_003",
+            "items/su_y_hair_qnt_can_003",
+            "items/su_y_hair_cnf_can_004",
+            "items/su_y_hair_qnt_can_004",
+            "items/su_y_hair_cnf_can_005",
+            "items/su_y_hair_qnt_can_005",
+            "items/su_y_hair_cnf_bnz_001",
+            "items/su_y_hair_qnt_bnz_001",
+            "items/su_y_hair_cnf_bnz_002",
+            "items/su_y_hair_qnt_bnz_002",
+            "items/su_y_hair_cnf_bnz_003",
+            "items/su_y_hair_qnt_bnz_003",
+            "items/su_y_hair_cnf_bnz_004",
+            "items/su_y_hair_qnt_bnz_004",
+            "items/su_y_hair_cnf_bnz_005",
+            "items/su_y_hair_qnt_bnz_005",
+            "items/su_y_hair_cnf_bnz_006",
+            "items/su_y_hair_qnt_bnz_006",
+            "items/su_y_hair_cnf_bnz_007",
+            "items/su_y_hair_qnt_bnz_007",
+            "items/su_y_hair_cnf_bnz_008",
+            "items/su_y_hair_qnt_bnz_008",
+            "items/su_y_hair_cnf_bnz_009",
+            "items/su_y_hair_qnt_bnz_009",
+            "items/su_y_hair_cnf_bnz_010",
+            "items/su_y_hair_qnt_bnz_010",
+            "items/su_y_hair_cnf_ftl_001",
+            "items/su_y_hair_qnt_ftl_001",
+            "items/su_y_hair_cnf_opi_001",
+            "items/su_y_hair_qnt_opi_001",
+            "items/su_y_hair_cnf_opi_002",
+            "items/su_y_hair_qnt_opi_002",
+            "items/su_y_hair_cnf_opi_003",
+            "items/su_y_hair_qnt_opi_003",
+            "items/su_y_hair_cnf_opi_004",
+            "items/su_y_hair_qnt_opi_004",
+            "items/su_y_hair_cnf_opi_005",
+            "items/su_y_hair_qnt_opi_005",
+            "items/su_y_hair_cnf_opi_006",
+            "items/su_y_hair_qnt_opi_006",
+            "items/su_y_hair_cnf_opi_007",
+            "items/su_y_hair_qnt_opi_007",
+            "items/su_y_hair_cnf_pcp_001",
+            "items/su_y_hair_qnt_pcp_001",
+            "items/su_y_hair_cnf_coc_005",
+            "items/su_y_hair_qnt_coc_005",
+            "items/su_y_hair_cnf_coc_006",
+            "items/su_y_hair_qnt_coc_006",
+            "items/su_y_hair_cnf_coc_007",
+            "items/su_y_hair_qnt_coc_007"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/su_y_hair_date_accessioned",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_date_accessioned"
+            },
+            {
+                "isAbout": "items/su_y_hair_status_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_status_y"
+            },
+            {
+                "isAbout": "items/su_y_hair_dot_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_dot_y"
+            },
+            {
+                "isAbout": "items/su_y_hair_color___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_color___1"
+            },
+            {
+                "isAbout": "items/su_y_hair_color___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_color___2"
+            },
+            {
+                "isAbout": "items/su_y_hair_color___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_color___3"
+            },
+            {
+                "isAbout": "items/su_y_hair_color___4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_color___4"
+            },
+            {
+                "isAbout": "items/su_y_hair_color___5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_color___5"
+            },
+            {
+                "isAbout": "items/su_y_hair_color___6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_color___6"
+            },
+            {
+                "isAbout": "items/su_y_hair_color___7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_color___7"
+            },
+            {
+                "isAbout": "items/su_y_hair_length",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_length"
+            },
+            {
+                "isAbout": "items/su_y_hair_cosmetic",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cosmetic"
+            },
+            {
+                "isAbout": "items/su_y_hair_selection",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_selection"
+            },
+            {
+                "isAbout": "items/su_y_hair_length_lab",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_length_lab"
+            },
+            {
+                "isAbout": "items/su_y_hair_scr_coc_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_scr_coc_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_scr_opi_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_scr_opi_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_scr_pcp_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_scr_pcp_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_scr_amp_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_scr_amp_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_scr_can_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_scr_can_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_scr_can_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_scr_can_002"
+            },
+            {
+                "isAbout": "items/su_y_hair_scr_can_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_scr_can_003"
+            },
+            {
+                "isAbout": "items/su_y_hair_scr_alc_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_scr_alc_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_scr_nic_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_scr_nic_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_scr_bnz_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_scr_bnz_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_scr_ftl_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_scr_ftl_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_amp_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_amp_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_amp_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_amp_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_amp_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_amp_002"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_amp_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_amp_002"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_amp_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_amp_003"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_amp_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_amp_003"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_amp_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_amp_004"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_amp_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_amp_004"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_amp_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_amp_005"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_amp_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_amp_005"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_coc_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_coc_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_coc_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_coc_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_coc_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_coc_002"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_coc_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_coc_002"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_coc_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_coc_003"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_coc_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_coc_003"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_coc_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_coc_004"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_coc_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_coc_004"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_alc_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_alc_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_alc_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_alc_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_alc_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_alc_002"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_alc_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_alc_002"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_nic_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_nic_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_nic_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_nic_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_nic_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_nic_002"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_nic_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_nic_002"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_can_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_can_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_can_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_can_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_can_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_can_002"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_can_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_can_002"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_can_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_can_003"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_can_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_can_003"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_can_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_can_004"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_can_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_can_004"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_can_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_can_005"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_can_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_can_005"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_bnz_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_bnz_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_bnz_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_bnz_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_bnz_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_bnz_002"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_bnz_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_bnz_002"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_bnz_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_bnz_003"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_bnz_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_bnz_003"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_bnz_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_bnz_004"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_bnz_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_bnz_004"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_bnz_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_bnz_005"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_bnz_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_bnz_005"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_bnz_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_bnz_006"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_bnz_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_bnz_006"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_bnz_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_bnz_007"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_bnz_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_bnz_007"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_bnz_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_bnz_008"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_bnz_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_bnz_008"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_bnz_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_bnz_009"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_bnz_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_bnz_009"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_bnz_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_bnz_010"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_bnz_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_bnz_010"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_ftl_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_ftl_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_ftl_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_ftl_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_opi_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_opi_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_opi_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_opi_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_opi_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_opi_002"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_opi_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_opi_002"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_opi_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_opi_003"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_opi_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_opi_003"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_opi_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_opi_004"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_opi_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_opi_004"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_opi_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_opi_005"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_opi_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_opi_005"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_opi_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_opi_006"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_opi_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_opi_006"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_opi_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_opi_007"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_opi_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_opi_007"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_pcp_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_pcp_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_pcp_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_pcp_001"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_coc_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_coc_005"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_coc_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_coc_005"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_coc_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_coc_006"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_coc_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_coc_006"
+            },
+            {
+                "isAbout": "items/su_y_hair_cnf_coc_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_cnf_coc_007"
+            },
+            {
+                "isAbout": "items/su_y_hair_qnt_coc_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_y_hair_qnt_coc_007"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

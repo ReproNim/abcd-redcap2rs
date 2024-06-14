@@ -1,0 +1,24 @@
+{
+    "id": "tlfb_alc_lt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_alc_lt of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "How many STANDARD DRINKS of ALCOHOL such as beer, wine, or liquor (rum, vodka, gin, whiskey) have you had in your life? (# of standard drinks)"
+    },
+    "question": {
+        "en": "How many STANDARD DRINKS of ALCOHOL such as beer, wine, or liquor (rum, vodka, gin, whiskey) have you had in your life? (# of standard drinks)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,83 @@
+{
+    "id": "nic_test_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nic_test_y of su_y_nic_tox"
+    },
+    "prefLabel": {
+        "en": "Urine sample collected?"
+    },
+    "question": {
+        "en": "Urine sample collected?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not applicable (not part of 10% / 15%)"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No, participant unable to provide sample"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No, participant refused"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Institution not authorized to collect samples due to COVID"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Staff discomfort due to COVID"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Exceed 15min of < 6ft distance from youth (COVID)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Not approved by ABCD for collection"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "No, not collected for other reason"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 8,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

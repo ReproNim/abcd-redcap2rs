@@ -1,0 +1,98 @@
+{
+    "id": "mh_p_ksads_dmdd_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Mood in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_P_Ksads_Dmdd"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ksads_dmdd_raw_963_p",
+            "items/ksads_dmdd_raw_972_p",
+            "items/ksads_dmdd_raw_971_p",
+            "items/ksads_dmdd_raw_970_p",
+            "items/ksads_dmdd_raw_969_p",
+            "items/ksads_dmdd_raw_968_p",
+            "items/ksads_dmdd_raw_967_p",
+            "items/ksads_dmdd_raw_965_p",
+            "items/ksads_dmdd_raw_964_p",
+            "items/ksads_dmdd_raw_962_p",
+            "items/ksads_dmdd_raw_961_p"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ksads_dmdd_raw_963_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dmdd_raw_963_p"
+            },
+            {
+                "isAbout": "items/ksads_dmdd_raw_972_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dmdd_raw_972_p"
+            },
+            {
+                "isAbout": "items/ksads_dmdd_raw_971_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dmdd_raw_971_p"
+            },
+            {
+                "isAbout": "items/ksads_dmdd_raw_970_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dmdd_raw_970_p"
+            },
+            {
+                "isAbout": "items/ksads_dmdd_raw_969_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dmdd_raw_969_p"
+            },
+            {
+                "isAbout": "items/ksads_dmdd_raw_968_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dmdd_raw_968_p"
+            },
+            {
+                "isAbout": "items/ksads_dmdd_raw_967_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dmdd_raw_967_p"
+            },
+            {
+                "isAbout": "items/ksads_dmdd_raw_965_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dmdd_raw_965_p"
+            },
+            {
+                "isAbout": "items/ksads_dmdd_raw_964_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dmdd_raw_964_p"
+            },
+            {
+                "isAbout": "items/ksads_dmdd_raw_962_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dmdd_raw_962_p"
+            },
+            {
+                "isAbout": "items/ksads_dmdd_raw_961_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dmdd_raw_961_p"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

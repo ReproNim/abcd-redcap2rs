@@ -1,0 +1,53 @@
+{
+    "id": "p_vac_child_if_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "p_vac_child_if_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "If a vaccine to prevent coronavirus/COVID-19 with FDA approval for children was available right now at no cost; would you have your child vaccinated?"
+    },
+    "question": {
+        "en": "If a vaccine to prevent coronavirus COVID-19 with FDA approval for children was available right now at no cost; would you have your child vaccinated?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2'"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

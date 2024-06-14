@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr2_vehdens_area",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr2_vehdens_area of led_l_densveh"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - Aggregate Number Of Vehicles Available per sq. mile of land area, ACS20142018, census tract (addr2)"
+    },
+    "question": {
+        "en": "Residential history derived - Aggregate Number Of Vehicles Available per sq. mile of land area, ACS20142018, census tract (addr2)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "rx_med1_ago",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "rx_med1_ago of ph_p_meds"
+    },
+    "prefLabel": {
+        "en": "Medication 1. P. How long ago did your son/daughter take the medication? / \u00c2\u00bfHace cu\u00c3\u00a1nto tiempo que su ni\u00c3\u00b1o(a) tom\u00c3\u00b3 o us\u00c3\u00b3 dicho medicamento? Y. How long ago did you take the medication?"
+    },
+    "question": {
+        "en": "Medication 1. P. How long ago did your son daughter take the medication? Y. How long ago did you take the medication?",
+        "es": "\u00c2\u00bfHace cu\u00c3\u00a1nto tiempo que su ni\u00c3\u00b1o(a) tom\u00c3\u00b3 o us\u00c3\u00b3 dicho medicamento?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

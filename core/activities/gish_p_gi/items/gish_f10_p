@@ -1,0 +1,66 @@
+{
+    "id": "gish_f10_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gish_f10_p of gish_p_gi"
+    },
+    "prefLabel": {
+        "en": "She plays \"girl-type\" games (as compared to \"boy-type\" games / Juega juegos \"para ni\u00f1as\" (en comparaci\u00f3n con el tipo de juegos \"para ni\u00f1os\")"
+    },
+    "question": {
+        "en": "She plays \"girl-type\" games (as compared to \"boy-type\" games",
+        "es": "Juega juegos \"para ni\u00f1as\" (en comparaci\u00f3n con el tipo de juegos \"para ni\u00f1os\")"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "As a favorite activity / Como actividad favorita"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Frequently / Frecuentemente"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Once in a while / De vez en cuando"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Rarely / Casi nunca"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Never / Nunca"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Decline to answer / Prefiero no responder /"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

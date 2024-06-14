@@ -1,0 +1,53 @@
+{
+    "id": "socialdev_cpb_01",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_cpb_01 of sd_y_pb"
+    },
+    "prefLabel": {
+        "en": "My friends work hard to get good grades in school."
+    },
+    "question": {
+        "en": "My friends work hard to get good grades in school."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "ALL of my friends"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "MOST of my friends"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A FEW of my friends"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "NONE of my friends"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

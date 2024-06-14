@@ -1,0 +1,24 @@
+{
+    "id": "ddis_scr_param_delayrewamt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ddis_scr_param_delayrewamt of nc_y_ddis"
+    },
+    "prefLabel": {
+        "en": "The delayed amount in $ (here: 100)"
+    },
+    "question": {
+        "en": "The delayed amount in $ (here: 100)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

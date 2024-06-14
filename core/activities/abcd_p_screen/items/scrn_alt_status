@@ -1,0 +1,53 @@
+{
+    "id": "scrn_alt_status",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_alt_status of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Screener Status"
+    },
+    "question": {
+        "en": "Screener Status"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Waiting for Doctor's note"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Waiting for PI Consult"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Doctor's note received"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Consulted PI //( scrn_met_injmdnote == 1 && scrn_brain_scn == 0) || ( scrn_met_injmdnote == 1 && scrn_abn_scan == 1) || ( scrn_met_excl == 2 && scrn_abn_scan == 1) || ( scrn_met_excl == 2 && scrn_brain_scn == 0) || ( scrn_con_excl == 2 && scrn_brain_scn == 0) || ( scrn_con_excl == 2 && scrn_abn_scan == 1) || ( scrn_psych_excl == 2 && scrn_abn_scan == 1) || ( scrn_psych_excl == 2 && scrn_brain_scn == 0) || ( scrn_birthcomp_excl == 2 && scrn_abn_scan == 1) || ( scrn_birthcomp_excl == 2 && scrn_brain_scn == 0) || ( scrn_concerns_excl == 2 && scrn_abn_scan == 1) || ( scrn_concerns_excl == 2 && scrn_brain_scn == 0) || ( scrn_braces == 2 && scrn_brain_scn == 0) || ( scrn_abn_scan == 1 && scrn_braces == 2) || scrn_abn_scan == 2 || scrn_tbi_scan_excl == 2"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

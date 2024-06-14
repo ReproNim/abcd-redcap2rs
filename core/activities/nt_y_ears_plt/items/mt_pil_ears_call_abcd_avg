@@ -1,0 +1,24 @@
+{
+    "id": "mt_pil_ears_call_abcd_avg",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mt_pil_ears_call_abcd_avg of nt_y_ears_plt"
+    },
+    "prefLabel": {
+        "en": "Average per Day duration (minutes) ABCD single-app category: Phone Calls"
+    },
+    "question": {
+        "en": "Average per Day duration (minutes) ABCD single-app category: Phone Calls"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

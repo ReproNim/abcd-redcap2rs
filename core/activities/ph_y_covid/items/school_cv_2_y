@@ -1,0 +1,59 @@
+{
+    "id": "school_cv_2_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "school_cv_2_y of ph_y_covid"
+    },
+    "prefLabel": {
+        "en": "In the past week, was your schooling taking place:"
+    },
+    "question": {
+        "en": "In the past week, was your schooling taking place:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Online/school-at-home"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "In person"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "In person some days and online some other days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "School is out for summer/break, or I'm doing a summer school program"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

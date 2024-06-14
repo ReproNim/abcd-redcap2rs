@@ -1,0 +1,203 @@
+{
+    "id": "nc_y_ddis_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Task in Neurocognition"
+    },
+    "prefLabel": {
+        "en": "Nc_Y_Ddis"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ddis_scr_script_startdte",
+            "items/ddis_scr_script_starttme",
+            "items/ddis_scr_subjectid",
+            "items/ddis_scr_session",
+            "items/ddis_scr_script_elaptme",
+            "items/ddis_scr_computer_platform",
+            "items/ddis_scr_values_completed",
+            "items/ddis_scr_param_delayrewamt",
+            "items/ddis_scr_val_testdelays",
+            "items/ddis_scr_val_immedcho",
+            "items/ddis_scr_val_indif_point_6h",
+            "items/ddis_scr_val_indif_pnt_1da",
+            "items/ddis_scr_val_indif_pnt_1week",
+            "items/ddis_scr_val_indif_pnt_1mth",
+            "items/ddis_scr_val_indif_pnt_3mth",
+            "items/ddis_scr_val_indif_pnt_1yr",
+            "items/ddis_scr_val_indif_pnt_5yr",
+            "items/ddis_scr_expr_mnrt_allcho",
+            "items/ddis_scr_expr_medrt_allcho",
+            "items/ddis_scr_expr_mnrt_immcho",
+            "items/ddis_scr_expr_medrt_immedcho",
+            "items/ddis_scr_expr_mnrt_delaycho",
+            "items/ddis_scr_expr_medrt_delaycho",
+            "items/ddis_scr_val_cons_per_jbcrit1",
+            "items/ddis_scr_val_jbpass1_num_violations",
+            "items/ddis_scr_val_cons_per_jbcrit2"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ddis_scr_script_startdte",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_script_startdte"
+            },
+            {
+                "isAbout": "items/ddis_scr_script_starttme",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_script_starttme"
+            },
+            {
+                "isAbout": "items/ddis_scr_subjectid",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_subjectid"
+            },
+            {
+                "isAbout": "items/ddis_scr_session",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_session"
+            },
+            {
+                "isAbout": "items/ddis_scr_script_elaptme",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_script_elaptme"
+            },
+            {
+                "isAbout": "items/ddis_scr_computer_platform",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_computer_platform"
+            },
+            {
+                "isAbout": "items/ddis_scr_values_completed",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_values_completed"
+            },
+            {
+                "isAbout": "items/ddis_scr_param_delayrewamt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_param_delayrewamt"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_testdelays",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_val_testdelays"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_immedcho",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_val_immedcho"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_indif_point_6h",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_val_indif_point_6h"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_indif_pnt_1da",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_val_indif_pnt_1da"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_indif_pnt_1week",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_val_indif_pnt_1week"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_indif_pnt_1mth",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_val_indif_pnt_1mth"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_indif_pnt_3mth",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_val_indif_pnt_3mth"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_indif_pnt_1yr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_val_indif_pnt_1yr"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_indif_pnt_5yr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_val_indif_pnt_5yr"
+            },
+            {
+                "isAbout": "items/ddis_scr_expr_mnrt_allcho",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_expr_mnrt_allcho"
+            },
+            {
+                "isAbout": "items/ddis_scr_expr_medrt_allcho",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_expr_medrt_allcho"
+            },
+            {
+                "isAbout": "items/ddis_scr_expr_mnrt_immcho",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_expr_mnrt_immcho"
+            },
+            {
+                "isAbout": "items/ddis_scr_expr_medrt_immedcho",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_expr_medrt_immedcho"
+            },
+            {
+                "isAbout": "items/ddis_scr_expr_mnrt_delaycho",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_expr_mnrt_delaycho"
+            },
+            {
+                "isAbout": "items/ddis_scr_expr_medrt_delaycho",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_expr_medrt_delaycho"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_cons_per_jbcrit1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_val_cons_per_jbcrit1"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_jbpass1_num_violations",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_val_jbpass1_num_violations"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_cons_per_jbcrit2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ddis_scr_val_cons_per_jbcrit2"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

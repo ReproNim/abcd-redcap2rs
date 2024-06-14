@@ -1,0 +1,24 @@
+{
+    "id": "anthro_waist_cm",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "anthro_waist_cm of ph_y_anthro"
+    },
+    "prefLabel": {
+        "en": "Measured circumference (in inches):"
+    },
+    "question": {
+        "en": "Measured circumference (in inches):"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

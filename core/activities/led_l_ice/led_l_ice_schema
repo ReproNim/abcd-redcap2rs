@@ -1,0 +1,63 @@
+{
+    "id": "led_l_ice_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Residential Segregation in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Ice"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_seg_ice_income",
+            "items/reshist_addr1_seg_ice_inc_bw",
+            "items/reshist_addr2_seg_ice_income",
+            "items/reshist_addr2_seg_ice_inc_bw",
+            "items/reshist_addr3_seg_ice_income",
+            "items/reshist_addr3_seg_ice_inc_bw"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_seg_ice_income",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_seg_ice_income"
+            },
+            {
+                "isAbout": "items/reshist_addr1_seg_ice_inc_bw",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_seg_ice_inc_bw"
+            },
+            {
+                "isAbout": "items/reshist_addr2_seg_ice_income",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_seg_ice_income"
+            },
+            {
+                "isAbout": "items/reshist_addr2_seg_ice_inc_bw",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_seg_ice_inc_bw"
+            },
+            {
+                "isAbout": "items/reshist_addr3_seg_ice_income",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_seg_ice_income"
+            },
+            {
+                "isAbout": "items/reshist_addr3_seg_ice_inc_bw",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_seg_ice_inc_bw"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,65 @@
+{
+    "id": "path_alc_youth1_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "path_alc_youth1_l of su_y_path_intuse"
+    },
+    "prefLabel": {
+        "en": "Have you ever been curious about using a tobacco product such as cigarettes, e-cigarettes, hookah, or cigars?"
+    },
+    "question": {
+        "en": "Have you ever been curious about using a tobacco product such as cigarettes, e-cigarettes, hookah, or cigars?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very curious"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat curious"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A little curious"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Not at all curious"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Refused /( tlfb_tob_l   == '1' ||   tlfb_tob_c_l   == '1') && ( tlfb_tob_puff_l  =='0' &&  tlfb_chew_use_l  =='0' &&  tlfb_cigar_use_l  =='0' &&  tlfb_hookah_use_l  =='0' &&  tlfb_pipes_use_l  =='0' &&  tlfb_nicotine_use_l  =='0' &&  tlfb_tob_puff_c_l  =='0' &&  tlfb_chew_use_c_l  =='0' &&  tlfb_cigar_use_c_l  =='0' &&  tlfb_hookah_use_c_l  =='0' &&  tlfb_pipes_use_c_l  =='0' &&  tlfb_nicotine_use_c_l  =='0')"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

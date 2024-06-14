@@ -1,0 +1,399 @@
+{
+    "id": "led_l_mhsvi_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Neighhorhood Composite Measures in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Mhsvi"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_mhsvi_white_p",
+            "items/reshist_addr1_mhsvi_aian_p",
+            "items/reshist_addr1_mhsvi_asian_p",
+            "items/reshist_addr1_mhsvi_afam_p",
+            "items/reshist_addr1_mhsvi_nhpi_p",
+            "items/reshist_addr1_mhsvi_hisp_p",
+            "items/reshist_addr1_mhsvi_span_p",
+            "items/reshist_addr1_mhsvi_chin_p",
+            "items/reshist_addr1_mhsvi_viet_p",
+            "items/reshist_addr1_mhsvi_kor_p",
+            "items/reshist_addr1_mhsvi_rus_p",
+            "items/reshist_addr1_mhsvi_hosp_r",
+            "items/reshist_addr1_mhsvi_urg_r",
+            "items/reshist_addr1_mhsvi_pharm_r",
+            "items/reshist_addr1_mhsvi_pcp_r",
+            "items/reshist_addr1_mhsvi_unins_p",
+            "items/reshist_addr1_mhsvi_noint_p",
+            "items/reshist_addr1_mhsvi_nocomp_p",
+            "items/reshist_addr2_mhsvi_white_p",
+            "items/reshist_addr2_mhsvi_aian_p",
+            "items/reshist_addr2_mhsvi_asian_p",
+            "items/reshist_addr2_mhsvi_afam_p",
+            "items/reshist_addr2_mhsvi_nhpi_p",
+            "items/reshist_addr2_mhsvi_hisp_p",
+            "items/reshist_addr2_mhsvi_span_p",
+            "items/reshist_addr2_mhsvi_chin_p",
+            "items/reshist_addr2_mhsvi_viet_p",
+            "items/reshist_addr2_mhsvi_kor_p",
+            "items/reshist_addr2_mhsvi_rus_p",
+            "items/reshist_addr2_mhsvi_hosp_r",
+            "items/reshist_addr2_mhsvi_urg_r",
+            "items/reshist_addr2_mhsvi_pharm_r",
+            "items/reshist_addr2_mhsvi_pcp_r",
+            "items/reshist_addr2_mhsvi_unins_p",
+            "items/reshist_addr2_mhsvi_noint_p",
+            "items/reshist_addr2_mhsvi_nocomp_p",
+            "items/reshist_addr3_mhsvi_white_p",
+            "items/reshist_addr3_mhsvi_aian_p",
+            "items/reshist_addr3_mhsvi_asian_p",
+            "items/reshist_addr3_mhsvi_afam_p",
+            "items/reshist_addr3_mhsvi_nhpi_p",
+            "items/reshist_addr3_mhsvi_hisp_p",
+            "items/reshist_addr3_mhsvi_span_p",
+            "items/reshist_addr3_mhsvi_chin_p",
+            "items/reshist_addr3_mhsvi_viet_p",
+            "items/reshist_addr3_mhsvi_kor_p",
+            "items/reshist_addr3_mhsvi_rus_p",
+            "items/reshist_addr3_mhsvi_hosp_r",
+            "items/reshist_addr3_mhsvi_urg_r",
+            "items/reshist_addr3_mhsvi_pharm_r",
+            "items/reshist_addr3_mhsvi_pcp_r",
+            "items/reshist_addr3_mhsvi_unins_p",
+            "items/reshist_addr3_mhsvi_noint_p",
+            "items/reshist_addr3_mhsvi_nocomp_p"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_mhsvi_white_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_mhsvi_white_p"
+            },
+            {
+                "isAbout": "items/reshist_addr1_mhsvi_aian_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_mhsvi_aian_p"
+            },
+            {
+                "isAbout": "items/reshist_addr1_mhsvi_asian_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_mhsvi_asian_p"
+            },
+            {
+                "isAbout": "items/reshist_addr1_mhsvi_afam_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_mhsvi_afam_p"
+            },
+            {
+                "isAbout": "items/reshist_addr1_mhsvi_nhpi_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_mhsvi_nhpi_p"
+            },
+            {
+                "isAbout": "items/reshist_addr1_mhsvi_hisp_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_mhsvi_hisp_p"
+            },
+            {
+                "isAbout": "items/reshist_addr1_mhsvi_span_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_mhsvi_span_p"
+            },
+            {
+                "isAbout": "items/reshist_addr1_mhsvi_chin_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_mhsvi_chin_p"
+            },
+            {
+                "isAbout": "items/reshist_addr1_mhsvi_viet_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_mhsvi_viet_p"
+            },
+            {
+                "isAbout": "items/reshist_addr1_mhsvi_kor_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_mhsvi_kor_p"
+            },
+            {
+                "isAbout": "items/reshist_addr1_mhsvi_rus_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_mhsvi_rus_p"
+            },
+            {
+                "isAbout": "items/reshist_addr1_mhsvi_hosp_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_mhsvi_hosp_r"
+            },
+            {
+                "isAbout": "items/reshist_addr1_mhsvi_urg_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_mhsvi_urg_r"
+            },
+            {
+                "isAbout": "items/reshist_addr1_mhsvi_pharm_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_mhsvi_pharm_r"
+            },
+            {
+                "isAbout": "items/reshist_addr1_mhsvi_pcp_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_mhsvi_pcp_r"
+            },
+            {
+                "isAbout": "items/reshist_addr1_mhsvi_unins_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_mhsvi_unins_p"
+            },
+            {
+                "isAbout": "items/reshist_addr1_mhsvi_noint_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_mhsvi_noint_p"
+            },
+            {
+                "isAbout": "items/reshist_addr1_mhsvi_nocomp_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_mhsvi_nocomp_p"
+            },
+            {
+                "isAbout": "items/reshist_addr2_mhsvi_white_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_mhsvi_white_p"
+            },
+            {
+                "isAbout": "items/reshist_addr2_mhsvi_aian_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_mhsvi_aian_p"
+            },
+            {
+                "isAbout": "items/reshist_addr2_mhsvi_asian_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_mhsvi_asian_p"
+            },
+            {
+                "isAbout": "items/reshist_addr2_mhsvi_afam_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_mhsvi_afam_p"
+            },
+            {
+                "isAbout": "items/reshist_addr2_mhsvi_nhpi_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_mhsvi_nhpi_p"
+            },
+            {
+                "isAbout": "items/reshist_addr2_mhsvi_hisp_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_mhsvi_hisp_p"
+            },
+            {
+                "isAbout": "items/reshist_addr2_mhsvi_span_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_mhsvi_span_p"
+            },
+            {
+                "isAbout": "items/reshist_addr2_mhsvi_chin_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_mhsvi_chin_p"
+            },
+            {
+                "isAbout": "items/reshist_addr2_mhsvi_viet_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_mhsvi_viet_p"
+            },
+            {
+                "isAbout": "items/reshist_addr2_mhsvi_kor_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_mhsvi_kor_p"
+            },
+            {
+                "isAbout": "items/reshist_addr2_mhsvi_rus_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_mhsvi_rus_p"
+            },
+            {
+                "isAbout": "items/reshist_addr2_mhsvi_hosp_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_mhsvi_hosp_r"
+            },
+            {
+                "isAbout": "items/reshist_addr2_mhsvi_urg_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_mhsvi_urg_r"
+            },
+            {
+                "isAbout": "items/reshist_addr2_mhsvi_pharm_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_mhsvi_pharm_r"
+            },
+            {
+                "isAbout": "items/reshist_addr2_mhsvi_pcp_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_mhsvi_pcp_r"
+            },
+            {
+                "isAbout": "items/reshist_addr2_mhsvi_unins_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_mhsvi_unins_p"
+            },
+            {
+                "isAbout": "items/reshist_addr2_mhsvi_noint_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_mhsvi_noint_p"
+            },
+            {
+                "isAbout": "items/reshist_addr2_mhsvi_nocomp_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_mhsvi_nocomp_p"
+            },
+            {
+                "isAbout": "items/reshist_addr3_mhsvi_white_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_mhsvi_white_p"
+            },
+            {
+                "isAbout": "items/reshist_addr3_mhsvi_aian_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_mhsvi_aian_p"
+            },
+            {
+                "isAbout": "items/reshist_addr3_mhsvi_asian_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_mhsvi_asian_p"
+            },
+            {
+                "isAbout": "items/reshist_addr3_mhsvi_afam_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_mhsvi_afam_p"
+            },
+            {
+                "isAbout": "items/reshist_addr3_mhsvi_nhpi_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_mhsvi_nhpi_p"
+            },
+            {
+                "isAbout": "items/reshist_addr3_mhsvi_hisp_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_mhsvi_hisp_p"
+            },
+            {
+                "isAbout": "items/reshist_addr3_mhsvi_span_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_mhsvi_span_p"
+            },
+            {
+                "isAbout": "items/reshist_addr3_mhsvi_chin_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_mhsvi_chin_p"
+            },
+            {
+                "isAbout": "items/reshist_addr3_mhsvi_viet_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_mhsvi_viet_p"
+            },
+            {
+                "isAbout": "items/reshist_addr3_mhsvi_kor_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_mhsvi_kor_p"
+            },
+            {
+                "isAbout": "items/reshist_addr3_mhsvi_rus_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_mhsvi_rus_p"
+            },
+            {
+                "isAbout": "items/reshist_addr3_mhsvi_hosp_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_mhsvi_hosp_r"
+            },
+            {
+                "isAbout": "items/reshist_addr3_mhsvi_urg_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_mhsvi_urg_r"
+            },
+            {
+                "isAbout": "items/reshist_addr3_mhsvi_pharm_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_mhsvi_pharm_r"
+            },
+            {
+                "isAbout": "items/reshist_addr3_mhsvi_pcp_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_mhsvi_pcp_r"
+            },
+            {
+                "isAbout": "items/reshist_addr3_mhsvi_unins_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_mhsvi_unins_p"
+            },
+            {
+                "isAbout": "items/reshist_addr3_mhsvi_noint_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_mhsvi_noint_p"
+            },
+            {
+                "isAbout": "items/reshist_addr3_mhsvi_nocomp_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_mhsvi_nocomp_p"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

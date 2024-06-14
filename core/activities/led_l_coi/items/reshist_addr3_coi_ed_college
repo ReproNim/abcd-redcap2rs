@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr3_coi_ed_college",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr3_coi_ed_college of led_l_coi"
+    },
+    "prefLabel": {
+        "en": "Education Domain: College enrollment in nearby institutions"
+    },
+    "question": {
+        "en": "Education Domain: College enrollment in nearby institutions"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

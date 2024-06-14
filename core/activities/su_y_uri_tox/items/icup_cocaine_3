@@ -1,0 +1,41 @@
+{
+    "id": "icup_cocaine_3",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "icup_cocaine_3 of su_y_uri_tox"
+    },
+    "prefLabel": {
+        "en": "COCAINE (COC300)"
+    },
+    "question": {
+        "en": "COCAINE (COC300)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Negative"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Preliminary Positive"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

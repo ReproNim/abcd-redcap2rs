@@ -1,0 +1,24 @@
+{
+    "id": "flkr_scr_acc_practice_mean",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "flkr_scr_acc_practice_mean of nc_y_flkr"
+    },
+    "prefLabel": {
+        "en": "ACC Practice Mean"
+    },
+    "question": {
+        "en": "ACC Practice Mean"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

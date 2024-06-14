@@ -1,0 +1,60 @@
+{
+    "id": "meim_3f_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "meim_3f_p of ce_p_meim"
+    },
+    "prefLabel": {
+        "en": "I understand pretty well what my ethnic group membership means to me. Entiendo bastante bien lo que significa para m? pertenecer a mi grupo etnico."
+    },
+    "question": {
+        "en": "I understand pretty well what my ethnic group membership means to me. pertenecer a mi grupo etnico.",
+        "es": "Entiendo bastante bien lo que significa para m?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Agree"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Agree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Neutral"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Disagree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Strongly Disagree"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

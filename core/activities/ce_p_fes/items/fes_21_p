@@ -1,0 +1,42 @@
+{
+    "id": "fes_21_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fes_21_p of ce_p_fes"
+    },
+    "prefLabel": {
+        "en": "We put a lot of energy into what we do at home.Ponemos mucha energ?a en lo que hacemos en casa."
+    },
+    "question": {
+        "en": "We put a lot of energy into what we do at home.",
+        "es": "Ponemos mucha energ? a en lo que hacemos en casa."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "True /Verdadera"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "False/ Falsa"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

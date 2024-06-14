@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr3_coi_zse_public",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr3_coi_zse_public of led_l_coi"
+    },
+    "prefLabel": {
+        "en": "Social and Economic Domain: Public assistance rate z-score"
+    },
+    "question": {
+        "en": "Social and Economic Domain: Public assistance rate z-score"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

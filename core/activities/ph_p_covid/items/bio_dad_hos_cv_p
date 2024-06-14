@@ -1,0 +1,48 @@
+{
+    "id": "bio_dad_hos_cv_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bio_dad_hos_cv_p of ph_p_covid"
+    },
+    "prefLabel": {
+        "en": "Did the biological father require hospitalization? / \u00bfEl padre biol\u00f3gico requiri\u00f3 hospitalizaci\u00f3n?"
+    },
+    "question": {
+        "en": "Did the biological father require hospitalization?",
+        "es": "\u00bfEl padre biol\u00f3gico requiri\u00f3 hospitalizaci\u00f3n?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No / No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes / S\u00ed"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know / No se"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

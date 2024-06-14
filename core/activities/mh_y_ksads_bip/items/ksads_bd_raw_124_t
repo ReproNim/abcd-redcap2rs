@@ -1,0 +1,41 @@
+{
+    "id": "ksads_bd_raw_124_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_bd_raw_124_t of mh_y_ksads_bip"
+    },
+    "prefLabel": {
+        "en": "Was there ever a time in the past for several days in a row that you lost your temper and yelled at someone, thrown or broken something, or hit, pushed or kicked someone?"
+    },
+    "question": {
+        "en": "Was there ever a time in the past for several days in a row that you lost your temper and yelled at someone, thrown or broken something, or hit, pushed or kicked someone?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "medhx_12_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "medhx_12_l of ph_p_mhx"
+    },
+    "prefLabel": {
+        "en": "How about the difference between blue and yellow? \u00bfQu\u00e9 tal la diferencia entre el azul y el amarillo?"
+    },
+    "question": {
+        "en": "How about the difference between blue and yellow?",
+        "es": "\u00bfQu\u00e9 tal la diferencia entre el azul y el amarillo?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

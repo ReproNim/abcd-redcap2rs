@@ -1,0 +1,406 @@
+{
+    "id": "nc_y_smarte_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Task in Neurocognition"
+    },
+    "prefLabel": {
+        "en": "Nc_Y_Smarte"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/smarte_ss_mdf_regroup_to",
+            "items/smarte_ss_mdf_challenge_err",
+            "items/smarte_ss_mdf_challenge_nt",
+            "items/smarte_ss_mdf_challenge_rt",
+            "items/smarte_ss_mdf_challenge_to",
+            "items/smarte_ss_mdf_noregroup_acc",
+            "items/smarte_ss_mdf_noregroup_corr",
+            "items/smarte_ss_mdf_noregroup_err",
+            "items/smarte_ss_mdf_noregroup_nt",
+            "items/smarte_ss_mdf_noregroup_rt",
+            "items/smarte_ss_mdf_noregroup_to",
+            "items/smarte_ss_mdf_regroup_acc",
+            "items/smarte_ss_mdf_regroup_corr",
+            "items/smarte_ss_mdf_regroup_err",
+            "items/smarte_ss_mdf_regroup_nt",
+            "items/smarte_ss_mdf_regroup_rt",
+            "items/smarte_ss_mdf_challenge_corr",
+            "items/smarte_ss_mdf_total_corr",
+            "items/smarte_ss_sdf_norule_acc",
+            "items/smarte_ss_sdf_norule_corr",
+            "items/smarte_ss_sdf_norule_err",
+            "items/smarte_ss_sdf_norule_nt",
+            "items/smarte_ss_sdf_norule_rt",
+            "items/smarte_ss_sdf_norule_to",
+            "items/smarte_ss_sdf_rule_acc",
+            "items/smarte_ss_sdf_rule_corr",
+            "items/smarte_ss_sdf_rule_err",
+            "items/smarte_ss_sdf_rule_nt",
+            "items/smarte_ss_sdf_rule_rt",
+            "items/smarte_ss_sdf_rule_to",
+            "items/smarte_ss_sdf_total_corr",
+            "items/smarte_ss_mdf_challenge_acc",
+            "items/smarte_ss_all_total_corr",
+            "items/smarte_ss_completedenumeration",
+            "items/smarte_ss_completed_fluency",
+            "items/smarte_ss_completed_recall",
+            "items/smarte_ss_dot_1to4subit_acc",
+            "items/smarte_ss_dot_1to4subit_corr",
+            "items/smarte_ss_dot_1to4subit_err",
+            "items/smarte_ss_dot_1to4subit_nt",
+            "items/smarte_ss_dot_1to4subit_rt",
+            "items/smarte_ss_dot_1to4subit_to",
+            "items/smarte_ss_dot_6to9group_acc",
+            "items/smarte_ss_dot_6to9group_corr",
+            "items/smarte_ss_dot_6to9group_nt",
+            "items/smarte_ss_dot_total_corr",
+            "items/smarte_ss_dot_6to9nogroup_to",
+            "items/smarte_ss_dot_6to9nogroup_rt",
+            "items/smarte_ss_dot_6to9nogroup_nt",
+            "items/smarte_ss_dot_6to9nogroup_err",
+            "items/smarte_ss_dot_6to9nogroup_corr",
+            "items/smarte_ss_dot_6to9nogroup_acc",
+            "items/smarte_ss_dot_6to9group_to",
+            "items/smarte_ss_dot_6to9group_rt",
+            "items/smarte_ss_dot_6to9group_err"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/smarte_ss_mdf_regroup_to",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_mdf_regroup_to"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_challenge_err",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_mdf_challenge_err"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_challenge_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_mdf_challenge_nt"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_challenge_rt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_mdf_challenge_rt"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_challenge_to",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_mdf_challenge_to"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_noregroup_acc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_mdf_noregroup_acc"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_noregroup_corr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_mdf_noregroup_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_noregroup_err",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_mdf_noregroup_err"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_noregroup_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_mdf_noregroup_nt"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_noregroup_rt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_mdf_noregroup_rt"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_noregroup_to",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_mdf_noregroup_to"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_regroup_acc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_mdf_regroup_acc"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_regroup_corr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_mdf_regroup_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_regroup_err",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_mdf_regroup_err"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_regroup_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_mdf_regroup_nt"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_regroup_rt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_mdf_regroup_rt"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_challenge_corr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_mdf_challenge_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_total_corr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_mdf_total_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_norule_acc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_sdf_norule_acc"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_norule_corr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_sdf_norule_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_norule_err",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_sdf_norule_err"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_norule_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_sdf_norule_nt"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_norule_rt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_sdf_norule_rt"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_norule_to",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_sdf_norule_to"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_rule_acc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_sdf_rule_acc"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_rule_corr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_sdf_rule_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_rule_err",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_sdf_rule_err"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_rule_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_sdf_rule_nt"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_rule_rt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_sdf_rule_rt"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_rule_to",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_sdf_rule_to"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_total_corr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_sdf_total_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_challenge_acc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_mdf_challenge_acc"
+            },
+            {
+                "isAbout": "items/smarte_ss_all_total_corr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_all_total_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_completedenumeration",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_completedenumeration"
+            },
+            {
+                "isAbout": "items/smarte_ss_completed_fluency",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_completed_fluency"
+            },
+            {
+                "isAbout": "items/smarte_ss_completed_recall",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_completed_recall"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_1to4subit_acc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_dot_1to4subit_acc"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_1to4subit_corr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_dot_1to4subit_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_1to4subit_err",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_dot_1to4subit_err"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_1to4subit_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_dot_1to4subit_nt"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_1to4subit_rt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_dot_1to4subit_rt"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_1to4subit_to",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_dot_1to4subit_to"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9group_acc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_dot_6to9group_acc"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9group_corr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_dot_6to9group_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9group_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_dot_6to9group_nt"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_total_corr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_dot_total_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9nogroup_to",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_dot_6to9nogroup_to"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9nogroup_rt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_dot_6to9nogroup_rt"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9nogroup_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_dot_6to9nogroup_nt"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9nogroup_err",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_dot_6to9nogroup_err"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9nogroup_corr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_dot_6to9nogroup_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9nogroup_acc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_dot_6to9nogroup_acc"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9group_to",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_dot_6to9group_to"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9group_rt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_dot_6to9group_rt"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9group_err",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smarte_ss_dot_6to9group_err"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "mtpo_study_1_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mtpo_study_1_p of nt_p_ears_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "During the past 4 weeks, was your child's device use further restricted for any reason (e.g., punishment, broken phone, etc.)?"
+    },
+    "question": {
+        "en": "During the past 4 weeks, was your child's device use further restricted for any reason (e. g. , punishment, broken phone, etc. )?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

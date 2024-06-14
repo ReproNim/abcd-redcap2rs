@@ -1,0 +1,140 @@
+{
+    "id": "mh_p_ksads_ptsd_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Stress in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_P_Ksads_Ptsd"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ksads_ptsd_raw_754_p",
+            "items/ksads_ptsd_raw_755_p",
+            "items/ksads_ptsd_raw_756_p",
+            "items/ksads_ptsd_raw_757_p",
+            "items/ksads_ptsd_raw_758_p",
+            "items/ksads_ptsd_raw_759_p",
+            "items/ksads_ptsd_raw_760_p",
+            "items/ksads_ptsd_raw_761_p",
+            "items/ksads_ptsd_raw_762_p",
+            "items/ksads_ptsd_raw_763_p",
+            "items/ksads_ptsd_raw_764_p",
+            "items/ksads_ptsd_raw_765_p",
+            "items/ksads_ptsd_raw_766_p",
+            "items/ksads_ptsd_raw_767_p",
+            "items/ksads_ptsd_raw_768_p",
+            "items/ksads_ptsd_raw_769_p",
+            "items/ksads_ptsd_raw_770_p"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ksads_ptsd_raw_754_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_ptsd_raw_754_p"
+            },
+            {
+                "isAbout": "items/ksads_ptsd_raw_755_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_ptsd_raw_755_p"
+            },
+            {
+                "isAbout": "items/ksads_ptsd_raw_756_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_ptsd_raw_756_p"
+            },
+            {
+                "isAbout": "items/ksads_ptsd_raw_757_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_ptsd_raw_757_p"
+            },
+            {
+                "isAbout": "items/ksads_ptsd_raw_758_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_ptsd_raw_758_p"
+            },
+            {
+                "isAbout": "items/ksads_ptsd_raw_759_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_ptsd_raw_759_p"
+            },
+            {
+                "isAbout": "items/ksads_ptsd_raw_760_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_ptsd_raw_760_p"
+            },
+            {
+                "isAbout": "items/ksads_ptsd_raw_761_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_ptsd_raw_761_p"
+            },
+            {
+                "isAbout": "items/ksads_ptsd_raw_762_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_ptsd_raw_762_p"
+            },
+            {
+                "isAbout": "items/ksads_ptsd_raw_763_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_ptsd_raw_763_p"
+            },
+            {
+                "isAbout": "items/ksads_ptsd_raw_764_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_ptsd_raw_764_p"
+            },
+            {
+                "isAbout": "items/ksads_ptsd_raw_765_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_ptsd_raw_765_p"
+            },
+            {
+                "isAbout": "items/ksads_ptsd_raw_766_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_ptsd_raw_766_p"
+            },
+            {
+                "isAbout": "items/ksads_ptsd_raw_767_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_ptsd_raw_767_p"
+            },
+            {
+                "isAbout": "items/ksads_ptsd_raw_768_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_ptsd_raw_768_p"
+            },
+            {
+                "isAbout": "items/ksads_ptsd_raw_769_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_ptsd_raw_769_p"
+            },
+            {
+                "isAbout": "items/ksads_ptsd_raw_770_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_ptsd_raw_770_p"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

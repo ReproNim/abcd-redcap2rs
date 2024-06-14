@@ -1,0 +1,24 @@
+{
+    "id": "ksads_eatingdis_raw_382_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_eatingdis_raw_382_t of mh_y_ksads_ed"
+    },
+    "prefLabel": {
+        "en": "You said that in the past two weeks you made yourself throw up once a week or more and had eating binges, when you ate way more than you needed to the point of feeling sick. When did this begin?"
+    },
+    "question": {
+        "en": "You said that in the past two weeks you made yourself throw up once a week or more and had eating binges, when you ate way more than you needed to the point of feeling sick. When did this begin?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

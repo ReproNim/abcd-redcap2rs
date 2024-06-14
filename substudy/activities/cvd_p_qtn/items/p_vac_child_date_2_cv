@@ -1,0 +1,24 @@
+{
+    "id": "p_vac_child_date_2_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "p_vac_child_date_2_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "When did your child receive their second vaccination?"
+    },
+    "question": {
+        "en": "When did your child receive their second vaccination?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

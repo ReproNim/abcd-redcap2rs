@@ -1,0 +1,182 @@
+{
+    "id": "nt_y_fitb_slp_w_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Actigraphy in Novel Technologies"
+    },
+    "prefLabel": {
+        "en": "Nt_Y_Fitb_Slp_W"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/fit_ss_protocol_date",
+            "items/fit_ss_wkno",
+            "items/fit_ss_datatype",
+            "items/fit_ss_day_count",
+            "items/fit_ss_avg_first_inbed_hour",
+            "items/fit_ss_avg_first_sleep_hour",
+            "items/fit_ss_avg_outbed_hour",
+            "items/fit_ss_avg_wakeup_hour",
+            "items/fit_ss_sleep_period_minutes",
+            "items/fit_ss_sleep_sum_wake_minutes",
+            "items/fit_ss_sleep_sum_light_minutes",
+            "items/fit_ss_sleep_sum_deep_minutes",
+            "items/fit_ss_sleep_sum_rem_minutes",
+            "items/fit_ss_sleep_sum_wake_count",
+            "items/fit_ss_sleep_avg_wake_minutes",
+            "items/fit_ss_sleep_avg_light_minutes",
+            "items/fit_ss_sleep_avg_deep_minutes",
+            "items/fit_ss_sleep_avg_rem_minutes",
+            "items/fit_ss_sleep_avg_wake_count",
+            "items/fit_ss_sleep_avg_hr_wake",
+            "items/fit_ss_sleep_avg_hr_light",
+            "items/fit_ss_sleep_avg_hr_deep",
+            "items/fit_ss_sleep_avg_hr_rem"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/fit_ss_protocol_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_protocol_date"
+            },
+            {
+                "isAbout": "items/fit_ss_wkno",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_wkno"
+            },
+            {
+                "isAbout": "items/fit_ss_datatype",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_datatype"
+            },
+            {
+                "isAbout": "items/fit_ss_day_count",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_day_count"
+            },
+            {
+                "isAbout": "items/fit_ss_avg_first_inbed_hour",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_avg_first_inbed_hour"
+            },
+            {
+                "isAbout": "items/fit_ss_avg_first_sleep_hour",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_avg_first_sleep_hour"
+            },
+            {
+                "isAbout": "items/fit_ss_avg_outbed_hour",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_avg_outbed_hour"
+            },
+            {
+                "isAbout": "items/fit_ss_avg_wakeup_hour",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_avg_wakeup_hour"
+            },
+            {
+                "isAbout": "items/fit_ss_sleep_period_minutes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_sleep_period_minutes"
+            },
+            {
+                "isAbout": "items/fit_ss_sleep_sum_wake_minutes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_sleep_sum_wake_minutes"
+            },
+            {
+                "isAbout": "items/fit_ss_sleep_sum_light_minutes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_sleep_sum_light_minutes"
+            },
+            {
+                "isAbout": "items/fit_ss_sleep_sum_deep_minutes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_sleep_sum_deep_minutes"
+            },
+            {
+                "isAbout": "items/fit_ss_sleep_sum_rem_minutes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_sleep_sum_rem_minutes"
+            },
+            {
+                "isAbout": "items/fit_ss_sleep_sum_wake_count",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_sleep_sum_wake_count"
+            },
+            {
+                "isAbout": "items/fit_ss_sleep_avg_wake_minutes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_sleep_avg_wake_minutes"
+            },
+            {
+                "isAbout": "items/fit_ss_sleep_avg_light_minutes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_sleep_avg_light_minutes"
+            },
+            {
+                "isAbout": "items/fit_ss_sleep_avg_deep_minutes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_sleep_avg_deep_minutes"
+            },
+            {
+                "isAbout": "items/fit_ss_sleep_avg_rem_minutes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_sleep_avg_rem_minutes"
+            },
+            {
+                "isAbout": "items/fit_ss_sleep_avg_wake_count",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_sleep_avg_wake_count"
+            },
+            {
+                "isAbout": "items/fit_ss_sleep_avg_hr_wake",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_sleep_avg_hr_wake"
+            },
+            {
+                "isAbout": "items/fit_ss_sleep_avg_hr_light",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_sleep_avg_hr_light"
+            },
+            {
+                "isAbout": "items/fit_ss_sleep_avg_hr_deep",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_sleep_avg_hr_deep"
+            },
+            {
+                "isAbout": "items/fit_ss_sleep_avg_hr_rem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_sleep_avg_hr_rem"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "child_phys_activity_time_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "child_phys_activity_time_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "How much time did your child usually spend doing moderate or vigorous physical activities on one of those days? (Hours) (round 1 and 2)"
+    },
+    "question": {
+        "en": "How much time did your child usually spend doing moderate or vigorous physical activities on one of those days? (Hours) (round 1 and 2)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refused to answer   [child_phys_activity_days_cv]  '8' AND ([event_name] = 'covid19_cv1_arm_2' or [event_name] = 'covid19_cv2_arm_2')"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 777,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

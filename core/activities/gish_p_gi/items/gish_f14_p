@@ -1,0 +1,66 @@
+{
+    "id": "gish_f14_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gish_f14_p of gish_p_gi"
+    },
+    "prefLabel": {
+        "en": "She talks about not liking her sexual anatomy (private parts) / Dice que no le gusta su anatom\u00eda sexual (sus partes privadas)"
+    },
+    "question": {
+        "en": "She talks about not liking her sexual anatomy (private parts)",
+        "es": "Dice que no le gusta su anatom\u00eda sexual (sus partes privadas)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Every day / Todos los d\u00edas"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Frequently / Frecuentemente"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Once in a while / De vez en cuando"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Rarely / Casi nunca"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Never / Nunca"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Decline to answer / Prefiero no responder /"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

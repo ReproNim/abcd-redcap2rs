@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_fish_1_day",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_fish_1_day of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "HOW MUCH IN ONE DAY?/\u00bfCU\u00c1NTO EN UN D\u00cdA?"
+    },
+    "question": {
+        "en": "HOW MUCH IN ONE DAY?",
+        "es": "\u00bfCU\u00c1NTO EN UN D\u00cdA?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

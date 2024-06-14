@@ -1,0 +1,24 @@
+{
+    "id": "ksads_odd_raw_465_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_odd_raw_465_p of mh_p_ksads_odd"
+    },
+    "prefLabel": {
+        "en": "You said that in the past your child argued a lot with parents or teachers; and often refused to do the things grownups asked. When was that? If this was true of your child for a very long time; let me know when it started and when it was the worst"
+    },
+    "question": {
+        "en": "You said that in the past your child argued a lot with parents or teachers; and often refused to do the things grownups asked. When was that? If this was true of your child for a very long time; let me know when it started and when it was the worst"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

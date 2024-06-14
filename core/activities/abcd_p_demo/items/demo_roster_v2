@@ -1,0 +1,25 @@
+{
+    "id": "demo_roster_v2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_roster_v2 of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "How many people are living at your address? INCLUDE everyone who is living or staying at your address for more than 2 months. \u00ac\u00f8Cu\u221a\u00b0ntas personas est\u221a\u00b0n viviendo o qued\u221a\u00b0ndose en su domicilio? INCLUYA a todas las personas que lleven viviendo o qued\u221a\u00b0ndose en su domicilio durante m\u221a\u00b0s de 2 meses."
+    },
+    "question": {
+        "en": "How many people are living at your address? INCLUDE everyone who is living or staying at your address for more than 2 months.",
+        "es": "\u00ac\u00f8Cu\u221a\u00b0ntas personas est\u221a\u00b0n viviendo o qued\u221a\u00b0ndose en su domicilio? INCLUYA a todas las personas que lleven viviendo o qued\u221a\u00b0ndose en su domicilio durante m\u221a\u00b0s de 2 meses."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

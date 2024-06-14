@@ -1,0 +1,24 @@
+{
+    "id": "mctq_sd_before_alarm",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mctq_sd_before_alarm of ph_y_mctq"
+    },
+    "prefLabel": {
+        "en": "I regularly wake up BEFORE the alarm rings:"
+    },
+    "question": {
+        "en": "I regularly wake up BEFORE the alarm rings:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

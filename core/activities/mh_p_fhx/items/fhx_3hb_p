@@ -1,0 +1,35 @@
+{
+    "id": "fhx_3hb_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fhx_3hb_p of mh_p_fhx"
+    },
+    "prefLabel": {
+        "en": "# half sisters # de medio hermana(s)"
+    },
+    "question": {
+        "en": "# half sisters # de medio hermana(s)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "= 1 &&  isNull(fhx_3hb_dk_p___999)"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

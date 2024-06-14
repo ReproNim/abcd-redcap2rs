@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_applesauce",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_applesauce of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Applesauce, fruit cocktail/Pur\u00e9 de manzana, c\u00f3ctel de frutas"
+    },
+    "question": {
+        "en": "Applesauce, fruit cocktail",
+        "es": "Pur\u00e9 de manzana, c\u00f3ctel de frutas"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

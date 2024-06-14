@@ -1,0 +1,36 @@
+{
+    "id": "devhx_9_other3_amt_dk",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_9_other3_amt_dk of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "Knowing of pregnancy. Drug 3. Unit(s)/Unidad(es)"
+    },
+    "question": {
+        "en": "Knowing of pregnancy. Drug 3. Unit(s)",
+        "es": "Unidad(es)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know /No lo s\u00e9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 999,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

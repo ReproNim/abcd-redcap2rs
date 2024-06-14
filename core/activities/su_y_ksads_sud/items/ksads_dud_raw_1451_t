@@ -1,0 +1,41 @@
+{
+    "id": "ksads_dud_raw_1451_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dud_raw_1451_t of su_y_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "Was there ever a time when using the following drugs took the place of the time you used to spend doing your usual activities?dbo.Get_dynamic_Quickanswer('1.20.2.Q1',UserID)"
+    },
+    "question": {
+        "en": "Was there ever a time when using the following drugs took the place of the time you used to spend doing your usual activities? dbo. Get_dynamic_Quickanswer('1. 20. 2. Q1',UserID)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

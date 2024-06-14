@@ -1,0 +1,24 @@
+{
+    "id": "scrn_bracesdate",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_bracesdate of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "When would they come off? /\u00ac\u00f8Cu\u221a\u00b0ndo se le retirar\u221a\u00b0n?"
+    },
+    "question": {
+        "en": "When would they come off? \u00ac\u00f8Cu\u221a\u00b0ndo se le retirar\u221a\u00b0n?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

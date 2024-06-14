@@ -1,0 +1,24 @@
+{
+    "id": "eatq_p_ss_fear",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "eatq_p_ss_fear of mh_p_eatq"
+    },
+    "prefLabel": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent fear mean(eatq_phenx_trouble_p, eatq_phenx_attachment_p, eatq_phenx_ball_scared_p, eatq_phenx_dark_scared_p, eatq_phenx_alone_p, eatq_phenx_worry_p)"
+    },
+    "question": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent fear mean(eatq_phenx_trouble_p, eatq_phenx_attachment_p, eatq_phenx_ball_scared_p, eatq_phenx_dark_scared_p, eatq_phenx_alone_p, eatq_phenx_worry_p)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

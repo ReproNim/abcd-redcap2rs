@@ -1,0 +1,25 @@
+{
+    "id": "tbi_6r_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tbi_6r_l of ph_p_otbi"
+    },
+    "prefLabel": {
+        "en": "How many were more than or equal to 30 min? \u00bfCu\u00e1ntas veces ha estado inconsciente por \u2265 30 min o m\u00e1s?"
+    },
+    "question": {
+        "en": "How many were more than or equal to 30 min?",
+        "es": "\u00bfCu\u00e1ntas veces ha estado inconsciente por \u2265 30 min o m\u00e1s?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

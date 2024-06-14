@@ -1,0 +1,24 @@
+{
+    "id": "bkfs_group_sugarybevg_total_fr",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_group_sugarybevg_total_fr of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "group_sugarybevg_total_frequency"
+    },
+    "question": {
+        "en": "group_sugarybevg_total_frequency"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

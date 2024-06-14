@@ -1,0 +1,59 @@
+{
+    "id": "ipaq_mod_acts_min",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ipaq_mod_acts_min of ph_p_ipaq"
+    },
+    "prefLabel": {
+        "en": "Minutes"
+    },
+    "question": {
+        "en": "Minutes"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "15"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "30"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "45"
+                },
+                "value": 45
+            },
+            {
+                "name": {
+                    "en": "Don't know [ipaq_mod_acts] = '1' or [ipaq_mod_acts] = '2' or [ipaq_mod_acts] = '3'  or [ipaq_mod_acts] = '4'  or [ipaq_mod_acts] = '5'  or [ipaq_mod_acts] = '6'  or [ipaq_mod_acts] = '7'"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

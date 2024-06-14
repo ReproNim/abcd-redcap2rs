@@ -1,0 +1,35 @@
+{
+    "id": "bkfs_green_beans_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_green_beans_y of ph_y_bkfs"
+    },
+    "prefLabel": {
+        "en": "Green beans or peas"
+    },
+    "question": {
+        "en": "Green beans or peas"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "4 days last week | 4, 5-6 days last week | 5, Every day last week | 777, Refuse to answer"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 3,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

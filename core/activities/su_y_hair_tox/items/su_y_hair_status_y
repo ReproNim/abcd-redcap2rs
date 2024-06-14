@@ -1,0 +1,77 @@
+{
+    "id": "su_y_hair_status_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_y_hair_status_y of su_y_hair_tox"
+    },
+    "prefLabel": {
+        "en": "Hair sample collection status"
+    },
+    "question": {
+        "en": "Hair sample collection status"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Collected"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Participant refused"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Not collected, hair was not appropriate (too short, braids, etc.)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Institution not authorized to collect samples due to COVID"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Staff discomfort due to COVID"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Exceed 15min of < 6ft distance from youth (COVID)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Not approved by ABCD for collection"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Not collected (other)"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 9,
+        "minValue": 2,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

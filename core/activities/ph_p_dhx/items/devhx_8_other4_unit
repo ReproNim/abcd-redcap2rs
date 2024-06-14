@@ -1,0 +1,84 @@
+{
+    "id": "devhx_8_other4_unit",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_8_other4_unit of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "Before knowing of pregnancy. Drug 4. Unit(s)/Unidad(es)"
+    },
+    "question": {
+        "en": "Before knowing of pregnancy. Drug 4. Unit(s)",
+        "es": "Unidad(es)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "gram (g)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "microgram (msg)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "milligram (mg)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "kilogram (kg)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "megagram (MGG)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "liter (L)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "ounce (oz)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "pound (lb)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "quart (qt)"
+                },
+                "value": 9
+            }
+        ],
+        "maxValue": 9,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

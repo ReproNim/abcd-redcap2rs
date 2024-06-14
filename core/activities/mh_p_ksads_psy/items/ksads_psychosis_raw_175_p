@@ -1,0 +1,24 @@
+{
+    "id": "ksads_psychosis_raw_175_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_psychosis_raw_175_p of mh_p_ksads_psy"
+    },
+    "prefLabel": {
+        "en": "You said that in the past your child's mind played tricks on him or her, your child heard, saw, or smelled things that weren't really there and your child felt someone was out to get him or her, or that someone was following your child or spying on your child. When was that? If your child had this experience more than once, let me know when it was the worst."
+    },
+    "question": {
+        "en": "You said that in the past your child's mind played tricks on him or her, your child heard, saw, or smelled things that weren't really there and your child felt someone was out to get him or her, or that someone was following your child or spying on your child. When was that? If your child had this experience more than once, let me know when it was the worst."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

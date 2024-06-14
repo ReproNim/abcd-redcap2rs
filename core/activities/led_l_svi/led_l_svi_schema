@@ -1,0 +1,777 @@
+{
+    "id": "led_l_svi_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Neighhorhood Composite Measures in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Svi"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_svi_tot_20142018",
+            "items/reshist_addr2_svi_tot_20142018",
+            "items/reshist_addr3_svi_tot_20142018",
+            "items/reshist_addr1_svi_pov_20142018",
+            "items/reshist_addr1_svi_emp_20142018",
+            "items/reshist_addr1_svi_cap_20142018",
+            "items/reshist_addr1_svi_hs_20142018",
+            "items/reshist_addr1_svi_65_20142018",
+            "items/reshist_addr1_svi_17_20142018",
+            "items/reshist_addr1_svi_dis_20142018",
+            "items/reshist_addr1_svi_sin_20142018",
+            "items/reshist_addr1_svi_min_20142018",
+            "items/reshist_addr1_svi_eng_20142018",
+            "items/reshist_addr1_svi_hous20142018",
+            "items/reshist_addr1_svi_mob_20142018",
+            "items/reshist_addr1_svi_crwd20142018",
+            "items/reshist_addr1_svi_veh_20142018",
+            "items/reshist_addr1_svi_grp_20142018",
+            "items/reshist_addr1_svi_th1_20142018",
+            "items/reshist_addr1_svi_th2_20142018",
+            "items/reshist_addr1_svi_th3_20142018",
+            "items/reshist_addr1_svi_th4_20142018",
+            "items/reshist_addr2_svi_pov_20142018",
+            "items/reshist_addr2_svi_emp_20142018",
+            "items/reshist_addr2_svi_cap_20142018",
+            "items/reshist_addr2_svi_hs_20142018",
+            "items/reshist_addr2_svi_65_20142018",
+            "items/reshist_addr2_svi_17_20142018",
+            "items/reshist_addr2_svi_dis_20142018",
+            "items/reshist_addr2_svi_sin_20142018",
+            "items/reshist_addr2_svi_min_20142018",
+            "items/reshist_addr2_svi_eng_20142018",
+            "items/reshist_addr2_svi_hous20142018",
+            "items/reshist_addr2_svi_mob_20142018",
+            "items/reshist_addr2_svi_crwd20142018",
+            "items/reshist_addr2_svi_veh_20142018",
+            "items/reshist_addr2_svi_grp_20142018",
+            "items/reshist_addr2_svi_th1_20142018",
+            "items/reshist_addr2_svi_th2_20142018",
+            "items/reshist_addr2_svi_th3_20142018",
+            "items/reshist_addr2_svi_th4_20142018",
+            "items/reshist_addr3_svi_pov_20142018",
+            "items/reshist_addr3_svi_emp_20142018",
+            "items/reshist_addr3_svi_cap_20142018",
+            "items/reshist_addr3_svi_hs_20142018",
+            "items/reshist_addr3_svi_65_20142018",
+            "items/reshist_addr3_svi_17_20142018",
+            "items/reshist_addr3_svi_dis_20142018",
+            "items/reshist_addr3_svi_sin_20142018",
+            "items/reshist_addr3_svi_min_20142018",
+            "items/reshist_addr3_svi_eng_20142018",
+            "items/reshist_addr3_svi_hous20142018",
+            "items/reshist_addr3_svi_mob_20142018",
+            "items/reshist_addr3_svi_crwd20142018",
+            "items/reshist_addr3_svi_veh_20142018",
+            "items/reshist_addr3_svi_grp_20142018",
+            "items/reshist_addr3_svi_th1_20142018",
+            "items/reshist_addr3_svi_th2_20142018",
+            "items/reshist_addr3_svi_th3_20142018",
+            "items/reshist_addr3_svi_th4_20142018",
+            "items/reshist_addr1_svi_pov_ppe",
+            "items/reshist_addr1_svi_emp_ppe",
+            "items/reshist_addr1_svi_cap_ppe",
+            "items/reshist_addr1_svi_hs_ppe",
+            "items/reshist_addr1_svi_65_ppe",
+            "items/reshist_addr1_svi_17_ppe",
+            "items/reshist_addr1_svi_dis_ppe",
+            "items/reshist_addr1_svi_sin_ppe",
+            "items/reshist_addr1_svi_min_ppe",
+            "items/reshist_addr1_svi_eng_ppe",
+            "items/reshist_addr1_svi_hous_ppe",
+            "items/reshist_addr1_svi_mob_ppe",
+            "items/reshist_addr1_svi_crwd_ppe",
+            "items/reshist_addr1_svi_veh_ppe",
+            "items/reshist_addr1_svi_grp_ppe",
+            "items/reshist_addr1_svi_unins_ppe",
+            "items/reshist_addr2_svi_pov_ppe",
+            "items/reshist_addr2_svi_emp_ppe",
+            "items/reshist_addr2_svi_cap_ppe",
+            "items/reshist_addr2_svi_hs_ppe",
+            "items/reshist_addr2_svi_65_ppe",
+            "items/reshist_addr2_svi_17_ppe",
+            "items/reshist_addr2_svi_dis_ppe",
+            "items/reshist_addr2_svi_sin_ppe",
+            "items/reshist_addr2_svi_min_ppe",
+            "items/reshist_addr2_svi_eng_ppe",
+            "items/reshist_addr2_svi_hous_ppe",
+            "items/reshist_addr2_svi_mob_ppe",
+            "items/reshist_addr2_svi_crwd_ppe",
+            "items/reshist_addr2_svi_veh_ppe",
+            "items/reshist_addr2_svi_grp_ppe",
+            "items/reshist_addr2_svi_unins_ppe",
+            "items/reshist_addr3_svi_pov_ppe",
+            "items/reshist_addr3_svi_emp_ppe",
+            "items/reshist_addr3_svi_cap_ppe",
+            "items/reshist_addr3_svi_hs_ppe",
+            "items/reshist_addr3_svi_65_ppe",
+            "items/reshist_addr3_svi_17_ppe",
+            "items/reshist_addr3_svi_dis_ppe",
+            "items/reshist_addr3_svi_sin_ppe",
+            "items/reshist_addr3_svi_min_ppe",
+            "items/reshist_addr3_svi_eng_ppe",
+            "items/reshist_addr3_svi_hous_ppe",
+            "items/reshist_addr3_svi_mob_ppe",
+            "items/reshist_addr3_svi_crwd_ppe",
+            "items/reshist_addr3_svi_veh_ppe",
+            "items/reshist_addr3_svi_grp_ppe",
+            "items/reshist_addr3_svi_unins_ppe"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_svi_tot_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_tot_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_tot_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_tot_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_tot_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_tot_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_pov_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_pov_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_emp_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_emp_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_cap_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_cap_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_hs_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_hs_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_65_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_65_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_17_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_17_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_dis_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_dis_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_sin_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_sin_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_min_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_min_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_eng_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_eng_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_hous20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_hous20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_mob_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_mob_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_crwd20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_crwd20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_veh_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_veh_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_grp_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_grp_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_th1_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_th1_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_th2_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_th2_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_th3_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_th3_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_th4_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_th4_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_pov_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_pov_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_emp_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_emp_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_cap_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_cap_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_hs_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_hs_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_65_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_65_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_17_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_17_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_dis_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_dis_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_sin_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_sin_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_min_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_min_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_eng_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_eng_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_hous20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_hous20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_mob_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_mob_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_crwd20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_crwd20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_veh_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_veh_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_grp_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_grp_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_th1_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_th1_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_th2_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_th2_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_th3_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_th3_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_th4_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_th4_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_pov_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_pov_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_emp_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_emp_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_cap_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_cap_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_hs_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_hs_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_65_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_65_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_17_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_17_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_dis_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_dis_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_sin_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_sin_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_min_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_min_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_eng_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_eng_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_hous20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_hous20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_mob_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_mob_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_crwd20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_crwd20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_veh_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_veh_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_grp_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_grp_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_th1_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_th1_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_th2_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_th2_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_th3_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_th3_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_th4_20142018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_th4_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_pov_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_pov_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_emp_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_emp_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_cap_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_cap_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_hs_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_hs_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_65_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_65_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_17_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_17_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_dis_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_dis_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_sin_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_sin_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_min_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_min_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_eng_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_eng_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_hous_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_hous_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_mob_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_mob_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_crwd_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_crwd_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_veh_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_veh_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_grp_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_grp_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_unins_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_svi_unins_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_pov_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_pov_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_emp_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_emp_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_cap_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_cap_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_hs_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_hs_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_65_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_65_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_17_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_17_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_dis_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_dis_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_sin_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_sin_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_min_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_min_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_eng_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_eng_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_hous_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_hous_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_mob_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_mob_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_crwd_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_crwd_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_veh_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_veh_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_grp_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_grp_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_unins_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_svi_unins_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_pov_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_pov_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_emp_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_emp_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_cap_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_cap_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_hs_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_hs_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_65_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_65_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_17_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_17_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_dis_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_dis_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_sin_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_sin_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_min_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_min_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_eng_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_eng_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_hous_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_hous_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_mob_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_mob_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_crwd_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_crwd_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_veh_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_veh_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_grp_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_grp_ppe"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_unins_ppe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_svi_unins_ppe"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

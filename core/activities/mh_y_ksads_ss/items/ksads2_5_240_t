@@ -1,0 +1,24 @@
+{
+    "id": "ksads2_5_240_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads2_5_240_t of mh_y_ksads_ss"
+    },
+    "prefLabel": {
+        "en": "Symptom - Maladaptive change in behavior due to attacks, Present"
+    },
+    "question": {
+        "en": "Symptom - Maladaptive change in behavior due to attacks, Present"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "ksads_dud_raw_712_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dud_raw_712_p of su_p_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "You said that your child had a time when he/she used the following drugs listed below. When did he/she first use them?dbo.Get_dynamic_Quickanswer('1.20.2.Q1',UserID)"
+    },
+    "question": {
+        "en": "You said that your child had a time when he she used the following drugs listed below. When did he she first use them? dbo. Get_dynamic_Quickanswer('1. 20. 2. Q1',UserID)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

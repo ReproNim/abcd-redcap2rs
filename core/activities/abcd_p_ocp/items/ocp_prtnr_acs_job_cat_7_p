@@ -1,0 +1,59 @@
+{
+    "id": "ocp_prtnr_acs_job_cat_7_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ocp_prtnr_acs_job_cat_7_p of abcd_p_ocp"
+    },
+    "prefLabel": {
+        "en": "Please specify the Education, Training, and Library Occupations Job Title:"
+    },
+    "question": {
+        "en": "Please specify the Education, Training, and Library Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Postsecondary Teachers"
+                },
+                "value": 25100
+            },
+            {
+                "name": {
+                    "en": "Preschool=Primary=Secondary=and Special Education School Teachers"
+                },
+                "value": 25200
+            },
+            {
+                "name": {
+                    "en": "Other Teachers and Instructors"
+                },
+                "value": 25300
+            },
+            {
+                "name": {
+                    "en": "Librarians=Curators=and Archivists"
+                },
+                "value": 25400
+            },
+            {
+                "name": {
+                    "en": "Other Education=Training=and Library Occupations"
+                },
+                "value": 25900
+            }
+        ],
+        "maxValue": 25900,
+        "minValue": 25100,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

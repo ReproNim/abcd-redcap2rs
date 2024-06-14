@@ -1,0 +1,25 @@
+{
+    "id": "devhx_9_med2_how_much",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_9_med2_how_much of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "Knowing of pregnancy. Medication 2. How much each time?/ \u00bfQue tanto cada vez?"
+    },
+    "question": {
+        "en": "Knowing of pregnancy. Medication 2. How much each time?",
+        "es": "\u00bfQue tanto cada vez?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

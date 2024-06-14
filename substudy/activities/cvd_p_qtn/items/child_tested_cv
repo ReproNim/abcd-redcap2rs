@@ -1,0 +1,59 @@
+{
+    "id": "child_tested_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "child_tested_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Has your child been tested for COVID-19 (for the active virus)?"
+    },
+    "question": {
+        "en": "Has your child been tested for COVID-19 (for the active virus)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No  I never tried to get my child tested"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No  I tried to get my child tested but was not able to"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Yes  and test showed that my child does not have it (\"negative\" test)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Yes  and test showed that my child does have it (\"positive\" test)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Yes  and my child is waiting for the results"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

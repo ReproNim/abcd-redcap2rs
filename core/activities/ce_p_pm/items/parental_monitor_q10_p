@@ -1,0 +1,66 @@
+{
+    "id": "parental_monitor_q10_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "parental_monitor_q10_p of ce_p_pm"
+    },
+    "prefLabel": {
+        "en": "Do you usually know where your child is, and what he/she is doing in the afternoon right after school? / \u00bfUsualmente sabe d\u00f3nde est\u00e1 su ni\u00f1o(a) y qu\u00e9 est\u00e1 haciendo en la tarde justo despu\u00e9s de la escuela?"
+    },
+    "question": {
+        "en": "Do you usually know where your child is, and what he she is doing in the afternoon right after school?",
+        "es": "\u00bfUsualmente sabe d\u00f3nde est\u00e1 su ni\u00f1o(a) y qu\u00e9 est\u00e1 haciendo en la tarde justo despu\u00e9s de la escuela?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes = completely / S\u00ed = completamente"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes = quite well / S\u00ed = bastante bien"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Yes = partly / S\u00ed = en parte"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "No = very little / No = muy poco"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "No = nothing / No = nada"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Decline to answer / Me niego a contestar"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "socialdev_cvict_w3_e_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_cvict_w3_e_l of sd_y_vict"
+    },
+    "prefLabel": {
+        "en": "Is this part of some other type of event we already mentioned?"
+    },
+    "question": {
+        "en": "Is this part of some other type of event we already mentioned?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 98
+            },
+            {
+                "name": {
+                    "en": "I'd rather not say [socialdev_cvict_w3_l]= '1' AND ([socialdev_cvict_c1_l]= '1' OR [socialdev_cvict_c2_l]= '1' OR [socialdev_cvict_c3_l]= '1' OR [socialdev_cvict_c4_l]= '1' OR [socialdev_cvict_c5_l]= '1' OR [socialdev_cvict_c6_l]= '1' OR [socialdev_cvict_c7_l]= '1' OR [socialdev_cvict_c8_l]= '1' OR [socialdev_cvict_c9_l]= '1' OR [socialdev_cvict_p1_l]= '1' OR [socialdev_cvict_p2_l]= '1' OR [socialdev_cvict_p3_l]= '1' OR [socialdev_cvict_p4_l]= '1' OR [socialdev_cvict_p5_l]= '1' OR [socialdev_cvict_p6_l]= '1' OR [socialdev_cvict_p7_l]= '1' OR [socialdev_cvict_p8_l]= '1' OR [socialdev_cvict_w1_l]= '1' OR [socialdev_cvict_w2_l]= '1')"
+                },
+                "value": 99
+            }
+        ],
+        "maxValue": 99,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

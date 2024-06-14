@@ -1,0 +1,54 @@
+{
+    "id": "fam_history_11_yes_no",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fam_history_11_yes_no of mh_p_fhx"
+    },
+    "prefLabel": {
+        "en": "11. Has ANY blood relative of your child ever been to a doctor or a counselor about any emotional  or mental problems, or problems with alcohol or drugs? \u00bfALG\u00daN pariente consangu\u00edneo de su ni\u00f1o(a) ha visitado alguna vez a un m\u00e9dico o terapeuta para tratar alg\u00fan problema emocional o mental o problemas con el alcohol o las drogas?"
+    },
+    "question": {
+        "en": "11. Has ANY blood relative of your child ever been to a doctor or a counselor about any emotional  or mental problems, or problems with alcohol or drugs?",
+        "es": "\u00bfALG\u00daN pariente consangu\u00edneo de su ni\u00f1o(a) ha visitado alguna vez a un m\u00e9dico o terapeuta para tratar alg\u00fan problema emocional o mental o problemas con el alcohol o las drogas?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know No lo s\u00e9"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer Niego contestar /  famhx_1   == 1"
+                },
+                "value": 7
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "peerinfluence_ss_mean",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "peerinfluence_ss_mean of ce_y_rpi"
+    },
+    "prefLabel": {
+        "en": "Peer Influence Summary Score: Mean of all items; Validation: minimum of 7 items answered"
+    },
+    "question": {
+        "en": "Peer Influence Summary Score: Mean of all items; Validation: minimum of 7 items answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

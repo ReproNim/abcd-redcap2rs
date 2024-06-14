@@ -1,0 +1,59 @@
+{
+    "id": "ecbq_reason_not_collected",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ecbq_reason_not_collected of ecb_y_ecb"
+    },
+    "prefLabel": {
+        "en": "Reason blood sample was not collected"
+    },
+    "question": {
+        "en": "Reason blood sample was not collected"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "youth refused"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "unable to get sample"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "session terminated for other reason"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "ran out of time in protocol"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

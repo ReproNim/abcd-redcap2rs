@@ -1,0 +1,41 @@
+{
+    "id": "tbi_4c_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tbi_4c_l of ph_p_otbi"
+    },
+    "prefLabel": {
+        "en": "Was your child dazed or did they have a gap in their memory from the injury?"
+    },
+    "question": {
+        "en": "Was your child dazed or did they have a gap in their memory from the injury?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

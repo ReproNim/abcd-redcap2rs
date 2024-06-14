@@ -1,0 +1,60 @@
+{
+    "id": "irma_hcpmq_4",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "irma_hcpmq_4 of irma_p_qtn"
+    },
+    "prefLabel": {
+        "en": "4. I tried to prevent other people from discussing the hurricane in front of my child. 4. Trat\u221a\u00a9 de evitar que otras personas hablen del hurac\u221a\u00b0n delante de mi hijo(a)"
+    },
+    "question": {
+        "en": "4. I tried to prevent other people from discussing the hurricane in front of my child. 4.",
+        "es": "Trat\u221a\u00a9 de evitar que otras personas hablen del hurac\u221a\u00b0n delante de mi hijo(a)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all like me or my family0 Nada como yo o mi familia0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1 1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat like me or my family2 Algo as\u221a\u2260 como yo o mi familia2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3 3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very much like me or my family4 Muy parecido a m\u221a\u2260 o mi familia4"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

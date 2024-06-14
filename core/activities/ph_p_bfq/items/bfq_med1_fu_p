@@ -1,0 +1,41 @@
+{
+    "id": "bfq_med1_fu_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bfq_med1_fu_p of ph_p_bfq"
+    },
+    "prefLabel": {
+        "en": "Any other prescription medications?"
+    },
+    "question": {
+        "en": "Any other prescription medications?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No; [bfq_rxnorm_med1_p] <> ''"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,959 @@
+{
+    "id": "led_l_seda_pool_m_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about School (Math & Reading) in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Seda_Pool_M"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ledsch_seda_m_cellcount_all",
+            "items/ledsch_seda_m_cellcount_ecd",
+            "items/ledsch_seda_m_cellcount_fem",
+            "items/ledsch_seda_m_cellcount_mal",
+            "items/ledsch_seda_m_cellcount_mfg",
+            "items/ledsch_seda_m_cellcount_nec",
+            "items/ledsch_seda_m_cellcount_neg",
+            "items/ledsch_seda_m_grdcenter_all",
+            "items/ledsch_seda_m_mn_asmts_all",
+            "items/ledsch_seda_m_mn_asmts_ecd",
+            "items/ledsch_seda_m_mn_asmts_fem",
+            "items/ledsch_seda_m_mn_asmts_mal",
+            "items/ledsch_seda_m_mn_asmts_mfg",
+            "items/ledsch_seda_m_mn_asmts_nec",
+            "items/ledsch_seda_m_mn_asmts_neg",
+            "items/ledsch_seda_m_mn_avg_eb_all",
+            "items/ledsch_seda_m_mn_avg_eb_ecd",
+            "items/ledsch_seda_m_mn_avg_eb_fem",
+            "items/ledsch_seda_m_mn_avg_eb_mal",
+            "items/ledsch_seda_m_mn_avg_eb_mfg",
+            "items/ledsch_seda_m_mn_avg_eb_nec",
+            "items/ledsch_seda_m_mn_avg_eb_neg",
+            "items/ledsch_seda_m_mn_avg_eb_se_all",
+            "items/ledsch_seda_m_mn_avg_eb_se_ecd",
+            "items/ledsch_seda_m_mn_avg_eb_se_fem",
+            "items/ledsch_seda_m_mn_avg_eb_se_mal",
+            "items/ledsch_seda_m_mn_avg_eb_se_mfg",
+            "items/ledsch_seda_m_mn_avg_eb_se_nec",
+            "items/ledsch_seda_m_mn_avg_eb_se_neg",
+            "items/ledsch_seda_m_mn_avg_ol_all",
+            "items/ledsch_seda_m_mn_avg_ol_ecd",
+            "items/ledsch_seda_m_mn_avg_ol_fem",
+            "items/ledsch_seda_m_mn_avg_ol_mal",
+            "items/ledsch_seda_m_mn_avg_ol_mfg",
+            "items/ledsch_seda_m_mn_avg_ol_nec",
+            "items/ledsch_seda_m_mn_avg_ol_neg",
+            "items/ledsch_seda_m_mn_avg_ol_se_all",
+            "items/ledsch_seda_m_mn_avg_ol_se_ecd",
+            "items/ledsch_seda_m_mn_avg_ol_se_fem",
+            "items/ledsch_seda_m_mn_avg_ol_se_mal",
+            "items/ledsch_seda_m_mn_avg_ol_se_mfg",
+            "items/ledsch_seda_m_mn_avg_ol_se_nec",
+            "items/ledsch_seda_m_mn_avg_ol_se_neg",
+            "items/ledsch_seda_m_mn_coh_eb_all",
+            "items/ledsch_seda_m_mn_coh_eb_ecd",
+            "items/ledsch_seda_m_mn_coh_eb_fem",
+            "items/ledsch_seda_m_mn_coh_eb_mal",
+            "items/ledsch_seda_m_mn_coh_eb_mfg",
+            "items/ledsch_seda_m_mn_coh_eb_nec",
+            "items/ledsch_seda_m_mn_coh_eb_neg",
+            "items/ledsch_seda_m_mn_coh_eb_se_all",
+            "items/ledsch_seda_m_mn_coh_eb_se_ecd",
+            "items/ledsch_seda_m_mn_coh_eb_se_fem",
+            "items/ledsch_seda_m_mn_coh_eb_se_mal",
+            "items/ledsch_seda_m_mn_coh_eb_se_mfg",
+            "items/ledsch_seda_m_mn_coh_eb_se_nec",
+            "items/ledsch_seda_m_mn_coh_eb_se_neg",
+            "items/ledsch_seda_m_mn_coh_ol_all",
+            "items/ledsch_seda_m_mn_coh_ol_ecd",
+            "items/ledsch_seda_m_mn_coh_ol_fem",
+            "items/ledsch_seda_m_mn_coh_ol_mal",
+            "items/ledsch_seda_m_mn_coh_ol_mfg",
+            "items/ledsch_seda_m_mn_coh_ol_nec",
+            "items/ledsch_seda_m_mn_coh_ol_neg",
+            "items/ledsch_seda_m_mn_coh_ol_se_all",
+            "items/ledsch_seda_m_mn_coh_ol_se_ecd",
+            "items/ledsch_seda_m_mn_coh_ol_se_fem",
+            "items/ledsch_seda_m_mn_coh_ol_se_mal",
+            "items/ledsch_seda_m_mn_coh_ol_se_mfg",
+            "items/ledsch_seda_m_mn_coh_ol_se_nec",
+            "items/ledsch_seda_m_mn_coh_ol_se_neg",
+            "items/ledsch_seda_m_mn_grd_eb_all",
+            "items/ledsch_seda_m_mn_grd_eb_ecd",
+            "items/ledsch_seda_m_mn_grd_eb_fem",
+            "items/ledsch_seda_m_mn_grd_eb_mal",
+            "items/ledsch_seda_m_mn_grd_eb_mfg",
+            "items/ledsch_seda_m_mn_grd_eb_nec",
+            "items/ledsch_seda_m_mn_grd_eb_neg",
+            "items/ledsch_seda_m_mn_grd_eb_se_all",
+            "items/ledsch_seda_m_mn_grd_eb_se_ecd",
+            "items/ledsch_seda_m_mn_grd_eb_se_fem",
+            "items/ledsch_seda_m_mn_grd_eb_se_mal",
+            "items/ledsch_seda_m_mn_grd_eb_se_mfg",
+            "items/ledsch_seda_m_mn_grd_eb_se_nec",
+            "items/ledsch_seda_m_mn_grd_eb_se_neg",
+            "items/ledsch_seda_m_mn_grd_ol_all",
+            "items/ledsch_seda_m_mn_grd_ol_ecd",
+            "items/ledsch_seda_m_mn_grd_ol_fem",
+            "items/ledsch_seda_m_mn_grd_ol_mal",
+            "items/ledsch_seda_m_mn_grd_ol_mfg",
+            "items/ledsch_seda_m_mn_grd_ol_nec",
+            "items/ledsch_seda_m_mn_grd_ol_neg",
+            "items/ledsch_seda_m_mn_grd_ol_se_all",
+            "items/ledsch_seda_m_mn_grd_ol_se_ecd",
+            "items/ledsch_seda_m_mn_grd_ol_se_fem",
+            "items/ledsch_seda_m_mn_grd_ol_se_mal",
+            "items/ledsch_seda_m_mn_grd_ol_se_mfg",
+            "items/ledsch_seda_m_mn_grd_ol_se_nec",
+            "items/ledsch_seda_m_mn_grd_ol_se_neg",
+            "items/ledsch_seda_m_mn_mth_eb_all",
+            "items/ledsch_seda_m_mn_mth_eb_ecd",
+            "items/ledsch_seda_m_mn_mth_eb_fem",
+            "items/ledsch_seda_m_mn_mth_eb_mal",
+            "items/ledsch_seda_m_mn_mth_eb_mfg",
+            "items/ledsch_seda_m_mn_mth_eb_nec",
+            "items/ledsch_seda_m_mn_mth_eb_neg",
+            "items/ledsch_seda_m_mn_mth_eb_se_all",
+            "items/ledsch_seda_m_mn_mth_eb_se_ecd",
+            "items/ledsch_seda_m_mn_mth_eb_se_fem",
+            "items/ledsch_seda_m_mn_mth_eb_se_mal",
+            "items/ledsch_seda_m_mn_mth_eb_se_mfg",
+            "items/ledsch_seda_m_mn_mth_eb_se_nec",
+            "items/ledsch_seda_m_mn_mth_eb_se_neg",
+            "items/ledsch_seda_m_mn_mth_ol_all",
+            "items/ledsch_seda_m_mn_mth_ol_ecd",
+            "items/ledsch_seda_m_mn_mth_ol_fem",
+            "items/ledsch_seda_m_mn_mth_ol_mal",
+            "items/ledsch_seda_m_mn_mth_ol_mfg",
+            "items/ledsch_seda_m_mn_mth_ol_nec",
+            "items/ledsch_seda_m_mn_mth_ol_neg",
+            "items/ledsch_seda_m_mn_mth_ol_se_all",
+            "items/ledsch_seda_m_mn_mth_ol_se_ecd",
+            "items/ledsch_seda_m_mn_mth_ol_se_fem",
+            "items/ledsch_seda_m_mn_mth_ol_se_mal",
+            "items/ledsch_seda_m_mn_mth_ol_se_mfg",
+            "items/ledsch_seda_m_mn_mth_ol_se_nec",
+            "items/ledsch_seda_m_mn_mth_ol_se_neg",
+            "items/ledsch_seda_m_tot_asmts_all",
+            "items/ledsch_seda_m_tot_asmts_ecd",
+            "items/ledsch_seda_m_tot_asmts_fem",
+            "items/ledsch_seda_m_tot_asmts_mal",
+            "items/ledsch_seda_m_tot_asmts_mfg",
+            "items/ledsch_seda_m_tot_asmts_nec",
+            "items/ledsch_seda_m_tot_asmts_neg"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ledsch_seda_m_cellcount_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_cellcount_all"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_cellcount_ecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_cellcount_ecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_cellcount_fem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_cellcount_fem"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_cellcount_mal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_cellcount_mal"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_cellcount_mfg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_cellcount_mfg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_cellcount_nec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_cellcount_nec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_cellcount_neg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_cellcount_neg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_grdcenter_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_grdcenter_all"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_asmts_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_asmts_all"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_asmts_ecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_asmts_ecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_asmts_fem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_asmts_fem"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_asmts_mal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_asmts_mal"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_asmts_mfg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_asmts_mfg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_asmts_nec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_asmts_nec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_asmts_neg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_asmts_neg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_eb_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_eb_all"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_eb_ecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_eb_ecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_eb_fem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_eb_fem"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_eb_mal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_eb_mal"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_eb_mfg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_eb_mfg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_eb_nec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_eb_nec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_eb_neg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_eb_neg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_eb_se_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_eb_se_all"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_eb_se_ecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_eb_se_ecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_eb_se_fem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_eb_se_fem"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_eb_se_mal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_eb_se_mal"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_eb_se_mfg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_eb_se_mfg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_eb_se_nec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_eb_se_nec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_eb_se_neg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_eb_se_neg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_ol_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_ol_all"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_ol_ecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_ol_ecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_ol_fem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_ol_fem"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_ol_mal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_ol_mal"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_ol_mfg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_ol_mfg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_ol_nec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_ol_nec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_ol_neg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_ol_neg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_ol_se_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_ol_se_all"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_ol_se_ecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_ol_se_ecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_ol_se_fem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_ol_se_fem"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_ol_se_mal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_ol_se_mal"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_ol_se_mfg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_ol_se_mfg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_ol_se_nec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_ol_se_nec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_avg_ol_se_neg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_avg_ol_se_neg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_eb_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_eb_all"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_eb_ecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_eb_ecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_eb_fem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_eb_fem"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_eb_mal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_eb_mal"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_eb_mfg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_eb_mfg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_eb_nec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_eb_nec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_eb_neg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_eb_neg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_eb_se_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_eb_se_all"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_eb_se_ecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_eb_se_ecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_eb_se_fem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_eb_se_fem"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_eb_se_mal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_eb_se_mal"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_eb_se_mfg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_eb_se_mfg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_eb_se_nec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_eb_se_nec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_eb_se_neg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_eb_se_neg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_ol_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_ol_all"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_ol_ecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_ol_ecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_ol_fem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_ol_fem"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_ol_mal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_ol_mal"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_ol_mfg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_ol_mfg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_ol_nec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_ol_nec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_ol_neg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_ol_neg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_ol_se_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_ol_se_all"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_ol_se_ecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_ol_se_ecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_ol_se_fem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_ol_se_fem"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_ol_se_mal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_ol_se_mal"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_ol_se_mfg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_ol_se_mfg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_ol_se_nec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_ol_se_nec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_coh_ol_se_neg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_coh_ol_se_neg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_eb_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_eb_all"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_eb_ecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_eb_ecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_eb_fem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_eb_fem"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_eb_mal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_eb_mal"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_eb_mfg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_eb_mfg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_eb_nec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_eb_nec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_eb_neg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_eb_neg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_eb_se_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_eb_se_all"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_eb_se_ecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_eb_se_ecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_eb_se_fem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_eb_se_fem"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_eb_se_mal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_eb_se_mal"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_eb_se_mfg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_eb_se_mfg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_eb_se_nec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_eb_se_nec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_eb_se_neg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_eb_se_neg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_ol_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_ol_all"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_ol_ecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_ol_ecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_ol_fem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_ol_fem"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_ol_mal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_ol_mal"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_ol_mfg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_ol_mfg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_ol_nec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_ol_nec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_ol_neg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_ol_neg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_ol_se_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_ol_se_all"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_ol_se_ecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_ol_se_ecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_ol_se_fem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_ol_se_fem"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_ol_se_mal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_ol_se_mal"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_ol_se_mfg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_ol_se_mfg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_ol_se_nec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_ol_se_nec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_grd_ol_se_neg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_grd_ol_se_neg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_eb_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_eb_all"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_eb_ecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_eb_ecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_eb_fem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_eb_fem"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_eb_mal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_eb_mal"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_eb_mfg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_eb_mfg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_eb_nec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_eb_nec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_eb_neg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_eb_neg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_eb_se_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_eb_se_all"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_eb_se_ecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_eb_se_ecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_eb_se_fem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_eb_se_fem"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_eb_se_mal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_eb_se_mal"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_eb_se_mfg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_eb_se_mfg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_eb_se_nec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_eb_se_nec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_eb_se_neg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_eb_se_neg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_ol_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_ol_all"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_ol_ecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_ol_ecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_ol_fem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_ol_fem"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_ol_mal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_ol_mal"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_ol_mfg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_ol_mfg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_ol_nec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_ol_nec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_ol_neg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_ol_neg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_ol_se_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_ol_se_all"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_ol_se_ecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_ol_se_ecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_ol_se_fem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_ol_se_fem"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_ol_se_mal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_ol_se_mal"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_ol_se_mfg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_ol_se_mfg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_ol_se_nec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_ol_se_nec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_mn_mth_ol_se_neg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_mn_mth_ol_se_neg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_tot_asmts_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_tot_asmts_all"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_tot_asmts_ecd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_tot_asmts_ecd"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_tot_asmts_fem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_tot_asmts_fem"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_tot_asmts_mal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_tot_asmts_mal"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_tot_asmts_mfg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_tot_asmts_mfg"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_tot_asmts_nec",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_tot_asmts_nec"
+            },
+            {
+                "isAbout": "items/ledsch_seda_m_tot_asmts_neg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ledsch_seda_m_tot_asmts_neg"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

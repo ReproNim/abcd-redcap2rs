@@ -1,0 +1,25 @@
+{
+    "id": "otc_med7_ago",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "otc_med7_ago of ph_p_meds"
+    },
+    "prefLabel": {
+        "en": "OTC Med 7. How long ago did h/she take the medication? ? /\u00bfHace cu\u00e1nto tiempo que \u00e9l/ella toma este medicamento?"
+    },
+    "question": {
+        "en": "OTC Med 7. How long ago did h she take the medication? ? ella toma este medicamento?",
+        "es": "\u00bfHace cu\u00e1nto tiempo que \u00e9l"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

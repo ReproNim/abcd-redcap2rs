@@ -1,0 +1,252 @@
+{
+    "id": "led_l_urbsat_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Natural Space and Satellite in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Urbsat"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_urbsat_built",
+            "items/reshist_addr2_urbsat_built",
+            "items/reshist_addr3_urbsat_built",
+            "items/reshist_addr1_urbsat_crop",
+            "items/reshist_addr2_urbsat_crop",
+            "items/reshist_addr3_urbsat_crop",
+            "items/reshist_addr1_urbsat_forest",
+            "items/reshist_addr2_urbsat_forest",
+            "items/reshist_addr3_urbsat_forest",
+            "items/reshist_addr1_urbsat_grass",
+            "items/reshist_addr2_urbsat_grass",
+            "items/reshist_addr3_urbsat_grass",
+            "items/reshist_addr1_urbsat_ndbi",
+            "items/reshist_addr2_urbsat_ndbi",
+            "items/reshist_addr3_urbsat_ndbi",
+            "items/reshist_addr1_urbsat_ndvi",
+            "items/reshist_addr2_urbsat_ndvi",
+            "items/reshist_addr3_urbsat_ndvi",
+            "items/reshist_addr1_urbsat_ndwi",
+            "items/reshist_addr2_urbsat_ndwi",
+            "items/reshist_addr3_urbsat_ndwi",
+            "items/reshist_addr1_urbsat_ntl",
+            "items/reshist_addr2_urbsat_ntl",
+            "items/reshist_addr3_urbsat_ntl",
+            "items/reshist_addr1_urbsat_pop",
+            "items/reshist_addr2_urbsat_pop",
+            "items/reshist_addr3_urbsat_pop",
+            "items/reshist_addr1_urbsat_pwat",
+            "items/reshist_addr2_urbsat_pwat",
+            "items/reshist_addr3_urbsat_pwat",
+            "items/reshist_addr1_urbsat_swat",
+            "items/reshist_addr2_urbsat_swat",
+            "items/reshist_addr3_urbsat_swat"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_urbsat_built",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_urbsat_built"
+            },
+            {
+                "isAbout": "items/reshist_addr2_urbsat_built",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_urbsat_built"
+            },
+            {
+                "isAbout": "items/reshist_addr3_urbsat_built",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_urbsat_built"
+            },
+            {
+                "isAbout": "items/reshist_addr1_urbsat_crop",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_urbsat_crop"
+            },
+            {
+                "isAbout": "items/reshist_addr2_urbsat_crop",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_urbsat_crop"
+            },
+            {
+                "isAbout": "items/reshist_addr3_urbsat_crop",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_urbsat_crop"
+            },
+            {
+                "isAbout": "items/reshist_addr1_urbsat_forest",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_urbsat_forest"
+            },
+            {
+                "isAbout": "items/reshist_addr2_urbsat_forest",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_urbsat_forest"
+            },
+            {
+                "isAbout": "items/reshist_addr3_urbsat_forest",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_urbsat_forest"
+            },
+            {
+                "isAbout": "items/reshist_addr1_urbsat_grass",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_urbsat_grass"
+            },
+            {
+                "isAbout": "items/reshist_addr2_urbsat_grass",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_urbsat_grass"
+            },
+            {
+                "isAbout": "items/reshist_addr3_urbsat_grass",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_urbsat_grass"
+            },
+            {
+                "isAbout": "items/reshist_addr1_urbsat_ndbi",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_urbsat_ndbi"
+            },
+            {
+                "isAbout": "items/reshist_addr2_urbsat_ndbi",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_urbsat_ndbi"
+            },
+            {
+                "isAbout": "items/reshist_addr3_urbsat_ndbi",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_urbsat_ndbi"
+            },
+            {
+                "isAbout": "items/reshist_addr1_urbsat_ndvi",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_urbsat_ndvi"
+            },
+            {
+                "isAbout": "items/reshist_addr2_urbsat_ndvi",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_urbsat_ndvi"
+            },
+            {
+                "isAbout": "items/reshist_addr3_urbsat_ndvi",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_urbsat_ndvi"
+            },
+            {
+                "isAbout": "items/reshist_addr1_urbsat_ndwi",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_urbsat_ndwi"
+            },
+            {
+                "isAbout": "items/reshist_addr2_urbsat_ndwi",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_urbsat_ndwi"
+            },
+            {
+                "isAbout": "items/reshist_addr3_urbsat_ndwi",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_urbsat_ndwi"
+            },
+            {
+                "isAbout": "items/reshist_addr1_urbsat_ntl",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_urbsat_ntl"
+            },
+            {
+                "isAbout": "items/reshist_addr2_urbsat_ntl",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_urbsat_ntl"
+            },
+            {
+                "isAbout": "items/reshist_addr3_urbsat_ntl",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_urbsat_ntl"
+            },
+            {
+                "isAbout": "items/reshist_addr1_urbsat_pop",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_urbsat_pop"
+            },
+            {
+                "isAbout": "items/reshist_addr2_urbsat_pop",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_urbsat_pop"
+            },
+            {
+                "isAbout": "items/reshist_addr3_urbsat_pop",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_urbsat_pop"
+            },
+            {
+                "isAbout": "items/reshist_addr1_urbsat_pwat",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_urbsat_pwat"
+            },
+            {
+                "isAbout": "items/reshist_addr2_urbsat_pwat",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_urbsat_pwat"
+            },
+            {
+                "isAbout": "items/reshist_addr3_urbsat_pwat",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_urbsat_pwat"
+            },
+            {
+                "isAbout": "items/reshist_addr1_urbsat_swat",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_urbsat_swat"
+            },
+            {
+                "isAbout": "items/reshist_addr2_urbsat_swat",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_urbsat_swat"
+            },
+            {
+                "isAbout": "items/reshist_addr3_urbsat_swat",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_urbsat_swat"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

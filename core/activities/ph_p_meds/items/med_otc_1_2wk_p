@@ -1,0 +1,41 @@
+{
+    "id": "med_otc_1_2wk_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "med_otc_1_2wk_p of ph_p_meds"
+    },
+    "prefLabel": {
+        "en": "Has your child taken this medication in the last two weeks?"
+    },
+    "question": {
+        "en": "Has your child taken this medication in the last two weeks?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes [med_otc_1_rxnorm_1yr_p] <> ''''"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

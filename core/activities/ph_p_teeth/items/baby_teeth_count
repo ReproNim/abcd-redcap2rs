@@ -1,0 +1,24 @@
+{
+    "id": "baby_teeth_count",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "baby_teeth_count of ph_p_teeth"
+    },
+    "prefLabel": {
+        "en": "Total Count of baby teeth collected"
+    },
+    "question": {
+        "en": "Total Count of baby teeth collected"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

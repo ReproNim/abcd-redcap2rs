@@ -1,0 +1,24 @@
+{
+    "id": "strp_scr_incangf75con_rt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "strp_scr_incangf75con_rt of nc_y_est"
+    },
+    "prefLabel": {
+        "en": "expressions.Str_IncAngf75Con_RT"
+    },
+    "question": {
+        "en": "expressions. Str_IncAngf75Con_RT"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

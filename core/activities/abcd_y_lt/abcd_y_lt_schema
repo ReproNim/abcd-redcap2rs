@@ -1,0 +1,77 @@
+{
+    "id": "abcd_y_lt_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Administrative in ABCD (General)"
+    },
+    "prefLabel": {
+        "en": "Abcd_Y_Lt"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/site_id_l",
+            "items/rel_family_id",
+            "items/rel_birth_id",
+            "items/school_id",
+            "items/district_id",
+            "items/interview_date",
+            "items/interview_age",
+            "items/visit_type"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/site_id_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "site_id_l"
+            },
+            {
+                "isAbout": "items/rel_family_id",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "rel_family_id"
+            },
+            {
+                "isAbout": "items/rel_birth_id",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "rel_birth_id"
+            },
+            {
+                "isAbout": "items/school_id",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "school_id"
+            },
+            {
+                "isAbout": "items/district_id",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "district_id"
+            },
+            {
+                "isAbout": "items/interview_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "interview_date"
+            },
+            {
+                "isAbout": "items/interview_age",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "interview_age"
+            },
+            {
+                "isAbout": "items/visit_type",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "visit_type"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

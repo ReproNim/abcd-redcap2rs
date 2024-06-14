@@ -1,0 +1,24 @@
+{
+    "id": "bird_scr_challenge_latency",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bird_scr_challenge_latency of nc_y_bird"
+    },
+    "prefLabel": {
+        "en": "Challenge latency"
+    },
+    "question": {
+        "en": "Challenge latency"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "scrn_claustrophobexcl",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_claustrophobexcl of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Has this problem prevented your child from doing anything, like getting into elevators or going to places s/he thought would be too small? / \u00ac\u00f8Este problema ha evitado que su ni\u221a\u00b1o(a) haga alguna cosa, como subirse a un elevador o ir a lugares que pensara que ser\u221a\u2260an demasiado peque\u221a\u00b1os?"
+    },
+    "question": {
+        "en": "Has this problem prevented your child from doing anything, like getting into elevators or going to places s he thought would be too small?",
+        "es": "\u00ac\u00f8Este problema ha evitado que su ni\u221a\u00b1o(a) haga alguna cosa, como subirse a un elevador o ir a lugares que pensara que ser\u221a\u2260an demasiado peque\u221a\u00b1os?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes - GO TO END"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

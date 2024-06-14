@@ -1,0 +1,41 @@
+{
+    "id": "tlfb_pipes_reg",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_pipes_reg of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "INTERVIEWER (code silently): Have you begun using PIPES regularly? (at least once a week for 6 months)"
+    },
+    "question": {
+        "en": "INTERVIEWER (code silently): Have you begun using PIPES regularly? (at least once a week for 6 months)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No // Now I'm going to ask how old you were you when you first tried each of these tobacco products we have been talking about, and how old you were when you first started using the drug regularly (which means using it every week for at least SIX MONTHS)."
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

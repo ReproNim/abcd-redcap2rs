@@ -1,0 +1,24 @@
+{
+    "id": "sit_scr_script_elapsedtime",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sit_scr_script_elapsedtime of nc_y_sit"
+    },
+    "prefLabel": {
+        "en": "script.elapsedtime:\n\nTime it took to run script (in ms)"
+    },
+    "question": {
+        "en": "script. elapsedtime:\n\nTime it took to run script (in ms)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

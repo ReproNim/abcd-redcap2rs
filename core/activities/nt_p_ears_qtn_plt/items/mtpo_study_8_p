@@ -1,0 +1,47 @@
+{
+    "id": "mtpo_study_8_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mtpo_study_8_p of nt_p_ears_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "Have they used their phone more or less?"
+    },
+    "question": {
+        "en": "Have they used their phone more or less?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "More"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Less"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

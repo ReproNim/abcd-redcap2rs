@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr2_pm25_2016daysepa",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr2_pm25_2016daysepa of led_l_pm25"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - number of days in 2016 PM2.5 was above EPA daily standards (35) at secondary residential address at 1x1km2"
+    },
+    "question": {
+        "en": "Residential history derived - number of days in 2016 PM2. 5 was above EPA daily standards (35) at secondary residential address at 1x1km2"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

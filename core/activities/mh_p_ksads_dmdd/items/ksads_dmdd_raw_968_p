@@ -1,0 +1,41 @@
+{
+    "id": "ksads_dmdd_raw_968_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dmdd_raw_968_p of mh_p_ksads_dmdd"
+    },
+    "prefLabel": {
+        "en": "In the past year, in which situations has your child lost their temper:With Friends"
+    },
+    "question": {
+        "en": "In the past year, in which situations has your child lost their temper:With Friends"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

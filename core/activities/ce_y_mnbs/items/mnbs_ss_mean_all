@@ -1,0 +1,24 @@
+{
+    "id": "mnbs_ss_mean_all",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mnbs_ss_mean_all of ce_y_mnbs"
+    },
+    "prefLabel": {
+        "en": "all: mean 1-10"
+    },
+    "question": {
+        "en": "all: mean 1-10"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "bkfs_cereal",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_cereal of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Cereal, like cornflakes, Frosted Flakes</span><br/><span lang=\"es\" style=\"color:maroon;\">Cereal fr\u00edo, como Corn Flakes, Frosted Flakes"
+    },
+    "question": {
+        "en": "Cereal, like cornflakes, Frosted Flakes< span><br ><span lang=\"es\" style=\"color:maroon;\">Cereal fr\u00edo, como Corn Flakes, Frosted Flakes"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

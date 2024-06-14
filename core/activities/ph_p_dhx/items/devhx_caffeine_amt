@@ -1,0 +1,25 @@
+{
+    "id": "devhx_caffeine_amt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_caffeine_amt of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "During pregnancy. How much caffeine/day? /\u00bfCu\u00e1nta cafe\u00edna al d\u00eda?"
+    },
+    "question": {
+        "en": "During pregnancy. How much caffeine day?",
+        "es": "\u00bfCu\u00e1nta cafe\u00edna al d\u00eda?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

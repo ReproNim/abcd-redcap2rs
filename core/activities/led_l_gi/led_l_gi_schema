@@ -1,0 +1,189 @@
+{
+    "id": "led_l_gi_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Residential Segregation in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Gi"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_gstat_w_rook",
+            "items/reshist_addr1_gstat_b_rook",
+            "items/reshist_addr1_gstat_a_rook",
+            "items/reshist_addr1_gstat_h_rook",
+            "items/reshist_addr1_gstat_w_queen",
+            "items/reshist_addr1_gstat_b_queen",
+            "items/reshist_addr1_gstat_a_queen",
+            "items/reshist_addr1_gstat_h_queen",
+            "items/reshist_addr2_gstat_w_rook",
+            "items/reshist_addr2_gstat_b_rook",
+            "items/reshist_addr2_gstat_a_rook",
+            "items/reshist_addr2_gstat_h_rook",
+            "items/reshist_addr2_gstat_w_queen",
+            "items/reshist_addr2_gstat_b_queen",
+            "items/reshist_addr2_gstat_a_queen",
+            "items/reshist_addr2_gstat_h_queen",
+            "items/reshist_addr3_gstat_w_rook",
+            "items/reshist_addr3_gstat_b_rook",
+            "items/reshist_addr3_gstat_a_rook",
+            "items/reshist_addr3_gstat_h_rook",
+            "items/reshist_addr3_gstat_w_queen",
+            "items/reshist_addr3_gstat_b_queen",
+            "items/reshist_addr3_gstat_a_queen",
+            "items/reshist_addr3_gstat_h_queen"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_gstat_w_rook",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_gstat_w_rook"
+            },
+            {
+                "isAbout": "items/reshist_addr1_gstat_b_rook",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_gstat_b_rook"
+            },
+            {
+                "isAbout": "items/reshist_addr1_gstat_a_rook",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_gstat_a_rook"
+            },
+            {
+                "isAbout": "items/reshist_addr1_gstat_h_rook",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_gstat_h_rook"
+            },
+            {
+                "isAbout": "items/reshist_addr1_gstat_w_queen",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_gstat_w_queen"
+            },
+            {
+                "isAbout": "items/reshist_addr1_gstat_b_queen",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_gstat_b_queen"
+            },
+            {
+                "isAbout": "items/reshist_addr1_gstat_a_queen",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_gstat_a_queen"
+            },
+            {
+                "isAbout": "items/reshist_addr1_gstat_h_queen",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_gstat_h_queen"
+            },
+            {
+                "isAbout": "items/reshist_addr2_gstat_w_rook",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_gstat_w_rook"
+            },
+            {
+                "isAbout": "items/reshist_addr2_gstat_b_rook",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_gstat_b_rook"
+            },
+            {
+                "isAbout": "items/reshist_addr2_gstat_a_rook",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_gstat_a_rook"
+            },
+            {
+                "isAbout": "items/reshist_addr2_gstat_h_rook",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_gstat_h_rook"
+            },
+            {
+                "isAbout": "items/reshist_addr2_gstat_w_queen",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_gstat_w_queen"
+            },
+            {
+                "isAbout": "items/reshist_addr2_gstat_b_queen",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_gstat_b_queen"
+            },
+            {
+                "isAbout": "items/reshist_addr2_gstat_a_queen",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_gstat_a_queen"
+            },
+            {
+                "isAbout": "items/reshist_addr2_gstat_h_queen",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_gstat_h_queen"
+            },
+            {
+                "isAbout": "items/reshist_addr3_gstat_w_rook",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_gstat_w_rook"
+            },
+            {
+                "isAbout": "items/reshist_addr3_gstat_b_rook",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_gstat_b_rook"
+            },
+            {
+                "isAbout": "items/reshist_addr3_gstat_a_rook",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_gstat_a_rook"
+            },
+            {
+                "isAbout": "items/reshist_addr3_gstat_h_rook",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_gstat_h_rook"
+            },
+            {
+                "isAbout": "items/reshist_addr3_gstat_w_queen",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_gstat_w_queen"
+            },
+            {
+                "isAbout": "items/reshist_addr3_gstat_b_queen",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_gstat_b_queen"
+            },
+            {
+                "isAbout": "items/reshist_addr3_gstat_a_queen",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_gstat_a_queen"
+            },
+            {
+                "isAbout": "items/reshist_addr3_gstat_h_queen",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_gstat_h_queen"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

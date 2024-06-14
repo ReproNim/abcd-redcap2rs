@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr2_LODES_jobnapin",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr2_LODES_jobnapin of led_l_lodes"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - Number of jobs for workers with Race: Native Hawaiian or Other Pacific Islander Alone; LODES; census tract (addr2)"
+    },
+    "question": {
+        "en": "Residential history derived - Number of jobs for workers with Race: Native Hawaiian or Other Pacific Islander Alone; LODES; census tract (addr2)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

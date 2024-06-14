@@ -1,0 +1,24 @@
+{
+    "id": "pls4_sess_date_time",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pls4_sess_date_time of su_y_plus"
+    },
+    "prefLabel": {
+        "en": "Enter current date and time"
+    },
+    "question": {
+        "en": "Enter current date and time"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "date"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

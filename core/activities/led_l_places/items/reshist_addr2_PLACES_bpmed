@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr2_PLACES_bpmed",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr2_PLACES_bpmed of led_l_places"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - Taking medicine for high blood pressure control among adults aged >=18 years with high blood pressure; Prevalence; PLACES (addr2)"
+    },
+    "question": {
+        "en": "Residential history derived - Taking medicine for high blood pressure control among adults aged >=18 years with high blood pressure; Prevalence; PLACES (addr2)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

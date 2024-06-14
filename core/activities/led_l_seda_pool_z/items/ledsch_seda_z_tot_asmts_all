@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_z_tot_asmts_all",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_z_tot_asmts_all of led_l_seda_pool_z"
+    },
+    "prefLabel": {
+        "en": "Total number of math and Reading Language Arts tests for pooled estimates HML using SEDA HETOP EST (Commuting Zone) all"
+    },
+    "question": {
+        "en": "Total number of math and Reading Language Arts tests for pooled estimates HML using SEDA HETOP EST (Commuting Zone) all"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

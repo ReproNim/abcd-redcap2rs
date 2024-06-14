@@ -1,0 +1,24 @@
+{
+    "id": "ksads_gad_raw_272_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_gad_raw_272_p of mh_p_ksads_gad"
+    },
+    "prefLabel": {
+        "en": "When did your child's worrying a lot of the time begin?"
+    },
+    "question": {
+        "en": "When did your child's worrying a lot of the time begin?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

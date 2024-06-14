@@ -1,0 +1,196 @@
+{
+    "id": "nt_y_fitb_act_w_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Actigraphy in Novel Technologies"
+    },
+    "prefLabel": {
+        "en": "Nt_Y_Fitb_Act_W"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/fit_ss_protocol_startdate",
+            "items/fit_ss_day_wkno",
+            "items/fit_ss_day_weekend_ind",
+            "items/fit_ss_wk_avg_day_min",
+            "items/fit_ss_wk_avg_sleep_min",
+            "items/fit_ss_wk_total_steps",
+            "items/fit_ss_wk_sedentary_min",
+            "items/fit_ss_wk_light_active_min",
+            "items/fit_ss_wk_farily_active_min",
+            "items/fit_ss_wk_very_active_min",
+            "items/fit_ss_wk_avg_steps",
+            "items/fit_ss_wk_average_met_value",
+            "items/fit_ss_wk_avg_sedentary_min",
+            "items/fit_ss_wk_avg_light_active_min",
+            "items/fit_ss_wk_avg_farily_at_min",
+            "items/fit_ss_wk_avg_very_active_min",
+            "items/fit_ss_fitbit_rest_hr",
+            "items/fit_ss_weekend_count",
+            "items/fit_ss_weekday_count",
+            "items/fit_ss_meet_abcd_rule",
+            "items/fit_ss_perday_totalsteps",
+            "items/fit_ss_perday_sedentarymin",
+            "items/fit_ss_perday_lightlyactivemin",
+            "items/fit_ss_perday_fairlyactivemin",
+            "items/fit_ss_perday_veryactivemin"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/fit_ss_protocol_startdate",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_protocol_startdate"
+            },
+            {
+                "isAbout": "items/fit_ss_day_wkno",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_day_wkno"
+            },
+            {
+                "isAbout": "items/fit_ss_day_weekend_ind",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_day_weekend_ind"
+            },
+            {
+                "isAbout": "items/fit_ss_wk_avg_day_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_wk_avg_day_min"
+            },
+            {
+                "isAbout": "items/fit_ss_wk_avg_sleep_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_wk_avg_sleep_min"
+            },
+            {
+                "isAbout": "items/fit_ss_wk_total_steps",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_wk_total_steps"
+            },
+            {
+                "isAbout": "items/fit_ss_wk_sedentary_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_wk_sedentary_min"
+            },
+            {
+                "isAbout": "items/fit_ss_wk_light_active_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_wk_light_active_min"
+            },
+            {
+                "isAbout": "items/fit_ss_wk_farily_active_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_wk_farily_active_min"
+            },
+            {
+                "isAbout": "items/fit_ss_wk_very_active_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_wk_very_active_min"
+            },
+            {
+                "isAbout": "items/fit_ss_wk_avg_steps",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_wk_avg_steps"
+            },
+            {
+                "isAbout": "items/fit_ss_wk_average_met_value",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_wk_average_met_value"
+            },
+            {
+                "isAbout": "items/fit_ss_wk_avg_sedentary_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_wk_avg_sedentary_min"
+            },
+            {
+                "isAbout": "items/fit_ss_wk_avg_light_active_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_wk_avg_light_active_min"
+            },
+            {
+                "isAbout": "items/fit_ss_wk_avg_farily_at_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_wk_avg_farily_at_min"
+            },
+            {
+                "isAbout": "items/fit_ss_wk_avg_very_active_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_wk_avg_very_active_min"
+            },
+            {
+                "isAbout": "items/fit_ss_fitbit_rest_hr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_fitbit_rest_hr"
+            },
+            {
+                "isAbout": "items/fit_ss_weekend_count",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_weekend_count"
+            },
+            {
+                "isAbout": "items/fit_ss_weekday_count",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_weekday_count"
+            },
+            {
+                "isAbout": "items/fit_ss_meet_abcd_rule",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_meet_abcd_rule"
+            },
+            {
+                "isAbout": "items/fit_ss_perday_totalsteps",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_perday_totalsteps"
+            },
+            {
+                "isAbout": "items/fit_ss_perday_sedentarymin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_perday_sedentarymin"
+            },
+            {
+                "isAbout": "items/fit_ss_perday_lightlyactivemin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_perday_lightlyactivemin"
+            },
+            {
+                "isAbout": "items/fit_ss_perday_fairlyactivemin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_perday_fairlyactivemin"
+            },
+            {
+                "isAbout": "items/fit_ss_perday_veryactivemin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fit_ss_perday_veryactivemin"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

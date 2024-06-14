@@ -1,0 +1,59 @@
+{
+    "id": "socialdev_pders_28",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_pders_28 of sd_p_ders"
+    },
+    "prefLabel": {
+        "en": "When I'm upset  I believe there is nothing I can do to make myself feel better."
+    },
+    "question": {
+        "en": "When I'm upset  I believe there is nothing I can do to make myself feel better."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "About half the time"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Most of the time"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Almost always"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

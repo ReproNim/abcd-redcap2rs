@@ -1,0 +1,42 @@
+{
+    "id": "scrn_seizure",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_seizure of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "About how many seizures does your child have per month when taking medication? /\u00ac\u00f8Aproximadamente cu\u221a\u00b0ntas convulsiones tiene su ni\u221a\u00b1o(a) al mes cuando est\u221a\u00b0 tomando medicamentos?"
+    },
+    "question": {
+        "en": "About how many seizures does your child have per month when taking medication?",
+        "es": "\u00ac\u00f8Aproximadamente cu\u221a\u00b0ntas convulsiones tiene su ni\u221a\u00b1o(a) al mes cuando est\u221a\u00b0 tomando medicamentos?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than once a month"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "One or more per month - GO TO END | One seizure per month or more on medication is exclusionary."
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

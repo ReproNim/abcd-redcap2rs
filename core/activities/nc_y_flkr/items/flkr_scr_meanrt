@@ -1,0 +1,24 @@
+{
+    "id": "flkr_scr_meanrt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "flkr_scr_meanrt of nc_y_flkr"
+    },
+    "prefLabel": {
+        "en": "Mean Response Time"
+    },
+    "question": {
+        "en": "Mean Response Time"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

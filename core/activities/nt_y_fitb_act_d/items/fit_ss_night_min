@@ -1,0 +1,24 @@
+{
+    "id": "fit_ss_night_min",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fit_ss_night_min of nt_y_fitb_act_d"
+    },
+    "prefLabel": {
+        "en": "Number of minutes with Heart Rate Value from midnight (00:00) to 11:59P (23:59) that ARE identified as sleep (at 60 second \"classic\" level) or exclusion rules"
+    },
+    "question": {
+        "en": "Number of minutes with Heart Rate Value from midnight (00:00) to 11:59P (23:59) that ARE identified as sleep (at 60 second \"classic\" level) or exclusion rules"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

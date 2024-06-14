@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr1_leadrisk",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr1_leadrisk of led_l_leadrisk"
+    },
+    "prefLabel": {
+        "en": "Estimated lead risk in census tract of primary residential address (1-10 scale)"
+    },
+    "question": {
+        "en": "Estimated lead risk in census tract of primary residential address (1-10 scale)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

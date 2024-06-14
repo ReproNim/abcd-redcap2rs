@@ -1,0 +1,65 @@
+{
+    "id": "pds_bdyhair_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pds_bdyhair_y of ph_y_pds"
+    },
+    "prefLabel": {
+        "en": "And how about the growth of your body hair? (\"Body hair\" means hair any place other than your head, such as under your arms)\n\nWould you say that your body hair growth:"
+    },
+    "question": {
+        "en": "And how about the growth of your body hair? (\"Body hair\" means hair any place other than your head, such as under your arms)\n\nWould you say that your body hair growth:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "has not yet begun to spurt"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "has barely started"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "is definitely underway"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "seems complete"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "refuse to answer. The next questions are about changes that may be happening to your body. These changes normally happen to different young people at different ages. Since they may have something to do with your brain image results, do your best to answer carefully. To give you some privacy, we will let you read and answer the questions on your own. However, if you would like help reading or you don't understand the questions, just let me know and I can help you."
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

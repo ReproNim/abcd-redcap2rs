@@ -1,0 +1,65 @@
+{
+    "id": "socialdev_pvict_c8_i",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_pvict_c8_i of sd_p_vict"
+    },
+    "prefLabel": {
+        "en": "Was this person a man, woman, boy, or girl?"
+    },
+    "question": {
+        "en": "Was this person a man, woman, boy, or girl?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Man"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Woman"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Boy"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Girl"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 98
+            },
+            {
+                "name": {
+                    "en": "I'd rather not say"
+                },
+                "value": 99
+            }
+        ],
+        "maxValue": 99,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

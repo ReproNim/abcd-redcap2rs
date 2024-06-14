@@ -1,0 +1,42 @@
+{
+    "id": "tbi_1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tbi_1 of ph_p_otbi"
+    },
+    "prefLabel": {
+        "en": "Has your child ever been hospitalized or treated in an emergency room following an injury to his/her head or neck? \u00bfAlguna vez han hospitalizado a su ni\u00f1o/a o le han tratado en una sala de emergencias despu\u00e9s de sufrir una lesi\u00f3n en la cabeza o en el cuello?"
+    },
+    "question": {
+        "en": "Has your child ever been hospitalized or treated in an emergency room following an injury to his her head or neck?",
+        "es": "\u00bfAlguna vez han hospitalizado a su ni\u00f1o a o le han tratado en una sala de emergencias despu\u00e9s de sufrir una lesi\u00f3n en la cabeza o en el cuello?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

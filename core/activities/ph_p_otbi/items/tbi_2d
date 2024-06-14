@@ -1,0 +1,25 @@
+{
+    "id": "tbi_2d",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tbi_2d of ph_p_otbi"
+    },
+    "prefLabel": {
+        "en": "How old was he/she? \u00bfQu\u00e9 edad ten\u00eda?"
+    },
+    "question": {
+        "en": "How old was he she?",
+        "es": "\u00bfQu\u00e9 edad ten\u00eda?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

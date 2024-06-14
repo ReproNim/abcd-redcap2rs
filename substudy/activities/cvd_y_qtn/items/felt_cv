@@ -1,0 +1,65 @@
+{
+    "id": "felt_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "felt_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "In the past week. . . : I felt like I couldn't do anything right"
+    },
+    "question": {
+        "en": "In the past week. . . : I felt like I couldn't do anything right"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Almost Never"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Almost Always"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "socialdev_cvict_w4_fup_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_cvict_w4_fup_l of sd_y_vict"
+    },
+    "prefLabel": {
+        "en": "Earlier you said that at some time since your last SD visit you saw someone get attacked or hit on purpose WITHOUT using a stick, rock, gun, knife, or something that would hurt."
+    },
+    "question": {
+        "en": "Earlier you said that at some time since your last SD visit you saw someone get attacked or hit on purpose WITHOUT using a stick, rock, gun, knife, or something that would hurt."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

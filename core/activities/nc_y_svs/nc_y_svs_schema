@@ -1,0 +1,49 @@
+{
+    "id": "nc_y_svs_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Administrative in Neurocognition"
+    },
+    "prefLabel": {
+        "en": "Nc_Y_Svs"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/snellen_aid_y",
+            "items/snellen_aidpres_y",
+            "items/snellen_va_y",
+            "items/vis_flg"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/snellen_aid_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "snellen_aid_y"
+            },
+            {
+                "isAbout": "items/snellen_aidpres_y",
+                "isVis": "snellen_aid_y   === 1",
+                "valueRequired": true,
+                "variableName": "snellen_aidpres_y"
+            },
+            {
+                "isAbout": "items/snellen_va_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "snellen_va_y"
+            },
+            {
+                "isAbout": "items/vis_flg",
+                "isVis": "snellen_va_y   === 4 ||  snellen_va_y   === 3 ||  snellen_va_y   === 2",
+                "valueRequired": true,
+                "variableName": "vis_flg"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

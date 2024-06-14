@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr2_opat_kfrppp100se",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr2_opat_kfrppp100se of led_l_socmob"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - Opportunity Atlas Estimated standard error for 100th percentile"
+    },
+    "question": {
+        "en": "Residential history derived - Opportunity Atlas Estimated standard error for 100th percentile"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

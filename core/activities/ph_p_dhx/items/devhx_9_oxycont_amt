@@ -1,0 +1,25 @@
+{
+    "id": "devhx_9_oxycont_amt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_9_oxycont_amt of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "Knowing of pregnancy. Oxycontin. How many times per day? /\u00bfCuantas veces al d\u00eda?"
+    },
+    "question": {
+        "en": "Knowing of pregnancy. Oxycontin. How many times per day?",
+        "es": "\u00bfCuantas veces al d\u00eda?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

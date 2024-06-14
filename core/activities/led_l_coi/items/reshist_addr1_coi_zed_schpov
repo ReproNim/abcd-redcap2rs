@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr1_coi_zed_schpov",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr1_coi_zed_schpov of led_l_coi"
+    },
+    "prefLabel": {
+        "en": "Educational Domain Teacher experience: Percentage students in elementary schools eligible for free or reduced-price lunches, transformed to z-scores and multiplied by -1."
+    },
+    "question": {
+        "en": "Educational Domain Teacher experience: Percentage students in elementary schools eligible for free or reduced-price lunches, transformed to z-scores and multiplied by -1."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

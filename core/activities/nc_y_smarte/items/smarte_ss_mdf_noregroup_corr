@@ -1,0 +1,24 @@
+{
+    "id": "smarte_ss_mdf_noregroup_corr",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "smarte_ss_mdf_noregroup_corr of nc_y_smarte"
+    },
+    "prefLabel": {
+        "en": "Number correct for no-regroup items in the mixed-digit arithmetic task"
+    },
+    "question": {
+        "en": "Number correct for no-regroup items in the mixed-digit arithmetic task"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

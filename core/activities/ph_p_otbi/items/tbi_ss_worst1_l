@@ -1,0 +1,24 @@
+{
+    "id": "tbi_ss_worst1_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tbi_ss_worst1_l of ph_p_otbi"
+    },
+    "prefLabel": {
+        "en": "Worst injury1 = improbable TBI\n(No TBI)"
+    },
+    "question": {
+        "en": "Worst injury1 = improbable TBI\n(No TBI)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr3_gstat_w_rook",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr3_gstat_w_rook of led_l_gi"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - Local GI* statistic, non-Hispanic white, rook neighborhood tracts, census tract;ICPSR (addr3)"
+    },
+    "question": {
+        "en": "Residential history derived - Local GI* statistic, non-Hispanic white, rook neighborhood tracts, census tract;ICPSR (addr3)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

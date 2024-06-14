@@ -1,0 +1,24 @@
+{
+    "id": "child_video_chat_time_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "child_video_chat_time_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "through video chatting (Facetime  Skype  Zoom  Hangouts  etc)  : hours  (round 1 and 2)"
+    },
+    "question": {
+        "en": "through video chatting (Facetime  Skype  Zoom  Hangouts  etc)  : hours  (round 1 and 2)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

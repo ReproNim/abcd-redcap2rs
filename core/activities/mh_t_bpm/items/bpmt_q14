@@ -1,0 +1,47 @@
+{
+    "id": "bpmt_q14",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bpmt_q14 of mh_t_bpm"
+    },
+    "prefLabel": {
+        "en": "Stubborn, sullen, or irritable."
+    },
+    "question": {
+        "en": "Stubborn, sullen, or irritable."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not True (as far as you know)"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat True"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very True"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

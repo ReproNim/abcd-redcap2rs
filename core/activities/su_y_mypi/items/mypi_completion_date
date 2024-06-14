@@ -1,0 +1,24 @@
+{
+    "id": "mypi_completion_date",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mypi_completion_date of su_y_mypi"
+    },
+    "prefLabel": {
+        "en": "Mid year phone interview completion date and time:"
+    },
+    "question": {
+        "en": "Mid year phone interview completion date and time:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

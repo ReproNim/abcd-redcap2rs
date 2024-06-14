@@ -1,0 +1,24 @@
+{
+    "id": "fitf_s5_q3a_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fitf_s5_q3a_p of nt_p_fitb_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "What time was your child's 1st food/drink?"
+    },
+    "question": {
+        "en": "What time was your child's 1st food drink?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

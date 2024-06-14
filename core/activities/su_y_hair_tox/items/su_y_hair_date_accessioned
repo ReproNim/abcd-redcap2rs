@@ -1,0 +1,24 @@
+{
+    "id": "su_y_hair_date_accessioned",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_y_hair_date_accessioned of su_y_hair_tox"
+    },
+    "prefLabel": {
+        "en": "Date on which hair was assayed"
+    },
+    "question": {
+        "en": "Date on which hair was assayed"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

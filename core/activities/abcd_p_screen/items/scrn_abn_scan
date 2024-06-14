@@ -1,0 +1,47 @@
+{
+    "id": "scrn_abn_scan",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_abn_scan of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Abnormal findings on the scan?"
+    },
+    "question": {
+        "en": "Abnormal findings on the scan?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes - GO TO END"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Unsure - (Consult PI)"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

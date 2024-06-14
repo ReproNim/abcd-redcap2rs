@@ -1,0 +1,24 @@
+{
+    "id": "pls1_cbd_ago",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pls1_cbd_ago of su_y_plus"
+    },
+    "prefLabel": {
+        "en": "How long ago did you last use a CBD product?"
+    },
+    "question": {
+        "en": "How long ago did you last use a CBD product?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

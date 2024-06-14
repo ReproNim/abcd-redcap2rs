@@ -1,0 +1,71 @@
+{
+    "id": "su_liquids_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_liquids_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "On how many DAYS (if any) during the LAST 30 DAYS have you...Sniffed liquids, sprays or gases to get high?"
+    },
+    "question": {
+        "en": "On how many DAYS (if any) during the LAST 30 DAYS have you. . . Sniffed liquids, sprays or gases to get high?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0 Days"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1-2 Days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3-5 Days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "6-9 Days"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "10-19 Days"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "20-29 Days"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "30 Days  [su_mj_use_past_month_cv] = '0' or [su_mj_use_past_month_cv] = '1'"
+                },
+                "value": 7
+            }
+        ],
+        "maxValue": 7,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

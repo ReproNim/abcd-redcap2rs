@@ -1,0 +1,59 @@
+{
+    "id": "path_nic_dep_q10_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "path_nic_dep_q10_l of su_y_nic_dep"
+    },
+    "prefLabel": {
+        "en": "I usually want to use my tobacco right after I wake up."
+    },
+    "question": {
+        "en": "I usually want to use my tobacco right after I wake up."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not true of me at all1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Extremely true of me5 / xskipout_tob_l   == '1'"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

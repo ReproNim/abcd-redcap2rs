@@ -1,0 +1,41 @@
+{
+    "id": "medhx_6g",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "medhx_6g of ph_p_mhx"
+    },
+    "prefLabel": {
+        "en": "Has he/she ever been to a doctor, a nurse, nurse practitioner, the emergency room or a clinic because any of these things happened...Burns /Quemaduras"
+    },
+    "question": {
+        "en": "Has he she ever been to a doctor, a nurse, nurse practitioner, the emergency room or a clinic because any of these things happened. . . Burns Quemaduras"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes/ S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No/ No//Now I'd like to ask you about your child's use of health services during the past year and throughout his/her whole life."
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

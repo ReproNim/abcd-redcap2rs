@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_cookies",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_cookies of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Cookies, donuts, cakes like Ho-Hos/Galletas, donas, pastelitos como Ho-Hos"
+    },
+    "question": {
+        "en": "Cookies, donuts, cakes like Ho-Hos",
+        "es": "Galletas, donas, pastelitos como Ho-Hos"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

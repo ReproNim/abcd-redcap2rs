@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr1_o3_2016_annavg",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr1_o3_2016_annavg of led_l_o3"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - annual average of O3 in 2016 at primary residential address at 1x1km2"
+    },
+    "question": {
+        "en": "Residential history derived - annual average of O3 in 2016 at primary residential address at 1x1km2"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

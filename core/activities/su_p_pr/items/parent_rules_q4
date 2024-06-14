@@ -1,0 +1,66 @@
+{
+    "id": "parent_rules_q4",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "parent_rules_q4 of su_p_pr"
+    },
+    "prefLabel": {
+        "en": "What are the family rules about smoking cigarettes for your son/daughter? / \u00bfCu\u00e1les son las reglas familiares que debe seguir su ni\u00f1o(a) con respecto a fumar cigarrillos?"
+    },
+    "question": {
+        "en": "What are the family rules about smoking cigarettes for your son daughter?",
+        "es": "\u00bfCu\u00e1les son las reglas familiares que debe seguir su ni\u00f1o(a) con respecto a fumar cigarrillos?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not allowed to smoke under any circumstances /No tiene permitido fumar bajo ninguna circunstancia"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Not allowed to smoke in home - no family rules outside home /No tiene permitido fumar en casa; no hay reglas familiares con respecto a fumar fuera de la casa"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Allowed to smoke in designated areas at home Tiene permitido fumar en /\u00e1reas designadas de la casa"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Allowed to smoke anywhere /Tiene permitido fumar donde sea"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't set rules about smoking cigarettes /No le pongo reglas con respecto a fumar cigarrillos"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "I haven't made rules yet about my child smoking cigarettes /Todav\u00eda no le he puesto reglas a mi ni\u00f1o(a) con respecto a fumar cigarrillos"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

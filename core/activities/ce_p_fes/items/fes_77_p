@@ -1,0 +1,42 @@
+{
+    "id": "fes_77_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fes_77_p of ce_p_fes"
+    },
+    "prefLabel": {
+        "en": "Family members go out a lot.Los miembros de la familia salen mucho."
+    },
+    "question": {
+        "en": "Family members go out a lot.",
+        "es": "Los miembros de la familia salen mucho."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "True /Verdadera"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "False/ Falsa"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

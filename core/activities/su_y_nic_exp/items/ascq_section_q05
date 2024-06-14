@@ -1,0 +1,65 @@
+{
+    "id": "ascq_section_q05",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ascq_section_q05 of su_y_nic_exp"
+    },
+    "prefLabel": {
+        "en": "Smoking will make a person cough."
+    },
+    "question": {
+        "en": "Smoking will make a person cough."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Uncertain / tlfb_tob_c_l   == '1' ||  tlfb_tob_l   == '1'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "demo_prnt_empl_time_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_prnt_empl_time_l of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "Work Full time or Part time? \u00ac\u00f8Trabaja de tiempo completo o medio tiempo?"
+    },
+    "question": {
+        "en": "Work Full time or Part time?",
+        "es": "\u00ac\u00f8Trabaja de tiempo completo o medio tiempo?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Full time Tiempo Completo"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Part time Medio Tiempo"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "kbi_ss_c_substance_abuse_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_ss_c_substance_abuse_p of mh_p_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "How many times has your child been in the hospital for substance abuse problems?"
+    },
+    "question": {
+        "en": "How many times has your child been in the hospital for substance abuse problems?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

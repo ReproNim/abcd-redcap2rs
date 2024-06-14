@@ -1,0 +1,53 @@
+{
+    "id": "abcl_visited_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "abcl_visited_p of mh_p_abcl"
+    },
+    "prefLabel": {
+        "en": "About how many times a month do any friends or family visit him/her?"
+    },
+    "question": {
+        "en": "About how many times a month do any friends or family visit him her?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than 1"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1 or 2"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "3 or 4"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "5 or more"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

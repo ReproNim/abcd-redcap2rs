@@ -1,0 +1,54 @@
+{
+    "id": "demo_prnt_nat_lang_2_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_prnt_nat_lang_2_l of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "Please choose one of these four options regarding the first language or languages most spoken to you by your parents or guardians after birth.\n  Por favor escoja una de estas tres opciones sobre el primer idioma o idiomas m\u221a\u00b0s hablados a usted, despu\u221a\u00a9s de nacer, por sus padres o guardianes."
+    },
+    "question": {
+        "en": "Please choose one of these four options regarding the first language or languages most spoken to you by your parents or guardians after birth.",
+        "es": "Por favor escoja una de estas tres opciones sobre el primer idioma o idiomas m\u221a\u00b0s hablados a usted, despu\u221a\u00a9s de nacer, por sus padres o guardianes."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Your parents or guardians spoke to you in English more than any other language after birth Sus padres o guardianes le hablaron en ingles"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "English and another language were spoken equally Hablaron tanto en ingles como en otro idioma."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Your parents or guardians spoke to you in a language other than English more than any other language after birth. Sus padres o tutores hablaban con usted en un idioma diferente al Ingl\u221a\u00a9s"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Two languages"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

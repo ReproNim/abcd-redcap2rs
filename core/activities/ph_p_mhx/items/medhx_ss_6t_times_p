@@ -1,0 +1,24 @@
+{
+    "id": "medhx_ss_6t_times_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "medhx_ss_6t_times_p of ph_p_mhx"
+    },
+    "prefLabel": {
+        "en": "Other\nHow many times?"
+    },
+    "question": {
+        "en": "Other\nHow many times?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

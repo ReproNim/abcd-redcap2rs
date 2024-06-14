@@ -1,0 +1,24 @@
+{
+    "id": "pls3_med2_rxnorm_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pls3_med2_rxnorm_p of su_p_plus"
+    },
+    "prefLabel": {
+        "en": "Medication Name (please choose the formulation that most closely matches the medication taken by your child; no need to include dosage)  Nombre del Medicamento (por favor, elija la formulaci\u00f3n que m\u00e1s se aproxime a la medicaci\u00f3n tomada por su ni\u00f1o(a); no hay necesidad de incluir la dosis)"
+    },
+    "question": {
+        "es": "Medication Name (please choose the formulation that most closely matches the medication taken by your child; no need to include dosage)  Nombre del Medicamento (por favor, elija la formulaci\u00f3n que m\u00e1s se aproxime a la medicaci\u00f3n tomada por su ni\u00f1o(a); no hay necesidad de incluir la dosis)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

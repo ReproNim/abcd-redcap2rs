@@ -1,0 +1,47 @@
+{
+    "id": "medhx_8a_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "medhx_8a_l of ph_p_mhx"
+    },
+    "prefLabel": {
+        "en": "Since we last saw you on [asnt_timestamp_c], has your child been in the hospital overnight or longer?"
+    },
+    "question": {
+        "en": "Since we last saw you on [asnt_timestamp_c], has your child been in the hospital overnight or longer?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know No s\u00e9//Now I'd like to ask you about your child's use of health services since we last saw you on_____."
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

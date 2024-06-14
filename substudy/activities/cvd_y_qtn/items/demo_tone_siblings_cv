@@ -1,0 +1,65 @@
+{
+    "id": "demo_tone_siblings_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_tone_siblings_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "How has the tone of your communication changed during this time with siblings?"
+    },
+    "question": {
+        "en": "How has the tone of your communication changed during this time with siblings?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Noticeably more negative"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat more negative"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Has not changed"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Somewhat more positive"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Noticeably more positive"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Not applicable  [eventname] = 'covid19_cv2_arm_2'"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

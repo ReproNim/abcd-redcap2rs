@@ -1,0 +1,24 @@
+{
+    "id": "pds_p_ss_female_cat_nt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pds_p_ss_female_cat_nt of ph_p_pds"
+    },
+    "prefLabel": {
+        "en": "Pubertal Developmental Scale Parent: Female Category Number Total Questions"
+    },
+    "question": {
+        "en": "Pubertal Developmental Scale Parent: Female Category Number Total Questions"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

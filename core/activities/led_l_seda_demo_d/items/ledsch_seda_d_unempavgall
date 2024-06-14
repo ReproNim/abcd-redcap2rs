@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_d_unempavgall",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_d_unempavgall of led_l_seda_demo_d"
+    },
+    "prefLabel": {
+        "en": "unemployment rate, eb estimate, all families, 2005-09 and 2014-18 avg (Geo Dist) ACS"
+    },
+    "question": {
+        "en": "unemployment rate, eb estimate, all families, 2005-09 and 2014-18 avg (Geo Dist) ACS"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

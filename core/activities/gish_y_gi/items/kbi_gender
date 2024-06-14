@@ -1,0 +1,24 @@
+{
+    "id": "kbi_gender",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_gender of gish_y_gi"
+    },
+    "prefLabel": {
+        "en": "What is your current gender identity?"
+    },
+    "question": {
+        "en": "What is your current gender identity?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

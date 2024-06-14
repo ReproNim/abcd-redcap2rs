@@ -1,0 +1,48 @@
+{
+    "id": "medhx_1a_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "medhx_1a_l of ph_p_mhx"
+    },
+    "prefLabel": {
+        "en": "During the past year, has your child been to see a doctor, nurse, nurse practitioner, dentist, or any other health professional like that, OTHER than for regular checkups? En el \u00faltimo a\u00f1o, \u00bfsu ni\u00f1o(a) ha visto a un m\u00e9dico, enfermero(a), dentista o alg\u00fan otro profesional similar de la salud, por alg\u00fan motivo DISTINTO a sus chequeos peri\u00f3dicos?"
+    },
+    "question": {
+        "en": "During the past year, has your child been to see a doctor, nurse, nurse practitioner, dentist, or any other health professional like that, OTHER than for regular checkups?",
+        "es": "En el \u00faltimo a\u00f1o, \u00bfsu ni\u00f1o(a) ha visto a un m\u00e9dico, enfermero(a), dentista o alg\u00fan otro profesional similar de la salud, por alg\u00fan motivo DISTINTO a sus chequeos peri\u00f3dicos?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes S\u00cd"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know No s\u00e9"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

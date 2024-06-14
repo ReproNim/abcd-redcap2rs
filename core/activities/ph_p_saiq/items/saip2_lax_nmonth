@@ -1,0 +1,108 @@
+{
+    "id": "saip2_lax_nmonth",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "saip2_lax_nmonth of ph_p_saiq"
+    },
+    "prefLabel": {
+        "en": "Lacrosse: During the most active period, about how many months per year did your child participate? Durante el periodo m\u00e1s activo, \u00bfaproximadamente cu\u00e1ntos meses al a\u00f1o particip\u00f3 su ni\u00f1o(a)?"
+    },
+    "question": {
+        "en": "Lacrosse: During the most active period, about how many months per year did your child participate?",
+        "es": "Durante el periodo m\u00e1s activo, \u00bfaproximadamente cu\u00e1ntos meses al a\u00f1o particip\u00f3 su ni\u00f1o(a)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know No lo s\u00e9"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "8"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "9"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "10"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "11"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "12 | (1-12)"
+                },
+                "value": 12
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

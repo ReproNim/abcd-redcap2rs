@@ -1,0 +1,53 @@
+{
+    "id": "tlfb_ecig_lt_size",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_ecig_lt_size of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "What size cartridge do you typically use?"
+    },
+    "question": {
+        "en": "What size cartridge do you typically use?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Pen-style cartridge=1 ml"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Pipe cartridge=4 ml"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Cigar cartridge=2 ml"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't Know// For the drugs you have tried, I want to know how many times you have used them in your life. We are going to measure this in standard units, do not worry, I will help you with each drug to measure this in standard units, such as one beer, one cigarette, or one gram of marijuana."
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,72 @@
+{
+    "id": "school_cv_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "school_cv_p of ph_p_covid"
+    },
+    "prefLabel": {
+        "en": "In the <u>past week</u>, is your child's schooling like it was in January 2020 before the coronavirus? / En la \u00faltima semana, \u00bfla escolarizaci\u00f3n de su hijo/a es como lo fue en enero del 2020, antes del coronavirus?"
+    },
+    "question": {
+        "en": "In the <u>past week< u>, is your child's schooling like it was in January 2020 before the coronavirus?",
+        "es": "En la \u00faltima semana, \u00bfla escolarizaci\u00f3n de su hijo a es como lo fue en enero del 2020, antes del coronavirus?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No - was going to school in person and now it's online/school-at-home / No - iba a la escuela en persona y ahora es en l\u00ednea/ escuela en casa"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No - was going to school in person and now not doing any in-person or school-at-home activity / No - iba a la escuela en persona y ahora no esta participando en ninguna actividad en persona o de escuela en casa\u200b"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No - was going to school in person all school days; <b>now</b> school is in-person only <u>some days</u> or <u>part</u> of the usual school day / No - iba a la escuela en persona todos los d\u00edas escolares; ahora la escuela es en persona solo algunos d\u00edas o parte del d\u00eda escolar t\u00edpico"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "No - school is out for summer/on vacation, or doing a summer school program<u>some days</u> or <u>part</u> of the usual school day / No - la escuela esta en vacaciones de verano o en vacaciones, o esta participando en un programa escolar de verano"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Yes - going to school all school days, in person / S\u00ed - esta yendo a la escuela todos los d\u00edas escolares en persona"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Yes - doing same homeschool/online school program since before this pandemic / S\u00ed-esta haciendo el mismo programa escolar en casa/en l\u00ednea desde antes de esta pandemia"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other / Otro"
+                },
+                "value": 7
+            }
+        ],
+        "maxValue": 7,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

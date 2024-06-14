@@ -1,0 +1,91 @@
+{
+    "id": "su_y_vap_motiv_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Attitude in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Vap_Motiv"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/su_vape_motiv_01",
+            "items/su_vape_motiv_02",
+            "items/su_vape_motiv_03",
+            "items/su_vape_motiv_04",
+            "items/su_vape_motiv_05",
+            "items/su_vape_motiv_06",
+            "items/su_vape_motiv_07",
+            "items/su_vape_motiv_08",
+            "items/su_vape_motiv_09",
+            "items/su_mj_admin"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/su_vape_motiv_01",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vape_motiv_01"
+            },
+            {
+                "isAbout": "items/su_vape_motiv_02",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vape_motiv_02"
+            },
+            {
+                "isAbout": "items/su_vape_motiv_03",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vape_motiv_03"
+            },
+            {
+                "isAbout": "items/su_vape_motiv_04",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vape_motiv_04"
+            },
+            {
+                "isAbout": "items/su_vape_motiv_05",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vape_motiv_05"
+            },
+            {
+                "isAbout": "items/su_vape_motiv_06",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vape_motiv_06"
+            },
+            {
+                "isAbout": "items/su_vape_motiv_07",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vape_motiv_07"
+            },
+            {
+                "isAbout": "items/su_vape_motiv_08",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vape_motiv_08"
+            },
+            {
+                "isAbout": "items/su_vape_motiv_09",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vape_motiv_09"
+            },
+            {
+                "isAbout": "items/su_mj_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_mj_admin"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

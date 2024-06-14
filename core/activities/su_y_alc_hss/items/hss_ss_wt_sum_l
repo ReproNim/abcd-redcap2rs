@@ -1,0 +1,35 @@
+{
+    "id": "hss_ss_wt_sum_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "hss_ss_wt_sum_l of su_y_alc_hss"
+    },
+    "prefLabel": {
+        "en": "Weighted scoring (Sum of scores (range 0-52). (Item is weighted by its frequency.) raw score totaled  (Followup Visits)"
+    },
+    "question": {
+        "en": "Weighted scoring (Sum of scores (range 0-52). (Item is weighted by its frequency. ) raw score totaled  (Followup Visits)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "52). (Item is weighted by its frequency.)  raw score totaled  (Followup Visits)"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 0,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

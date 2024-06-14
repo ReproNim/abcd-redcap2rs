@@ -1,0 +1,113 @@
+{
+    "id": "tv_view_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tv_view_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "How many days (0 to 7) did your parents:Which television channel did you watch most when viewing news related to coronavirus? (include both watching on a TV and streaming online)"
+    },
+    "question": {
+        "en": "How many days (0 to 7) did your parents:Which television channel did you watch most when viewing news related to coronavirus? (include both watching on a TV and streaming online)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "CNN"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Fox News"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "MSNBC"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "ABC"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "NBC"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "CBS"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Univision"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Telemundo"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "PBS / public television"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Local news station"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Comedy news"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Foreign news station (e.g. BBC)"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "None  [coverage_cv] > 0\"\""
+                },
+                "value": 14
+            }
+        ],
+        "maxValue": 14,
+        "minValue": 1,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

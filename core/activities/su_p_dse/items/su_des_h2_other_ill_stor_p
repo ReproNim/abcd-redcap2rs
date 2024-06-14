@@ -1,0 +1,60 @@
+{
+    "id": "su_des_h2_other_ill_stor_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_des_h2_other_ill_stor_p of su_p_dse"
+    },
+    "prefLabel": {
+        "en": "Other illicit drugs such as cocaine, methamphetamine, heroin, hallucinogens, ecstasy/MDMA, ketamine, GHB? Otras drogas ilegales como cocaina  metanfetamina  heroina  alucinogenos  extasis/MDMA  ketamina  GHB?"
+    },
+    "question": {
+        "en": "Other illicit drugs such as cocaine, methamphetamine, heroin, hallucinogens, ecstasy MDMA, ketamine, GHB? MDMA  ketamina  GHB?",
+        "es": "Otras drogas ilegales como cocaina  metanfetamina  heroina  alucinogenos  extasis"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Visible and unlocked (counter top  table top  fridge  easy to reach drawer)  /  A la vista y sin llave (mostrador  mesa  refrigerador  cajon de facil acceso)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Not visible and unlocked (cabinet  hard to reach drawer  hidden)  /  Fuera de la vista y sin llave (gabinete  cajon con dificil acceso  escondido/a)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Locked cabinet  drawer  or storage area  /  Gabinete  cajon o area de almacenamiento bajo llave"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Outside the home  /  Fuera del hogar"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't Know/    No se"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

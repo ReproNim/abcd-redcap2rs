@@ -1,0 +1,42 @@
+{
+    "id": "ce_y_sag_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about School in Culture & Environment"
+    },
+    "prefLabel": {
+        "en": "Ce_Y_Sag"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sag_days_skip_school",
+            "items/sag_grades_last_yr",
+            "items/sag_admin"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sag_days_skip_school",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sag_days_skip_school"
+            },
+            {
+                "isAbout": "items/sag_grades_last_yr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sag_grades_last_yr"
+            },
+            {
+                "isAbout": "items/sag_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sag_admin"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

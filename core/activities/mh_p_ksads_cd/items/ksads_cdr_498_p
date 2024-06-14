@@ -1,0 +1,24 @@
+{
+    "id": "ksads_cdr_498_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_cdr_498_p of mh_p_ksads_cd"
+    },
+    "prefLabel": {
+        "en": "You said that in the past two weeks your child often made fun of or picked on other kids; and often stole things worth at least $20. When did this begin?"
+    },
+    "question": {
+        "en": "You said that in the past two weeks your child often made fun of or picked on other kids; and often stole things worth at least $20. When did this begin?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

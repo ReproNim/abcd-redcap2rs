@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr3_urbsat_ndbi",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr3_urbsat_ndbi of led_l_urbsat"
+    },
+    "prefLabel": {
+        "en": "Normalized Difference Built-up Index: (2017) average of NDBI index value [NDBI index values]"
+    },
+    "question": {
+        "en": "Normalized Difference Built-up Index: (2017) average of NDBI index value [NDBI index values]"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "eatq_p_ss_activation",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "eatq_p_ss_activation of mh_p_eatq"
+    },
+    "prefLabel": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent activation; sum(eatq_phenx_finish_p, eatq_phenx_deal_p, eatq_phenx_before_hw_p, eatq_phenx_right_away_p, eatq_phenx_finish_hw_p, eatq_phenx_early_start_p, eatq_phenx_puts_off_p); Validation: Maximum of 1 item missing"
+    },
+    "question": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent activation; sum(eatq_phenx_finish_p, eatq_phenx_deal_p, eatq_phenx_before_hw_p, eatq_phenx_right_away_p, eatq_phenx_finish_hw_p, eatq_phenx_early_start_p, eatq_phenx_puts_off_p); Validation: Maximum of 1 item missing"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

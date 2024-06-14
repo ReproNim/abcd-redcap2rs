@@ -1,0 +1,24 @@
+{
+    "id": "lmt_scr_num_wrong",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "lmt_scr_num_wrong of nc_y_lmt"
+    },
+    "prefLabel": {
+        "en": "Number wrong, not including timed out"
+    },
+    "question": {
+        "en": "Number wrong, not including timed out"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,3486 @@
+{
+    "id": "su_p_ksads_sud_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Consequence in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_P_Ksads_Sud"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ksads_aud_raw_1218_p",
+            "items/ksads_aud_raw_1203_p",
+            "items/ksads_aud_raw_1204_p",
+            "items/ksads_aud_raw_1206_p",
+            "items/ksads_aud_raw_1207_p",
+            "items/ksads_aud_raw_1208_p",
+            "items/ksads_aud_raw_1209_p",
+            "items/ksads_aud_raw_1210_p",
+            "items/ksads_aud_raw_1211_p",
+            "items/ksads_aud_raw_1212_p",
+            "items/ksads_aud_raw_1213_p",
+            "items/ksads_aud_raw_1214_p",
+            "items/ksads_aud_raw_1215_p",
+            "items/ksads_aud_raw_1216_p",
+            "items/ksads_aud_raw_1217_p",
+            "items/ksads_aud_raw_1202_p",
+            "items/ksads_aud_raw_1219_p",
+            "items/ksads_aud_raw_2115_p",
+            "items/ksads_aud_raw_2116_p",
+            "items/ksads_aud_raw_2117_p",
+            "items/ksads_aud_raw_2118_p",
+            "items/ksads_aud_raw_2119_p",
+            "items/ksads_aud_raw_589_p",
+            "items/ksads_aud_raw_591_p",
+            "items/ksads_aud_raw_592_p",
+            "items/ksads_aud_raw_593_p",
+            "items/ksads_aud_raw_594_p",
+            "items/ksads_aud_raw_595_p",
+            "items/ksads_aud_raw_1184_p",
+            "items/ksads_aud_raw_1187_p",
+            "items/ksads_aud_raw_1201_p",
+            "items/ksads_aud_raw_578_p",
+            "items/ksads_aud_raw_579_p",
+            "items/ksads_aud_raw_580_p",
+            "items/ksads_aud_raw_581_p",
+            "items/ksads_aud_raw_586_p",
+            "items/ksads_aud_raw_587_p",
+            "items/ksads_aud_raw_1174_p",
+            "items/ksads_aud_raw_1175_p",
+            "items/ksads_aud_raw_1177_p",
+            "items/ksads_aud_raw_1178_p",
+            "items/ksads_aud_raw_1180_p",
+            "items/ksads_aud_raw_1181_p",
+            "items/ksads_aud_raw_1185_p",
+            "items/ksads_aud_raw_1200_p",
+            "items/ksads_aud_raw_1198_p",
+            "items/ksads_aud_raw_1197_p",
+            "items/ksads_aud_raw_1195_p",
+            "items/ksads_aud_raw_1194_p",
+            "items/ksads_aud_raw_1192_p",
+            "items/ksads_aud_raw_1191_p",
+            "items/ksads_aud_raw_1189_p",
+            "items/ksads_aud_raw_1188_p",
+            "items/ksads_aud_raw_1183_p",
+            "items/ksads_dud_raw_604_p",
+            "items/ksads_dud_raw_605_p",
+            "items/ksads_dud_raw_606_p",
+            "items/ksads_dud_raw_607_p",
+            "items/ksads_dud_raw_608_p",
+            "items/ksads_dud_raw_609_p",
+            "items/ksads_dud_raw_610_p",
+            "items/ksads_dud_raw_611_p",
+            "items/ksads_dud_raw_612_p",
+            "items/ksads_dud_raw_614_p",
+            "items/ksads_dud_raw_615_p",
+            "items/ksads_dud_raw_616_p",
+            "items/ksads_dud_raw_617_p",
+            "items/ksads_dud_raw_618_p",
+            "items/ksads_dud_raw_619_p",
+            "items/ksads_dud_raw_620_p",
+            "items/ksads_dud_raw_621_p",
+            "items/ksads_dud_raw_622_p",
+            "items/ksads_dud_raw_624_p",
+            "items/ksads_dud_raw_625_p",
+            "items/ksads_dud_raw_626_p",
+            "items/ksads_dud_raw_627_p",
+            "items/ksads_dud_raw_628_p",
+            "items/ksads_dud_raw_629_p",
+            "items/ksads_dud_raw_630_p",
+            "items/ksads_dud_raw_631_p",
+            "items/ksads_dud_raw_632_p",
+            "items/ksads_dud_raw_634_p",
+            "items/ksads_dud_raw_635_p",
+            "items/ksads_dud_raw_636_p",
+            "items/ksads_dud_raw_637_p",
+            "items/ksads_dud_raw_638_p",
+            "items/ksads_dud_raw_639_p",
+            "items/ksads_dud_raw_640_p",
+            "items/ksads_dud_raw_641_p",
+            "items/ksads_dud_raw_642_p",
+            "items/ksads_dud_raw_644_p",
+            "items/ksads_dud_raw_645_p",
+            "items/ksads_dud_raw_646_p",
+            "items/ksads_dud_raw_647_p",
+            "items/ksads_dud_raw_648_p",
+            "items/ksads_dud_raw_649_p",
+            "items/ksads_dud_raw_650_p",
+            "items/ksads_dud_raw_651_p",
+            "items/ksads_dud_raw_652_p",
+            "items/ksads_dud_raw_654_p",
+            "items/ksads_dud_raw_655_p",
+            "items/ksads_dud_raw_656_p",
+            "items/ksads_dud_raw_657_p",
+            "items/ksads_dud_raw_658_p",
+            "items/ksads_dud_raw_659_p",
+            "items/ksads_dud_raw_660_p",
+            "items/ksads_dud_raw_661_p",
+            "items/ksads_dud_raw_662_p",
+            "items/ksads_dud_raw_674_p",
+            "items/ksads_dud_raw_675_p",
+            "items/ksads_dud_raw_676_p",
+            "items/ksads_dud_raw_677_p",
+            "items/ksads_dud_raw_678_p",
+            "items/ksads_dud_raw_679_p",
+            "items/ksads_dud_raw_680_p",
+            "items/ksads_dud_raw_681_p",
+            "items/ksads_dud_raw_682_p",
+            "items/ksads_dud_raw_684_p",
+            "items/ksads_dud_raw_685_p",
+            "items/ksads_dud_raw_686_p",
+            "items/ksads_dud_raw_687_p",
+            "items/ksads_dud_raw_688_p",
+            "items/ksads_dud_raw_689_p",
+            "items/ksads_dud_raw_690_p",
+            "items/ksads_dud_raw_691_p",
+            "items/ksads_dud_raw_692_p",
+            "items/ksads_dud_raw_704_p",
+            "items/ksads_dud_raw_705_p",
+            "items/ksads_dud_raw_706_p",
+            "items/ksads_dud_raw_707_p",
+            "items/ksads_dud_raw_708_p",
+            "items/ksads_dud_raw_709_p",
+            "items/ksads_dud_raw_710_p",
+            "items/ksads_dud_raw_711_p",
+            "items/ksads_dud_raw_712_p",
+            "items/ksads_dud_raw_714_p",
+            "items/ksads_dud_raw_715_p",
+            "items/ksads_dud_raw_716_p",
+            "items/ksads_dud_raw_717_p",
+            "items/ksads_dud_raw_718_p",
+            "items/ksads_dud_raw_719_p",
+            "items/ksads_dud_raw_720_p",
+            "items/ksads_dud_raw_721_p",
+            "items/ksads_dud_raw_722_p",
+            "items/ksads_dud_raw_1221_p",
+            "items/ksads_dud_raw_1222_p",
+            "items/ksads_dud_raw_1223_p",
+            "items/ksads_dud_raw_1224_p",
+            "items/ksads_dud_raw_1225_p",
+            "items/ksads_dud_raw_1226_p",
+            "items/ksads_dud_raw_1227_p",
+            "items/ksads_dud_raw_1228_p",
+            "items/ksads_dud_raw_1229_p",
+            "items/ksads_dud_raw_1231_p",
+            "items/ksads_dud_raw_1232_p",
+            "items/ksads_dud_raw_1233_p",
+            "items/ksads_dud_raw_1234_p",
+            "items/ksads_dud_raw_1235_p",
+            "items/ksads_dud_raw_1236_p",
+            "items/ksads_dud_raw_1237_p",
+            "items/ksads_dud_raw_1238_p",
+            "items/ksads_dud_raw_1239_p",
+            "items/ksads_dud_raw_1251_p",
+            "items/ksads_dud_raw_1252_p",
+            "items/ksads_dud_raw_1253_p",
+            "items/ksads_dud_raw_1254_p",
+            "items/ksads_dud_raw_1255_p",
+            "items/ksads_dud_raw_1256_p",
+            "items/ksads_dud_raw_1257_p",
+            "items/ksads_dud_raw_1258_p",
+            "items/ksads_dud_raw_1259_p",
+            "items/ksads_dud_raw_1261_p",
+            "items/ksads_dud_raw_1262_p",
+            "items/ksads_dud_raw_1263_p",
+            "items/ksads_dud_raw_1264_p",
+            "items/ksads_dud_raw_1265_p",
+            "items/ksads_dud_raw_1266_p",
+            "items/ksads_dud_raw_1267_p",
+            "items/ksads_dud_raw_1268_p",
+            "items/ksads_dud_raw_1269_p",
+            "items/ksads_dud_raw_1281_p",
+            "items/ksads_dud_raw_1282_p",
+            "items/ksads_dud_raw_1283_p",
+            "items/ksads_dud_raw_1284_p",
+            "items/ksads_dud_raw_1285_p",
+            "items/ksads_dud_raw_1286_p",
+            "items/ksads_dud_raw_1287_p",
+            "items/ksads_dud_raw_1288_p",
+            "items/ksads_dud_raw_1289_p",
+            "items/ksads_dud_raw_1291_p",
+            "items/ksads_dud_raw_1292_p",
+            "items/ksads_dud_raw_1293_p",
+            "items/ksads_dud_raw_1294_p",
+            "items/ksads_dud_raw_1295_p",
+            "items/ksads_dud_raw_1296_p",
+            "items/ksads_dud_raw_1297_p",
+            "items/ksads_dud_raw_1298_p",
+            "items/ksads_dud_raw_1299_p",
+            "items/ksads_dud_raw_1311_p",
+            "items/ksads_dud_raw_1312_p",
+            "items/ksads_dud_raw_1313_p",
+            "items/ksads_dud_raw_1314_p",
+            "items/ksads_dud_raw_1315_p",
+            "items/ksads_dud_raw_1316_p",
+            "items/ksads_dud_raw_1317_p",
+            "items/ksads_dud_raw_1318_p",
+            "items/ksads_dud_raw_1319_p",
+            "items/ksads_dud_raw_1322_p",
+            "items/ksads_dud_raw_1323_p",
+            "items/ksads_dud_raw_1324_p",
+            "items/ksads_dud_raw_1325_p",
+            "items/ksads_dud_raw_1326_p",
+            "items/ksads_dud_raw_1327_p",
+            "items/ksads_dud_raw_1328_p",
+            "items/ksads_dud_raw_1329_p",
+            "items/ksads_dud_raw_1330_p",
+            "items/ksads_dud_raw_1343_p",
+            "items/ksads_dud_raw_1344_p",
+            "items/ksads_dud_raw_1345_p",
+            "items/ksads_dud_raw_1346_p",
+            "items/ksads_dud_raw_1347_p",
+            "items/ksads_dud_raw_1348_p",
+            "items/ksads_dud_raw_1349_p",
+            "items/ksads_dud_raw_1350_p",
+            "items/ksads_dud_raw_1351_p",
+            "items/ksads_dud_raw_1353_p",
+            "items/ksads_dud_raw_1354_p",
+            "items/ksads_dud_raw_1355_p",
+            "items/ksads_dud_raw_1356_p",
+            "items/ksads_dud_raw_1357_p",
+            "items/ksads_dud_raw_1358_p",
+            "items/ksads_dud_raw_1359_p",
+            "items/ksads_dud_raw_1360_p",
+            "items/ksads_dud_raw_1361_p",
+            "items/ksads_dud_raw_1373_p",
+            "items/ksads_dud_raw_1374_p",
+            "items/ksads_dud_raw_1375_p",
+            "items/ksads_dud_raw_1376_p",
+            "items/ksads_dud_raw_1377_p",
+            "items/ksads_dud_raw_1378_p",
+            "items/ksads_dud_raw_1379_p",
+            "items/ksads_dud_raw_1380_p",
+            "items/ksads_dud_raw_1381_p",
+            "items/ksads_dud_raw_1383_p",
+            "items/ksads_dud_raw_1384_p",
+            "items/ksads_dud_raw_1385_p",
+            "items/ksads_dud_raw_1386_p",
+            "items/ksads_dud_raw_1387_p",
+            "items/ksads_dud_raw_1388_p",
+            "items/ksads_dud_raw_1389_p",
+            "items/ksads_dud_raw_1390_p",
+            "items/ksads_dud_raw_1391_p",
+            "items/ksads_dud_raw_1403_p",
+            "items/ksads_dud_raw_1404_p",
+            "items/ksads_dud_raw_1405_p",
+            "items/ksads_dud_raw_1406_p",
+            "items/ksads_dud_raw_1407_p",
+            "items/ksads_dud_raw_1408_p",
+            "items/ksads_dud_raw_1409_p",
+            "items/ksads_dud_raw_1410_p",
+            "items/ksads_dud_raw_1411_p",
+            "items/ksads_dud_raw_1413_p",
+            "items/ksads_dud_raw_1414_p",
+            "items/ksads_dud_raw_1415_p",
+            "items/ksads_dud_raw_1416_p",
+            "items/ksads_dud_raw_1417_p",
+            "items/ksads_dud_raw_1418_p",
+            "items/ksads_dud_raw_1419_p",
+            "items/ksads_dud_raw_1420_p",
+            "items/ksads_dud_raw_1421_p",
+            "items/ksads_dud_raw_1433_p",
+            "items/ksads_dud_raw_1434_p",
+            "items/ksads_dud_raw_1435_p",
+            "items/ksads_dud_raw_1436_p",
+            "items/ksads_dud_raw_1437_p",
+            "items/ksads_dud_raw_1438_p",
+            "items/ksads_dud_raw_1439_p",
+            "items/ksads_dud_raw_1440_p",
+            "items/ksads_dud_raw_1441_p",
+            "items/ksads_dud_raw_1443_p",
+            "items/ksads_dud_raw_1444_p",
+            "items/ksads_dud_raw_1445_p",
+            "items/ksads_dud_raw_1446_p",
+            "items/ksads_dud_raw_1447_p",
+            "items/ksads_dud_raw_1448_p",
+            "items/ksads_dud_raw_1449_p",
+            "items/ksads_dud_raw_1450_p",
+            "items/ksads_dud_raw_1451_p",
+            "items/ksads_dud_raw_1463_p",
+            "items/ksads_dud_raw_1464_p",
+            "items/ksads_dud_raw_1465_p",
+            "items/ksads_dud_raw_1466_p",
+            "items/ksads_dud_raw_1467_p",
+            "items/ksads_dud_raw_1468_p",
+            "items/ksads_dud_raw_1469_p",
+            "items/ksads_dud_raw_1470_p",
+            "items/ksads_dud_raw_1471_p",
+            "items/ksads_dud_raw_1473_p",
+            "items/ksads_dud_raw_1474_p",
+            "items/ksads_dud_raw_1475_p",
+            "items/ksads_dud_raw_1476_p",
+            "items/ksads_dud_raw_1477_p",
+            "items/ksads_dud_raw_1478_p",
+            "items/ksads_dud_raw_1479_p",
+            "items/ksads_dud_raw_1480_p",
+            "items/ksads_dud_raw_1481_p",
+            "items/ksads_dud_raw_1483_p",
+            "items/ksads_dud_raw_1484_p",
+            "items/ksads_dud_raw_1485_p",
+            "items/ksads_dud_raw_1486_p",
+            "items/ksads_dud_raw_1487_p",
+            "items/ksads_dud_raw_1488_p",
+            "items/ksads_dud_raw_1489_p",
+            "items/ksads_dud_raw_1490_p",
+            "items/ksads_dud_raw_1491_p",
+            "items/ksads_dud_raw_1493_p",
+            "items/ksads_dud_raw_1494_p",
+            "items/ksads_dud_raw_1495_p",
+            "items/ksads_dud_raw_1496_p",
+            "items/ksads_dud_raw_1497_p",
+            "items/ksads_dud_raw_1498_p",
+            "items/ksads_dud_raw_1499_p",
+            "items/ksads_dud_raw_1500_p",
+            "items/ksads_dud_raw_1501_p",
+            "items/ksads_dud_raw_1503_p",
+            "items/ksads_dud_raw_1504_p",
+            "items/ksads_dud_raw_1505_p",
+            "items/ksads_dud_raw_1506_p",
+            "items/ksads_dud_raw_1507_p",
+            "items/ksads_dud_raw_1508_p",
+            "items/ksads_dud_raw_1509_p",
+            "items/ksads_dud_raw_1510_p",
+            "items/ksads_dud_raw_1511_p",
+            "items/ksads_dud_raw_1513_p",
+            "items/ksads_dud_raw_1514_p",
+            "items/ksads_dud_raw_1515_p",
+            "items/ksads_dud_raw_1516_p",
+            "items/ksads_dud_raw_1517_p",
+            "items/ksads_dud_raw_1518_p",
+            "items/ksads_dud_raw_1519_p",
+            "items/ksads_dud_raw_1520_p",
+            "items/ksads_dud_raw_1521_p",
+            "items/ksads_dud_raw_1523_p",
+            "items/ksads_dud_raw_1524_p",
+            "items/ksads_dud_raw_1525_p",
+            "items/ksads_dud_raw_1526_p",
+            "items/ksads_dud_raw_1527_p",
+            "items/ksads_dud_raw_1528_p",
+            "items/ksads_dud_raw_1529_p",
+            "items/ksads_dud_raw_1530_p",
+            "items/ksads_dud_raw_1531_p",
+            "items/ksads_dud_raw_1533_p",
+            "items/ksads_dud_raw_1534_p",
+            "items/ksads_dud_raw_1535_p",
+            "items/ksads_dud_raw_1536_p",
+            "items/ksads_dud_raw_1537_p",
+            "items/ksads_dud_raw_1538_p",
+            "items/ksads_dud_raw_1539_p",
+            "items/ksads_dud_raw_1540_p",
+            "items/ksads_dud_raw_1541_p",
+            "items/ksads_dud_raw_1543_p",
+            "items/ksads_dud_raw_1544_p",
+            "items/ksads_dud_raw_1545_p",
+            "items/ksads_dud_raw_1546_p",
+            "items/ksads_dud_raw_1547_p",
+            "items/ksads_dud_raw_1548_p",
+            "items/ksads_dud_raw_1549_p",
+            "items/ksads_dud_raw_1550_p",
+            "items/ksads_dud_raw_1551_p",
+            "items/ksads_dud_raw_1553_p",
+            "items/ksads_dud_raw_1554_p",
+            "items/ksads_dud_raw_1555_p",
+            "items/ksads_dud_raw_1556_p",
+            "items/ksads_dud_raw_1557_p",
+            "items/ksads_dud_raw_1558_p",
+            "items/ksads_dud_raw_1559_p",
+            "items/ksads_dud_raw_1560_p",
+            "items/ksads_dud_raw_1561_p",
+            "items/ksads_dud_raw_1563_p",
+            "items/ksads_dud_raw_1564_p",
+            "items/ksads_dud_raw_1565_p",
+            "items/ksads_dud_raw_1566_p",
+            "items/ksads_dud_raw_1567_p",
+            "items/ksads_dud_raw_1568_p",
+            "items/ksads_dud_raw_1569_p",
+            "items/ksads_dud_raw_1570_p",
+            "items/ksads_dud_raw_1571_p",
+            "items/ksads_dud_raw_1573_p",
+            "items/ksads_dud_raw_1574_p",
+            "items/ksads_dud_raw_1575_p",
+            "items/ksads_dud_raw_1576_p",
+            "items/ksads_dud_raw_1577_p",
+            "items/ksads_dud_raw_1578_p",
+            "items/ksads_dud_raw_1579_p",
+            "items/ksads_dud_raw_1580_p",
+            "items/ksads_dud_raw_1581_p",
+            "items/ksads_dud_raw_1583_p",
+            "items/ksads_dud_raw_1584_p",
+            "items/ksads_dud_raw_1585_p",
+            "items/ksads_dud_raw_1586_p",
+            "items/ksads_dud_raw_1587_p",
+            "items/ksads_dud_raw_1588_p",
+            "items/ksads_dud_raw_1589_p",
+            "items/ksads_dud_raw_1590_p",
+            "items/ksads_dud_raw_1591_p",
+            "items/ksads_dud_raw_1593_p",
+            "items/ksads_dud_raw_1594_p",
+            "items/ksads_dud_raw_1595_p",
+            "items/ksads_dud_raw_1596_p",
+            "items/ksads_dud_raw_1597_p",
+            "items/ksads_dud_raw_1598_p",
+            "items/ksads_dud_raw_1599_p",
+            "items/ksads_dud_raw_1600_p",
+            "items/ksads_dud_raw_1601_p",
+            "items/ksads_dud_raw_1603_p",
+            "items/ksads_dud_raw_1604_p",
+            "items/ksads_dud_raw_1605_p",
+            "items/ksads_dud_raw_1606_p",
+            "items/ksads_dud_raw_1607_p",
+            "items/ksads_dud_raw_1608_p",
+            "items/ksads_dud_raw_1609_p",
+            "items/ksads_dud_raw_1610_p",
+            "items/ksads_dud_raw_1611_p",
+            "items/ksads_dud_raw_1613_p",
+            "items/ksads_dud_raw_1614_p",
+            "items/ksads_dud_raw_1615_p",
+            "items/ksads_dud_raw_1616_p",
+            "items/ksads_dud_raw_1617_p",
+            "items/ksads_dud_raw_1618_p",
+            "items/ksads_dud_raw_1619_p",
+            "items/ksads_dud_raw_1620_p",
+            "items/ksads_dud_raw_1621_p",
+            "items/ksads_dud_raw_1623_p",
+            "items/ksads_dud_raw_1624_p",
+            "items/ksads_dud_raw_1625_p",
+            "items/ksads_dud_raw_1626_p",
+            "items/ksads_dud_raw_1627_p",
+            "items/ksads_dud_raw_1628_p",
+            "items/ksads_dud_raw_1629_p",
+            "items/ksads_dud_raw_1630_p",
+            "items/ksads_dud_raw_1631_p",
+            "items/ksads_dud_raw_1633_p",
+            "items/ksads_dud_raw_1634_p",
+            "items/ksads_dud_raw_1635_p",
+            "items/ksads_dud_raw_1636_p",
+            "items/ksads_dud_raw_1637_p",
+            "items/ksads_dud_raw_1638_p",
+            "items/ksads_dud_raw_1639_p",
+            "items/ksads_dud_raw_1640_p",
+            "items/ksads_dud_raw_1641_p",
+            "items/ksads_dud_raw_1643_p",
+            "items/ksads_dud_raw_1644_p",
+            "items/ksads_dud_raw_1645_p",
+            "items/ksads_dud_raw_1646_p",
+            "items/ksads_dud_raw_1647_p",
+            "items/ksads_dud_raw_1648_p",
+            "items/ksads_dud_raw_1649_p",
+            "items/ksads_dud_raw_1650_p",
+            "items/ksads_dud_raw_1651_p",
+            "items/ksads_dud_raw_1653_p",
+            "items/ksads_dud_raw_1654_p",
+            "items/ksads_dud_raw_1655_p",
+            "items/ksads_dud_raw_1656_p",
+            "items/ksads_dud_raw_1657_p",
+            "items/ksads_dud_raw_1658_p",
+            "items/ksads_dud_raw_1659_p",
+            "items/ksads_dud_raw_1660_p",
+            "items/ksads_dud_raw_1661_p",
+            "items/ksads_dud_raw_2106_p",
+            "items/ksads_dud_raw_2107_p",
+            "items/ksads_dud_raw_2108_p",
+            "items/ksads_dud_raw_2109_p",
+            "items/ksads_dud_raw_2110_p",
+            "items/ksads_dud_raw_2111_p",
+            "items/ksads_dud_raw_2112_p",
+            "items/ksads_dud_raw_2113_p",
+            "items/ksads_dud_raw_2114_p",
+            "items/ksads_dud_raw_2123_p",
+            "items/ksads_dud_raw_2124_p",
+            "items/ksads_dud_raw_2125_p",
+            "items/ksads_dud_raw_2126_p",
+            "items/ksads_dud_raw_2127_p",
+            "items/ksads_dud_raw_2128_p",
+            "items/ksads_dud_raw_2129_p",
+            "items/ksads_dud_raw_2130_p",
+            "items/ksads_dud_raw_2131_p",
+            "items/ksads_dud_raw_2133_p",
+            "items/ksads_dud_raw_2134_p",
+            "items/ksads_dud_raw_2135_p",
+            "items/ksads_dud_raw_2136_p",
+            "items/ksads_dud_raw_2137_p",
+            "items/ksads_dud_raw_2138_p",
+            "items/ksads_dud_raw_2139_p",
+            "items/ksads_dud_raw_2140_p",
+            "items/ksads_dud_raw_2141_p"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ksads_aud_raw_1218_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1218_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1203_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1203_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1204_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1204_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1206_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1206_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1207_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1207_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1208_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1208_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1209_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1209_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1210_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1210_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1211_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1211_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1212_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1212_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1213_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1213_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1214_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1214_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1215_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1215_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1216_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1216_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1217_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1217_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1202_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1202_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1219_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1219_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_2115_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_2115_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_2116_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_2116_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_2117_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_2117_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_2118_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_2118_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_2119_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_2119_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_589_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_589_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_591_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_591_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_592_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_592_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_593_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_593_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_594_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_594_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_595_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_595_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1184_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1184_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1187_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1187_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1201_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1201_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_578_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_578_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_579_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_579_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_580_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_580_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_581_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_581_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_586_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_586_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_587_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_587_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1174_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1174_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1175_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1175_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1177_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1177_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1178_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1178_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1180_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1180_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1181_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1181_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1185_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1185_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1200_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1200_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1198_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1198_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1197_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1197_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1195_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1195_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1194_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1194_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1192_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1192_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1191_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1191_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1189_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1189_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1188_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1188_p"
+            },
+            {
+                "isAbout": "items/ksads_aud_raw_1183_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_aud_raw_1183_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_604_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_604_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_605_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_605_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_606_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_606_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_607_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_607_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_608_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_608_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_609_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_609_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_610_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_610_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_611_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_611_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_612_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_612_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_614_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_614_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_615_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_615_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_616_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_616_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_617_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_617_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_618_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_618_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_619_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_619_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_620_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_620_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_621_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_621_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_622_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_622_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_624_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_624_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_625_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_625_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_626_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_626_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_627_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_627_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_628_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_628_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_629_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_629_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_630_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_630_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_631_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_631_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_632_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_632_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_634_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_634_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_635_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_635_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_636_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_636_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_637_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_637_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_638_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_638_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_639_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_639_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_640_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_640_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_641_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_641_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_642_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_642_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_644_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_644_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_645_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_645_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_646_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_646_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_647_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_647_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_648_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_648_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_649_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_649_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_650_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_650_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_651_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_651_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_652_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_652_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_654_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_654_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_655_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_655_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_656_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_656_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_657_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_657_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_658_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_658_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_659_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_659_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_660_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_660_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_661_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_661_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_662_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_662_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_674_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_674_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_675_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_675_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_676_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_676_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_677_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_677_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_678_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_678_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_679_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_679_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_680_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_680_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_681_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_681_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_682_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_682_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_684_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_684_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_685_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_685_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_686_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_686_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_687_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_687_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_688_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_688_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_689_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_689_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_690_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_690_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_691_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_691_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_692_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_692_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_704_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_704_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_705_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_705_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_706_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_706_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_707_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_707_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_708_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_708_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_709_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_709_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_710_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_710_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_711_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_711_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_712_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_712_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_714_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_714_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_715_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_715_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_716_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_716_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_717_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_717_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_718_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_718_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_719_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_719_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_720_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_720_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_721_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_721_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_722_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_722_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1221_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1221_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1222_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1222_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1223_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1223_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1224_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1224_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1225_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1225_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1226_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1226_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1227_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1227_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1228_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1228_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1229_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1229_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1231_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1231_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1232_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1232_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1233_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1233_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1234_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1234_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1235_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1235_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1236_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1236_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1237_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1237_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1238_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1238_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1239_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1239_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1251_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1251_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1252_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1252_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1253_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1253_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1254_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1254_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1255_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1255_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1256_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1256_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1257_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1257_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1258_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1258_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1259_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1259_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1261_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1261_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1262_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1262_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1263_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1263_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1264_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1264_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1265_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1265_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1266_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1266_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1267_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1267_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1268_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1268_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1269_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1269_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1281_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1281_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1282_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1282_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1283_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1283_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1284_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1284_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1285_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1285_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1286_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1286_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1287_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1287_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1288_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1288_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1289_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1289_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1291_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1291_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1292_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1292_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1293_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1293_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1294_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1294_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1295_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1295_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1296_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1296_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1297_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1297_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1298_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1298_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1299_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1299_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1311_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1311_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1312_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1312_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1313_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1313_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1314_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1314_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1315_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1315_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1316_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1316_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1317_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1317_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1318_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1318_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1319_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1319_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1322_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1322_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1323_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1323_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1324_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1324_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1325_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1325_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1326_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1326_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1327_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1327_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1328_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1328_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1329_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1329_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1330_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1330_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1343_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1343_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1344_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1344_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1345_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1345_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1346_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1346_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1347_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1347_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1348_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1348_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1349_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1349_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1350_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1350_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1351_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1351_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1353_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1353_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1354_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1354_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1355_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1355_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1356_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1356_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1357_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1357_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1358_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1358_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1359_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1359_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1360_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1360_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1361_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1361_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1373_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1373_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1374_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1374_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1375_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1375_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1376_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1376_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1377_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1377_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1378_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1378_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1379_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1379_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1380_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1380_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1381_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1381_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1383_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1383_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1384_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1384_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1385_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1385_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1386_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1386_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1387_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1387_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1388_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1388_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1389_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1389_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1390_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1390_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1391_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1391_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1403_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1403_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1404_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1404_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1405_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1405_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1406_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1406_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1407_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1407_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1408_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1408_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1409_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1409_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1410_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1410_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1411_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1411_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1413_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1413_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1414_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1414_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1415_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1415_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1416_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1416_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1417_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1417_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1418_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1418_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1419_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1419_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1420_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1420_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1421_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1421_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1433_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1433_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1434_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1434_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1435_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1435_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1436_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1436_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1437_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1437_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1438_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1438_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1439_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1439_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1440_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1440_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1441_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1441_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1443_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1443_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1444_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1444_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1445_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1445_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1446_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1446_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1447_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1447_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1448_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1448_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1449_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1449_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1450_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1450_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1451_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1451_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1463_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1463_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1464_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1464_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1465_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1465_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1466_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1466_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1467_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1467_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1468_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1468_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1469_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1469_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1470_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1470_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1471_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1471_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1473_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1473_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1474_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1474_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1475_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1475_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1476_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1476_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1477_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1477_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1478_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1478_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1479_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1479_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1480_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1480_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1481_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1481_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1483_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1483_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1484_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1484_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1485_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1485_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1486_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1486_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1487_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1487_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1488_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1488_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1489_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1489_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1490_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1490_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1491_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1491_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1493_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1493_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1494_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1494_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1495_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1495_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1496_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1496_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1497_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1497_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1498_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1498_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1499_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1499_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1500_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1500_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1501_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1501_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1503_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1503_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1504_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1504_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1505_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1505_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1506_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1506_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1507_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1507_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1508_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1508_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1509_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1509_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1510_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1510_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1511_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1511_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1513_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1513_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1514_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1514_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1515_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1515_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1516_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1516_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1517_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1517_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1518_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1518_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1519_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1519_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1520_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1520_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1521_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1521_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1523_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1523_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1524_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1524_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1525_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1525_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1526_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1526_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1527_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1527_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1528_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1528_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1529_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1529_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1530_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1530_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1531_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1531_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1533_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1533_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1534_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1534_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1535_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1535_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1536_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1536_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1537_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1537_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1538_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1538_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1539_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1539_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1540_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1540_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1541_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1541_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1543_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1543_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1544_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1544_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1545_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1545_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1546_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1546_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1547_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1547_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1548_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1548_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1549_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1549_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1550_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1550_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1551_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1551_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1553_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1553_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1554_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1554_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1555_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1555_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1556_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1556_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1557_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1557_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1558_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1558_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1559_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1559_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1560_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1560_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1561_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1561_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1563_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1563_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1564_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1564_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1565_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1565_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1566_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1566_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1567_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1567_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1568_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1568_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1569_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1569_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1570_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1570_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1571_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1571_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1573_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1573_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1574_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1574_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1575_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1575_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1576_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1576_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1577_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1577_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1578_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1578_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1579_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1579_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1580_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1580_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1581_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1581_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1583_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1583_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1584_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1584_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1585_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1585_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1586_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1586_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1587_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1587_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1588_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1588_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1589_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1589_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1590_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1590_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1591_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1591_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1593_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1593_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1594_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1594_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1595_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1595_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1596_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1596_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1597_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1597_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1598_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1598_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1599_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1599_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1600_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1600_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1601_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1601_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1603_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1603_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1604_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1604_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1605_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1605_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1606_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1606_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1607_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1607_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1608_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1608_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1609_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1609_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1610_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1610_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1611_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1611_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1613_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1613_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1614_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1614_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1615_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1615_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1616_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1616_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1617_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1617_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1618_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1618_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1619_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1619_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1620_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1620_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1621_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1621_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1623_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1623_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1624_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1624_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1625_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1625_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1626_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1626_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1627_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1627_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1628_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1628_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1629_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1629_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1630_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1630_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1631_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1631_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1633_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1633_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1634_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1634_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1635_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1635_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1636_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1636_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1637_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1637_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1638_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1638_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1639_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1639_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1640_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1640_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1641_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1641_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1643_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1643_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1644_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1644_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1645_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1645_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1646_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1646_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1647_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1647_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1648_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1648_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1649_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1649_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1650_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1650_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1651_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1651_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1653_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1653_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1654_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1654_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1655_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1655_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1656_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1656_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1657_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1657_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1658_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1658_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1659_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1659_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1660_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1660_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_1661_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_1661_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2106_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2106_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2107_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2107_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2108_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2108_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2109_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2109_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2110_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2110_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2111_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2111_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2112_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2112_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2113_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2113_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2114_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2114_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2123_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2123_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2124_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2124_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2125_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2125_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2126_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2126_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2127_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2127_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2128_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2128_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2129_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2129_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2130_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2130_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2131_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2131_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2133_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2133_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2134_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2134_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2135_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2135_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2136_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2136_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2137_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2137_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2138_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2138_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2139_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2139_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2140_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2140_p"
+            },
+            {
+                "isAbout": "items/ksads_dud_raw_2141_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ksads_dud_raw_2141_p"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

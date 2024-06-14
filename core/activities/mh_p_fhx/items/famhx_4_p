@@ -1,0 +1,54 @@
+{
+    "id": "famhx_4_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "famhx_4_p of mh_p_fhx"
+    },
+    "prefLabel": {
+        "en": "4. Has ANY blood relative of your child ever had any problems due to alcohol, such as: Marital  separation or divorce; Laid off or fired from work; Arrests or DUIs; Alcohol harmed their health; In an alcohol treatment program; Suspended or expelled from school 2 or more times; Isolated self from family, caused arguments or were drunk a lot. \u00bfAlg\u00fan pariente consangu\u00edneo de su ni\u00f1o(a) ha tenido alguna vez problemas debido al alcohol, como una separaci\u00f3n o divorcio, Despido o cese laboral, Arrestos o multas por conducir bajo la influencia de drogas, Da\u00f1os a la salud por causa del alcohol, Ingreso a un programa de tratamiento contra el alcoholismo, suspensi\u00f3n o expulsi\u00f3n de la escuela en 2 o m\u00e1s ocasiones, se aisl\u00f3 de la familia, provoc\u00f3 conflictos o con frecuencia estaba embriagado?"
+    },
+    "question": {
+        "en": "4. Has ANY blood relative of your child ever had any problems due to alcohol, such as: Marital  separation or divorce; Laid off or fired from work; Arrests or DUIs; Alcohol harmed their health; In an alcohol treatment program; Suspended or expelled from school 2 or more times; Isolated self from family, caused arguments or were drunk a lot.",
+        "es": "\u00bfAlg\u00fan pariente consangu\u00edneo de su ni\u00f1o(a) ha tenido alguna vez problemas debido al alcohol, como una separaci\u00f3n o divorcio, Despido o cese laboral, Arrestos o multas por conducir bajo la influencia de drogas, Da\u00f1os a la salud por causa del alcohol, Ingreso a un programa de tratamiento contra el alcoholismo, suspensi\u00f3n o expulsi\u00f3n de la escuela en 2 o m\u00e1s ocasiones, se aisl\u00f3 de la familia, provoc\u00f3 conflictos o con frecuencia estaba embriagado?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know No lo s\u00e9"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer Niego contestar /  famhx_1   == 1"
+                },
+                "value": 7
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

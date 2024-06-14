@@ -1,0 +1,25 @@
+{
+    "id": "medhx_9b",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "medhx_9b of ph_p_mhx"
+    },
+    "prefLabel": {
+        "en": "general anesthesia or sedation for any surgery or procedure. How many times? / \u00bfCu\u00e1ntas veces?"
+    },
+    "question": {
+        "en": "general anesthesia or sedation for any surgery or procedure. How many times?",
+        "es": "\u00bfCu\u00e1ntas veces?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

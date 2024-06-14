@@ -1,0 +1,89 @@
+{
+    "id": "bfq_other5_unit_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bfq_other5_unit_p of ph_p_bfq"
+    },
+    "prefLabel": {
+        "en": "Unit(s):"
+    },
+    "question": {
+        "en": "Unit(s):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "gram (g)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "microgram (mcg)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "milligram (mg)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "kilogram (kg)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "megagram (mgg)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "liter (L)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "ounce (oz)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "pound (lb)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "quart (qt)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "International Units (IU) [bfq_other5_name_2_p] <> '0' and [bfq_other5_name_2_p] <> \"\" and [bfq_other5_amt_p_dk] = ''"
+                },
+                "value": 10
+            }
+        ],
+        "maxValue": 10,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

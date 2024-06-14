@@ -1,0 +1,59 @@
+{
+    "id": "ksads_aud_raw_1174_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_aud_raw_1174_p of su_p_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "In the past two weeks, how often has your child drunk more than he or she planned?"
+    },
+    "question": {
+        "en": "In the past two weeks, how often has your child drunk more than he or she planned?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Several days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "More than half the days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Nearly every day"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

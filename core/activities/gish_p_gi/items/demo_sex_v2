@@ -1,0 +1,66 @@
+{
+    "id": "demo_sex_v2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_sex_v2 of gish_p_gi"
+    },
+    "prefLabel": {
+        "en": "What sex was the child assigned at birth, on the original birth certificate? \u00ac\u00f8Qu\u221a\u00a9 sexo se le asign\u221a\u2265 al/la ni\u221a\u00b1o(a) cuando naci\u221a\u2265, en su acta de nacimiento original?"
+    },
+    "question": {
+        "en": "What sex was the child assigned at birth, on the original birth certificate? \u00ac\u00f8Qu\u221a\u00a9 sexo se le asign\u221a\u2265 al",
+        "es": "la ni\u221a\u00b1o(a) cuando naci\u221a\u2265, en su acta de nacimiento original?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Male Masculino"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Female Femenino"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Intersex-Male Entre sexo-masculino"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Intersex-Female Entre sexo-femenino"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't know No lo s\u221a\u00c9\u00ac\u00a9"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer Prefiero no responder"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

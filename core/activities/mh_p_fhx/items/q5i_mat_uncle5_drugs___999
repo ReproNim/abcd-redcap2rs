@@ -1,0 +1,41 @@
+{
+    "id": "q5i_mat_uncle5_drugs___999",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "q5i_mat_uncle5_drugs___999 of mh_p_fhx"
+    },
+    "prefLabel": {
+        "en": "maternal uncle T\u00c3\u00ado materno (5) (Don't know No s\u00c3\u00a9)"
+    },
+    "question": {
+        "en": "maternal uncle T\u00c3\u00ado materno (5) (Don't know No s\u00c3\u00a9)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes /  famhx_1   == 1 &&  fam_history_5_yes_no   == 1 &&  famhx_1a_p  > 4"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

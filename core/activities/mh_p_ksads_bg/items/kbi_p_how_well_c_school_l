@@ -1,0 +1,54 @@
+{
+    "id": "kbi_p_how_well_c_school_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_p_how_well_c_school_l of mh_p_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "In general, how does your child do in school? En general, \u00bfc\u00f3mo le va a su ni\u00f1o(a) en la escuela?"
+    },
+    "question": {
+        "en": "In general, how does your child do in school?",
+        "es": "En general, \u00bfc\u00f3mo le va a su ni\u00f1o(a) en la escuela?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very well Muy bien"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Average Promedio"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Below Average Por debajo del promedio"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Failing Est\u00e1 reprobando o repitiendo un grado; -1 = Not applicable No aplica"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

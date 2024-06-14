@@ -1,0 +1,24 @@
+{
+    "id": "eatq_p_ss_aggression_nm",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "eatq_p_ss_aggression_nm of mh_p_eatq"
+    },
+    "prefLabel": {
+        "en": "Parent aggression number missing"
+    },
+    "question": {
+        "en": "Parent aggression number missing"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

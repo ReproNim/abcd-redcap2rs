@@ -1,0 +1,210 @@
+{
+    "id": "led_l_noise_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Meteorology and Exposures in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Noise"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_dbSPL_L10d_anthro",
+            "items/reshist_addr1_dbSPL_L10d_all",
+            "items/reshist_addr1_dbSPL_L50d_anthro",
+            "items/reshist_addr1_dbSPL_L50d_all",
+            "items/reshist_addr1_dbSPL_L90d_anthro",
+            "items/reshist_addr1_dbSPL_L90d_all",
+            "items/reshist_addr1_dbSPL_avg_all",
+            "items/reshist_addr1_dbSPL_Leq_all",
+            "items/reshist_addr1_dbSPL_Ln_avg_all",
+            "items/reshist_addr2_dbSPL_L10d_anthro",
+            "items/reshist_addr2_dbSPL_L10d_all",
+            "items/reshist_addr2_dbSPL_L50d_anthro",
+            "items/reshist_addr2_dbSPL_L50d_all",
+            "items/reshist_addr2_dbSPL_L90d_anthro",
+            "items/reshist_addr2_dbSPL_L90d_all",
+            "items/reshist_addr2_dbSPL_avg_all",
+            "items/reshist_addr2_dbSPL_Leq_all",
+            "items/reshist_addr2_dbSPL_Ln_avg_all",
+            "items/reshist_addr3_dbSPL_L10d_anthro",
+            "items/reshist_addr3_dbSPL_L10d_all",
+            "items/reshist_addr3_dbSPL_L50d_anthro",
+            "items/reshist_addr3_dbSPL_L50d_all",
+            "items/reshist_addr3_dbSPL_L90d_anthro",
+            "items/reshist_addr3_dbSPL_L90d_all",
+            "items/reshist_addr3_dbSPL_avg_all",
+            "items/reshist_addr3_dbSPL_Leq_all",
+            "items/reshist_addr3_dbSPL_Ln_avg_all"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_dbSPL_L10d_anthro",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_dbSPL_L10d_anthro"
+            },
+            {
+                "isAbout": "items/reshist_addr1_dbSPL_L10d_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_dbSPL_L10d_all"
+            },
+            {
+                "isAbout": "items/reshist_addr1_dbSPL_L50d_anthro",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_dbSPL_L50d_anthro"
+            },
+            {
+                "isAbout": "items/reshist_addr1_dbSPL_L50d_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_dbSPL_L50d_all"
+            },
+            {
+                "isAbout": "items/reshist_addr1_dbSPL_L90d_anthro",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_dbSPL_L90d_anthro"
+            },
+            {
+                "isAbout": "items/reshist_addr1_dbSPL_L90d_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_dbSPL_L90d_all"
+            },
+            {
+                "isAbout": "items/reshist_addr1_dbSPL_avg_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_dbSPL_avg_all"
+            },
+            {
+                "isAbout": "items/reshist_addr1_dbSPL_Leq_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_dbSPL_Leq_all"
+            },
+            {
+                "isAbout": "items/reshist_addr1_dbSPL_Ln_avg_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_dbSPL_Ln_avg_all"
+            },
+            {
+                "isAbout": "items/reshist_addr2_dbSPL_L10d_anthro",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_dbSPL_L10d_anthro"
+            },
+            {
+                "isAbout": "items/reshist_addr2_dbSPL_L10d_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_dbSPL_L10d_all"
+            },
+            {
+                "isAbout": "items/reshist_addr2_dbSPL_L50d_anthro",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_dbSPL_L50d_anthro"
+            },
+            {
+                "isAbout": "items/reshist_addr2_dbSPL_L50d_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_dbSPL_L50d_all"
+            },
+            {
+                "isAbout": "items/reshist_addr2_dbSPL_L90d_anthro",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_dbSPL_L90d_anthro"
+            },
+            {
+                "isAbout": "items/reshist_addr2_dbSPL_L90d_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_dbSPL_L90d_all"
+            },
+            {
+                "isAbout": "items/reshist_addr2_dbSPL_avg_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_dbSPL_avg_all"
+            },
+            {
+                "isAbout": "items/reshist_addr2_dbSPL_Leq_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_dbSPL_Leq_all"
+            },
+            {
+                "isAbout": "items/reshist_addr2_dbSPL_Ln_avg_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_dbSPL_Ln_avg_all"
+            },
+            {
+                "isAbout": "items/reshist_addr3_dbSPL_L10d_anthro",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_dbSPL_L10d_anthro"
+            },
+            {
+                "isAbout": "items/reshist_addr3_dbSPL_L10d_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_dbSPL_L10d_all"
+            },
+            {
+                "isAbout": "items/reshist_addr3_dbSPL_L50d_anthro",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_dbSPL_L50d_anthro"
+            },
+            {
+                "isAbout": "items/reshist_addr3_dbSPL_L50d_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_dbSPL_L50d_all"
+            },
+            {
+                "isAbout": "items/reshist_addr3_dbSPL_L90d_anthro",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_dbSPL_L90d_anthro"
+            },
+            {
+                "isAbout": "items/reshist_addr3_dbSPL_L90d_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_dbSPL_L90d_all"
+            },
+            {
+                "isAbout": "items/reshist_addr3_dbSPL_avg_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_dbSPL_avg_all"
+            },
+            {
+                "isAbout": "items/reshist_addr3_dbSPL_Leq_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_dbSPL_Leq_all"
+            },
+            {
+                "isAbout": "items/reshist_addr3_dbSPL_Ln_avg_all",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_dbSPL_Ln_avg_all"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

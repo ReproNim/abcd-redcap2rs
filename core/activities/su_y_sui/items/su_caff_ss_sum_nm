@@ -1,0 +1,24 @@
+{
+    "id": "su_caff_ss_sum_nm",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_caff_ss_sum_nm of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Sum of caff intake. Number of Missing Answers"
+    },
+    "question": {
+        "en": "Sum of caff intake. Number of Missing Answers"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

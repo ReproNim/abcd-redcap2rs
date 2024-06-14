@@ -1,0 +1,24 @@
+{
+    "id": "cvd_fit_ss_dayt_ave_met_value",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "cvd_fit_ss_dayt_ave_met_value of cvd_y_fitb_act_d"
+    },
+    "prefLabel": {
+        "en": "Average METS/minute during non-sleep (night) valid minutes"
+    },
+    "question": {
+        "en": "Average METS minute during non-sleep (night) valid minutes"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

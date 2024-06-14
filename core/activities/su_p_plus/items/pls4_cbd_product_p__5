@@ -1,0 +1,42 @@
+{
+    "id": "pls4_cbd_product_p__5",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pls4_cbd_product_p__5 of su_p_plus"
+    },
+    "prefLabel": {
+        "en": "What type of CBD product did they use? (Choose all that apply) Qu? tipo de producto uso (Eliga todas las que correspondan)  : Topical lotion or transdermal patch / Loci?n t?pica o parche transd?rmico"
+    },
+    "question": {
+        "en": "What type of CBD product did they use? (Choose all that apply) Qu? Loci? n t? pica o parche transd? rmico",
+        "es": "tipo de producto uso (Eliga todas las que correspondan)  : Topical lotion or transdermal patch"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

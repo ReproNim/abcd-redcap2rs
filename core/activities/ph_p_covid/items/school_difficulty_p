@@ -1,0 +1,72 @@
+{
+    "id": "school_difficulty_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "school_difficulty_p of ph_p_covid"
+    },
+    "prefLabel": {
+        "en": "How easy or difficult was it for your child to complete school work remotely? / Que tan f\u00e1cil o dif\u00edcil fue para su hijo/a completar su trabajo escolar desde casa"
+    },
+    "question": {
+        "en": "How easy or difficult was it for your child to complete school work remotely?",
+        "es": "Que tan f\u00e1cil o dif\u00edcil fue para su hijo a completar su trabajo escolar desde casa"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No problem / Sin problemas"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Just some minor problems / Unos peque\u00f1os problemas"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Each day was different / Cada d\u00eda era diferente"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Hard / Dif\u00edcil"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Very hard / Demasiado dif\u00edcil"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't know / No se"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Not applicable / No Aplica"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

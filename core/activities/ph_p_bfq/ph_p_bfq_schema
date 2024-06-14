@@ -1,0 +1,644 @@
+{
+    "id": "ph_p_bfq_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Development in Physical Health"
+    },
+    "prefLabel": {
+        "en": "Ph_P_Bfq"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/bfq_marijuana_amt_p_dk",
+            "items/bfq_med1_fu_p",
+            "items/bfq_med1_how_much_p",
+            "items/bfq_med1_how_much_p_dk",
+            "items/bfq_med1_prn_p",
+            "items/bfq_med1_times_p",
+            "items/bfq_med1_times_p_dk",
+            "items/bfq_med1_unit_p",
+            "items/bfq_med2_fu_p",
+            "items/bfq_med2_how_much_p",
+            "items/bfq_med2_how_much_p_dk",
+            "items/bfq_med2_prn_p",
+            "items/bfq_med2_times_p",
+            "items/bfq_med2_times_p_dk",
+            "items/bfq_med2_unit_p",
+            "items/bfq_med3_how_much_p",
+            "items/bfq_med3_how_much_p_dk",
+            "items/bfq_med3_prn_p",
+            "items/bfq_med3_times_p",
+            "items/bfq_marijuana_p",
+            "items/bfq_alcohol_avg_p",
+            "items/bfq_alcohol_avg_p_dk",
+            "items/bfq_alcohol_effects_p",
+            "items/bfq_alcohol_effects_p_dk",
+            "items/bfq_alcohol_max_p",
+            "items/bfq_alcohol_max_p_dk",
+            "items/bfq_alcohol_p",
+            "items/bfq_breastfeed_p",
+            "items/bfq_breastfeed_time_p",
+            "items/bfq_caff_amt_p",
+            "items/bfq_med3_times_p_dk",
+            "items/bfq_caff_p",
+            "items/bfq_cigs_per_day_p",
+            "items/bfq_cigs_per_day_p_dk",
+            "items/bfq_coc_crack_amt_p",
+            "items/bfq_coc_crack_amt_p_dk",
+            "items/bfq_coc_crack_p",
+            "items/bfq_her_morph_amt_p",
+            "items/bfq_her_morph_amt_p_dk",
+            "items/bfq_her_morph_p",
+            "items/bfq_marijuana_amt_p",
+            "items/bfq_caff_amt_p_dk",
+            "items/bfq_other4_name_2_p",
+            "items/bfq_other4_name_oth_p",
+            "items/bfq_other4_times_p",
+            "items/bfq_other4_times_p_dk",
+            "items/bfq_other4_unit_p",
+            "items/bfq_other5_amt_p",
+            "items/bfq_other5_amt_p_dk",
+            "items/bfq_other5_name_2_p",
+            "items/bfq_other5_name_oth_p",
+            "items/bfq_other5_times_p",
+            "items/bfq_other5_times_p_dk",
+            "items/bfq_med3_unit_p",
+            "items/bfq_oxycont_amt_p",
+            "items/bfq_oxycont_amt_p_dk",
+            "items/bfq_oxycont_p",
+            "items/bfq_p_select_language___1",
+            "items/bfq_prescript_med_p",
+            "items/bfq_rxnorm_med1_p",
+            "items/bfq_rxnorm_med2_p",
+            "items/bfq_rxnorm_med3_p",
+            "items/bfq_start_time",
+            "items/bfq_tobacco_p",
+            "items/bfq_other5_unit_p",
+            "items/bfq_other_drugs_p",
+            "items/bfq_other1_amt_p",
+            "items/bfq_other1_amt_p_dk",
+            "items/bfq_other1_name_2_p",
+            "items/bfq_other1_name_oth_p",
+            "items/bfq_other1_times_p",
+            "items/bfq_other1_times_p_dk",
+            "items/bfq_other1_unit_p",
+            "items/bfq_other2_amt_p",
+            "items/bfq_other2_amt_p_dk",
+            "items/bfq_other2_name_2_p",
+            "items/bfq_other4_amt_p_dk",
+            "items/bfq_other2_times_p",
+            "items/bfq_other2_times_p_dk",
+            "items/bfq_other2_unit_p",
+            "items/bfq_other3_amt_p",
+            "items/bfq_other3_amt_p_dk",
+            "items/bfq_other3_name_2_p",
+            "items/bfq_other3_name_oth_p",
+            "items/bfq_other3_times_p",
+            "items/bfq_other3_times_p_dk",
+            "items/bfq_other3_unit_p",
+            "items/bfq_other4_amt_p",
+            "items/bfq_other2_name_oth_p"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/bfq_marijuana_amt_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_marijuana_amt_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_med1_fu_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_med1_fu_p"
+            },
+            {
+                "isAbout": "items/bfq_med1_how_much_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_med1_how_much_p"
+            },
+            {
+                "isAbout": "items/bfq_med1_how_much_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_med1_how_much_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_med1_prn_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_med1_prn_p"
+            },
+            {
+                "isAbout": "items/bfq_med1_times_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_med1_times_p"
+            },
+            {
+                "isAbout": "items/bfq_med1_times_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_med1_times_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_med1_unit_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_med1_unit_p"
+            },
+            {
+                "isAbout": "items/bfq_med2_fu_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_med2_fu_p"
+            },
+            {
+                "isAbout": "items/bfq_med2_how_much_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_med2_how_much_p"
+            },
+            {
+                "isAbout": "items/bfq_med2_how_much_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_med2_how_much_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_med2_prn_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_med2_prn_p"
+            },
+            {
+                "isAbout": "items/bfq_med2_times_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_med2_times_p"
+            },
+            {
+                "isAbout": "items/bfq_med2_times_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_med2_times_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_med2_unit_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_med2_unit_p"
+            },
+            {
+                "isAbout": "items/bfq_med3_how_much_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_med3_how_much_p"
+            },
+            {
+                "isAbout": "items/bfq_med3_how_much_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_med3_how_much_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_med3_prn_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_med3_prn_p"
+            },
+            {
+                "isAbout": "items/bfq_med3_times_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_med3_times_p"
+            },
+            {
+                "isAbout": "items/bfq_marijuana_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_marijuana_p"
+            },
+            {
+                "isAbout": "items/bfq_alcohol_avg_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_alcohol_avg_p"
+            },
+            {
+                "isAbout": "items/bfq_alcohol_avg_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_alcohol_avg_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_alcohol_effects_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_alcohol_effects_p"
+            },
+            {
+                "isAbout": "items/bfq_alcohol_effects_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_alcohol_effects_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_alcohol_max_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_alcohol_max_p"
+            },
+            {
+                "isAbout": "items/bfq_alcohol_max_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_alcohol_max_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_alcohol_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_alcohol_p"
+            },
+            {
+                "isAbout": "items/bfq_breastfeed_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_breastfeed_p"
+            },
+            {
+                "isAbout": "items/bfq_breastfeed_time_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_breastfeed_time_p"
+            },
+            {
+                "isAbout": "items/bfq_caff_amt_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_caff_amt_p"
+            },
+            {
+                "isAbout": "items/bfq_med3_times_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_med3_times_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_caff_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_caff_p"
+            },
+            {
+                "isAbout": "items/bfq_cigs_per_day_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_cigs_per_day_p"
+            },
+            {
+                "isAbout": "items/bfq_cigs_per_day_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_cigs_per_day_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_coc_crack_amt_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_coc_crack_amt_p"
+            },
+            {
+                "isAbout": "items/bfq_coc_crack_amt_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_coc_crack_amt_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_coc_crack_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_coc_crack_p"
+            },
+            {
+                "isAbout": "items/bfq_her_morph_amt_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_her_morph_amt_p"
+            },
+            {
+                "isAbout": "items/bfq_her_morph_amt_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_her_morph_amt_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_her_morph_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_her_morph_p"
+            },
+            {
+                "isAbout": "items/bfq_marijuana_amt_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_marijuana_amt_p"
+            },
+            {
+                "isAbout": "items/bfq_caff_amt_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_caff_amt_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_other4_name_2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other4_name_2_p"
+            },
+            {
+                "isAbout": "items/bfq_other4_name_oth_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other4_name_oth_p"
+            },
+            {
+                "isAbout": "items/bfq_other4_times_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other4_times_p"
+            },
+            {
+                "isAbout": "items/bfq_other4_times_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other4_times_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_other4_unit_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other4_unit_p"
+            },
+            {
+                "isAbout": "items/bfq_other5_amt_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other5_amt_p"
+            },
+            {
+                "isAbout": "items/bfq_other5_amt_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other5_amt_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_other5_name_2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other5_name_2_p"
+            },
+            {
+                "isAbout": "items/bfq_other5_name_oth_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other5_name_oth_p"
+            },
+            {
+                "isAbout": "items/bfq_other5_times_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other5_times_p"
+            },
+            {
+                "isAbout": "items/bfq_other5_times_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other5_times_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_med3_unit_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_med3_unit_p"
+            },
+            {
+                "isAbout": "items/bfq_oxycont_amt_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_oxycont_amt_p"
+            },
+            {
+                "isAbout": "items/bfq_oxycont_amt_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_oxycont_amt_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_oxycont_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_oxycont_p"
+            },
+            {
+                "isAbout": "items/bfq_p_select_language___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_p_select_language___1"
+            },
+            {
+                "isAbout": "items/bfq_prescript_med_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_prescript_med_p"
+            },
+            {
+                "isAbout": "items/bfq_rxnorm_med1_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_rxnorm_med1_p"
+            },
+            {
+                "isAbout": "items/bfq_rxnorm_med2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_rxnorm_med2_p"
+            },
+            {
+                "isAbout": "items/bfq_rxnorm_med3_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_rxnorm_med3_p"
+            },
+            {
+                "isAbout": "items/bfq_start_time",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_start_time"
+            },
+            {
+                "isAbout": "items/bfq_tobacco_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_tobacco_p"
+            },
+            {
+                "isAbout": "items/bfq_other5_unit_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other5_unit_p"
+            },
+            {
+                "isAbout": "items/bfq_other_drugs_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other_drugs_p"
+            },
+            {
+                "isAbout": "items/bfq_other1_amt_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other1_amt_p"
+            },
+            {
+                "isAbout": "items/bfq_other1_amt_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other1_amt_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_other1_name_2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other1_name_2_p"
+            },
+            {
+                "isAbout": "items/bfq_other1_name_oth_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other1_name_oth_p"
+            },
+            {
+                "isAbout": "items/bfq_other1_times_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other1_times_p"
+            },
+            {
+                "isAbout": "items/bfq_other1_times_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other1_times_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_other1_unit_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other1_unit_p"
+            },
+            {
+                "isAbout": "items/bfq_other2_amt_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other2_amt_p"
+            },
+            {
+                "isAbout": "items/bfq_other2_amt_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other2_amt_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_other2_name_2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other2_name_2_p"
+            },
+            {
+                "isAbout": "items/bfq_other4_amt_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other4_amt_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_other2_times_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other2_times_p"
+            },
+            {
+                "isAbout": "items/bfq_other2_times_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other2_times_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_other2_unit_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other2_unit_p"
+            },
+            {
+                "isAbout": "items/bfq_other3_amt_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other3_amt_p"
+            },
+            {
+                "isAbout": "items/bfq_other3_amt_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other3_amt_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_other3_name_2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other3_name_2_p"
+            },
+            {
+                "isAbout": "items/bfq_other3_name_oth_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other3_name_oth_p"
+            },
+            {
+                "isAbout": "items/bfq_other3_times_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other3_times_p"
+            },
+            {
+                "isAbout": "items/bfq_other3_times_p_dk",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other3_times_p_dk"
+            },
+            {
+                "isAbout": "items/bfq_other3_unit_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other3_unit_p"
+            },
+            {
+                "isAbout": "items/bfq_other4_amt_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other4_amt_p"
+            },
+            {
+                "isAbout": "items/bfq_other2_name_oth_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bfq_other2_name_oth_p"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

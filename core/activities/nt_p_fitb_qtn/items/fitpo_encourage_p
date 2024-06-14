@@ -1,0 +1,42 @@
+{
+    "id": "fitpo_encourage_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fitpo_encourage_p of nt_p_fitb_qtn"
+    },
+    "prefLabel": {
+        "en": "Did you encourage your child to change his/her activity or sleep based on the information? / \u00c2\u00bfAnim\u00c3\u00b3 a su hijo/a a cambiar su actividad o sus h\u00c3\u00a1bitos de sue\u00c3\u00b1o bas\u00c3\u00a1ndose en la informaci\u00c3\u00b3n?"
+    },
+    "question": {
+        "en": "Did you encourage your child to change his her activity or sleep based on the information?",
+        "es": "\u00c2\u00bfAnim\u00c3\u00b3 a su hijo a a cambiar su actividad o sus h\u00c3\u00a1bitos de sue\u00c3\u00b1o bas\u00c3\u00a1ndose en la informaci\u00c3\u00b3n?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes / Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No / No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

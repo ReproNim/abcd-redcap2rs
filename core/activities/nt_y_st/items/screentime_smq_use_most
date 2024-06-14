@@ -1,0 +1,95 @@
+{
+    "id": "screentime_smq_use_most",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screentime_smq_use_most of nt_y_st"
+    },
+    "prefLabel": {
+        "en": "Which social media site do you use the most?"
+    },
+    "question": {
+        "en": "Which social media site do you use the most?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "I do not have a social media account"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Facebook"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Instagram"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Snapchat"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Twitter"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "YouTube"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Pinterest=| 7=Tumblr"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Reddit"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "TikTok"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Multiplayer Videogame Online Chatting"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 10
+            }
+        ],
+        "maxValue": 11,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

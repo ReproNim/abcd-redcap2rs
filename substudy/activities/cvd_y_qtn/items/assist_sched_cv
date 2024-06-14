@@ -1,0 +1,83 @@
+{
+    "id": "assist_sched_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "assist_sched_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "How many days did your parents:Assist you with managing school schedule"
+    },
+    "question": {
+        "en": "How many days did your parents:Assist you with managing school schedule"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0 days"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1 day"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2 days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3 days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4 days"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5 days"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6 days"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7 days"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Don't know  [parent_involved_school_cv] > '0' OR [parent_involve_school_cv] > '0'"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

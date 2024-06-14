@@ -1,0 +1,47 @@
+{
+    "id": "devhx_9_oxycont",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_9_oxycont of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "Knowing of pregnancy. Oxycontin? /\u00bfOxycontin?"
+    },
+    "question": {
+        "en": "Knowing of pregnancy. Oxycontin? \u00bfOxycontin?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes /S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No /No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know/ No lo s\u00e9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

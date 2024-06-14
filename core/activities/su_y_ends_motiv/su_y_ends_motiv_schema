@@ -1,0 +1,161 @@
+{
+    "id": "su_y_ends_motiv_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Attitude in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Ends_Motiv"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/su_ends_motiv_01",
+            "items/su_ends_motiv_02",
+            "items/su_ends_motiv_03",
+            "items/su_ends_motiv_04",
+            "items/su_ends_motiv_05",
+            "items/su_ends_motiv_06",
+            "items/su_ends_motiv_07",
+            "items/su_ends_motiv_08",
+            "items/su_ends_motiv_09",
+            "items/su_ends_motiv_10",
+            "items/su_ends_motiv_11",
+            "items/su_ends_motiv_12",
+            "items/su_ends_motiv_13",
+            "items/su_ends_motiv_14",
+            "items/su_ends_motiv_15",
+            "items/su_ends_motives_16",
+            "items/su_ends_motives_17",
+            "items/su_ends_motives_18",
+            "items/su_ends_motives_19",
+            "items/su_nic_admin"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/su_ends_motiv_01",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_01"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_02",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_02"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_03",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_03"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_04",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_04"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_05",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_05"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_06",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_06"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_07",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_07"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_08",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_08"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_09",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_09"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_10"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_11",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_11"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_12",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_12"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_13",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_13"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_14",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_14"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_15",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_15"
+            },
+            {
+                "isAbout": "items/su_ends_motives_16",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_motives_16"
+            },
+            {
+                "isAbout": "items/su_ends_motives_17",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_motives_17"
+            },
+            {
+                "isAbout": "items/su_ends_motives_18",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_motives_18"
+            },
+            {
+                "isAbout": "items/su_ends_motives_19",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_motives_19"
+            },
+            {
+                "isAbout": "items/su_nic_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_nic_admin"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

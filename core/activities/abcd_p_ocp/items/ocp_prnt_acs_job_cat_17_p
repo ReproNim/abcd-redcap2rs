@@ -1,0 +1,53 @@
+{
+    "id": "ocp_prnt_acs_job_cat_17_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ocp_prnt_acs_job_cat_17_p of abcd_p_ocp"
+    },
+    "prefLabel": {
+        "en": "Please specify the Farming, Fishing, and Forestry Occupations Job Title:"
+    },
+    "question": {
+        "en": "Please specify the Farming, Fishing, and Forestry Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Supervisor"
+                },
+                "value": 45100
+            },
+            {
+                "name": {
+                    "en": "Agricultural Workers"
+                },
+                "value": 45200
+            },
+            {
+                "name": {
+                    "en": "Fishing and Hunting Workers"
+                },
+                "value": 45300
+            },
+            {
+                "name": {
+                    "en": "Forest=Conservation=and Logging Workers"
+                },
+                "value": 45400
+            }
+        ],
+        "maxValue": 45400,
+        "minValue": 45100,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

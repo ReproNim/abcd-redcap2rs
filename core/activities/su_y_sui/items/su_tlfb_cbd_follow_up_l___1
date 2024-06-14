@@ -1,0 +1,36 @@
+{
+    "id": "su_tlfb_cbd_follow_up_l___1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_tlfb_cbd_follow_up_l___1 of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "What type of CBD product did they use? (Choose all that apply) Qu? tipo de producto uso (Eliga todas las que correspondan) Epidiolex / Epidiolex"
+    },
+    "question": {
+        "en": "What type of CBD product did they use? (Choose all that apply) Qu? Epidiolex",
+        "es": "tipo de producto uso (Eliga todas las que correspondan) Epidiolex"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Epidiolex"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

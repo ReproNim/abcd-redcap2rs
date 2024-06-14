@@ -1,0 +1,65 @@
+{
+    "id": "pbp_church",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pbp_church of ce_y_pbp"
+    },
+    "prefLabel": {
+        "en": "Go to church once a month or more often"
+    },
+    "question": {
+        "en": "Go to church once a month or more often"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None or almost none"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A few"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Half"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Most"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "All or almost all"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

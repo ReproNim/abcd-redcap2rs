@@ -1,0 +1,133 @@
+{
+    "id": "nt_y_fitb_qtn_plt_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Actigraphy in Novel Technologies"
+    },
+    "prefLabel": {
+        "en": "Nt_Y_Fitb_Qtn_Plt"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/fitb_s1_q1_y",
+            "items/fitb_s2_q1_y",
+            "items/fitb_s3_q1_y",
+            "items/fitf_s1_q1_y",
+            "items/fitf_s2_q1_y",
+            "items/fitf_s3_q1_y",
+            "items/fitf_s4_q7_y",
+            "items/fitf_s4_q8_y___1",
+            "items/fitf_s4_q8_y___2",
+            "items/fitf_s4_q8_y___3",
+            "items/fitf_s4_q8_y___4",
+            "items/fitf_s4_q8_y___5",
+            "items/fitf_s4_q11_y",
+            "items/fitf_s4_q12_y",
+            "items/fitf_s4_q14_y",
+            "items/fitf_s6_q3b_y"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/fitb_s1_q1_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitb_s1_q1_y"
+            },
+            {
+                "isAbout": "items/fitb_s2_q1_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitb_s2_q1_y"
+            },
+            {
+                "isAbout": "items/fitb_s3_q1_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitb_s3_q1_y"
+            },
+            {
+                "isAbout": "items/fitf_s1_q1_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s1_q1_y"
+            },
+            {
+                "isAbout": "items/fitf_s2_q1_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s2_q1_y"
+            },
+            {
+                "isAbout": "items/fitf_s3_q1_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s3_q1_y"
+            },
+            {
+                "isAbout": "items/fitf_s4_q7_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s4_q7_y"
+            },
+            {
+                "isAbout": "items/fitf_s4_q8_y___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s4_q8_y___1"
+            },
+            {
+                "isAbout": "items/fitf_s4_q8_y___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s4_q8_y___2"
+            },
+            {
+                "isAbout": "items/fitf_s4_q8_y___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s4_q8_y___3"
+            },
+            {
+                "isAbout": "items/fitf_s4_q8_y___4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s4_q8_y___4"
+            },
+            {
+                "isAbout": "items/fitf_s4_q8_y___5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s4_q8_y___5"
+            },
+            {
+                "isAbout": "items/fitf_s4_q11_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s4_q11_y"
+            },
+            {
+                "isAbout": "items/fitf_s4_q12_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s4_q12_y"
+            },
+            {
+                "isAbout": "items/fitf_s4_q14_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s4_q14_y"
+            },
+            {
+                "isAbout": "items/fitf_s6_q3b_y",
+                "isVis": "fitf_s6_3a_y   === '1'",
+                "valueRequired": true,
+                "variableName": "fitf_s6_q3b_y"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

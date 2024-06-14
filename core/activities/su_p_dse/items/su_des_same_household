@@ -1,0 +1,42 @@
+{
+    "id": "su_des_same_household",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_des_same_household of su_p_dse"
+    },
+    "prefLabel": {
+        "en": "Has the child stayed or spent a significant amount of time at your household? El nio ha permanecido o ha pasado una cantidad significativa de tiempo en su hogar?"
+    },
+    "question": {
+        "en": "Has the child stayed or spent a significant amount of time at your household?",
+        "es": "El nio ha permanecido o ha pasado una cantidad significativa de tiempo en su hogar?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes /   Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No  /  No ; -1 =  Not applicable (for example  you lived in a shelter or were homeless most of the past year) /   No aplicable (por ejemplo  usted vivio en un refugio o estuvo sin hogar la mayor parte del ao pasado)"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

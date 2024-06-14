@@ -1,0 +1,59 @@
+{
+    "id": "abcdmeim_5",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "abcdmeim_5 of ce_y_meim"
+    },
+    "prefLabel": {
+        "en": "I have often talked to other people in order to learn more about my ethnic group."
+    },
+    "question": {
+        "en": "I have often talked to other people in order to learn more about my ethnic group."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Agree"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Agree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Neutral"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Disagree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Strongly Disagree [meim_ethnic_id] = '1' or [meim_ethnic_id] = '2' or [meim_ethnic_id] = '3' or [meim_ethnic_id] = '4' or [meim_ethnic_id] = '5'  or [meim_ethnic_id] = '6' or [meim_ethnic_id] = '7' or [meim_ethnic_id] = '8'  or [meim_ethnic_id] = '9' or [meim_ethnic_id] = '10' or [meim_ethnic_id] = '11'  or [meim_ethnic_id] = '12' or [meim_ethnic_id] = '13' or [meim_ethnic_id] = '14'"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

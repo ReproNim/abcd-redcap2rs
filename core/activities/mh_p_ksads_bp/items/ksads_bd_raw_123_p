@@ -1,0 +1,41 @@
+{
+    "id": "ksads_bd_raw_123_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_bd_raw_123_p of mh_p_ksads_bp"
+    },
+    "prefLabel": {
+        "en": "Has your child always, or almost always, been someone who loses his or her temper a lot?"
+    },
+    "question": {
+        "en": "Has your child always, or almost always, been someone who loses his or her temper a lot?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

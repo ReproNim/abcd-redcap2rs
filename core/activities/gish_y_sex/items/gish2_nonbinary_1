@@ -1,0 +1,65 @@
+{
+    "id": "gish2_nonbinary_1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gish2_nonbinary_1 of gish_y_sex"
+    },
+    "prefLabel": {
+        "en": "I am attracted to people who are another gender (e.g. nonbinary)"
+    },
+    "question": {
+        "en": "I am attracted to people who are another gender (e. g. nonbinary)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A little"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A lot"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "I don't understand this question"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

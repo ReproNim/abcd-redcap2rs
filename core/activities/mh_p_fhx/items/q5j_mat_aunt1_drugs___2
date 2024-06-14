@@ -1,0 +1,41 @@
+{
+    "id": "q5j_mat_aunt1_drugs___2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "q5j_mat_aunt1_drugs___2 of mh_p_fhx"
+    },
+    "prefLabel": {
+        "en": "maternal aunt T\u00c3\u00ada materna (1) (Work Laboral)"
+    },
+    "question": {
+        "en": "maternal aunt T\u00c3\u00ada materna (1) (Work Laboral)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes /  famhx_1   == 1 &&  fam_history_5_yes_no   == 1 &&  famhx_1b_p  > 0"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

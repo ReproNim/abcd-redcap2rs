@@ -1,0 +1,42 @@
+{
+    "id": "tbi_3",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tbi_3 of ph_p_otbi"
+    },
+    "prefLabel": {
+        "en": "Has you child ever injured his/her head or neck in a fall or from being hit by something? (For example, falling from a bike or horse, rollerblading, falling on ice, being hit by a rock) Has your child ever injured his/her head or neck playing sports or on the playground? \u00bfSu ni\u00f1o/a alguna vez se ha lastimado la cabeza o el cuello en una ca\u00edda o porque algo le haya ca\u00eddo en la cabeza (p. ej., al caerse de una bicicleta o un caballo, al andar en patines, al caerse en el hielo o que le haya ca\u00eddo una roca)? \u00bfSu ni\u00f1o(a) alguna vez se ha lastimado la cabeza o el cuello haciendo deporte o jugando en un parque?"
+    },
+    "question": {
+        "en": "Has you child ever injured his her head or neck in a fall or from being hit by something? (For example, falling from a bike or horse, rollerblading, falling on ice, being hit by a rock) Has your child ever injured his her head or neck playing sports or on the playground? ej.",
+        "es": "\u00bfSu ni\u00f1o a alguna vez se ha lastimado la cabeza o el cuello en una ca\u00edda o porque algo le haya ca\u00eddo en la cabeza (p. , al caerse de una bicicleta o un caballo, al andar en patines, al caerse en el hielo o que le haya ca\u00eddo una roca)? \u00bfSu ni\u00f1o(a) alguna vez se ha lastimado la cabeza o el cuello haciendo deporte o jugando en un parque?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

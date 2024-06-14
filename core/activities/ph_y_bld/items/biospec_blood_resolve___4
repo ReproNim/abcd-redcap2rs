@@ -1,0 +1,41 @@
+{
+    "id": "biospec_blood_resolve___4",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "biospec_blood_resolve___4 of ph_y_bld"
+    },
+    "prefLabel": {
+        "en": "Resolution: Report reviewed=clinical follow-up confirmed"
+    },
+    "question": {
+        "en": "Resolution: Report reviewed=clinical follow-up confirmed"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

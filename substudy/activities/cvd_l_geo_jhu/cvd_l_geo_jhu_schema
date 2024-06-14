@@ -1,0 +1,2471 @@
+{
+    "id": "cvd_l_geo_jhu_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Geocoded Data in COVID-19"
+    },
+    "prefLabel": {
+        "en": "Cvd_L_Geo_Jhu"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_covidgeo_jhu_cases_db0",
+            "items/reshist_addr1_covidgeo_jhu_cases_db1",
+            "items/reshist_addr1_covidgeo_jhu_cases_db2",
+            "items/reshist_addr1_covidgeo_jhu_cases_db3",
+            "items/reshist_addr1_covidgeo_jhu_cases_db4",
+            "items/reshist_addr1_covidgeo_jhu_cases_db5",
+            "items/reshist_addr1_covidgeo_jhu_cases_db6",
+            "items/reshist_addr1_covidgeo_jhu_cases100k_db0",
+            "items/reshist_addr1_covidgeo_jhu_cases100k_db1",
+            "items/reshist_addr1_covidgeo_jhu_cases100k_db2",
+            "items/reshist_addr1_covidgeo_jhu_cases100k_db3",
+            "items/reshist_addr1_covidgeo_jhu_cases100k_db4",
+            "items/reshist_addr1_covidgeo_jhu_cases100k_db5",
+            "items/reshist_addr1_covidgeo_jhu_cases100k_db6",
+            "items/reshist_addr1_covidgeo_jhu_newcases_db0",
+            "items/reshist_addr1_covidgeo_jhu_newcases_db1",
+            "items/reshist_addr1_covidgeo_jhu_newcases_db2",
+            "items/reshist_addr1_covidgeo_jhu_newcases_db3",
+            "items/reshist_addr1_covidgeo_jhu_newcases_db4",
+            "items/reshist_addr1_covidgeo_jhu_newcases_db5",
+            "items/reshist_addr1_covidgeo_jhu_newcases_db6",
+            "items/reshist_addr1_covidgeo_jhu_newcases100k_db0",
+            "items/reshist_addr1_covidgeo_jhu_newcases100k_db1",
+            "items/reshist_addr1_covidgeo_jhu_newcases100k_db2",
+            "items/reshist_addr1_covidgeo_jhu_newcases100k_db3",
+            "items/reshist_addr1_covidgeo_jhu_newcases100k_db4",
+            "items/reshist_addr1_covidgeo_jhu_newcases100k_db5",
+            "items/reshist_addr1_covidgeo_jhu_newcases100k_db6",
+            "items/reshist_addr1_covidgeo_jhu_newcase100k_7_db0",
+            "items/reshist_addr1_covidgeo_jhu_newcase100k_7_db1",
+            "items/reshist_addr1_covidgeo_jhu_newcase100k_7_db2",
+            "items/reshist_addr1_covidgeo_jhu_newcase100k_7_db3",
+            "items/reshist_addr1_covidgeo_jhu_newcase100k_7_db4",
+            "items/reshist_addr1_covidgeo_jhu_newcase100k_7_db5",
+            "items/reshist_addr1_covidgeo_jhu_newcase100k_7_db6",
+            "items/reshist_addr1_covidgeo_jhu_deaths_db0",
+            "items/reshist_addr1_covidgeo_jhu_deaths_db1",
+            "items/reshist_addr1_covidgeo_jhu_deaths_db2",
+            "items/reshist_addr1_covidgeo_jhu_deaths_db3",
+            "items/reshist_addr1_covidgeo_jhu_deaths_db4",
+            "items/reshist_addr1_covidgeo_jhu_deaths_db5",
+            "items/reshist_addr1_covidgeo_jhu_deaths_db6",
+            "items/reshist_addr1_covidgeo_jhu_deaths100k_db0",
+            "items/reshist_addr1_covidgeo_jhu_deaths100k_db1",
+            "items/reshist_addr1_covidgeo_jhu_deaths100k_db2",
+            "items/reshist_addr1_covidgeo_jhu_deaths100k_db3",
+            "items/reshist_addr1_covidgeo_jhu_deaths100k_db4",
+            "items/reshist_addr1_covidgeo_jhu_deaths100k_db5",
+            "items/reshist_addr1_covidgeo_jhu_deaths100k_db6",
+            "items/reshist_addr1_covidgeo_jhu_newdeaths_db0",
+            "items/reshist_addr1_covidgeo_jhu_newdeaths_db1",
+            "items/reshist_addr1_covidgeo_jhu_newdeaths_db2",
+            "items/reshist_addr1_covidgeo_jhu_newdeaths_db3",
+            "items/reshist_addr1_covidgeo_jhu_newdeaths_db4",
+            "items/reshist_addr1_covidgeo_jhu_newdeaths_db5",
+            "items/reshist_addr1_covidgeo_jhu_newdeaths_db6",
+            "items/reshist_addr1_covidgeo_jhu_newdeaths100k_db0",
+            "items/reshist_addr1_covidgeo_jhu_newdeaths100k_db1",
+            "items/reshist_addr1_covidgeo_jhu_newdeaths100k_db2",
+            "items/reshist_addr1_covidgeo_jhu_newdeaths100k_db3",
+            "items/reshist_addr1_covidgeo_jhu_newdeaths100k_db4",
+            "items/reshist_addr1_covidgeo_jhu_newdeaths100k_db5",
+            "items/reshist_addr1_covidgeo_jhu_newdeaths100k_db6",
+            "items/reshist_addr1_covidgeo_jhu_newdeath100k7_db0",
+            "items/reshist_addr1_covidgeo_jhu_newdeath100k7_db1",
+            "items/reshist_addr1_covidgeo_jhu_newdeath100k7_db2",
+            "items/reshist_addr1_covidgeo_jhu_newdeath100k7_db3",
+            "items/reshist_addr1_covidgeo_jhu_newdeath100k7_db4",
+            "items/reshist_addr1_covidgeo_jhu_newdeath100k7_db5",
+            "items/reshist_addr1_covidgeo_jhu_newdeath100k7_db6",
+            "items/reshist_addr2_covidgeo_jhu_cases_db0",
+            "items/reshist_addr2_covidgeo_jhu_cases_db1",
+            "items/reshist_addr2_covidgeo_jhu_cases_db2",
+            "items/reshist_addr2_covidgeo_jhu_cases_db3",
+            "items/reshist_addr2_covidgeo_jhu_cases_db4",
+            "items/reshist_addr2_covidgeo_jhu_cases_db5",
+            "items/reshist_addr2_covidgeo_jhu_cases_db6",
+            "items/reshist_addr2_covidgeo_jhu_cases100k_db0",
+            "items/reshist_addr2_covidgeo_jhu_cases100k_db1",
+            "items/reshist_addr2_covidgeo_jhu_cases100k_db2",
+            "items/reshist_addr2_covidgeo_jhu_cases100k_db3",
+            "items/reshist_addr2_covidgeo_jhu_cases100k_db4",
+            "items/reshist_addr2_covidgeo_jhu_cases100k_db5",
+            "items/reshist_addr2_covidgeo_jhu_cases100k_db6",
+            "items/reshist_addr2_covidgeo_jhu_newcases_db0",
+            "items/reshist_addr2_covidgeo_jhu_newcases_db1",
+            "items/reshist_addr2_covidgeo_jhu_newcases_db2",
+            "items/reshist_addr2_covidgeo_jhu_newcases_db3",
+            "items/reshist_addr2_covidgeo_jhu_newcases_db4",
+            "items/reshist_addr2_covidgeo_jhu_newcases_db5",
+            "items/reshist_addr2_covidgeo_jhu_newcases_db6",
+            "items/reshist_addr2_covidgeo_jhu_newcases100k_db0",
+            "items/reshist_addr2_covidgeo_jhu_newcases100k_db1",
+            "items/reshist_addr2_covidgeo_jhu_newcases100k_db2",
+            "items/reshist_addr2_covidgeo_jhu_newcases100k_db3",
+            "items/reshist_addr2_covidgeo_jhu_newcases100k_db4",
+            "items/reshist_addr2_covidgeo_jhu_newcases100k_db5",
+            "items/reshist_addr2_covidgeo_jhu_newcases100k_db6",
+            "items/reshist_addr2_covidgeo_jhu_newcase100k_7_db0",
+            "items/reshist_addr2_covidgeo_jhu_newcase100k_7_db1",
+            "items/reshist_addr2_covidgeo_jhu_newcase100k_7_db2",
+            "items/reshist_addr2_covidgeo_jhu_newcase100k_7_db3",
+            "items/reshist_addr2_covidgeo_jhu_newcase100k_7_db4",
+            "items/reshist_addr2_covidgeo_jhu_newcase100k_7_db5",
+            "items/reshist_addr2_covidgeo_jhu_newcase100k_7_db6",
+            "items/reshist_addr2_covidgeo_jhu_deaths_db0",
+            "items/reshist_addr2_covidgeo_jhu_deaths_db1",
+            "items/reshist_addr2_covidgeo_jhu_deaths_db2",
+            "items/reshist_addr2_covidgeo_jhu_deaths_db3",
+            "items/reshist_addr2_covidgeo_jhu_deaths_db4",
+            "items/reshist_addr2_covidgeo_jhu_deaths_db5",
+            "items/reshist_addr2_covidgeo_jhu_deaths_db6",
+            "items/reshist_addr2_covidgeo_jhu_deaths100k_db0",
+            "items/reshist_addr2_covidgeo_jhu_deaths100k_db1",
+            "items/reshist_addr2_covidgeo_jhu_deaths100k_db2",
+            "items/reshist_addr2_covidgeo_jhu_deaths100k_db3",
+            "items/reshist_addr2_covidgeo_jhu_deaths100k_db4",
+            "items/reshist_addr2_covidgeo_jhu_deaths100k_db5",
+            "items/reshist_addr2_covidgeo_jhu_deaths100k_db6",
+            "items/reshist_addr2_covidgeo_jhu_newdeaths_db0",
+            "items/reshist_addr2_covidgeo_jhu_newdeaths_db1",
+            "items/reshist_addr2_covidgeo_jhu_newdeaths_db2",
+            "items/reshist_addr2_covidgeo_jhu_newdeaths_db3",
+            "items/reshist_addr2_covidgeo_jhu_newdeaths_db4",
+            "items/reshist_addr2_covidgeo_jhu_newdeaths_db5",
+            "items/reshist_addr2_covidgeo_jhu_newdeaths_db6",
+            "items/reshist_addr2_covidgeo_jhu_newdeaths100k_db0",
+            "items/reshist_addr2_covidgeo_jhu_newdeaths100k_db1",
+            "items/reshist_addr2_covidgeo_jhu_newdeaths100k_db2",
+            "items/reshist_addr2_covidgeo_jhu_newdeaths100k_db3",
+            "items/reshist_addr2_covidgeo_jhu_newdeaths100k_db4",
+            "items/reshist_addr2_covidgeo_jhu_newdeaths100k_db5",
+            "items/reshist_addr2_covidgeo_jhu_newdeaths100k_db6",
+            "items/reshist_addr2_covidgeo_jhu_newdeath100k7_db0",
+            "items/reshist_addr2_covidgeo_jhu_newdeath100k7_db1",
+            "items/reshist_addr2_covidgeo_jhu_newdeath100k7_db2",
+            "items/reshist_addr2_covidgeo_jhu_newdeath100k7_db3",
+            "items/reshist_addr2_covidgeo_jhu_newdeath100k7_db4",
+            "items/reshist_addr2_covidgeo_jhu_newdeath100k7_db5",
+            "items/reshist_addr2_covidgeo_jhu_newdeath100k7_db6",
+            "items/reshist_addr3_covidgeo_jhu_cases_db0",
+            "items/reshist_addr3_covidgeo_jhu_cases_db1",
+            "items/reshist_addr3_covidgeo_jhu_cases_db2",
+            "items/reshist_addr3_covidgeo_jhu_cases_db3",
+            "items/reshist_addr3_covidgeo_jhu_cases_db4",
+            "items/reshist_addr3_covidgeo_jhu_cases_db5",
+            "items/reshist_addr3_covidgeo_jhu_cases_db6",
+            "items/reshist_addr3_covidgeo_jhu_cases100k_db0",
+            "items/reshist_addr3_covidgeo_jhu_cases100k_db1",
+            "items/reshist_addr3_covidgeo_jhu_cases100k_db2",
+            "items/reshist_addr3_covidgeo_jhu_cases100k_db3",
+            "items/reshist_addr3_covidgeo_jhu_cases100k_db4",
+            "items/reshist_addr3_covidgeo_jhu_cases100k_db5",
+            "items/reshist_addr3_covidgeo_jhu_cases100k_db6",
+            "items/reshist_addr3_covidgeo_jhu_newcases_db0",
+            "items/reshist_addr3_covidgeo_jhu_newcases_db1",
+            "items/reshist_addr3_covidgeo_jhu_newcases_db2",
+            "items/reshist_addr3_covidgeo_jhu_newcases_db3",
+            "items/reshist_addr3_covidgeo_jhu_newcases_db4",
+            "items/reshist_addr3_covidgeo_jhu_newcases_db5",
+            "items/reshist_addr3_covidgeo_jhu_newcases_db6",
+            "items/reshist_addr3_covidgeo_jhu_newcases100k_db0",
+            "items/reshist_addr3_covidgeo_jhu_newcases100k_db1",
+            "items/reshist_addr3_covidgeo_jhu_newcases100k_db2",
+            "items/reshist_addr3_covidgeo_jhu_newcases100k_db3",
+            "items/reshist_addr3_covidgeo_jhu_newcases100k_db4",
+            "items/reshist_addr3_covidgeo_jhu_newcases100k_db5",
+            "items/reshist_addr3_covidgeo_jhu_newcases100k_db6",
+            "items/reshist_addr3_covidgeo_jhu_newcase100k_7_db0",
+            "items/reshist_addr3_covidgeo_jhu_newcase100k_7_db1",
+            "items/reshist_addr3_covidgeo_jhu_newcase100k_7_db2",
+            "items/reshist_addr3_covidgeo_jhu_newcase100k_7_db3",
+            "items/reshist_addr3_covidgeo_jhu_newcase100k_7_db4",
+            "items/reshist_addr3_covidgeo_jhu_newcase100k_7_db5",
+            "items/reshist_addr3_covidgeo_jhu_newcase100k_7_db6",
+            "items/reshist_addr3_covidgeo_jhu_deaths_db0",
+            "items/reshist_addr3_covidgeo_jhu_deaths_db1",
+            "items/reshist_addr3_covidgeo_jhu_deaths_db2",
+            "items/reshist_addr3_covidgeo_jhu_deaths_db3",
+            "items/reshist_addr3_covidgeo_jhu_deaths_db4",
+            "items/reshist_addr3_covidgeo_jhu_deaths_db5",
+            "items/reshist_addr3_covidgeo_jhu_deaths_db6",
+            "items/reshist_addr3_covidgeo_jhu_deaths100k_db0",
+            "items/reshist_addr3_covidgeo_jhu_deaths100k_db1",
+            "items/reshist_addr3_covidgeo_jhu_deaths100k_db2",
+            "items/reshist_addr3_covidgeo_jhu_deaths100k_db3",
+            "items/reshist_addr3_covidgeo_jhu_deaths100k_db4",
+            "items/reshist_addr3_covidgeo_jhu_deaths100k_db5",
+            "items/reshist_addr3_covidgeo_jhu_deaths100k_db6",
+            "items/reshist_addr3_covidgeo_jhu_newdeaths_db0",
+            "items/reshist_addr3_covidgeo_jhu_newdeaths_db1",
+            "items/reshist_addr3_covidgeo_jhu_newdeaths_db2",
+            "items/reshist_addr3_covidgeo_jhu_newdeaths_db3",
+            "items/reshist_addr3_covidgeo_jhu_newdeaths_db4",
+            "items/reshist_addr3_covidgeo_jhu_newdeaths_db5",
+            "items/reshist_addr3_covidgeo_jhu_newdeaths_db6",
+            "items/reshist_addr3_covidgeo_jhu_newdeaths100k_db0",
+            "items/reshist_addr3_covidgeo_jhu_newdeaths100k_db1",
+            "items/reshist_addr3_covidgeo_jhu_newdeaths100k_db2",
+            "items/reshist_addr3_covidgeo_jhu_newdeaths100k_db3",
+            "items/reshist_addr3_covidgeo_jhu_newdeaths100k_db4",
+            "items/reshist_addr3_covidgeo_jhu_newdeaths100k_db5",
+            "items/reshist_addr3_covidgeo_jhu_newdeaths100k_db6",
+            "items/reshist_addr3_covidgeo_jhu_newdeath100k7_db0",
+            "items/reshist_addr3_covidgeo_jhu_newdeath100k7_db1",
+            "items/reshist_addr3_covidgeo_jhu_newdeath100k7_db2",
+            "items/reshist_addr3_covidgeo_jhu_newdeath100k7_db3",
+            "items/reshist_addr3_covidgeo_jhu_newdeath100k7_db4",
+            "items/reshist_addr3_covidgeo_jhu_newdeath100k7_db5",
+            "items/reshist_addr3_covidgeo_jhu_newdeath100k7_db6",
+            "items/reshist_addr4_covidgeo_jhu_cases_db0",
+            "items/reshist_addr4_covidgeo_jhu_cases_db1",
+            "items/reshist_addr4_covidgeo_jhu_cases_db2",
+            "items/reshist_addr4_covidgeo_jhu_cases_db3",
+            "items/reshist_addr4_covidgeo_jhu_cases_db4",
+            "items/reshist_addr4_covidgeo_jhu_cases_db5",
+            "items/reshist_addr4_covidgeo_jhu_cases_db6",
+            "items/reshist_addr4_covidgeo_jhu_cases100k_db0",
+            "items/reshist_addr4_covidgeo_jhu_cases100k_db1",
+            "items/reshist_addr4_covidgeo_jhu_cases100k_db2",
+            "items/reshist_addr4_covidgeo_jhu_cases100k_db3",
+            "items/reshist_addr4_covidgeo_jhu_cases100k_db4",
+            "items/reshist_addr4_covidgeo_jhu_cases100k_db5",
+            "items/reshist_addr4_covidgeo_jhu_cases100k_db6",
+            "items/reshist_addr4_covidgeo_jhu_newcases_db0",
+            "items/reshist_addr4_covidgeo_jhu_newcases_db1",
+            "items/reshist_addr4_covidgeo_jhu_newcases_db2",
+            "items/reshist_addr4_covidgeo_jhu_newcases_db3",
+            "items/reshist_addr4_covidgeo_jhu_newcases_db4",
+            "items/reshist_addr4_covidgeo_jhu_newcases_db5",
+            "items/reshist_addr4_covidgeo_jhu_newcases_db6",
+            "items/reshist_addr4_covidgeo_jhu_newcases100k_db0",
+            "items/reshist_addr4_covidgeo_jhu_newcases100k_db1",
+            "items/reshist_addr4_covidgeo_jhu_newcases100k_db2",
+            "items/reshist_addr4_covidgeo_jhu_newcases100k_db3",
+            "items/reshist_addr4_covidgeo_jhu_newcases100k_db4",
+            "items/reshist_addr4_covidgeo_jhu_newcases100k_db5",
+            "items/reshist_addr4_covidgeo_jhu_newcases100k_db6",
+            "items/reshist_addr4_covidgeo_jhu_newcase100k_7_db0",
+            "items/reshist_addr4_covidgeo_jhu_newcase100k_7_db1",
+            "items/reshist_addr4_covidgeo_jhu_newcase100k_7_db2",
+            "items/reshist_addr4_covidgeo_jhu_newcase100k_7_db3",
+            "items/reshist_addr4_covidgeo_jhu_newcase100k_7_db4",
+            "items/reshist_addr4_covidgeo_jhu_newcase100k_7_db5",
+            "items/reshist_addr4_covidgeo_jhu_newcase100k_7_db6",
+            "items/reshist_addr4_covidgeo_jhu_deaths_db0",
+            "items/reshist_addr4_covidgeo_jhu_deaths_db1",
+            "items/reshist_addr4_covidgeo_jhu_deaths_db2",
+            "items/reshist_addr4_covidgeo_jhu_deaths_db3",
+            "items/reshist_addr4_covidgeo_jhu_deaths_db4",
+            "items/reshist_addr4_covidgeo_jhu_deaths_db5",
+            "items/reshist_addr4_covidgeo_jhu_deaths_db6",
+            "items/reshist_addr4_covidgeo_jhu_deaths100k_db0",
+            "items/reshist_addr4_covidgeo_jhu_deaths100k_db1",
+            "items/reshist_addr4_covidgeo_jhu_deaths100k_db2",
+            "items/reshist_addr4_covidgeo_jhu_deaths100k_db3",
+            "items/reshist_addr4_covidgeo_jhu_deaths100k_db4",
+            "items/reshist_addr4_covidgeo_jhu_deaths100k_db5",
+            "items/reshist_addr4_covidgeo_jhu_deaths100k_db6",
+            "items/reshist_addr4_covidgeo_jhu_newdeaths_db0",
+            "items/reshist_addr4_covidgeo_jhu_newdeaths_db1",
+            "items/reshist_addr4_covidgeo_jhu_newdeaths_db2",
+            "items/reshist_addr4_covidgeo_jhu_newdeaths_db3",
+            "items/reshist_addr4_covidgeo_jhu_newdeaths_db4",
+            "items/reshist_addr4_covidgeo_jhu_newdeaths_db5",
+            "items/reshist_addr4_covidgeo_jhu_newdeaths_db6",
+            "items/reshist_addr4_covidgeo_jhu_newdeaths100k_db0",
+            "items/reshist_addr4_covidgeo_jhu_newdeaths100k_db1",
+            "items/reshist_addr4_covidgeo_jhu_newdeaths100k_db2",
+            "items/reshist_addr4_covidgeo_jhu_newdeaths100k_db3",
+            "items/reshist_addr4_covidgeo_jhu_newdeaths100k_db4",
+            "items/reshist_addr4_covidgeo_jhu_newdeaths100k_db5",
+            "items/reshist_addr4_covidgeo_jhu_newdeaths100k_db6",
+            "items/reshist_addr4_covidgeo_jhu_newdeath100k7_db0",
+            "items/reshist_addr4_covidgeo_jhu_newdeath100k7_db1",
+            "items/reshist_addr4_covidgeo_jhu_newdeath100k7_db2",
+            "items/reshist_addr4_covidgeo_jhu_newdeath100k7_db3",
+            "items/reshist_addr4_covidgeo_jhu_newdeath100k7_db4",
+            "items/reshist_addr4_covidgeo_jhu_newdeath100k7_db5",
+            "items/reshist_addr4_covidgeo_jhu_newdeath100k7_db6",
+            "items/reshist_addr5_covidgeo_jhu_cases_db0",
+            "items/reshist_addr5_covidgeo_jhu_cases_db1",
+            "items/reshist_addr5_covidgeo_jhu_cases_db2",
+            "items/reshist_addr5_covidgeo_jhu_cases_db3",
+            "items/reshist_addr5_covidgeo_jhu_cases_db4",
+            "items/reshist_addr5_covidgeo_jhu_cases_db5",
+            "items/reshist_addr5_covidgeo_jhu_cases_db6",
+            "items/reshist_addr5_covidgeo_jhu_cases100k_db0",
+            "items/reshist_addr5_covidgeo_jhu_cases100k_db1",
+            "items/reshist_addr5_covidgeo_jhu_cases100k_db2",
+            "items/reshist_addr5_covidgeo_jhu_cases100k_db3",
+            "items/reshist_addr5_covidgeo_jhu_cases100k_db4",
+            "items/reshist_addr5_covidgeo_jhu_cases100k_db5",
+            "items/reshist_addr5_covidgeo_jhu_cases100k_db6",
+            "items/reshist_addr5_covidgeo_jhu_newcases_db0",
+            "items/reshist_addr5_covidgeo_jhu_newcases_db1",
+            "items/reshist_addr5_covidgeo_jhu_newcases_db2",
+            "items/reshist_addr5_covidgeo_jhu_newcases_db3",
+            "items/reshist_addr5_covidgeo_jhu_newcases_db4",
+            "items/reshist_addr5_covidgeo_jhu_newcases_db5",
+            "items/reshist_addr5_covidgeo_jhu_newcases_db6",
+            "items/reshist_addr5_covidgeo_jhu_newcases100k_db0",
+            "items/reshist_addr5_covidgeo_jhu_newcases100k_db1",
+            "items/reshist_addr5_covidgeo_jhu_newcases100k_db2",
+            "items/reshist_addr5_covidgeo_jhu_newcases100k_db3",
+            "items/reshist_addr5_covidgeo_jhu_newcases100k_db4",
+            "items/reshist_addr5_covidgeo_jhu_newcases100k_db5",
+            "items/reshist_addr5_covidgeo_jhu_newcases100k_db6",
+            "items/reshist_addr5_covidgeo_jhu_newcase100k_7_db0",
+            "items/reshist_addr5_covidgeo_jhu_newcase100k_7_db1",
+            "items/reshist_addr5_covidgeo_jhu_newcase100k_7_db2",
+            "items/reshist_addr5_covidgeo_jhu_newcase100k_7_db3",
+            "items/reshist_addr5_covidgeo_jhu_newcase100k_7_db4",
+            "items/reshist_addr5_covidgeo_jhu_newcase100k_7_db5",
+            "items/reshist_addr5_covidgeo_jhu_newcase100k_7_db6",
+            "items/reshist_addr5_covidgeo_jhu_deaths_db0",
+            "items/reshist_addr5_covidgeo_jhu_deaths_db1",
+            "items/reshist_addr5_covidgeo_jhu_deaths_db2",
+            "items/reshist_addr5_covidgeo_jhu_deaths_db3",
+            "items/reshist_addr5_covidgeo_jhu_deaths_db4",
+            "items/reshist_addr5_covidgeo_jhu_deaths_db5",
+            "items/reshist_addr5_covidgeo_jhu_deaths_db6",
+            "items/reshist_addr5_covidgeo_jhu_deaths100k_db0",
+            "items/reshist_addr5_covidgeo_jhu_deaths100k_db1",
+            "items/reshist_addr5_covidgeo_jhu_deaths100k_db2",
+            "items/reshist_addr5_covidgeo_jhu_deaths100k_db3",
+            "items/reshist_addr5_covidgeo_jhu_deaths100k_db4",
+            "items/reshist_addr5_covidgeo_jhu_deaths100k_db5",
+            "items/reshist_addr5_covidgeo_jhu_deaths100k_db6",
+            "items/reshist_addr5_covidgeo_jhu_newdeaths_db0",
+            "items/reshist_addr5_covidgeo_jhu_newdeaths_db1",
+            "items/reshist_addr5_covidgeo_jhu_newdeaths_db2",
+            "items/reshist_addr5_covidgeo_jhu_newdeaths_db3",
+            "items/reshist_addr5_covidgeo_jhu_newdeaths_db4",
+            "items/reshist_addr5_covidgeo_jhu_newdeaths_db5",
+            "items/reshist_addr5_covidgeo_jhu_newdeaths_db6",
+            "items/reshist_addr5_covidgeo_jhu_newdeaths100k_db0",
+            "items/reshist_addr5_covidgeo_jhu_newdeaths100k_db1",
+            "items/reshist_addr5_covidgeo_jhu_newdeaths100k_db2",
+            "items/reshist_addr5_covidgeo_jhu_newdeaths100k_db3",
+            "items/reshist_addr5_covidgeo_jhu_newdeaths100k_db4",
+            "items/reshist_addr5_covidgeo_jhu_newdeaths100k_db5",
+            "items/reshist_addr5_covidgeo_jhu_newdeaths100k_db6",
+            "items/reshist_addr5_covidgeo_jhu_newdeath100k7_db0",
+            "items/reshist_addr5_covidgeo_jhu_newdeath100k7_db1",
+            "items/reshist_addr5_covidgeo_jhu_newdeath100k7_db2",
+            "items/reshist_addr5_covidgeo_jhu_newdeath100k7_db3",
+            "items/reshist_addr5_covidgeo_jhu_newdeath100k7_db4",
+            "items/reshist_addr5_covidgeo_jhu_newdeath100k7_db5",
+            "items/reshist_addr5_covidgeo_jhu_newdeath100k7_db6"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_cases_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_cases_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_cases_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_cases_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_cases_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_cases_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_cases_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_cases_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_cases_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_cases_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_cases_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_cases_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_cases_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_cases_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_cases100k_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_cases100k_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_cases100k_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_cases100k_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_cases100k_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_cases100k_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_cases100k_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_cases100k_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_cases100k_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_cases100k_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_cases100k_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_cases100k_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_cases100k_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_cases100k_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcases_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcases_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcases_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcases_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcases_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcases_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcases_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcases_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcases_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcases_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcases_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcases_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcases_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcases_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcases100k_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcases100k_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcases100k_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcases100k_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcases100k_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcases100k_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcases100k_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcases100k_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcases100k_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcases100k_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcases100k_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcases100k_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcases100k_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcases100k_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcase100k_7_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcase100k_7_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcase100k_7_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcase100k_7_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcase100k_7_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcase100k_7_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcase100k_7_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcase100k_7_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcase100k_7_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcase100k_7_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcase100k_7_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcase100k_7_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newcase100k_7_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newcase100k_7_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_deaths_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_deaths_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_deaths_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_deaths_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_deaths_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_deaths_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_deaths_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_deaths_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_deaths_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_deaths_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_deaths_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_deaths_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_deaths_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_deaths_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_deaths100k_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_deaths100k_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_deaths100k_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_deaths100k_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_deaths100k_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_deaths100k_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_deaths100k_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_deaths100k_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_deaths100k_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_deaths100k_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_deaths100k_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_deaths100k_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_deaths100k_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_deaths100k_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeaths_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeaths_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeaths_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeaths_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeaths_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeaths_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeaths_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeaths_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeaths_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeaths_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeaths_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeaths_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeaths_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeaths_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeaths100k_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeaths100k_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeaths100k_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeaths100k_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeaths100k_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeaths100k_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeaths100k_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeaths100k_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeaths100k_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeaths100k_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeaths100k_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeaths100k_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeaths100k_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeaths100k_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeath100k7_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeath100k7_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeath100k7_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeath100k7_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeath100k7_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeath100k7_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeath100k7_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeath100k7_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeath100k7_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeath100k7_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeath100k7_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeath100k7_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_covidgeo_jhu_newdeath100k7_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_covidgeo_jhu_newdeath100k7_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_cases_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_cases_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_cases_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_cases_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_cases_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_cases_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_cases_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_cases_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_cases_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_cases_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_cases_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_cases_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_cases_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_cases_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_cases100k_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_cases100k_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_cases100k_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_cases100k_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_cases100k_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_cases100k_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_cases100k_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_cases100k_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_cases100k_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_cases100k_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_cases100k_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_cases100k_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_cases100k_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_cases100k_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcases_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcases_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcases_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcases_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcases_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcases_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcases_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcases_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcases_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcases_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcases_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcases_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcases_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcases_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcases100k_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcases100k_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcases100k_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcases100k_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcases100k_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcases100k_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcases100k_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcases100k_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcases100k_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcases100k_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcases100k_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcases100k_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcases100k_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcases100k_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcase100k_7_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcase100k_7_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcase100k_7_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcase100k_7_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcase100k_7_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcase100k_7_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcase100k_7_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcase100k_7_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcase100k_7_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcase100k_7_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcase100k_7_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcase100k_7_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newcase100k_7_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newcase100k_7_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_deaths_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_deaths_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_deaths_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_deaths_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_deaths_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_deaths_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_deaths_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_deaths_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_deaths_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_deaths_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_deaths_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_deaths_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_deaths_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_deaths_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_deaths100k_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_deaths100k_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_deaths100k_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_deaths100k_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_deaths100k_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_deaths100k_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_deaths100k_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_deaths100k_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_deaths100k_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_deaths100k_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_deaths100k_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_deaths100k_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_deaths100k_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_deaths100k_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeaths_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeaths_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeaths_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeaths_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeaths_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeaths_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeaths_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeaths_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeaths_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeaths_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeaths_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeaths_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeaths_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeaths_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeaths100k_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeaths100k_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeaths100k_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeaths100k_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeaths100k_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeaths100k_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeaths100k_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeaths100k_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeaths100k_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeaths100k_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeaths100k_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeaths100k_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeaths100k_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeaths100k_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeath100k7_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeath100k7_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeath100k7_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeath100k7_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeath100k7_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeath100k7_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeath100k7_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeath100k7_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeath100k7_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeath100k7_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeath100k7_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeath100k7_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_covidgeo_jhu_newdeath100k7_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_covidgeo_jhu_newdeath100k7_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_cases_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_cases_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_cases_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_cases_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_cases_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_cases_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_cases_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_cases_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_cases_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_cases_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_cases_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_cases_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_cases_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_cases_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_cases100k_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_cases100k_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_cases100k_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_cases100k_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_cases100k_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_cases100k_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_cases100k_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_cases100k_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_cases100k_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_cases100k_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_cases100k_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_cases100k_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_cases100k_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_cases100k_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcases_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcases_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcases_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcases_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcases_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcases_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcases_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcases_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcases_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcases_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcases_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcases_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcases_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcases_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcases100k_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcases100k_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcases100k_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcases100k_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcases100k_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcases100k_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcases100k_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcases100k_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcases100k_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcases100k_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcases100k_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcases100k_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcases100k_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcases100k_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcase100k_7_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcase100k_7_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcase100k_7_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcase100k_7_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcase100k_7_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcase100k_7_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcase100k_7_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcase100k_7_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcase100k_7_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcase100k_7_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcase100k_7_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcase100k_7_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newcase100k_7_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newcase100k_7_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_deaths_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_deaths_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_deaths_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_deaths_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_deaths_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_deaths_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_deaths_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_deaths_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_deaths_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_deaths_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_deaths_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_deaths_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_deaths_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_deaths_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_deaths100k_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_deaths100k_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_deaths100k_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_deaths100k_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_deaths100k_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_deaths100k_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_deaths100k_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_deaths100k_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_deaths100k_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_deaths100k_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_deaths100k_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_deaths100k_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_deaths100k_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_deaths100k_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeaths_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeaths_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeaths_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeaths_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeaths_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeaths_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeaths_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeaths_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeaths_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeaths_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeaths_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeaths_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeaths_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeaths_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeaths100k_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeaths100k_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeaths100k_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeaths100k_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeaths100k_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeaths100k_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeaths100k_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeaths100k_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeaths100k_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeaths100k_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeaths100k_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeaths100k_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeaths100k_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeaths100k_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeath100k7_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeath100k7_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeath100k7_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeath100k7_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeath100k7_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeath100k7_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeath100k7_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeath100k7_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeath100k7_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeath100k7_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeath100k7_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeath100k7_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_covidgeo_jhu_newdeath100k7_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_covidgeo_jhu_newdeath100k7_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_cases_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_cases_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_cases_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_cases_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_cases_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_cases_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_cases_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_cases_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_cases_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_cases_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_cases_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_cases_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_cases_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_cases_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_cases100k_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_cases100k_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_cases100k_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_cases100k_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_cases100k_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_cases100k_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_cases100k_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_cases100k_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_cases100k_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_cases100k_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_cases100k_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_cases100k_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_cases100k_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_cases100k_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcases_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcases_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcases_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcases_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcases_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcases_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcases_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcases_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcases_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcases_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcases_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcases_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcases_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcases_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcases100k_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcases100k_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcases100k_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcases100k_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcases100k_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcases100k_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcases100k_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcases100k_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcases100k_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcases100k_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcases100k_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcases100k_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcases100k_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcases100k_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcase100k_7_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcase100k_7_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcase100k_7_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcase100k_7_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcase100k_7_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcase100k_7_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcase100k_7_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcase100k_7_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcase100k_7_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcase100k_7_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcase100k_7_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcase100k_7_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newcase100k_7_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newcase100k_7_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_deaths_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_deaths_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_deaths_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_deaths_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_deaths_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_deaths_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_deaths_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_deaths_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_deaths_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_deaths_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_deaths_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_deaths_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_deaths_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_deaths_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_deaths100k_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_deaths100k_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_deaths100k_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_deaths100k_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_deaths100k_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_deaths100k_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_deaths100k_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_deaths100k_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_deaths100k_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_deaths100k_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_deaths100k_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_deaths100k_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_deaths100k_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_deaths100k_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeaths_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeaths_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeaths_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeaths_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeaths_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeaths_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeaths_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeaths_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeaths_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeaths_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeaths_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeaths_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeaths_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeaths_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeaths100k_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeaths100k_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeaths100k_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeaths100k_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeaths100k_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeaths100k_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeaths100k_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeaths100k_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeaths100k_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeaths100k_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeaths100k_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeaths100k_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeaths100k_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeaths100k_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeath100k7_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeath100k7_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeath100k7_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeath100k7_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeath100k7_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeath100k7_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeath100k7_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeath100k7_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeath100k7_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeath100k7_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeath100k7_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeath100k7_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr4_covidgeo_jhu_newdeath100k7_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr4_covidgeo_jhu_newdeath100k7_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_cases_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_cases_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_cases_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_cases_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_cases_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_cases_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_cases_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_cases_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_cases_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_cases_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_cases_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_cases_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_cases_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_cases_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_cases100k_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_cases100k_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_cases100k_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_cases100k_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_cases100k_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_cases100k_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_cases100k_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_cases100k_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_cases100k_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_cases100k_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_cases100k_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_cases100k_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_cases100k_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_cases100k_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcases_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcases_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcases_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcases_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcases_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcases_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcases_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcases_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcases_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcases_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcases_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcases_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcases_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcases_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcases100k_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcases100k_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcases100k_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcases100k_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcases100k_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcases100k_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcases100k_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcases100k_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcases100k_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcases100k_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcases100k_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcases100k_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcases100k_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcases100k_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcase100k_7_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcase100k_7_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcase100k_7_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcase100k_7_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcase100k_7_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcase100k_7_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcase100k_7_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcase100k_7_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcase100k_7_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcase100k_7_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcase100k_7_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcase100k_7_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newcase100k_7_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newcase100k_7_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_deaths_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_deaths_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_deaths_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_deaths_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_deaths_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_deaths_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_deaths_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_deaths_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_deaths_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_deaths_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_deaths_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_deaths_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_deaths_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_deaths_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_deaths100k_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_deaths100k_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_deaths100k_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_deaths100k_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_deaths100k_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_deaths100k_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_deaths100k_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_deaths100k_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_deaths100k_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_deaths100k_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_deaths100k_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_deaths100k_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_deaths100k_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_deaths100k_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeaths_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeaths_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeaths_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeaths_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeaths_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeaths_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeaths_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeaths_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeaths_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeaths_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeaths_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeaths_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeaths_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeaths_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeaths100k_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeaths100k_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeaths100k_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeaths100k_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeaths100k_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeaths100k_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeaths100k_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeaths100k_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeaths100k_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeaths100k_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeaths100k_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeaths100k_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeaths100k_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeaths100k_db6"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeath100k7_db0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeath100k7_db0"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeath100k7_db1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeath100k7_db1"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeath100k7_db2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeath100k7_db2"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeath100k7_db3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeath100k7_db3"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeath100k7_db4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeath100k7_db4"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeath100k7_db5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeath100k7_db5"
+            },
+            {
+                "isAbout": "items/reshist_addr5_covidgeo_jhu_newdeath100k7_db6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr5_covidgeo_jhu_newdeath100k7_db6"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

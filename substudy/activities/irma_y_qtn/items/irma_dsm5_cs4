@@ -1,0 +1,42 @@
+{
+    "id": "irma_dsm5_cs4",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "irma_dsm5_cs4 of irma_y_qtn"
+    },
+    "prefLabel": {
+        "en": "CS4. Do these reactions, thoughts, and feelings cause some other problem at home? CS4. \u00ac\u00f8Estas reacciones, pensamientos y sentimientos causan alg\u221a\u222bn otro problema en casa?"
+    },
+    "question": {
+        "en": "CS4. Do these reactions, thoughts, and feelings cause some other problem at home? CS4.",
+        "es": "\u00ac\u00f8Estas reacciones, pensamientos y sentimientos causan alg\u221a\u222bn otro problema en casa?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

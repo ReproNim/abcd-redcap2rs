@@ -1,0 +1,54 @@
+{
+    "id": "demo_dual_lang_v2_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_dual_lang_v2_l of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "Does your child attend a dual-language or language immersion program at their school? In other words, are several of their classes taught in a language other than English? \u00ac\u00f8Su nino(a) asiste a un programa biling\u221a\u00bae o de inmersion ling\u221a\u00ba\u221a\u2260stica en su escuela? En otras palabras, \u00ac\u00f8a su nino(a) le ense-an algunas de sus clases en otro idioma que no es el ingl\u221a\u00a9s?"
+    },
+    "question": {
+        "en": "Does your child attend a dual-language or language immersion program at their school? In other words, are several of their classes taught in a language other than English?",
+        "es": "\u00ac\u00f8Su nino(a) asiste a un programa biling\u221a\u00bae o de inmersion ling\u221a\u00ba\u221a\u2260stica en su escuela? En otras palabras, \u00ac\u00f8a su nino(a) le ense-an algunas de sus clases en otro idioma que no es el ingl\u221a\u00a9s?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes S\u221a\u2260"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know No s\u221a\u00a9"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer Me niego a responder"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "asr_q66_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "asr_q66_p of mh_p_asr"
+    },
+    "prefLabel": {
+        "en": "I repeat certain acts over and over Repito ciertas acciones una y otra vez"
+    },
+    "question": {
+        "es": "I repeat certain acts over and over Repito ciertas acciones una y otra vez"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not True No es cierto"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat/Sometimes True En cierta manera"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very True/Often True Muy cierto o cierto a menudo//Below is a list of items that describe people. For each item, select the response that describes YOURSELF (YOU, THE PARENT) over the past 6 months. Please answer all items as well as you can, even if some do not seem to apply to YOU"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

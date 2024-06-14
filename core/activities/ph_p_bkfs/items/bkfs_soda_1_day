@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_soda_1_day",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_soda_1_day of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Drinks like Coke or 7-Up, Sunny Delight, Hawaiian Punch, or aguas frescas (DO NOT include diet soda)/Refrescos como Coke, 7-Up, Sunny Delight, Hawaiian Punch, o agua frescas (NO incluya refrescos diet\u00e9ticos)</span>"
+    },
+    "question": {
+        "en": "Drinks like Coke or 7-Up, Sunny Delight, Hawaiian Punch, or aguas frescas (DO NOT include diet soda) span>",
+        "es": "Refrescos como Coke, 7-Up, Sunny Delight, Hawaiian Punch, o agua frescas (NO incluya refrescos diet\u00e9ticos)<"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

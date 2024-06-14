@@ -1,0 +1,41 @@
+{
+    "id": "tox2_results_yn_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tox2_results_yn_y of su_y_sal_tox"
+    },
+    "prefLabel": {
+        "en": "Are test results unexpected based on self-report and or clinical observation?"
+    },
+    "question": {
+        "en": "Are test results unexpected based on self-report and or clinical observation?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No; Participant has NOT been assigned to Drager Toxicology Test. Select \"Not applicable (not part of 10%)\" within next field, change form status to complete, and save."
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "number_rx_otc_med2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "number_rx_otc_med2 of ph_p_meds"
+    },
+    "prefLabel": {
+        "en": "OTC Med 2. On average during the last two weeks, how many of these pills (or other medication items) did your child take per day?/En promedio durante las \u00faltimas dos semanas? /\u00bfcu\u00e1ntas de estas p\u00edldoras (u otros medicamentos) tom\u00f3 su hijo por d\u00eda?"
+    },
+    "question": {
+        "en": "OTC Med 2. On average during the last two weeks, how many of these pills (or other medication items) did your child take per day?",
+        "es": "En promedio durante las \u00faltimas dos semanas? \u00bfcu\u00e1ntas de estas p\u00edldoras (u otros medicamentos) tom\u00f3 su hijo por d\u00eda?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

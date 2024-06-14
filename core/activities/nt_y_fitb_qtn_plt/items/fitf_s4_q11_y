@@ -1,0 +1,53 @@
+{
+    "id": "fitf_s4_q11_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fitf_s4_q11_y of nt_y_fitb_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "How often did you check the Fitbit to get information about your activity?"
+    },
+    "question": {
+        "en": "How often did you check the Fitbit to get information about your activity?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Several times per day"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "About once per day"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Several times per week"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "About once per week"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

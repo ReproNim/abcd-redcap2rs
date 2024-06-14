@@ -1,0 +1,42 @@
+{
+    "id": "irma_hurtep_d1___4",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "irma_hurtep_d1___4 of irma_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Where was your child during the Hurricane? (you can check more than one) Donde estaba su hijo(a) durante el hurac\u221a\u00b0n? (puedes verificar m\u221a\u00b0s de uno) (4, in a shelter en un refugio)"
+    },
+    "question": {
+        "en": "Where was your child during the Hurricane?",
+        "es": "(you can check more than one) Donde estaba su hijo(a) durante el hurac\u221a\u00b0n? (puedes verificar m\u221a\u00b0s de uno) (4, in a shelter en un refugio)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

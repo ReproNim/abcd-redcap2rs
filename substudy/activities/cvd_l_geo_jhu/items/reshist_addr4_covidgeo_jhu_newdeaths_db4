@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr4_covidgeo_jhu_newdeaths_db4",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr4_covidgeo_jhu_newdeaths_db4 of cvd_l_geo_jhu"
+    },
+    "prefLabel": {
+        "en": "Johns Hopkins Covid-19 new death count county-level. 4 days before from questionnaire dissemenation date"
+    },
+    "question": {
+        "en": "Johns Hopkins Covid-19 new death count county-level. 4 days before from questionnaire dissemenation date"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

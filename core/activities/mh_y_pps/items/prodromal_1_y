@@ -1,0 +1,41 @@
+{
+    "id": "prodromal_1_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "prodromal_1_y of mh_y_pps"
+    },
+    "prefLabel": {
+        "en": "Did places that you know well, such as your bedroom, or other rooms in your home, your classroom or school yard, suddenly seem weird, strange or confusing to you; like not the real world?"
+    },
+    "question": {
+        "en": "Did places that you know well, such as your bedroom, or other rooms in your home, your classroom or school yard, suddenly seem weird, strange or confusing to you; like not the real world?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

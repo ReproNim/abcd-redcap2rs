@@ -1,0 +1,83 @@
+{
+    "id": "ksads_suicidal_raw_1123_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_suicidal_raw_1123_p of mh_p_ksads_si"
+    },
+    "prefLabel": {
+        "en": "You mentioned that in the past, your child wished he or she were dead or thought he or she would be better off dead. Back then, did he or she make any preparations for killing himself or herself?"
+    },
+    "question": {
+        "en": "You mentioned that in the past, your child wished he or she were dead or thought he or she would be better off dead. Back then, did he or she make any preparations for killing himself or herself?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Bought or stored pills"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Obtained a knife"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Obtained a gun"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Obtained a rope"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Gave away my things"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Wrote a suicide note"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Researched methods on internet"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Other (type in)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "None; I have not made any preparations"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 8,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "erq_ss_suppress_pr",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "erq_ss_suppress_pr of mh_y_erq"
+    },
+    "prefLabel": {
+        "en": "prorate the  sum of Qs 1,3,5"
+    },
+    "question": {
+        "en": "prorate the  sum of Qs 1,3,5"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "ksads2_20_704_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads2_20_704_p of mh_p_ksads_ss"
+    },
+    "prefLabel": {
+        "en": "Symptom - Craving, or strong desire to use substance (Hallucinogen), Past"
+    },
+    "question": {
+        "en": "Symptom - Craving, or strong desire to use substance (Hallucinogen), Past"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

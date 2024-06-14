@@ -1,0 +1,24 @@
+{
+    "id": "led_sch_seda_s_mn_grd_eb",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "led_sch_seda_s_mn_grd_eb of led_l_seda_pool_s"
+    },
+    "prefLabel": {
+        "en": "School Grade Slope of Mean Ach; Math&RLA; EB est; CS"
+    },
+    "question": {
+        "en": "School Grade Slope of Mean Ach; Math&RLA; EB est; CS"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

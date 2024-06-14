@@ -1,0 +1,77 @@
+{
+    "id": "ecb_site",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ecb_site of ecb_y_ecb"
+    },
+    "prefLabel": {
+        "en": "Site collected?"
+    },
+    "question": {
+        "en": "Site collected?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "site01"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "site04"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "site05"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "site07"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "site10"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "site17"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "site18"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "site20"
+                },
+                "value": 8
+            }
+        ],
+        "maxValue": 8,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

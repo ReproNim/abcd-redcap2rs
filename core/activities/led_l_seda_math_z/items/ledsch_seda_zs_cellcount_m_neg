@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_zs_cellcount_m_neg",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_zs_cellcount_m_neg of led_l_seda_math_z"
+    },
+    "prefLabel": {
+        "en": "CZ Poolsub (''pooled by subject'' - within subjects) Total number of math cells for pooled estimates HLM using SEDA HETOP est not disadvantaged economically minus economically disadvantaged gap"
+    },
+    "question": {
+        "en": "CZ Poolsub (''pooled by subject'' - within subjects) Total number of math cells for pooled estimates HLM using SEDA HETOP est not disadvantaged economically minus economically disadvantaged gap"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

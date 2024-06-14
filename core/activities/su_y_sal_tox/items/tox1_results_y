@@ -1,0 +1,89 @@
+{
+    "id": "tox1_results_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tox1_results_y of su_y_sal_tox"
+    },
+    "prefLabel": {
+        "en": "Collection 1: Were any toxicology results positive?"
+    },
+    "question": {
+        "en": "Collection 1: Were any toxicology results positive?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not applicable (not randomized)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Participant unable to complete"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Participant refused"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Institution not authorized to collect samples due to COVID"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Staff discomfort due to COVID"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Exceed 15min of < 6ft distance from youth (COVID)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Not approved by ABCD for collection"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Not collected (other)"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 10,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "ksads_bd_raw_938_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_bd_raw_938_p of mh_p_ksads_bp"
+    },
+    "prefLabel": {
+        "en": "You said before that in April 2012, your child needed less sleep. During this same time frame, did he or she feel more happy than usual?"
+    },
+    "question": {
+        "en": "You said before that in April 2012, your child needed less sleep. During this same time frame, did he or she feel more happy than usual?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

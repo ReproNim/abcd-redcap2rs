@@ -1,0 +1,47 @@
+{
+    "id": "ocp_prtnr_acs_job_cat_22_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ocp_prtnr_acs_job_cat_22_p of abcd_p_ocp"
+    },
+    "prefLabel": {
+        "en": "Please specify the Military Specific Occupations Job Title:"
+    },
+    "question": {
+        "en": "Please specify the Military Specific Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Military Officer Special and Tactical Operations Leaders"
+                },
+                "value": 55100
+            },
+            {
+                "name": {
+                    "en": "First-Line Enlisted Military Supervisors"
+                },
+                "value": 55200
+            },
+            {
+                "name": {
+                    "en": "Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members"
+                },
+                "value": 55300
+            }
+        ],
+        "maxValue": 55300,
+        "minValue": 55100,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

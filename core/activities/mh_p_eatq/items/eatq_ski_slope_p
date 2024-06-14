@@ -1,0 +1,60 @@
+{
+    "id": "eatq_ski_slope_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "eatq_ski_slope_p of mh_p_eatq"
+    },
+    "prefLabel": {
+        "en": "Would be frightened by the thought of skiing fast down a steep slope. / Le asustar__a la idea de esquiar r__pido por una bajada empinada."
+    },
+    "question": {
+        "en": "Would be frightened by the thought of skiing fast down a steep slope.",
+        "es": "Le asustar__a la idea de esquiar r__pido por una bajada empinada."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Almost always untrue / Casi siempre falso"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Usually untrue / Por lo general falso"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Sometimes true sometimes untrue / Algunas veces verdadero algunas veces falso"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Usually true / Por lo general verdadero"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Almost always true / Casi siempre verdadero"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

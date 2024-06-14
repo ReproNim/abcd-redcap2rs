@@ -1,0 +1,24 @@
+{
+    "id": "ksads_eatingdis_raw_391_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_eatingdis_raw_391_p of mh_p_ksads_ed"
+    },
+    "prefLabel": {
+        "en": "You said that in the past your child did things to control their weight like exercise excessively, restrict food, took laxatives, or diet pills. When was that? If this was true of your child more than once, let me know when it was the worst"
+    },
+    "question": {
+        "en": "You said that in the past your child did things to control their weight like exercise excessively, restrict food, took laxatives, or diet pills. When was that? If this was true of your child more than once, let me know when it was the worst"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

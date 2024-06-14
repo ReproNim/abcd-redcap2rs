@@ -1,0 +1,24 @@
+{
+    "id": "tlfb_inhalant_max",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_inhalant_max of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Liquids, sprays, and gases that people sniff or inhale to get high: (# of occasions)"
+    },
+    "question": {
+        "en": "Liquids, sprays, and gases that people sniff or inhale to get high: (# of occasions)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "resiliency_device",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "resiliency_device of mh_y_or"
+    },
+    "prefLabel": {
+        "en": "Youth's Device:"
+    },
+    "question": {
+        "en": "Youth's Device:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Phone Screen"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Tablet/iPad Screen"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Computer Screen  [resiliency_remote(2)] = ''1'' or [resiliency_remote(3)] = ''1''"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

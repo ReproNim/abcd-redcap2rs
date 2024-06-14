@@ -1,0 +1,41 @@
+{
+    "id": "ksads_dud_raw_2130_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dud_raw_2130_t of su_y_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "Since you started using have you ever had a period of three months or longer without using?Solvents/Inhalants (liquids, sprays or gases that you sniff or inhale, such as glue, gasoline, ether, paint, nitrous oxide, whippits, or poppers)"
+    },
+    "question": {
+        "en": "Since you started using have you ever had a period of three months or longer without using? Solvents Inhalants (liquids, sprays or gases that you sniff or inhale, such as glue, gasoline, ether, paint, nitrous oxide, whippits, or poppers)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

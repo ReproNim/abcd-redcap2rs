@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr1_coi_zed_ecenrol",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr1_coi_zed_ecenrol of led_l_coi"
+    },
+    "prefLabel": {
+        "en": "Educational Domain Early childhood education enrollment Percentage 3- and 4-year-olds enrolled in nursery school, preschool or kindergarten, transformed to z-scores."
+    },
+    "question": {
+        "en": "Educational Domain Early childhood education enrollment Percentage 3- and 4-year-olds enrolled in nursery school, preschool or kindergarten, transformed to z-scores."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

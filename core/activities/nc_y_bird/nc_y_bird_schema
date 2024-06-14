@@ -1,0 +1,175 @@
+{
+    "id": "nc_y_bird_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Task in Neurocognition"
+    },
+    "prefLabel": {
+        "en": "Nc_Y_Bird"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/bird_scr_score",
+            "items/bird_scr_meandotlatency",
+            "items/bird_scr_challenge_latency",
+            "items/bird_scr_quit",
+            "items/bird_scr_lvl3_duration",
+            "items/bird_scr_lvl1_correct",
+            "items/bird_scr_lvl2_a_correct",
+            "items/bird_scr_lvl2_b_correct",
+            "items/bird_scr_lvl2_correct",
+            "items/birc_src_lvl3_correct",
+            "items/bird_scr_pre_anxiety",
+            "items/bird_scr_pre_frustration",
+            "items/bird_scr_pre_irritability",
+            "items/bird_scr_pre_happiness",
+            "items/bird_scr_post_anxiety",
+            "items/bird_scr_post_frustration",
+            "items/bird_scr_post_irritability",
+            "items/bird_scr_post_happiness",
+            "items/neurocog_2_bird___1",
+            "items/neurocog_2_bird___2",
+            "items/neurocog_2_bird___3",
+            "items/neurocog_2_bird___4"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/bird_scr_score",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bird_scr_score"
+            },
+            {
+                "isAbout": "items/bird_scr_meandotlatency",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bird_scr_meandotlatency"
+            },
+            {
+                "isAbout": "items/bird_scr_challenge_latency",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bird_scr_challenge_latency"
+            },
+            {
+                "isAbout": "items/bird_scr_quit",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bird_scr_quit"
+            },
+            {
+                "isAbout": "items/bird_scr_lvl3_duration",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bird_scr_lvl3_duration"
+            },
+            {
+                "isAbout": "items/bird_scr_lvl1_correct",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bird_scr_lvl1_correct"
+            },
+            {
+                "isAbout": "items/bird_scr_lvl2_a_correct",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bird_scr_lvl2_a_correct"
+            },
+            {
+                "isAbout": "items/bird_scr_lvl2_b_correct",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bird_scr_lvl2_b_correct"
+            },
+            {
+                "isAbout": "items/bird_scr_lvl2_correct",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bird_scr_lvl2_correct"
+            },
+            {
+                "isAbout": "items/birc_src_lvl3_correct",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "birc_src_lvl3_correct"
+            },
+            {
+                "isAbout": "items/bird_scr_pre_anxiety",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bird_scr_pre_anxiety"
+            },
+            {
+                "isAbout": "items/bird_scr_pre_frustration",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bird_scr_pre_frustration"
+            },
+            {
+                "isAbout": "items/bird_scr_pre_irritability",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bird_scr_pre_irritability"
+            },
+            {
+                "isAbout": "items/bird_scr_pre_happiness",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bird_scr_pre_happiness"
+            },
+            {
+                "isAbout": "items/bird_scr_post_anxiety",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bird_scr_post_anxiety"
+            },
+            {
+                "isAbout": "items/bird_scr_post_frustration",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bird_scr_post_frustration"
+            },
+            {
+                "isAbout": "items/bird_scr_post_irritability",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bird_scr_post_irritability"
+            },
+            {
+                "isAbout": "items/bird_scr_post_happiness",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bird_scr_post_happiness"
+            },
+            {
+                "isAbout": "items/neurocog_2_bird___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_2_bird___1"
+            },
+            {
+                "isAbout": "items/neurocog_2_bird___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_2_bird___2"
+            },
+            {
+                "isAbout": "items/neurocog_2_bird___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_2_bird___3"
+            },
+            {
+                "isAbout": "items/neurocog_2_bird___4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_2_bird___4"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

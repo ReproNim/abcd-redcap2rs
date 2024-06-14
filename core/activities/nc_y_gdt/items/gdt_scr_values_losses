@@ -1,0 +1,24 @@
+{
+    "id": "gdt_scr_values_losses",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gdt_scr_values_losses of nc_y_gdt"
+    },
+    "prefLabel": {
+        "en": "Adds the number of losing bets"
+    },
+    "question": {
+        "en": "Adds the number of losing bets"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

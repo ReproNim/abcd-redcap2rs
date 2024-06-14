@@ -1,0 +1,53 @@
+{
+    "id": "neighb_po_respect_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "neighb_po_respect_y of ce_y_nsc"
+    },
+    "prefLabel": {
+        "en": "The police treat people with respect in my community:"
+    },
+    "question": {
+        "en": "The police treat people with respect in my community:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Almost never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Almost always"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

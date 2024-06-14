@@ -1,0 +1,35 @@
+{
+    "id": "mctq_sd_min_to_sleep_calc",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mctq_sd_min_to_sleep_calc of ph_y_mctq"
+    },
+    "prefLabel": {
+        "en": "Sleep latency, workday"
+    },
+    "question": {
+        "en": "Sleep latency, workday"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "[mctq_sd_min_to_sleep]=if ([mctq_sd_min_to_sleep] < 15=15 + 5*([mctq_sd_min_to_sleep] - 11), if( [mctq_sd_min_to_sleep] < 18=40 + 10*([mctq_sd_min_to_sleep] - 15), if( [mctq_sd_min_to_sleep] < 22 =75 + 15*([mctq_sd_min_to_sleep] - 18) =180 + 60*([mctq_sd_min_to_sleep] - 22)))))"
+                },
+                "value": 11
+            }
+        ],
+        "maxValue": 11,
+        "minValue": 11,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

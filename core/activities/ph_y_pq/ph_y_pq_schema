@@ -1,0 +1,1113 @@
+{
+    "id": "ph_y_pq_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Medical in Physical Health"
+    },
+    "prefLabel": {
+        "en": "Ph_Y_Pq"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pain_last_month",
+            "items/painscale",
+            "items/pain_scale_worst",
+            "items/pain_how_long",
+            "items/pain_limit",
+            "items/pain_bodymap_male___f99",
+            "items/pain_bodymap_male___f01",
+            "items/pain_bodymap_male___f02",
+            "items/pain_bodymap_male___f03",
+            "items/pain_bodymap_male___f04",
+            "items/pain_bodymap_male___f05",
+            "items/pain_bodymap_male___f06",
+            "items/pain_bodymap_male___f07",
+            "items/pain_bodymap_male___f08",
+            "items/pain_bodymap_male___f09",
+            "items/pain_bodymap_male___f10",
+            "items/pain_bodymap_male___f11",
+            "items/pain_bodymap_male___f12",
+            "items/pain_bodymap_male___f13",
+            "items/pain_bodymap_male___f14",
+            "items/pain_bodymap_male___f15",
+            "items/pain_bodymap_male___f16",
+            "items/pain_bodymap_male___f17",
+            "items/pain_bodymap_male___f18",
+            "items/pain_bodymap_male___f19",
+            "items/pain_bodymap_male___f20",
+            "items/pain_bodymap_male___f21",
+            "items/pain_bodymap_male___f22",
+            "items/pain_bodymap_male___f23",
+            "items/pain_bodymap_male___f24",
+            "items/pain_bodymap_male___f25",
+            "items/pain_bodymap_male___f26",
+            "items/pain_bodymap_male___f27",
+            "items/pain_bodymap_male___f28",
+            "items/pain_bodymap_male___f29",
+            "items/pain_bodymap_male___f30",
+            "items/pain_bodymap_male___f31",
+            "items/pain_bodymap_male___f32",
+            "items/pain_bodymap_male___f33",
+            "items/pain_bodymap_male___f34",
+            "items/pain_bodymap_male___f35",
+            "items/pain_bodymap_male___f36",
+            "items/pain_bodymap_male___b01",
+            "items/pain_bodymap_male___b02",
+            "items/pain_bodymap_male___b03",
+            "items/pain_bodymap_male___b04",
+            "items/pain_bodymap_male___b05",
+            "items/pain_bodymap_male___b06",
+            "items/pain_bodymap_male___b07",
+            "items/pain_bodymap_male___b08",
+            "items/pain_bodymap_male___b09",
+            "items/pain_bodymap_male___b10",
+            "items/pain_bodymap_male___b11",
+            "items/pain_bodymap_male___b12",
+            "items/pain_bodymap_male___b13",
+            "items/pain_bodymap_male___b14",
+            "items/pain_bodymap_male___b15",
+            "items/pain_bodymap_male___b16",
+            "items/pain_bodymap_male___b17",
+            "items/pain_bodymap_male___b18",
+            "items/pain_bodymap_male___b19",
+            "items/pain_bodymap_male___b20",
+            "items/pain_bodymap_male___b21",
+            "items/pain_bodymap_male___b22",
+            "items/pain_bodymap_male___b23",
+            "items/pain_bodymap_male___b24",
+            "items/pain_bodymap_male___b25",
+            "items/pain_bodymap_male___b26",
+            "items/pain_bodymap_male___b27",
+            "items/pain_bodymap_male___b28",
+            "items/pain_bodymap_male___b29",
+            "items/pain_bodymap_male___b30",
+            "items/pain_bodymap_male___b31",
+            "items/pain_bodymap_male___b32",
+            "items/pain_bodymap_male___b33",
+            "items/pain_bodymap_male___b34",
+            "items/pain_bodymap_male___b35",
+            "items/pain_bodymap_male___b36",
+            "items/pain_bodymap_male___b37",
+            "items/pain_bodymap_male___b38",
+            "items/pain_bodymap_female___f99",
+            "items/pain_bodymap_female___f01",
+            "items/pain_bodymap_female___f02",
+            "items/pain_bodymap_female___f03",
+            "items/pain_bodymap_female___f04",
+            "items/pain_bodymap_female___f05",
+            "items/pain_bodymap_female___f06",
+            "items/pain_bodymap_female___f07",
+            "items/pain_bodymap_female___f08",
+            "items/pain_bodymap_female___f09",
+            "items/pain_bodymap_female___f10",
+            "items/pain_bodymap_female___f11",
+            "items/pain_bodymap_female___f12",
+            "items/pain_bodymap_female___f13",
+            "items/pain_bodymap_female___f14",
+            "items/pain_bodymap_female___f15",
+            "items/pain_bodymap_female___f16",
+            "items/pain_bodymap_female___f17",
+            "items/pain_bodymap_female___f18",
+            "items/pain_bodymap_female___f19",
+            "items/pain_bodymap_female___f20",
+            "items/pain_bodymap_female___f21",
+            "items/pain_bodymap_female___f22",
+            "items/pain_bodymap_female___f23",
+            "items/pain_bodymap_female___f24",
+            "items/pain_bodymap_female___f25",
+            "items/pain_bodymap_female___f26",
+            "items/pain_bodymap_female___f27",
+            "items/pain_bodymap_female___f28",
+            "items/pain_bodymap_female___f29",
+            "items/pain_bodymap_female___f30",
+            "items/pain_bodymap_female___f31",
+            "items/pain_bodymap_female___f32",
+            "items/pain_bodymap_female___f33",
+            "items/pain_bodymap_female___f34",
+            "items/pain_bodymap_female___f35",
+            "items/pain_bodymap_female___f36",
+            "items/pain_bodymap_female___b01",
+            "items/pain_bodymap_female___b02",
+            "items/pain_bodymap_female___b03",
+            "items/pain_bodymap_female___b04",
+            "items/pain_bodymap_female___b05",
+            "items/pain_bodymap_female___b06",
+            "items/pain_bodymap_female___b07",
+            "items/pain_bodymap_female___b08",
+            "items/pain_bodymap_female___b09",
+            "items/pain_bodymap_female___b10",
+            "items/pain_bodymap_female___b11",
+            "items/pain_bodymap_female___b12",
+            "items/pain_bodymap_female___b13",
+            "items/pain_bodymap_female___b14",
+            "items/pain_bodymap_female___b15",
+            "items/pain_bodymap_female___b16",
+            "items/pain_bodymap_female___b17",
+            "items/pain_bodymap_female___b18",
+            "items/pain_bodymap_female___b19",
+            "items/pain_bodymap_female___b20",
+            "items/pain_bodymap_female___b21",
+            "items/pain_bodymap_female___b22",
+            "items/pain_bodymap_female___b23",
+            "items/pain_bodymap_female___b24",
+            "items/pain_bodymap_female___b25",
+            "items/pain_bodymap_female___b26",
+            "items/pain_bodymap_female___b27",
+            "items/pain_bodymap_female___b28",
+            "items/pain_bodymap_female___b29",
+            "items/pain_bodymap_female___b30",
+            "items/pain_bodymap_female___b31",
+            "items/pain_bodymap_female___b32",
+            "items/pain_bodymap_female___b33",
+            "items/pain_bodymap_female___b34",
+            "items/pain_bodymap_female___b35",
+            "items/pain_bodymap_female___b36",
+            "items/pain_bodymap_female___b37",
+            "items/pain_bodymap_female___b38",
+            "items/pain_admin"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pain_last_month",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pain_last_month"
+            },
+            {
+                "isAbout": "items/painscale",
+                "isVis": "pain_last_month === 1",
+                "valueRequired": true,
+                "variableName": "painscale"
+            },
+            {
+                "isAbout": "items/pain_scale_worst",
+                "isVis": "pain_last_month === 1",
+                "valueRequired": true,
+                "variableName": "pain_scale_worst"
+            },
+            {
+                "isAbout": "items/pain_how_long",
+                "isVis": "pain_last_month === 1",
+                "valueRequired": true,
+                "variableName": "pain_how_long"
+            },
+            {
+                "isAbout": "items/pain_limit",
+                "isVis": "pain_last_month === 1",
+                "valueRequired": true,
+                "variableName": "pain_limit"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f99",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f99"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f01",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f01"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f02",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f02"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f03",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f03"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f04",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f04"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f05",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f05"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f06",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f06"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f07",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f07"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f08",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f08"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f09",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f09"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f10",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f10"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f11",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f11"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f12",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f12"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f13",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f13"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f14",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f14"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f15",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f15"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f16",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f16"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f17",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f17"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f18",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f18"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f19",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f19"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f20",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f20"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f21",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f21"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f22",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f22"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f23",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f23"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f24",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f24"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f25",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f25"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f26",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f26"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f27",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f27"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f28",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f28"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f29",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f29"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f30",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f30"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f31",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f31"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f32",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f32"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f33",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f33"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f34",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f34"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f35",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f35"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___f36",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___f36"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b01",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b01"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b02",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b02"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b03",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b03"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b04",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b04"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b05",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b05"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b06",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b06"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b07",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b07"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b08",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b08"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b09",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b09"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b10",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b10"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b11",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b11"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b12",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b12"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b13",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b13"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b14",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b14"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b15",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b15"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b16",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b16"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b17",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b17"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b18",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b18"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b19",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b19"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b20",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b20"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b21",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b21"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b22",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b22"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b23",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b23"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b24",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b24"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b25",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b25"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b26",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b26"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b27",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b27"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b28",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b28"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b29",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b29"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b30",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b30"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b31",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b31"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b32",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b32"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b33",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b33"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b34",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b34"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b35",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b35"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b36",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b36"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b37",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b37"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male___b38",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 1 || baseline_year_1_arm_1demo_sex_v2b === 3)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male___b38"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f99",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f99"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f01",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f01"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f02",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f02"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f03",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f03"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f04",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f04"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f05",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f05"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f06",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f06"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f07",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f07"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f08",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f08"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f09",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f09"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f10",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f10"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f11",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f11"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f12",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f12"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f13",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f13"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f14",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f14"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f15",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f15"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f16",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f16"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f17",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f17"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f18",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f18"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f19",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f19"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f20",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f20"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f21",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f21"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f22",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f22"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f23",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f23"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f24",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f24"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f25",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f25"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f26",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f26"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f27",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f27"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f28",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f28"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f29",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f29"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f30",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f30"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f31",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f31"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f32",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f32"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f33",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f33"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f34",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f34"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f35",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f35"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___f36",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___f36"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b01",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b01"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b02",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b02"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b03",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b03"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b04",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b04"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b05",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b05"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b06",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b06"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b07",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b07"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b08",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b08"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b09",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b09"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b10",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b10"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b11",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b11"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b12",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b12"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b13",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b13"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b14",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b14"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b15",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b15"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b16",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b16"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b17",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b17"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b18",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b18"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b19",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b19"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b20",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b20"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b21",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b21"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b22",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b22"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b23",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b23"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b24",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b24"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b25",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b25"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b26",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b26"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b27",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b27"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b28",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b28"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b29",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b29"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b30",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b30"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b31",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b31"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b32",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b32"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b33",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b33"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b34",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b34"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b35",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b35"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b36",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b36"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b37",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b37"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female___b38",
+                "isVis": "pain_last_month === 1 && (baseline_year_1_arm_1demo_sex_v2b === 2 || baseline_year_1_arm_1demo_sex_v2b === 4)",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female___b38"
+            },
+            {
+                "isAbout": "items/pain_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pain_admin"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

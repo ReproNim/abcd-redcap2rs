@@ -1,0 +1,42 @@
+{
+    "id": "fitpo_use_app_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fitpo_use_app_p of nt_p_fitb_qtn"
+    },
+    "prefLabel": {
+        "en": "Did you use the app and/or website to see your child's Fitbit activity? / \u00c2\u00bfUtiliz\u00c3\u00b3 la aplicaci\u00c3\u00b3n y/o el sitio web para ver la actividad de su hijo/a en el Fitbit?"
+    },
+    "question": {
+        "en": "Did you use the app and or website to see your child's Fitbit activity? a en el Fitbit?",
+        "es": "\u00c2\u00bfUtiliz\u00c3\u00b3 la aplicaci\u00c3\u00b3n y o el sitio web para ver la actividad de su hijo"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes / Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No / No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

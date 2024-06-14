@@ -1,0 +1,42 @@
+{
+    "id": "tbi_8i",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tbi_8i of ph_p_otbi"
+    },
+    "prefLabel": {
+        "en": "What was the typical effect of the injury? Cu\u00e1l fue el efecto t\u00edpico de la lesi\u00f3n?"
+    },
+    "question": {
+        "en": "What was the typical effect of the injury?",
+        "es": "Cu\u00e1l fue el efecto t\u00edpico de la lesi\u00f3n?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Dazed/memory gap"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "LOC p\u00e9rdida de conocimiento"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

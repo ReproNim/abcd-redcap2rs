@@ -1,0 +1,24 @@
+{
+    "id": "school_close_date_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "school_close_date_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Last date of in-person class"
+    },
+    "question": {
+        "en": "Last date of in-person class"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

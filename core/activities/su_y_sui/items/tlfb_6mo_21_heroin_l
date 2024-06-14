@@ -1,0 +1,65 @@
+{
+    "id": "tlfb_6mo_21_heroin_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_6mo_21_heroin_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "What was the typical route of administration you used when taking heroin during the past year?"
+    },
+    "question": {
+        "en": "What was the typical route of administration you used when taking heroin during the past year?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Smoking"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Oral ingestion"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Intranasal (snorting)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Injecting subcutaneous"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Injecting intramuscular"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Injecting intravenous / tlfb_6mo_skip_l___22   == '1'"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

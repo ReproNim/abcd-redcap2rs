@@ -1,0 +1,35 @@
+{
+    "id": "demo_prnt_indust_refuse_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_prnt_indust_refuse_l of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "Refuse to answer Niego contestar"
+    },
+    "question": {
+        "en": "Refuse to answer Niego contestar"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Refuse to answer Niego contestar"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 777,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

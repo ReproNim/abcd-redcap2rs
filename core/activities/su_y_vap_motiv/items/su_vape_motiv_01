@@ -1,0 +1,59 @@
+{
+    "id": "su_vape_motiv_01",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_vape_motiv_01 of su_y_vap_motiv"
+    },
+    "prefLabel": {
+        "en": "It is less harmful to my health than smoking"
+    },
+    "question": {
+        "en": "It is less harmful to my health than smoking"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all true"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A little true"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat true"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Pretty true"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Very true [xskipout_vape] = '1' and ([event-name] = '2_year_follow_up_y_arm_1' or [event-name] = '4_year_follow_up_y_arm_1')"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

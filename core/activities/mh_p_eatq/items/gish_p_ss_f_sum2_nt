@@ -1,0 +1,24 @@
+{
+    "id": "gish_p_ss_f_sum2_nt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gish_p_ss_f_sum2_nt of mh_p_eatq"
+    },
+    "prefLabel": {
+        "en": "GISH Female Sum V2 Number Total Questions"
+    },
+    "question": {
+        "en": "GISH Female Sum V2 Number Total Questions"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

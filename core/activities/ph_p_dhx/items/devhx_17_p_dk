@@ -1,0 +1,35 @@
+{
+    "id": "devhx_17_p_dk",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_17_p_dk of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "About how many days  in the first 12 months of life did they have any infections or serious illnesses?"
+    },
+    "question": {
+        "en": "About how many days  in the first 12 months of life did they have any infections or serious illnesses?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know /No lo s\u00e9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 999,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "stp_4_wkend_min_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "stp_4_wkend_min_p of nt_p_psq"
+    },
+    "prefLabel": {
+        "en": "Play multiplayer video games on a computer, console, phone, or other device (Xbox, Play Station, iPad, AppleTV) where you can interact with others in the game? weekend: minutes"
+    },
+    "question": {
+        "en": "Play multiplayer video games on a computer, console, phone, or other device (Xbox, Play Station, iPad, AppleTV) where you can interact with others in the game? weekend: minutes"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "15"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "30"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "45"
+                },
+                "value": 45
+            }
+        ],
+        "maxValue": 45,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

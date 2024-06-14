@@ -1,0 +1,41 @@
+{
+    "id": "ksads_aud_raw_2116_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_aud_raw_2116_p of su_p_ksads_sud"
+    },
+    "prefLabel": {
+        "en": "Was there ever a time when your child drank on 6 or more occasions in a 12 month period?"
+    },
+    "question": {
+        "en": "Was there ever a time when your child drank on 6 or more occasions in a 12 month period?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

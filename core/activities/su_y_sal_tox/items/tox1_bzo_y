@@ -1,0 +1,47 @@
+{
+    "id": "tox1_bzo_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tox1_bzo_y of su_y_sal_tox"
+    },
+    "prefLabel": {
+        "en": "Positive for Benzodiazepine?"
+    },
+    "question": {
+        "en": "Positive for Benzodiazepine?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Invalid; Participant has NOT been assigned to Drager Toxicology Test. Select \"Not applicable (not part of 10%)\" within next field, change form status to complete, and save."
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

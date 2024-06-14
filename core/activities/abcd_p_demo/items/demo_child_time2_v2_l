@@ -1,0 +1,24 @@
+{
+    "id": "demo_child_time2_v2_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_child_time2_v2_l of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "About how much time does the child spend at this other household? Approximately how many hours per week \u00ac\u00f8Aproximadamente cu\u221a\u00b0nto tiempo pasa su nin-o(a) en ese otro hogar? \u00ac\u00f8Aproximadamente cu\u221a\u00b0ntas horas por semana?"
+    },
+    "question": {
+        "en": "About how much time does the child spend at this other household? Approximately how many hours per week \u00ac\u00f8Aproximadamente cu\u221a\u00b0nto tiempo pasa su nin-o(a) en ese otro hogar? \u00ac\u00f8Aproximadamente cu\u221a\u00b0ntas horas por semana?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

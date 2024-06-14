@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_zs_mn_asmts_r_ecd",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_zs_mn_asmts_r_ecd of led_l_seda_read_z"
+    },
+    "prefLabel": {
+        "en": "CZ Poolsub (''pooled by subject'' - within subjects) Per grade number of Reading Language Arts cells for pooled estimates (tot_asmts/cellcount) HLM using SEDA HETOP est economically disadvantaged"
+    },
+    "question": {
+        "en": "CZ Poolsub (''pooled by subject'' - within subjects) Per grade number of Reading Language Arts cells for pooled estimates (tot_asmts cellcount) HLM using SEDA HETOP est economically disadvantaged"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

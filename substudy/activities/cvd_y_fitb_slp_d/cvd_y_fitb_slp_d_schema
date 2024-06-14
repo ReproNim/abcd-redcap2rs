@@ -1,0 +1,161 @@
+{
+    "id": "cvd_y_fitb_slp_d_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Actigraphy in COVID-19"
+    },
+    "prefLabel": {
+        "en": "Cvd_Y_Fitb_Slp_D"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/cvd_fit_ss_sleepdate",
+            "items/cvd_fit_ss_wkno",
+            "items/cvd_fit_ss_weekday",
+            "items/cvd_fit_ss_weekend_ind",
+            "items/cvd_fit_ss_protocol_date",
+            "items/cvd_fit_ss_protocol_wear",
+            "items/cvd_fit_ss_first_inbed_minutes",
+            "items/cvd_fit_ss_first_sleep_minutes",
+            "items/cvd_fit_ss_outbed_minutes",
+            "items/cvd_fit_ss_wakeup_minutes",
+            "items/cvd_fit_ss_sleepperiod_minutes",
+            "items/cvd_fit_ss_wake_minutes",
+            "items/cvd_fit_ss_light_minutes",
+            "items/cvd_fit_ss_deep_minutes",
+            "items/cvd_fit_ss_rem_minutes",
+            "items/cvd_fit_ss_wake_count",
+            "items/cvd_fit_ss_avg_hr_wake",
+            "items/cvd_fit_ss_avg_hr_light",
+            "items/cvd_fit_ss_avg_hr_deep",
+            "items/cvd_fit_ss_avg_hr_rem"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/cvd_fit_ss_sleepdate",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cvd_fit_ss_sleepdate"
+            },
+            {
+                "isAbout": "items/cvd_fit_ss_wkno",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cvd_fit_ss_wkno"
+            },
+            {
+                "isAbout": "items/cvd_fit_ss_weekday",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cvd_fit_ss_weekday"
+            },
+            {
+                "isAbout": "items/cvd_fit_ss_weekend_ind",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cvd_fit_ss_weekend_ind"
+            },
+            {
+                "isAbout": "items/cvd_fit_ss_protocol_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cvd_fit_ss_protocol_date"
+            },
+            {
+                "isAbout": "items/cvd_fit_ss_protocol_wear",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cvd_fit_ss_protocol_wear"
+            },
+            {
+                "isAbout": "items/cvd_fit_ss_first_inbed_minutes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cvd_fit_ss_first_inbed_minutes"
+            },
+            {
+                "isAbout": "items/cvd_fit_ss_first_sleep_minutes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cvd_fit_ss_first_sleep_minutes"
+            },
+            {
+                "isAbout": "items/cvd_fit_ss_outbed_minutes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cvd_fit_ss_outbed_minutes"
+            },
+            {
+                "isAbout": "items/cvd_fit_ss_wakeup_minutes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cvd_fit_ss_wakeup_minutes"
+            },
+            {
+                "isAbout": "items/cvd_fit_ss_sleepperiod_minutes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cvd_fit_ss_sleepperiod_minutes"
+            },
+            {
+                "isAbout": "items/cvd_fit_ss_wake_minutes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cvd_fit_ss_wake_minutes"
+            },
+            {
+                "isAbout": "items/cvd_fit_ss_light_minutes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cvd_fit_ss_light_minutes"
+            },
+            {
+                "isAbout": "items/cvd_fit_ss_deep_minutes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cvd_fit_ss_deep_minutes"
+            },
+            {
+                "isAbout": "items/cvd_fit_ss_rem_minutes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cvd_fit_ss_rem_minutes"
+            },
+            {
+                "isAbout": "items/cvd_fit_ss_wake_count",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cvd_fit_ss_wake_count"
+            },
+            {
+                "isAbout": "items/cvd_fit_ss_avg_hr_wake",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cvd_fit_ss_avg_hr_wake"
+            },
+            {
+                "isAbout": "items/cvd_fit_ss_avg_hr_light",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cvd_fit_ss_avg_hr_light"
+            },
+            {
+                "isAbout": "items/cvd_fit_ss_avg_hr_deep",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cvd_fit_ss_avg_hr_deep"
+            },
+            {
+                "isAbout": "items/cvd_fit_ss_avg_hr_rem",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cvd_fit_ss_avg_hr_rem"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

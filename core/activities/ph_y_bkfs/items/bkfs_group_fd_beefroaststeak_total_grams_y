@@ -1,0 +1,24 @@
+{
+    "id": "bkfs_group_fd_beefroaststeak_total_grams_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_group_fd_beefroaststeak_total_grams_y of ph_y_bkfs"
+    },
+    "prefLabel": {
+        "en": "group_fd_beefroaststeak_total_grams"
+    },
+    "question": {
+        "en": "group_fd_beefroaststeak_total_grams"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

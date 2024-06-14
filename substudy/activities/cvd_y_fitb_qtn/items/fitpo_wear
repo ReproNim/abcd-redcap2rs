@@ -1,0 +1,24 @@
+{
+    "id": "fitpo_wear",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fitpo_wear of cvd_y_fitb_qtn"
+    },
+    "prefLabel": {
+        "en": "Did you wear the Fitbit consistently?"
+    },
+    "question": {
+        "en": "Did you wear the Fitbit consistently?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

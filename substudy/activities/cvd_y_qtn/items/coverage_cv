@@ -1,0 +1,59 @@
+{
+    "id": "coverage_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "coverage_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "The following questions ask about your use of different forms of media (television, social media, and other internet sources) to check for news related to the coronavirus pandemic in the past week.How often did you view television media coverage (e.g., news stations) of coronavirus?"
+    },
+    "question": {
+        "en": "The following questions ask about your use of different forms of media (television, social media, and other internet sources) to check for news related to the coronavirus pandemic in the past week. How often did you view television media coverage (e. g. , news stations) of coronavirus?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Less than 1 hour per day"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "About an hour per day"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "1 to 2 hours per day"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "More than 2 hours per day"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

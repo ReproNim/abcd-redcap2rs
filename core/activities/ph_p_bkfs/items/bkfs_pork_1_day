@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_pork_1_day",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_pork_1_day of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Pork, like chops, roast, ribs/Carne de cerdo, como chuletas, asada, costillas"
+    },
+    "question": {
+        "en": "Pork, like chops, roast, ribs",
+        "es": "Carne de cerdo, como chuletas, asada, costillas"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

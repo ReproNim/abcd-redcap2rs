@@ -1,0 +1,42 @@
+{
+    "id": "irma_hurtep_d6",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "irma_hurtep_d6 of irma_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Did your child see anyone else get hurt badly during the hurricane? \u00ac\u00f8Tu hijo(a) vio a otra persona lastimarse mal durante el hurac\u221a\u00b0n?"
+    },
+    "question": {
+        "en": "Did your child see anyone else get hurt badly during the hurricane?",
+        "es": "\u00ac\u00f8Tu hijo(a) vio a otra persona lastimarse mal durante el hurac\u221a\u00b0n?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

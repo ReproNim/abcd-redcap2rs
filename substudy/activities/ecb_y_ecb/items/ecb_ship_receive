@@ -1,0 +1,24 @@
+{
+    "id": "ecb_ship_receive",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ecb_ship_receive of ecb_y_ecb"
+    },
+    "prefLabel": {
+        "en": "Sample received at MCW:"
+    },
+    "question": {
+        "en": "Sample received at MCW:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "date"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

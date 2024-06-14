@@ -1,0 +1,24 @@
+{
+    "id": "ddis_scr_val_cons_per_jbcrit2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ddis_scr_val_cons_per_jbcrit2 of nc_y_ddis"
+    },
+    "prefLabel": {
+        "en": "values.Consistent_per_JBcriterion2: This indicates whether the participant devalues the standard $100 reward by at least 10% at the longest delay to reward delivery (here, 5 years)."
+    },
+    "question": {
+        "en": "values. Consistent_per_JBcriterion2: This indicates whether the participant devalues the standard $100 reward by at least 10% at the longest delay to reward delivery (here, 5 years)."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

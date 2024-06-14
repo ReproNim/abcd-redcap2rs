@@ -1,0 +1,53 @@
+{
+    "id": "ocp_prnt_acs_job_cat_12_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ocp_prnt_acs_job_cat_12_p of abcd_p_ocp"
+    },
+    "prefLabel": {
+        "en": "Please specify the Food Preparation and Serving Related Occupations Job Title:"
+    },
+    "question": {
+        "en": "Please specify the Food Preparation and Serving Related Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Supervisors of Food Preparation and Serving Workers"
+                },
+                "value": 35100
+            },
+            {
+                "name": {
+                    "en": "Cooks and Food Preparation Workers"
+                },
+                "value": 35200
+            },
+            {
+                "name": {
+                    "en": "Food and Beverage Serving Workers (35300)"
+                },
+                "value": 35300
+            },
+            {
+                "name": {
+                    "en": "Other Food Preparation and Serving Related Workers"
+                },
+                "value": 35900
+            }
+        ],
+        "maxValue": 35900,
+        "minValue": 35100,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

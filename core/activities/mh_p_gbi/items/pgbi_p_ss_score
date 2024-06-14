@@ -1,0 +1,35 @@
+{
+    "id": "pgbi_p_ss_score",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pgbi_p_ss_score of mh_p_gbi"
+    },
+    "prefLabel": {
+        "en": "Parent General Behavior Inventory SUM:  gen_child_behav_1 + gen_child_behav_2 + gen_child_behav_3 + gen_child_behav_4 + gen_child_behav_5 + gen_child_behav_6 + gen_child_behav_7 + gen_child_behav_8 + gen_child_behav_9 +  gen_child_behav_10;  Validation: All items must be answered"
+    },
+    "question": {
+        "en": "Parent General Behavior Inventory SUM:  gen_child_behav_1 + gen_child_behav_2 + gen_child_behav_3 + gen_child_behav_4 + gen_child_behav_5 + gen_child_behav_6 + gen_child_behav_7 + gen_child_behav_8 + gen_child_behav_9 +  gen_child_behav_10;  Validation: All items must be answered"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "item mania scale from the Parent General Behavior Inventory for children and adolescents. \u00e6J Clin Psychiatry 9(5): 831-839."
+                },
+                "value": 10
+            }
+        ],
+        "maxValue": 10,
+        "minValue": 10,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

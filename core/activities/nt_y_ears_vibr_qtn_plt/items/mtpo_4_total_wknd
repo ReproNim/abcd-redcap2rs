@@ -1,0 +1,24 @@
+{
+    "id": "mtpo_4_total_wknd",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mtpo_4_total_wknd of nt_y_ears_vibr_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "How much of ___ (total time estimate for weekend) do you spend on a mobile device specifically?"
+    },
+    "question": {
+        "en": "How much of ___ (total time estimate for weekend) do you spend on a mobile device specifically?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

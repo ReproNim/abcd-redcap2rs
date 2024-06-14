@@ -1,0 +1,42 @@
+{
+    "id": "led_l_urban_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Built Environment in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Urban"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_urban_area",
+            "items/reshist_addr2_urban_area",
+            "items/reshist_addr3_urban_area"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_urban_area",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_urban_area"
+            },
+            {
+                "isAbout": "items/reshist_addr2_urban_area",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_urban_area"
+            },
+            {
+                "isAbout": "items/reshist_addr3_urban_area",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_urban_area"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

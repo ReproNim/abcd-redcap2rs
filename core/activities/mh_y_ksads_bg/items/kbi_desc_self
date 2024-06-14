@@ -1,0 +1,53 @@
+{
+    "id": "kbi_desc_self",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_desc_self of mh_y_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "Would you describe yourself as:"
+    },
+    "question": {
+        "en": "Would you describe yourself as:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Heterosexual (straight)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Unsure"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Decline to answer  ([kbi_y_sex_orient] = '3' AND [event-name] = '4_year_follow_up_y_arm_1')"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

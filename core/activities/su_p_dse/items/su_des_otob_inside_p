@@ -1,0 +1,42 @@
+{
+    "id": "su_des_otob_inside_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_des_otob_inside_p of su_p_dse"
+    },
+    "prefLabel": {
+        "en": "Did anyone use other tobacco products inside the house when your child was home or in a vehicle child was in? Uso alguien otros productos de tabaco dentro de su hogar cuando su hijo/a estaba en casa o en un vehiculo en el que estaba su hijo/a?"
+    },
+    "question": {
+        "en": "Did anyone use other tobacco products inside the house when your child was home or in a vehicle child was in? a?",
+        "es": "Uso alguien otros productos de tabaco dentro de su hogar cuando su hijo a estaba en casa o en un vehiculo en el que estaba su hijo"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes  /  Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No /   No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

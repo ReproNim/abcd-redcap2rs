@@ -1,0 +1,41 @@
+{
+    "id": "ksads_sad_raw_1844_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_sad_raw_1844_t of mh_y_ksads_sad"
+    },
+    "prefLabel": {
+        "en": "You said that you often feel super shy and really uncomfortable in social situations. Mark below all the situations that almost always make you super uncomfortable or nervous. Mark all that apply.Using public bathrooms"
+    },
+    "question": {
+        "en": "You said that you often feel super shy and really uncomfortable in social situations. Mark below all the situations that almost always make you super uncomfortable or nervous. Mark all that apply. Using public bathrooms"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

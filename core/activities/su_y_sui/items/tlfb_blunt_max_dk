@@ -1,0 +1,35 @@
+{
+    "id": "tlfb_blunt_max_dk",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_blunt_max_dk of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Blunts:Don't know"
+    },
+    "question": {
+        "en": "Blunts:Don't know"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know // Great, now I'd like to know the largest amount of each drug that you have ever had in your life in one sitting. I am going to measure this in standard units, I will help explain that for each drug you have used."
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 999,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

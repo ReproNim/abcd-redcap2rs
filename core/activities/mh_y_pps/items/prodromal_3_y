@@ -1,0 +1,41 @@
+{
+    "id": "prodromal_3_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "prodromal_3_y of mh_y_pps"
+    },
+    "prefLabel": {
+        "en": "Do things that you see appear different from the way they usually do (brighter or duller, larger or smaller, or changed in some other way)?"
+    },
+    "question": {
+        "en": "Do things that you see appear different from the way they usually do (brighter or duller, larger or smaller, or changed in some other way)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

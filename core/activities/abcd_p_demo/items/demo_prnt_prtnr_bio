@@ -1,0 +1,54 @@
+{
+    "id": "demo_prnt_prtnr_bio",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_prnt_prtnr_bio of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "Is your partner the child's biological parent? \u00ac\u00f8Su pareja es el padre o la madre biol\u221a\u2265gico(a) del ni\u221a\u00b1o o de la ni\u221a\u00b1a?"
+    },
+    "question": {
+        "en": "Is your partner the child's biological parent?",
+        "es": "\u00ac\u00f8Su pareja es el padre o la madre biol\u221a\u2265gico(a) del ni\u221a\u00b1o o de la ni\u221a\u00b1a?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes S\u221a\u00c9\u00ac\u2260"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know No lo s\u221a\u00c9\u00ac\u00a9"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer Niego contestar //The following questions are about your partner. Your \"partner\" refers to any significant figure in your life that helps you in raising your child or has helped you for more than 2 years. This person should be involved 40% or more of the daily activities your child does. For example, your partner could be your spouse. However, your partner could also be your boyfriend/girlfriend or relative."
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

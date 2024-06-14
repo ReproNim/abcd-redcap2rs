@@ -1,0 +1,41 @@
+{
+    "id": "p_cope_cv___1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "p_cope_cv___1 of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "In the past week  to cope  have you done any of the following? (check all that apply) : 1 Took breaks from watching  reading  or listening to news stories  including social media"
+    },
+    "question": {
+        "en": "In the past week  to cope  have you done any of the following? (check all that apply) : 1 Took breaks from watching  reading  or listening to news stories  including social media"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

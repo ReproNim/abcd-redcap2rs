@@ -1,0 +1,47 @@
+{
+    "id": "mypi_alc_sip",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mypi_alc_sip of su_y_mypi"
+    },
+    "prefLabel": {
+        "en": "Have you had a sip of a drink containing alcohol at any time in the past 6 months, so from last (name of month 6 months ago) until today?"
+    },
+    "question": {
+        "en": "Have you had a sip of a drink containing alcohol at any time in the past 6 months, so from last (name of month 6 months ago) until today?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "no"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

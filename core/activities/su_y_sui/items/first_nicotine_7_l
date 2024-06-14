@@ -1,0 +1,47 @@
+{
+    "id": "first_nicotine_7_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "first_nicotine_7_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Was your cigarette/e-cigarette product flavored with?"
+    },
+    "question": {
+        "en": "Was your cigarette e-cigarette product flavored with?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Menthol or mint"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Other flavoring"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No flavoring / first_nicotine_1_l   == '1' &&  tlfb_tob_puff_c_l   == '0'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

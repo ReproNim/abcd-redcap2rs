@@ -1,0 +1,24 @@
+{
+    "id": "asr_scr_internal_total",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "asr_scr_internal_total of mh_p_asr"
+    },
+    "prefLabel": {
+        "en": "Interalizing Problems ASR Syndrome Scale (number of dependent raw scores)"
+    },
+    "question": {
+        "en": "Interalizing Problems ASR Syndrome Scale (number of dependent raw scores)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

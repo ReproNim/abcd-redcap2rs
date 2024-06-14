@@ -1,0 +1,41 @@
+{
+    "id": "first_nicotine_6_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "first_nicotine_6_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Did you continue to smoke the cigarette/e-cigarette after the first puff?"
+    },
+    "question": {
+        "en": "Did you continue to smoke the cigarette e-cigarette after the first puff?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No / first_nicotine_1_l   == '1' &&  tlfb_tob_puff_c_l   == '0'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

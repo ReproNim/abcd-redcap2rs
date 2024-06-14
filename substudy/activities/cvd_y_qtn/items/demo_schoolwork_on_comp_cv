@@ -1,0 +1,53 @@
+{
+    "id": "demo_schoolwork_on_comp_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_schoolwork_on_comp_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "I do schoolwork on a computer"
+    },
+    "question": {
+        "en": "I do schoolwork on a computer"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "I have not done this in the last week"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I did this some of the time last week"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I did this most of the time last week"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I did this all the time last week  [eventname] = 'covid19_cv1_arm_2' or [eventname] = 'covid19_cv3_arm_2'"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

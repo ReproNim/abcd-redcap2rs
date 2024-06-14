@@ -1,0 +1,24 @@
+{
+    "id": "cvd_fit_ss_total_very_active_min",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "cvd_fit_ss_total_very_active_min of cvd_y_fitb_act_d"
+    },
+    "prefLabel": {
+        "en": "Number of minutes of vigorously active (>6 METS) time observed in all valid minutes  after all exclusions from midnight (00:00) to 11:59 PM (23:59) regardless of sleep status"
+    },
+    "question": {
+        "en": "Number of minutes of vigorously active (>6 METS) time observed in all valid minutes  after all exclusions from midnight (00:00) to 11:59 PM (23:59) regardless of sleep status"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

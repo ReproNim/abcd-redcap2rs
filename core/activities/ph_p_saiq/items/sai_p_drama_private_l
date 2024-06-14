@@ -1,0 +1,42 @@
+{
+    "id": "sai_p_drama_private_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sai_p_drama_private_l of ph_p_saiq"
+    },
+    "prefLabel": {
+        "en": "Theater, Acting, Film Teatro, actuaciAn, cinematograf\u00eda Did your child receive individual private instruction? \u00bfSu ni\u00f1o(a) recibiA instrucciAn privada individual?"
+    },
+    "question": {
+        "en": "Theater, Acting, Film Teatro, actuaciAn, cinematograf\u00eda Did your child receive individual private instruction?",
+        "es": "\u00bfSu ni\u00f1o(a) recibiA instrucciAn privada individual?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

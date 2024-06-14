@@ -1,0 +1,35 @@
+{
+    "id": "cvd_fit_ss_weekday",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "cvd_fit_ss_weekday of cvd_y_fitb_slp_d"
+    },
+    "prefLabel": {
+        "en": "Day of the week"
+    },
+    "question": {
+        "en": "Day of the week"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Sunday, 2=Monday, 3=Tuesday, 4=Wednesday, 5=Thursday, 6=Friday, 7=Saturday"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

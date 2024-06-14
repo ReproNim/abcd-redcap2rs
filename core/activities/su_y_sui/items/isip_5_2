@@ -1,0 +1,53 @@
+{
+    "id": "isip_5_2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "isip_5_2 of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Did the person the drink belonged to offer you a sip or did you take it when they weren't looking?"
+    },
+    "question": {
+        "en": "Did the person the drink belonged to offer you a sip or did you take it when they weren't looking?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "They offered me a sip"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I intentionally took it when they weren't looking"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I accidentally took it when they weren't looking // You mentioned earlier that you have had a sip of alcohol in the past. I want to ask some more questions about that."
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

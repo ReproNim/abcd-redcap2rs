@@ -1,0 +1,49 @@
+{
+    "id": "led_l_prenatal_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Air Pollution in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Prenatal"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_pm25_prenatal_avg",
+            "items/reshist_addr1_no2_prenatal_avg",
+            "items/reshist_addr1_o3_prenatal_avg",
+            "items/prenatal_exposure_qc"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_pm25_prenatal_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_pm25_prenatal_avg"
+            },
+            {
+                "isAbout": "items/reshist_addr1_no2_prenatal_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_no2_prenatal_avg"
+            },
+            {
+                "isAbout": "items/reshist_addr1_o3_prenatal_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_o3_prenatal_avg"
+            },
+            {
+                "isAbout": "items/prenatal_exposure_qc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prenatal_exposure_qc"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "eatq_p_ss_shyness",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "eatq_p_ss_shyness of mh_p_eatq"
+    },
+    "prefLabel": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent shyness; sum(eatq_phenx_social_p, eatq_phenx_is_shy_p, eatq_phenx_not_shy_p, eatq_phenx_meet_p, eatq_phenx_shy_meet_p); Validation: Maximum of 1 item missing"
+    },
+    "question": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent shyness; sum(eatq_phenx_social_p, eatq_phenx_is_shy_p, eatq_phenx_not_shy_p, eatq_phenx_meet_p, eatq_phenx_shy_meet_p); Validation: Maximum of 1 item missing"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

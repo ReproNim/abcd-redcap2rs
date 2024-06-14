@@ -1,0 +1,59 @@
+{
+    "id": "prodromal_2b_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "prodromal_2b_y of mh_y_pps"
+    },
+    "prefLabel": {
+        "en": "Strange sounds. Please CHOOSE THE NUMBER below the appropriate picture that shows us how much that bothered you when it happened."
+    },
+    "question": {
+        "en": "Strange sounds. Please CHOOSE THE NUMBER below the appropriate picture that shows us how much that bothered you when it happened."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not very bothered"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Slightly bothered"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Moderately bothered"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very much bothered"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Extremely bothered"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

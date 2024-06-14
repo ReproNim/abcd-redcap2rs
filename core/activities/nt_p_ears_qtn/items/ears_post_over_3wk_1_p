@@ -1,0 +1,42 @@
+{
+    "id": "ears_post_over_3wk_1_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ears_post_over_3wk_1_p of nt_p_ears_qtn"
+    },
+    "prefLabel": {
+        "en": "If we asked your child to use a smartphone monitoring application for a longer period of time, would you be ok with that? / Si le pedimos a su ni\u00f1o(a) que utilice una aplicaci\u00f3n de monitoreo de \"tel\u00e9fono inteligente\" durante un periodo de tiempo m\u00e1s largo, \u00bfestar\u00eda usted de acuerdo con eso?"
+    },
+    "question": {
+        "en": "If we asked your child to use a smartphone monitoring application for a longer period of time, would you be ok with that?",
+        "es": "Si le pedimos a su ni\u00f1o(a) que utilice una aplicaci\u00f3n de monitoreo de \"tel\u00e9fono inteligente\" durante un periodo de tiempo m\u00e1s largo, \u00bfestar\u00eda usted de acuerdo con eso?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes / S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No / No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "fes_56_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fes_56_p of ce_p_fes"
+    },
+    "prefLabel": {
+        "en": "Someone in our family plays a musical instrument.Alguien en nuestra familia toca un instrumento musical."
+    },
+    "question": {
+        "en": "Someone in our family plays a musical instrument.",
+        "es": "Alguien en nuestra familia toca un instrumento musical."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "True /Verdadera"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "False/ Falsa"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

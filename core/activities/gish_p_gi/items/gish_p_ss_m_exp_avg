@@ -1,0 +1,24 @@
+{
+    "id": "gish_p_ss_m_exp_avg",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gish_p_ss_m_exp_avg of gish_p_gi"
+    },
+    "prefLabel": {
+        "en": "GISH Male Expression Average (gish_m1_p: m11_p). Validation: No more than 4 missing or decline"
+    },
+    "question": {
+        "en": "GISH Male Expression Average (gish_m1_p: m11_p). Validation: No more than 4 missing or decline"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

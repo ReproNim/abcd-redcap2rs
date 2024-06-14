@@ -1,0 +1,24 @@
+{
+    "id": "socialdev_cvict_c3_a_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_cvict_c3_a_l of sd_y_vict"
+    },
+    "prefLabel": {
+        "en": "How many times did this happen to you since your last SD visit? (If you aren't sure, a guess like 10 times or 50 times is better than nothing.)"
+    },
+    "question": {
+        "en": "How many times did this happen to you since your last SD visit? (If you aren't sure, a guess like 10 times or 50 times is better than nothing. )"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

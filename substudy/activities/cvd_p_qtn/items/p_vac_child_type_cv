@@ -1,0 +1,24 @@
+{
+    "id": "p_vac_child_type_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "p_vac_child_type_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Which type:(span lang=es style=color:maroon;)Qu? tipo:"
+    },
+    "question": {
+        "en": "Which type:(span lang=es style=color:maroon;)Qu? tipo:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

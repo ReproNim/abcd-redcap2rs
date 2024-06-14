@@ -1,0 +1,47 @@
+{
+    "id": "q7j_mat_aunt2_mania",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "q7j_mat_aunt2_mania of mh_p_fhx"
+    },
+    "prefLabel": {
+        "en": "maternal aunt T\u00eda materna (2)"
+    },
+    "question": {
+        "en": "maternal aunt T\u00eda materna (2)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Don't know No lo s\u00e9/  famhx_1   == 1 &&  fam_history_7_yes_no   == 1 &&  famhx_1b_p  > 1"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

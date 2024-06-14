@@ -1,0 +1,137 @@
+{
+    "id": "first_mj_6_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "first_mj_6_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "Whose marijuana was it / who did the marijuana belong to?"
+    },
+    "question": {
+        "en": "Whose marijuana was it who did the marijuana belong to?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "My mom"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "My dad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Other guardian"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "An uncle or aunt"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Brother or sister who was age 21 or older"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Brother or sister who was age 20 or younger"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other adult (non-guardian) family member"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Another adult (e.g., neighbor, friend of your parents, etc.)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Friend"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Other young person who is not a friend (20 years or younger)"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "I didnBRUHt know the person/it was a stranger"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "I Do not know who the marijuana belonged to"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "From a doctor (prescription MJ in your name)"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Family member or friend with prescription medical marijuana"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Stranger with prescription medical marijuana"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Used someone elses medical marijuana card/prescription"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Legal recreational marijuana store or dispensary"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Ordered on the internet"
+                },
+                "value": 18
+            }
+        ],
+        "maxValue": 18,
+        "minValue": 1,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

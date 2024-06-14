@@ -1,0 +1,24 @@
+{
+    "id": "sit_scr_script_groupid",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sit_scr_script_groupid of nc_y_sit"
+    },
+    "prefLabel": {
+        "en": "script.groupid:\n\nGroup id number"
+    },
+    "question": {
+        "en": "script. groupid:\n\nGroup id number"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

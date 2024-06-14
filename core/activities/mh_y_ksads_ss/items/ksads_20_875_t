@@ -1,0 +1,24 @@
+{
+    "id": "ksads_20_875_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_20_875_t of mh_y_ksads_ss"
+    },
+    "prefLabel": {
+        "en": "Diagnosis - Opiod Use Disorder Present"
+    },
+    "question": {
+        "en": "Diagnosis - Opiod Use Disorder Present"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "irma_hurtec_d14",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "irma_hurtec_d14 of irma_y_qtn"
+    },
+    "prefLabel": {
+        "en": "During the hurricane, did you think that the hurricane was causing major damage to your home, or that you might lose your home? Durante el hurac\u221a\u00b0n, \u00ac\u00f8 usted penso que el hurac\u221a\u00b0n estaba causando un da\u221a\u00b1o grave a tu casa, o que podr\u221a\u2260as perder tu casa?"
+    },
+    "question": {
+        "en": "During the hurricane, did you think that the hurricane was causing major damage to your home, or that you might lose your home?",
+        "es": "Durante el hurac\u221a\u00b0n, \u00ac\u00f8 usted penso que el hurac\u221a\u00b0n estaba causando un da\u221a\u00b1o grave a tu casa, o que podr\u221a\u2260as perder tu casa?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

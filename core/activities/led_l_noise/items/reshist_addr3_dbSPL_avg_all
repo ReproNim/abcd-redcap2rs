@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr3_dbSPL_avg_all",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr3_dbSPL_avg_all of led_l_noise"
+    },
+    "prefLabel": {
+        "en": "Residential history derived- Day-night average sound level over 24-hour period, with night (10 pm \u2013 7 am) upweighted by 10 DB"
+    },
+    "question": {
+        "en": "Residential history derived- Day-night average sound level over 24-hour period, with night (10 pm \u2013 7 am) upweighted by 10 DB"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

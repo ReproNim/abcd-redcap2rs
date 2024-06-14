@@ -1,0 +1,53 @@
+{
+    "id": "socialdev_cpd_052_cads_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_cpd_052_cads_l of sd_y_pd"
+    },
+    "prefLabel": {
+        "en": "I feel bad for others when they get hurt."
+    },
+    "question": {
+        "en": "I feel bad for others when they get hurt."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all true"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat true"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very true"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Definitely true"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

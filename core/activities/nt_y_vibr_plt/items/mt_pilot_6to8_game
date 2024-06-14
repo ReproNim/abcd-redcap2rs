@@ -1,0 +1,24 @@
+{
+    "id": "mt_pilot_6to8_game",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mt_pilot_6to8_game of nt_y_vibr_plt"
+    },
+    "prefLabel": {
+        "en": "App category: Ages 6 to 8 (as labeled by Google Playstore). Total minutes"
+    },
+    "question": {
+        "en": "App category: Ages 6 to 8 (as labeled by Google Playstore). Total minutes"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

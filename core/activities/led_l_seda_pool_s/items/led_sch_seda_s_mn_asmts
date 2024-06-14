@@ -1,0 +1,24 @@
+{
+    "id": "led_sch_seda_s_mn_asmts",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "led_sch_seda_s_mn_asmts of led_l_seda_pool_s"
+    },
+    "prefLabel": {
+        "en": "Per grade number of math plus RLA cells for pooled estimates (tot_asmts/cellcount)"
+    },
+    "question": {
+        "en": "Per grade number of math plus RLA cells for pooled estimates (tot_asmts cellcount)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

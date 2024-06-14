@@ -1,0 +1,77 @@
+{
+    "id": "physical_activity2_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "physical_activity2_y of ph_y_yrb"
+    },
+    "prefLabel": {
+        "en": "On how many of the past 7 days did you do exercises to strengthen or tone your muscles, such as push-ups, sit-ups, or weight lifting?"
+    },
+    "question": {
+        "en": "On how many of the past 7 days did you do exercises to strengthen or tone your muscles, such as push-ups, sit-ups, or weight lifting?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0 days"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1 day"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "2 days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "3 days"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "4 days"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "5 days"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "6 days"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "7 days"
+                },
+                "value": 8
+            }
+        ],
+        "maxValue": 8,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

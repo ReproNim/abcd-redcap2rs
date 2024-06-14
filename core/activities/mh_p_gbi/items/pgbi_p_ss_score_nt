@@ -1,0 +1,24 @@
+{
+    "id": "pgbi_p_ss_score_nt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pgbi_p_ss_score_nt of mh_p_gbi"
+    },
+    "prefLabel": {
+        "en": "Parent General Behavior Inventory, Sum:  Number Total Questions"
+    },
+    "question": {
+        "en": "Parent General Behavior Inventory, Sum:  Number Total Questions"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

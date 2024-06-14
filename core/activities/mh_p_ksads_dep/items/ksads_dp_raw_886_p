@@ -1,0 +1,41 @@
+{
+    "id": "ksads_dp_raw_886_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dp_raw_886_p of mh_p_ksads_dep"
+    },
+    "prefLabel": {
+        "en": "Did the things we have just been talking about (i.e., feeling sad, feeling irritable, feeling bored, sleeping too much, feeling tired, troubles concentrating, difficulty making decisions, decreased appetite, loss of weight, increased appetite, weight gain, feeling restless or fidgety, feeling guilty and feeling bad about himself or herself) cause problems for your child back then in any of the following areas:In other places or times"
+    },
+    "question": {
+        "en": "Did the things we have just been talking about (i. e. , feeling sad, feeling irritable, feeling bored, sleeping too much, feeling tired, troubles concentrating, difficulty making decisions, decreased appetite, loss of weight, increased appetite, weight gain, feeling restless or fidgety, feeling guilty and feeling bad about himself or herself) cause problems for your child back then in any of the following areas:In other places or times"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

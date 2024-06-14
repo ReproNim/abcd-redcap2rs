@@ -1,0 +1,53 @@
+{
+    "id": "nic2_test",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nic2_test of su_y_nic_tox"
+    },
+    "prefLabel": {
+        "en": "Urine sample collected?"
+    },
+    "question": {
+        "en": "Urine sample collected?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

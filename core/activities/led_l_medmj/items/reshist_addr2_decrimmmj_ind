@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr2_decrimmmj_ind",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr2_decrimmmj_ind of led_l_medmj"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - indicates as of Jan 1st variable in which the level of offense for possessing one ounce of MJ in a state is classified as a civil offense/infraction/petty offense or not an offense. 0 = MJ not decriminalized as of Jan 1st of the baseline visit year. 1 = MJ decriminilized as of Jan 1st of the baseline visit year. (address 2)"
+    },
+    "question": {
+        "en": "Residential history derived - indicates as of Jan 1st variable in which the level of offense for possessing one ounce of MJ in a state is classified as a civil offense infraction petty offense or not an offense. 0 = MJ not decriminalized as of Jan 1st of the baseline visit year. 1 = MJ decriminilized as of Jan 1st of the baseline visit year. (address 2)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

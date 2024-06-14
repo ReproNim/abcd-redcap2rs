@@ -1,0 +1,54 @@
+{
+    "id": "kbi_p_c_gay_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_p_c_gay_l of mh_p_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "Is your child gay? \u00bfSu ni\u00f1o(a) es homosexual?"
+    },
+    "question": {
+        "en": "Is your child gay?",
+        "es": "\u00bfSu ni\u00f1o(a) es homosexual?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Maybe/Don't know Tal vez/No s\u00e9"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Decline to answer Niego contestar"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

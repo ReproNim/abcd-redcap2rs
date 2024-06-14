@@ -1,0 +1,35 @@
+{
+    "id": "subj_resp_alc_1a",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "subj_resp_alc_1a of su_y_alc_eff"
+    },
+    "prefLabel": {
+        "en": "The first 5 times you ever drank: a. How many drinks did it take for you to begin to feel different? (where you could feel an effect). DO NOT count sips taken as a child."
+    },
+    "question": {
+        "en": "The first 5 times you ever drank: a. How many drinks did it take for you to begin to feel different? (where you could feel an effect). DO NOT count sips taken as a child."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "6 DRINKS; WRITE 5). TO FILL OUT THIS FORM: One drink of alcohol = 12 oz. beer, 5 oz. glass of wine, or a single shot (1.5) of hard alcohol alone or in a mixed drink."
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 4,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

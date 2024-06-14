@@ -1,0 +1,41 @@
+{
+    "id": "ple_law_past_yr_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ple_law_past_yr_y of mh_y_le"
+    },
+    "prefLabel": {
+        "en": "Did this happen in the past year?"
+    },
+    "question": {
+        "en": "Did this happen in the past year?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

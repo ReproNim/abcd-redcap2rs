@@ -1,0 +1,59 @@
+{
+    "id": "ksads_suicidal_raw_819_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_suicidal_raw_819_p of mh_p_ksads_si"
+    },
+    "prefLabel": {
+        "en": "Sometimes when kids get upset or feel numb, they may do some things to hurt themselves, like scratching, cutting, or burning themselves. In the past two weeks, how often has your child done any of these things or other things to try to hurt himself or herself?"
+    },
+    "question": {
+        "en": "Sometimes when kids get upset or feel numb, they may do some things to hurt themselves, like scratching, cutting, or burning themselves. In the past two weeks, how often has your child done any of these things or other things to try to hurt himself or herself?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Several days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "More than half the days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Nearly every day"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

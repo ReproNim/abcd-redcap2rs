@@ -1,0 +1,161 @@
+{
+    "id": "led_l_seda_pool_s_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about School (Math & Reading) in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Seda_Pool_S"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/led_sch_seda_s_cellcount",
+            "items/led_sch_seda_s_cs_mn_mth_eb",
+            "items/led_sch_seda_s_cs_mn_mth_eb_se",
+            "items/led_sch_seda_s_cs_mn_mth_ol",
+            "items/led_sch_seda_s_cs_mn_mth_ol_se",
+            "items/led_sch_seda_s_grdcenter",
+            "items/led_sch_seda_s_mn_asmts",
+            "items/led_sch_seda_s_mn_avg_eb",
+            "items/led_sch_seda_s_mn_avg_eb_se",
+            "items/led_sch_seda_s_mn_avg_ol",
+            "items/led_sch_seda_s_mn_avg_ol_se",
+            "items/led_sch_seda_s_mn_coh_eb",
+            "items/led_sch_seda_s_mn_coh_eb_se",
+            "items/led_sch_seda_s_mn_coh_ol",
+            "items/led_sch_seda_s_mn_coh_ol_se",
+            "items/led_sch_seda_s_mn_grd_eb",
+            "items/led_sch_seda_s_mn_grd_eb_se",
+            "items/led_sch_seda_s_mn_grd_ol",
+            "items/led_sch_seda_s_mn_grd_ol_se",
+            "items/led_sch_seda_s_tot_asmts"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/led_sch_seda_s_cellcount",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "led_sch_seda_s_cellcount"
+            },
+            {
+                "isAbout": "items/led_sch_seda_s_cs_mn_mth_eb",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "led_sch_seda_s_cs_mn_mth_eb"
+            },
+            {
+                "isAbout": "items/led_sch_seda_s_cs_mn_mth_eb_se",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "led_sch_seda_s_cs_mn_mth_eb_se"
+            },
+            {
+                "isAbout": "items/led_sch_seda_s_cs_mn_mth_ol",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "led_sch_seda_s_cs_mn_mth_ol"
+            },
+            {
+                "isAbout": "items/led_sch_seda_s_cs_mn_mth_ol_se",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "led_sch_seda_s_cs_mn_mth_ol_se"
+            },
+            {
+                "isAbout": "items/led_sch_seda_s_grdcenter",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "led_sch_seda_s_grdcenter"
+            },
+            {
+                "isAbout": "items/led_sch_seda_s_mn_asmts",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "led_sch_seda_s_mn_asmts"
+            },
+            {
+                "isAbout": "items/led_sch_seda_s_mn_avg_eb",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "led_sch_seda_s_mn_avg_eb"
+            },
+            {
+                "isAbout": "items/led_sch_seda_s_mn_avg_eb_se",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "led_sch_seda_s_mn_avg_eb_se"
+            },
+            {
+                "isAbout": "items/led_sch_seda_s_mn_avg_ol",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "led_sch_seda_s_mn_avg_ol"
+            },
+            {
+                "isAbout": "items/led_sch_seda_s_mn_avg_ol_se",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "led_sch_seda_s_mn_avg_ol_se"
+            },
+            {
+                "isAbout": "items/led_sch_seda_s_mn_coh_eb",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "led_sch_seda_s_mn_coh_eb"
+            },
+            {
+                "isAbout": "items/led_sch_seda_s_mn_coh_eb_se",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "led_sch_seda_s_mn_coh_eb_se"
+            },
+            {
+                "isAbout": "items/led_sch_seda_s_mn_coh_ol",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "led_sch_seda_s_mn_coh_ol"
+            },
+            {
+                "isAbout": "items/led_sch_seda_s_mn_coh_ol_se",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "led_sch_seda_s_mn_coh_ol_se"
+            },
+            {
+                "isAbout": "items/led_sch_seda_s_mn_grd_eb",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "led_sch_seda_s_mn_grd_eb"
+            },
+            {
+                "isAbout": "items/led_sch_seda_s_mn_grd_eb_se",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "led_sch_seda_s_mn_grd_eb_se"
+            },
+            {
+                "isAbout": "items/led_sch_seda_s_mn_grd_ol",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "led_sch_seda_s_mn_grd_ol"
+            },
+            {
+                "isAbout": "items/led_sch_seda_s_mn_grd_ol_se",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "led_sch_seda_s_mn_grd_ol_se"
+            },
+            {
+                "isAbout": "items/led_sch_seda_s_tot_asmts",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "led_sch_seda_s_tot_asmts"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

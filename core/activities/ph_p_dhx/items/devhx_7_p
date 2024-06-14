@@ -1,0 +1,25 @@
+{
+    "id": "devhx_7_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_7_p of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "How far along (in weeks) were you with your child when you found out that you were pregnant? /\u00bfQu\u00e9 tan avanzada (en semanas) estaba usted con su hijo(a) cuando se enter\u00f3 de que estaba embarazada?"
+    },
+    "question": {
+        "en": "How far along (in weeks) were you with your child when you found out that you were pregnant?",
+        "es": "\u00bfQu\u00e9 tan avanzada (en semanas) estaba usted con su hijo(a) cuando se enter\u00f3 de que estaba embarazada?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

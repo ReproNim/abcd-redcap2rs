@@ -1,0 +1,60 @@
+{
+    "id": "meim_4f_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "meim_4f_p of ce_p_meim"
+    },
+    "prefLabel": {
+        "en": "I have often done things that will help me understand my ethnic background better.Muchas veces he hecho cosas que me ayudar?n a comprender mejor a mi grupo etnico."
+    },
+    "question": {
+        "en": "I have often done things that will help me understand my ethnic background better. n a comprender mejor a mi grupo etnico.",
+        "es": "Muchas veces he hecho cosas que me ayudar?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Agree"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Agree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Neutral"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Disagree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Strongly Disagree"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

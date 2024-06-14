@@ -1,0 +1,59 @@
+{
+    "id": "mnbs_bad",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mnbs_bad of ce_y_mnbs"
+    },
+    "prefLabel": {
+        "en": "Care if you did bad things, like shoplifting?"
+    },
+    "question": {
+        "en": "Care if you did bad things, like shoplifting?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Almost Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A lot"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

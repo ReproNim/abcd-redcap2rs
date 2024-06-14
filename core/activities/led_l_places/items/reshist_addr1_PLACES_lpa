@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr1_PLACES_lpa",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr1_PLACES_lpa of led_l_places"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - No leisure-time physical activity among adults aged >=18 years; Prevalence; PLACES (addr1)"
+    },
+    "question": {
+        "en": "Residential history derived - No leisure-time physical activity among adults aged >=18 years; Prevalence; PLACES (addr1)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

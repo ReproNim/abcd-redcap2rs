@@ -1,0 +1,65 @@
+{
+    "id": "su_tlfb_vape_nic",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_tlfb_vape_nic of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "In the past year, when you vaped nicotine or just flavoring, which type of flavor did you use most often? (Select one flavor that is the best fit)."
+    },
+    "question": {
+        "en": "In the past year, when you vaped nicotine or just flavoring, which type of flavor did you use most often? (Select one flavor that is the best fit)."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Sweet (chocolate = creme = etc.)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Fruit (Mango = Strawberry = etc.)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Tobacco"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Mint"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Menthol"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Unflavored"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

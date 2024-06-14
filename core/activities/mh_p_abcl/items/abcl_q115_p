@@ -1,0 +1,47 @@
+{
+    "id": "abcl_q115_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "abcl_q115_p of mh_p_abcl"
+    },
+    "prefLabel": {
+        "en": "Is restless or fidgety"
+    },
+    "question": {
+        "en": "Is restless or fidgety"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not True (as far as you know)/ No es cierto (por lo que usted sabe)"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat or Sometimes True/ En cierta manera  algunas veces"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very True or Often True /Muy cierto o cierto a menudo"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

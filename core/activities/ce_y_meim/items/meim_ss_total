@@ -1,0 +1,35 @@
+{
+    "id": "meim_ss_total",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "meim_ss_total of ce_y_meim"
+    },
+    "prefLabel": {
+        "en": "MEIM-R Overall Mean: (abcdmeim_1 + abcdmeim_2 + abcdmeim_3 + abcdmeim_4 + abcdmeim_5 + abcdmeim_6)/6; Validation: minimum of 5 items answered"
+    },
+    "question": {
+        "en": "MEIM-R Overall Mean: (abcdmeim_1 + abcdmeim_2 + abcdmeim_3 + abcdmeim_4 + abcdmeim_5 + abcdmeim_6) 6; Validation: minimum of 5 items answered"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "281."
+                },
+                "value": 271
+            }
+        ],
+        "maxValue": 271,
+        "minValue": 271,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

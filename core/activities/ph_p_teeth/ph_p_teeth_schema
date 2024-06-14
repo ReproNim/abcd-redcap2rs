@@ -1,0 +1,28 @@
+{
+    "id": "ph_p_teeth_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Biospecimens in Physical Health"
+    },
+    "prefLabel": {
+        "en": "Ph_P_Teeth"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/baby_teeth_count"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/baby_teeth_count",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "baby_teeth_count"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

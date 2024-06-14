@@ -1,0 +1,24 @@
+{
+    "id": "biospec_blood_freeze_ship_dot",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "biospec_blood_freeze_ship_dot of ph_y_bld"
+    },
+    "prefLabel": {
+        "en": "Enter the date and time for refrigerating or freezing the sample (if you are shipping the same day, enter the date and time that the sample was put in the mailer"
+    },
+    "question": {
+        "en": "Enter the date and time for refrigerating or freezing the sample (if you are shipping the same day, enter the date and time that the sample was put in the mailer"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "date"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

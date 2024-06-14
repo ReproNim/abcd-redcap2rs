@@ -1,0 +1,25 @@
+{
+    "id": "devhx_19a_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_19a_p of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "At approximately what age (number of months) was he/she FIRST able to do each of the following? Roll over? /\u00bfRodarse?"
+    },
+    "question": {
+        "en": "At approximately what age (number of months) was he she FIRST able to do each of the following? Roll over?",
+        "es": "\u00bfRodarse?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

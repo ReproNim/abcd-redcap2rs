@@ -1,0 +1,48 @@
+{
+    "id": "demo_med_insur_f_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_med_insur_f_p of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "f. VA (including those who have ever used or enrolled for VA health care)f. VA (incluidos aquellos que alguna vez utilizaron o se inscribieron para la atenci?n m?dica de VA)"
+    },
+    "question": {
+        "en": "f. VA (including those who have ever used or enrolled for VA health care)f. n m? dica de VA)",
+        "es": "VA (incluidos aquellos que alguna vez utilizaron o se inscribieron para la atenci?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes Si?"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer Niego contestar"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

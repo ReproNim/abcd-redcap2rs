@@ -1,0 +1,95 @@
+{
+    "id": "biospec_urine_toxscrn_reason_2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "biospec_urine_toxscrn_reason_2 of su_y_uri_tox"
+    },
+    "prefLabel": {
+        "en": "Reason if NOT collected:"
+    },
+    "question": {
+        "en": "Reason if NOT collected:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not applicable (not randomized)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Youth refused"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Parent refused youth to do this"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Youth was willing but could not provide a sample"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Supplies not available"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Screen did not work"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Institution not authorized to collect samples due to COVID"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Staff discomfort due to COVID"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Exceed 15min of < 6ft distance from youth (COVID)"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Not approved by ABCD for collection"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 12
+            }
+        ],
+        "maxValue": 12,
+        "minValue": 1,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

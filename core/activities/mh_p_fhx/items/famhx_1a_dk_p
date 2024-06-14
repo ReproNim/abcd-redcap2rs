@@ -1,0 +1,35 @@
+{
+    "id": "famhx_1a_dk_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "famhx_1a_dk_p of mh_p_fhx"
+    },
+    "prefLabel": {
+        "en": "# maternal uncle (s) of the child # de t\u00edo(s) materno(s) del ni\u00f1o(a)"
+    },
+    "question": {
+        "en": "# maternal uncle (s) of the child # de t\u00edo(s) materno(s) del ni\u00f1o(a)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know No lo s\u00e9 / famhx_1  == '1' && famhx_1a_p  == \"\"\"\""
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 999,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

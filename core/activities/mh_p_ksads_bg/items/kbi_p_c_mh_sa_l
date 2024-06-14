@@ -1,0 +1,54 @@
+{
+    "id": "kbi_p_c_mh_sa_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_p_c_mh_sa_l of mh_p_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "Since we last saw you, has your child received mental health or substance abuse services? Desde la \u00faltima vez que nos vimos, \u00bfsu ni\u00f1o(a) ha recibido servicios de salud mental o para el abuso de sustancias?"
+    },
+    "question": {
+        "en": "Since we last saw you, has your child received mental health or substance abuse services?",
+        "es": "Desde la \u00faltima vez que nos vimos, \u00bfsu ni\u00f1o(a) ha recibido servicios de salud mental o para el abuso de sustancias?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Not sure No estoy seguro(a)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

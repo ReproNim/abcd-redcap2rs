@@ -1,0 +1,35 @@
+{
+    "id": "reshist_addr3_general_gb_order_codes",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr3_general_gb_order_codes of cvd_l_geo_policy"
+    },
+    "prefLabel": {
+        "en": "General Gathering Ban Order codes"
+    },
+    "question": {
+        "en": "General Gathering Ban Order codes"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No order found, 2 - Ban of gatherings over 101 or more people, 3 - Ban of gatherings over 51-100 people, 4 - Ban of gatherings over 26-50 people, 5 - Ban of gatherings over 11-25 people, 6 - Ban of gatherings over 1-10 people, 7 - Bans gatherings of any size"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

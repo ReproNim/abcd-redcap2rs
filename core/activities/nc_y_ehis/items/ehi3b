@@ -1,0 +1,47 @@
+{
+    "id": "ehi3b",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ehi3b of nc_y_ehis"
+    },
+    "prefLabel": {
+        "en": "Toothbrush"
+    },
+    "question": {
+        "en": "Toothbrush"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Always Right"
+                },
+                "value": 100
+            },
+            {
+                "name": {
+                    "en": "Usually Right"
+                },
+                "value": 50
+            },
+            {
+                "name": {
+                    "en": "Both Equally; -50 = Usually Left; -100 = Always Left"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 100,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

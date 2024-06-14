@@ -1,0 +1,35 @@
+{
+    "id": "nic_timeread",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nic_timeread of su_y_nic_tox"
+    },
+    "prefLabel": {
+        "en": "Urine sample READ (date and time):"
+    },
+    "question": {
+        "en": "Urine sample READ (date and time):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "15 minutes for test to develop."
+                },
+                "value": 10
+            }
+        ],
+        "maxValue": 10,
+        "minValue": 10,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

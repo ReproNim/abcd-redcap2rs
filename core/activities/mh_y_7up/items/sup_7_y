@@ -1,0 +1,53 @@
+{
+    "id": "sup_7_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sup_7_y of mh_y_7up"
+    },
+    "prefLabel": {
+        "en": "Have you had times when your thoughts and ideas came so fast that you couldn't get them all out, or they came so quickly that others complained that they couldn't keep up with your ideas?"
+    },
+    "question": {
+        "en": "Have you had times when your thoughts and ideas came so fast that you couldn't get them all out, or they came so quickly that others complained that they couldn't keep up with your ideas?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never or hardly ever"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Very often or almost constantly"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

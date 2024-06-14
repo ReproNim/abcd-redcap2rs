@@ -1,0 +1,41 @@
+{
+    "id": "ocp_prtnr_acs_job_cat_2_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ocp_prtnr_acs_job_cat_2_p of abcd_p_ocp"
+    },
+    "prefLabel": {
+        "en": "Please specify the Business and Financial Operations Occupations Job Title:"
+    },
+    "question": {
+        "en": "Please specify the Business and Financial Operations Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Business Operations Specialists"
+                },
+                "value": 13100
+            },
+            {
+                "name": {
+                    "en": "Financial Specialists"
+                },
+                "value": 13200
+            }
+        ],
+        "maxValue": 13200,
+        "minValue": 13100,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

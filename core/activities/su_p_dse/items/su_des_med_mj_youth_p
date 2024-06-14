@@ -1,0 +1,25 @@
+{
+    "id": "su_des_med_mj_youth_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_des_med_mj_youth_p of su_p_dse"
+    },
+    "prefLabel": {
+        "en": "Smoked  edible  or concentrated marijuana for medicinal purposes (with valid prescription)? Marihuana fumada  para comer  o concentrada para uso medicinales (con receta medica valida)?"
+    },
+    "question": {
+        "en": "Smoked  edible  or concentrated marijuana for medicinal purposes (with valid prescription)?",
+        "es": "Marihuana fumada  para comer  o concentrada para uso medicinales (con receta medica valida)?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

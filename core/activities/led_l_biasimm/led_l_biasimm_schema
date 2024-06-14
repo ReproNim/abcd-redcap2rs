@@ -1,0 +1,28 @@
+{
+    "id": "led_l_biasimm_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Policy Vars in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Biasimm"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_state_immigrant_factor"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_state_immigrant_factor",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_state_immigrant_factor"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

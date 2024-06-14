@@ -1,0 +1,53 @@
+{
+    "id": "sai_lmusic_studying_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sai_lmusic_studying_y of ph_y_saiq"
+    },
+    "prefLabel": {
+        "en": "Do you listen to music while you're studying?"
+    },
+    "question": {
+        "en": "Do you listen to music while you're studying?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Usually"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

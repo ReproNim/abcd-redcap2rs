@@ -1,0 +1,24 @@
+{
+    "id": "ksads_cdr_raw_516_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_cdr_raw_516_t of mh_y_ksads_cd"
+    },
+    "prefLabel": {
+        "en": "You said that in the past you often cut school without the permission of your parents. When was that? If this was true of you for a very long time, let me know when it started."
+    },
+    "question": {
+        "en": "You said that in the past you often cut school without the permission of your parents. When was that? If this was true of you for a very long time, let me know when it started."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

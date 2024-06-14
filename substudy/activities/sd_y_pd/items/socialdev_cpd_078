@@ -1,0 +1,53 @@
+{
+    "id": "socialdev_cpd_078",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_cpd_078 of sd_y_pd"
+    },
+    "prefLabel": {
+        "en": "I am afraid of a lot of things."
+    },
+    "question": {
+        "en": "I am afraid of a lot of things."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "False"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat false"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat true"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "True"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "ple_law_fu2_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ple_law_fu2_p of mh_p_le"
+    },
+    "prefLabel": {
+        "en": "How much did the event affect your child? \u00bfCu\u00e1nto afect\u00f3 el evento a su ni\u00f1o(a)?"
+    },
+    "question": {
+        "en": "How much did the event affect your child?",
+        "es": "\u00bfCu\u00e1nto afect\u00f3 el evento a su ni\u00f1o(a)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at All Para nada"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "A Little Un poco"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some Algo"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A lot Mucho"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

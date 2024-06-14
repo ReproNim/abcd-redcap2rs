@@ -1,0 +1,24 @@
+{
+    "id": "tlfb_mj_conc_date1",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_mj_conc_date1 of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "When did you first try MARIJUANA OILS OR CONCENTRATES, such as 710; hash oil; BHO/butane hash oil/dabs/shatter/budder/honey oil; Co2 oil/vaporizer pen; Rick Simpson Oil/RSO/phoenix tears)?"
+    },
+    "question": {
+        "en": "When did you first try MARIJUANA OILS OR CONCENTRATES, such as 710; hash oil; BHO butane hash oil dabs shatter budder honey oil; Co2 oil vaporizer pen; Rick Simpson Oil RSO phoenix tears)?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "date"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

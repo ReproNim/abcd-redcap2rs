@@ -1,0 +1,71 @@
+{
+    "id": "nic_results_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nic_results_y of su_y_nic_tox"
+    },
+    "prefLabel": {
+        "en": "NicAlert lowest red band reading level:"
+    },
+    "question": {
+        "en": "NicAlert lowest red band reading level:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Level 0 (Negative; Non-user of tobacco products"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Level 1 (Negative; Non-user of tobacco products"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Level 2 (Negative; Non-user of tobacco products"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Level 3 (Positive; User of tobacco products)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Level 4 (Positive; User of tobacco products)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Level 5 (Positive; User of tobacco products)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Level 6 (Positive; User of tobacco products) | Note: If recent (past 48 hours) use was not reported (or not expected), report the result as \"Level 2\"."
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

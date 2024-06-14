@@ -1,0 +1,41 @@
+{
+    "id": "socialdev_visit_01_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_visit_01_l of sd_p_vt"
+    },
+    "prefLabel": {
+        "en": "Is this visit being completed on the same day as the ABCD visit, or on a separate day?"
+    },
+    "question": {
+        "en": "Is this visit being completed on the same day as the ABCD visit, or on a separate day?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Same day"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Separate day"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

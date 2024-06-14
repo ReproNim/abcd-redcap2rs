@@ -1,0 +1,35 @@
+{
+    "id": "tlfb_6mo_4_mj_dk_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_6mo_4_mj_dk_l of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "During the past year, what brand or strain of marijuana do you smoke? If you do not know, just say \"I don't know.\"        Interviewer: enter name, say \"home grown,\" if unknown click on \"don't know"
+    },
+    "question": {
+        "en": "During the past year, what brand or strain of marijuana do you smoke? If you do not know, just say \"I don't know. \"        Interviewer: enter name, say \"home grown,\" if unknown click on \"don't know"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know / tlfb_6mo_skip_l___9   == '1' &&  tlfb_6mo_4_mj_l   == ''"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 999,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

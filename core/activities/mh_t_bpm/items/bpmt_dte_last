@@ -1,0 +1,24 @@
+{
+    "id": "bpmt_dte_last",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bpmt_dte_last of mh_t_bpm"
+    },
+    "prefLabel": {
+        "en": "Last date sent"
+    },
+    "question": {
+        "en": "Last date sent"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "date"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

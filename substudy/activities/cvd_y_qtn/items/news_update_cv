@@ -1,0 +1,59 @@
+{
+    "id": "news_update_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "news_update_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "How often did you check for coronavirus news and updates using the internet (e.g. YouTube)? Do not include checking social media."
+    },
+    "question": {
+        "en": "How often did you check for coronavirus news and updates using the internet (e. g. YouTube)? Do not include checking social media."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Once per day or less"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Several times per day"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Almost every hour"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Several times per hour"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Almost continuously"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

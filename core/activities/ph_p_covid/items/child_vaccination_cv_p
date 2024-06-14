@@ -1,0 +1,54 @@
+{
+    "id": "child_vaccination_cv_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "child_vaccination_cv_p of ph_p_covid"
+    },
+    "prefLabel": {
+        "en": "If a vaccine to prevent coronavirus/COVID-19 with FDA approval for children was available right now at no cost, would you have your child vaccinated? / Si una vacuna contra el COVID-19 aprobada para ni\u00f1a/os por la Administraci\u00f3n de Alimentos y Medicamentos (FDA) estuviera disponible ahora mismo sin costo, \u00bfvacunar\u00eda a su hija/o?"
+    },
+    "question": {
+        "en": "If a vaccine to prevent coronavirus COVID-19 with FDA approval for children was available right now at no cost, would you have your child vaccinated? o?",
+        "es": "Si una vacuna contra el COVID-19 aprobada para ni\u00f1a os por la Administraci\u00f3n de Alimentos y Medicamentos (FDA) estuviera disponible ahora mismo sin costo, \u00bfvacunar\u00eda a su hija"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No / No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes / S\u00ed"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know / No se"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer / Niego a contestar"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "sai_readmusic_admin_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sai_readmusic_admin_y of ph_y_saiq"
+    },
+    "prefLabel": {
+        "en": "Please indicate how instrument was administered:"
+    },
+    "question": {
+        "en": "Please indicate how instrument was administered:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "RA-Administered"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Youth Self-Administered"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Combination"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

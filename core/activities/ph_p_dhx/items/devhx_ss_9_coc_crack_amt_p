@@ -1,0 +1,24 @@
+{
+    "id": "devhx_ss_9_coc_crack_amt_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_ss_9_coc_crack_amt_p of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "Cocaine/Crack?\n\nHow many times per day?"
+    },
+    "question": {
+        "en": "Cocaine Crack? How many times per day?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

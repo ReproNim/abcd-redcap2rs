@@ -1,0 +1,47 @@
+{
+    "id": "child_diagnosis_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "child_diagnosis_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "How was s/he (your child) diagnosed with asthma?"
+    },
+    "question": {
+        "en": "How was s he (your child) diagnosed with asthma?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "By a healthcare worker in person Por un trabajador de salud en persona"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "By a healthcare worker via tele-medicinePor un trabajador de salud a travs de la telemedicina"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "By a healthcare worker via telephone or emailPor un trabajador de la salud por telfono o correo electronico\"[child_covid_cv]='2'"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

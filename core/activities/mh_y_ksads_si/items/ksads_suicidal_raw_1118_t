@@ -1,0 +1,24 @@
+{
+    "id": "ksads_suicidal_raw_1118_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_suicidal_raw_1118_t of mh_y_ksads_si"
+    },
+    "prefLabel": {
+        "en": "You mentioned in the past you thought about actually wanting to kill yourself. When was that?"
+    },
+    "question": {
+        "en": "You mentioned in the past you thought about actually wanting to kill yourself. When was that?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

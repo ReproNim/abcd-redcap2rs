@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_c_mn_avg_eb_ecd",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_c_mn_avg_eb_ecd of led_l_seda_pool_c"
+    },
+    "prefLabel": {
+        "en": "County Mean Ach, MathandReading Language Arts, EB est, CS economically disadvantaged"
+    },
+    "question": {
+        "en": "County Mean Ach, MathandReading Language Arts, EB est, CS economically disadvantaged"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

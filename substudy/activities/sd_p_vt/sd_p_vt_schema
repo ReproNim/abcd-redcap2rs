@@ -1,0 +1,133 @@
+{
+    "id": "sd_p_vt_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Administrative in Social Development"
+    },
+    "prefLabel": {
+        "en": "Sd_P_Vt"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/socialdev_visit_01",
+            "items/socialdev_visit_02",
+            "items/socialdev_visit_03",
+            "items/socialdev_visit_consent",
+            "items/socialdev_visit_assent",
+            "items/socialdev_visit_date",
+            "items/socialdev_visit_preport_l___1",
+            "items/socialdev_visit_novisit_l",
+            "items/socialdev_visit_last_l",
+            "items/socialdev_visit_date_l",
+            "items/socialdev_visit_creport_l___1",
+            "items/socialdev_visit_consent_l___1",
+            "items/socialdev_visit_assent_l___1",
+            "items/socialdev_visit_03_l___1",
+            "items/socialdev_visit_02_l",
+            "items/socialdev_visit_01_l"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/socialdev_visit_01",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_visit_01"
+            },
+            {
+                "isAbout": "items/socialdev_visit_02",
+                "isVis": "socialdev_visit_01 ===2",
+                "valueRequired": true,
+                "variableName": "socialdev_visit_02"
+            },
+            {
+                "isAbout": "items/socialdev_visit_03",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_visit_03"
+            },
+            {
+                "isAbout": "items/socialdev_visit_consent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_visit_consent"
+            },
+            {
+                "isAbout": "items/socialdev_visit_assent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_visit_assent"
+            },
+            {
+                "isAbout": "items/socialdev_visit_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_visit_date"
+            },
+            {
+                "isAbout": "items/socialdev_visit_preport_l___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_visit_preport_l___1"
+            },
+            {
+                "isAbout": "items/socialdev_visit_novisit_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_visit_novisit_l"
+            },
+            {
+                "isAbout": "items/socialdev_visit_last_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_visit_last_l"
+            },
+            {
+                "isAbout": "items/socialdev_visit_date_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_visit_date_l"
+            },
+            {
+                "isAbout": "items/socialdev_visit_creport_l___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_visit_creport_l___1"
+            },
+            {
+                "isAbout": "items/socialdev_visit_consent_l___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_visit_consent_l___1"
+            },
+            {
+                "isAbout": "items/socialdev_visit_assent_l___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_visit_assent_l___1"
+            },
+            {
+                "isAbout": "items/socialdev_visit_03_l___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_visit_03_l___1"
+            },
+            {
+                "isAbout": "items/socialdev_visit_02_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_visit_02_l"
+            },
+            {
+                "isAbout": "items/socialdev_visit_01_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_visit_01_l"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

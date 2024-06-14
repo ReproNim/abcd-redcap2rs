@@ -1,0 +1,154 @@
+{
+    "id": "gish_y_gi_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Gender in Gender Identity & Sexual Health"
+    },
+    "prefLabel": {
+        "en": "Gish_Y_Gi"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/gish_m1_y",
+            "items/gish_m2_y",
+            "items/gish_f1_y",
+            "items/gish_f2_y",
+            "items/gish_m3_y",
+            "items/gish_m4_y",
+            "items/gish_f3_y",
+            "items/gish_f4_y",
+            "items/gish_admin",
+            "items/y_gish2_desc_fem",
+            "items/y_gish2_desc_fem_self",
+            "items/y_gish2_desc_male",
+            "items/y_gish2_desc_male_self",
+            "items/gish_y_ss_m_avg",
+            "items/gish_y_ss_f_avg",
+            "items/kbi_sex_assigned_at_birth",
+            "items/kbi_gender",
+            "items/kbi_y_trans_id",
+            "items/kbi_y_trans_prob"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/gish_m1_y",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === 1 ||  baseline_year_1_arm_1  demo_sex_v2b   === 3",
+                "valueRequired": true,
+                "variableName": "gish_m1_y"
+            },
+            {
+                "isAbout": "items/gish_m2_y",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === 1 ||  baseline_year_1_arm_1  demo_sex_v2b   === 3",
+                "valueRequired": true,
+                "variableName": "gish_m2_y"
+            },
+            {
+                "isAbout": "items/gish_f1_y",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === 2 ||  baseline_year_1_arm_1  demo_sex_v2b   === 4",
+                "valueRequired": true,
+                "variableName": "gish_f1_y"
+            },
+            {
+                "isAbout": "items/gish_f2_y",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === 2 ||  baseline_year_1_arm_1  demo_sex_v2b   === 4",
+                "valueRequired": true,
+                "variableName": "gish_f2_y"
+            },
+            {
+                "isAbout": "items/gish_m3_y",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === 1 ||  baseline_year_1_arm_1  demo_sex_v2b   === 3",
+                "valueRequired": true,
+                "variableName": "gish_m3_y"
+            },
+            {
+                "isAbout": "items/gish_m4_y",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === 1 ||  baseline_year_1_arm_1  demo_sex_v2b   === 3",
+                "valueRequired": true,
+                "variableName": "gish_m4_y"
+            },
+            {
+                "isAbout": "items/gish_f3_y",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === 2 ||  baseline_year_1_arm_1  demo_sex_v2b   === 4",
+                "valueRequired": true,
+                "variableName": "gish_f3_y"
+            },
+            {
+                "isAbout": "items/gish_f4_y",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === 2 ||  baseline_year_1_arm_1  demo_sex_v2b   === 4",
+                "valueRequired": true,
+                "variableName": "gish_f4_y"
+            },
+            {
+                "isAbout": "items/gish_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish_admin"
+            },
+            {
+                "isAbout": "items/y_gish2_desc_fem",
+                "isVis": "(baseline_year_1_arm_1demo_sex_v2b = '2' || baseline_year_1_arm_1demo_sex_v2b = '4') && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "y_gish2_desc_fem"
+            },
+            {
+                "isAbout": "items/y_gish2_desc_fem_self",
+                "isVis": "(baseline_year_1_arm_1demo_sex_v2b = '2' || baseline_year_1_arm_1demo_sex_v2b = '4') && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "y_gish2_desc_fem_self"
+            },
+            {
+                "isAbout": "items/y_gish2_desc_male",
+                "isVis": "(baseline_year_1_arm_1demo_sex_v2b = '1' || baseline_year_1_arm_1demo_sex_v2b = '3') && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "y_gish2_desc_male"
+            },
+            {
+                "isAbout": "items/y_gish2_desc_male_self",
+                "isVis": "(baseline_year_1_arm_1demo_sex_v2b = '1' || baseline_year_1_arm_1demo_sex_v2b = '3') && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "y_gish2_desc_male_self"
+            },
+            {
+                "isAbout": "items/gish_y_ss_m_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish_y_ss_m_avg"
+            },
+            {
+                "isAbout": "items/gish_y_ss_f_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish_y_ss_f_avg"
+            },
+            {
+                "isAbout": "items/kbi_sex_assigned_at_birth",
+                "isVis": "event_num <= 5",
+                "valueRequired": true,
+                "variableName": "kbi_sex_assigned_at_birth"
+            },
+            {
+                "isAbout": "items/kbi_gender",
+                "isVis": "event_num >= 3 && event_num < 6",
+                "valueRequired": true,
+                "variableName": "kbi_gender"
+            },
+            {
+                "isAbout": "items/kbi_y_trans_id",
+                "isVis": "event_num < 6",
+                "valueRequired": true,
+                "variableName": "kbi_y_trans_id"
+            },
+            {
+                "isAbout": "items/kbi_y_trans_prob",
+                "isVis": "kbi_y_trans_id = '2' or kbi_y_trans_id = '1'",
+                "valueRequired": true,
+                "variableName": "kbi_y_trans_prob"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

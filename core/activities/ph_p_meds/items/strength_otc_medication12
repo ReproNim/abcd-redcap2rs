@@ -1,0 +1,24 @@
+{
+    "id": "strength_otc_medication12",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "strength_otc_medication12 of ph_p_meds"
+    },
+    "prefLabel": {
+        "en": "OTC Med 12. Strength dose (Enter the decimal as one of the digits): Potencia (Anote el n\u00famero\ncon un decimal)"
+    },
+    "question": {
+        "en": "OTC Med 12. Strength dose (Enter the decimal as one of the digits): Potencia (Anote el n\u00famero\ncon un decimal)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

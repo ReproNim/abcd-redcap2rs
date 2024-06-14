@@ -1,0 +1,24 @@
+{
+    "id": "tlfb_cal_scr_tot_su_ud",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_cal_scr_tot_su_ud of su_y_tlfb"
+    },
+    "prefLabel": {
+        "en": "Combined count of total use days across all substances combined in last year (detailed TLFB period= typically 9-12 months)"
+    },
+    "question": {
+        "en": "Combined count of total use days across all substances combined in last year (detailed TLFB period= typically 9-12 months)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

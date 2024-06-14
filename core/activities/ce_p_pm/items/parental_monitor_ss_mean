@@ -1,0 +1,24 @@
+{
+    "id": "parental_monitor_ss_mean",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "parental_monitor_ss_mean of ce_p_pm"
+    },
+    "prefLabel": {
+        "en": "Parental Monitoring Summary Score: Mean of all items; Validation: minimum of 7 items answered"
+    },
+    "question": {
+        "en": "Parental Monitoring Summary Score: Mean of all items; Validation: minimum of 7 items answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

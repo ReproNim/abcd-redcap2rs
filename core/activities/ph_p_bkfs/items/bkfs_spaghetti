@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_spaghetti",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_spaghetti of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Vegetable soup, tomato soup, any soup or stew with vegetables in it/Sopa de verduras, sopa de tomate, cualquier sopa o guisado con verduras"
+    },
+    "question": {
+        "en": "Vegetable soup, tomato soup, any soup or stew with vegetables in it",
+        "es": "Sopa de verduras, sopa de tomate, cualquier sopa o guisado con verduras"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

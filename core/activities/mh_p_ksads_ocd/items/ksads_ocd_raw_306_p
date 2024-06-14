@@ -1,0 +1,41 @@
+{
+    "id": "ksads_ocd_raw_306_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_ocd_raw_306_p of mh_p_ksads_ocd"
+    },
+    "prefLabel": {
+        "en": "In the past two weeks, have there been certain things that your child found himself or herself having to do over and over again, many times, even though it might not make sense? He or she may try to stop, but may not be able to, and may feel worried or anxious until he or she has finished. Mark all that apply.Needing to count and recount"
+    },
+    "question": {
+        "en": "In the past two weeks, have there been certain things that your child found himself or herself having to do over and over again, many times, even though it might not make sense? He or she may try to stop, but may not be able to, and may feel worried or anxious until he or she has finished. Mark all that apply. Needing to count and recount"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

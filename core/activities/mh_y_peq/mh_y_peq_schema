@@ -1,0 +1,280 @@
+{
+    "id": "mh_y_peq_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Peers in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_Y_Peq"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/peq_left_out_perp",
+            "items/peq_left_out_vic",
+            "items/peq_chase_perp",
+            "items/peq_chase_vic",
+            "items/peq_rumor_perp",
+            "items/peq_rumor_vic",
+            "items/peq_invite_perp",
+            "items/peq_invite_vic",
+            "items/peq_exclude_perp",
+            "items/peq_exclude_vic",
+            "items/peq_gossip_perp",
+            "items/peq_gossip_vic",
+            "items/peq_threat_perp",
+            "items/peq_threat_vic",
+            "items/peq_loser_perp",
+            "items/peq_loser_vic",
+            "items/peq_hit_perp",
+            "items/peq_hit_vic",
+            "items/peq_admin",
+            "items/peq_ss_relational_aggs_nm",
+            "items/peq_ss_relational_aggs_nt",
+            "items/peq_ss_relational_victim",
+            "items/peq_ss_relational_victim_nm",
+            "items/peq_ss_relational_victim_nt",
+            "items/peq_ss_reputation_aggs",
+            "items/peq_ss_reputation_aggs_nm",
+            "items/peq_ss_reputation_aggs_nt",
+            "items/peq_ss_reputation_victim",
+            "items/peq_ss_reputation_victim_nm",
+            "items/peq_ss_reputation_victim_nt",
+            "items/peq_ss_overt_aggression",
+            "items/peq_ss_overt_aggression_nm",
+            "items/peq_ss_overt_aggression_nt",
+            "items/peq_ss_overt_victim",
+            "items/peq_ss_overt_victim_nm",
+            "items/peq_ss_overt_victim_nt",
+            "items/peq_ss_relational_aggs"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/peq_left_out_perp",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_left_out_perp"
+            },
+            {
+                "isAbout": "items/peq_left_out_vic",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_left_out_vic"
+            },
+            {
+                "isAbout": "items/peq_chase_perp",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_chase_perp"
+            },
+            {
+                "isAbout": "items/peq_chase_vic",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_chase_vic"
+            },
+            {
+                "isAbout": "items/peq_rumor_perp",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_rumor_perp"
+            },
+            {
+                "isAbout": "items/peq_rumor_vic",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_rumor_vic"
+            },
+            {
+                "isAbout": "items/peq_invite_perp",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_invite_perp"
+            },
+            {
+                "isAbout": "items/peq_invite_vic",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_invite_vic"
+            },
+            {
+                "isAbout": "items/peq_exclude_perp",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_exclude_perp"
+            },
+            {
+                "isAbout": "items/peq_exclude_vic",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_exclude_vic"
+            },
+            {
+                "isAbout": "items/peq_gossip_perp",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_gossip_perp"
+            },
+            {
+                "isAbout": "items/peq_gossip_vic",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_gossip_vic"
+            },
+            {
+                "isAbout": "items/peq_threat_perp",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_threat_perp"
+            },
+            {
+                "isAbout": "items/peq_threat_vic",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_threat_vic"
+            },
+            {
+                "isAbout": "items/peq_loser_perp",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_loser_perp"
+            },
+            {
+                "isAbout": "items/peq_loser_vic",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_loser_vic"
+            },
+            {
+                "isAbout": "items/peq_hit_perp",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_hit_perp"
+            },
+            {
+                "isAbout": "items/peq_hit_vic",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_hit_vic"
+            },
+            {
+                "isAbout": "items/peq_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_admin"
+            },
+            {
+                "isAbout": "items/peq_ss_relational_aggs_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_ss_relational_aggs_nm"
+            },
+            {
+                "isAbout": "items/peq_ss_relational_aggs_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_ss_relational_aggs_nt"
+            },
+            {
+                "isAbout": "items/peq_ss_relational_victim",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_ss_relational_victim"
+            },
+            {
+                "isAbout": "items/peq_ss_relational_victim_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_ss_relational_victim_nm"
+            },
+            {
+                "isAbout": "items/peq_ss_relational_victim_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_ss_relational_victim_nt"
+            },
+            {
+                "isAbout": "items/peq_ss_reputation_aggs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_ss_reputation_aggs"
+            },
+            {
+                "isAbout": "items/peq_ss_reputation_aggs_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_ss_reputation_aggs_nm"
+            },
+            {
+                "isAbout": "items/peq_ss_reputation_aggs_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_ss_reputation_aggs_nt"
+            },
+            {
+                "isAbout": "items/peq_ss_reputation_victim",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_ss_reputation_victim"
+            },
+            {
+                "isAbout": "items/peq_ss_reputation_victim_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_ss_reputation_victim_nm"
+            },
+            {
+                "isAbout": "items/peq_ss_reputation_victim_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_ss_reputation_victim_nt"
+            },
+            {
+                "isAbout": "items/peq_ss_overt_aggression",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_ss_overt_aggression"
+            },
+            {
+                "isAbout": "items/peq_ss_overt_aggression_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_ss_overt_aggression_nm"
+            },
+            {
+                "isAbout": "items/peq_ss_overt_aggression_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_ss_overt_aggression_nt"
+            },
+            {
+                "isAbout": "items/peq_ss_overt_victim",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_ss_overt_victim"
+            },
+            {
+                "isAbout": "items/peq_ss_overt_victim_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_ss_overt_victim_nm"
+            },
+            {
+                "isAbout": "items/peq_ss_overt_victim_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_ss_overt_victim_nt"
+            },
+            {
+                "isAbout": "items/peq_ss_relational_aggs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peq_ss_relational_aggs"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

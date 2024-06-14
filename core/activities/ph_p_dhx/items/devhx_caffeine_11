@@ -1,0 +1,60 @@
+{
+    "id": "devhx_caffeine_11",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_caffeine_11 of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "Did you/biological mother have any caffeine during pregnancy (from conception until delivery)?/ \u00bfConsumi\u00f3 usted o la madre biol\u00f3gica cafe\u00edna durante el embarazo (desde la concepci\u00f3n hasta el parto)?"
+    },
+    "question": {
+        "en": "Did you biological mother have any caffeine during pregnancy (from conception until delivery)?",
+        "es": "\u00bfConsumi\u00f3 usted o la madre biol\u00f3gica cafe\u00edna durante el embarazo (desde la concepci\u00f3n hasta el parto)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes - at least once a day S\u00ed- por lo menos una vez al d\u00eda"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes - less than once a day but more than once a week Si - menos de una vez al d\u00eda pero m\u00e1s de una vez a la semana"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Yes - less than once a week S\u00ed - menos de una vez a la semana"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know No lo s\u00e9; -1 = Not applicable No aplica"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

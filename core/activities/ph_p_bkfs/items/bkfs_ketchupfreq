@@ -1,0 +1,24 @@
+{
+    "id": "bkfs_ketchupfreq",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_ketchupfreq of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Ketchup or salsa, Frequency last week"
+    },
+    "question": {
+        "en": "Ketchup or salsa, Frequency last week"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,77 @@
+{
+    "id": "ce_y_pet_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Family in Culture & Environment"
+    },
+    "prefLabel": {
+        "en": "Ce_Y_Pet"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pet_admin",
+            "items/pet_identify___0",
+            "items/pet_identify___1",
+            "items/pet_identify___2",
+            "items/pet_identify___3",
+            "items/pet_identify___4",
+            "items/pet_identify___5",
+            "items/pet_identify___6"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pet_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pet_admin"
+            },
+            {
+                "isAbout": "items/pet_identify___0",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pet_identify___0"
+            },
+            {
+                "isAbout": "items/pet_identify___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pet_identify___1"
+            },
+            {
+                "isAbout": "items/pet_identify___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pet_identify___2"
+            },
+            {
+                "isAbout": "items/pet_identify___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pet_identify___3"
+            },
+            {
+                "isAbout": "items/pet_identify___4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pet_identify___4"
+            },
+            {
+                "isAbout": "items/pet_identify___5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pet_identify___5"
+            },
+            {
+                "isAbout": "items/pet_identify___6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pet_identify___6"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

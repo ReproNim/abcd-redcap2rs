@@ -1,0 +1,357 @@
+{
+    "id": "gish_p_gi_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Gender in Gender Identity & Sexual Health"
+    },
+    "prefLabel": {
+        "en": "Gish_P_Gi"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/gish_p_select_language___1",
+            "items/gish_m1_p",
+            "items/gish_m2_p",
+            "items/gish_m3_p",
+            "items/gish_m4_p",
+            "items/gish_m5_p",
+            "items/gish_m6_p",
+            "items/gish_m7_p",
+            "items/gish_m8_p",
+            "items/gish_m9_p",
+            "items/gish_m10_p",
+            "items/gish_m11_p",
+            "items/gish_m12_p",
+            "items/gish_m13_p",
+            "items/gish_m14_p",
+            "items/gish_f1_p",
+            "items/gish_f2_p",
+            "items/gish_f3_p",
+            "items/gish_f4_p",
+            "items/gish_f5_p",
+            "items/gish_f6_p",
+            "items/gish_f7_p",
+            "items/gish_f8_p",
+            "items/gish_f9_p",
+            "items/gish_f10_p",
+            "items/gish_f11_p",
+            "items/gish_f12_p",
+            "items/gish_f13_p",
+            "items/gish_f14_p",
+            "items/p_gish_desc_male",
+            "items/p_gish_desc_male_self",
+            "items/p_gish_he_wish",
+            "items/p_gish_desc_fem",
+            "items/p_gish_desc_fem_self",
+            "items/p_gish_she_wish",
+            "items/gish_p_ss_m_exp_avg",
+            "items/gish_p_ss_f_exp_avg",
+            "items/gish_p_ss_m_dys_avg",
+            "items/gish_p_ss_f_dys_avg",
+            "items/gish_p_ss_m_avg",
+            "items/gish_p_ss_f_avg",
+            "items/demo_sex_v2",
+            "items/demo_gender_id_v2",
+            "items/demo_gender_id_v2_l",
+            "items/kbi_p_c_trans",
+            "items/kbi_p_c_trans_problems",
+            "items/kbi_p_c_trans_l",
+            "items/kbi_p_c_trans_problems_l"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/gish_p_select_language___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish_p_select_language___1"
+            },
+            {
+                "isAbout": "items/gish_m1_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '1' ||  baseline_year_1_arm_1  demo_sex_v2b   === '3'",
+                "valueRequired": true,
+                "variableName": "gish_m1_p"
+            },
+            {
+                "isAbout": "items/gish_m2_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '1' ||  baseline_year_1_arm_1  demo_sex_v2b   === '3'",
+                "valueRequired": true,
+                "variableName": "gish_m2_p"
+            },
+            {
+                "isAbout": "items/gish_m3_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '1' ||  baseline_year_1_arm_1  demo_sex_v2b   === '3'",
+                "valueRequired": true,
+                "variableName": "gish_m3_p"
+            },
+            {
+                "isAbout": "items/gish_m4_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '1' ||  baseline_year_1_arm_1  demo_sex_v2b   === '3'",
+                "valueRequired": true,
+                "variableName": "gish_m4_p"
+            },
+            {
+                "isAbout": "items/gish_m5_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '1' ||  baseline_year_1_arm_1  demo_sex_v2b   === '3'",
+                "valueRequired": true,
+                "variableName": "gish_m5_p"
+            },
+            {
+                "isAbout": "items/gish_m6_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '1' ||  baseline_year_1_arm_1  demo_sex_v2b   === '3'",
+                "valueRequired": true,
+                "variableName": "gish_m6_p"
+            },
+            {
+                "isAbout": "items/gish_m7_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '1' ||  baseline_year_1_arm_1  demo_sex_v2b   === '3'",
+                "valueRequired": true,
+                "variableName": "gish_m7_p"
+            },
+            {
+                "isAbout": "items/gish_m8_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '1' ||  baseline_year_1_arm_1  demo_sex_v2b   === '3'",
+                "valueRequired": true,
+                "variableName": "gish_m8_p"
+            },
+            {
+                "isAbout": "items/gish_m9_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '1' ||  baseline_year_1_arm_1  demo_sex_v2b   === '3'",
+                "valueRequired": true,
+                "variableName": "gish_m9_p"
+            },
+            {
+                "isAbout": "items/gish_m10_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '1' ||  baseline_year_1_arm_1  demo_sex_v2b   === '3'",
+                "valueRequired": true,
+                "variableName": "gish_m10_p"
+            },
+            {
+                "isAbout": "items/gish_m11_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '1' ||  baseline_year_1_arm_1  demo_sex_v2b   === '3'",
+                "valueRequired": true,
+                "variableName": "gish_m11_p"
+            },
+            {
+                "isAbout": "items/gish_m12_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '1' ||  baseline_year_1_arm_1  demo_sex_v2b   === '3'",
+                "valueRequired": true,
+                "variableName": "gish_m12_p"
+            },
+            {
+                "isAbout": "items/gish_m13_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '1' ||  baseline_year_1_arm_1  demo_sex_v2b   === '3'",
+                "valueRequired": true,
+                "variableName": "gish_m13_p"
+            },
+            {
+                "isAbout": "items/gish_m14_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '1' ||  baseline_year_1_arm_1  demo_sex_v2b   === '3'",
+                "valueRequired": true,
+                "variableName": "gish_m14_p"
+            },
+            {
+                "isAbout": "items/gish_f1_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '2' ||  baseline_year_1_arm_1  demo_sex_v2b   === '4'",
+                "valueRequired": true,
+                "variableName": "gish_f1_p"
+            },
+            {
+                "isAbout": "items/gish_f2_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '2' ||  baseline_year_1_arm_1  demo_sex_v2b   === '4'",
+                "valueRequired": true,
+                "variableName": "gish_f2_p"
+            },
+            {
+                "isAbout": "items/gish_f3_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '2' ||  baseline_year_1_arm_1  demo_sex_v2b   === '4'",
+                "valueRequired": true,
+                "variableName": "gish_f3_p"
+            },
+            {
+                "isAbout": "items/gish_f4_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '2' ||  baseline_year_1_arm_1  demo_sex_v2b   === '4'",
+                "valueRequired": true,
+                "variableName": "gish_f4_p"
+            },
+            {
+                "isAbout": "items/gish_f5_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '2' ||  baseline_year_1_arm_1  demo_sex_v2b   === '4'",
+                "valueRequired": true,
+                "variableName": "gish_f5_p"
+            },
+            {
+                "isAbout": "items/gish_f6_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '2' ||  baseline_year_1_arm_1  demo_sex_v2b   === '4'",
+                "valueRequired": true,
+                "variableName": "gish_f6_p"
+            },
+            {
+                "isAbout": "items/gish_f7_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '2' ||  baseline_year_1_arm_1  demo_sex_v2b   === '4'",
+                "valueRequired": true,
+                "variableName": "gish_f7_p"
+            },
+            {
+                "isAbout": "items/gish_f8_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '2' ||  baseline_year_1_arm_1  demo_sex_v2b   === '4'",
+                "valueRequired": true,
+                "variableName": "gish_f8_p"
+            },
+            {
+                "isAbout": "items/gish_f9_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '2' ||  baseline_year_1_arm_1  demo_sex_v2b   === '4'",
+                "valueRequired": true,
+                "variableName": "gish_f9_p"
+            },
+            {
+                "isAbout": "items/gish_f10_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '2' ||  baseline_year_1_arm_1  demo_sex_v2b   === '4'",
+                "valueRequired": true,
+                "variableName": "gish_f10_p"
+            },
+            {
+                "isAbout": "items/gish_f11_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '2' ||  baseline_year_1_arm_1  demo_sex_v2b   === '4'",
+                "valueRequired": true,
+                "variableName": "gish_f11_p"
+            },
+            {
+                "isAbout": "items/gish_f12_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '2' ||  baseline_year_1_arm_1  demo_sex_v2b   === '4'",
+                "valueRequired": true,
+                "variableName": "gish_f12_p"
+            },
+            {
+                "isAbout": "items/gish_f13_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '2' ||  baseline_year_1_arm_1  demo_sex_v2b   === '4'",
+                "valueRequired": true,
+                "variableName": "gish_f13_p"
+            },
+            {
+                "isAbout": "items/gish_f14_p",
+                "isVis": "baseline_year_1_arm_1  demo_sex_v2b   === '2' ||  baseline_year_1_arm_1  demo_sex_v2b   === '4'",
+                "valueRequired": true,
+                "variableName": "gish_f14_p"
+            },
+            {
+                "isAbout": "items/p_gish_desc_male",
+                "isVis": "(baseline_year_1_arm_1demo_sex_v2b = '1' || baseline_year_1_arm_1demo_sex_v2b = '3') && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "p_gish_desc_male"
+            },
+            {
+                "isAbout": "items/p_gish_desc_male_self",
+                "isVis": "(baseline_year_1_arm_1demo_sex_v2b = '1' || baseline_year_1_arm_1demo_sex_v2b = '3') && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "p_gish_desc_male_self"
+            },
+            {
+                "isAbout": "items/p_gish_he_wish",
+                "isVis": "baseline_year_1_arm_1demo_sex_v2b = '1' or baseline_year_1_arm_1demo_sex_v2b = '3'",
+                "valueRequired": true,
+                "variableName": "p_gish_he_wish"
+            },
+            {
+                "isAbout": "items/p_gish_desc_fem",
+                "isVis": "(baseline_year_1_arm_1demo_sex_v2b = '2' || baseline_year_1_arm_1demo_sex_v2b = '4') && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "p_gish_desc_fem"
+            },
+            {
+                "isAbout": "items/p_gish_desc_fem_self",
+                "isVis": "(baseline_year_1_arm_1demo_sex_v2b = '2' || baseline_year_1_arm_1demo_sex_v2b = '4') && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "p_gish_desc_fem_self"
+            },
+            {
+                "isAbout": "items/p_gish_she_wish",
+                "isVis": "baseline_year_1_arm_1demo_sex_v2b = '2' or baseline_year_1_arm_1demo_sex_v2b = '4'",
+                "valueRequired": true,
+                "variableName": "p_gish_she_wish"
+            },
+            {
+                "isAbout": "items/gish_p_ss_m_exp_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish_p_ss_m_exp_avg"
+            },
+            {
+                "isAbout": "items/gish_p_ss_f_exp_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish_p_ss_f_exp_avg"
+            },
+            {
+                "isAbout": "items/gish_p_ss_m_dys_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish_p_ss_m_dys_avg"
+            },
+            {
+                "isAbout": "items/gish_p_ss_f_dys_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish_p_ss_f_dys_avg"
+            },
+            {
+                "isAbout": "items/gish_p_ss_m_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish_p_ss_m_avg"
+            },
+            {
+                "isAbout": "items/gish_p_ss_f_avg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish_p_ss_f_avg"
+            },
+            {
+                "isAbout": "items/demo_sex_v2",
+                "isVis": "demo_prim === 1 || demo_prim === 2 || demo_prim === 3 || demo_prim === 4 || demo_prim === 5",
+                "valueRequired": true,
+                "variableName": "demo_sex_v2"
+            },
+            {
+                "isAbout": "items/demo_gender_id_v2",
+                "isVis": "demo_prim === 1 || demo_prim === 2 || demo_prim === 3 || demo_prim === 4 || demo_prim === 5",
+                "valueRequired": true,
+                "variableName": "demo_gender_id_v2"
+            },
+            {
+                "isAbout": "items/demo_gender_id_v2_l",
+                "isVis": "demo_prim_l === '1' || demo_prim_l === '2' || demo_prim_l === '3' || demo_prim_l === '4' || demo_prim_l === '5'",
+                "valueRequired": true,
+                "variableName": "demo_gender_id_v2_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_trans",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_trans"
+            },
+            {
+                "isAbout": "items/kbi_p_c_trans_problems",
+                "isVis": "kbi_p_c_trans   === 1 ||  kbi_p_c_trans   === 2",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_trans_problems"
+            },
+            {
+                "isAbout": "items/kbi_p_c_trans_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_trans_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_trans_problems_l",
+                "isVis": "kbi_p_c_trans_l   === '1' ||  kbi_p_c_trans_l   === '2'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_trans_problems_l"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

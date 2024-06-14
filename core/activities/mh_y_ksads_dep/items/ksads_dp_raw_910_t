@@ -1,0 +1,41 @@
+{
+    "id": "ksads_dp_raw_910_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_dp_raw_910_t of mh_y_ksads_dep"
+    },
+    "prefLabel": {
+        "en": "You said you had the following symptoms when you were depressed back in February 2014. Were they a problem for you for a least a year back then?Feeling slowed down"
+    },
+    "question": {
+        "en": "You said you had the following symptoms when you were depressed back in February 2014. Were they a problem for you for a least a year back then? Feeling slowed down"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

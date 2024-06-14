@@ -1,0 +1,24 @@
+{
+    "id": "tbi_ss_ntbiloc_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tbi_ss_ntbiloc_l of ph_p_otbi"
+    },
+    "prefLabel": {
+        "en": "Number of TBI-LOC (number of TBIs with loss consciousness): SUM(AND([tbi_1]=1,[tbi_1b]>0), AND([tbi_2]=1,[tbi_2b]>0,AND([tbi_3]=1,[tbi_3b]>0),AND([tbi_4]=1,[tbi_4b]>0),AND([tbi_5]=1,[tbi_5b]>0),[tbi_6p], AND([tbi_7a]=1,[tbi_7c1]>0)); Validation: No minimum"
+    },
+    "question": {
+        "en": "Number of TBI-LOC (number of TBIs with loss consciousness): SUM(AND([tbi_1]=1,[tbi_1b]>0), AND([tbi_2]=1,[tbi_2b]>0,AND([tbi_3]=1,[tbi_3b]>0),AND([tbi_4]=1,[tbi_4b]>0),AND([tbi_5]=1,[tbi_5b]>0),[tbi_6p], AND([tbi_7a]=1,[tbi_7c1]>0)); Validation: No minimum"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

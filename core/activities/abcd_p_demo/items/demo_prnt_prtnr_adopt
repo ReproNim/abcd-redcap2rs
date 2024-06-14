@@ -1,0 +1,42 @@
+{
+    "id": "demo_prnt_prtnr_adopt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_prnt_prtnr_adopt of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "Is your partner the child's adoptive parent? \u00ac\u00f8Es su pareja el padre o la madre adoptiva de el ni\u221a\u00b1o o la ni\u221a\u00b1a?"
+    },
+    "question": {
+        "en": "Is your partner the child's adoptive parent?",
+        "es": "\u00ac\u00f8Es su pareja el padre o la madre adoptiva de el ni\u221a\u00b1o o la ni\u221a\u00b1a?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes S\u221a\u2260"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No //The following questions are about your partner. Your \"partner\" refers to any significant figure in your life that helps you in raising your child or has helped you for more than 2 years. This person should be involved 40% or more of the daily activities your child does. For example, your partner could be your spouse. However, your partner could also be your boyfriend/girlfriend or relative."
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

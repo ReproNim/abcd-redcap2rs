@@ -1,0 +1,431 @@
+{
+    "id": "ce_p_macv_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "(mex_american2_p +  mex_american7_p +  mex_american12_p +  mex_american16_p + mex_american21_p +  mex_american26_p) / 6",
+            "variableName": "macv_p_ss_fs"
+        },
+        {
+            "jsExpression": "(mex_american3_p +  mex_american8_p +  mex_american13_p +  mex_american17_p + mex_american22_p) / 5",
+            "variableName": "macv_p_ss_fo"
+        },
+        {
+            "jsExpression": "(mex_american4_p + mex_american9_p +  mex_american18_p + mex_american23_p +  mex_american27_p) / 5",
+            "variableName": "macv_p_ss_fr"
+        },
+        {
+            "jsExpression": "(mex_american1_p +  mex_american6_p +  mex_american11_p +  mex_american15_p +  mex_american20_p + mex_american25_p) + mex_american28_p) / 7",
+            "variableName": "macv_p_ss_r"
+        }
+    ],
+    "description": {
+        "en": "This activity is about Culture in Culture & Environment"
+    },
+    "prefLabel": {
+        "en": "Ce_P_Macv"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mex_american1_p",
+            "items/mex_american2_p",
+            "items/mex_american3_p",
+            "items/mex_american4_p",
+            "items/mex_american5_p",
+            "items/mex_american6_p",
+            "items/mex_american7_p",
+            "items/mex_american8_p",
+            "items/mex_american9_p",
+            "items/mex_american10_p",
+            "items/mex_american11_p",
+            "items/mex_american12_p",
+            "items/mex_american13_p",
+            "items/mex_american14_p",
+            "items/mex_american15_p",
+            "items/mex_american16_p",
+            "items/mex_american17_p",
+            "items/mex_american18_p",
+            "items/mex_american19_p",
+            "items/mex_american20_p",
+            "items/mex_american21_p",
+            "items/mex_american22_p",
+            "items/mex_american23_p",
+            "items/mex_american24_p",
+            "items/mex_american25_p",
+            "items/mex_american26_p",
+            "items/mex_american27_p",
+            "items/mex_american28_p",
+            "items/mex_american_select_lang_1"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/macv_p_ss_fs",
+                "isVis": false,
+                "variableName": "macv_p_ss_fs"
+            },
+            {
+                "isAbout": "items/mex_american2_p",
+                "valueRequired": true,
+                "variableName": "mex_american2_p"
+            },
+            {
+                "isAbout": "items/mex_american7_p",
+                "valueRequired": true,
+                "variableName": "mex_american7_p"
+            },
+            {
+                "isAbout": "items/mex_american12_p",
+                "valueRequired": true,
+                "variableName": "mex_american12_p"
+            },
+            {
+                "isAbout": "items/mex_american16_p",
+                "valueRequired": true,
+                "variableName": "mex_american16_p"
+            },
+            {
+                "isAbout": "items/mex_american21_p",
+                "valueRequired": true,
+                "variableName": "mex_american21_p"
+            },
+            {
+                "isAbout": "items/mex_american26_p",
+                "valueRequired": true,
+                "variableName": "mex_american26_p"
+            },
+            {
+                "isAbout": "items/6",
+                "valueRequired": true,
+                "variableName": "6"
+            },
+            {
+                "isAbout": "items/macv_p_ss_fs_nm",
+                "isVis": false,
+                "variableName": "macv_p_ss_fs_nm"
+            },
+            {
+                "isAbout": "items/macv_p_ss_fs_nt",
+                "isVis": false,
+                "variableName": "macv_p_ss_fs_nt"
+            },
+            {
+                "isAbout": "items/macv_p_ss_fo",
+                "isVis": false,
+                "variableName": "macv_p_ss_fo"
+            },
+            {
+                "isAbout": "items/mex_american3_p",
+                "valueRequired": true,
+                "variableName": "mex_american3_p"
+            },
+            {
+                "isAbout": "items/mex_american8_p",
+                "valueRequired": true,
+                "variableName": "mex_american8_p"
+            },
+            {
+                "isAbout": "items/mex_american13_p",
+                "valueRequired": true,
+                "variableName": "mex_american13_p"
+            },
+            {
+                "isAbout": "items/mex_american17_p",
+                "valueRequired": true,
+                "variableName": "mex_american17_p"
+            },
+            {
+                "isAbout": "items/mex_american22_p",
+                "valueRequired": true,
+                "variableName": "mex_american22_p"
+            },
+            {
+                "isAbout": "items/5",
+                "valueRequired": true,
+                "variableName": "5"
+            },
+            {
+                "isAbout": "items/macv_p_ss_fo_nm",
+                "isVis": false,
+                "variableName": "macv_p_ss_fo_nm"
+            },
+            {
+                "isAbout": "items/macv_p_ss_fo_nt",
+                "isVis": false,
+                "variableName": "macv_p_ss_fo_nt"
+            },
+            {
+                "isAbout": "items/macv_p_ss_fr",
+                "isVis": false,
+                "variableName": "macv_p_ss_fr"
+            },
+            {
+                "isAbout": "items/mex_american4_p",
+                "valueRequired": true,
+                "variableName": "mex_american4_p"
+            },
+            {
+                "isAbout": "items/mex_american9_p",
+                "valueRequired": true,
+                "variableName": "mex_american9_p"
+            },
+            {
+                "isAbout": "items/mex_american18_p",
+                "valueRequired": true,
+                "variableName": "mex_american18_p"
+            },
+            {
+                "isAbout": "items/mex_american23_p",
+                "valueRequired": true,
+                "variableName": "mex_american23_p"
+            },
+            {
+                "isAbout": "items/mex_american27_p",
+                "valueRequired": true,
+                "variableName": "mex_american27_p"
+            },
+            {
+                "isAbout": "items/macv_p_ss_fr_nm",
+                "isVis": false,
+                "variableName": "macv_p_ss_fr_nm"
+            },
+            {
+                "isAbout": "items/macv_p_ss_fr_nt",
+                "isVis": false,
+                "variableName": "macv_p_ss_fr_nt"
+            },
+            {
+                "isAbout": "items/macv_p_ss_r",
+                "isVis": false,
+                "variableName": "macv_p_ss_r"
+            },
+            {
+                "isAbout": "items/mex_american1_p",
+                "valueRequired": true,
+                "variableName": "mex_american1_p"
+            },
+            {
+                "isAbout": "items/mex_american6_p",
+                "valueRequired": true,
+                "variableName": "mex_american6_p"
+            },
+            {
+                "isAbout": "items/mex_american11_p",
+                "valueRequired": true,
+                "variableName": "mex_american11_p"
+            },
+            {
+                "isAbout": "items/mex_american15_p",
+                "valueRequired": true,
+                "variableName": "mex_american15_p"
+            },
+            {
+                "isAbout": "items/mex_american20_p",
+                "valueRequired": true,
+                "variableName": "mex_american20_p"
+            },
+            {
+                "isAbout": "items/mex_american25_p",
+                "valueRequired": true,
+                "variableName": "mex_american25_p"
+            },
+            {
+                "isAbout": "items/mex_american28_p",
+                "valueRequired": true,
+                "variableName": "mex_american28_p"
+            },
+            {
+                "isAbout": "items/7",
+                "valueRequired": true,
+                "variableName": "7"
+            },
+            {
+                "isAbout": "items/macv_p_ss_r_nm",
+                "isVis": false,
+                "variableName": "macv_p_ss_r_nm"
+            },
+            {
+                "isAbout": "items/macv_p_ss_r_nt",
+                "isVis": false,
+                "variableName": "macv_p_ss_r_nt"
+            },
+            {
+                "isAbout": "items/mex_american1_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american1_p"
+            },
+            {
+                "isAbout": "items/mex_american2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american2_p"
+            },
+            {
+                "isAbout": "items/mex_american3_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american3_p"
+            },
+            {
+                "isAbout": "items/mex_american4_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american4_p"
+            },
+            {
+                "isAbout": "items/mex_american5_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american5_p"
+            },
+            {
+                "isAbout": "items/mex_american6_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american6_p"
+            },
+            {
+                "isAbout": "items/mex_american7_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american7_p"
+            },
+            {
+                "isAbout": "items/mex_american8_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american8_p"
+            },
+            {
+                "isAbout": "items/mex_american9_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american9_p"
+            },
+            {
+                "isAbout": "items/mex_american10_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american10_p"
+            },
+            {
+                "isAbout": "items/mex_american11_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american11_p"
+            },
+            {
+                "isAbout": "items/mex_american12_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american12_p"
+            },
+            {
+                "isAbout": "items/mex_american13_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american13_p"
+            },
+            {
+                "isAbout": "items/mex_american14_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american14_p"
+            },
+            {
+                "isAbout": "items/mex_american15_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american15_p"
+            },
+            {
+                "isAbout": "items/mex_american16_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american16_p"
+            },
+            {
+                "isAbout": "items/mex_american17_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american17_p"
+            },
+            {
+                "isAbout": "items/mex_american18_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american18_p"
+            },
+            {
+                "isAbout": "items/mex_american19_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american19_p"
+            },
+            {
+                "isAbout": "items/mex_american20_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american20_p"
+            },
+            {
+                "isAbout": "items/mex_american21_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american21_p"
+            },
+            {
+                "isAbout": "items/mex_american22_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american22_p"
+            },
+            {
+                "isAbout": "items/mex_american23_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american23_p"
+            },
+            {
+                "isAbout": "items/mex_american24_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american24_p"
+            },
+            {
+                "isAbout": "items/mex_american25_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american25_p"
+            },
+            {
+                "isAbout": "items/mex_american26_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american26_p"
+            },
+            {
+                "isAbout": "items/mex_american27_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american27_p"
+            },
+            {
+                "isAbout": "items/mex_american28_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american28_p"
+            },
+            {
+                "isAbout": "items/mex_american_select_lang_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mex_american_select_lang_1"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

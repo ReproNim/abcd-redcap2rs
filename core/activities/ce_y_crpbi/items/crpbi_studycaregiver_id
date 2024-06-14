@@ -1,0 +1,71 @@
+{
+    "id": "crpbi_studycaregiver_id",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "crpbi_studycaregiver_id of ce_y_crpbi"
+    },
+    "prefLabel": {
+        "en": "Who is the caregiver that is participating in the study with you today?"
+    },
+    "question": {
+        "en": "Who is the caregiver that is participating in the study with you today?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "mother"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "father"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "grandmother"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "grandfather"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "aunt"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "uncle"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 7
+            }
+        ],
+        "maxValue": 7,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

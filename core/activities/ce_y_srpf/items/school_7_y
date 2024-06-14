@@ -1,0 +1,53 @@
+{
+    "id": "school_7_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "school_7_y of ce_y_srpf"
+    },
+    "prefLabel": {
+        "en": "The school lets my parents know when I have done something well."
+    },
+    "question": {
+        "en": "The school lets my parents know when I have done something well."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "NO!"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "no"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "yes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "YES! //Mark (the BIG) YES! if you think the statement is definitely true for you. Mark (the little) yes if you think the statement is mostly true for you. Mark (the little) no if you think the statement is mostly not true for you. Mark (the BIG) NO! if you think the statement is definitely not true for you"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

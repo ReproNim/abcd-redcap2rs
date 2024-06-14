@@ -1,0 +1,72 @@
+{
+    "id": "irma_meqp_16",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "irma_meqp_16 of irma_p_qtn"
+    },
+    "prefLabel": {
+        "en": "16. Which Television channel did you watch most when viewing news related to Hurricane Irma? 16. \u00ac\u00f8Qu\u221a\u00a9 canal de televisiAn viste m\u221a\u00b0s cuando viste noticias relacionadas con el hurac\u221a\u00b0n?"
+    },
+    "question": {
+        "en": "16. Which Television channel did you watch most when viewing news related to Hurricane Irma? 16.",
+        "es": "\u00ac\u00f8Qu\u221a\u00a9 canal de televisiAn viste m\u221a\u00b0s cuando viste noticias relacionadas con el hurac\u221a\u00b0n?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "The Weather Channel The Weather Channel"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "CNN CNN"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Fox News Fox News"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "MSNBC MSNBC"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Local news station Estaci\u221a\u2265n de noticias local"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other Otro"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "I did not watch any television related to Hurricane Irma No vi ning\u221a\u222bn televisor relacionado con el hurac\u221a\u00b0n Irma"
+                },
+                "value": 7
+            }
+        ],
+        "maxValue": 7,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

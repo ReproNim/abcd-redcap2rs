@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr3_urbsat_pwat",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr3_urbsat_pwat of led_l_urbsat"
+    },
+    "prefLabel": {
+        "en": "Permanent inland water: (2017) fraction of total pixel area [0 1]"
+    },
+    "question": {
+        "en": "Permanent inland water: (2017) fraction of total pixel area [0 1]"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

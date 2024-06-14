@@ -1,0 +1,65 @@
+{
+    "id": "ksads_suicidal_raw_1113_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_suicidal_raw_1113_t of mh_y_ksads_si"
+    },
+    "prefLabel": {
+        "en": "You mentioned that in the past two weeks you had made a suicide attempt. What did you do?"
+    },
+    "question": {
+        "en": "You mentioned that in the past two weeks you had made a suicide attempt. What did you do?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Took pills"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "With a gun"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "By hanging"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "By jumping"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "By cutting"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other (type in)"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

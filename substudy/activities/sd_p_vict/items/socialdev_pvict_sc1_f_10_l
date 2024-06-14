@@ -1,0 +1,41 @@
+{
+    "id": "socialdev_pvict_sc1_f_10_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_pvict_sc1_f_10_l of sd_p_vict"
+    },
+    "prefLabel": {
+        "en": "Any time a group of kids or gang hit, jumped, or attacked your child"
+    },
+    "question": {
+        "en": "Any time a group of kids or gang hit, jumped, or attacked your child"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No [socialdev_pvict_sc1_e_l]= '1' AND [socialdev_pvict_p1_l]= '1'"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

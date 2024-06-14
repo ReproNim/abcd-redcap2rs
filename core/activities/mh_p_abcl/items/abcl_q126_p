@@ -1,0 +1,24 @@
+{
+    "id": "abcl_q126_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "abcl_q126_p of mh_p_abcl"
+    },
+    "prefLabel": {
+        "en": "In the past 6 months  on how many days did he/sheuse drugs for nonmedical purposes (includingmarijuana  cocaine  and other drugs  except alcoholand nicotine)? ________ days."
+    },
+    "question": {
+        "en": "In the past 6 months  on how many days did he sheuse drugs for nonmedical purposes (includingmarijuana  cocaine  and other drugs  except alcoholand nicotine)? ________ days."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

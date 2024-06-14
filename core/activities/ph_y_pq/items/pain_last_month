@@ -1,0 +1,47 @@
+{
+    "id": "pain_last_month",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pain_last_month of ph_y_pq"
+    },
+    "prefLabel": {
+        "en": "Over the past month, have you had any aches or pains in your body?"
+    },
+    "question": {
+        "en": "Over the past month, have you had any aches or pains in your body?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Refused to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

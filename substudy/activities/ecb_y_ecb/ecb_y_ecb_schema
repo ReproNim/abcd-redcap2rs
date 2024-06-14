@@ -1,0 +1,175 @@
+{
+    "id": "ecb_y_ecb_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Consequence in Endocannabinoid"
+    },
+    "prefLabel": {
+        "en": "Ecb_Y_Ecb"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ecbq_time",
+            "items/ecbq_assent_consent",
+            "items/ecbq_meal",
+            "items/ecbq_drink",
+            "items/ecbq_physical_breathe",
+            "items/ecbq_breathe_time",
+            "items/ecbq_pain",
+            "items/ecbq_stress",
+            "items/ecbq_collected_yn",
+            "items/ecbq_reason_not_collected",
+            "items/ecbq_blood_time_stamp",
+            "items/cbq_temp_store",
+            "items/ecb_site",
+            "items/ecb_ship_date",
+            "items/ecb_ship_receive",
+            "items/ecb_sample_processed",
+            "items/ecb_sample_processed_n",
+            "items/ecb_aea",
+            "items/ecb_2ag",
+            "items/ecb_pea",
+            "items/ecb_oea",
+            "items/ecb_2og"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ecbq_time",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecbq_time"
+            },
+            {
+                "isAbout": "items/ecbq_assent_consent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecbq_assent_consent"
+            },
+            {
+                "isAbout": "items/ecbq_meal",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecbq_meal"
+            },
+            {
+                "isAbout": "items/ecbq_drink",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecbq_drink"
+            },
+            {
+                "isAbout": "items/ecbq_physical_breathe",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecbq_physical_breathe"
+            },
+            {
+                "isAbout": "items/ecbq_breathe_time",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecbq_breathe_time"
+            },
+            {
+                "isAbout": "items/ecbq_pain",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecbq_pain"
+            },
+            {
+                "isAbout": "items/ecbq_stress",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecbq_stress"
+            },
+            {
+                "isAbout": "items/ecbq_collected_yn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecbq_collected_yn"
+            },
+            {
+                "isAbout": "items/ecbq_reason_not_collected",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecbq_reason_not_collected"
+            },
+            {
+                "isAbout": "items/ecbq_blood_time_stamp",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecbq_blood_time_stamp"
+            },
+            {
+                "isAbout": "items/cbq_temp_store",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cbq_temp_store"
+            },
+            {
+                "isAbout": "items/ecb_site",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecb_site"
+            },
+            {
+                "isAbout": "items/ecb_ship_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecb_ship_date"
+            },
+            {
+                "isAbout": "items/ecb_ship_receive",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecb_ship_receive"
+            },
+            {
+                "isAbout": "items/ecb_sample_processed",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecb_sample_processed"
+            },
+            {
+                "isAbout": "items/ecb_sample_processed_n",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecb_sample_processed_n"
+            },
+            {
+                "isAbout": "items/ecb_aea",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecb_aea"
+            },
+            {
+                "isAbout": "items/ecb_2ag",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecb_2ag"
+            },
+            {
+                "isAbout": "items/ecb_pea",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecb_pea"
+            },
+            {
+                "isAbout": "items/ecb_oea",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecb_oea"
+            },
+            {
+                "isAbout": "items/ecb_2og",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecb_2og"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

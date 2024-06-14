@@ -1,0 +1,25 @@
+{
+    "id": "tbi_6p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tbi_6p of ph_p_otbi"
+    },
+    "prefLabel": {
+        "en": "If yes, how many more? \u00bfSi la respuesta fue s\u00ed, cuantas m\u00e1s?"
+    },
+    "question": {
+        "en": "If yes, how many more?",
+        "es": "\u00bfSi la respuesta fue s\u00ed, cuantas m\u00e1s?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

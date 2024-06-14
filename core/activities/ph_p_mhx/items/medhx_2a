@@ -1,0 +1,41 @@
+{
+    "id": "medhx_2a",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "medhx_2a of ph_p_mhx"
+    },
+    "prefLabel": {
+        "en": "Asthma Asma"
+    },
+    "question": {
+        "en": "Asthma Asma"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

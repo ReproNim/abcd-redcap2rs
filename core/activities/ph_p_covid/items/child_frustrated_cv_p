@@ -1,0 +1,60 @@
+{
+    "id": "child_frustrated_cv_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "child_frustrated_cv_p of ph_p_covid"
+    },
+    "prefLabel": {
+        "en": "My child is frustrated with changes or rules we have made in relation to coronavirus / Mi hijo/a est\u00e1 frustrado con los cambios o las normas que hemos hecho en relaci\u00f3n con el coronavirus"
+    },
+    "question": {
+        "en": "My child is frustrated with changes or rules we have made in relation to coronavirus Mi hijo",
+        "es": "a est\u00e1 frustrado con los cambios o las normas que hemos hecho en relaci\u00f3n con el coronavirus"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Disagree / Muy en Desacuerdo"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Disagree / Desacuerdo"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neither Disagree or Agree / Ni en desacuerdo ni de acuerdo"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Agree / Acuerdo"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly Agree / Muy de acuerdo"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

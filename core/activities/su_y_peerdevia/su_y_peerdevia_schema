@@ -1,0 +1,154 @@
+{
+    "id": "su_y_peerdevia_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Attitude in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Peerdevia"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/peer_deviance_1_4bbe5d",
+            "items/peer_deviance_2_dd1457",
+            "items/peer_deviance_3_e1ec2e",
+            "items/peer_deviance_4_b6c588",
+            "items/peer_deviance_5_bffa44",
+            "items/peer_deviance_6_69562e",
+            "items/peer_deviance_7_beb683",
+            "items/peer_deviance_8_35702e",
+            "items/peer_deviance_9_6dd4ef",
+            "items/peer_deviance_1_l",
+            "items/peer_deviance_2_l",
+            "items/peer_deviance_3_l",
+            "items/peer_deviance_4_l",
+            "items/peer_deviance_5_l",
+            "items/peer_deviance_6_l",
+            "items/peer_deviance_7_l",
+            "items/peer_deviance_8_l",
+            "items/peer_deviance_9_l",
+            "items/sua_admin"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/peer_deviance_1_4bbe5d",
+                "isVis": "tlfb_tob  ===1",
+                "valueRequired": true,
+                "variableName": "peer_deviance_1_4bbe5d"
+            },
+            {
+                "isAbout": "items/peer_deviance_2_dd1457",
+                "isVis": "tlfb_alc  === 1",
+                "valueRequired": true,
+                "variableName": "peer_deviance_2_dd1457"
+            },
+            {
+                "isAbout": "items/peer_deviance_3_e1ec2e",
+                "isVis": "tlfb_alc  ===1",
+                "valueRequired": true,
+                "variableName": "peer_deviance_3_e1ec2e"
+            },
+            {
+                "isAbout": "items/peer_deviance_4_b6c588",
+                "isVis": "tlfb_alc  ===1 ||  tlfb_tob  ===1 ||  tlfb_mj  ===1 ||  tlfb_mj_synth  ===1 ||  tlfb_bitta  ===1 ||  tlfb_list_yes_no  ===1",
+                "valueRequired": true,
+                "variableName": "peer_deviance_4_b6c588"
+            },
+            {
+                "isAbout": "items/peer_deviance_5_bffa44",
+                "isVis": "tlfb_mj  ===1",
+                "valueRequired": true,
+                "variableName": "peer_deviance_5_bffa44"
+            },
+            {
+                "isAbout": "items/peer_deviance_6_69562e",
+                "isVis": "tlfb_inhalant   ===1",
+                "valueRequired": true,
+                "variableName": "peer_deviance_6_69562e"
+            },
+            {
+                "isAbout": "items/peer_deviance_7_beb683",
+                "isVis": "tlfb_list_yes_no  ===1",
+                "valueRequired": true,
+                "variableName": "peer_deviance_7_beb683"
+            },
+            {
+                "isAbout": "items/peer_deviance_8_35702e",
+                "isVis": "tlfb_alc  ===1 ||  tlfb_tob  ===1 ||  tlfb_mj  ===1 ||  tlfb_mj_synth  ===1 ||  tlfb_bitta  ===1 ||  tlfb_list_yes_no  ===1",
+                "valueRequired": true,
+                "variableName": "peer_deviance_8_35702e"
+            },
+            {
+                "isAbout": "items/peer_deviance_9_6dd4ef",
+                "isVis": "tlfb_tob  ===1",
+                "valueRequired": true,
+                "variableName": "peer_deviance_9_6dd4ef"
+            },
+            {
+                "isAbout": "items/peer_deviance_1_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peer_deviance_1_l"
+            },
+            {
+                "isAbout": "items/peer_deviance_2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peer_deviance_2_l"
+            },
+            {
+                "isAbout": "items/peer_deviance_3_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peer_deviance_3_l"
+            },
+            {
+                "isAbout": "items/peer_deviance_4_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peer_deviance_4_l"
+            },
+            {
+                "isAbout": "items/peer_deviance_5_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peer_deviance_5_l"
+            },
+            {
+                "isAbout": "items/peer_deviance_6_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peer_deviance_6_l"
+            },
+            {
+                "isAbout": "items/peer_deviance_7_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peer_deviance_7_l"
+            },
+            {
+                "isAbout": "items/peer_deviance_8_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peer_deviance_8_l"
+            },
+            {
+                "isAbout": "items/peer_deviance_9_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peer_deviance_9_l"
+            },
+            {
+                "isAbout": "items/sua_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sua_admin"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

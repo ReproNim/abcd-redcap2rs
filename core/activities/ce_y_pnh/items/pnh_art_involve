@@ -1,0 +1,24 @@
+{
+    "id": "pnh_art_involve",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pnh_art_involve of ce_y_pnh"
+    },
+    "prefLabel": {
+        "en": "Did any of those activities \ninclude art, music, dance, or theater?"
+    },
+    "question": {
+        "en": "Did any of those activities \ninclude art, music, dance, or theater?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

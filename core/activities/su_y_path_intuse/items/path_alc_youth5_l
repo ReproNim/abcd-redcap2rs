@@ -1,0 +1,65 @@
+{
+    "id": "path_alc_youth5_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "path_alc_youth5_l of su_y_path_intuse"
+    },
+    "prefLabel": {
+        "en": "Do you think you will try alcohol soon?"
+    },
+    "question": {
+        "en": "Do you think you will try alcohol soon?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Definitely yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Probably yes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Probably not"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Definitely not"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Refused /( tlfb_alc_l  == '1' ||  tlfb_alc_c_l   == '1') && ( tlfb_alc_sip_l  == '0' &&  tlfb_alc_sip_c_l  == '0')"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

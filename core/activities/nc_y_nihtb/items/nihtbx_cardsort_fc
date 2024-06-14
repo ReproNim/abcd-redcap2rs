@@ -1,0 +1,24 @@
+{
+    "id": "nihtbx_cardsort_fc",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nihtbx_cardsort_fc of nc_y_nihtb"
+    },
+    "prefLabel": {
+        "en": "NIH Toolbox Dimensional Change Card Sort Test Ages 8-11 v2.0 Fully-Corrected T-score"
+    },
+    "question": {
+        "en": "NIH Toolbox Dimensional Change Card Sort Test Ages 8-11 v2. 0 Fully-Corrected T-score"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

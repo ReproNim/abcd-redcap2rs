@@ -1,0 +1,24 @@
+{
+    "id": "pea_wiscv_item_15_rs",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pea_wiscv_item_15_rs of nc_y_wisc"
+    },
+    "prefLabel": {
+        "en": "WISC-V Matrix Reasoning Sample Item 15 Raw Score"
+    },
+    "question": {
+        "en": "WISC-V Matrix Reasoning Sample Item 15 Raw Score"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

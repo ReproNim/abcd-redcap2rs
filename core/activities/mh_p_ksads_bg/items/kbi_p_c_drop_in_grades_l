@@ -1,0 +1,42 @@
+{
+    "id": "kbi_p_c_drop_in_grades_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "kbi_p_c_drop_in_grades_l of mh_p_ksads_bg"
+    },
+    "prefLabel": {
+        "en": "In the past year or past several months, has there been a drop in your child's grades? \u00bfLas calificaciones de su ni\u00f1o(a) han bajado en el \u00faltimo a\u00f1o o en los \u00faltimos meses?"
+    },
+    "question": {
+        "en": "In the past year or past several months, has there been a drop in your child's grades?",
+        "es": "\u00bfLas calificaciones de su ni\u00f1o(a) han bajado en el \u00faltimo a\u00f1o o en los \u00faltimos meses?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No No; -1 = Not applicable No aplica"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

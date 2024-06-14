@@ -1,0 +1,53 @@
+{
+    "id": "ple_step_fu2_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ple_step_fu2_y of mh_y_le"
+    },
+    "prefLabel": {
+        "en": "How much did the event affect you?"
+    },
+    "question": {
+        "en": "How much did the event affect you?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at All"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "A Little"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A lot"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

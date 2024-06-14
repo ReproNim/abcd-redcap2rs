@@ -1,0 +1,65 @@
+{
+    "id": "gish_f1_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gish_f1_y of gish_y_gi"
+    },
+    "prefLabel": {
+        "en": "How much do you feel like a girl?"
+    },
+    "question": {
+        "en": "How much do you feel like a girl?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Totally"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Mostly"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Somewhat"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A little"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

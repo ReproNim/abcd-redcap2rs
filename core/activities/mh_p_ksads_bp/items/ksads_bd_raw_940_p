@@ -1,0 +1,41 @@
+{
+    "id": "ksads_bd_raw_940_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_bd_raw_940_p of mh_p_ksads_bp"
+    },
+    "prefLabel": {
+        "en": "Focusing in on the time you identified when your child was feeling extra happy and/or extra cranky in April 2014, did your child also feel super confident and believe he or she could do things better than others or do things that others couldn't do?"
+    },
+    "question": {
+        "en": "Focusing in on the time you identified when your child was feeling extra happy and or extra cranky in April 2014, did your child also feel super confident and believe he or she could do things better than others or do things that others couldn't do?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

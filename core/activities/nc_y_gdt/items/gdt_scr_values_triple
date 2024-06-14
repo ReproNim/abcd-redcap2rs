@@ -1,0 +1,24 @@
+{
+    "id": "gdt_scr_values_triple",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gdt_scr_values_triple of nc_y_gdt"
+    },
+    "prefLabel": {
+        "en": "Counts how many times participant has bet on 3 specific dice face"
+    },
+    "question": {
+        "en": "Counts how many times participant has bet on 3 specific dice face"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

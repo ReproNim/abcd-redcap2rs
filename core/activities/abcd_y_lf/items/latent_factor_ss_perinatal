@@ -1,0 +1,24 @@
+{
+    "id": "latent_factor_ss_perinatal",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "latent_factor_ss_perinatal of abcd_y_lf"
+    },
+    "prefLabel": {
+        "en": "Latent factor for perinatal health"
+    },
+    "question": {
+        "en": "Latent factor for perinatal health"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

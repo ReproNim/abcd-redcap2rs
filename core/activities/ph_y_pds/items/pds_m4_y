@@ -1,0 +1,65 @@
+{
+    "id": "pds_m4_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pds_m4_y of ph_y_pds"
+    },
+    "prefLabel": {
+        "en": "Have you noticed a deepening of your voice?"
+    },
+    "question": {
+        "en": "Have you noticed a deepening of your voice?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Voice has not yet started to changing"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Voice has barely started changing"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Voice changes are definitely underway"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Voice changes seem complete"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

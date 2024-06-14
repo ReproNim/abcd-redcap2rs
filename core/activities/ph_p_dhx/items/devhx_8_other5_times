@@ -1,0 +1,25 @@
+{
+    "id": "devhx_8_other5_times",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "devhx_8_other5_times of ph_p_dhx"
+    },
+    "prefLabel": {
+        "en": "Before knowing of pregnancy. Drug 5. How many times per day? /\u00bfCuantas veces al d\u00eda?"
+    },
+    "question": {
+        "en": "Before knowing of pregnancy. Drug 5. How many times per day?",
+        "es": "\u00bfCuantas veces al d\u00eda?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

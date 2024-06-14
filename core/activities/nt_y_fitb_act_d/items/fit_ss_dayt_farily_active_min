@@ -1,0 +1,24 @@
+{
+    "id": "fit_ss_dayt_farily_active_min",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fit_ss_dayt_farily_active_min of nt_y_fitb_act_d"
+    },
+    "prefLabel": {
+        "en": "Number of minutes of  moderately active (3-5.9 METS) time observed during non-sleep (night) valid minutes"
+    },
+    "question": {
+        "en": "Number of minutes of  moderately active (3-5. 9 METS) time observed during non-sleep (night) valid minutes"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

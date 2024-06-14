@@ -1,0 +1,25 @@
+{
+    "id": "tbi_6q",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tbi_6q of ph_p_otbi"
+    },
+    "prefLabel": {
+        "en": "How many minutes was the longest knock out? \u00bfCu\u00e1ntos minutos dur\u00f3 el tiempo m\u00e1s largo que estuvo inconsciente?"
+    },
+    "question": {
+        "en": "How many minutes was the longest knock out?",
+        "es": "\u00bfCu\u00e1ntos minutos dur\u00f3 el tiempo m\u00e1s largo que estuvo inconsciente?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

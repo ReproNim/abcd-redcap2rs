@@ -1,0 +1,35 @@
+{
+    "id": "tlfb_tranq_lt_dk",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_tranq_lt_dk of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "PILLS of PRESCRIPTION TRANQUILIZERS or sedatives (used in any way a doctor did not direct you to use them, such as XANAX, ATIVAN, VALIUM, ROHYPNOL, or sleeping pills):Don't know"
+    },
+    "question": {
+        "en": "PILLS of PRESCRIPTION TRANQUILIZERS or sedatives (used in any way a doctor did not direct you to use them, such as XANAX, ATIVAN, VALIUM, ROHYPNOL, or sleeping pills):Don't know"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 999,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

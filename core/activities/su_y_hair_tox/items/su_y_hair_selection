@@ -1,0 +1,47 @@
+{
+    "id": "su_y_hair_selection",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_y_hair_selection of su_y_hair_tox"
+    },
+    "prefLabel": {
+        "en": "Reason for selection for testing"
+    },
+    "question": {
+        "en": "Reason for selection for testing"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "High Risk"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Randomly selected low risk"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Special funding"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

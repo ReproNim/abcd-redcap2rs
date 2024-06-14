@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_other_fruit_1_day",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_other_fruit_1_day of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Any other fruit, like strawberries, grapes/Cualquier otra fruta, como fresas, uvas"
+    },
+    "question": {
+        "en": "Any other fruit, like strawberries, grapes",
+        "es": "Cualquier otra fruta, como fresas, uvas"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

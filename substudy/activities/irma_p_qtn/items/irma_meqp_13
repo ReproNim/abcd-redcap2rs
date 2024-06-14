@@ -1,0 +1,60 @@
+{
+    "id": "irma_meqp_13",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "irma_meqp_13 of irma_p_qtn"
+    },
+    "prefLabel": {
+        "en": "13. Irma-related social media activity during the storm 13.Actividad de medios sociales relacionada con Irma durante la tormenta"
+    },
+    "question": {
+        "en": "13. Irma-related social media activity during the storm 13.",
+        "es": "Actividad de medios sociales relacionada con Irma durante la tormenta"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Once per day or less0 Una ves por d\u221a\u2260a on menos0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Several times per day1 Varias veses por d\u221a\u2260a1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Almost every hour2 Casi cada hora2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Several times per hour3 Varias veses por hora3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Almost continuously4 Casi continuamente4"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

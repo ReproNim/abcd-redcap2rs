@@ -1,0 +1,72 @@
+{
+    "id": "school_difficulty",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "school_difficulty of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "How easy or difficult was it for your child to complete school work remotely?  Que tan facil o dificil fue para su hijo/a completar su trabajo escolar desde casa"
+    },
+    "question": {
+        "en": "How easy or difficult was it for your child to complete school work remotely?",
+        "es": "Que tan facil o dificil fue para su hijo a completar su trabajo escolar desde casa"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No problem"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Just some minor problems"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Each day was different"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Hard"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Very hard"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Not applicable[school_close_cv] = '2' or [school_at_home_cv] = '1'"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

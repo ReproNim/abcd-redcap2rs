@@ -1,0 +1,24 @@
+{
+    "id": "ledsch_seda_c_rsflnfl",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ledsch_seda_c_rsflnfl of led_l_seda_demo_c"
+    },
+    "prefLabel": {
+        "en": "Relative Diversity index between schools: FRPL/Non FRPL (county) the relative diversity index captures free lunch-not free lunch differences in exposure to free lunch students at the average free lunch/not free lunch student's school within the unit; for more information see Reardon and Firebaugh (2002)"
+    },
+    "question": {
+        "en": "Relative Diversity index between schools: FRPL Non FRPL (county) the relative diversity index captures free lunch-not free lunch differences in exposure to free lunch students at the average free lunch not free lunch student's school within the unit; for more information see Reardon and Firebaugh (2002)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

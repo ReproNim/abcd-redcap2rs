@@ -1,0 +1,41 @@
+{
+    "id": "tox2_need",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tox2_need of su_y_sal_tox"
+    },
+    "prefLabel": {
+        "en": "Is Toxicology Test Day 2 needed for this participant?"
+    },
+    "question": {
+        "en": "Is Toxicology Test Day 2 needed for this participant?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

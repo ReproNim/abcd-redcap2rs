@@ -1,0 +1,24 @@
+{
+    "id": "fit_ss_fitbit_totalsteps",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fit_ss_fitbit_totalsteps of nt_y_fitb_act_d"
+    },
+    "prefLabel": {
+        "en": "Fitbit based number of steps for the day FROM DAILY LEVEL SUMMARY"
+    },
+    "question": {
+        "en": "Fitbit based number of steps for the day FROM DAILY LEVEL SUMMARY"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

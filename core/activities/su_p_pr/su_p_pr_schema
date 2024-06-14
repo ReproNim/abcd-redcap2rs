@@ -1,0 +1,119 @@
+{
+    "id": "su_p_pr_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Environment in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_P_Pr"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/parent_rules_q1",
+            "items/parent_rules_q1a",
+            "items/parent_rules_q2",
+            "items/parent_rules_q3",
+            "items/parent_rules_q4",
+            "items/parent_rules_q5",
+            "items/parent_rules_q6",
+            "items/parent_rules_q7",
+            "items/parent_rules_q8",
+            "items/parent_rules_q9",
+            "items/parent_rules_q_10",
+            "items/parent_rules_q_11",
+            "items/parent_rules_q_12",
+            "items/pr_select_language___1"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/parent_rules_q1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_rules_q1"
+            },
+            {
+                "isAbout": "items/parent_rules_q1a",
+                "isVis": "parent_rules_q1   === 1 ||  parent_rules_q1   === 2 ||  parent_rules_q1   === 3 ||  parent_rules_q1   === 4",
+                "valueRequired": true,
+                "variableName": "parent_rules_q1a"
+            },
+            {
+                "isAbout": "items/parent_rules_q2",
+                "isVis": "parent_rules_q1   === 1 ||  parent_rules_q1   === 2 ||  parent_rules_q1   === 3 ||  parent_rules_q1   === 4",
+                "valueRequired": true,
+                "variableName": "parent_rules_q2"
+            },
+            {
+                "isAbout": "items/parent_rules_q3",
+                "isVis": "parent_rules_q2   === 1",
+                "valueRequired": true,
+                "variableName": "parent_rules_q3"
+            },
+            {
+                "isAbout": "items/parent_rules_q4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_rules_q4"
+            },
+            {
+                "isAbout": "items/parent_rules_q5",
+                "isVis": "parent_rules_q4   === 1 ||  parent_rules_q4   === 2 ||  parent_rules_q4   === 3 ||  parent_rules_q4   === 4",
+                "valueRequired": true,
+                "variableName": "parent_rules_q5"
+            },
+            {
+                "isAbout": "items/parent_rules_q6",
+                "isVis": "parent_rules_q4   === 1 ||  parent_rules_q4   === 2 ||  parent_rules_q4   === 3 ||  parent_rules_q4   === 4",
+                "valueRequired": true,
+                "variableName": "parent_rules_q6"
+            },
+            {
+                "isAbout": "items/parent_rules_q7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_rules_q7"
+            },
+            {
+                "isAbout": "items/parent_rules_q8",
+                "isVis": "parent_rules_q7   === 1 ||  parent_rules_q7   === 2 ||  parent_rules_q7   === 3 ||  parent_rules_q7   === 4",
+                "valueRequired": true,
+                "variableName": "parent_rules_q8"
+            },
+            {
+                "isAbout": "items/parent_rules_q9",
+                "isVis": "parent_rules_q7   === 1 ||  parent_rules_q7   === 2 ||  parent_rules_q7   === 3 ||  parent_rules_q7   === 4",
+                "valueRequired": true,
+                "variableName": "parent_rules_q9"
+            },
+            {
+                "isAbout": "items/parent_rules_q_10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_rules_q_10"
+            },
+            {
+                "isAbout": "items/parent_rules_q_11",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_rules_q_11"
+            },
+            {
+                "isAbout": "items/parent_rules_q_12",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_rules_q_12"
+            },
+            {
+                "isAbout": "items/pr_select_language___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pr_select_language___1"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

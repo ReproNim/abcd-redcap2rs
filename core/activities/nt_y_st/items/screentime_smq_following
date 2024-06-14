@@ -1,0 +1,24 @@
+{
+    "id": "screentime_smq_following",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screentime_smq_following of nt_y_st"
+    },
+    "prefLabel": {
+        "en": "On (screentime_smq_use_most), how many people or groups are you following?"
+    },
+    "question": {
+        "en": "On (screentime_smq_use_most), how many people or groups are you following?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

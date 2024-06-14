@@ -1,0 +1,41 @@
+{
+    "id": "res_tobacco_q24_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "res_tobacco_q24_l of su_y_nic_eff"
+    },
+    "prefLabel": {
+        "en": "Were you alone the first time you experimented with smokeless tobacco such as snus or chew?"
+    },
+    "question": {
+        "en": "Were you alone the first time you experimented with smokeless tobacco such as snus or chew?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No / tlfb_chew_use_l  == '1' &&  tlfb_chew_use_c_l  == '0'"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

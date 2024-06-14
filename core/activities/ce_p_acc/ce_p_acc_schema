@@ -1,0 +1,77 @@
+{
+    "id": "ce_p_acc_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Culture in Culture & Environment"
+    },
+    "prefLabel": {
+        "en": "Ce_P_Acc"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/accult_select_language___1",
+            "items/accult_p_intro",
+            "items/accult_q1_p",
+            "items/accult_q2_p",
+            "items/accult_q3_dropdwn_p",
+            "items/accult_q4_p",
+            "items/accult_q5_p",
+            "items/accult_q3b_p"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/accult_select_language___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "accult_select_language___1"
+            },
+            {
+                "isAbout": "items/accult_p_intro",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "accult_p_intro"
+            },
+            {
+                "isAbout": "items/accult_q1_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "accult_q1_p"
+            },
+            {
+                "isAbout": "items/accult_q2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "accult_q2_p"
+            },
+            {
+                "isAbout": "items/accult_q3_dropdwn_p",
+                "isVis": "accult_q2_p   ===1",
+                "valueRequired": true,
+                "variableName": "accult_q3_dropdwn_p"
+            },
+            {
+                "isAbout": "items/accult_q4_p",
+                "isVis": "accult_q2_p   === 1",
+                "valueRequired": true,
+                "variableName": "accult_q4_p"
+            },
+            {
+                "isAbout": "items/accult_q5_p",
+                "isVis": "accult_q2_p   === 1",
+                "valueRequired": true,
+                "variableName": "accult_q5_p"
+            },
+            {
+                "isAbout": "items/accult_q3b_p",
+                "isVis": "accult_q2_p === 1 && event_name_number!= 11",
+                "valueRequired": true,
+                "variableName": "accult_q3b_p"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

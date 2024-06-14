@@ -1,0 +1,60 @@
+{
+    "id": "meim_2f_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "meim_2f_p of ce_p_meim"
+    },
+    "prefLabel": {
+        "en": "I have a strong sense of belonging to my own ethnic group. Tengo un fuerte sentido de pertenecer con mi propio grupo etnico."
+    },
+    "question": {
+        "en": "I have a strong sense of belonging to my own ethnic group.",
+        "es": "Tengo un fuerte sentido de pertenecer con mi propio grupo etnico."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Agree"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Agree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Neutral"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Disagree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Strongly Disagree"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

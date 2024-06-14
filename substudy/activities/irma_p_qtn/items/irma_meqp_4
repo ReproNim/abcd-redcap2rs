@@ -1,0 +1,60 @@
+{
+    "id": "irma_meqp_4",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "irma_meqp_4 of irma_p_qtn"
+    },
+    "prefLabel": {
+        "en": "4. Media coverage of Hurricane Irma after the storm 4. Cobertura medi\u221a\u00b0tica del Hurac\u221a\u00b0n Irma despu\u221a\u00a9s de la tormenta"
+    },
+    "question": {
+        "en": "4. Media coverage of Hurricane Irma after the storm 4.",
+        "es": "Cobertura medi\u221a\u00b0tica del Hurac\u221a\u00b0n Irma despu\u221a\u00a9s de la tormenta"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all (did not view news related to hurricane)0 De ningun modo (no vio noticias relacionadas con el hurac\u221a\u00b0n)0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "A little (less than 1 hour per day)1 Un poco (menos de 1 hora por dia)1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat (about an hour per day)2 Alg\u221a\u222bn tanto (alrededor de una hora por d\u221a\u2260a)2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A lot (1 to 2 hours per day)3 Mucho (1 a 2 horas por dia)3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A whole lot (more than 2 hours per day)4 Muchisimo (mas de 2 horas por dia)4"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

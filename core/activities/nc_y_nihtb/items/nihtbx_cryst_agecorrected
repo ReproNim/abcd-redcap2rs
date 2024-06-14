@@ -1,0 +1,24 @@
+{
+    "id": "nihtbx_cryst_agecorrected",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "nihtbx_cryst_agecorrected of nc_y_nihtb"
+    },
+    "prefLabel": {
+        "en": "Crystallized Composite Age-Corrected Standard Score"
+    },
+    "question": {
+        "en": "Crystallized Composite Age-Corrected Standard Score"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

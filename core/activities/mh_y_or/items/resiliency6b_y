@@ -1,0 +1,24 @@
+{
+    "id": "resiliency6b_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "resiliency6b_y of mh_y_or"
+    },
+    "prefLabel": {
+        "en": "How many CLOSE friends that are girls do you have?"
+    },
+    "question": {
+        "en": "How many CLOSE friends that are girls do you have?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

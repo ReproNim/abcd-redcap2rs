@@ -1,0 +1,102 @@
+{
+    "id": "demo_prnt_empl_v2_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_prnt_empl_v2_l of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "Are you working now, looking for work, retired, stay at home parent, a student, or something else? \u00ac\u00f8Trabaja actualmente, est\u221a\u00b0 buscando trabajo, est\u221a\u00b0 retirado, se dedica al hogar, estudia o realiza alguna otra actividad?"
+    },
+    "question": {
+        "en": "Are you working now, looking for work, retired, stay at home parent, a student, or something else?",
+        "es": "\u00ac\u00f8Trabaja actualmente, est\u221a\u00b0 buscando trabajo, est\u221a\u00b0 retirado, se dedica al hogar, estudia o realiza alguna otra actividad?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Working now: FULL TIME/PART TIME Trabajo de TIEMPO COMPLETO o MEDIO TIEMPO"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Temporarily Laid off Desempleado(a) temporalmente"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sick Leave En licencia por enfermedad"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Maternity Leave En licencia por maternidad"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Looking for work"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Unemployed not looking for work Desempleado(a)"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Retired Retirado(a)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Disabled: Permanently or Temporarily Incapacitado(a): permanente o temporalmente"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Stay at Home Parent Se dedica al hogar"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Student Estudiante"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Other (Specify): Otro (especifique):"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Refused to answer Prefiero no responder"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

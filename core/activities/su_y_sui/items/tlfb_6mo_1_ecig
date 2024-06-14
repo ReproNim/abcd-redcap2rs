@@ -1,0 +1,24 @@
+{
+    "id": "tlfb_6mo_1_ecig",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "tlfb_6mo_1_ecig of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "In the past 6 months, how much liquid did you typically smoke in your Electronic cigarettes, vape pens, or e-hookah? For example, 1 pen-style cartridge typically contains 1ml of liquid. Measure in ml; 1 pen-style cartridge=1 ml; 10ml bottles, choose \"don't know\" below if unknown"
+    },
+    "question": {
+        "en": "In the past 6 months, how much liquid did you typically smoke in your Electronic cigarettes, vape pens, or e-hookah? For example, 1 pen-style cartridge typically contains 1ml of liquid. Measure in ml; 1 pen-style cartridge=1 ml; 10ml bottles, choose \"don't know\" below if unknown"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

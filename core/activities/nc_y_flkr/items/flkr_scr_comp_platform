@@ -1,0 +1,24 @@
+{
+    "id": "flkr_scr_comp_platform",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "flkr_scr_comp_platform of nc_y_flkr"
+    },
+    "prefLabel": {
+        "en": "The platform the script was run on"
+    },
+    "question": {
+        "en": "The platform the script was run on"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

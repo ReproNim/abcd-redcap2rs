@@ -1,0 +1,35 @@
+{
+    "id": "screentime_smq_followers_dk",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screentime_smq_followers_dk of nt_y_st"
+    },
+    "prefLabel": {
+        "en": "Don't know"
+    },
+    "question": {
+        "en": "Don't know"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 999,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "medication2_dosage",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "medication2_dosage of ph_p_meds"
+    },
+    "prefLabel": {
+        "en": "Second medication dosage"
+    },
+    "question": {
+        "en": "Second medication dosage"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No medication"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Missing"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

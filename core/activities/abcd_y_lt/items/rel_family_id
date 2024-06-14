@@ -1,0 +1,24 @@
+{
+    "id": "rel_family_id",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "rel_family_id of abcd_y_lt"
+    },
+    "prefLabel": {
+        "en": "Family ID (participants belonging to the same family share a family ID). The family ID is autocalculated and will change after the addition/removal of subjects from the ABCD study. Family IDs will, therefore, differ between data releases"
+    },
+    "question": {
+        "en": "Family ID (participants belonging to the same family share a family ID). The family ID is autocalculated and will change after the addition removal of subjects from the ABCD study. Family IDs will, therefore, differ between data releases"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

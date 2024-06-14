@@ -1,0 +1,24 @@
+{
+    "id": "biospec_bl_red_blo_cell_morph",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "biospec_bl_red_blo_cell_morph of ph_y_bld"
+    },
+    "prefLabel": {
+        "en": "Red blood Cell Morph"
+    },
+    "question": {
+        "en": "Red blood Cell Morph"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

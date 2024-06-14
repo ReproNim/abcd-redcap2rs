@@ -1,0 +1,24 @@
+{
+    "id": "biospec_blood_mono_abs",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "biospec_blood_mono_abs of ph_y_bld"
+    },
+    "prefLabel": {
+        "en": "MONO ABS"
+    },
+    "question": {
+        "en": "MONO ABS"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

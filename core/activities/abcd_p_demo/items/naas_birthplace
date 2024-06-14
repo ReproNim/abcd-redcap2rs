@@ -1,0 +1,66 @@
+{
+    "id": "naas_birthplace",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "naas_birthplace of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "Where were your child's Native American parents born? \u00ac\u00f8En d\u221a\u2265nde nacieron los padres Nativo Americanos del ni\u221a\u00b1o / la ni\u221a\u00b1a?"
+    },
+    "question": {
+        "en": "Where were your child's Native American parents born? la ni\u221a\u00b1a?",
+        "es": "\u00ac\u00f8En d\u221a\u2265nde nacieron los padres Nativo Americanos del ni\u221a\u00b1o"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Reservation"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Rural area"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Urban area"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Urban or Rural area"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Urban or Rural area"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't Know No lo s\u221a\u00c9\u00ac\u00a9 // The following questions are about you or the child's family."
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

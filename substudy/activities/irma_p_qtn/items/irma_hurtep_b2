@@ -1,0 +1,54 @@
+{
+    "id": "irma_hurtep_b2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "irma_hurtep_b2 of irma_p_qtn"
+    },
+    "prefLabel": {
+        "en": "When your child evacuated your home, where did he or she go? \u00ac\u00f8Cuando tu hijo(a) evacuA de su casa, a dAnde fue?"
+    },
+    "question": {
+        "en": "When your child evacuated your home, where did he or she go?",
+        "es": "\u00ac\u00f8Cuando tu hijo(a) evacuA de su casa, a dAnde fue?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "To a friend or relative's home nearby (less than an hour away) Para la casa de un amigo o familiar cercano (a menos de una hora de distancia)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "To a shelter nearby (less than an hour away) A un refugio cercano (a menos de una hora de distancia)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "To another place in the state A otro lugar en el estado"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Left the state Sali\u221a\u2265 del estado"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

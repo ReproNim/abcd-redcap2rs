@@ -1,0 +1,24 @@
+{
+    "id": "xskipout_other",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "xskipout_other of su_y_sui"
+    },
+    "prefLabel": {
+        "en": "How many days have you had in the past 6 months where you used drugs other than Alcohol, Tobacco, or Marijuana?"
+    },
+    "question": {
+        "en": "How many days have you had in the past 6 months where you used drugs other than Alcohol, Tobacco, or Marijuana?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

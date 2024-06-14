@@ -1,0 +1,47 @@
+{
+    "id": "iep_provide_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "iep_provide_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Did the school continue to provide services?"
+    },
+    "question": {
+        "en": "Did the school continue to provide services?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know[iep_cv]='2'"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

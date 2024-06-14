@@ -1,0 +1,24 @@
+{
+    "id": "res_tobacco_total_ecig_i",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "res_tobacco_total_ecig_i of su_y_nic_eff"
+    },
+    "prefLabel": {
+        "en": "Total intensity of positive and negative effects of first ENDs and/or hookah use"
+    },
+    "question": {
+        "en": "Total intensity of positive and negative effects of first ENDs and or hookah use"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

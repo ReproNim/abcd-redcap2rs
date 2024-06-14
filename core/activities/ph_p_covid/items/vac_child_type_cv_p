@@ -1,0 +1,54 @@
+{
+    "id": "vac_child_type_cv_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "vac_child_type_cv_p of ph_p_covid"
+    },
+    "prefLabel": {
+        "en": "Which type was their first vaccine? / \u00bfQu\u00e9 tipo fue su primera vacuna?"
+    },
+    "question": {
+        "en": "Which type was their first vaccine?",
+        "es": "\u00bfQu\u00e9 tipo fue su primera vacuna?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Pfizer / Pfizer"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderna / Moderna"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Johnson & Johnson / Johnson & Johnson"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other / Otra"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

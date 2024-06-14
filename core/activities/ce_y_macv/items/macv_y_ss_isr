@@ -1,0 +1,24 @@
+{
+    "id": "macv_y_ss_isr",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "macv_y_ss_isr of ce_y_macv"
+    },
+    "prefLabel": {
+        "en": "Independence/Self Reliance: mean:indep/self reliance = 5, 10, 14, 19, 24"
+    },
+    "question": {
+        "en": "Independence Self Reliance: mean:indep self reliance = 5, 10, 14, 19, 24"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

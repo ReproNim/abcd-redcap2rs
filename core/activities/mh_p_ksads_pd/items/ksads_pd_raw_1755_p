@@ -1,0 +1,41 @@
+{
+    "id": "ksads_pd_raw_1755_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_pd_raw_1755_p of mh_p_ksads_pd"
+    },
+    "prefLabel": {
+        "en": "Before you said your child sometimes has panic attacks, where for no reason he or she suddenly feel super scared, like they are having a heart attack. When your child has panic attacks, does he or she experience any of the following?Fear of losing control"
+    },
+    "question": {
+        "en": "Before you said your child sometimes has panic attacks, where for no reason he or she suddenly feel super scared, like they are having a heart attack. When your child has panic attacks, does he or she experience any of the following? Fear of losing control"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

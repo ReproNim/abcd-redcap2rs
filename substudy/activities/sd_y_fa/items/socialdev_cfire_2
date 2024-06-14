@@ -1,0 +1,24 @@
+{
+    "id": "socialdev_cfire_2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_cfire_2 of sd_y_fa"
+    },
+    "prefLabel": {
+        "en": "How old were you the first time you carried a gun other than for hunting or for a sport such as target shooting?"
+    },
+    "question": {
+        "en": "How old were you the first time you carried a gun other than for hunting or for a sport such as target shooting?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

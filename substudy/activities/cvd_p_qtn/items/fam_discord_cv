@@ -1,0 +1,53 @@
+{
+    "id": "fam_discord_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fam_discord_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Please rate how much the coronavirus pandemic has changed your family's life in each of the following ways. Stress and discord in the family:"
+    },
+    "question": {
+        "en": "Please rate how much the coronavirus pandemic has changed your family's life in each of the following ways. Stress and discord in the family:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None: Family members are showing no or very little signs of irritation or being short-tempered with one another"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Mild: Family members occasionally irritable or short-tempered with one another, may occasionally shout at one another"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderate: Family members frequently irritable and short-tempered with one another; and/or children in the home are throwing things, knocking over furniture, or showing signs of moderate stress"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Severe: Family members are constantly irritable and short-tempered with one another, shouting frequently; children and adults in the home throwing things at one another, and/or knocking over furniture, or showing signs of severe stress"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

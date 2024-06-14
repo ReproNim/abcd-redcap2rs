@@ -1,0 +1,168 @@
+{
+    "id": "demo_prnt_ed_v2",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_prnt_ed_v2 of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "What is the highest grade or level of school you have completed or the highest degree you have received? \u00ac\u00f8Cu\u221a\u00b0l es su m\u221a\u00b0ximo nivel de estudios completados o el m\u221a\u00b0ximo t\u221a\u2260tulo que ha recibido?"
+    },
+    "question": {
+        "en": "What is the highest grade or level of school you have completed or the highest degree you have received?",
+        "es": "\u00ac\u00f8Cu\u221a\u00b0l es su m\u221a\u00b0ximo nivel de estudios completados o el m\u221a\u00b0ximo t\u221a\u2260tulo que ha recibido?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never attended/Kindergarten only Nunca asist\u221a\u00c9\u00ac\u2260/Kinder solamente"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1st grade 1.er grado"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2nd grade 2.\u221a\u00c7\u00ac\u222b grado"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3rd grade 3.er grado"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4th grade 4.\u221a\u00c7\u00ac\u222b grado"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5th grade 5.\u221a\u00c7\u00ac\u222b grado"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6th grade 6.\u221a\u00c7\u00ac\u222b grado"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7th grade 7.\u221a\u00c7\u00ac\u222b grado"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "8th grade 8.\u221a\u00c7\u00ac\u222b grado"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "9th grade 9.\u221a\u00c7\u00ac\u222b grado"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "10th grade 10.\u221a\u00c7\u00ac\u222b grado"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "11th grade 11.\u221a\u00c7\u00ac\u222b grado"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "12th grade"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "High school graduate Preparatoria terminada"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "GED or equivalent Diploma General de Equivalencia (GED) o equivalente"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Some college"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Associate degree: Occupational"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Associate degree: Academic Program T\u221a\u00c9\u00ac\u2260tulo de asociado: programa acad\u221a\u00c9\u00ac\u00a9mico"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Bachelor's degree (ex. BA"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "Master's degree (ex. MA"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "Professional School degree (ex. MD"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "Doctoral degree (ex. PhD"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "Refused to answer Prefiero no responder // The following questions are about your partner. Your \"partner\" refers to any significant figure in your life that helps you in raising your child or has helped you for more than 2 years. This person should be involved 40% or more of the daily activities your child does. For example, your partner could be your spouse. However, your partner could also be your boyfriend/girlfriend or relative."
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 0,
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "select"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

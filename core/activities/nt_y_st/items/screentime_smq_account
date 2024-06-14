@@ -1,0 +1,59 @@
+{
+    "id": "screentime_smq_account",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "screentime_smq_account of nt_y_st"
+    },
+    "prefLabel": {
+        "en": "On (screentime_smq_use_most), is your account public or private?"
+    },
+    "question": {
+        "en": "On (screentime_smq_use_most), is your account public or private?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not Applicable"
+                },
+                "value": -1
+            },
+            {
+                "name": {
+                    "en": "Public"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Private"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to Answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 999,
+        "minValue": -1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

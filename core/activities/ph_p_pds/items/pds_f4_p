@@ -1,0 +1,60 @@
+{
+    "id": "pds_f4_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "pds_f4_p of ph_p_pds"
+    },
+    "prefLabel": {
+        "en": "Have you noticed that your child's breasts have begun to grow? \u00bfHa notado que los senos de su ni\u00f1a han empezado a crecer?"
+    },
+    "question": {
+        "en": "Have you noticed that your child's breasts have begun to grow?",
+        "es": "\u00bfHa notado que los senos de su ni\u00f1a han empezado a crecer?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "have not yet started growing A\u00fan no le han empezado a crecer."
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "have barely started growing Apenas le han empezado a crecer."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "breast growth is definitely underway Definitivamente ya le est\u00e1n creciendo los senos."
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "breast growth seems complete Sus senos ya parecen haber terminado de crecer."
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't know No s\u00e9"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

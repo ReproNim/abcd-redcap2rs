@@ -1,0 +1,25 @@
+{
+    "id": "macv_p_ss_fs_nt",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "Number Total Questions"
+    },
+    "prefLabel": {
+        "en": "MACVS Family Support Subscale"
+    },
+    "question": {
+        "en": "MACVS Family Support Subscale"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

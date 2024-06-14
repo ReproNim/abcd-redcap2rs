@@ -1,0 +1,60 @@
+{
+    "id": "parental_monitor_q8_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "parental_monitor_q8_p of ce_p_pm"
+    },
+    "prefLabel": {
+        "en": "Do you know which places your child visits when he/she is out with friends at night? / \u00bfConoce cuales lugares visita su ni\u00f1o(a) cuando sale con sus amigos(as) en la noche?"
+    },
+    "question": {
+        "en": "Do you know which places your child visits when he she is out with friends at night?",
+        "es": "\u00bfConoce cuales lugares visita su ni\u00f1o(a) cuando sale con sus amigos(as) en la noche?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "We know all of them / Conocemos a todos"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "We know most of them / Conocemos a la mayor\u00eda"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "We know some of them / Conocemos a algunos"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "We know none of them / No conocemos a ningunos"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Decline to answer / Me niego a contestar"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

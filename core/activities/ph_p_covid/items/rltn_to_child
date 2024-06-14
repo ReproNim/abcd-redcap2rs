@@ -1,0 +1,72 @@
+{
+    "id": "rltn_to_child",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "rltn_to_child of ph_p_covid"
+    },
+    "prefLabel": {
+        "en": "What is your relation to the child? / \u00bfCu\u00e1l es su relaci\u00f3n con el ni\u00f1o/a?"
+    },
+    "question": {
+        "en": "What is your relation to the child? a?",
+        "es": "\u00bfCu\u00e1l es su relaci\u00f3n con el ni\u00f1o"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Biological mother / Madre biol\u00f3gica"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Biological father / Padre biol\u00f3gico"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Adoptive mother or female legal guardian/caretaker / Madre adoptiva o tutora legal/cuidadora"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Adoptive father or male legal guardian/caretaker / Padre adoptivo o tutor legal/cuidador masculino"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Step-mother / Madrastra"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Step-father / Padrastro"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other / Otro"
+                },
+                "value": 7
+            }
+        ],
+        "maxValue": 7,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

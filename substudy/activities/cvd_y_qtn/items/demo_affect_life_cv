@@ -1,0 +1,53 @@
+{
+    "id": "demo_affect_life_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_affect_life_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "Being afraid of an illness or virus has gotten in the way of enjoying my life (e.g. caused fights in my house, kept me from connecting with others, made me feel isolated or hopeless about the future, etc.)."
+    },
+    "question": {
+        "en": "Being afraid of an illness or virus has gotten in the way of enjoying my life (e. g. caused fights in my house, kept me from connecting with others, made me feel isolated or hopeless about the future, etc. )."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not true for me at all"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat true"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Mostly true"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Definitely true  [eventname] = 'covid19_cv1_arm_2' or [eventname] = 'covid19_cv3_arm_2'"
+                },
+                "value": 4
+            }
+        ],
+        "maxValue": 4,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

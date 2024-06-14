@@ -1,0 +1,42 @@
+{
+    "id": "fitpr_sedentary_health_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fitpr_sedentary_health_p of nt_p_fitb_qtn"
+    },
+    "prefLabel": {
+        "en": "In your opinion do you think the amount of sedentary behaviors your child engages in is healthy? / En su opini\u00c3\u00b3n \u00c2\u00bfcree usted que la cantidad de conductas sedentarias en las que su hijo/a participa es saludable?"
+    },
+    "question": {
+        "en": "In your opinion do you think the amount of sedentary behaviors your child engages in is healthy? a participa es saludable?",
+        "es": "En su opini\u00c3\u00b3n \u00c2\u00bfcree usted que la cantidad de conductas sedentarias en las que su hijo"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes /Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No / No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

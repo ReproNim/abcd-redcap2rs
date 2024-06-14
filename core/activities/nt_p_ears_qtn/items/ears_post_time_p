@@ -1,0 +1,42 @@
+{
+    "id": "ears_post_time_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ears_post_time_p of nt_p_ears_qtn"
+    },
+    "prefLabel": {
+        "en": "Have you increased or decreased the amount of time allowed? / \u00bfUsted ha aumentado o disminuido el tiempo permitido?"
+    },
+    "question": {
+        "en": "Have you increased or decreased the amount of time allowed?",
+        "es": "\u00bfUsted ha aumentado o disminuido el tiempo permitido?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Increased / Aumentado"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Decreased / Disminuido"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

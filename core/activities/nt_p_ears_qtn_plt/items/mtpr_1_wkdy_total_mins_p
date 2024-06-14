@@ -1,0 +1,53 @@
+{
+    "id": "mtpr_1_wkdy_total_mins_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "mtpr_1_wkdy_total_mins_p of nt_p_ears_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "Please do NOT include time spent on school related work, but do include watching TV, shows or videos, texting or chatting, playing games, or visiting social networking sites (Facebook, Twitter, Instagram).\n\nFor example, if on a typical weekday, total screen time equals 2 hours/day, you would enter 2\" for hours and \"0\" for minutes.\"\nMinutes:"
+    },
+    "question": {
+        "en": "Please do NOT include time spent on school related work, but do include watching TV, shows or videos, texting or chatting, playing games, or visiting social networking sites (Facebook, Twitter, Instagram). For example, if on a typical weekday, total screen time equals 2 hours day, you would enter 2\" for hours and \"0\" for minutes. \"\nMinutes:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "15"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "30"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "45"
+                },
+                "value": 45
+            }
+        ],
+        "maxValue": 45,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

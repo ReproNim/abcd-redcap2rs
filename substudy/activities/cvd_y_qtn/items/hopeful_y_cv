@@ -1,0 +1,59 @@
+{
+    "id": "hopeful_y_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "hopeful_y_cv of cvd_y_qtn"
+    },
+    "prefLabel": {
+        "en": "How hopeful are you that the coronavirus/COVID-19 crisis in your area will end soon?"
+    },
+    "question": {
+        "en": "How hopeful are you that the coronavirus COVID-19 crisis in your area will end soon?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Slightly"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Moderately"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Extremely  [eventname] = 'covid19_cv2_arm_2' or [eventname] = 'covid19_cv4_arm_2'"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

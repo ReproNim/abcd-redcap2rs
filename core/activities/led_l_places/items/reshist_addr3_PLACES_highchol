@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr3_PLACES_highchol",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr3_PLACES_highchol of led_l_places"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - High cholesterol among adults aged >=18 years who have been screened in the past 5 years; Prevalence; PLACES (addr3)"
+    },
+    "question": {
+        "en": "Residential history derived - High cholesterol among adults aged >=18 years who have been screened in the past 5 years; Prevalence; PLACES (addr3)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,252 @@
+{
+    "id": "nt_p_ears_qtn_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Screen Use in Novel Technologies"
+    },
+    "prefLabel": {
+        "en": "Nt_P_Ears_Qtn"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ears_p_select_language",
+            "items/ears_post_p",
+            "items/ears_post_1_p",
+            "items/ears_post_3wk_p",
+            "items/ears_post_3wk_1_p",
+            "items/ears_post_3wk_2_p",
+            "items/ears_post_3wk_restrict_p___1",
+            "items/ears_post_3wk_restrict_p___2",
+            "items/ears_post_3wk_restrict_p___3",
+            "items/ears_post_3wk_restrict_p___4",
+            "items/ears_post_3wk_restrict_p___5",
+            "items/ears_post_3wk_restrict_p___6",
+            "items/ears_post_3wk_3_p",
+            "items/ears_post_3wk_4_p",
+            "items/ears_post_fam_rules_p",
+            "items/ears_post_hours_p",
+            "items/ears_post_hours_1_p",
+            "items/ears_post_rule_change_p",
+            "items/ears_post_time_p",
+            "items/ears_post_restricted_p",
+            "items/ears_post_restricted_1_p",
+            "items/ears_post_school_p",
+            "items/ears_post_school_1_p___1",
+            "items/ears_post_school_1_p___2",
+            "items/ears_post_school_1_p___3",
+            "items/ears_post_school_1_p___4",
+            "items/ears_post_school_1_p___5",
+            "items/ears_post_days_p",
+            "items/ears_post_school_time_p",
+            "items/ears_post_app_p",
+            "items/ears_post_app_1_p",
+            "items/ears_post_over_3wk_p",
+            "items/ears_post_over_3wk_1_p"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ears_p_select_language",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_p_select_language"
+            },
+            {
+                "isAbout": "items/ears_post_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_p"
+            },
+            {
+                "isAbout": "items/ears_post_1_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_1_p"
+            },
+            {
+                "isAbout": "items/ears_post_3wk_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_3wk_p"
+            },
+            {
+                "isAbout": "items/ears_post_3wk_1_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_3wk_1_p"
+            },
+            {
+                "isAbout": "items/ears_post_3wk_2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_3wk_2_p"
+            },
+            {
+                "isAbout": "items/ears_post_3wk_restrict_p___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_3wk_restrict_p___1"
+            },
+            {
+                "isAbout": "items/ears_post_3wk_restrict_p___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_3wk_restrict_p___2"
+            },
+            {
+                "isAbout": "items/ears_post_3wk_restrict_p___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_3wk_restrict_p___3"
+            },
+            {
+                "isAbout": "items/ears_post_3wk_restrict_p___4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_3wk_restrict_p___4"
+            },
+            {
+                "isAbout": "items/ears_post_3wk_restrict_p___5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_3wk_restrict_p___5"
+            },
+            {
+                "isAbout": "items/ears_post_3wk_restrict_p___6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_3wk_restrict_p___6"
+            },
+            {
+                "isAbout": "items/ears_post_3wk_3_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_3wk_3_p"
+            },
+            {
+                "isAbout": "items/ears_post_3wk_4_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_3wk_4_p"
+            },
+            {
+                "isAbout": "items/ears_post_fam_rules_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_fam_rules_p"
+            },
+            {
+                "isAbout": "items/ears_post_hours_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_hours_p"
+            },
+            {
+                "isAbout": "items/ears_post_hours_1_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_hours_1_p"
+            },
+            {
+                "isAbout": "items/ears_post_rule_change_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_rule_change_p"
+            },
+            {
+                "isAbout": "items/ears_post_time_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_time_p"
+            },
+            {
+                "isAbout": "items/ears_post_restricted_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_restricted_p"
+            },
+            {
+                "isAbout": "items/ears_post_restricted_1_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_restricted_1_p"
+            },
+            {
+                "isAbout": "items/ears_post_school_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_school_p"
+            },
+            {
+                "isAbout": "items/ears_post_school_1_p___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_school_1_p___1"
+            },
+            {
+                "isAbout": "items/ears_post_school_1_p___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_school_1_p___2"
+            },
+            {
+                "isAbout": "items/ears_post_school_1_p___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_school_1_p___3"
+            },
+            {
+                "isAbout": "items/ears_post_school_1_p___4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_school_1_p___4"
+            },
+            {
+                "isAbout": "items/ears_post_school_1_p___5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_school_1_p___5"
+            },
+            {
+                "isAbout": "items/ears_post_days_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_days_p"
+            },
+            {
+                "isAbout": "items/ears_post_school_time_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_school_time_p"
+            },
+            {
+                "isAbout": "items/ears_post_app_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_app_p"
+            },
+            {
+                "isAbout": "items/ears_post_app_1_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_app_1_p"
+            },
+            {
+                "isAbout": "items/ears_post_over_3wk_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_over_3wk_p"
+            },
+            {
+                "isAbout": "items/ears_post_over_3wk_1_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ears_post_over_3wk_1_p"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

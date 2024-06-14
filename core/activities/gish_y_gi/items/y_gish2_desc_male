@@ -1,0 +1,71 @@
+{
+    "id": "y_gish2_desc_male",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "y_gish2_desc_male of gish_y_gi"
+    },
+    "prefLabel": {
+        "en": "How do you think others would describe you?"
+    },
+    "question": {
+        "en": "How do you think others would describe you?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very masculine"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mostly masculine"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat masculine"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Equally feminine and masculine"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Somewhat feminine"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Mostly feminine"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Very feminine"
+                },
+                "value": 7
+            }
+        ],
+        "maxValue": 7,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "ple_p_ss_total_number_nm",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ple_p_ss_total_number_nm of mh_p_le"
+    },
+    "prefLabel": {
+        "en": "Total Number of Events: Number Missing Answers"
+    },
+    "question": {
+        "en": "Total Number of Events: Number Missing Answers"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

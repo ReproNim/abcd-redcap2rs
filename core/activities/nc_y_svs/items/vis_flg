@@ -1,0 +1,41 @@
+{
+    "id": "vis_flg",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "vis_flg of nc_y_svs"
+    },
+    "prefLabel": {
+        "en": "Can the participant read the stimuli on the iPad?"
+    },
+    "question": {
+        "en": "Can the participant read the stimuli on the iPad?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "YES = proceed with testing"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "NO = stop testing"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

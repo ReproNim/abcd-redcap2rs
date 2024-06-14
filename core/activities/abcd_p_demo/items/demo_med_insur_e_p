@@ -1,0 +1,47 @@
+{
+    "id": "demo_med_insur_e_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "demo_med_insur_e_p of abcd_p_demo"
+    },
+    "prefLabel": {
+        "en": "e. TRICARE or other military health caree. TRICARE u otra asistencia m?dica militar"
+    },
+    "question": {
+        "en": "e. TRICARE or other military health caree. TRICARE u otra asistencia m? dica militar"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes Si?"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer Niego contestar"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

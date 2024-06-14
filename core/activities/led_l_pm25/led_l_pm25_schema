@@ -1,0 +1,105 @@
+{
+    "id": "led_l_pm25_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Air Pollution in Linked External Data"
+    },
+    "prefLabel": {
+        "en": "Led_L_Pm25"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/reshist_addr1_pm252016aa",
+            "items/reshist_addr2_pm252016aa",
+            "items/reshist_addr3_pm252016aa",
+            "items/reshist_addr1_pm25_2016_max",
+            "items/reshist_addr2_pm25_2016_max",
+            "items/reshist_addr3_pm25_2016_max",
+            "items/reshist_addr1_pm25_2016daysepa",
+            "items/reshist_addr2_pm25_2016daysepa",
+            "items/reshist_addr3_pm25_2016daysepa",
+            "items/reshist_addr1_pm25_2016_min",
+            "items/reshist_addr2_pm25_2016_min",
+            "items/reshist_addr3_pm25_2016_min"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/reshist_addr1_pm252016aa",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_pm252016aa"
+            },
+            {
+                "isAbout": "items/reshist_addr2_pm252016aa",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_pm252016aa"
+            },
+            {
+                "isAbout": "items/reshist_addr3_pm252016aa",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_pm252016aa"
+            },
+            {
+                "isAbout": "items/reshist_addr1_pm25_2016_max",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_pm25_2016_max"
+            },
+            {
+                "isAbout": "items/reshist_addr2_pm25_2016_max",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_pm25_2016_max"
+            },
+            {
+                "isAbout": "items/reshist_addr3_pm25_2016_max",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_pm25_2016_max"
+            },
+            {
+                "isAbout": "items/reshist_addr1_pm25_2016daysepa",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_pm25_2016daysepa"
+            },
+            {
+                "isAbout": "items/reshist_addr2_pm25_2016daysepa",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_pm25_2016daysepa"
+            },
+            {
+                "isAbout": "items/reshist_addr3_pm25_2016daysepa",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_pm25_2016daysepa"
+            },
+            {
+                "isAbout": "items/reshist_addr1_pm25_2016_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr1_pm25_2016_min"
+            },
+            {
+                "isAbout": "items/reshist_addr2_pm25_2016_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr2_pm25_2016_min"
+            },
+            {
+                "isAbout": "items/reshist_addr3_pm25_2016_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reshist_addr3_pm25_2016_min"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

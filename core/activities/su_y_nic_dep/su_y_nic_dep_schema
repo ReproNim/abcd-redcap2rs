@@ -1,0 +1,98 @@
+{
+    "id": "su_y_nic_dep_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Consequence in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Nic_Dep"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/path_nic_dep_q01_l",
+            "items/path_nic_dep_q02_l",
+            "items/path_nic_dep_q03_l",
+            "items/path_nic_dep_q04_l",
+            "items/path_nic_dep_q05_l",
+            "items/path_nic_dep_q06_l",
+            "items/path_nic_dep_q07_l",
+            "items/path_nic_dep_q08_l",
+            "items/path_nic_dep_q09_l",
+            "items/path_nic_dep_q10_l",
+            "items/su_nic_admin"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/path_nic_dep_q01_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q01_l"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q02_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q02_l"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q03_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q03_l"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q04_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q04_l"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q05_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q05_l"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q06_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q06_l"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q07_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q07_l"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q08_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q08_l"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q09_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q09_l"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q10_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q10_l"
+            },
+            {
+                "isAbout": "items/su_nic_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_nic_admin"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

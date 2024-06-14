@@ -1,0 +1,24 @@
+{
+    "id": "ksads_4_247_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads_4_247_t of mh_y_ksads_ss"
+    },
+    "prefLabel": {
+        "en": "Symptom - Impairment in functioning due to delusions, Present"
+    },
+    "question": {
+        "en": "Symptom - Impairment in functioning due to delusions, Present"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

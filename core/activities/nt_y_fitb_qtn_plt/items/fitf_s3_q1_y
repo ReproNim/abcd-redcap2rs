@@ -1,0 +1,59 @@
+{
+    "id": "fitf_s3_q1_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "fitf_s3_q1_y of nt_y_fitb_qtn_plt"
+    },
+    "prefLabel": {
+        "en": "In your opinion, compared to other boys/girls your age, how much sleep do you get?"
+    },
+    "question": {
+        "en": "In your opinion, compared to other boys girls your age, how much sleep do you get?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Much less"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A little less"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "About the same"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A little more"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Much more"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

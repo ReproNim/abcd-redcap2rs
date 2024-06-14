@@ -1,0 +1,71 @@
+{
+    "id": "future_scan_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "future_scan_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Once local restrictions are lifted  how likely are you to return to your ABCD on-site location with your child(ren) for an MRI scan  given that necessary precautions outlined by the CDC are in place (personal protective equipment; social distancing guidelines)?"
+    },
+    "question": {
+        "en": "Once local restrictions are lifted  how likely are you to return to your ABCD on-site location with your child(ren) for an MRI scan  given that necessary precautions outlined by the CDC are in place (personal protective equipment; social distancing guidelines)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Definitely"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very Likely"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat Likely"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Somewhat"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Very Unlikely"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Definitely will not"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Don't know[event_name] = 'covid19_cv2_arm_2'"
+                },
+                "value": 999
+            }
+        ],
+        "maxValue": 999,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

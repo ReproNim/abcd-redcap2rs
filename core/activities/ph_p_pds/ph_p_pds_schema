@@ -1,0 +1,231 @@
+{
+    "id": "ph_p_pds_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Puberty in Physical Health"
+    },
+    "prefLabel": {
+        "en": "Ph_P_Pds"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pds_select_language___1",
+            "items/pubertal_sex_p",
+            "items/pds_1_p",
+            "items/pds_2_p",
+            "items/pds_3_p",
+            "items/pds_m5_p",
+            "items/pds_m4_p",
+            "items/pds_f4_p",
+            "items/pds_f5b_p",
+            "items/pds_f6_p",
+            "items/pds_f6_p_dk",
+            "items/menstrualcycle1_p",
+            "items/menstrualcycle2_p",
+            "items/menstrualcycle2_p_dk",
+            "items/menstrualcycle3_p",
+            "items/menstrualcycle4_p",
+            "items/menstrualcycle5_p",
+            "items/menstrualcycle6_p",
+            "items/pds_p_ss_male_category",
+            "items/pds_p_ss_male_cat_nm",
+            "items/pds_p_ss_male_cat_nt",
+            "items/pds_p_ss_female_category",
+            "items/pds_p_ss_female_cat_nm",
+            "items/pds_p_ss_female_cat_nt",
+            "items/pds_p_ss_female_cat_2_nm",
+            "items/pds_p_ss_female_cat_2_nt",
+            "items/pds_p_ss_female_category_2",
+            "items/pds_p_ss_male_category_2",
+            "items/pds_p_ss_male_cat_2_nm",
+            "items/pds_p_ss_male_cat_2_nt"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pds_select_language___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pds_select_language___1"
+            },
+            {
+                "isAbout": "items/pubertal_sex_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pubertal_sex_p"
+            },
+            {
+                "isAbout": "items/pds_1_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pds_1_p"
+            },
+            {
+                "isAbout": "items/pds_2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pds_2_p"
+            },
+            {
+                "isAbout": "items/pds_3_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pds_3_p"
+            },
+            {
+                "isAbout": "items/pds_m5_p",
+                "isVis": "pubertal_sex_p   === 1",
+                "valueRequired": true,
+                "variableName": "pds_m5_p"
+            },
+            {
+                "isAbout": "items/pds_m4_p",
+                "isVis": "pubertal_sex_p   === 1",
+                "valueRequired": true,
+                "variableName": "pds_m4_p"
+            },
+            {
+                "isAbout": "items/pds_f4_p",
+                "isVis": "pubertal_sex_p   === 2",
+                "valueRequired": true,
+                "variableName": "pds_f4_p"
+            },
+            {
+                "isAbout": "items/pds_f5b_p",
+                "isVis": "pubertal_sex_p   === 2",
+                "valueRequired": true,
+                "variableName": "pds_f5b_p"
+            },
+            {
+                "isAbout": "items/pds_f6_p",
+                "isVis": "pds_f5b_p   === 4 &&  isNull(pds_f6_p_dk)",
+                "valueRequired": true,
+                "variableName": "pds_f6_p"
+            },
+            {
+                "isAbout": "items/pds_f6_p_dk",
+                "isVis": "pds_f5b_p   === 4 &&  isNull(pds_f6_p)",
+                "valueRequired": true,
+                "variableName": "pds_f6_p_dk"
+            },
+            {
+                "isAbout": "items/menstrualcycle1_p",
+                "isVis": "pds_f5b_p   === 4",
+                "valueRequired": true,
+                "variableName": "menstrualcycle1_p"
+            },
+            {
+                "isAbout": "items/menstrualcycle2_p",
+                "isVis": "pds_f5b_p   === 4 &&  isNull(menstrualcycle2_p_dk)",
+                "valueRequired": true,
+                "variableName": "menstrualcycle2_p"
+            },
+            {
+                "isAbout": "items/menstrualcycle2_p_dk",
+                "isVis": "pds_f5b_p   === 4 &&  isNull(menstrualcycle2_p)",
+                "valueRequired": true,
+                "variableName": "menstrualcycle2_p_dk"
+            },
+            {
+                "isAbout": "items/menstrualcycle3_p",
+                "isVis": "pds_f5b_p   === 4",
+                "valueRequired": true,
+                "variableName": "menstrualcycle3_p"
+            },
+            {
+                "isAbout": "items/menstrualcycle4_p",
+                "isVis": "pds_f5b_p   === 4",
+                "valueRequired": true,
+                "variableName": "menstrualcycle4_p"
+            },
+            {
+                "isAbout": "items/menstrualcycle5_p",
+                "isVis": "pds_f5b_p   === 4",
+                "valueRequired": true,
+                "variableName": "menstrualcycle5_p"
+            },
+            {
+                "isAbout": "items/menstrualcycle6_p",
+                "isVis": "pds_f5b_p   === 4",
+                "valueRequired": true,
+                "variableName": "menstrualcycle6_p"
+            },
+            {
+                "isAbout": "items/pds_p_ss_male_category",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pds_p_ss_male_category"
+            },
+            {
+                "isAbout": "items/pds_p_ss_male_cat_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pds_p_ss_male_cat_nm"
+            },
+            {
+                "isAbout": "items/pds_p_ss_male_cat_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pds_p_ss_male_cat_nt"
+            },
+            {
+                "isAbout": "items/pds_p_ss_female_category",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pds_p_ss_female_category"
+            },
+            {
+                "isAbout": "items/pds_p_ss_female_cat_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pds_p_ss_female_cat_nm"
+            },
+            {
+                "isAbout": "items/pds_p_ss_female_cat_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pds_p_ss_female_cat_nt"
+            },
+            {
+                "isAbout": "items/pds_p_ss_female_cat_2_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pds_p_ss_female_cat_2_nm"
+            },
+            {
+                "isAbout": "items/pds_p_ss_female_cat_2_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pds_p_ss_female_cat_2_nt"
+            },
+            {
+                "isAbout": "items/pds_p_ss_female_category_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pds_p_ss_female_category_2"
+            },
+            {
+                "isAbout": "items/pds_p_ss_male_category_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pds_p_ss_male_category_2"
+            },
+            {
+                "isAbout": "items/pds_p_ss_male_cat_2_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pds_p_ss_male_cat_2_nm"
+            },
+            {
+                "isAbout": "items/pds_p_ss_male_cat_2_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pds_p_ss_male_cat_2_nt"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

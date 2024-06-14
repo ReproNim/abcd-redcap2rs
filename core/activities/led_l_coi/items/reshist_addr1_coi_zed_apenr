@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr1_coi_zed_apenr",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr1_coi_zed_apenr of led_l_coi"
+    },
+    "prefLabel": {
+        "en": "Educational Domain Advanced Placement course enrollment: Ratio of students enrolled in at least one AP course to the number of 11th and 12th graders, transformed to z-scores."
+    },
+    "question": {
+        "en": "Educational Domain Advanced Placement course enrollment: Ratio of students enrolled in at least one AP course to the number of 11th and 12th graders, transformed to z-scores."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

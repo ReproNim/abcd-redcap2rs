@@ -1,0 +1,41 @@
+{
+    "id": "gdt_scr_parameters_gdtversion",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "gdt_scr_parameters_gdtversion of nc_y_gdt"
+    },
+    "prefLabel": {
+        "en": "Task version"
+    },
+    "question": {
+        "en": "Task version"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "original version with feedback (default)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "version without feedback"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

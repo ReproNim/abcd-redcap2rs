@@ -1,0 +1,41 @@
+{
+    "id": "socialdev_pvict_sc1_f_12",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "socialdev_pvict_sc1_f_12 of sd_p_vict"
+    },
+    "prefLabel": {
+        "en": "Any time kids tried to hurt your child by hitting or kicking his/her private parts"
+    },
+    "question": {
+        "en": "Any time kids tried to hurt your child by hitting or kicking his her private parts"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

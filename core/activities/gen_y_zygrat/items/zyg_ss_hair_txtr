@@ -1,0 +1,65 @@
+{
+    "id": "zyg_ss_hair_txtr",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "zyg_ss_hair_txtr of gen_y_zygrat"
+    },
+    "prefLabel": {
+        "en": "Hair texture"
+    },
+    "question": {
+        "en": "Hair texture"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0 Not Observed"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1 Very similar"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5 Not at All Similar"
+                },
+                "value": 5
+            }
+        ],
+        "maxValue": 5,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

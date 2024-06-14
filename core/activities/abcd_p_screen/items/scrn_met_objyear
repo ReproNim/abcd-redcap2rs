@@ -1,0 +1,24 @@
+{
+    "id": "scrn_met_objyear",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_met_objyear of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "What year was it put in? /\u00ac\u00f8En qu\u221a\u00a9 a\u221a\u00b1o se le coloc\u221a\u2265?"
+    },
+    "question": {
+        "en": "What year was it put in? \u00ac\u00f8En qu\u221a\u00a9 a\u221a\u00b1o se le coloc\u221a\u2265?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

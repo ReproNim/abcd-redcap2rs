@@ -1,0 +1,24 @@
+{
+    "id": "biospec_blood_col_date",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "biospec_blood_col_date of ph_y_bld"
+    },
+    "prefLabel": {
+        "en": "Blood Sample Collection Date"
+    },
+    "question": {
+        "en": "Blood Sample Collection Date"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "date"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

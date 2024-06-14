@@ -1,0 +1,41 @@
+{
+    "id": "school_engage_cv___4",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "school_engage_cv___4 of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "How is your child engaging in their school's curriculum (check all that apply)  : 4 Video-instruction by teachers"
+    },
+    "question": {
+        "en": "How is your child engaging in their school's curriculum (check all that apply)  : 4 Video-instruction by teachers"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No[homework_time_cv] more than 0"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

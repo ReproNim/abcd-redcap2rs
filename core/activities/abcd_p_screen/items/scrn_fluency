@@ -1,0 +1,42 @@
+{
+    "id": "scrn_fluency",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_fluency of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Has your child been taking some classes in English for at least 1 year? / \u00ac\u00f8Su ni\u221a\u00b1o(a) ha estado tomando algunas clases en ingl\u221a\u00a9s durante al menos 1\u00ac\u2020a\u221a\u00b1o?"
+    },
+    "question": {
+        "en": "Has your child been taking some classes in English for at least 1 year?",
+        "es": "\u00ac\u00f8Su ni\u221a\u00b1o(a) ha estado tomando algunas clases en ingl\u221a\u00a9s durante al menos 1\u00ac\u2020a\u221a\u00b1o?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No - GO TO END"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

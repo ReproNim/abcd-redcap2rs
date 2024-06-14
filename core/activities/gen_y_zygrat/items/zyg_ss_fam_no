@@ -1,0 +1,24 @@
+{
+    "id": "zyg_ss_fam_no",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "zyg_ss_fam_no of gen_y_zygrat"
+    },
+    "prefLabel": {
+        "en": "Fam. No."
+    },
+    "question": {
+        "en": "Fam. No."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

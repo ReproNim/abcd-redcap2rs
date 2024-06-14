@@ -1,0 +1,24 @@
+{
+    "id": "sit_scr_script_lastupdate",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "sit_scr_script_lastupdate of nc_y_sit"
+    },
+    "prefLabel": {
+        "en": "Date of last update"
+    },
+    "question": {
+        "en": "Date of last update"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

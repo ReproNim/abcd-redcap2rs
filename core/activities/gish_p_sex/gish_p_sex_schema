@@ -1,0 +1,70 @@
+{
+    "id": "gish_p_sex_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Sexuality in Gender Identity & Sexual Health"
+    },
+    "prefLabel": {
+        "en": "Gish_P_Sex"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/p_gish2_abstinences",
+            "items/p_gish2_safe_practices",
+            "items/p_gish2_convo",
+            "items/kbi_p_c_gay",
+            "items/kbi_p_c_gay_problems",
+            "items/kbi_p_c_gay_l",
+            "items/kbi_p_c_gay_problems_l"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/p_gish2_abstinences",
+                "isVis": "event_num >= 4",
+                "valueRequired": true,
+                "variableName": "p_gish2_abstinences"
+            },
+            {
+                "isAbout": "items/p_gish2_safe_practices",
+                "isVis": "event_num >= 4",
+                "valueRequired": true,
+                "variableName": "p_gish2_safe_practices"
+            },
+            {
+                "isAbout": "items/p_gish2_convo",
+                "isVis": "event_num >= 4",
+                "valueRequired": true,
+                "variableName": "p_gish2_convo"
+            },
+            {
+                "isAbout": "items/kbi_p_c_gay",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_gay"
+            },
+            {
+                "isAbout": "items/kbi_p_c_gay_problems",
+                "isVis": "kbi_p_c_gay   === 1 ||  kbi_p_c_gay   === 2",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_gay_problems"
+            },
+            {
+                "isAbout": "items/kbi_p_c_gay_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_gay_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_gay_problems_l",
+                "isVis": "kbi_p_c_gay_l   === '1' ||  kbi_p_c_gay_l   === '2'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_gay_problems_l"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

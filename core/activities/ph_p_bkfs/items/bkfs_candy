@@ -1,0 +1,25 @@
+{
+    "id": "bkfs_candy",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "bkfs_candy of ph_p_bkfs"
+    },
+    "prefLabel": {
+        "en": "Candy, candy bars/Dulces o golosinas"
+    },
+    "question": {
+        "en": "Candy, candy bars",
+        "es": "Dulces o golosinas"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

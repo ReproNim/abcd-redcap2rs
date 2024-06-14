@@ -1,0 +1,91 @@
+{
+    "id": "su_y_vap_exp_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Attitude in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Vap_Exp"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/su_vape_expect_01",
+            "items/su_vape_expect_02",
+            "items/su_vape_expect_03",
+            "items/su_vape_expect_04",
+            "items/su_vape_expect_05",
+            "items/su_vape_expect_06",
+            "items/su_vape_expect_07",
+            "items/su_vape_expect_08",
+            "items/su_vape_expect_09",
+            "items/su_mj_admin"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/su_vape_expect_01",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vape_expect_01"
+            },
+            {
+                "isAbout": "items/su_vape_expect_02",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vape_expect_02"
+            },
+            {
+                "isAbout": "items/su_vape_expect_03",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vape_expect_03"
+            },
+            {
+                "isAbout": "items/su_vape_expect_04",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vape_expect_04"
+            },
+            {
+                "isAbout": "items/su_vape_expect_05",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vape_expect_05"
+            },
+            {
+                "isAbout": "items/su_vape_expect_06",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vape_expect_06"
+            },
+            {
+                "isAbout": "items/su_vape_expect_07",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vape_expect_07"
+            },
+            {
+                "isAbout": "items/su_vape_expect_08",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vape_expect_08"
+            },
+            {
+                "isAbout": "items/su_vape_expect_09",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_vape_expect_09"
+            },
+            {
+                "isAbout": "items/su_mj_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_mj_admin"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

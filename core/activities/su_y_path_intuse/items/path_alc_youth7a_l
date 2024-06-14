@@ -1,0 +1,65 @@
+{
+    "id": "path_alc_youth7a_l",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "path_alc_youth7a_l of su_y_path_intuse"
+    },
+    "prefLabel": {
+        "en": "If one of your best friends were to offer you a cigarette"
+    },
+    "question": {
+        "en": "If one of your best friends were to offer you a cigarette"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Definitely yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Probably yes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Probably not"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Definitely not"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Refused  ([tlfb_tob_puff_l] !='1' and [tlfb_chew_use_l] !='1' and [tlfb_tob_puff_c_l] !='1' and [tlfb_chew_use_c_l] !='1') and  ([event-name] ='3_year_follow_up_y_arm_1' or [event-name] ='4_year_follow_up_y_arm_1')"
+                },
+                "value": 6
+            }
+        ],
+        "maxValue": 6,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

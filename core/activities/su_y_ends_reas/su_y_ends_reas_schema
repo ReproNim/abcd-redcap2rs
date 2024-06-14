@@ -1,0 +1,196 @@
+{
+    "id": "su_y_ends_reas_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about SU Attitude in Substance Use"
+    },
+    "prefLabel": {
+        "en": "Su_Y_Ends_Reas"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/su_ends_reasons___1",
+            "items/su_ends_reasons___2",
+            "items/su_ends_reasons___3",
+            "items/su_ends_reasons___4",
+            "items/su_ends_reasons___5",
+            "items/su_ends_reasons___6",
+            "items/su_ends_reasons___7",
+            "items/su_ends_reasons___8",
+            "items/su_ends_reasons___9",
+            "items/su_ends_reasons___10",
+            "items/su_ends_reasons___11",
+            "items/su_ends_reasons___12",
+            "items/su_ends_reasons___13",
+            "items/su_ends_reasons___14",
+            "items/su_ends_reasons___15",
+            "items/su_ends_reasons___16",
+            "items/su_ends_reasons___17",
+            "items/su_ends_reasons___18",
+            "items/su_ends_reasons___19",
+            "items/su_ends_reasons___20",
+            "items/su_ends_reasons___21",
+            "items/su_ends_reasons___22",
+            "items/su_ends_reasons___23",
+            "items/su_ends_reasons___24",
+            "items/su_nic_admin"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/su_ends_reasons___1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___1"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___2"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___3"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___4"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___5"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___6"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___7"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___8"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___9"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___10"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___11",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___11"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___12",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___12"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___13",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___13"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___14",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___14"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___15",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___15"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___16",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___16"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___17",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___17"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___18",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___18"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___19",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___19"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___20",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___20"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___21",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___21"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___22",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___22"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___23",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___23"
+            },
+            {
+                "isAbout": "items/su_ends_reasons___24",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_ends_reasons___24"
+            },
+            {
+                "isAbout": "items/su_nic_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_nic_admin"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

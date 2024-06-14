@@ -1,0 +1,357 @@
+{
+    "id": "gish_y_sex_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Sexuality in Gender Identity & Sexual Health"
+    },
+    "prefLabel": {
+        "en": "Gish_Y_Sex"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/gish2_had_bf_gf",
+            "items/gish2_want_bf_gf",
+            "items/gish2_nr_kiss",
+            "items/gish2_nr_hands",
+            "items/gish2_nr_self_hands",
+            "items/gish2_cf_have_bf_gf",
+            "items/gish2_cf_kiss",
+            "items/gish2_cf_hands",
+            "items/gish2_cf_self_hands",
+            "items/gish2_f_had_bf_gf",
+            "items/gish2_f_kiss",
+            "items/gish2_f_hands",
+            "items/gish2_f_self_hands",
+            "items/gish2_device",
+            "items/gish2_sexual_attract",
+            "items/gish2_girls",
+            "items/gish2_boys",
+            "items/gish2_nonbinary_1",
+            "items/gish2_nr_kiss_type_rd",
+            "items/gish2_nr_kiss_type___3",
+            "items/gish2_nr_kiss_type___4",
+            "items/gish2_nr_kiss_type___5",
+            "items/gish2_nr_kiss_type___777",
+            "items/gish2_ever_type_rd",
+            "items/gish2_ever_type___3",
+            "items/gish2_ever_type___4",
+            "items/gish2_ever_type___5",
+            "items/gish2_ever_type___777",
+            "items/gish2_currently_have",
+            "items/gish2_how_old",
+            "items/gish2_spend_time",
+            "items/gish2_use_alc",
+            "items/gish2_use_tob",
+            "items/gish2_use_mj",
+            "items/gish2_use_other",
+            "items/gish2_want_type_rd",
+            "items/gish2_want_type___3",
+            "items/gish2_want_type___4",
+            "items/gish2_want_type___5",
+            "items/gish2_want_type___777",
+            "items/gish2_abstinences",
+            "items/gish2_safe_practices",
+            "items/gish2_convo",
+            "items/kbi_y_sex_orient",
+            "items/kbi_desc_self",
+            "items/kbi_desc_self_2",
+            "items/kbi_desc_self_3",
+            "items/kbi_y_sex_orient_probs"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/gish2_had_bf_gf",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_had_bf_gf"
+            },
+            {
+                "isAbout": "items/gish2_want_bf_gf",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_want_bf_gf"
+            },
+            {
+                "isAbout": "items/gish2_nr_kiss",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_nr_kiss"
+            },
+            {
+                "isAbout": "items/gish2_nr_hands",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_nr_hands"
+            },
+            {
+                "isAbout": "items/gish2_nr_self_hands",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_nr_self_hands"
+            },
+            {
+                "isAbout": "items/gish2_cf_have_bf_gf",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_cf_have_bf_gf"
+            },
+            {
+                "isAbout": "items/gish2_cf_kiss",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_cf_kiss"
+            },
+            {
+                "isAbout": "items/gish2_cf_hands",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_cf_hands"
+            },
+            {
+                "isAbout": "items/gish2_cf_self_hands",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_cf_self_hands"
+            },
+            {
+                "isAbout": "items/gish2_f_had_bf_gf",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_f_had_bf_gf"
+            },
+            {
+                "isAbout": "items/gish2_f_kiss",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_f_kiss"
+            },
+            {
+                "isAbout": "items/gish2_f_hands",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_f_hands"
+            },
+            {
+                "isAbout": "items/gish2_f_self_hands",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_f_self_hands"
+            },
+            {
+                "isAbout": "items/gish2_device",
+                "isVis": "gish2_remote(2) = ''1'' or gish2_remote(3) = ''1''",
+                "valueRequired": true,
+                "variableName": "gish2_device"
+            },
+            {
+                "isAbout": "items/gish2_sexual_attract",
+                "isVis": "event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_sexual_attract"
+            },
+            {
+                "isAbout": "items/gish2_girls",
+                "isVis": "event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_girls"
+            },
+            {
+                "isAbout": "items/gish2_boys",
+                "isVis": "event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_boys"
+            },
+            {
+                "isAbout": "items/gish2_nonbinary_1",
+                "isVis": "event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_nonbinary_1"
+            },
+            {
+                "isAbout": "items/gish2_nr_kiss_type_rd",
+                "isVis": "gish2_nr_kiss = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_nr_kiss_type_rd"
+            },
+            {
+                "isAbout": "items/gish2_nr_kiss_type___3",
+                "isVis": "gish2_nr_kiss = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_nr_kiss_type___3"
+            },
+            {
+                "isAbout": "items/gish2_nr_kiss_type___4",
+                "isVis": "gish2_nr_kiss = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_nr_kiss_type___4"
+            },
+            {
+                "isAbout": "items/gish2_nr_kiss_type___5",
+                "isVis": "gish2_nr_kiss = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_nr_kiss_type___5"
+            },
+            {
+                "isAbout": "items/gish2_nr_kiss_type___777",
+                "isVis": "gish2_nr_kiss = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_nr_kiss_type___777"
+            },
+            {
+                "isAbout": "items/gish2_ever_type_rd",
+                "isVis": "gish2_had_bf_gf = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_ever_type_rd"
+            },
+            {
+                "isAbout": "items/gish2_ever_type___3",
+                "isVis": "gish2_had_bf_gf = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_ever_type___3"
+            },
+            {
+                "isAbout": "items/gish2_ever_type___4",
+                "isVis": "gish2_had_bf_gf = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_ever_type___4"
+            },
+            {
+                "isAbout": "items/gish2_ever_type___5",
+                "isVis": "gish2_had_bf_gf = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_ever_type___5"
+            },
+            {
+                "isAbout": "items/gish2_ever_type___777",
+                "isVis": "gish2_had_bf_gf = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_ever_type___777"
+            },
+            {
+                "isAbout": "items/gish2_currently_have",
+                "isVis": "gish2_had_bf_gf = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_currently_have"
+            },
+            {
+                "isAbout": "items/gish2_how_old",
+                "isVis": "gish2_currently_have = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_how_old"
+            },
+            {
+                "isAbout": "items/gish2_spend_time",
+                "isVis": "gish2_currently_have = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_spend_time"
+            },
+            {
+                "isAbout": "items/gish2_use_alc",
+                "isVis": "gish2_currently_have = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_use_alc"
+            },
+            {
+                "isAbout": "items/gish2_use_tob",
+                "isVis": "gish2_currently_have = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_use_tob"
+            },
+            {
+                "isAbout": "items/gish2_use_mj",
+                "isVis": "gish2_currently_have = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_use_mj"
+            },
+            {
+                "isAbout": "items/gish2_use_other",
+                "isVis": "gish2_currently_have = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_use_other"
+            },
+            {
+                "isAbout": "items/gish2_want_type_rd",
+                "isVis": "gish2_want_bf_gf = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_want_type_rd"
+            },
+            {
+                "isAbout": "items/gish2_want_type___3",
+                "isVis": "gish2_want_bf_gf = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_want_type___3"
+            },
+            {
+                "isAbout": "items/gish2_want_type___4",
+                "isVis": "gish2_want_bf_gf = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_want_type___4"
+            },
+            {
+                "isAbout": "items/gish2_want_type___5",
+                "isVis": "gish2_want_bf_gf = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_want_type___5"
+            },
+            {
+                "isAbout": "items/gish2_want_type___777",
+                "isVis": "gish2_want_bf_gf = '1' && event_num >= 3",
+                "valueRequired": true,
+                "variableName": "gish2_want_type___777"
+            },
+            {
+                "isAbout": "items/gish2_abstinences",
+                "isVis": "event_num >= 4",
+                "valueRequired": true,
+                "variableName": "gish2_abstinences"
+            },
+            {
+                "isAbout": "items/gish2_safe_practices",
+                "isVis": "event_num >= 4",
+                "valueRequired": true,
+                "variableName": "gish2_safe_practices"
+            },
+            {
+                "isAbout": "items/gish2_convo",
+                "isVis": "event_num >= 4",
+                "valueRequired": true,
+                "variableName": "gish2_convo"
+            },
+            {
+                "isAbout": "items/kbi_y_sex_orient",
+                "isVis": "event_num < 6",
+                "valueRequired": true,
+                "variableName": "kbi_y_sex_orient"
+            },
+            {
+                "isAbout": "items/kbi_desc_self",
+                "isVis": "kbi_y_sex_orient = '3' && event_num >= 4",
+                "valueRequired": true,
+                "variableName": "kbi_desc_self"
+            },
+            {
+                "isAbout": "items/kbi_desc_self_2",
+                "isVis": "kbi_y_sex_orient = '1' && event_num >= 4",
+                "valueRequired": true,
+                "variableName": "kbi_desc_self_2"
+            },
+            {
+                "isAbout": "items/kbi_desc_self_3",
+                "isVis": "kbi_y_sex_orient = '2' && event_num >= 4",
+                "valueRequired": true,
+                "variableName": "kbi_desc_self_3"
+            },
+            {
+                "isAbout": "items/kbi_y_sex_orient_probs",
+                "isVis": "kbi_y_sex_orient = '1' or kbi_y_sex_orient = '2'",
+                "valueRequired": true,
+                "variableName": "kbi_y_sex_orient_probs"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

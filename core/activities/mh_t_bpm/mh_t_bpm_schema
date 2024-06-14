@@ -1,0 +1,385 @@
+{
+    "id": "mh_t_bpm_schema",
+    "category": "reproschema:Activity",
+    "compute": [],
+    "description": {
+        "en": "This activity is about Broad Psychopathology in Mental Health"
+    },
+    "prefLabel": {
+        "en": "Mh_T_Bpm"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/bpmt_q1",
+            "items/bpmt_q2",
+            "items/bpmt_q3",
+            "items/bpmt_q4",
+            "items/bpmt_q5",
+            "items/bpmt_q6",
+            "items/bpmt_q7",
+            "items/bpmt_q8",
+            "items/bpmt_q9",
+            "items/bpmt_q10",
+            "items/bpmt_q11",
+            "items/bpmt_q12",
+            "items/bpmt_q13",
+            "items/bpmt_q14",
+            "items/bpmt_q15",
+            "items/bpmt_q16",
+            "items/bpmt_q17",
+            "items/bpmt_q18",
+            "items/bpmt_dte_last",
+            "items/bpmt_dte_sent1",
+            "items/bpmt_dte_sent2",
+            "items/bpmt_dte_sent3",
+            "items/bpmt_sent_count",
+            "items/bpmt_status",
+            "items/bpm_t_scr_attention_r",
+            "items/bpm_t_scr_attention_t",
+            "items/bpm_t_scr_attention_nm",
+            "items/bpm_t_scr_attention_nt",
+            "items/bpm_t_ss_attention_mean",
+            "items/bpm_t_ss_attention_nm",
+            "items/bpm_t_ss_attention_nt",
+            "items/bpm_t_scr_internal_r",
+            "items/bpm_t_scr_internal_t",
+            "items/bpm_t_scr_internal_nm",
+            "items/bpm_t_scr_internal_nt",
+            "items/bpm_t_ss_internal_mean",
+            "items/bpm_t_ss_internal_nm",
+            "items/bpm_t_ss_internal_nt",
+            "items/bpm_t_scr_external_r",
+            "items/bpm_t_scr_external_t",
+            "items/bpm_t_scr_external_nm",
+            "items/bpm_t_scr_external_nt",
+            "items/bpm_t_ss_external_mean",
+            "items/bpm_t_ss_external_nm",
+            "items/bpm_t_ss_external_nt",
+            "items/bpm_t_scr_totalprob_r",
+            "items/bpm_t_scr_totalprob_t",
+            "items/bpm_t_scr_totalprob_nm",
+            "items/bpm_t_scr_totalprob_nt",
+            "items/bpm_t_ss_totalprob_mean",
+            "items/bpm_t_ss_totalprob_nm",
+            "items/bpm_t_ss_totalprob_nt"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/bpmt_q1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_q1"
+            },
+            {
+                "isAbout": "items/bpmt_q2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_q2"
+            },
+            {
+                "isAbout": "items/bpmt_q3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_q3"
+            },
+            {
+                "isAbout": "items/bpmt_q4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_q4"
+            },
+            {
+                "isAbout": "items/bpmt_q5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_q5"
+            },
+            {
+                "isAbout": "items/bpmt_q6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_q6"
+            },
+            {
+                "isAbout": "items/bpmt_q7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_q7"
+            },
+            {
+                "isAbout": "items/bpmt_q8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_q8"
+            },
+            {
+                "isAbout": "items/bpmt_q9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_q9"
+            },
+            {
+                "isAbout": "items/bpmt_q10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_q10"
+            },
+            {
+                "isAbout": "items/bpmt_q11",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_q11"
+            },
+            {
+                "isAbout": "items/bpmt_q12",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_q12"
+            },
+            {
+                "isAbout": "items/bpmt_q13",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_q13"
+            },
+            {
+                "isAbout": "items/bpmt_q14",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_q14"
+            },
+            {
+                "isAbout": "items/bpmt_q15",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_q15"
+            },
+            {
+                "isAbout": "items/bpmt_q16",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_q16"
+            },
+            {
+                "isAbout": "items/bpmt_q17",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_q17"
+            },
+            {
+                "isAbout": "items/bpmt_q18",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_q18"
+            },
+            {
+                "isAbout": "items/bpmt_dte_last",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_dte_last"
+            },
+            {
+                "isAbout": "items/bpmt_dte_sent1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_dte_sent1"
+            },
+            {
+                "isAbout": "items/bpmt_dte_sent2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_dte_sent2"
+            },
+            {
+                "isAbout": "items/bpmt_dte_sent3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_dte_sent3"
+            },
+            {
+                "isAbout": "items/bpmt_sent_count",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_sent_count"
+            },
+            {
+                "isAbout": "items/bpmt_status",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpmt_status"
+            },
+            {
+                "isAbout": "items/bpm_t_scr_attention_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_scr_attention_r"
+            },
+            {
+                "isAbout": "items/bpm_t_scr_attention_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_scr_attention_t"
+            },
+            {
+                "isAbout": "items/bpm_t_scr_attention_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_scr_attention_nm"
+            },
+            {
+                "isAbout": "items/bpm_t_scr_attention_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_scr_attention_nt"
+            },
+            {
+                "isAbout": "items/bpm_t_ss_attention_mean",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_ss_attention_mean"
+            },
+            {
+                "isAbout": "items/bpm_t_ss_attention_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_ss_attention_nm"
+            },
+            {
+                "isAbout": "items/bpm_t_ss_attention_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_ss_attention_nt"
+            },
+            {
+                "isAbout": "items/bpm_t_scr_internal_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_scr_internal_r"
+            },
+            {
+                "isAbout": "items/bpm_t_scr_internal_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_scr_internal_t"
+            },
+            {
+                "isAbout": "items/bpm_t_scr_internal_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_scr_internal_nm"
+            },
+            {
+                "isAbout": "items/bpm_t_scr_internal_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_scr_internal_nt"
+            },
+            {
+                "isAbout": "items/bpm_t_ss_internal_mean",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_ss_internal_mean"
+            },
+            {
+                "isAbout": "items/bpm_t_ss_internal_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_ss_internal_nm"
+            },
+            {
+                "isAbout": "items/bpm_t_ss_internal_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_ss_internal_nt"
+            },
+            {
+                "isAbout": "items/bpm_t_scr_external_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_scr_external_r"
+            },
+            {
+                "isAbout": "items/bpm_t_scr_external_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_scr_external_t"
+            },
+            {
+                "isAbout": "items/bpm_t_scr_external_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_scr_external_nm"
+            },
+            {
+                "isAbout": "items/bpm_t_scr_external_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_scr_external_nt"
+            },
+            {
+                "isAbout": "items/bpm_t_ss_external_mean",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_ss_external_mean"
+            },
+            {
+                "isAbout": "items/bpm_t_ss_external_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_ss_external_nm"
+            },
+            {
+                "isAbout": "items/bpm_t_ss_external_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_ss_external_nt"
+            },
+            {
+                "isAbout": "items/bpm_t_scr_totalprob_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_scr_totalprob_r"
+            },
+            {
+                "isAbout": "items/bpm_t_scr_totalprob_t",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_scr_totalprob_t"
+            },
+            {
+                "isAbout": "items/bpm_t_scr_totalprob_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_scr_totalprob_nm"
+            },
+            {
+                "isAbout": "items/bpm_t_scr_totalprob_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_scr_totalprob_nt"
+            },
+            {
+                "isAbout": "items/bpm_t_ss_totalprob_mean",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_ss_totalprob_mean"
+            },
+            {
+                "isAbout": "items/bpm_t_ss_totalprob_nm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_ss_totalprob_nm"
+            },
+            {
+                "isAbout": "items/bpm_t_ss_totalprob_nt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bpm_t_ss_totalprob_nt"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

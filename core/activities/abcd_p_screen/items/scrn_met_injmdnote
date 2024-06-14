@@ -1,0 +1,42 @@
+{
+    "id": "scrn_met_injmdnote",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "scrn_met_injmdnote of abcd_p_screen"
+    },
+    "prefLabel": {
+        "en": "Would you be willing to give us a doctor's note confirming that? /\u00ac\u00f8Estar\u221a\u2260a dispuesto a proporcionarnos una nota de su m\u221a\u00a9dico que lo confirme?"
+    },
+    "question": {
+        "en": "Would you be willing to give us a doctor's note confirming that?",
+        "es": "\u00ac\u00f8Estar\u221a\u2260a dispuesto a proporcionarnos una nota de su m\u221a\u00a9dico que lo confirme?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No - GO TO END"
+                },
+                "value": 0
+            }
+        ],
+        "maxValue": 1,
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

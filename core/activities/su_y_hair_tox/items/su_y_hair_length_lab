@@ -1,0 +1,24 @@
+{
+    "id": "su_y_hair_length_lab",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "su_y_hair_length_lab of su_y_hair_tox"
+    },
+    "prefLabel": {
+        "en": "Length of hair tested at lab before testing (in cm)"
+    },
+    "question": {
+        "en": "Length of hair tested at lab before testing (in cm)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

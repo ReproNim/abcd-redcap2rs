@@ -1,0 +1,24 @@
+{
+    "id": "reshist_addr1_NLCD2016_devlow_c",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "reshist_addr1_NLCD2016_devlow_c of led_l_nlcd"
+    },
+    "prefLabel": {
+        "en": "Residential history derived - Percent of county classified as Developed, Low Intensity; NLCD 2016 estimates (addr1)"
+    },
+    "question": {
+        "en": "Residential history derived - Percent of county classified as Developed, Low Intensity; NLCD 2016 estimates (addr1)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

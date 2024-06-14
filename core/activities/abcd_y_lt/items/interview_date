@@ -1,0 +1,24 @@
+{
+    "id": "interview_date",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "interview_date of abcd_y_lt"
+    },
+    "prefLabel": {
+        "en": "Date on which the event was started"
+    },
+    "question": {
+        "en": "Date on which the event was started"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "date"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

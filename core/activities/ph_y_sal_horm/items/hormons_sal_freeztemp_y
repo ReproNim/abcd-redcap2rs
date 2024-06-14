@@ -1,0 +1,41 @@
+{
+    "id": "hormons_sal_freeztemp_y",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "hormons_sal_freeztemp_y of ph_y_sal_horm"
+    },
+    "prefLabel": {
+        "en": "Hormone sample storage temperature:"
+    },
+    "question": {
+        "en": "Hormone sample storage temperature:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "-20 C freezer"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "-80 C freezer | Indicate temperature of 3-month storage freezer here."
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 2,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

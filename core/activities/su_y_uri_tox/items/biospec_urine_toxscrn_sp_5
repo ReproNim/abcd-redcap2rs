@@ -1,0 +1,47 @@
+{
+    "id": "biospec_urine_toxscrn_sp_5",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "biospec_urine_toxscrn_sp_5 of su_y_uri_tox"
+    },
+    "prefLabel": {
+        "en": "Was the sample provided under observed conditions? (For example, if in a bathroom with multiple stalls, was staff person present outside the bathroom with the door open, to ensure no tampering of the sample occurred)"
+    },
+    "question": {
+        "en": "Was the sample provided under observed conditions? (For example, if in a bathroom with multiple stalls, was staff person present outside the bathroom with the door open, to ensure no tampering of the sample occurred)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Unknown"
+                },
+                "value": 3
+            }
+        ],
+        "maxValue": 3,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

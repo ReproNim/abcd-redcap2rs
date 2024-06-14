@@ -1,0 +1,47 @@
+{
+    "id": "custody_cv",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "custody_cv of cvd_p_qtn"
+    },
+    "prefLabel": {
+        "en": "Has your custody situation changed since the coronavirus/COVID-19 crisis?"
+    },
+    "question": {
+        "en": "Has your custody situation changed since the coronavirus COVID-19 crisis?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "ksads2_25_280_t",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ksads2_25_280_t of mh_y_ksads_ss"
+    },
+    "prefLabel": {
+        "en": "Symptom - Impairment in functioning due to selective mutism, Present"
+    },
+    "question": {
+        "en": "Symptom - Impairment in functioning due to selective mutism, Present"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

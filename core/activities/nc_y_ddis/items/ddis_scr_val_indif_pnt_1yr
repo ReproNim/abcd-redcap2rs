@@ -1,0 +1,24 @@
+{
+    "id": "ddis_scr_val_indif_pnt_1yr",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "ddis_scr_val_indif_pnt_1yr of nc_y_ddis"
+    },
+    "prefLabel": {
+        "en": "1 year delay \"indifference point\"; The proportion of the maximum ($100) reward that, if presented immediately, was equal in subjective value to the maximum ($100) reward if the subject had to wait one year to receive the maximum."
+    },
+    "question": {
+        "en": "1 year delay \"indifference point\"; The proportion of the maximum ($100) reward that, if presented immediately, was equal in subjective value to the maximum ($100) reward if the subject had to wait one year to receive the maximum."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

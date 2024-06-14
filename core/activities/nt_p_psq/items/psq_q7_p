@@ -1,0 +1,59 @@
+{
+    "id": "psq_q7_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "psq_q7_p of nt_p_psq"
+    },
+    "prefLabel": {
+        "en": "My child has access to a mobile screen-based device in bed"
+    },
+    "question": {
+        "en": "My child has access to a mobile screen-based device in bed"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Disagree"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat Disagree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat Agree"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Strongly Agree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Refuse to Answer"
+                },
+                "value": 777
+            }
+        ],
+        "maxValue": 777,
+        "minValue": 1,
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "radio"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}

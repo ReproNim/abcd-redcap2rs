@@ -1,0 +1,24 @@
+{
+    "id": "comc_ss_cohesion_p",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "comc_ss_cohesion_p of ce_p_comc"
+    },
+    "prefLabel": {
+        "en": "CohesIon Sum Score mean(comc_phenx_close_knIt_p, comc_phenx_help_p, comc_phenx_get_along_p, comc_phenx_share_values_p, comc_phenx_trusted_p)  999 (dont know) converted to 3 In summary score calculatIon  ValIdatIon: MInImum of 1 Item must be answered"
+    },
+    "question": {
+        "en": "CohesIon Sum Score mean(comc_phenx_close_knIt_p, comc_phenx_help_p, comc_phenx_get_along_p, comc_phenx_share_values_p, comc_phenx_trusted_p)  999 (dont know) converted to 3 In summary score calculatIon  ValIdatIon: MInImum of 1 Item must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "inputType": "text"
+    },
+    "version": "0.1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+}
